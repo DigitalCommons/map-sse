@@ -1,0 +1,300 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/essglobal/standard/activities/a01> a skos:Concept ;
+    skos:altLabel "A",
+        "Agriculture, forestry and fishing" ;
+    skos:inScheme <http://purl.org/essglobal/standard/activities/> ;
+    skos:prefLabel "Agriculture and environment"@EN,
+        "Agricultura y medio ambiente"@ES,
+        "Agriculture et environnement"@FR,
+        "Agricultura e ambiente"@PT ;
+    skos:scopeNote "Integrates the sectors of agriculture, forestry and fishing"@EN,
+        "Integra los sectores de la agricultura, la silvicultura y la pesca"@ES,
+        "Intègre les secteurs de l'agriculture, la sylviculture et la pêche"@FR,
+        "Integra os setores da agricultura, silvicultura e pesca"@PT .
+
+<http://purl.org/essglobal/standard/activities/a02> a skos:Concept ;
+    skos:altLabel "B",
+        "Mining and quarrying" ;
+    skos:inScheme <http://purl.org/essglobal/standard/activities/> ;
+    skos:prefLabel "Mining and quarrying"@EN,
+        "Mineria y canteras"@ES,
+        "Mines et carrières"@FR,
+        "Indústria extrativa"@PT ;
+    skos:scopeNote "Integra sectors of the extractive industry"@EN,
+        "Integra los sectores de la industria extractiva"@ES,
+        "Integra secteurs de l'industrie extractive"@FR,
+        "Integra os setores da Indústria extrativista"@PT .
+
+<http://purl.org/essglobal/standard/activities/a03> a skos:Concept ;
+    skos:altLabel "C",
+        "Manufacturing" ;
+    skos:inScheme <http://purl.org/essglobal/standard/activities/> ;
+    skos:prefLabel "Craftmanship and manufacturing"@EN,
+        "Producción industrial y artesanal"@ES,
+        "Artisanat et manifacturier"@FR,
+        "Artesanato e manufatura"@PT ;
+    skos:scopeNote "Integrates the manufacturing sectors"@EN,
+        "Integra los sectores manufactureros"@ES,
+        "Intègre les secteurs de la fabrication"@FR,
+        "Integra os setores de fabrico"@PT .
+
+<http://purl.org/essglobal/standard/activities/a04> a skos:Concept ;
+    skos:altLabel "D",
+        "Electricity, gas, steam and air conditioning supply" ;
+    skos:inScheme <http://purl.org/essglobal/standard/activities/> ;
+    skos:prefLabel "Energy production and distribution"@EN,
+        "Producción y distribución de energía"@ES,
+        "production et distribution de l'énergie"@FR,
+        "Produção e distribuição de energia"@PT ;
+    skos:scopeNote "Includes the sectors of electricity, gas, steam and air conditioning"@EN,
+        "Corresponde a los sectores de acondicionamiento de electricidad, gas, vapor y aire"@ES,
+        "Comprend les secteurs du conditionnement d'électricité, de gaz, de vapeur et d'air"@FR,
+        "Integra os setores de electricidade, gás, vapor e ar condicionado"@PT .
+
+<http://purl.org/essglobal/standard/activities/a05> a skos:Concept ;
+    skos:altLabel "E",
+        "Water supply; sewerage, waste management and remediation activities" ;
+    skos:inScheme <http://purl.org/essglobal/standard/activities/> ;
+    skos:prefLabel "Recycling, waste treatment, water cycle and ecological restoration"@EN,
+        "Reciclage, tratamento de basura, ciclo de agua y retauración ecologica"@ES,
+        "Recyclage, traitement des déchets, cycle de l'eau et la restauration écologique"@FR,
+        "Reciclagem, tratamento de resíduos, ciclo da água e restauração ecológica"@PT ;
+    skos:scopeNote "Includes the sectors of water supply sanitation activities, waste management and remediation"@EN,
+        "Corresponde a los sectores de las actividades de saneamiento de agua de abastecimiento, la gestión de residuos y descontaminación"@ES,
+        "Comprend les secteurs d'activités d'approvisionnement en eau assainissement, gestion des déchets et d'assainissement"@FR,
+        "Integra os setores de abastecimento de água. atividades de saneamento, gestão de resíduos, e remediação"@PT .
+
+<http://purl.org/essglobal/standard/activities/a06> a skos:Concept ;
+    skos:altLabel "Construction",
+        "F" ;
+    skos:inScheme <http://purl.org/essglobal/standard/activities/> ;
+    skos:prefLabel "Construction, public works and refurbishing"@EN,
+        "Construcción, trabajos publicos y restauración"@ES,
+        "Construction, travaux publics et remise à neuf"@FR,
+        "Construção, obras públicas e recondicionamento"@PT ;
+    skos:scopeNote "Includes the sectors of construction"@EN,
+        "Incluye los sectores de la construcción"@ES,
+        "Comprend les secteurs de la construction"@FR,
+        "Integra os setores de construção"@PT .
+
+<http://purl.org/essglobal/standard/activities/a07> a skos:Concept ;
+    skos:altLabel "G",
+        "Wholesale and retail trade; repair of motor vehicles and motorcycles" ;
+    skos:inScheme <http://purl.org/essglobal/standard/activities/> ;
+    skos:prefLabel "Trade and distribution"@EN,
+        "Distribución y comercialización"@ES,
+        "Commerce et distribution"@FR,
+        "Comércio e distribuição"@PT ;
+    skos:scopeNote "Includes the sectors of trade and retail trade, repair of motor vehicles and motorcycles"@EN,
+        "Corresponde a los sectores del comercio y el comercio al por menor, reparación de vehículos de motor y motocicletas"@ES,
+        "Comprend les secteurs du commerce et du commerce de détail, réparation de véhicules automobiles et de motocycles"@FR,
+        "Integra os setores de comércio e retalho, reparação de veículos automóveis e motociclos"@PT .
+
+<http://purl.org/essglobal/standard/activities/a08> a skos:Concept ;
+    skos:altLabel "H",
+        "Transportation and storage" ;
+    skos:inScheme <http://purl.org/essglobal/standard/activities/> ;
+    skos:prefLabel "Transport, logistics and storage"@EN,
+        "Transporte, logística y almacenamiento"@ES,
+        "Transport, logistique et entreposage"@FR,
+        "Transporte, logística e armazenagem"@PT ;
+    skos:scopeNote "Includes the sectors of transport and storage"@EN,
+        "Corresponde a los sectores de transporte y almacenamiento"@ES,
+        "Comprend les secteurs du transport et de stockage"@FR,
+        "Integra os setores de transporte e armazenamento"@PT .
+
+<http://purl.org/essglobal/standard/activities/a09> a skos:Concept ;
+    skos:altLabel "Accommodation and food service activities",
+        "I" ;
+    skos:inScheme <http://purl.org/essglobal/standard/activities/> ;
+    skos:prefLabel "Hospitality and food service activities"@EN,
+        "Restauracion y hosteleria"@ES,
+        "Restauration, hôtellerie, catering"@FR,
+        "Atividades dos serviços de hotelaria e alimentação"@PT ;
+    skos:scopeNote "Integrates the industry sectors of accommodation and food services"@EN,
+        "Integra los sectores de la industria de servicios de alojamiento y comida"@ES,
+        "Intègre les secteurs de l'industrie des services d'hébergement et de nourriture"@FR,
+        "Integra os setores de atividades dos serviços de alojamento e restauração"@PT .
+
+<http://purl.org/essglobal/standard/activities/a10> a skos:Concept ;
+    skos:altLabel "Information and communication",
+        "J" ;
+    skos:inScheme <http://purl.org/essglobal/standard/activities/> ;
+    skos:prefLabel "Information, communication and technologies"@EN,
+        "Información, comunicación y tecnologías"@ES,
+        "Information, communication et technologies"@FR,
+        "Informação, comunicação e tecnologias"@PT ;
+    skos:scopeNote "Integrates information and communication sectors"@EN,
+        "Integra los sectores de información y comunicación"@ES,
+        "Intègre secteurs de l'information et de la communication"@FR,
+        "Integra os setores de informação e comunicação"@PT .
+
+<http://purl.org/essglobal/standard/activities/a11> a skos:Concept ;
+    skos:altLabel "Financial and insurance activities",
+        "K" ;
+    skos:inScheme <http://purl.org/essglobal/standard/activities/> ;
+    skos:prefLabel "Financial, insurance and related activities"@EN,
+        "Actividades financieras, de seguros y relacionados"@ES,
+        "Finance, assurance et activités connexes"@FR,
+        "Atividades de seguros, financeira e afins"@PT ;
+    skos:scopeNote "Includes the sectors of financial and insurance activities"@EN,
+        "Incluye los sectores de actividades financieras y de seguros"@ES,
+        "Comprend les secteurs des activités financières et d'assurance"@FR,
+        "Integra os setores de atividades financeiras e de seguros"@PT .
+
+<http://purl.org/essglobal/standard/activities/a12> a skos:Concept ;
+    skos:altLabel "L",
+        "Real estate activities" ;
+    skos:inScheme <http://purl.org/essglobal/standard/activities/> ;
+    skos:prefLabel "Habitat and housing"@EN,
+        "Hábitat y la vivienda"@ES,
+        "Habitat et logement"@FR,
+        "Habitat e habitação"@PT ;
+    skos:scopeNote "Includes the sectors of real estate activities"@EN,
+        "Incluye los sectores de la actividad inmobiliaria"@ES,
+        "Comprend les secteurs d'activités immobilières"@FR,
+        "Integra os setores de atividades imobiliárias"@PT .
+
+<http://purl.org/essglobal/standard/activities/a13> a skos:Concept ;
+    skos:altLabel "M",
+        "Professional, scientific and technical activities" ;
+    skos:inScheme <http://purl.org/essglobal/standard/activities/> ;
+    skos:prefLabel "Professional, scientific and technical activities"@EN,
+        "Actividades profesionales, científicas y técnicas"@ES,
+        "Activités professionnelles, scientifiques et techniques"@FR,
+        "Atividades profissionais, científicas e técnicas"@PT ;
+    skos:scopeNote "Integrates the sectors of professional, scientific and technical"@EN,
+        "Integra los sectores de servicios profesionales, científicos y técnicos"@ES,
+        "Intègre les secteurs de services professionnels, scientifiques et techniques"@FR,
+        "Integra os setores de atividades profissionais, científicas e técnicas"@PT .
+
+<http://purl.org/essglobal/standard/activities/a14> a skos:Concept ;
+    skos:altLabel "Administrative and support service activities",
+        "N" ;
+    skos:inScheme <http://purl.org/essglobal/standard/activities/> ;
+    skos:prefLabel "Administration and management, tourism, rentals"@EN,
+        "Administración y gestión, el turismo y alquiler"@ES,
+        "Administration et mangement, tourisme et location"@FR,
+        "Administração e gestão, turismo, aluguel"@PT ;
+    skos:scopeNote "Includes the sectors of administrative and support service activities"@EN,
+        "Incluye los sectores de actividades administrativas y servicios auxiliares"@ES,
+        "Comprend les secteurs d'activités de services administratifs et de soutien"@FR,
+        "Integra os setores de administrativas e de apoio as atividades de serviços"@PT .
+
+<http://purl.org/essglobal/standard/activities/a15> a skos:Concept ;
+    skos:altLabel "O",
+        "Public administration and defence; compulsory social security" ;
+    skos:inScheme <http://purl.org/essglobal/standard/activities/> ;
+    skos:prefLabel "Public administration and social security"@EN,
+        "Administración pública y seguridad social"@ES,
+        "Administration publique et sécurité sociale"@FR,
+        "Administração pública e da segurança social"@PT ;
+    skos:scopeNote "Includes the sectors of public administration, defense and compulsory social security"@EN,
+        "Incluye los sectores de la administración pública, defensa y seguridad social obligatoria"@ES,
+        "Comprend les secteurs de l'administration publique, la défense et de sécurité sociale obligatoire"@FR,
+        "Integra os setores de administração pública, defesa e segurança social obrigatória"@PT .
+
+<http://purl.org/essglobal/standard/activities/a16> a skos:Concept ;
+    skos:altLabel "Education",
+        "P" ;
+    skos:inScheme <http://purl.org/essglobal/standard/activities/> ;
+    skos:prefLabel "Education and training"@EN,
+        "Educación y formación"@ES,
+        "Éducation et formation"@FR,
+        "Educação e formação"@PT ;
+    skos:scopeNote "Integrates education sectors"@EN,
+        "Integra los sectores de educación"@ES,
+        "Intègre secteurs de l'éducation"@FR,
+        "Integra os setores de educação"@PT .
+
+<http://purl.org/essglobal/standard/activities/a17> a skos:Concept ;
+    skos:altLabel "Human health and social work activities",
+        "Q" ;
+    skos:inScheme <http://purl.org/essglobal/standard/activities/> ;
+    skos:prefLabel "Social services, health and employment"@EN,
+        "Servicios sociales, salud y empleo"@ES,
+        "Services sociaux et santé"@FR,
+        "Serviços sociais, saúde e emprego"@PT ;
+    skos:scopeNote "Includes the sectors of health and social"@EN,
+        "Incluye los sectores de salud y sociales"@ES,
+        "Comprend les secteurs de la santé et social"@FR,
+        "Integra os setores de saúde humana e acção social"@PT .
+
+<http://purl.org/essglobal/standard/activities/a18> a skos:Concept ;
+    skos:altLabel "Arts, entertainment and recreation",
+        "R" ;
+    skos:inScheme <http://purl.org/essglobal/standard/activities/> ;
+    skos:prefLabel "Arts, culture, recreation and sports"@EN,
+        "Arte, cultura, recreación y deporte"@ES,
+        "Art, culture, loisirs et sports"@FR,
+        "Artes, cultura, recreação e esportes"@PT ;
+    skos:scopeNote "Includes the sectors of arts, entertainment and recreation"@EN,
+        "Corresponde a los sectores de las artes, el entretenimiento y la recreación"@ES,
+        "Comprend les secteurs des arts, spectacles et loisirs"@FR,
+        "Integra os setores de artes, entretenimento e recreação"@PT .
+
+<http://purl.org/essglobal/standard/activities/a19> a skos:Concept ;
+    skos:altLabel "Other service activities",
+        "S" ;
+    skos:inScheme <http://purl.org/essglobal/standard/activities/> ;
+    skos:prefLabel "Membership activities, repairing and wellness"@EN,
+        "Actividades de organización social, mutualización y reparación"@ES,
+        ""@FR,
+        "Atividades associativas, reparação e bem-estar"@PT ;
+    skos:scopeNote "Integrates the activities of other sectors of services"@EN,
+        "Integra las actividades de otros sectores de servicios"@ES,
+        "Intègre les activités d'autres secteurs de services"@FR,
+        "Integra os setores de outras atividades de serviços"@PT .
+
+<http://purl.org/essglobal/standard/activities/a20> a skos:Concept ;
+    skos:altLabel "Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use",
+        "T" ;
+    skos:inScheme <http://purl.org/essglobal/standard/activities/> ;
+    skos:prefLabel "Household activities, self-production, domestic work"@EN,
+        "Actividades domesticas e de auto-producción"@ES,
+        ""@FR,
+        "Atividades domésticas, auto-produção de trabalho, doméstico"@PT ;
+    skos:scopeNote "Integra sectors of activities of households as employers"@EN,
+        "Integra los sectores de las actividades de los hogares como empleadores"@ES,
+        "Integra secteurs d'activités des ménages en tant qu'employeurs"@FR,
+        "Integra os setores de atividades das famílias empregadoras"@PT .
+
+<http://purl.org/essglobal/standard/activities/a21> a skos:Concept ;
+    skos:altLabel "Activities of extraterritorial organizations and bodies",
+        "U" ;
+    skos:inScheme <http://purl.org/essglobal/standard/activities/> ;
+    skos:prefLabel "International diplomacy and cooperation"@EN,
+        "Diplomacia internacional y cooperación"@ES,
+        ""@FR,
+        "Diplomacia e a cooperação internacional"@PT ;
+    skos:scopeNote "Integra sectors of activities of organizations and bodies"@EN,
+        "Integra los sectores de actividades de las organizaciones y organismos"@ES,
+        "Integra secteurs d'activités des organisations et organismes"@FR,
+        "Integra os setores de atividades de organizações e entidades extraterritoriais"@PT .
+
+<http://purl.org/essglobal/standard/activities/> a skos:ConceptScheme ;
+    dc:contributor "Ana Alice Baptista (analice@dsi.uminho.pt)",
+        "Daniel Tygel (dtygel@gmail.com)",
+        "Jason Nardi (jason.nardi@gmail.com)",
+        "Marc Alphandery (marc.alphandery@wanadoo.fr)",
+        "Mariana Malta (mariana@iscap.ipp.pt)" ;
+    dc:creator "César Araújo (cesar_araujo@sapo.pt)",
+        "Leonardo Cruz (leonardopscruz@gmail.com)",
+        "Rodrigo Alves (rasalves@gmail.com)",
+        "Sérgio Vale (gks_sergio@hotmail.com)" ;
+    dc:description "Activities controlled vocabulary for SSE" ;
+    dc:language "en-en" ;
+    dc:modified "2014-01-25"^^xsd:date ;
+    dc:publisher <http://www.ripess.org/> ;
+    dc:relation <http://www.dsi.uminho.pt/> ;
+    dc:title "Activities" ;
+    dcterms:created "2012-02-20"^^xsd:date ;
+    dcterms:publisher "ESSGLOBAL" .
+
