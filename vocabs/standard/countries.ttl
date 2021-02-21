@@ -1,0 +1,31 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix essglobal: <http://purl.org/essglobal/standard/> .
+
+@base <http://purl.org/essglobal/standard/activities/> .
+
+# FIXME these need updating
+<> a skos:ConceptScheme ;
+    dc:title "Countries" ;
+    dc:description "Countries controlled vocabulary for SSE" ;
+    dc:creator "Solidarity Economy Association (ess@lod.coop)";
+    #dc:contributor ;
+    dc:language "en-en" ;
+    dcterms:created "2021-02-21"^^xsd:date ;
+    dcterms:publisher "ESSGLOBAL" ;
+    dc:publisher <http://www.ripess.org/> ;
+    dc:modified "2021-02-21"^^xsd:date ;
+    dc:relation <http://www.dsi.uminho.pt/> ;
+
+# Initial data from
+# https://github.com/sshaw/normalize_country/blob/master/lib/normalize_country/countries/en.yml
+<AD> a skos:Concept ;
+    skos:altLabel "Principality of the Valleys of Andorra" ;
+    skos:inScheme <> ;
+    skos:prefLabel "Andorra"@EN;
+#    skos:scopeNote "Integrates the sectors of agriculture, forestry and fishing"@EN;
