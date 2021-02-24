@@ -11,6 +11,7 @@ class Scheme
   def self._prefix_sort(**prefixes)
     prefixes
       .to_a
+      .collect {|e| [e[0].to_sym, e[1]] }
       .sort {|a, b| a[1].length <=> b[1].length }
   end
 
@@ -22,7 +23,7 @@ class Scheme
 
     @prefixes.each do |p|
       if (value.start_with? p[1])
-        return p[0]+':'+value.slice(p[1].length..-1)
+        return p[0].to_s+':'+value.slice(p[1].length..-1)
       end
     end
     
@@ -48,7 +49,7 @@ class Scheme
   def initialize(base_url:, title:,
                  modified:, created:,
                  description:,
-                 terms:, languages: nil)
+                 terms:, prefixes: {}, languages: nil)
     @base_url = base_url
     @title = title
     @description = description
@@ -58,6 +59,7 @@ class Scheme
     @languages = languages
 
     @prefixes = Scheme._prefix_sort(
+      **prefixes,
       dc: "http://purl.org/dc/elements/1.1/",
       dcterms: "http://purl.org/dc/terms/",
       rdf: "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
@@ -65,11 +67,12 @@ class Scheme
       skos: "http://www.w3.org/2004/02/skos/core#",
       xml: "http://www.w3.org/XML/1998/namespace",
       xsd: "http://www.w3.org/2001/XMLSchema#",
+      ossr: "http://data.ordnancesurvey.co.uk/ontology/spatialrelations/",
     )
   end
 
   def write(iostream = $stdout)
-    @prefixes.each do |prefix, url|
+    @prefixes.sort.each do |prefix, url|
       iostream.puts "@prefix #{prefix}: <#{url}> ."
     end
 
@@ -97,9 +100,15 @@ HERE
     skos:inScheme <#{suri term.scheme}>;
 HERE
 
+      if (term.within)
+        iostream.puts <<HERE
+    ossr:within <#{suri term.within}>;
+HERE
+      end
+
       pref_labels = term.pref_label.respond_to?(:each_pair)? term.pref_label : {'EN'=>term.pref_label}
       languages = @languages || pref_labels.keys
-      
+
       # Language-specific
       languages.each do |l|
         next unless pref_labels.has_key? l
@@ -116,12 +125,13 @@ HERE
 
 
   class Term
-    attr_reader :uri, :scheme, :pref_label, :alt_labels
+    attr_reader :uri, :scheme, :pref_label, :alt_labels, :within
     
-    def initialize(uri:, scheme:, pref_label:, alt_labels: [])
+    def initialize(uri:, scheme:, pref_label:, within: nil, alt_labels: [])
       @uri = uri
       @scheme = scheme
       @pref_label = pref_label
+      @within = within
       @alt_labels = alt_labels
     end
   end
