@@ -1,0 +1,251 @@
+ISO-Code	ISO-Name	ISO-Name-Match?	ISO-Code-Match?	Country	Code	Super-region	Region
+AD	Andorra	true	true	Andorra	AD	Europe	Europe (Western)
+AE	United Arab Emirates	true	true	United Arab Emirates	AE	Asia+Pacific	Middle East
+AF	Afghanistan	true	true	Afghanistan	AF	Asia+Pacific	South Asia
+AG	Antigua and Barbuda	true	true	Antigua and Barbuda	AG	Americas	Caribbean countries
+AI	Anguilla	true	true	Anguilla	AI	Americas	Caribbean countries
+AL	Albania	true	true	Albania	AL	Europe	Europe (Eastern)
+AM	Armenia	true	true	Armenia	AM	Europe	Europe (Eastern)
+AO	Angola	true	true	Angola	AO	Africa	Southern Africa
+AQ	Antarctica	true	true	Antarctica	AQ	none	unassigned
+AR	Argentina	true	true	Argentina	AR	Americas	South America
+AS	American Samoa	true	true	American Samoa	AS	Asia+Pacific	Oceania
+AT	Austria	true	true	Austria	AT	Europe	Europe (Western)
+AU	Australia	true	true	Australia	AU	Asia+Pacific	Oceania
+AW	Aruba	true	true	Aruba	AW	Americas	Caribbean countries
+AX	Åland Islands	true	true	Åland Islands	AX	Europe	Europe (Western)
+AZ	Azerbaijan	true	true	Azerbaijan	AZ	Europe	Europe (Eastern)
+BA	Bosnia and Herzegovina	true	true	Bosnia and Herzegovina	BA	Europe	Europe (Eastern)
+BB	Barbados	true	true	Barbados	BB	Americas	Caribbean countries
+BD	Bangladesh	true	true	Bangladesh	BD	Asia+Pacific	South Asia
+BE	Belgium	true	true	Belgium	BE	Europe	Europe (Western)
+BF	Burkina Faso	true	true	Burkina Faso	BF	Africa	West Africa
+BG	Bulgaria	true	true	Bulgaria	BG	Europe	Europe (Eastern)
+BH	Bahrain	true	true	Bahrain	BH	Asia+Pacific	Middle East
+BI	Burundi	true	true	Burundi	BI	Africa	Central Africa
+BJ	Benin	true	true	Benin	BJ	Africa	West Africa
+BL	Saint Barthélemy	false	false
+BM	Bermuda	true	true	Bermuda	BM	Americas	Caribbean countries
+BN	Brunei Darussalam	true	true	Brunei Darussalam	BN	Asia+Pacific	South East Asia
+BO	Bolivia, Plurinational State of	false	true	Bolivia	BO	Americas	South America
+BQ	Bonaire, Sint Eustatius and Saba	false	true	Bonaire, Saint Eustatius and Saba	BQ	Americas	Caribbean countries
+BR	Brazil	true	true	Brazil	BR	Americas	South America
+BS	Bahamas	true	true	Bahamas	BS	Americas	Caribbean countries
+BT	Bhutan	true	true	Bhutan	BT	Asia+Pacific	South Asia
+BV	Bouvet Island	true	true	Bouvet Island	BV	none	unassigned
+BW	Botswana	true	true	Botswana	BW	Africa	Southern Africa
+BY	Belarus	true	true	Belarus	BY	Europe	Europe (Eastern)
+BZ	Belize	true	true	Belize	BZ	Americas	Central America
+CA	Canada	true	true	Canada	CA	Americas	North America
+CC	Cocos (Keeling) Islands	true	true	Cocos (Keeling) Islands	CC	Asia+Pacific	Oceania
+CD	Congo, The Democratic Republic of the	true	true	Congo, The Democratic Republic of the	CD	Africa	Central Africa
+CF	Central African Republic	true	true	Central African Republic	CF	Africa	Central Africa
+CG	Congo	false	true	Congo, Republic of the	CG	Africa	Central Africa
+CH	Switzerland	true	true	Switzerland	CH	Europe	Europe (Western)
+CI	Côte d'Ivoire	true	true	Côte d'Ivoire	CI	Africa	West Africa
+CK	Cook Islands	true	true	Cook Islands	CK	Asia+Pacific	Oceania
+CL	Chile	true	true	Chile	CL	Americas	South America
+CM	Cameroon	true	true	Cameroon	CM	Africa	Central Africa
+CN	China	true	true	China	CN	Asia+Pacific	East Asia
+CO	Colombia	true	true	Colombia	CO	Americas	South America
+CR	Costa Rica	true	true	Costa Rica	CR	Americas	Central America
+CU	Cuba	true	true	Cuba	CU	Americas	Caribbean countries
+CV	Cabo Verde	false	true	Cape Verde	CV	Africa	West Africa
+CW	Curaçao	true	true	Curaçao	CW	Americas	Caribbean countries
+CX	Christmas Island	true	true	Christmas Island	CX	Asia+Pacific	Oceania
+CY	Cyprus	true	true	Cyprus	CY	Europe	Europe (Western)
+CZ	Czechia	false	true	Czech Republic	CZ	Europe	Europe (Eastern)
+DE	Germany	true	true	Germany	DE	Europe	Europe (Western)
+DJ	Djibouti	true	true	Djibouti	DJ	Africa	East Africa
+DK	Denmark	true	true	Denmark	DK	Europe	Europe (Western)
+DM	Dominica	true	true	Dominica	DM	Americas	Caribbean countries
+DO	Dominican Republic	true	true	Dominican Republic	DO	Americas	Caribbean countries
+DZ	Algeria	true	true	Algeria	DZ	Africa	North Africa
+EC	Ecuador	true	true	Ecuador	EC	Americas	South America
+EE	Estonia	true	true	Estonia	EE	Europe	Europe (Eastern)
+EG	Egypt	true	true	Egypt	EG	Africa	North Africa
+EH	Western Sahara	true	true	Western Sahara	EH	Africa	North Africa
+ER	Eritrea	true	true	Eritrea	ER	Asia+Pacific	Middle East
+ES	Spain	true	true	Spain	ES	Europe	Europe (Western)
+ET	Ethiopia	true	true	Ethiopia	ET	Africa	East Africa
+FI	Finland	true	true	Finland	FI	Europe	Europe (Western)
+FJ	Fiji	true	true	Fiji	FJ	Asia+Pacific	Oceania
+FK	Falkland Islands (Malvinas)	true	true	Falkland Islands (Malvinas)	FK	none	unassigned
+FM	Micronesia, Federated States of	true	true	Micronesia, Federated States of	FM	Asia+Pacific	Oceania
+FO	Faroe Islands	true	true	Faroe Islands	FO	Europe	Europe (Western)
+FR	France	true	true	France	FR	Europe	Europe (Western)
+GA	Gabon	true	true	Gabon	GA	Africa	Central Africa
+GB	United Kingdom	true	true	United Kingdom	GB	Europe	Europe (Western)
+GD	Grenada	true	true	Grenada	GD	Americas	Caribbean countries
+GE	Georgia	true	true	Georgia	GE	Europe	Europe (Eastern)
+GF	French Guiana	true	true	French Guiana	GF	Americas	South America
+GG	Guernsey	true	true	Guernsey	GG	none	unassigned
+GH	Ghana	true	true	Ghana	GH	Africa	West Africa
+GI	Gibraltar	true	true	Gibraltar	GI	Europe	Europe (Western)
+GL	Greenland	true	true	Greenland	GL	Europe	Europe (Western)
+GM	Gambia	true	true	Gambia	GM	Africa	West Africa
+GN	Guinea	true	true	Guinea	GN	Africa	West Africa
+GP	Guadeloupe	true	true	Guadeloupe	GP	Americas	Caribbean countries
+GQ	Equatorial Guinea	true	true	Equatorial Guinea	GQ	Africa	West Africa
+GR	Greece	true	true	Greece	GR	Europe	Europe (Western)
+GS	South Georgia and the South Sandwich Islands	true	true	South Georgia and the South Sandwich Islands	GS	none	unassigned
+GT	Guatemala	true	true	Guatemala	GT	Americas	Central America
+GU	Guam	true	true	Guam	GU	Asia+Pacific	Oceania
+GW	Guinea-Bissau	true	true	Guinea-Bissau	GW	Africa	West Africa
+GY	Guyana	true	true	Guyana	GY	Americas	South America
+HK	Hong Kong	true	true	Hong Kong	HK	Asia+Pacific	East Asia
+HM	Heard Island and McDonald Islands	true	true	Heard Island and McDonald Islands	HM	none	unassigned
+HN	Honduras	true	true	Honduras	HN	Americas	Central America
+HR	Croatia	true	true	Croatia	HR	Europe	Europe (Eastern)
+HT	Haiti	true	true	Haiti	HT	Americas	Caribbean countries
+HU	Hungary	true	true	Hungary	HU	Europe	Europe (Eastern)
+ID	Indonesia	true	true	Indonesia	ID	Asia+Pacific	South East Asia
+IE	Ireland	true	true	Ireland	IE	Europe	Europe (Western)
+IL	Israel	true	true	Israel	IL	Europe	Europe (Eastern)
+IM	Isle of Man	true	true	Isle of Man	IM	none	unassigned
+IN	India	true	true	India	IN	Asia+Pacific	South Asia
+IO	British Indian Ocean Territory	true	true	British Indian Ocean Territory	IO	Asia+Pacific	South Asia
+IQ	Iraq	true	true	Iraq	IQ	Asia+Pacific	Middle East
+IR	Iran, Islamic Republic of	true	true	Iran, Islamic Republic of	IR	Asia+Pacific	Middle East
+IS	Iceland	true	true	Iceland	IS	Europe	Europe (Western)
+IT	Italy	true	true	Italy	IT	Europe	Europe (Western)
+JE	Jersey	true	true	Jersey	JE	none	unassigned
+JM	Jamaica	true	true	Jamaica	JM	Americas	Caribbean countries
+JO	Jordan	true	true	Jordan	JO	Asia+Pacific	Middle East
+JP	Japan	true	true	Japan	JP	Asia+Pacific	East Asia
+KE	Kenya	true	true	Kenya	KE	Africa	East Africa
+KG	Kyrgyzstan	true	true	Kyrgyzstan	KG	Asia+Pacific	Central Asia
+KH	Cambodia	true	true	Cambodia	KH	Asia+Pacific	South East Asia
+KI	Kiribati	true	true	Kiribati	KI	Asia+Pacific	Oceania
+KM	Comoros	true	true	Comoros	KM	Africa	Southern Africa
+KN	Saint Kitts and Nevis	true	true	Saint Kitts and Nevis	KN	Americas	Caribbean countries
+KP	Korea, Democratic People's Republic of	true	true	Korea, Democratic People's Republic of	KP	Asia+Pacific	East Asia
+KR	Korea, Republic of	true	true	Korea, Republic of	KR	Asia+Pacific	East Asia
+KW	Kuwait	true	true	Kuwait	KW	Asia+Pacific	Middle East
+KY	Cayman Islands	true	true	Cayman Islands	KY	Americas	Caribbean countries
+KZ	Kazakhstan	true	true	Kazakhstan	KZ	Asia+Pacific	Central Asia
+LA	Lao People's Democratic Republic	true	true	Lao People's Democratic Republic	LA	Asia+Pacific	South East Asia
+LB	Lebanon	true	true	Lebanon	LB	Asia+Pacific	Middle East
+LC	Saint Lucia	true	true	Saint Lucia	LC	Americas	Caribbean countries
+LI	Liechtenstein	true	true	Liechtenstein	LI	Europe	Europe (Western)
+LK	Sri Lanka	true	true	Sri Lanka	LK	Asia+Pacific	South Asia
+LR	Liberia	true	true	Liberia	LR	Africa	West Africa
+LS	Lesotho	true	true	Lesotho	LS	Africa	Southern Africa
+LT	Lithuania	true	true	Lithuania	LT	Europe	Europe (Eastern)
+LU	Luxembourg	true	true	Luxembourg	LU	Europe	Europe (Western)
+LV	Latvia	true	true	Latvia	LV	Europe	Europe (Eastern)
+LY	Libya	true	true	Libya	LY	Africa	North Africa
+MA	Morocco	true	true	Morocco	MA	Africa	North Africa
+MC	Monaco	true	true	Monaco	MC	Europe	Europe (Western)
+MD	Moldova, Republic of	false	true	Moldova	MD	Europe	Europe (Eastern)
+ME	Montenegro	true	true	Montenegro	ME	Europe	Europe (Eastern)
+MF	Saint Martin (French part)	false	false
+MG	Madagascar	true	true	Madagascar	MG	Africa	Southern Africa
+MH	Marshall Islands	true	true	Marshall Islands	MH	Asia+Pacific	Oceania
+MK	North Macedonia	false	true	Macedonia, Republic of	MK	Europe	Europe (Eastern)
+ML	Mali	true	true	Mali	ML	Africa	West Africa
+MM	Myanmar	true	true	Myanmar	MM	Asia+Pacific	South East Asia
+MN	Mongolia	true	true	Mongolia	MN	Asia+Pacific	East Asia
+MO	Macao	true	true	Macao	MO	Asia+Pacific	East Asia
+MP	Northern Mariana Islands	true	true	Northern Mariana Islands	MP	Asia+Pacific	Oceania
+MQ	Martinique	true	true	Martinique	MQ	Americas	Caribbean countries
+MR	Mauritania	true	true	Mauritania	MR	Africa	West Africa
+MS	Montserrat	true	true	Montserrat	MS	Americas	Caribbean countries
+MT	Malta	true	true	Malta	MT	Europe	Europe (Western)
+MU	Mauritius	true	true	Mauritius	MU	Africa	Southern Africa
+MV	Maldives	true	true	Maldives	MV	Asia+Pacific	South Asia
+MW	Malawi	true	true	Malawi	MW	Africa	Southern Africa
+MX	Mexico	true	true	Mexico	MX	Americas	North America
+MY	Malaysia	true	true	Malaysia	MY	Asia+Pacific	South East Asia
+MZ	Mozambique	true	true	Mozambique	MZ	Africa	East Africa
+NA	Namibia	true	true	Namibia	NA	Africa	Southern Africa
+NC	New Caledonia	true	true	New Caledonia	NC	Asia+Pacific	Oceania
+NE	Niger	true	true	Niger	NE	Africa	West Africa
+NF	Norfolk Island	true	true	Norfolk Island	NF	Asia+Pacific	Oceania
+NG	Nigeria	true	true	Nigeria	NG	Africa	West Africa
+NI	Nicaragua	true	true	Nicaragua	NI	Americas	Central America
+NL	Netherlands	true	true	Netherlands	NL	Europe	Europe (Western)
+NO	Norway	true	true	Norway	NO	Europe	Europe (Western)
+NP	Nepal	true	true	Nepal	NP	Asia+Pacific	South Asia
+NR	Nauru	true	true	Nauru	NR	Asia+Pacific	Oceania
+NU	Niue	true	true	Niue	NU	Asia+Pacific	Oceania
+NZ	New Zealand	true	true	New Zealand	NZ	Asia+Pacific	Oceania
+OM	Oman	true	true	Oman	OM	Asia+Pacific	Middle East
+PA	Panama	true	true	Panama	PA	Americas	Central America
+PE	Peru	true	true	Peru	PE	Americas	South America
+PF	French Polynesia	true	true	French Polynesia	PF	Asia+Pacific	Oceania
+PG	Papua New Guinea	true	true	Papua New Guinea	PG	Africa	West Africa
+PH	Philippines	true	true	Philippines	PH	Asia+Pacific	South East Asia
+PK	Pakistan	true	true	Pakistan	PK	Asia+Pacific	South Asia
+PL	Poland	true	true	Poland	PL	Europe	Europe (Eastern)
+PM	Saint Pierre and Miquelon	true	true	Saint Pierre and Miquelon	PM	Americas	North America
+PN	Pitcairn	true	true	Pitcairn	PN	Asia+Pacific	Oceania
+PR	Puerto Rico	true	true	Puerto Rico	PR	Americas	Caribbean countries
+PS	Palestine, State of	false	true	Palestinian Territory, Occupied	PS	Asia+Pacific	Middle East
+PT	Portugal	true	true	Portugal	PT	Europe	Europe (Western)
+PW	Palau	true	true	Palau	PW	Asia+Pacific	Oceania
+PY	Paraguay	true	true	Paraguay	PY	Americas	South America
+QA	Qatar	true	true	Qatar	QA	Asia+Pacific	Middle East
+RE	Réunion	false	true	Reunion	RE	Africa	East Africa
+RO	Romania	true	true	Romania	RO	Europe	Europe (Eastern)
+RS	Serbia	true	true	Serbia	RS	Europe	Europe (Eastern)
+RU	Russia	false	true	Russian Federation	RU	Europe	Europe (Eastern)
+RW	Rwanda	true	true	Rwanda	RW	Africa	Central Africa
+SA	Saudi Arabia	true	true	Saudi Arabia	SA	Asia+Pacific	Middle East
+SB	Solomon Islands	true	true	Solomon Islands	SB	Asia+Pacific	Oceania
+SC	Seychelles	true	true	Seychelles	SC	Africa	Southern Africa
+SD	Sudan	true	true	Sudan	SD	Africa	East Africa
+SE	Sweden	true	true	Sweden	SE	Europe	Europe (Western)
+SG	Singapore	true	true	Singapore	SG	Asia+Pacific	South East Asia
+SH	Saint Helena, Ascension and Tristan da Cunha	false	true	Saint Helena	SH	Africa	West Africa
+SI	Slovenia	true	true	Slovenia	SI	Europe	Europe (Eastern)
+SJ	Svalbard and Jan Mayen	true	true	Svalbard and Jan Mayen	SJ	Europe	Europe (Western)
+SK	Slovakia	true	true	Slovakia	SK	Europe	Europe (Eastern)
+SL	Sierra Leone	true	true	Sierra Leone	SL	Africa	West Africa
+SM	San Marino	true	true	San Marino	SM	Europe	Europe (Western)
+SN	Senegal	true	true	Senegal	SN	Africa	West Africa
+SO	Somalia	true	true	Somalia	SO	Africa	East Africa
+SR	Suriname	true	true	Suriname	SR	Americas	South America
+SS	South Sudan	true	true	South Sudan	SS	Africa	East Africa
+ST	Sao Tome and Principe	true	true	Sao Tome and Principe	ST	Africa	Central Africa
+SV	El Salvador	true	true	El Salvador	SV	Americas	Central America
+SX	Sint Maarten (Dutch part)	false	true	Sint Maarten (Dutch Part)	SX	Americas	Caribbean countries
+SY	Syrian Arab Republic	true	true	Syrian Arab Republic	SY	Asia+Pacific	Middle East
+SZ	Eswatini	false	true	Swaziland	SZ	Africa	Southern Africa
+TC	Turks and Caicos Islands	true	true	Turks and Caicos Islands	TC	Americas	Caribbean countries
+TD	Chad	true	true	Chad	TD	Africa	Central Africa
+TF	French Southern Territories	true	true	French Southern Territories	TF	Europe	Europe (Western)
+TG	Togo	true	true	Togo	TG	Africa	West Africa
+TH	Thailand	true	true	Thailand	TH	Asia+Pacific	South East Asia
+TJ	Tajikistan	true	true	Tajikistan	TJ	Asia+Pacific	Central Asia
+TK	Tokelau	true	true	Tokelau	TK	Asia+Pacific	Oceania
+TL	Timor-Leste	true	true	Timor-Leste	TL	Asia+Pacific	Oceania
+TM	Turkmenistan	true	true	Turkmenistan	TM	Asia+Pacific	Central Asia
+TN	Tunisia	true	true	Tunisia	TN	Africa	North Africa
+TO	Tonga	true	true	Tonga	TO	Asia+Pacific	Oceania
+TR	Turkey	true	true	Turkey	TR	Europe	Europe (Western)
+TT	Trinidad and Tobago	true	true	Trinidad and Tobago	TT	Americas	Caribbean countries
+TV	Tuvalu	true	true	Tuvalu	TV	Asia+Pacific	Oceania
+TW	Taiwan	true	true	Taiwan	TW	Asia+Pacific	South East Asia
+TZ	Tanzania, United Republic of	true	true	Tanzania, United Republic of	TZ	Africa	East Africa
+UA	Ukraine	true	true	Ukraine	UA	Europe	Europe (Eastern)
+UG	Uganda	true	true	Uganda	UG	Africa	East Africa
+UM	United States Minor Outlying Islands	true	true	United States Minor Outlying Islands	UM	Asia+Pacific	Oceania
+US	United States	true	true	United States	US	Americas	North America
+UY	Uruguay	true	true	Uruguay	UY	Americas	South America
+UZ	Uzbekistan	true	true	Uzbekistan	UZ	Asia+Pacific	Central Asia
+VA	Holy See (Vatican City State)	true	true	Holy See (Vatican City State)	VA	Europe	Europe (Western)
+VC	Saint Vincent and the Grenadines	true	true	Saint Vincent and the Grenadines	VC	Americas	Caribbean countries
+VE	Venezuela, Bolivarian Republic of	false	true	Venezuela	VE	Americas	South America
+VG	Virgin Islands, British	true	true	Virgin Islands, British	VG	Americas	Caribbean countries
+VI	Virgin Islands, U.S.	true	true	Virgin Islands, U.S.	VI	Americas	Caribbean countries
+VN	Vietnam	false	true	Viet Nam	VN	Asia+Pacific	South East Asia
+VU	Vanuatu	true	true	Vanuatu	VU	Asia+Pacific	Oceania
+WF	Wallis and Futuna	true	true	Wallis and Futuna	WF	Asia+Pacific	Oceania
+WS	Samoa	true	true	Samoa	WS	Asia+Pacific	Oceania
+YE	Yemen	true	true	Yemen	YE	Asia+Pacific	Middle East
+YT	Mayotte	true	true	Mayotte	YT	Africa	Southern Africa
+ZA	South Africa	true	true	South Africa	ZA	Africa	Southern Africa
+ZM	Zambia	true	true	Zambia	ZM	Africa	Southern Africa
+ZW	Zimbabwe	true	true	Zimbabwe	ZW	Africa	Southern Africa
+		false	false	Serbia and Montenegro	CS	Europe	Europe (Eastern)
