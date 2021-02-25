@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:ossr="http://data.ordnancesurvey.co.uk/ontology/spatialrelations/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/regions/AM-CE">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="sreg:AM"/>
+    <skos:prefLabel xml:lang="EN">Central America</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/regions/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/regions/AP-SO">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/regions/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="EN">South Asia</skos:prefLabel>
+    <ossr:within rdf:resource="sreg:AP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/regions/">
+    <dc:language>en-en</dc:language>
+    <dc:creator>Solidarity Economy Association</dc:creator>
+    <dcterms:creator rdf:resource="http://solidarityeconomy.coop"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-22</dcterms:created>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dc:publisher rdf:resource="http://www.ripess.org/"/>
+    <dc:title>Regions</dc:title>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-25</dc:modified>
+    <dc:description>A controlled vocabulary of ICA country regions for SSE</dc:description>
+    <dcterms:publisher>ESSGLOBAL</dcterms:publisher>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/regions/AP-SE">
+    <ossr:within rdf:resource="sreg:AP"/>
+    <skos:prefLabel xml:lang="EN">South East Asia</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/regions/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/regions/AF-CE">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="sreg:AF"/>
+    <skos:prefLabel xml:lang="EN">Central Africa</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/regions/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/regions/AM-CB">
+    <ossr:within rdf:resource="sreg:AM"/>
+    <skos:prefLabel xml:lang="EN">Caribbean countries</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/regions/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/regions/EU-EA">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/regions/"/>
+    <ossr:within rdf:resource="sreg:EU"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="EN">Europe (Eastern)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/regions/AF-NO">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/regions/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="EN">North Africa</skos:prefLabel>
+    <ossr:within rdf:resource="sreg:AF"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/regions/AF-EA">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="sreg:AF"/>
+    <skos:prefLabel xml:lang="EN">East Africa</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/regions/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/regions/AP-OC">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="sreg:AP"/>
+    <skos:prefLabel xml:lang="EN">Oceania</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/regions/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/regions/AM-SO">
+    <skos:prefLabel xml:lang="EN">South America</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/regions/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="sreg:AM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/regions/AF-SO">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="sreg:AF"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/regions/"/>
+    <skos:prefLabel xml:lang="EN">Southern Africa</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/regions/AF-WE">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="sreg:AF"/>
+    <skos:prefLabel xml:lang="EN">West Africa</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/regions/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/regions/EU-WE">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/regions/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="sreg:EU"/>
+    <skos:prefLabel xml:lang="EN">Europe (Western)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/regions/AP-ME">
+    <skos:prefLabel xml:lang="EN">Middle East</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/regions/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="sreg:AP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/regions/AM-NO">
+    <skos:prefLabel xml:lang="EN">North America</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="sreg:AM"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/regions/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/regions/AP-EA">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="sreg:AP"/>
+    <skos:prefLabel xml:lang="EN">East Asia</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/regions/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/regions/AP-CE">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/regions/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="sreg:AP"/>
+    <skos:prefLabel xml:lang="EN">Central Asia</skos:prefLabel>
+  </rdf:Description>
+</rdf:RDF>

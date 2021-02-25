@@ -1,0 +1,2501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:ossr="http://data.ordnancesurvey.co.uk/ontology/spatialrelations/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/CV">
+    <ossr:within rdf:resource="reg:AF-WE"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="FR">Cap-Vert</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Cabo Verde</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Cabo Verde</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Cabo Verde</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ZH">佛得角</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/MW">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="EN">Malawi</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-SO"/>
+    <skos:prefLabel xml:lang="DE">Malawi</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Malaui</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Malawi</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">马拉维</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/IN">
+    <skos:prefLabel xml:lang="FR">Inde</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">India</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-SO"/>
+    <skos:prefLabel xml:lang="EN">India</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="DE">Indien</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">印度</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/BL">
+    <skos:prefLabel xml:lang="ES">San Bartolomé</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Saint Barthélemy</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="FR">Saint-Barthélemy</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Saint-Barthélemy</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ZH">圣巴泰勒米岛</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/SH">
+    <skos:prefLabel xml:lang="EN">Saint Helena, Ascension and Tristan da Cunha</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Sainte-Hélène, Ascension et Tristan da Cunha</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">St. Helena, Ascension und Tristan da Cunha</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">圣赫勒拿-阿森松-特里斯坦达库尼亚</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Santa Elena, Ascensión y Tristán de Acuña</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="reg:AF-WE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/LI">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ZH">列支敦士登</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Liechtenstein</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Liechtenstein</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Liechtenstein</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Liechtenstein</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-WE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/CZ">
+    <ossr:within rdf:resource="reg:EU-EA"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ZH">捷克</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Tschechien</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Czechia</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Tchéquie</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Chequia</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/NO">
+    <skos:prefLabel xml:lang="ES">Noruega</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Norwegen</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Norvège</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">挪威</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-WE"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="EN">Norway</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/VN">
+    <skos:prefLabel xml:lang="FR">Viêt Nam</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Vietnam</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-SE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="EN">Vietnam</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Vietnam</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">越南</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/MA">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Morocco</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">摩洛哥</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Maroc</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Marokko</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-NO"/>
+    <skos:prefLabel xml:lang="ES">Marruecos</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/TF">
+    <ossr:within rdf:resource="reg:EU-WE"/>
+    <skos:prefLabel xml:lang="EN">French Southern Territories</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Französische Süd- und Antarktisgebiete</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Territorios Franceses del Sur</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">法属南半球领地</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Terres australes françaises</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/BF">
+    <ossr:within rdf:resource="reg:AF-WE"/>
+    <skos:prefLabel xml:lang="FR">Burkina Faso</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">布基纳法索</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">Burquina Faso</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Burkina Faso</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Burkina Faso</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/GG">
+    <skos:prefLabel xml:lang="ZH">根西岛</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">Guernsey</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Guernesey</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Guernsey</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Guernsey</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/TV">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="EN">Tuvalu</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Tuvalu</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Tuvalu</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-OC"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ZH">图瓦鲁</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Tuvalu</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/PT">
+    <ossr:within rdf:resource="reg:EU-WE"/>
+    <skos:prefLabel xml:lang="ZH">葡萄牙</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Portugal</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Portugal</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Portugal</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="FR">Portugal</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/FJ">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ZH">斐济</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Fiyi</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Fidji</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Fiji</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-OC"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="DE">Fidschi</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/MH">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Marshall Islands</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Îles Marshall</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">马绍尔群岛</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-OC"/>
+    <skos:prefLabel xml:lang="DE">Marshallinseln</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">Islas Marshall</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/GI">
+    <ossr:within rdf:resource="reg:EU-WE"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Gibraltar</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Gibraltar</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Gibraltar</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">直布罗陀</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">Gibraltar</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/AQ">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Antarctica</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ZH">南极洲</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Antártida</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Antarctique</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Antarktis</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/UY">
+    <skos:prefLabel xml:lang="DE">Uruguay</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Uruguay</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Uruguay</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="reg:AM-SO"/>
+    <skos:prefLabel xml:lang="EN">Uruguay</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ZH">乌拉圭</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/CC">
+    <skos:prefLabel xml:lang="FR">Cocos (Keeling), Îles</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Kokos-(Keeling-)Inseln</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="EN">Cocos (Keeling) Islands</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-OC"/>
+    <skos:prefLabel xml:lang="ES">Islas Cocos (Keeling)</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">科科斯群岛</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/ZW">
+    <skos:prefLabel xml:lang="DE">Simbabwe</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Zimbabwe</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Zimbabue</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Zimbabwe</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ZH">津巴布韦</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-SO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/EG">
+    <skos:prefLabel xml:lang="ZH">埃及</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-NO"/>
+    <skos:prefLabel xml:lang="EN">Egypt</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">Ägypten</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Egipto</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Égypte</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/SR">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ZH">苏里南</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">Surinám</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-SO"/>
+    <skos:prefLabel xml:lang="FR">Surinam</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Suriname</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Suriname</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/BN">
+    <skos:prefLabel xml:lang="DE">Brunei Darussalam</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Brunéi Darussalam</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-SE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ZH">文莱</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Brunei Darussalam</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Brunei Darussalam</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/AM">
+    <skos:prefLabel xml:lang="ES">Armenia</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-EA"/>
+    <skos:prefLabel xml:lang="DE">Armenien</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">亚美尼亚</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="EN">Armenia</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="FR">Arménie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/KZ">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">Kasachstan</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <ossr:within rdf:resource="reg:AP-CE"/>
+    <skos:prefLabel xml:lang="ZH">哈萨克斯坦</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Kazajistán</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Kazakhstan</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Kazakhstan</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/ME">
+    <ossr:within rdf:resource="reg:EU-EA"/>
+    <skos:prefLabel xml:lang="DE">Montenegro</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Montenegro</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="EN">Montenegro</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="FR">Monténégro</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">黑山</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/OM">
+    <ossr:within rdf:resource="reg:AP-ME"/>
+    <skos:prefLabel xml:lang="ZH">阿曼</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Omán</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Oman</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="EN">Oman</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Oman</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/SM">
+    <skos:prefLabel xml:lang="DE">San Marino</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">San Marino</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">San Marino</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="reg:EU-WE"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ZH">圣马力诺</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Saint-Marin</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/GW">
+    <skos:prefLabel xml:lang="EN">Guinea-Bissau</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ZH">几内亚比绍</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="DE">Guinea-Bissau</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-WE"/>
+    <skos:prefLabel xml:lang="FR">Guinée-Bissau</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Guinea-Bisáu</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/IR">
+    <skos:prefLabel xml:lang="FR">Iran, République islamique d'</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="reg:AP-ME"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Iran, Islamic Republic of</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Iran, Islamische Republik</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">伊朗</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Irán, República islámica de</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/KH">
+    <ossr:within rdf:resource="reg:AP-SE"/>
+    <skos:prefLabel xml:lang="ZH">柬埔塞</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Cambodge</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="DE">Kambodscha</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="EN">Cambodia</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Camboya</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/FI">
+    <ossr:within rdf:resource="reg:EU-WE"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Finland</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Finlandia</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Finnland</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ZH">芬兰</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Finlande</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/CX">
+    <skos:prefLabel xml:lang="EN">Christmas Island</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Weihnachtsinseln</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Christmas, Île</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">圣诞岛</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="reg:AP-OC"/>
+    <skos:prefLabel xml:lang="ES">Isla de Navidad</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/CH">
+    <skos:prefLabel xml:lang="DE">Schweiz</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Switzerland</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="FR">Suisse</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">瑞士</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-WE"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Suiza</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/MO">
+    <skos:prefLabel xml:lang="EN">Macao</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Macao</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ZH">澳门</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Macao</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-EA"/>
+    <skos:prefLabel xml:lang="FR">Macau</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/AX">
+    <skos:prefLabel xml:lang="FR">Åland, Îles</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="reg:EU-WE"/>
+    <skos:prefLabel xml:lang="DE">Åland-Inseln</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Islas Äland</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Åland Islands</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">奥兰群岛</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/BE">
+    <skos:prefLabel xml:lang="ZH">比利时</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-WE"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="FR">Belgique</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">Bélgica</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Belgien</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Belgium</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/NP">
+    <skos:prefLabel xml:lang="FR">Népal</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">尼泊尔</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Nepal</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Nepal</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-SO"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">Nepal</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/PE">
+    <skos:prefLabel xml:lang="FR">Pérou</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">秘鲁</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-SO"/>
+    <skos:prefLabel xml:lang="ES">Perú</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Peru</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="EN">Peru</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/ID">
+    <skos:prefLabel xml:lang="EN">Indonesia</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Indonesien</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="FR">Indonésie</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Indonesia</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">印度尼西亚</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-SE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/TC">
+    <skos:prefLabel xml:lang="DE">Turks- und Caicosinseln</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Islas Turcas y Caicos</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Turks and Caicos Islands</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">特克斯和凯科斯群岛</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">îles Turques-et-Caïques</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="reg:AM-CB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/DO">
+    <skos:prefLabel xml:lang="ES">República Dominicana</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Dominikanische Republik</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="EN">Dominican Republic</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-CB"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ZH">多米尼加共和国</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">République dominicaine</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/GH">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">Ghana</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-WE"/>
+    <skos:prefLabel xml:lang="ES">Ghana</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">加纳</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Ghana</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Ghana</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/GE">
+    <skos:prefLabel xml:lang="DE">Georgien</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="FR">Géorgie</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Georgia</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Georgia</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">格鲁吉亚</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-EA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/MX">
+    <skos:prefLabel xml:lang="DE">Mexiko</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Mexico</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-NO"/>
+    <skos:prefLabel xml:lang="ES">México</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Mexique</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ZH">墨西哥</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/NC">
+    <ossr:within rdf:resource="reg:AP-OC"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">Nueva Caledonia</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">New Caledonia</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">新喀里多尼亚</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Nouvelle-Calédonie</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="DE">Neukaledonien</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/PH">
+    <ossr:within rdf:resource="reg:AP-SE"/>
+    <skos:prefLabel xml:lang="ZH">菲律宾</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Filipinas</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">Philippinen</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Philippines</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Philippines</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/CR">
+    <skos:prefLabel xml:lang="ZH">哥斯达黎加</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Costa Rica</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Costa Rica</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Costa Rica</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-CE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="FR">Costa Rica</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/SY">
+    <skos:prefLabel xml:lang="FR">Syrienne, République arabe</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <ossr:within rdf:resource="reg:AP-ME"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ZH">叙利亚</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">República árabe de Siria</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Syrien, Arabische Republik</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Syrian Arab Republic</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/PY">
+    <skos:prefLabel xml:lang="EN">Paraguay</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="FR">Paraguay</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Paraguay</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-SO"/>
+    <skos:prefLabel xml:lang="ZH">巴拉圭</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Paraguay</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/IM">
+    <skos:prefLabel xml:lang="ES">Isla de Man</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Île de Man</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Isle of Man</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">Insel Man</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">曼岛</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/HT">
+    <ossr:within rdf:resource="reg:AM-CB"/>
+    <skos:prefLabel xml:lang="ZH">海地</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Haiti</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Haïti</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Haiti</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">Haití</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/EC">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="FR">Équateur</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <ossr:within rdf:resource="reg:AM-SO"/>
+    <skos:prefLabel xml:lang="EN">Ecuador</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">厄瓜多尔</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Ecuador</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Ecuador</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/SB">
+    <skos:prefLabel xml:lang="ES">Islas Salomón</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ZH">所罗门群岛</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Salomoninseln</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Salomon, Îles</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-OC"/>
+    <skos:prefLabel xml:lang="EN">Solomon Islands</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/UZ">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <ossr:within rdf:resource="reg:AP-CE"/>
+    <skos:prefLabel xml:lang="EN">Uzbekistan</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Usbekistan</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">乌兹别克斯坦</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="FR">Ouzbékistan</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Uzbekistán</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/CL">
+    <ossr:within rdf:resource="reg:AM-SO"/>
+    <skos:prefLabel xml:lang="EN">Chile</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Chili</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">Chile</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">智利</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Chile</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/JP">
+    <ossr:within rdf:resource="reg:AP-EA"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ZH">日本</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">Japan</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Japon</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Japón</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Japan</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/GD">
+    <skos:prefLabel xml:lang="ZH">格林纳达</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="DE">Grenada</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="EN">Grenada</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-CB"/>
+    <skos:prefLabel xml:lang="FR">Grenade</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Granada</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/GP">
+    <skos:prefLabel xml:lang="ZH">瓜德罗普</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Guadeloupe</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Guadalupe</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="FR">Guadeloupe</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Guadeloupe</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="reg:AM-CB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/AU">
+    <skos:prefLabel xml:lang="EN">Australia</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-OC"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">Australia</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Australien</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Australie</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ZH">澳大利亚</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/SN">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="FR">Sénégal</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Senegal</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">塞内加尔</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <ossr:within rdf:resource="reg:AF-WE"/>
+    <skos:prefLabel xml:lang="EN">Senegal</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Senegal</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/AT">
+    <skos:prefLabel xml:lang="ES">Austria</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Autriche</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">奥地利</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Österreich</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="reg:EU-WE"/>
+    <skos:prefLabel xml:lang="EN">Austria</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/MV">
+    <skos:prefLabel xml:lang="DE">Malediven</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Islas Maldivas</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Maldives</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">马尔代夫</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="reg:AP-SO"/>
+    <skos:prefLabel xml:lang="FR">Maldives</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/BG">
+    <skos:prefLabel xml:lang="EN">Bulgaria</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">保加利亚</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-EA"/>
+    <skos:prefLabel xml:lang="FR">Bulgarie</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Bulgaria</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">Bulgarien</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/TN">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <ossr:within rdf:resource="reg:AF-NO"/>
+    <skos:prefLabel xml:lang="ZH">突尼斯</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Tunesien</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Tunisia</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Tunez</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Tunisie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/MK">
+    <ossr:within rdf:resource="reg:EU-EA"/>
+    <skos:prefLabel xml:lang="EN">North Macedonia</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ZH">北马其顿</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="FR">Macédoine du Nord</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Nordmazedonien</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Macedonia del Norte</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/MG">
+    <skos:prefLabel xml:lang="ZH">马达加斯加</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Madagaskar</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="reg:AF-SO"/>
+    <skos:prefLabel xml:lang="FR">Madagascar</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Madagascar</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Madagascar</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/PA">
+    <skos:prefLabel xml:lang="DE">Panama</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Panama</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Panama</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Panamá</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-CE"/>
+    <skos:prefLabel xml:lang="ZH">巴拿马</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/VI">
+    <skos:prefLabel xml:lang="DE">Amerikanische Jungferninseln</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Virgin Islands, U.S.</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ZH">美属维京群岛</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Islas Vírgenes, de EEUU</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Îles Vierges des États-Unis</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-CB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/CU">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Cuba</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-CB"/>
+    <skos:prefLabel xml:lang="FR">Cuba</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">古巴</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">Kuba</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Cuba</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/FR">
+    <skos:prefLabel xml:lang="ES">Francia</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">France</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">France</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-WE"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ZH">法国</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Frankreich</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/PR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">Puerto Rico</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Porto Rico</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Puerto Rico</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-CB"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Puerto Rico</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">波多黎各</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/BB">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="EN">Barbados</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Barbados</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Barbados</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-CB"/>
+    <skos:prefLabel xml:lang="ZH">巴巴多斯</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="FR">Barbade</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/TM">
+    <skos:prefLabel xml:lang="DE">Turkmenistan</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Turkmenistán</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="reg:AP-CE"/>
+    <skos:prefLabel xml:lang="EN">Turkmenistan</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">土库曼斯坦</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Turkménistan</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/NF">
+    <skos:prefLabel xml:lang="DE">Norfolkinsel</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">诺福克岛</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Norfolk Island</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Isla Norfolk</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="FR">île Norfolk</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-OC"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/GL">
+    <skos:prefLabel xml:lang="EN">Greenland</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="reg:EU-WE"/>
+    <skos:prefLabel xml:lang="ES">Groenlandia</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Groënland</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Grönland</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">格陵兰</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/MN">
+    <skos:prefLabel xml:lang="ES">Mongolia</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Mongolia</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="FR">Mongolie</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-EA"/>
+    <skos:prefLabel xml:lang="DE">Mongolei</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">蒙古</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/GQ">
+    <skos:prefLabel xml:lang="DE">Äquatorialguinea</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Equatorial Guinea</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-WE"/>
+    <skos:prefLabel xml:lang="FR">Guinée Équatoriale</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Guinea Ecuatorial</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ZH">赤道几内亚</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/FO">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">Islas Feroe</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Färöer-Inseln</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <ossr:within rdf:resource="reg:EU-WE"/>
+    <skos:prefLabel xml:lang="ZH">法罗群岛</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">îles Féroé</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Faroe Islands</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/GM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="reg:AF-WE"/>
+    <skos:prefLabel xml:lang="FR">Gambie</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Gambia</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">冈比亚</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Gambia</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Gambia</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/EE">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <ossr:within rdf:resource="reg:EU-EA"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">Estonia</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Estonie</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">爱沙尼亚</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Estonia</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Estland</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/EH">
+    <skos:prefLabel xml:lang="DE">Westsahara</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Western Sahara</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">西撒哈拉</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Sahara Occidental</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Sahara occidental</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="reg:AF-NO"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/RE">
+    <skos:prefLabel xml:lang="FR">Réunion, Île de la</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">留尼汪</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Réunion</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Reunión</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-EA"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="EN">Réunion</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/IO">
+    <skos:prefLabel xml:lang="FR">Territoire britannique de l'océan Indien</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">British Indian Ocean Territory</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Territorio Británico del Océano Índico</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-SO"/>
+    <skos:prefLabel xml:lang="ZH">英属印度洋领地</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Britisches Territorium im Indischen Ozean</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/BI">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ZH">布隆迪</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Burundi</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Burundi</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <ossr:within rdf:resource="reg:AF-CE"/>
+    <skos:prefLabel xml:lang="DE">Burundi</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Burundi</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/MD">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="FR">Moldavie</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">摩尔多瓦</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Moldau</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Moldova</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Moldavia</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-EA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/GA">
+    <skos:prefLabel xml:lang="EN">Gabon</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Gabun</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">Gabón</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">加蓬</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <ossr:within rdf:resource="reg:AF-CE"/>
+    <skos:prefLabel xml:lang="FR">Gabon</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/DM">
+    <ossr:within rdf:resource="reg:AM-CB"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Dominica</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="FR">Dominique</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Dominica</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">多米尼克</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Dominica</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/GY">
+    <skos:prefLabel xml:lang="DE">Guyana</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Guyana</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">圭亚那</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Guyana</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-SO"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="FR">Guyana</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/BJ">
+    <skos:prefLabel xml:lang="EN">Benin</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="FR">Bénin</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-WE"/>
+    <skos:prefLabel xml:lang="ZH">贝宁</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Benín</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Benin</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/NZ">
+    <skos:prefLabel xml:lang="ZH">新西兰</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Nueva Zelanda</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">New Zealand</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Nouvelle-Zélande</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="reg:AP-OC"/>
+    <skos:prefLabel xml:lang="DE">Neuseeland</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/VA">
+    <skos:prefLabel xml:lang="EN">Holy See (Vatican City State)</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-WE"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Santa Sede (Ciudad Estado del Vaticano)</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Heiliger Stuhl (Staat Vatikanstadt)</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Saint-Siège (état de la cité du Vatican)</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">梵地冈</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/MU">
+    <skos:prefLabel xml:lang="EN">Mauritius</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">Mauricio</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">毛里求斯</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Mauritius</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Maurice</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <ossr:within rdf:resource="reg:AF-SO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/TD">
+    <skos:prefLabel xml:lang="EN">Chad</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Chad</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-CE"/>
+    <skos:prefLabel xml:lang="ZH">乍得</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Tschad</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Tchad</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/SD">
+    <skos:prefLabel xml:lang="FR">Soudan</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-EA"/>
+    <skos:prefLabel xml:lang="EN">Sudan</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Sudán</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Sudan</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ZH">苏丹</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/AG">
+    <skos:prefLabel xml:lang="DE">Antigua und Barbuda</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Antigua and Barbuda</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">安提瓜和巴布达</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="reg:AM-CB"/>
+    <skos:prefLabel xml:lang="ES">Antigua y Barbuda</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Antigua-et-Barbuda</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/IT">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="DE">Italien</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-WE"/>
+    <skos:prefLabel xml:lang="EN">Italy</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Italie</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">意大利</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Italia</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/KG">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ZH">吉尔吉斯坦</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Kyrgyzstan</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Kirghizistan</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Kirguistán</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <ossr:within rdf:resource="reg:AP-CE"/>
+    <skos:prefLabel xml:lang="DE">Kirgisistan</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/IS">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ZH">冰岛</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Iceland</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-WE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="FR">Islande</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Islandia</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Island</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/KN">
+    <skos:prefLabel xml:lang="FR">Saint-Christophe-et-Niévès</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">圣基茨和尼维斯</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">St. Kitts und Nevis</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-CB"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">San Cristóbal y Nieves</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Saint Kitts and Nevis</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/RO">
+    <skos:prefLabel xml:lang="FR">Roumanie</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Rumänien</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">Rumanía</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Romania</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">罗马尼亚</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-EA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/US">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="FR">États-Unis</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">United States</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Vereinigte Staaten</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ZH">美国</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Estados Unidos</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-NO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/WS">
+    <ossr:within rdf:resource="reg:AP-OC"/>
+    <skos:prefLabel xml:lang="ZH">萨摩亚</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">Samoa</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Samoa</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Samoa</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Samoa</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/AW">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">Aruba</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Aruba</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Aruba</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Aruba</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-CB"/>
+    <skos:prefLabel xml:lang="ZH">阿鲁巴</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/IQ">
+    <skos:prefLabel xml:lang="FR">Irak</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ZH">伊拉克</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Irak</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Iraq</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Irak</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <ossr:within rdf:resource="reg:AP-ME"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/SA">
+    <skos:prefLabel xml:lang="ZH">沙特阿拉伯</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Arabia Saudí</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="FR">Arabie saoudite</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="EN">Saudi Arabia</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-ME"/>
+    <skos:prefLabel xml:lang="DE">Saudi-Arabien</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/VG">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <ossr:within rdf:resource="reg:AM-CB"/>
+    <skos:prefLabel xml:lang="ZH">英属维京群岛</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Islas Vírgenes, Británicas</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Britische Jungferninseln</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Îles Vierges britanniques</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="EN">Virgin Islands, British</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/NI">
+    <skos:prefLabel xml:lang="EN">Nicaragua</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Nicaragua</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-CE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">Nicaragua</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Nicaragua</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ZH">尼加拉瓜</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/BA">
+    <skos:prefLabel xml:lang="EN">Bosnia and Herzegovina</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-EA"/>
+    <skos:prefLabel xml:lang="FR">Bosnie-Herzégovine</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">Bosnia y Herzegovina</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Bosnien und Herzegowina</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">波斯尼亚和黑塞哥维那</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/JE">
+    <skos:prefLabel xml:lang="ES">Jersey</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">泽西岛</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Jersey</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Jersey</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">Jersey</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/TJ">
+    <skos:prefLabel xml:lang="EN">Tajikistan</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Tayikistán</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-CE"/>
+    <skos:prefLabel xml:lang="FR">Tadjikistan</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Tadschikistan</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ZH">塔吉克斯坦</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/PS">
+    <skos:prefLabel xml:lang="FR">Palestine, État de</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-ME"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="DE">Palästina, Staat</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">巴勒斯坦</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Palestine, State of</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Palestina, Estado de</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/AD">
+    <skos:prefLabel xml:lang="ZH">安道尔</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Andorre</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">Andorra</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-WE"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="DE">Andorra</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Andorra</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/PF">
+    <skos:prefLabel xml:lang="ES">Polinesia Francesa</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-OC"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="FR">Polynésie française</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">法属玻利尼西亚</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">French Polynesia</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Französisch-Polynesien</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/LK">
+    <skos:prefLabel xml:lang="EN">Sri Lanka</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="reg:AP-SO"/>
+    <skos:prefLabel xml:lang="FR">Sri Lanka</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Sri Lanka</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">斯里兰卡</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Sri Lanka</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/JM">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="DE">Jamaika</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">牙买加</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Jamaica</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-CB"/>
+    <skos:prefLabel xml:lang="EN">Jamaica</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Jamaïque</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/RW">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="FR">Rwanda</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Rwanda</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Ruanda</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">卢旺达</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-CE"/>
+    <skos:prefLabel xml:lang="DE">Ruanda</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/BD">
+    <skos:prefLabel xml:lang="FR">Bangladesh</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="EN">Bangladesh</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Bangladés</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Bangladesch</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">孟加拉</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <ossr:within rdf:resource="reg:AP-SO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/SV">
+    <skos:prefLabel xml:lang="DE">El Salvador</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">El Salvador</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">El Salvador</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-CE"/>
+    <skos:prefLabel xml:lang="ZH">萨尔瓦多</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Salvador</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/BY">
+    <skos:prefLabel xml:lang="DE">Weißrussland</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Belarus</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Bielorrusia</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-EA"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="FR">Bélarus</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">白俄罗斯</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/KW">
+    <skos:prefLabel xml:lang="DE">Kuwait</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">科威特</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Kuwait</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Kuwait</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="FR">Koweït</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-ME"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/LY">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">Libia</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ZH">利比亚</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Libyen</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Libya</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-NO"/>
+    <skos:prefLabel xml:lang="FR">Libye</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/KY">
+    <skos:prefLabel xml:lang="FR">îles Caïmans</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="DE">Cayman-Inseln</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Islas Caimán</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Cayman Islands</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-CB"/>
+    <skos:prefLabel xml:lang="ZH">开曼群岛</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/TZ">
+    <skos:prefLabel xml:lang="FR">Tanzanie</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-EA"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="DE">Tansania</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Tanzania</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">坦桑尼亚</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">Tanzania</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/VC">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">St. Vincent und die Grenadinen</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">圣文森特和格林纳丁斯</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-CB"/>
+    <skos:prefLabel xml:lang="ES">San Vicente y las Granadinas</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Saint-Vincent-et-les-Grenadines</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Saint Vincent and the Grenadines</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/KM">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="DE">Komoren</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-SO"/>
+    <skos:prefLabel xml:lang="ZH">科摩罗</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="EN">Comoros</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Comores, Islas</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Comores</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/BZ">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Belize</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">伯利兹</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Belize</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Belice</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Belize</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-CE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/DZ">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Algeria</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">阿尔及利亚</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Algeria</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-NO"/>
+    <skos:prefLabel xml:lang="FR">Algérie</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Algerien</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/JO">
+    <skos:prefLabel xml:lang="ZH">约旦</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Jordania</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Jordanien</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-ME"/>
+    <skos:prefLabel xml:lang="FR">Jordanie</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Jordan</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/VU">
+    <skos:prefLabel xml:lang="ES">Vanuatu</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">瓦努阿图</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-OC"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="EN">Vanuatu</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Vanuatu</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Vanuatu</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/AS">
+    <skos:prefLabel xml:lang="EN">American Samoa</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">美属萨摩亚</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Amerikanisch-Samoa</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Samoa américaines</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Samoa Estadounidense</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="reg:AP-OC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/CW">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">Curaçao</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="FR">Curaçao</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Curazao</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">库拉索</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-CB"/>
+    <skos:prefLabel xml:lang="EN">Curaçao</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/NL">
+    <skos:prefLabel xml:lang="EN">Netherlands</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Pays-Bas</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Niederlande</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">荷兰</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Países Bajos</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-WE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/HR">
+    <skos:prefLabel xml:lang="ZH">克罗地亚</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">Croacia</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-EA"/>
+    <skos:prefLabel xml:lang="FR">Croatie</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Kroatien</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Croatia</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/TG">
+    <skos:prefLabel xml:lang="DE">Togo</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">多哥</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="FR">Togo</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Togo</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-WE"/>
+    <skos:prefLabel xml:lang="ES">Togo</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/PW">
+    <skos:prefLabel xml:lang="ES">Palaos</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="DE">Palau</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-OC"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ZH">帕劳</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Palau</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Palaos</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/GR">
+    <skos:prefLabel xml:lang="ES">Grecia</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Griechenland</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">希腊</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Greece</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-WE"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="FR">Grèce</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/BQ">
+    <skos:prefLabel xml:lang="EN">Bonaire, Sint Eustatius and Saba</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-CB"/>
+    <skos:prefLabel xml:lang="ZH">博奈尔、圣尤斯特歇斯岛和萨巴</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Islas BES (Caribe Neerlandés)</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Bonaire, Saint-Eustache et Saba</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">Bonaire, Sint Eustatius und Saba</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/MS">
+    <skos:prefLabel xml:lang="ES">Montserrat</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Montserrat</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Montserrat</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-CB"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="FR">Montserrat</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">蒙塞拉特岛</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/HU">
+    <ossr:within rdf:resource="reg:EU-EA"/>
+    <skos:prefLabel xml:lang="EN">Hungary</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="FR">Hongrie</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Ungarn</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Hungría</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">匈牙利</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/NA">
+    <skos:prefLabel xml:lang="FR">Namibie</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">纳米比亚</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-SO"/>
+    <skos:prefLabel xml:lang="EN">Namibia</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Namibia</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Namibia</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/SL">
+    <ossr:within rdf:resource="reg:AF-WE"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="DE">Sierra Leone</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Sierra Leona</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">塞拉利昂</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Sierra Leone</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Sierra Leone</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/CM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">Kamerun</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Cameroon</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <ossr:within rdf:resource="reg:AF-CE"/>
+    <skos:prefLabel xml:lang="ES">Camerún</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Cameroun</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">喀麦隆</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/MP">
+    <ossr:within rdf:resource="reg:AP-OC"/>
+    <skos:prefLabel xml:lang="ZH">北马里亚纳群岛</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Islas Marianas del Norte</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Nördliche Marianen</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Northern Mariana Islands</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="FR">Îles Mariannes du Nord</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/TW">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Taiwán</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Taiwan</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">Taiwan</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">台湾</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Taïwan</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-SE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/HN">
+    <ossr:within rdf:resource="reg:AM-CE"/>
+    <skos:prefLabel xml:lang="ZH">洪都拉斯</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Honduras</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">Honduras</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="DE">Honduras</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Honduras</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/MQ">
+    <skos:prefLabel xml:lang="ZH">马提尼克</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-CB"/>
+    <skos:prefLabel xml:lang="FR">Martinique</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Martinique</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Martinica</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Martinique</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/NU">
+    <skos:prefLabel xml:lang="FR">Nioue</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">纽埃</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="reg:AP-OC"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="DE">Niue</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Niue</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Niue</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/BV">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Bouvet Island</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Isla Bouvet</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">布维群岛</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">Bouvet-Insel</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">île Bouvet</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/DJ">
+    <skos:prefLabel xml:lang="FR">Djibouti</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Yibuti</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">吉布提</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Djibouti</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="reg:AF-EA"/>
+    <skos:prefLabel xml:lang="DE">Dschibuti</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/BR">
+    <skos:prefLabel xml:lang="ES">Brasil</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">巴西</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-SO"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">Brasilien</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Brésil</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Brazil</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/MZ">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Mozambique</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">莫桑比克</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Mozambique</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Mosambik</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-EA"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="FR">Mozambique</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/FM">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <ossr:within rdf:resource="reg:AP-OC"/>
+    <skos:prefLabel xml:lang="ES">Micronesia, Estados Federados de</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">密克罗尼西亚</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Micronesia, Federated States of</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Micronésie, États fédérés de</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Mikronesien, Föderierte Staaten von</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/BO">
+    <ossr:within rdf:resource="reg:AM-SO"/>
+    <skos:prefLabel xml:lang="DE">Bolivien</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">波利维亚</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Bolivia</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Bolivia</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="FR">Bolivie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/LS">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="FR">Lesotho</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Lesotho</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Lesoto</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">莱索托</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-SO"/>
+    <skos:prefLabel xml:lang="DE">Lesotho</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/GN">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="FR">Guinée</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Guinea</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-WE"/>
+    <skos:prefLabel xml:lang="ZH">几内亚</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Guinea</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Guinea</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/BT">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ZH">不丹</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Bhoutan</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Bután</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Bhutan</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="reg:AP-SO"/>
+    <skos:prefLabel xml:lang="DE">Bhutan</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/AL">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ZH">阿尔巴尼亚</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Albania</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Albania</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-EA"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="FR">Albanie</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Albanien</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/RS">
+    <skos:prefLabel xml:lang="FR">Serbie</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-EA"/>
+    <skos:prefLabel xml:lang="ZH">塞尔维亚</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="EN">Serbia</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Serbia</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Serbien</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/KI">
+    <skos:prefLabel xml:lang="ZH">基里巴斯</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="DE">Kiribati</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-OC"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="FR">Kiribati</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Kiribati</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Kiribati</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/AE">
+    <skos:prefLabel xml:lang="ES">Emiratos Árabes Unidos</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-ME"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="DE">Vereinigte Arabische Emirate</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">阿联酋</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">United Arab Emirates</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Émirats arabes unis</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/ZA">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">Sudáfrica</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Afrique du Sud</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">南非</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Südafrika</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-SO"/>
+    <skos:prefLabel xml:lang="EN">South Africa</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/LV">
+    <skos:prefLabel xml:lang="EN">Latvia</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Lettland</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">拉脱维亚</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Lettonie</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-EA"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">Letonia</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/MY">
+    <skos:prefLabel xml:lang="ES">Malasia</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">马来西亚</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-SE"/>
+    <skos:prefLabel xml:lang="FR">Malaisie</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="EN">Malaysia</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Malaysia</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/CO">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ZH">哥伦比亚</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-SO"/>
+    <skos:prefLabel xml:lang="FR">Colombie</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Colombia</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Colombia</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Kolumbien</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/GF">
+    <skos:prefLabel xml:lang="FR">Guyane française</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Französisch-Guyana</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Guayana Francesa</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">法属圭亚那</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="reg:AM-SO"/>
+    <skos:prefLabel xml:lang="EN">French Guiana</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/WF">
+    <skos:prefLabel xml:lang="EN">Wallis and Futuna</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">瓦利斯和富图纳</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Wallis und Futuna</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-OC"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="FR">Wallis et Futuna</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Wallis y Futuna</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/SO">
+    <skos:prefLabel xml:lang="EN">Somalia</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-EA"/>
+    <skos:prefLabel xml:lang="FR">Somalie</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ZH">索马里</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Somalia</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Somalia</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/CN">
+    <skos:prefLabel xml:lang="ES">China</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="DE">China</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">China</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Chine</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ZH">中国</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-EA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/SI">
+    <ossr:within rdf:resource="reg:EU-EA"/>
+    <skos:prefLabel xml:lang="EN">Slovenia</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="FR">Slovénie</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">斯洛文尼亚</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Slowenien</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Eslovenia</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/LB">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Líbano</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-ME"/>
+    <skos:prefLabel xml:lang="DE">Libanon</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">黎巴嫩</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Lebanon</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Liban</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/PG">
+    <ossr:within rdf:resource="reg:AF-WE"/>
+    <skos:prefLabel xml:lang="ZH">巴布亚新几内亚</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Papúa Nueva Guinea</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Papouasie-Nouvelle-Guinée</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="DE">Papua-Neuguinea</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Papua New Guinea</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/CA">
+    <skos:prefLabel xml:lang="EN">Canada</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-NO"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="FR">Canada</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Canadá</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">加拿大</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="DE">Kanada</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/GB">
+    <skos:prefLabel xml:lang="FR">Royaume-Uni</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-WE"/>
+    <skos:prefLabel xml:lang="EN">United Kingdom</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Reino Unido</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Vereinigtes Königreich</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ZH">英国</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/IL">
+    <skos:prefLabel xml:lang="ES">Israel</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Israël</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">以色列</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-EA"/>
+    <skos:prefLabel xml:lang="EN">Israel</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">Israel</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/GU">
+    <skos:prefLabel xml:lang="DE">Guam</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Guam</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">关岛</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Guam</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Guam</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-OC"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/CK">
+    <skos:prefLabel xml:lang="DE">Cookinseln</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Islas Cook</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ZH">库克群岛</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-OC"/>
+    <skos:prefLabel xml:lang="EN">Cook Islands</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">îles Cook</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/CF">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ZH">中非</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Central African Republic</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Zentralafrikanische Republik</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-CE"/>
+    <skos:prefLabel xml:lang="ES">República Centroafricana</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="FR">République centrafricaine</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/TR">
+    <skos:prefLabel xml:lang="ZH">土耳其</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-WE"/>
+    <skos:prefLabel xml:lang="DE">Türkei</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Turquie</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Turkey</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Turquía</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/ET">
+    <ossr:within rdf:resource="reg:AF-EA"/>
+    <skos:prefLabel xml:lang="DE">Äthiopien</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Etiopía</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Éthiopie</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Ethiopia</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">埃塞俄比亚</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/UA">
+    <skos:prefLabel xml:lang="ES">Ucrania</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Ukraine</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-EA"/>
+    <skos:prefLabel xml:lang="EN">Ukraine</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ZH">乌克兰</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Ukraine</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/KR">
+    <skos:prefLabel xml:lang="EN">Korea, Republic of</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Korea, Republik</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">韩国</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-EA"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="FR">Corée, République de</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">Corea, República de</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/CY">
+    <skos:prefLabel xml:lang="ZH">塞浦路斯</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="FR">Chypre</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-WE"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Cyprus</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Chipre</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Zypern</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/FK">
+    <skos:prefLabel xml:lang="DE">Falklandinseln (Malwinen)</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Malouines, Îles (Falkland)</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Falkland Islands (Malvinas)</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">福克兰群岛(马尔维纳斯)</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Islas Falkland (Malvinas)</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/QA">
+    <skos:prefLabel xml:lang="FR">Qatar</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="EN">Qatar</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Katar</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-ME"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ZH">卡塔尔</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Catar</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/PM">
+    <ossr:within rdf:resource="reg:AM-NO"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="DE">St. Pierre und Miquelon</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">San Pedro y Miquelon</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">圣皮埃尔和密克隆</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Saint Pierre and Miquelon</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Saint-Pierre-et-Miquelon</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/PL">
+    <skos:prefLabel xml:lang="ZH">波兰</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Poland</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Polen</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Polonia</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Pologne</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-EA"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/BS">
+    <skos:prefLabel xml:lang="ZH">巴哈马</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-CB"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="FR">Bahamas</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">Bahamas</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Bahamas</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Bahamas</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/SG">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ZH">新加坡</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Singapur</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Singapur</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Singapour</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="EN">Singapore</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-SE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/MC">
+    <skos:prefLabel xml:lang="ES">Mónaco</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Monaco</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-WE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">Monaco</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Monaco</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">摩纳哥</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/ZM">
+    <skos:prefLabel xml:lang="ES">Zambia</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Zambia</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Sambia</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="FR">Zambie</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ZH">赞比亚</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-SO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/AZ">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="DE">Aserbaidschan</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Azerbaïdjan</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">阿塞拜疆</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-EA"/>
+    <skos:prefLabel xml:lang="EN">Azerbaijan</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Azerbaiyán</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/AO">
+    <skos:prefLabel xml:lang="ZH">安哥拉</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="reg:AF-SO"/>
+    <skos:prefLabel xml:lang="ES">Angola</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Angola</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Angola</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Angola</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/CG">
+    <skos:prefLabel xml:lang="FR">République du Congo</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">刚果</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-CE"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Congo</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Congo</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">Kongo</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/SS">
+    <skos:prefLabel xml:lang="EN">South Sudan</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="FR">Soudan du Sud</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Südsudan</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-EA"/>
+    <skos:prefLabel xml:lang="ZH">南苏丹</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">Sudán del Sur</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/AR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ZH">阿根廷</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="DE">Argentinien</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-SO"/>
+    <skos:prefLabel xml:lang="EN">Argentina</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Argentina</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Argentine</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/MT">
+    <skos:prefLabel xml:lang="ZH">马尔他</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-WE"/>
+    <skos:prefLabel xml:lang="ES">Malta</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Malta</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Malta</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="FR">Malte</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/LT">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Lithuania</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Lituania</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Lituanie</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Litauen</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-EA"/>
+    <skos:prefLabel xml:lang="ZH">立陶宛</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/BM">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="reg:AM-CB"/>
+    <skos:prefLabel xml:lang="ES">Islas Bermudas</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">百慕大</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Bermuda</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Bermudes</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Bermuda</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/AI">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Anguilla</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Anguilla</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Anguila</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">安圭拉</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Anguilla</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-CB"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/SJ">
+    <skos:prefLabel xml:lang="ZH">斯瓦尔巴特和扬马延岛</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Svalbard und Jan Mayen</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Svalbard and Jan Mayen</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-WE"/>
+    <skos:prefLabel xml:lang="ES">Svalbard y Jan Mayen</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Svalbard et île Jan Mayen</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/AF">
+    <skos:prefLabel xml:lang="DE">Afghanistan</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Afghanistan</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Afghanistan</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Afganistán</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">阿富汗</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-SO"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/MM">
+    <skos:prefLabel xml:lang="ZH">缅甸</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Myanmar</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Myanmar</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-SE"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">Birmania</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Birmanie</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/MR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">Mauritania</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="DE">Mauretanien</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Mauritania</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Mauritanie</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-WE"/>
+    <skos:prefLabel xml:lang="ZH">毛里塔尼亚</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/RU">
+    <skos:prefLabel xml:lang="EN">Russian Federation</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-EA"/>
+    <skos:prefLabel xml:lang="ZH">俄罗斯</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Federación Rusa</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Russie, Fédération de</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">Russische Föderation</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/LU">
+    <ossr:within rdf:resource="reg:EU-WE"/>
+    <skos:prefLabel xml:lang="ES">Luxemburgo</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Luxembourg</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Luxembourg</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">卢森堡</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">Luxemburg</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/ES">
+    <ossr:within rdf:resource="reg:EU-WE"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Spain</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">España</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Spanien</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">西班牙</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Espagne</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/TL">
+    <skos:prefLabel xml:lang="DE">Timor-Leste</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Timor-Leste</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Timor oriental</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="reg:AP-OC"/>
+    <skos:prefLabel xml:lang="ZH">东帝汶</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Timor Oriental</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/ML">
+    <skos:prefLabel xml:lang="ES">Mali</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">马里</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Mali</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Mali</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Mali</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="reg:AF-WE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/GS">
+    <skos:prefLabel xml:lang="FR">Géorgie du Sud et les îles Sandwich du Sud</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">South Georgia und die Südlichen Sandwichinseln</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ZH">南乔治亚岛和南桑德韦奇岛</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">South Georgia and the South Sandwich Islands</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Islas Georgias del Sur y Sándwich del Sur</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/NE">
+    <ossr:within rdf:resource="reg:AF-WE"/>
+    <skos:prefLabel xml:lang="ES">Niger</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Niger</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">尼日尔</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Niger</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">Niger</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/TO">
+    <skos:prefLabel xml:lang="EN">Tonga</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Tonga</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="DE">Tonga</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">汤加</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-OC"/>
+    <skos:prefLabel xml:lang="ES">Tonga</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/CD">
+    <skos:prefLabel xml:lang="FR">République démocratique du Congo</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Demokratische Republik Kongo</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Congo, The Democratic Republic of the</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">刚果民主共和国</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Congo, República Democrática del</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <ossr:within rdf:resource="reg:AF-CE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/ER">
+    <skos:prefLabel xml:lang="EN">Eritrea</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ZH">厄立特里亚</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Eritrea</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Eritrea</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Érythrée</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-ME"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/PK">
+    <skos:prefLabel xml:lang="ES">Pakistán</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Pakistan</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="EN">Pakistan</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <ossr:within rdf:resource="reg:AP-SO"/>
+    <skos:prefLabel xml:lang="ZH">巴基斯坦</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Pakistan</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/HK">
+    <skos:prefLabel xml:lang="FR">Hong Kong</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Hong Kong</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">香港</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <ossr:within rdf:resource="reg:AP-EA"/>
+    <skos:prefLabel xml:lang="DE">Hongkong</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Hong Kong</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/YT">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ZH">马约特</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-SO"/>
+    <skos:prefLabel xml:lang="DE">Mayotte</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Mayotte</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">Mayotte</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Mayotte</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/SE">
+    <skos:prefLabel xml:lang="ES">Suecia</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Schweden</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-WE"/>
+    <skos:prefLabel xml:lang="FR">Suède</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ZH">瑞典</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Sweden</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/GT">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ZH">瓜地马拉</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Guatemala</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-CE"/>
+    <skos:prefLabel xml:lang="ES">Guatemala</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Guatemala</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">Guatemala</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/PN">
+    <skos:prefLabel xml:lang="FR">Îles Pitcairn</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Pitcairn</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Pitcairn</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-OC"/>
+    <skos:prefLabel xml:lang="DE">Pitcairn</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">皮特克恩</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/NR">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">Nauru</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">瑙鲁</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="FR">Nauru</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Nauru</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-OC"/>
+    <skos:prefLabel xml:lang="DE">Nauru</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/MF">
+    <skos:prefLabel xml:lang="EN">Saint Martin (French part)</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="FR">Saint-Martin (partie française)</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">San Martín (zona francesa)</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Saint Martin (Französischer Teil)</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">法属圣马丁</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dc:creator>Solidarity Economy Association</dc:creator>
+    <dc:title>Countries</dc:title>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-25</dc:modified>
+    <dcterms:publisher>ESSGLOBAL</dcterms:publisher>
+    <dcterms:creator rdf:resource="http://solidarityeconomy.coop"/>
+    <dc:publisher rdf:resource="http://www.ripess.org/"/>
+    <dc:language>en-en</dc:language>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-22</dcterms:created>
+    <dc:description>A controlled vocabulary of countries compatible with ISO-3166-2 for SSE</dc:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/LR">
+    <skos:prefLabel xml:lang="DE">Liberia</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Libéria</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-WE"/>
+    <skos:prefLabel xml:lang="ZH">利比里亚</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Liberia</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Liberia</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/UM">
+    <ossr:within rdf:resource="reg:AP-OC"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">United States Minor Outlying Islands</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Îles mineures éloignées des États-Unis</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Islas Ultramarinas Menores de Estados Unidos</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">美国本土外小岛屿</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">United States Minor Outlying Islands</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/CI">
+    <skos:prefLabel xml:lang="ZH">科特迪瓦</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-WE"/>
+    <skos:prefLabel xml:lang="FR">Côte d'Ivoire</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Costa de Marfíl</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Côte d'Ivoire</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">Côte d'Ivoire</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/BW">
+    <skos:prefLabel xml:lang="FR">Botswana</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-SO"/>
+    <skos:prefLabel xml:lang="EN">Botswana</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="DE">Botsuana</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ZH">博兹瓦那</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Botsuana</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/TK">
+    <skos:prefLabel xml:lang="ES">Tokelau</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">托克劳群岛</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-OC"/>
+    <skos:prefLabel xml:lang="EN">Tokelau</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">Tokelau</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="FR">Tokelau</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/SX">
+    <skos:prefLabel xml:lang="DE">Saint-Martin (Niederländischer Teil)</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">荷属圣马丁</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Sint Maarten (Dutch part)</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Isla de San Martín (zona holandsea)</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Saint-Martin (partie néerlandaise)</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="reg:AM-CB"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/TT">
+    <skos:prefLabel xml:lang="FR">Trinité-et-Tobago</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">特里尼达和多巴哥</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="EN">Trinidad and Tobago</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <ossr:within rdf:resource="reg:AM-CB"/>
+    <skos:prefLabel xml:lang="DE">Trinidad und Tobago</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Trinidad y Tobago</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/SZ">
+    <ossr:within rdf:resource="reg:AF-SO"/>
+    <skos:prefLabel xml:lang="DE">Eswatini</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">斯威士兰</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Eswatini</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Eswatini</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">Suazilandia</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/UG">
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="EN">Uganda</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Uganda</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-EA"/>
+    <skos:prefLabel xml:lang="ZH">乌干达</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Ouganda</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">Uganda</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/KP">
+    <skos:prefLabel xml:lang="EN">Korea, Democratic People's Republic of</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-EA"/>
+    <skos:prefLabel xml:lang="FR">Corée, République populaire démocratique de</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Corea, República Democrática Popular de</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Korea, Demokratische Volksrepublik</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">朝鲜</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/LC">
+    <skos:prefLabel xml:lang="ES">Santa Lucía</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AM-CB"/>
+    <skos:prefLabel xml:lang="DE">St. Lucia</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">圣路西亚</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Saint Lucia</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Sainte-Lucie</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/LA">
+    <ossr:within rdf:resource="reg:AP-SE"/>
+    <skos:prefLabel xml:lang="ZH">老挝人民民主共和国</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">República Democrática Popular de Lao</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">Laos, Demokratische Volksrepublik</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Lao, République démocratique populaire</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Lao People's Democratic Republic</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/DE">
+    <skos:prefLabel xml:lang="DE">Deutschland</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="FR">Allemagne</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Alemania</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ZH">德国</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-WE"/>
+    <skos:prefLabel xml:lang="EN">Germany</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/SK">
+    <ossr:within rdf:resource="reg:EU-EA"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ZH">斯洛伐克</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Slowakei</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Slovakia</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Slovaquie</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Eslovaquia</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/DK">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ES">Dinamarca</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">丹麦</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-WE"/>
+    <skos:prefLabel xml:lang="FR">Danemark</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Denmark</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Dänemark</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/NG">
+    <skos:prefLabel xml:lang="FR">Nigeria</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Nigeria</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Nigeria</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">尼日利亚</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ossr:within rdf:resource="reg:AF-WE"/>
+    <skos:prefLabel xml:lang="EN">Nigeria</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/SC">
+    <skos:prefLabel xml:lang="FR">Seychelles</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Seychelles</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Seychellen</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="EN">Seychelles</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <ossr:within rdf:resource="reg:AF-SO"/>
+    <skos:prefLabel xml:lang="ZH">塞舌尔</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/VE">
+    <ossr:within rdf:resource="reg:AM-SO"/>
+    <skos:prefLabel xml:lang="FR">Vénézuela</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">委内瑞拉</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Venezuela</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Venezuela</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="EN">Venezuela</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/TH">
+    <skos:prefLabel xml:lang="ZH">泰国</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Thailand</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">Thailand</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="ES">Tailandia</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AP-SE"/>
+    <skos:prefLabel xml:lang="FR">Thaïlande</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/YE">
+    <skos:prefLabel xml:lang="ES">Yemen</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Jemen</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ZH">也门</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Yémen</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <ossr:within rdf:resource="reg:AP-ME"/>
+    <skos:prefLabel xml:lang="EN">Yemen</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/IE">
+    <skos:prefLabel xml:lang="ES">Irlanda</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Irlande</skos:prefLabel>
+    <ossr:within rdf:resource="reg:EU-WE"/>
+    <skos:prefLabel xml:lang="ZH">爱尔兰</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Irland</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Ireland</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/HM">
+    <skos:prefLabel xml:lang="FR">îles Heard-et-MacDonald</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Islas Heard y McDonald</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Heard Island and McDonald Islands</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Heard und McDonaldinseln</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">赫德岛与麦克唐纳群岛</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/BH">
+    <ossr:within rdf:resource="reg:AP-ME"/>
+    <skos:prefLabel xml:lang="FR">Bahreïn</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="DE">Bahrain</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">巴林</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Bahrain</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Baréin</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/KE">
+    <skos:prefLabel xml:lang="EN">Kenya</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <skos:prefLabel xml:lang="FR">Kenya</skos:prefLabel>
+    <skos:prefLabel xml:lang="DE">Kenia</skos:prefLabel>
+    <skos:prefLabel xml:lang="ZH">肯尼亚</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Kenia</skos:prefLabel>
+    <ossr:within rdf:resource="reg:AF-EA"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/essglobal/standard/countries/ST">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="DE">São Tomé und Príncipe</skos:prefLabel>
+    <skos:prefLabel xml:lang="EN">Sao Tome and Principe</skos:prefLabel>
+    <skos:prefLabel xml:lang="ES">Santo Tomé y Príncipe</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/essglobal/standard/countries/"/>
+    <ossr:within rdf:resource="reg:AF-CE"/>
+    <skos:prefLabel xml:lang="ZH">圣多美和普林西比</skos:prefLabel>
+    <skos:prefLabel xml:lang="FR">Sao Tomé-et-Principe</skos:prefLabel>
+  </rdf:Description>
+</rdf:RDF>
