@@ -12,13 +12,14 @@ IcaSuperRegionIds = CSV.foreach('ica-super-regions.tsv', col_sep: "\t", headers:
 base_url = 'http://purl.org/essglobal/standard/regions/'
 
 class Region < Scheme::Term
-  attr_reader :id, :name, :super_region
-  def initialize(base_url, id, super_region, name)
-    super(uri: base_url+id.to_s,
+  attr_reader :id, :srid, :name, :super_region
+  def initialize(base_url, rid, name, srid, super_region)
+    super(uri: base_url+rid.to_s,
           scheme: base_url,
           within: super_region && Prefixes[:sreg]+IcaSuperRegionIds[super_region],
           pref_label: name)
-    @id = id
+    @id = rid
+    @srid = srid
     @name = name
     @super_region = super_region
   end

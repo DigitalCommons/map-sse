@@ -26,7 +26,7 @@ end
 Countries = Carmen::Country.all
 I18N = Languages.to_h {|l| [l, I18nData.countries(l)] }
 IcaRegionIds = CSV.foreach('ica-regions.tsv', col_sep: "\t", headers: true)
-                 .to_h {|r| [r['Region'], r['ID']] }
+                 .to_h {|r| [r['Region'], r['RID']] }
 IsoCountries = CSV.foreach('iso-countries.tsv', col_sep: "\t", headers: true)
                  .filter {|r| r['ISO-Code-Match?'] == 'true' }
                  .to_h {|r| [r['ISO-Code'], IcaRegionIds[r['Region']]] }

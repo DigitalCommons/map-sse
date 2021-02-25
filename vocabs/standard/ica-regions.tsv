@@ -1,18 +1,18 @@
-ID	Super-region	Region
-AF-CE	Africa	Central Africa
-AF-EA	Africa	East Africa
-AF-NO	Africa	North Africa
-AF-SO	Africa	Southern Africa
-AF-WE	Africa	West Africa
-AM-CB	Americas	Caribbean countries
-AM-CE	Americas	Central America
-AM-NO	Americas	North America
-AM-SO	Americas	South America
-AP-CE	Asia+Pacific	Central Asia
-AP-EA	Asia+Pacific	East Asia
-AP-ME	Asia+Pacific	Middle East
-AP-OC	Asia+Pacific	Oceania
-AP-SO	Asia+Pacific	South Asia
-AP-SE	Asia+Pacific	South East Asia
-EU-EA	Europe	Europe (Eastern)
-EU-WE	Europe	Europe (Western)
+RID	Region	SRID	Super-region
+AF-CE	Central Africa	AF	Africa
+AF-EA	East Africa	AF	Africa
+AF-NO	North Africa	AF	Africa
+AF-SO	Southern Africa	AF	Africa
+AF-WE	West Africa	AF	Africa
+AM-CB	Caribbean countries	AM	Americas
+AM-CE	Central America	AM	Americas
+AM-NO	North America	AM	Americas
+AM-SO	South America	AM	Americas
+AP-CE	Central Asia	AP	Asia+Pacific
+AP-EA	East Asia	AP	Asia+Pacific
+AP-ME	Middle East	AP	Asia+Pacific
+AP-OC	Oceania	AP	Asia+Pacific
+AP-SO	South Asia	AP	Asia+Pacific
+AP-SE	South East Asia	AP	Asia+Pacific
+EU-EA	Europe (Eastern)	EU	Europe
+EU-WE	Europe (Western)	EU	Europe
