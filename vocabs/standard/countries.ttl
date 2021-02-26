@@ -18,11 +18,11 @@
     dcterms:created "2021-02-22"^^xsd:date;
     dcterms:publisher "ESSGLOBAL";
     dc:publisher <http://www.ripess.org/>;
-    dc:modified "2021-02-25"^^xsd:date.
+    dc:modified "2021-02-26"^^xsd:date.
 
 <AD> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-WE>;
+    ossr:within <reg:I-EU-WE>;
     skos:prefLabel "Andorra"@EN;
     skos:prefLabel "Andorra"@ES;
     skos:prefLabel "Andorre"@FR;
@@ -31,7 +31,7 @@
 .
 <AE> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-ME>;
+    ossr:within <reg:I-AP-ME>;
     skos:prefLabel "United Arab Emirates"@EN;
     skos:prefLabel "Emiratos Árabes Unidos"@ES;
     skos:prefLabel "Émirats arabes unis"@FR;
@@ -40,7 +40,7 @@
 .
 <AF> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-SO>;
+    ossr:within <reg:I-AP-SO>;
     skos:prefLabel "Afghanistan"@EN;
     skos:prefLabel "Afganistán"@ES;
     skos:prefLabel "Afghanistan"@FR;
@@ -49,7 +49,7 @@
 .
 <AG> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CB>;
+    ossr:within <reg:I-AM-CB>;
     skos:prefLabel "Antigua and Barbuda"@EN;
     skos:prefLabel "Antigua y Barbuda"@ES;
     skos:prefLabel "Antigua-et-Barbuda"@FR;
@@ -58,7 +58,7 @@
 .
 <AI> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CB>;
+    ossr:within <reg:I-AM-CB>;
     skos:prefLabel "Anguilla"@EN;
     skos:prefLabel "Anguila"@ES;
     skos:prefLabel "Anguilla"@FR;
@@ -67,7 +67,7 @@
 .
 <AL> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-EA>;
+    ossr:within <reg:I-EU-EA>;
     skos:prefLabel "Albania"@EN;
     skos:prefLabel "Albania"@ES;
     skos:prefLabel "Albanie"@FR;
@@ -76,7 +76,7 @@
 .
 <AM> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-EA>;
+    ossr:within <reg:I-EU-EA>;
     skos:prefLabel "Armenia"@EN;
     skos:prefLabel "Armenia"@ES;
     skos:prefLabel "Arménie"@FR;
@@ -85,7 +85,7 @@
 .
 <AO> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-SO>;
+    ossr:within <reg:I-AF-SO>;
     skos:prefLabel "Angola"@EN;
     skos:prefLabel "Angola"@ES;
     skos:prefLabel "Angola"@FR;
@@ -102,7 +102,7 @@
 .
 <AR> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-SO>;
+    ossr:within <reg:I-AM-SO>;
     skos:prefLabel "Argentina"@EN;
     skos:prefLabel "Argentina"@ES;
     skos:prefLabel "Argentine"@FR;
@@ -111,7 +111,7 @@
 .
 <AS> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-OC>;
+    ossr:within <reg:I-AP-OC>;
     skos:prefLabel "American Samoa"@EN;
     skos:prefLabel "Samoa Estadounidense"@ES;
     skos:prefLabel "Samoa américaines"@FR;
@@ -120,7 +120,7 @@
 .
 <AT> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-WE>;
+    ossr:within <reg:I-EU-WE>;
     skos:prefLabel "Austria"@EN;
     skos:prefLabel "Austria"@ES;
     skos:prefLabel "Autriche"@FR;
@@ -129,7 +129,7 @@
 .
 <AU> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-OC>;
+    ossr:within <reg:I-AP-OC>;
     skos:prefLabel "Australia"@EN;
     skos:prefLabel "Australia"@ES;
     skos:prefLabel "Australie"@FR;
@@ -138,7 +138,7 @@
 .
 <AW> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CB>;
+    ossr:within <reg:I-AM-CB>;
     skos:prefLabel "Aruba"@EN;
     skos:prefLabel "Aruba"@ES;
     skos:prefLabel "Aruba"@FR;
@@ -147,7 +147,7 @@
 .
 <AX> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-WE>;
+    ossr:within <reg:I-EU-WE>;
     skos:prefLabel "Åland Islands"@EN;
     skos:prefLabel "Islas Äland"@ES;
     skos:prefLabel "Åland, Îles"@FR;
@@ -156,7 +156,7 @@
 .
 <AZ> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-EA>;
+    ossr:within <reg:I-EU-EA>;
     skos:prefLabel "Azerbaijan"@EN;
     skos:prefLabel "Azerbaiyán"@ES;
     skos:prefLabel "Azerbaïdjan"@FR;
@@ -165,7 +165,7 @@
 .
 <BA> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-EA>;
+    ossr:within <reg:I-EU-EA>;
     skos:prefLabel "Bosnia and Herzegovina"@EN;
     skos:prefLabel "Bosnia y Herzegovina"@ES;
     skos:prefLabel "Bosnie-Herzégovine"@FR;
@@ -174,7 +174,7 @@
 .
 <BB> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CB>;
+    ossr:within <reg:I-AM-CB>;
     skos:prefLabel "Barbados"@EN;
     skos:prefLabel "Barbados"@ES;
     skos:prefLabel "Barbade"@FR;
@@ -183,7 +183,7 @@
 .
 <BD> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-SO>;
+    ossr:within <reg:I-AP-SO>;
     skos:prefLabel "Bangladesh"@EN;
     skos:prefLabel "Bangladés"@ES;
     skos:prefLabel "Bangladesh"@FR;
@@ -192,7 +192,7 @@
 .
 <BE> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-WE>;
+    ossr:within <reg:I-EU-WE>;
     skos:prefLabel "Belgium"@EN;
     skos:prefLabel "Bélgica"@ES;
     skos:prefLabel "Belgique"@FR;
@@ -201,7 +201,7 @@
 .
 <BF> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-WE>;
+    ossr:within <reg:I-AF-WE>;
     skos:prefLabel "Burkina Faso"@EN;
     skos:prefLabel "Burquina Faso"@ES;
     skos:prefLabel "Burkina Faso"@FR;
@@ -210,7 +210,7 @@
 .
 <BG> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-EA>;
+    ossr:within <reg:I-EU-EA>;
     skos:prefLabel "Bulgaria"@EN;
     skos:prefLabel "Bulgaria"@ES;
     skos:prefLabel "Bulgarie"@FR;
@@ -219,7 +219,7 @@
 .
 <BH> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-ME>;
+    ossr:within <reg:I-AP-ME>;
     skos:prefLabel "Bahrain"@EN;
     skos:prefLabel "Baréin"@ES;
     skos:prefLabel "Bahreïn"@FR;
@@ -228,7 +228,7 @@
 .
 <BI> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-CE>;
+    ossr:within <reg:I-AF-CE>;
     skos:prefLabel "Burundi"@EN;
     skos:prefLabel "Burundi"@ES;
     skos:prefLabel "Burundi"@FR;
@@ -237,7 +237,7 @@
 .
 <BJ> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-WE>;
+    ossr:within <reg:I-AF-WE>;
     skos:prefLabel "Benin"@EN;
     skos:prefLabel "Benín"@ES;
     skos:prefLabel "Bénin"@FR;
@@ -254,7 +254,7 @@
 .
 <BM> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CB>;
+    ossr:within <reg:I-AM-CB>;
     skos:prefLabel "Bermuda"@EN;
     skos:prefLabel "Islas Bermudas"@ES;
     skos:prefLabel "Bermudes"@FR;
@@ -263,7 +263,7 @@
 .
 <BN> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-SE>;
+    ossr:within <reg:I-AP-SE>;
     skos:prefLabel "Brunei Darussalam"@EN;
     skos:prefLabel "Brunei Darussalam"@ES;
     skos:prefLabel "Brunéi Darussalam"@FR;
@@ -272,7 +272,7 @@
 .
 <BO> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-SO>;
+    ossr:within <reg:I-AM-SO>;
     skos:prefLabel "Bolivia"@EN;
     skos:prefLabel "Bolivia"@ES;
     skos:prefLabel "Bolivie"@FR;
@@ -281,7 +281,7 @@
 .
 <BQ> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CB>;
+    ossr:within <reg:I-AM-CB>;
     skos:prefLabel "Bonaire, Sint Eustatius and Saba"@EN;
     skos:prefLabel "Islas BES (Caribe Neerlandés)"@ES;
     skos:prefLabel "Bonaire, Saint-Eustache et Saba"@FR;
@@ -290,7 +290,7 @@
 .
 <BR> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-SO>;
+    ossr:within <reg:I-AM-SO>;
     skos:prefLabel "Brazil"@EN;
     skos:prefLabel "Brasil"@ES;
     skos:prefLabel "Brésil"@FR;
@@ -299,7 +299,7 @@
 .
 <BS> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CB>;
+    ossr:within <reg:I-AM-CB>;
     skos:prefLabel "Bahamas"@EN;
     skos:prefLabel "Bahamas"@ES;
     skos:prefLabel "Bahamas"@FR;
@@ -308,7 +308,7 @@
 .
 <BT> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-SO>;
+    ossr:within <reg:I-AP-SO>;
     skos:prefLabel "Bhutan"@EN;
     skos:prefLabel "Bután"@ES;
     skos:prefLabel "Bhoutan"@FR;
@@ -325,7 +325,7 @@
 .
 <BW> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-SO>;
+    ossr:within <reg:I-AF-SO>;
     skos:prefLabel "Botswana"@EN;
     skos:prefLabel "Botsuana"@ES;
     skos:prefLabel "Botswana"@FR;
@@ -334,7 +334,7 @@
 .
 <BY> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-EA>;
+    ossr:within <reg:I-EU-EA>;
     skos:prefLabel "Belarus"@EN;
     skos:prefLabel "Bielorrusia"@ES;
     skos:prefLabel "Bélarus"@FR;
@@ -343,7 +343,7 @@
 .
 <BZ> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CE>;
+    ossr:within <reg:I-AM-CE>;
     skos:prefLabel "Belize"@EN;
     skos:prefLabel "Belice"@ES;
     skos:prefLabel "Belize"@FR;
@@ -352,7 +352,7 @@
 .
 <CA> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-NO>;
+    ossr:within <reg:I-AM-NO>;
     skos:prefLabel "Canada"@EN;
     skos:prefLabel "Canadá"@ES;
     skos:prefLabel "Canada"@FR;
@@ -361,7 +361,7 @@
 .
 <CC> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-OC>;
+    ossr:within <reg:I-AP-OC>;
     skos:prefLabel "Cocos (Keeling) Islands"@EN;
     skos:prefLabel "Islas Cocos (Keeling)"@ES;
     skos:prefLabel "Cocos (Keeling), Îles"@FR;
@@ -370,7 +370,7 @@
 .
 <CD> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-CE>;
+    ossr:within <reg:I-AF-CE>;
     skos:prefLabel "Congo, The Democratic Republic of the"@EN;
     skos:prefLabel "Congo, República Democrática del"@ES;
     skos:prefLabel "République démocratique du Congo"@FR;
@@ -379,7 +379,7 @@
 .
 <CF> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-CE>;
+    ossr:within <reg:I-AF-CE>;
     skos:prefLabel "Central African Republic"@EN;
     skos:prefLabel "República Centroafricana"@ES;
     skos:prefLabel "République centrafricaine"@FR;
@@ -388,7 +388,7 @@
 .
 <CG> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-CE>;
+    ossr:within <reg:I-AF-CE>;
     skos:prefLabel "Congo"@EN;
     skos:prefLabel "Congo"@ES;
     skos:prefLabel "République du Congo"@FR;
@@ -397,7 +397,7 @@
 .
 <CH> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-WE>;
+    ossr:within <reg:I-EU-WE>;
     skos:prefLabel "Switzerland"@EN;
     skos:prefLabel "Suiza"@ES;
     skos:prefLabel "Suisse"@FR;
@@ -406,7 +406,7 @@
 .
 <CI> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-WE>;
+    ossr:within <reg:I-AF-WE>;
     skos:prefLabel "Côte d'Ivoire"@EN;
     skos:prefLabel "Costa de Marfíl"@ES;
     skos:prefLabel "Côte d'Ivoire"@FR;
@@ -415,7 +415,7 @@
 .
 <CK> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-OC>;
+    ossr:within <reg:I-AP-OC>;
     skos:prefLabel "Cook Islands"@EN;
     skos:prefLabel "Islas Cook"@ES;
     skos:prefLabel "îles Cook"@FR;
@@ -424,7 +424,7 @@
 .
 <CL> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-SO>;
+    ossr:within <reg:I-AM-SO>;
     skos:prefLabel "Chile"@EN;
     skos:prefLabel "Chile"@ES;
     skos:prefLabel "Chili"@FR;
@@ -433,7 +433,7 @@
 .
 <CM> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-CE>;
+    ossr:within <reg:I-AF-CE>;
     skos:prefLabel "Cameroon"@EN;
     skos:prefLabel "Camerún"@ES;
     skos:prefLabel "Cameroun"@FR;
@@ -442,7 +442,7 @@
 .
 <CN> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-EA>;
+    ossr:within <reg:I-AP-EA>;
     skos:prefLabel "China"@EN;
     skos:prefLabel "China"@ES;
     skos:prefLabel "Chine"@FR;
@@ -451,7 +451,7 @@
 .
 <CO> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-SO>;
+    ossr:within <reg:I-AM-SO>;
     skos:prefLabel "Colombia"@EN;
     skos:prefLabel "Colombia"@ES;
     skos:prefLabel "Colombie"@FR;
@@ -460,7 +460,7 @@
 .
 <CR> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CE>;
+    ossr:within <reg:I-AM-CE>;
     skos:prefLabel "Costa Rica"@EN;
     skos:prefLabel "Costa Rica"@ES;
     skos:prefLabel "Costa Rica"@FR;
@@ -469,7 +469,7 @@
 .
 <CU> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CB>;
+    ossr:within <reg:I-AM-CB>;
     skos:prefLabel "Cuba"@EN;
     skos:prefLabel "Cuba"@ES;
     skos:prefLabel "Cuba"@FR;
@@ -478,7 +478,7 @@
 .
 <CV> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-WE>;
+    ossr:within <reg:I-AF-WE>;
     skos:prefLabel "Cabo Verde"@EN;
     skos:prefLabel "Cabo Verde"@ES;
     skos:prefLabel "Cap-Vert"@FR;
@@ -487,7 +487,7 @@
 .
 <CW> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CB>;
+    ossr:within <reg:I-AM-CB>;
     skos:prefLabel "Curaçao"@EN;
     skos:prefLabel "Curazao"@ES;
     skos:prefLabel "Curaçao"@FR;
@@ -496,7 +496,7 @@
 .
 <CX> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-OC>;
+    ossr:within <reg:I-AP-OC>;
     skos:prefLabel "Christmas Island"@EN;
     skos:prefLabel "Isla de Navidad"@ES;
     skos:prefLabel "Christmas, Île"@FR;
@@ -505,7 +505,7 @@
 .
 <CY> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-WE>;
+    ossr:within <reg:I-EU-WE>;
     skos:prefLabel "Cyprus"@EN;
     skos:prefLabel "Chipre"@ES;
     skos:prefLabel "Chypre"@FR;
@@ -514,7 +514,7 @@
 .
 <CZ> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-EA>;
+    ossr:within <reg:I-EU-EA>;
     skos:prefLabel "Czechia"@EN;
     skos:prefLabel "Chequia"@ES;
     skos:prefLabel "Tchéquie"@FR;
@@ -523,7 +523,7 @@
 .
 <DE> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-WE>;
+    ossr:within <reg:I-EU-WE>;
     skos:prefLabel "Germany"@EN;
     skos:prefLabel "Alemania"@ES;
     skos:prefLabel "Allemagne"@FR;
@@ -532,7 +532,7 @@
 .
 <DJ> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-EA>;
+    ossr:within <reg:I-AF-EA>;
     skos:prefLabel "Djibouti"@EN;
     skos:prefLabel "Yibuti"@ES;
     skos:prefLabel "Djibouti"@FR;
@@ -541,7 +541,7 @@
 .
 <DK> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-WE>;
+    ossr:within <reg:I-EU-WE>;
     skos:prefLabel "Denmark"@EN;
     skos:prefLabel "Dinamarca"@ES;
     skos:prefLabel "Danemark"@FR;
@@ -550,7 +550,7 @@
 .
 <DM> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CB>;
+    ossr:within <reg:I-AM-CB>;
     skos:prefLabel "Dominica"@EN;
     skos:prefLabel "Dominica"@ES;
     skos:prefLabel "Dominique"@FR;
@@ -559,7 +559,7 @@
 .
 <DO> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CB>;
+    ossr:within <reg:I-AM-CB>;
     skos:prefLabel "Dominican Republic"@EN;
     skos:prefLabel "República Dominicana"@ES;
     skos:prefLabel "République dominicaine"@FR;
@@ -568,7 +568,7 @@
 .
 <DZ> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-NO>;
+    ossr:within <reg:I-AF-NO>;
     skos:prefLabel "Algeria"@EN;
     skos:prefLabel "Algeria"@ES;
     skos:prefLabel "Algérie"@FR;
@@ -577,7 +577,7 @@
 .
 <EC> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-SO>;
+    ossr:within <reg:I-AM-SO>;
     skos:prefLabel "Ecuador"@EN;
     skos:prefLabel "Ecuador"@ES;
     skos:prefLabel "Équateur"@FR;
@@ -586,7 +586,7 @@
 .
 <EE> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-EA>;
+    ossr:within <reg:I-EU-EA>;
     skos:prefLabel "Estonia"@EN;
     skos:prefLabel "Estonia"@ES;
     skos:prefLabel "Estonie"@FR;
@@ -595,7 +595,7 @@
 .
 <EG> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-NO>;
+    ossr:within <reg:I-AF-NO>;
     skos:prefLabel "Egypt"@EN;
     skos:prefLabel "Egipto"@ES;
     skos:prefLabel "Égypte"@FR;
@@ -604,7 +604,7 @@
 .
 <EH> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-NO>;
+    ossr:within <reg:I-AF-NO>;
     skos:prefLabel "Western Sahara"@EN;
     skos:prefLabel "Sahara Occidental"@ES;
     skos:prefLabel "Sahara occidental"@FR;
@@ -613,7 +613,7 @@
 .
 <ER> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-ME>;
+    ossr:within <reg:I-AP-ME>;
     skos:prefLabel "Eritrea"@EN;
     skos:prefLabel "Eritrea"@ES;
     skos:prefLabel "Érythrée"@FR;
@@ -622,7 +622,7 @@
 .
 <ES> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-WE>;
+    ossr:within <reg:I-EU-WE>;
     skos:prefLabel "Spain"@EN;
     skos:prefLabel "España"@ES;
     skos:prefLabel "Espagne"@FR;
@@ -631,7 +631,7 @@
 .
 <ET> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-EA>;
+    ossr:within <reg:I-AF-EA>;
     skos:prefLabel "Ethiopia"@EN;
     skos:prefLabel "Etiopía"@ES;
     skos:prefLabel "Éthiopie"@FR;
@@ -640,7 +640,7 @@
 .
 <FI> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-WE>;
+    ossr:within <reg:I-EU-WE>;
     skos:prefLabel "Finland"@EN;
     skos:prefLabel "Finlandia"@ES;
     skos:prefLabel "Finlande"@FR;
@@ -649,7 +649,7 @@
 .
 <FJ> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-OC>;
+    ossr:within <reg:I-AP-OC>;
     skos:prefLabel "Fiji"@EN;
     skos:prefLabel "Fiyi"@ES;
     skos:prefLabel "Fidji"@FR;
@@ -666,7 +666,7 @@
 .
 <FM> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-OC>;
+    ossr:within <reg:I-AP-OC>;
     skos:prefLabel "Micronesia, Federated States of"@EN;
     skos:prefLabel "Micronesia, Estados Federados de"@ES;
     skos:prefLabel "Micronésie, États fédérés de"@FR;
@@ -675,7 +675,7 @@
 .
 <FO> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-WE>;
+    ossr:within <reg:I-EU-WE>;
     skos:prefLabel "Faroe Islands"@EN;
     skos:prefLabel "Islas Feroe"@ES;
     skos:prefLabel "îles Féroé"@FR;
@@ -684,7 +684,7 @@
 .
 <FR> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-WE>;
+    ossr:within <reg:I-EU-WE>;
     skos:prefLabel "France"@EN;
     skos:prefLabel "Francia"@ES;
     skos:prefLabel "France"@FR;
@@ -693,7 +693,7 @@
 .
 <GA> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-CE>;
+    ossr:within <reg:I-AF-CE>;
     skos:prefLabel "Gabon"@EN;
     skos:prefLabel "Gabón"@ES;
     skos:prefLabel "Gabon"@FR;
@@ -702,7 +702,7 @@
 .
 <GB> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-WE>;
+    ossr:within <reg:I-EU-WE>;
     skos:prefLabel "United Kingdom"@EN;
     skos:prefLabel "Reino Unido"@ES;
     skos:prefLabel "Royaume-Uni"@FR;
@@ -711,7 +711,7 @@
 .
 <GD> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CB>;
+    ossr:within <reg:I-AM-CB>;
     skos:prefLabel "Grenada"@EN;
     skos:prefLabel "Granada"@ES;
     skos:prefLabel "Grenade"@FR;
@@ -720,7 +720,7 @@
 .
 <GE> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-EA>;
+    ossr:within <reg:I-EU-EA>;
     skos:prefLabel "Georgia"@EN;
     skos:prefLabel "Georgia"@ES;
     skos:prefLabel "Géorgie"@FR;
@@ -729,7 +729,7 @@
 .
 <GF> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-SO>;
+    ossr:within <reg:I-AM-SO>;
     skos:prefLabel "French Guiana"@EN;
     skos:prefLabel "Guayana Francesa"@ES;
     skos:prefLabel "Guyane française"@FR;
@@ -746,7 +746,7 @@
 .
 <GH> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-WE>;
+    ossr:within <reg:I-AF-WE>;
     skos:prefLabel "Ghana"@EN;
     skos:prefLabel "Ghana"@ES;
     skos:prefLabel "Ghana"@FR;
@@ -755,7 +755,7 @@
 .
 <GI> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-WE>;
+    ossr:within <reg:I-EU-WE>;
     skos:prefLabel "Gibraltar"@EN;
     skos:prefLabel "Gibraltar"@ES;
     skos:prefLabel "Gibraltar"@FR;
@@ -764,7 +764,7 @@
 .
 <GL> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-WE>;
+    ossr:within <reg:I-EU-WE>;
     skos:prefLabel "Greenland"@EN;
     skos:prefLabel "Groenlandia"@ES;
     skos:prefLabel "Groënland"@FR;
@@ -773,7 +773,7 @@
 .
 <GM> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-WE>;
+    ossr:within <reg:I-AF-WE>;
     skos:prefLabel "Gambia"@EN;
     skos:prefLabel "Gambia"@ES;
     skos:prefLabel "Gambie"@FR;
@@ -782,7 +782,7 @@
 .
 <GN> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-WE>;
+    ossr:within <reg:I-AF-WE>;
     skos:prefLabel "Guinea"@EN;
     skos:prefLabel "Guinea"@ES;
     skos:prefLabel "Guinée"@FR;
@@ -791,7 +791,7 @@
 .
 <GP> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CB>;
+    ossr:within <reg:I-AM-CB>;
     skos:prefLabel "Guadeloupe"@EN;
     skos:prefLabel "Guadalupe"@ES;
     skos:prefLabel "Guadeloupe"@FR;
@@ -800,7 +800,7 @@
 .
 <GQ> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-WE>;
+    ossr:within <reg:I-AF-WE>;
     skos:prefLabel "Equatorial Guinea"@EN;
     skos:prefLabel "Guinea Ecuatorial"@ES;
     skos:prefLabel "Guinée Équatoriale"@FR;
@@ -809,7 +809,7 @@
 .
 <GR> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-WE>;
+    ossr:within <reg:I-EU-WE>;
     skos:prefLabel "Greece"@EN;
     skos:prefLabel "Grecia"@ES;
     skos:prefLabel "Grèce"@FR;
@@ -826,7 +826,7 @@
 .
 <GT> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CE>;
+    ossr:within <reg:I-AM-CE>;
     skos:prefLabel "Guatemala"@EN;
     skos:prefLabel "Guatemala"@ES;
     skos:prefLabel "Guatemala"@FR;
@@ -835,7 +835,7 @@
 .
 <GU> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-OC>;
+    ossr:within <reg:I-AP-OC>;
     skos:prefLabel "Guam"@EN;
     skos:prefLabel "Guam"@ES;
     skos:prefLabel "Guam"@FR;
@@ -844,7 +844,7 @@
 .
 <GW> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-WE>;
+    ossr:within <reg:I-AF-WE>;
     skos:prefLabel "Guinea-Bissau"@EN;
     skos:prefLabel "Guinea-Bisáu"@ES;
     skos:prefLabel "Guinée-Bissau"@FR;
@@ -853,7 +853,7 @@
 .
 <GY> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-SO>;
+    ossr:within <reg:I-AM-SO>;
     skos:prefLabel "Guyana"@EN;
     skos:prefLabel "Guyana"@ES;
     skos:prefLabel "Guyana"@FR;
@@ -862,7 +862,7 @@
 .
 <HK> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-EA>;
+    ossr:within <reg:I-AP-EA>;
     skos:prefLabel "Hong Kong"@EN;
     skos:prefLabel "Hong Kong"@ES;
     skos:prefLabel "Hong Kong"@FR;
@@ -879,7 +879,7 @@
 .
 <HN> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CE>;
+    ossr:within <reg:I-AM-CE>;
     skos:prefLabel "Honduras"@EN;
     skos:prefLabel "Honduras"@ES;
     skos:prefLabel "Honduras"@FR;
@@ -888,7 +888,7 @@
 .
 <HR> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-EA>;
+    ossr:within <reg:I-EU-EA>;
     skos:prefLabel "Croatia"@EN;
     skos:prefLabel "Croacia"@ES;
     skos:prefLabel "Croatie"@FR;
@@ -897,7 +897,7 @@
 .
 <HT> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CB>;
+    ossr:within <reg:I-AM-CB>;
     skos:prefLabel "Haiti"@EN;
     skos:prefLabel "Haití"@ES;
     skos:prefLabel "Haïti"@FR;
@@ -906,7 +906,7 @@
 .
 <HU> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-EA>;
+    ossr:within <reg:I-EU-EA>;
     skos:prefLabel "Hungary"@EN;
     skos:prefLabel "Hungría"@ES;
     skos:prefLabel "Hongrie"@FR;
@@ -915,7 +915,7 @@
 .
 <ID> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-SE>;
+    ossr:within <reg:I-AP-SE>;
     skos:prefLabel "Indonesia"@EN;
     skos:prefLabel "Indonesia"@ES;
     skos:prefLabel "Indonésie"@FR;
@@ -924,7 +924,7 @@
 .
 <IE> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-WE>;
+    ossr:within <reg:I-EU-WE>;
     skos:prefLabel "Ireland"@EN;
     skos:prefLabel "Irlanda"@ES;
     skos:prefLabel "Irlande"@FR;
@@ -933,7 +933,7 @@
 .
 <IL> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-EA>;
+    ossr:within <reg:I-EU-EA>;
     skos:prefLabel "Israel"@EN;
     skos:prefLabel "Israel"@ES;
     skos:prefLabel "Israël"@FR;
@@ -950,7 +950,7 @@
 .
 <IN> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-SO>;
+    ossr:within <reg:I-AP-SO>;
     skos:prefLabel "India"@EN;
     skos:prefLabel "India"@ES;
     skos:prefLabel "Inde"@FR;
@@ -959,7 +959,7 @@
 .
 <IO> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-SO>;
+    ossr:within <reg:I-AP-SO>;
     skos:prefLabel "British Indian Ocean Territory"@EN;
     skos:prefLabel "Territorio Británico del Océano Índico"@ES;
     skos:prefLabel "Territoire britannique de l'océan Indien"@FR;
@@ -968,7 +968,7 @@
 .
 <IQ> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-ME>;
+    ossr:within <reg:I-AP-ME>;
     skos:prefLabel "Iraq"@EN;
     skos:prefLabel "Irak"@ES;
     skos:prefLabel "Irak"@FR;
@@ -977,7 +977,7 @@
 .
 <IR> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-ME>;
+    ossr:within <reg:I-AP-ME>;
     skos:prefLabel "Iran, Islamic Republic of"@EN;
     skos:prefLabel "Irán, República islámica de"@ES;
     skos:prefLabel "Iran, République islamique d'"@FR;
@@ -986,7 +986,7 @@
 .
 <IS> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-WE>;
+    ossr:within <reg:I-EU-WE>;
     skos:prefLabel "Iceland"@EN;
     skos:prefLabel "Islandia"@ES;
     skos:prefLabel "Islande"@FR;
@@ -995,7 +995,7 @@
 .
 <IT> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-WE>;
+    ossr:within <reg:I-EU-WE>;
     skos:prefLabel "Italy"@EN;
     skos:prefLabel "Italia"@ES;
     skos:prefLabel "Italie"@FR;
@@ -1012,7 +1012,7 @@
 .
 <JM> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CB>;
+    ossr:within <reg:I-AM-CB>;
     skos:prefLabel "Jamaica"@EN;
     skos:prefLabel "Jamaica"@ES;
     skos:prefLabel "Jamaïque"@FR;
@@ -1021,7 +1021,7 @@
 .
 <JO> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-ME>;
+    ossr:within <reg:I-AP-ME>;
     skos:prefLabel "Jordan"@EN;
     skos:prefLabel "Jordania"@ES;
     skos:prefLabel "Jordanie"@FR;
@@ -1030,7 +1030,7 @@
 .
 <JP> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-EA>;
+    ossr:within <reg:I-AP-EA>;
     skos:prefLabel "Japan"@EN;
     skos:prefLabel "Japón"@ES;
     skos:prefLabel "Japon"@FR;
@@ -1039,7 +1039,7 @@
 .
 <KE> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-EA>;
+    ossr:within <reg:I-AF-EA>;
     skos:prefLabel "Kenya"@EN;
     skos:prefLabel "Kenia"@ES;
     skos:prefLabel "Kenya"@FR;
@@ -1048,7 +1048,7 @@
 .
 <KG> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-CE>;
+    ossr:within <reg:I-AP-CE>;
     skos:prefLabel "Kyrgyzstan"@EN;
     skos:prefLabel "Kirguistán"@ES;
     skos:prefLabel "Kirghizistan"@FR;
@@ -1057,7 +1057,7 @@
 .
 <KH> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-SE>;
+    ossr:within <reg:I-AP-SE>;
     skos:prefLabel "Cambodia"@EN;
     skos:prefLabel "Camboya"@ES;
     skos:prefLabel "Cambodge"@FR;
@@ -1066,7 +1066,7 @@
 .
 <KI> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-OC>;
+    ossr:within <reg:I-AP-OC>;
     skos:prefLabel "Kiribati"@EN;
     skos:prefLabel "Kiribati"@ES;
     skos:prefLabel "Kiribati"@FR;
@@ -1075,7 +1075,7 @@
 .
 <KM> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-SO>;
+    ossr:within <reg:I-AF-SO>;
     skos:prefLabel "Comoros"@EN;
     skos:prefLabel "Comores, Islas"@ES;
     skos:prefLabel "Comores"@FR;
@@ -1084,7 +1084,7 @@
 .
 <KN> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CB>;
+    ossr:within <reg:I-AM-CB>;
     skos:prefLabel "Saint Kitts and Nevis"@EN;
     skos:prefLabel "San Cristóbal y Nieves"@ES;
     skos:prefLabel "Saint-Christophe-et-Niévès"@FR;
@@ -1093,7 +1093,7 @@
 .
 <KP> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-EA>;
+    ossr:within <reg:I-AP-EA>;
     skos:prefLabel "Korea, Democratic People's Republic of"@EN;
     skos:prefLabel "Corea, República Democrática Popular de"@ES;
     skos:prefLabel "Corée, République populaire démocratique de"@FR;
@@ -1102,7 +1102,7 @@
 .
 <KR> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-EA>;
+    ossr:within <reg:I-AP-EA>;
     skos:prefLabel "Korea, Republic of"@EN;
     skos:prefLabel "Corea, República de"@ES;
     skos:prefLabel "Corée, République de"@FR;
@@ -1111,7 +1111,7 @@
 .
 <KW> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-ME>;
+    ossr:within <reg:I-AP-ME>;
     skos:prefLabel "Kuwait"@EN;
     skos:prefLabel "Kuwait"@ES;
     skos:prefLabel "Koweït"@FR;
@@ -1120,7 +1120,7 @@
 .
 <KY> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CB>;
+    ossr:within <reg:I-AM-CB>;
     skos:prefLabel "Cayman Islands"@EN;
     skos:prefLabel "Islas Caimán"@ES;
     skos:prefLabel "îles Caïmans"@FR;
@@ -1129,7 +1129,7 @@
 .
 <KZ> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-CE>;
+    ossr:within <reg:I-AP-CE>;
     skos:prefLabel "Kazakhstan"@EN;
     skos:prefLabel "Kazajistán"@ES;
     skos:prefLabel "Kazakhstan"@FR;
@@ -1138,7 +1138,7 @@
 .
 <LA> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-SE>;
+    ossr:within <reg:I-AP-SE>;
     skos:prefLabel "Lao People's Democratic Republic"@EN;
     skos:prefLabel "República Democrática Popular de Lao"@ES;
     skos:prefLabel "Lao, République démocratique populaire"@FR;
@@ -1147,7 +1147,7 @@
 .
 <LB> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-ME>;
+    ossr:within <reg:I-AP-ME>;
     skos:prefLabel "Lebanon"@EN;
     skos:prefLabel "Líbano"@ES;
     skos:prefLabel "Liban"@FR;
@@ -1156,7 +1156,7 @@
 .
 <LC> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CB>;
+    ossr:within <reg:I-AM-CB>;
     skos:prefLabel "Saint Lucia"@EN;
     skos:prefLabel "Santa Lucía"@ES;
     skos:prefLabel "Sainte-Lucie"@FR;
@@ -1165,7 +1165,7 @@
 .
 <LI> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-WE>;
+    ossr:within <reg:I-EU-WE>;
     skos:prefLabel "Liechtenstein"@EN;
     skos:prefLabel "Liechtenstein"@ES;
     skos:prefLabel "Liechtenstein"@FR;
@@ -1174,7 +1174,7 @@
 .
 <LK> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-SO>;
+    ossr:within <reg:I-AP-SO>;
     skos:prefLabel "Sri Lanka"@EN;
     skos:prefLabel "Sri Lanka"@ES;
     skos:prefLabel "Sri Lanka"@FR;
@@ -1183,7 +1183,7 @@
 .
 <LR> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-WE>;
+    ossr:within <reg:I-AF-WE>;
     skos:prefLabel "Liberia"@EN;
     skos:prefLabel "Liberia"@ES;
     skos:prefLabel "Libéria"@FR;
@@ -1192,7 +1192,7 @@
 .
 <LS> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-SO>;
+    ossr:within <reg:I-AF-SO>;
     skos:prefLabel "Lesotho"@EN;
     skos:prefLabel "Lesoto"@ES;
     skos:prefLabel "Lesotho"@FR;
@@ -1201,7 +1201,7 @@
 .
 <LT> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-EA>;
+    ossr:within <reg:I-EU-EA>;
     skos:prefLabel "Lithuania"@EN;
     skos:prefLabel "Lituania"@ES;
     skos:prefLabel "Lituanie"@FR;
@@ -1210,7 +1210,7 @@
 .
 <LU> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-WE>;
+    ossr:within <reg:I-EU-WE>;
     skos:prefLabel "Luxembourg"@EN;
     skos:prefLabel "Luxemburgo"@ES;
     skos:prefLabel "Luxembourg"@FR;
@@ -1219,7 +1219,7 @@
 .
 <LV> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-EA>;
+    ossr:within <reg:I-EU-EA>;
     skos:prefLabel "Latvia"@EN;
     skos:prefLabel "Letonia"@ES;
     skos:prefLabel "Lettonie"@FR;
@@ -1228,7 +1228,7 @@
 .
 <LY> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-NO>;
+    ossr:within <reg:I-AF-NO>;
     skos:prefLabel "Libya"@EN;
     skos:prefLabel "Libia"@ES;
     skos:prefLabel "Libye"@FR;
@@ -1237,7 +1237,7 @@
 .
 <MA> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-NO>;
+    ossr:within <reg:I-AF-NO>;
     skos:prefLabel "Morocco"@EN;
     skos:prefLabel "Marruecos"@ES;
     skos:prefLabel "Maroc"@FR;
@@ -1246,7 +1246,7 @@
 .
 <MC> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-WE>;
+    ossr:within <reg:I-EU-WE>;
     skos:prefLabel "Monaco"@EN;
     skos:prefLabel "Mónaco"@ES;
     skos:prefLabel "Monaco"@FR;
@@ -1255,7 +1255,7 @@
 .
 <MD> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-EA>;
+    ossr:within <reg:I-EU-EA>;
     skos:prefLabel "Moldova"@EN;
     skos:prefLabel "Moldavia"@ES;
     skos:prefLabel "Moldavie"@FR;
@@ -1264,7 +1264,7 @@
 .
 <ME> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-EA>;
+    ossr:within <reg:I-EU-EA>;
     skos:prefLabel "Montenegro"@EN;
     skos:prefLabel "Montenegro"@ES;
     skos:prefLabel "Monténégro"@FR;
@@ -1281,7 +1281,7 @@
 .
 <MG> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-SO>;
+    ossr:within <reg:I-AF-SO>;
     skos:prefLabel "Madagascar"@EN;
     skos:prefLabel "Madagascar"@ES;
     skos:prefLabel "Madagascar"@FR;
@@ -1290,7 +1290,7 @@
 .
 <MH> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-OC>;
+    ossr:within <reg:I-AP-OC>;
     skos:prefLabel "Marshall Islands"@EN;
     skos:prefLabel "Islas Marshall"@ES;
     skos:prefLabel "Îles Marshall"@FR;
@@ -1299,7 +1299,7 @@
 .
 <MK> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-EA>;
+    ossr:within <reg:I-EU-EA>;
     skos:prefLabel "North Macedonia"@EN;
     skos:prefLabel "Macedonia del Norte"@ES;
     skos:prefLabel "Macédoine du Nord"@FR;
@@ -1308,7 +1308,7 @@
 .
 <ML> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-WE>;
+    ossr:within <reg:I-AF-WE>;
     skos:prefLabel "Mali"@EN;
     skos:prefLabel "Mali"@ES;
     skos:prefLabel "Mali"@FR;
@@ -1317,7 +1317,7 @@
 .
 <MM> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-SE>;
+    ossr:within <reg:I-AP-SE>;
     skos:prefLabel "Myanmar"@EN;
     skos:prefLabel "Birmania"@ES;
     skos:prefLabel "Birmanie"@FR;
@@ -1326,7 +1326,7 @@
 .
 <MN> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-EA>;
+    ossr:within <reg:I-AP-EA>;
     skos:prefLabel "Mongolia"@EN;
     skos:prefLabel "Mongolia"@ES;
     skos:prefLabel "Mongolie"@FR;
@@ -1335,7 +1335,7 @@
 .
 <MO> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-EA>;
+    ossr:within <reg:I-AP-EA>;
     skos:prefLabel "Macao"@EN;
     skos:prefLabel "Macao"@ES;
     skos:prefLabel "Macau"@FR;
@@ -1344,7 +1344,7 @@
 .
 <MP> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-OC>;
+    ossr:within <reg:I-AP-OC>;
     skos:prefLabel "Northern Mariana Islands"@EN;
     skos:prefLabel "Islas Marianas del Norte"@ES;
     skos:prefLabel "Îles Mariannes du Nord"@FR;
@@ -1353,7 +1353,7 @@
 .
 <MQ> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CB>;
+    ossr:within <reg:I-AM-CB>;
     skos:prefLabel "Martinique"@EN;
     skos:prefLabel "Martinica"@ES;
     skos:prefLabel "Martinique"@FR;
@@ -1362,7 +1362,7 @@
 .
 <MR> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-WE>;
+    ossr:within <reg:I-AF-WE>;
     skos:prefLabel "Mauritania"@EN;
     skos:prefLabel "Mauritania"@ES;
     skos:prefLabel "Mauritanie"@FR;
@@ -1371,7 +1371,7 @@
 .
 <MS> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CB>;
+    ossr:within <reg:I-AM-CB>;
     skos:prefLabel "Montserrat"@EN;
     skos:prefLabel "Montserrat"@ES;
     skos:prefLabel "Montserrat"@FR;
@@ -1380,7 +1380,7 @@
 .
 <MT> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-WE>;
+    ossr:within <reg:I-EU-WE>;
     skos:prefLabel "Malta"@EN;
     skos:prefLabel "Malta"@ES;
     skos:prefLabel "Malte"@FR;
@@ -1389,7 +1389,7 @@
 .
 <MU> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-SO>;
+    ossr:within <reg:I-AF-SO>;
     skos:prefLabel "Mauritius"@EN;
     skos:prefLabel "Mauricio"@ES;
     skos:prefLabel "Maurice"@FR;
@@ -1398,7 +1398,7 @@
 .
 <MV> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-SO>;
+    ossr:within <reg:I-AP-SO>;
     skos:prefLabel "Maldives"@EN;
     skos:prefLabel "Islas Maldivas"@ES;
     skos:prefLabel "Maldives"@FR;
@@ -1407,7 +1407,7 @@
 .
 <MW> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-SO>;
+    ossr:within <reg:I-AF-SO>;
     skos:prefLabel "Malawi"@EN;
     skos:prefLabel "Malaui"@ES;
     skos:prefLabel "Malawi"@FR;
@@ -1416,7 +1416,7 @@
 .
 <MX> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-NO>;
+    ossr:within <reg:I-AM-NO>;
     skos:prefLabel "Mexico"@EN;
     skos:prefLabel "México"@ES;
     skos:prefLabel "Mexique"@FR;
@@ -1425,7 +1425,7 @@
 .
 <MY> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-SE>;
+    ossr:within <reg:I-AP-SE>;
     skos:prefLabel "Malaysia"@EN;
     skos:prefLabel "Malasia"@ES;
     skos:prefLabel "Malaisie"@FR;
@@ -1434,7 +1434,7 @@
 .
 <MZ> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-EA>;
+    ossr:within <reg:I-AF-EA>;
     skos:prefLabel "Mozambique"@EN;
     skos:prefLabel "Mozambique"@ES;
     skos:prefLabel "Mozambique"@FR;
@@ -1443,7 +1443,7 @@
 .
 <NA> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-SO>;
+    ossr:within <reg:I-AF-SO>;
     skos:prefLabel "Namibia"@EN;
     skos:prefLabel "Namibia"@ES;
     skos:prefLabel "Namibie"@FR;
@@ -1452,7 +1452,7 @@
 .
 <NC> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-OC>;
+    ossr:within <reg:I-AP-OC>;
     skos:prefLabel "New Caledonia"@EN;
     skos:prefLabel "Nueva Caledonia"@ES;
     skos:prefLabel "Nouvelle-Calédonie"@FR;
@@ -1461,7 +1461,7 @@
 .
 <NE> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-WE>;
+    ossr:within <reg:I-AF-WE>;
     skos:prefLabel "Niger"@EN;
     skos:prefLabel "Niger"@ES;
     skos:prefLabel "Niger"@FR;
@@ -1470,7 +1470,7 @@
 .
 <NF> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-OC>;
+    ossr:within <reg:I-AP-OC>;
     skos:prefLabel "Norfolk Island"@EN;
     skos:prefLabel "Isla Norfolk"@ES;
     skos:prefLabel "île Norfolk"@FR;
@@ -1479,7 +1479,7 @@
 .
 <NG> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-WE>;
+    ossr:within <reg:I-AF-WE>;
     skos:prefLabel "Nigeria"@EN;
     skos:prefLabel "Nigeria"@ES;
     skos:prefLabel "Nigeria"@FR;
@@ -1488,7 +1488,7 @@
 .
 <NI> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CE>;
+    ossr:within <reg:I-AM-CE>;
     skos:prefLabel "Nicaragua"@EN;
     skos:prefLabel "Nicaragua"@ES;
     skos:prefLabel "Nicaragua"@FR;
@@ -1497,7 +1497,7 @@
 .
 <NL> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-WE>;
+    ossr:within <reg:I-EU-WE>;
     skos:prefLabel "Netherlands"@EN;
     skos:prefLabel "Países Bajos"@ES;
     skos:prefLabel "Pays-Bas"@FR;
@@ -1506,7 +1506,7 @@
 .
 <NO> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-WE>;
+    ossr:within <reg:I-EU-WE>;
     skos:prefLabel "Norway"@EN;
     skos:prefLabel "Noruega"@ES;
     skos:prefLabel "Norvège"@FR;
@@ -1515,7 +1515,7 @@
 .
 <NP> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-SO>;
+    ossr:within <reg:I-AP-SO>;
     skos:prefLabel "Nepal"@EN;
     skos:prefLabel "Nepal"@ES;
     skos:prefLabel "Népal"@FR;
@@ -1524,7 +1524,7 @@
 .
 <NR> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-OC>;
+    ossr:within <reg:I-AP-OC>;
     skos:prefLabel "Nauru"@EN;
     skos:prefLabel "Nauru"@ES;
     skos:prefLabel "Nauru"@FR;
@@ -1533,7 +1533,7 @@
 .
 <NU> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-OC>;
+    ossr:within <reg:I-AP-OC>;
     skos:prefLabel "Niue"@EN;
     skos:prefLabel "Niue"@ES;
     skos:prefLabel "Nioue"@FR;
@@ -1542,7 +1542,7 @@
 .
 <NZ> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-OC>;
+    ossr:within <reg:I-AP-OC>;
     skos:prefLabel "New Zealand"@EN;
     skos:prefLabel "Nueva Zelanda"@ES;
     skos:prefLabel "Nouvelle-Zélande"@FR;
@@ -1551,7 +1551,7 @@
 .
 <OM> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-ME>;
+    ossr:within <reg:I-AP-ME>;
     skos:prefLabel "Oman"@EN;
     skos:prefLabel "Omán"@ES;
     skos:prefLabel "Oman"@FR;
@@ -1560,7 +1560,7 @@
 .
 <PA> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CE>;
+    ossr:within <reg:I-AM-CE>;
     skos:prefLabel "Panama"@EN;
     skos:prefLabel "Panamá"@ES;
     skos:prefLabel "Panama"@FR;
@@ -1569,7 +1569,7 @@
 .
 <PE> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-SO>;
+    ossr:within <reg:I-AM-SO>;
     skos:prefLabel "Peru"@EN;
     skos:prefLabel "Perú"@ES;
     skos:prefLabel "Pérou"@FR;
@@ -1578,7 +1578,7 @@
 .
 <PF> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-OC>;
+    ossr:within <reg:I-AP-OC>;
     skos:prefLabel "French Polynesia"@EN;
     skos:prefLabel "Polinesia Francesa"@ES;
     skos:prefLabel "Polynésie française"@FR;
@@ -1587,7 +1587,7 @@
 .
 <PG> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-WE>;
+    ossr:within <reg:I-AF-WE>;
     skos:prefLabel "Papua New Guinea"@EN;
     skos:prefLabel "Papúa Nueva Guinea"@ES;
     skos:prefLabel "Papouasie-Nouvelle-Guinée"@FR;
@@ -1596,7 +1596,7 @@
 .
 <PH> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-SE>;
+    ossr:within <reg:I-AP-SE>;
     skos:prefLabel "Philippines"@EN;
     skos:prefLabel "Filipinas"@ES;
     skos:prefLabel "Philippines"@FR;
@@ -1605,7 +1605,7 @@
 .
 <PK> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-SO>;
+    ossr:within <reg:I-AP-SO>;
     skos:prefLabel "Pakistan"@EN;
     skos:prefLabel "Pakistán"@ES;
     skos:prefLabel "Pakistan"@FR;
@@ -1614,7 +1614,7 @@
 .
 <PL> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-EA>;
+    ossr:within <reg:I-EU-EA>;
     skos:prefLabel "Poland"@EN;
     skos:prefLabel "Polonia"@ES;
     skos:prefLabel "Pologne"@FR;
@@ -1623,7 +1623,7 @@
 .
 <PM> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-NO>;
+    ossr:within <reg:I-AM-NO>;
     skos:prefLabel "Saint Pierre and Miquelon"@EN;
     skos:prefLabel "San Pedro y Miquelon"@ES;
     skos:prefLabel "Saint-Pierre-et-Miquelon"@FR;
@@ -1632,7 +1632,7 @@
 .
 <PN> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-OC>;
+    ossr:within <reg:I-AP-OC>;
     skos:prefLabel "Pitcairn"@EN;
     skos:prefLabel "Pitcairn"@ES;
     skos:prefLabel "Îles Pitcairn"@FR;
@@ -1641,7 +1641,7 @@
 .
 <PR> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CB>;
+    ossr:within <reg:I-AM-CB>;
     skos:prefLabel "Puerto Rico"@EN;
     skos:prefLabel "Puerto Rico"@ES;
     skos:prefLabel "Porto Rico"@FR;
@@ -1650,7 +1650,7 @@
 .
 <PS> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-ME>;
+    ossr:within <reg:I-AP-ME>;
     skos:prefLabel "Palestine, State of"@EN;
     skos:prefLabel "Palestina, Estado de"@ES;
     skos:prefLabel "Palestine, État de"@FR;
@@ -1659,7 +1659,7 @@
 .
 <PT> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-WE>;
+    ossr:within <reg:I-EU-WE>;
     skos:prefLabel "Portugal"@EN;
     skos:prefLabel "Portugal"@ES;
     skos:prefLabel "Portugal"@FR;
@@ -1668,7 +1668,7 @@
 .
 <PW> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-OC>;
+    ossr:within <reg:I-AP-OC>;
     skos:prefLabel "Palau"@EN;
     skos:prefLabel "Palaos"@ES;
     skos:prefLabel "Palaos"@FR;
@@ -1677,7 +1677,7 @@
 .
 <PY> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-SO>;
+    ossr:within <reg:I-AM-SO>;
     skos:prefLabel "Paraguay"@EN;
     skos:prefLabel "Paraguay"@ES;
     skos:prefLabel "Paraguay"@FR;
@@ -1686,7 +1686,7 @@
 .
 <QA> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-ME>;
+    ossr:within <reg:I-AP-ME>;
     skos:prefLabel "Qatar"@EN;
     skos:prefLabel "Catar"@ES;
     skos:prefLabel "Qatar"@FR;
@@ -1695,7 +1695,7 @@
 .
 <RE> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-EA>;
+    ossr:within <reg:I-AF-EA>;
     skos:prefLabel "Réunion"@EN;
     skos:prefLabel "Reunión"@ES;
     skos:prefLabel "Réunion, Île de la"@FR;
@@ -1704,7 +1704,7 @@
 .
 <RO> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-EA>;
+    ossr:within <reg:I-EU-EA>;
     skos:prefLabel "Romania"@EN;
     skos:prefLabel "Rumanía"@ES;
     skos:prefLabel "Roumanie"@FR;
@@ -1713,7 +1713,7 @@
 .
 <RS> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-EA>;
+    ossr:within <reg:I-EU-EA>;
     skos:prefLabel "Serbia"@EN;
     skos:prefLabel "Serbia"@ES;
     skos:prefLabel "Serbie"@FR;
@@ -1722,7 +1722,7 @@
 .
 <RU> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-EA>;
+    ossr:within <reg:I-EU-EA>;
     skos:prefLabel "Russian Federation"@EN;
     skos:prefLabel "Federación Rusa"@ES;
     skos:prefLabel "Russie, Fédération de"@FR;
@@ -1731,7 +1731,7 @@
 .
 <RW> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-CE>;
+    ossr:within <reg:I-AF-CE>;
     skos:prefLabel "Rwanda"@EN;
     skos:prefLabel "Ruanda"@ES;
     skos:prefLabel "Rwanda"@FR;
@@ -1740,7 +1740,7 @@
 .
 <SA> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-ME>;
+    ossr:within <reg:I-AP-ME>;
     skos:prefLabel "Saudi Arabia"@EN;
     skos:prefLabel "Arabia Saudí"@ES;
     skos:prefLabel "Arabie saoudite"@FR;
@@ -1749,7 +1749,7 @@
 .
 <SB> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-OC>;
+    ossr:within <reg:I-AP-OC>;
     skos:prefLabel "Solomon Islands"@EN;
     skos:prefLabel "Islas Salomón"@ES;
     skos:prefLabel "Salomon, Îles"@FR;
@@ -1758,7 +1758,7 @@
 .
 <SC> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-SO>;
+    ossr:within <reg:I-AF-SO>;
     skos:prefLabel "Seychelles"@EN;
     skos:prefLabel "Seychelles"@ES;
     skos:prefLabel "Seychelles"@FR;
@@ -1767,7 +1767,7 @@
 .
 <SD> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-EA>;
+    ossr:within <reg:I-AF-EA>;
     skos:prefLabel "Sudan"@EN;
     skos:prefLabel "Sudán"@ES;
     skos:prefLabel "Soudan"@FR;
@@ -1776,7 +1776,7 @@
 .
 <SE> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-WE>;
+    ossr:within <reg:I-EU-WE>;
     skos:prefLabel "Sweden"@EN;
     skos:prefLabel "Suecia"@ES;
     skos:prefLabel "Suède"@FR;
@@ -1785,7 +1785,7 @@
 .
 <SG> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-SE>;
+    ossr:within <reg:I-AP-SE>;
     skos:prefLabel "Singapore"@EN;
     skos:prefLabel "Singapur"@ES;
     skos:prefLabel "Singapour"@FR;
@@ -1794,7 +1794,7 @@
 .
 <SH> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-WE>;
+    ossr:within <reg:I-AF-WE>;
     skos:prefLabel "Saint Helena, Ascension and Tristan da Cunha"@EN;
     skos:prefLabel "Santa Elena, Ascensión y Tristán de Acuña"@ES;
     skos:prefLabel "Sainte-Hélène, Ascension et Tristan da Cunha"@FR;
@@ -1803,7 +1803,7 @@
 .
 <SI> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-EA>;
+    ossr:within <reg:I-EU-EA>;
     skos:prefLabel "Slovenia"@EN;
     skos:prefLabel "Eslovenia"@ES;
     skos:prefLabel "Slovénie"@FR;
@@ -1812,7 +1812,7 @@
 .
 <SJ> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-WE>;
+    ossr:within <reg:I-EU-WE>;
     skos:prefLabel "Svalbard and Jan Mayen"@EN;
     skos:prefLabel "Svalbard y Jan Mayen"@ES;
     skos:prefLabel "Svalbard et île Jan Mayen"@FR;
@@ -1821,7 +1821,7 @@
 .
 <SK> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-EA>;
+    ossr:within <reg:I-EU-EA>;
     skos:prefLabel "Slovakia"@EN;
     skos:prefLabel "Eslovaquia"@ES;
     skos:prefLabel "Slovaquie"@FR;
@@ -1830,7 +1830,7 @@
 .
 <SL> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-WE>;
+    ossr:within <reg:I-AF-WE>;
     skos:prefLabel "Sierra Leone"@EN;
     skos:prefLabel "Sierra Leona"@ES;
     skos:prefLabel "Sierra Leone"@FR;
@@ -1839,7 +1839,7 @@
 .
 <SM> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-WE>;
+    ossr:within <reg:I-EU-WE>;
     skos:prefLabel "San Marino"@EN;
     skos:prefLabel "San Marino"@ES;
     skos:prefLabel "Saint-Marin"@FR;
@@ -1848,7 +1848,7 @@
 .
 <SN> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-WE>;
+    ossr:within <reg:I-AF-WE>;
     skos:prefLabel "Senegal"@EN;
     skos:prefLabel "Senegal"@ES;
     skos:prefLabel "Sénégal"@FR;
@@ -1857,7 +1857,7 @@
 .
 <SO> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-EA>;
+    ossr:within <reg:I-AF-EA>;
     skos:prefLabel "Somalia"@EN;
     skos:prefLabel "Somalia"@ES;
     skos:prefLabel "Somalie"@FR;
@@ -1866,7 +1866,7 @@
 .
 <SR> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-SO>;
+    ossr:within <reg:I-AM-SO>;
     skos:prefLabel "Suriname"@EN;
     skos:prefLabel "Surinám"@ES;
     skos:prefLabel "Surinam"@FR;
@@ -1875,7 +1875,7 @@
 .
 <SS> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-EA>;
+    ossr:within <reg:I-AF-EA>;
     skos:prefLabel "South Sudan"@EN;
     skos:prefLabel "Sudán del Sur"@ES;
     skos:prefLabel "Soudan du Sud"@FR;
@@ -1884,7 +1884,7 @@
 .
 <ST> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-CE>;
+    ossr:within <reg:I-AF-CE>;
     skos:prefLabel "Sao Tome and Principe"@EN;
     skos:prefLabel "Santo Tomé y Príncipe"@ES;
     skos:prefLabel "Sao Tomé-et-Principe"@FR;
@@ -1893,7 +1893,7 @@
 .
 <SV> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CE>;
+    ossr:within <reg:I-AM-CE>;
     skos:prefLabel "El Salvador"@EN;
     skos:prefLabel "El Salvador"@ES;
     skos:prefLabel "Salvador"@FR;
@@ -1902,7 +1902,7 @@
 .
 <SX> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CB>;
+    ossr:within <reg:I-AM-CB>;
     skos:prefLabel "Sint Maarten (Dutch part)"@EN;
     skos:prefLabel "Isla de San Martín (zona holandsea)"@ES;
     skos:prefLabel "Saint-Martin (partie néerlandaise)"@FR;
@@ -1911,7 +1911,7 @@
 .
 <SY> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-ME>;
+    ossr:within <reg:I-AP-ME>;
     skos:prefLabel "Syrian Arab Republic"@EN;
     skos:prefLabel "República árabe de Siria"@ES;
     skos:prefLabel "Syrienne, République arabe"@FR;
@@ -1920,7 +1920,7 @@
 .
 <SZ> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-SO>;
+    ossr:within <reg:I-AF-SO>;
     skos:prefLabel "Eswatini"@EN;
     skos:prefLabel "Suazilandia"@ES;
     skos:prefLabel "Eswatini"@FR;
@@ -1929,7 +1929,7 @@
 .
 <TC> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CB>;
+    ossr:within <reg:I-AM-CB>;
     skos:prefLabel "Turks and Caicos Islands"@EN;
     skos:prefLabel "Islas Turcas y Caicos"@ES;
     skos:prefLabel "îles Turques-et-Caïques"@FR;
@@ -1938,7 +1938,7 @@
 .
 <TD> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-CE>;
+    ossr:within <reg:I-AF-CE>;
     skos:prefLabel "Chad"@EN;
     skos:prefLabel "Chad"@ES;
     skos:prefLabel "Tchad"@FR;
@@ -1947,7 +1947,7 @@
 .
 <TF> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-WE>;
+    ossr:within <reg:I-EU-WE>;
     skos:prefLabel "French Southern Territories"@EN;
     skos:prefLabel "Territorios Franceses del Sur"@ES;
     skos:prefLabel "Terres australes françaises"@FR;
@@ -1956,7 +1956,7 @@
 .
 <TG> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-WE>;
+    ossr:within <reg:I-AF-WE>;
     skos:prefLabel "Togo"@EN;
     skos:prefLabel "Togo"@ES;
     skos:prefLabel "Togo"@FR;
@@ -1965,7 +1965,7 @@
 .
 <TH> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-SE>;
+    ossr:within <reg:I-AP-SE>;
     skos:prefLabel "Thailand"@EN;
     skos:prefLabel "Tailandia"@ES;
     skos:prefLabel "Thaïlande"@FR;
@@ -1974,7 +1974,7 @@
 .
 <TJ> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-CE>;
+    ossr:within <reg:I-AP-CE>;
     skos:prefLabel "Tajikistan"@EN;
     skos:prefLabel "Tayikistán"@ES;
     skos:prefLabel "Tadjikistan"@FR;
@@ -1983,7 +1983,7 @@
 .
 <TK> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-OC>;
+    ossr:within <reg:I-AP-OC>;
     skos:prefLabel "Tokelau"@EN;
     skos:prefLabel "Tokelau"@ES;
     skos:prefLabel "Tokelau"@FR;
@@ -1992,7 +1992,7 @@
 .
 <TL> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-OC>;
+    ossr:within <reg:I-AP-OC>;
     skos:prefLabel "Timor-Leste"@EN;
     skos:prefLabel "Timor Oriental"@ES;
     skos:prefLabel "Timor oriental"@FR;
@@ -2001,7 +2001,7 @@
 .
 <TM> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-CE>;
+    ossr:within <reg:I-AP-CE>;
     skos:prefLabel "Turkmenistan"@EN;
     skos:prefLabel "Turkmenistán"@ES;
     skos:prefLabel "Turkménistan"@FR;
@@ -2010,7 +2010,7 @@
 .
 <TN> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-NO>;
+    ossr:within <reg:I-AF-NO>;
     skos:prefLabel "Tunisia"@EN;
     skos:prefLabel "Tunez"@ES;
     skos:prefLabel "Tunisie"@FR;
@@ -2019,7 +2019,7 @@
 .
 <TO> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-OC>;
+    ossr:within <reg:I-AP-OC>;
     skos:prefLabel "Tonga"@EN;
     skos:prefLabel "Tonga"@ES;
     skos:prefLabel "Tonga"@FR;
@@ -2028,7 +2028,7 @@
 .
 <TR> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-WE>;
+    ossr:within <reg:I-EU-WE>;
     skos:prefLabel "Turkey"@EN;
     skos:prefLabel "Turquía"@ES;
     skos:prefLabel "Turquie"@FR;
@@ -2037,7 +2037,7 @@
 .
 <TT> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CB>;
+    ossr:within <reg:I-AM-CB>;
     skos:prefLabel "Trinidad and Tobago"@EN;
     skos:prefLabel "Trinidad y Tobago"@ES;
     skos:prefLabel "Trinité-et-Tobago"@FR;
@@ -2046,7 +2046,7 @@
 .
 <TV> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-OC>;
+    ossr:within <reg:I-AP-OC>;
     skos:prefLabel "Tuvalu"@EN;
     skos:prefLabel "Tuvalu"@ES;
     skos:prefLabel "Tuvalu"@FR;
@@ -2055,7 +2055,7 @@
 .
 <TW> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-SE>;
+    ossr:within <reg:I-AP-SE>;
     skos:prefLabel "Taiwan"@EN;
     skos:prefLabel "Taiwán"@ES;
     skos:prefLabel "Taïwan"@FR;
@@ -2064,7 +2064,7 @@
 .
 <TZ> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-EA>;
+    ossr:within <reg:I-AF-EA>;
     skos:prefLabel "Tanzania"@EN;
     skos:prefLabel "Tanzania"@ES;
     skos:prefLabel "Tanzanie"@FR;
@@ -2073,7 +2073,7 @@
 .
 <UA> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-EA>;
+    ossr:within <reg:I-EU-EA>;
     skos:prefLabel "Ukraine"@EN;
     skos:prefLabel "Ucrania"@ES;
     skos:prefLabel "Ukraine"@FR;
@@ -2082,7 +2082,7 @@
 .
 <UG> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-EA>;
+    ossr:within <reg:I-AF-EA>;
     skos:prefLabel "Uganda"@EN;
     skos:prefLabel "Uganda"@ES;
     skos:prefLabel "Ouganda"@FR;
@@ -2091,7 +2091,7 @@
 .
 <UM> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-OC>;
+    ossr:within <reg:I-AP-OC>;
     skos:prefLabel "United States Minor Outlying Islands"@EN;
     skos:prefLabel "Islas Ultramarinas Menores de Estados Unidos"@ES;
     skos:prefLabel "Îles mineures éloignées des États-Unis"@FR;
@@ -2100,7 +2100,7 @@
 .
 <US> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-NO>;
+    ossr:within <reg:I-AM-NO>;
     skos:prefLabel "United States"@EN;
     skos:prefLabel "Estados Unidos"@ES;
     skos:prefLabel "États-Unis"@FR;
@@ -2109,7 +2109,7 @@
 .
 <UY> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-SO>;
+    ossr:within <reg:I-AM-SO>;
     skos:prefLabel "Uruguay"@EN;
     skos:prefLabel "Uruguay"@ES;
     skos:prefLabel "Uruguay"@FR;
@@ -2118,7 +2118,7 @@
 .
 <UZ> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-CE>;
+    ossr:within <reg:I-AP-CE>;
     skos:prefLabel "Uzbekistan"@EN;
     skos:prefLabel "Uzbekistán"@ES;
     skos:prefLabel "Ouzbékistan"@FR;
@@ -2127,7 +2127,7 @@
 .
 <VA> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:EU-WE>;
+    ossr:within <reg:I-EU-WE>;
     skos:prefLabel "Holy See (Vatican City State)"@EN;
     skos:prefLabel "Santa Sede (Ciudad Estado del Vaticano)"@ES;
     skos:prefLabel "Saint-Siège (état de la cité du Vatican)"@FR;
@@ -2136,7 +2136,7 @@
 .
 <VC> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CB>;
+    ossr:within <reg:I-AM-CB>;
     skos:prefLabel "Saint Vincent and the Grenadines"@EN;
     skos:prefLabel "San Vicente y las Granadinas"@ES;
     skos:prefLabel "Saint-Vincent-et-les-Grenadines"@FR;
@@ -2145,7 +2145,7 @@
 .
 <VE> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-SO>;
+    ossr:within <reg:I-AM-SO>;
     skos:prefLabel "Venezuela"@EN;
     skos:prefLabel "Venezuela"@ES;
     skos:prefLabel "Vénézuela"@FR;
@@ -2154,7 +2154,7 @@
 .
 <VG> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CB>;
+    ossr:within <reg:I-AM-CB>;
     skos:prefLabel "Virgin Islands, British"@EN;
     skos:prefLabel "Islas Vírgenes, Británicas"@ES;
     skos:prefLabel "Îles Vierges britanniques"@FR;
@@ -2163,7 +2163,7 @@
 .
 <VI> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AM-CB>;
+    ossr:within <reg:I-AM-CB>;
     skos:prefLabel "Virgin Islands, U.S."@EN;
     skos:prefLabel "Islas Vírgenes, de EEUU"@ES;
     skos:prefLabel "Îles Vierges des États-Unis"@FR;
@@ -2172,7 +2172,7 @@
 .
 <VN> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-SE>;
+    ossr:within <reg:I-AP-SE>;
     skos:prefLabel "Vietnam"@EN;
     skos:prefLabel "Vietnam"@ES;
     skos:prefLabel "Viêt Nam"@FR;
@@ -2181,7 +2181,7 @@
 .
 <VU> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-OC>;
+    ossr:within <reg:I-AP-OC>;
     skos:prefLabel "Vanuatu"@EN;
     skos:prefLabel "Vanuatu"@ES;
     skos:prefLabel "Vanuatu"@FR;
@@ -2190,7 +2190,7 @@
 .
 <WF> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-OC>;
+    ossr:within <reg:I-AP-OC>;
     skos:prefLabel "Wallis and Futuna"@EN;
     skos:prefLabel "Wallis y Futuna"@ES;
     skos:prefLabel "Wallis et Futuna"@FR;
@@ -2199,7 +2199,7 @@
 .
 <WS> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-OC>;
+    ossr:within <reg:I-AP-OC>;
     skos:prefLabel "Samoa"@EN;
     skos:prefLabel "Samoa"@ES;
     skos:prefLabel "Samoa"@FR;
@@ -2208,7 +2208,7 @@
 .
 <YE> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AP-ME>;
+    ossr:within <reg:I-AP-ME>;
     skos:prefLabel "Yemen"@EN;
     skos:prefLabel "Yemen"@ES;
     skos:prefLabel "Yémen"@FR;
@@ -2217,7 +2217,7 @@
 .
 <YT> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-SO>;
+    ossr:within <reg:I-AF-SO>;
     skos:prefLabel "Mayotte"@EN;
     skos:prefLabel "Mayotte"@ES;
     skos:prefLabel "Mayotte"@FR;
@@ -2226,7 +2226,7 @@
 .
 <ZA> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-SO>;
+    ossr:within <reg:I-AF-SO>;
     skos:prefLabel "South Africa"@EN;
     skos:prefLabel "Sudáfrica"@ES;
     skos:prefLabel "Afrique du Sud"@FR;
@@ -2235,7 +2235,7 @@
 .
 <ZM> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-SO>;
+    ossr:within <reg:I-AF-SO>;
     skos:prefLabel "Zambia"@EN;
     skos:prefLabel "Zambia"@ES;
     skos:prefLabel "Zambie"@FR;
@@ -2244,7 +2244,7 @@
 .
 <ZW> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <reg:AF-SO>;
+    ossr:within <reg:I-AF-SO>;
     skos:prefLabel "Zimbabwe"@EN;
     skos:prefLabel "Zimbabue"@ES;
     skos:prefLabel "Zimbabwe"@FR;

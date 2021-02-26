@@ -18,90 +18,90 @@
     dcterms:created "2021-02-22"^^xsd:date;
     dcterms:publisher "ESSGLOBAL";
     dc:publisher <http://www.ripess.org/>;
-    dc:modified "2021-02-25"^^xsd:date.
+    dc:modified "2021-02-26"^^xsd:date.
 
-<AF-CE> a skos:Concept;
+<I-AF-CE> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:AF>;
+    ossr:within <sreg:I-AF>;
     skos:prefLabel "Central Africa"@EN;
 .
-<AF-EA> a skos:Concept;
+<I-AF-EA> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:AF>;
+    ossr:within <sreg:I-AF>;
     skos:prefLabel "East Africa"@EN;
 .
-<AF-NO> a skos:Concept;
+<I-AF-NO> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:AF>;
+    ossr:within <sreg:I-AF>;
     skos:prefLabel "North Africa"@EN;
 .
-<AF-SO> a skos:Concept;
+<I-AF-SO> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:AF>;
+    ossr:within <sreg:I-AF>;
     skos:prefLabel "Southern Africa"@EN;
 .
-<AF-WE> a skos:Concept;
+<I-AF-WE> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:AF>;
+    ossr:within <sreg:I-AF>;
     skos:prefLabel "West Africa"@EN;
 .
-<AM-CB> a skos:Concept;
+<I-AM-CB> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:AM>;
+    ossr:within <sreg:I-AM>;
     skos:prefLabel "Caribbean countries"@EN;
 .
-<AM-CE> a skos:Concept;
+<I-AM-CE> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:AM>;
+    ossr:within <sreg:I-AM>;
     skos:prefLabel "Central America"@EN;
 .
-<AM-NO> a skos:Concept;
+<I-AM-NO> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:AM>;
+    ossr:within <sreg:I-AM>;
     skos:prefLabel "North America"@EN;
 .
-<AM-SO> a skos:Concept;
+<I-AM-SO> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:AM>;
+    ossr:within <sreg:I-AM>;
     skos:prefLabel "South America"@EN;
 .
-<AP-CE> a skos:Concept;
+<I-AP-CE> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:AP>;
+    ossr:within <sreg:I-AP>;
     skos:prefLabel "Central Asia"@EN;
 .
-<AP-EA> a skos:Concept;
+<I-AP-EA> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:AP>;
+    ossr:within <sreg:I-AP>;
     skos:prefLabel "East Asia"@EN;
 .
-<AP-ME> a skos:Concept;
+<I-AP-ME> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:AP>;
+    ossr:within <sreg:I-AP>;
     skos:prefLabel "Middle East"@EN;
 .
-<AP-OC> a skos:Concept;
+<I-AP-OC> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:AP>;
+    ossr:within <sreg:I-AP>;
     skos:prefLabel "Oceania"@EN;
 .
-<AP-SO> a skos:Concept;
+<I-AP-SO> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:AP>;
+    ossr:within <sreg:I-AP>;
     skos:prefLabel "South Asia"@EN;
 .
-<AP-SE> a skos:Concept;
+<I-AP-SE> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:AP>;
+    ossr:within <sreg:I-AP>;
     skos:prefLabel "South East Asia"@EN;
 .
-<EU-EA> a skos:Concept;
+<I-EU-EA> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:EU>;
+    ossr:within <sreg:I-EU>;
     skos:prefLabel "Europe (Eastern)"@EN;
 .
-<EU-WE> a skos:Concept;
+<I-EU-WE> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:EU>;
+    ossr:within <sreg:I-EU>;
     skos:prefLabel "Europe (Western)"@EN;
 .

@@ -17,21 +17,25 @@
     dcterms:created "2021-02-22"^^xsd:date;
     dcterms:publisher "ESSGLOBAL";
     dc:publisher <http://www.ripess.org/>;
-    dc:modified "2021-02-25"^^xsd:date.
+    dc:modified "2021-02-26"^^xsd:date.
 
-<AF> a skos:Concept;
+<I> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel "Global"@EN;
+.
+<I-AF> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel "Africa"@EN;
 .
-<AM> a skos:Concept;
+<I-AM> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel "Americas"@EN;
 .
-<AP> a skos:Concept;
+<I-AP> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel "Asia+Pacific"@EN;
 .
-<EU> a skos:Concept;
+<I-EU> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel "Europe"@EN;
 .
