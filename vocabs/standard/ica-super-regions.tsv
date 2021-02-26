@@ -1,5 +1,6 @@
 ID	Super-region
-AF	Africa
-AM	Americas
-AP	Asia+Pacific
-EU	Europe
+I	Global
+I-AF	Africa
+I-AM	Americas
+I-AP	Asia+Pacific
+I-EU	Europe
