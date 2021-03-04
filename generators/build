@@ -5,27 +5,27 @@ set -xv
 target_version=${1?Please set the target version}
 case $target_version in
     experimental)
-	essglobal_url
-	essglobal_url=http://purl.org/essglobal/experimental/;;
+        essglobal_url
+        essglobal_url=http://purl.org/essglobal/experimental/;;
     ise)
-	subdir=experimental/essglobal
-	essglobal_url=http://purl.org/solidarityeconomics/$subdir/
-	;;
+        subdir=experimental/essglobal
+        essglobal_url=http://purl.org/solidarityeconomics/$subdir/
+        ;;
     sea)
-	subdir=essglobal/V2a
-	essglobal_url=https://w3id.solidarityeconomy.coop/$subdir/
-	;;
+        subdir=essglobal/V2a
+        essglobal_url=https://w3id.solidarityeconomy.coop/$subdir/
+        ;;
     dev)
-	subdir=essglobal/V2a
-	essglobal_url=https://dev.lod.coop/$subdir/
-	;;
+        subdir=essglobal/V2a
+        essglobal_url=https://dev.lod.coop/$subdir/
+        ;;
     prod)
-	subdir=essglobal/V2a
-	essglobal_url=https://lod.coop/$subdir/
-	;;
+        subdir=essglobal/V2a
+        essglobal_url=https://lod.coop/$subdir/
+        ;;
     1.1)
-	essglobal_url=http://purl.org/essglobal/
-	;;		
+        essglobal_url=http://purl.org/essglobal/
+        ;;              
     *) echo "Unrecognised target version: $target_version"
        exit 1;;
 esac
