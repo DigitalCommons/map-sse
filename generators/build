@@ -1,35 +1,48 @@
 #!/bin/bash
 
-set -xv
+# enable extended pattern matching
+shopt -s extglob
+
+# fail on errors
+set -o errexit
+set -o pipefail
 
 target_version=${1?Please set the target version}
+
+# diagnostic tracing
+set -xv
+
+# remove any dev suffix
 case $target_version in
-    experimental)
-        essglobal_url
-        essglobal_url=http://purl.org/essglobal/experimental/;;
-    ise)
-        subdir=experimental/essglobal
-        essglobal_url=http://purl.org/solidarityeconomics/$subdir/
+    *-dev)
+	prefix=dev.
+	target_version=${target_version%-dev}
+	;;
+esac
+
+case $target_version in
+#    experimental)
+#        essglobal_url
+#        essglobal_url=http://purl.org/essglobal/experimental/;;
+#    ise)
+#        subdir=experimental/essglobal
+#        essglobal_url=http://purl.org/solidarityeconomics/$subdir/
+#        ;;
+    1.1) # Early version, unsure of period of use
+        essglobal_url=http://purl.org/essglobal/
         ;;
-    sea)
+    sea) # Used until about March 2021
         subdir=essglobal/V2a
         essglobal_url=https://w3id.solidarityeconomy.coop/$subdir/
         ;;
-    dev)
-        subdir=essglobal/V2a
-        essglobal_url=https://dev.lod.coop/$subdir/
+    +([0-9]).+([0-9])?(.+([0-9]))) # x.y or x.y.z
+        subdir=essglobal/$target_version
+        essglobal_url=https://${prefix}lod.coop/$subdir/
         ;;
-    prod)
-        subdir=essglobal/V2a
-        essglobal_url=https://lod.coop/$subdir/
-        ;;
-    1.1)
-        essglobal_url=http://purl.org/essglobal/
-        ;;              
     *) echo "Unrecognised target version: $target_version"
        exit 1;;
-esac
-
+	esac
+	
 orig_essglobal_url=http://purl.org/essglobal/
 output_dir=generated/$target_version
 
