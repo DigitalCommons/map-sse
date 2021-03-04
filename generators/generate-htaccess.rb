@@ -28,10 +28,11 @@ puts <<-HERE
 # Turn off MultiViews
 Options -MultiViews
 
-# Directive to ensure *.rdf and *.skos files served as appropriate content type,
+# Directive to ensure *.ttl, *.rdf and *.skos files served as appropriate content type,
 # if not present in main apache config
 AddType application/rdf+xml .rdf
 AddType application/rdf+xml .skos
+AddType text/turtle .ttl
 
 # Rewrite engine setup
 RewriteEngine On
