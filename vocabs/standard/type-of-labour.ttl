@@ -1,0 +1,48 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://purl.org/essglobal/standard/type-of-labour/>
+    dc:contributor "Alan Tygel (alantygel@gmail.com)", "Ana Alice Baptista (analice@dsi.uminho.pt)", "Craig Borowiak (cborowiakhaverford.edu)", "Daniel Tygel (dtygel@gmail.com)", "Jason Nardi (jason.nardi@gmail.com)" ;
+    dc:creator "Mariana Malta (mariana@maltas.org)" ;
+    dc:description "SSE Initiative or SSE Network Legal form controlled vocabulary for SSE" ;
+    dc:language "en-en" ;
+    dc:publisher <http://www.ripess.org/> ;
+    dc:relation <http://www.dsi.uminho.pt/> ;
+    dc:title "Legal Form" ;
+    dcterms:created "2014-02-06"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher "ESSGLOBAL" ;
+    a skos:ConceptScheme .
+
+<http://purl.org/essglobal/standard/type-of-labour/T1>
+    a skos:Concept ;
+    skos:inScheme <http://purl.org/essglobal/standard/type-of-labour/> ;
+    skos:prefLabel ""@en, ""@es, ""@fr, ""@it, ""@pt, "Associative"@en, "Associativo"@es, "Associativo"@pt ;
+    skos:scopeNote ""@en, ""@es, ""@fr, ""@it, ""@pt .
+
+<http://purl.org/essglobal/standard/type-of-labour/T2>
+    a skos:Concept ;
+    skos:inScheme <http://purl.org/essglobal/standard/type-of-labour/> ;
+    skos:prefLabel ""@es, ""@fr, ""@it, "Subordinado"@pt, "Subordinate"@en ;
+    skos:scopeNote ""@en, ""@es, ""@fr, ""@it, ""@pt .
+
+<http://purl.org/essglobal/standard/type-of-labour/T3>
+    a skos:Concept ;
+    skos:inScheme <http://purl.org/essglobal/standard/type-of-labour/> ;
+    skos:prefLabel ""@es, ""@fr, ""@it, "Trabalho Voluntário"@pt, "Voluntary Work "@en ;
+    skos:scopeNote ""@en, ""@es, ""@fr, ""@it, ""@pt .
+
+<http://purl.org/essglobal/standard/type-of-labour/T4>
+    a skos:Concept ;
+    skos:inScheme <http://purl.org/essglobal/standard/type-of-labour/> ;
+    skos:prefLabel ""@es, ""@fr, ""@it, ""@pt, "Reproductive Labour/Care Work "@en ;
+    skos:scopeNote ""@en, ""@es, ""@fr, ""@it, ""@pt .
+
+<http://purl.org/essglobal/standard/type-of-labour/T5>
+    a skos:Concept ;
+    skos:inScheme <http://purl.org/essglobal/standard/type-of-labour/> ;
+    skos:prefLabel ""@es, ""@fr, ""@it, ""@pt, "Externally hired "@en ;
+    skos:scopeNote ""@en, ""@es, ""@fr, ""@it, ""@pt .
+
