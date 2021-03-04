@@ -53,7 +53,7 @@ rm -rf $output_dir
 mkdir -p $output_dir/{vocab,standard,html}-content
 
 # Rewrite $orig_essglobal_url to $essglobal_url in template SKOS, HTML and TTL files
-for src in ../vocabs/{vocab/*.ttl,standard/*.skos,html/essglobal.html}; do
+for src in ../vocabs/{vocab/*.ttl,standard/*.ttl,html/essglobal.html}; do
     # extract the content name from ../vocabs/<content>/*.*
     content=${src#../vocabs/}
     content=${content%/*}
@@ -71,11 +71,18 @@ done
 # Copy css verbatim
 cp ../vocabs/html/*.css $output_dir/html-content/
 
-# Translate TTL into RDF
-rapper -i turtle -o rdfxml-abbrev $output_dir/vocab-content/essglobal-vocab.ttl > $output_dir/vocab-content/essglobal-vocab.rdf
+# Translate TTL into RDF/SKOS
+for src in $output_dir/vocab-content/*.ttl; do
+    rapper -i turtle -o rdfxml-abbrev $src > ${src%.ttl}.rdf
+done
+for src in $output_dir/standard-content/*.ttl; do
+    rapper -i turtle -o rdfxml-abbrev $src > ${src%.ttl}.skos
+done
 
 # Translate TTL into HTML
-rapper -i turtle -o html $output_dir/vocab-content/essglobal-vocab.ttl > $output_dir/vocab-content/essglobal-vocab.html
+for src in $output_dir/{vocab-content,standard-content}/*.ttl; do
+    rapper -i turtle -o html $src > ${src%.ttl}.html
+done
 
 # Generate the .htaccess
 ruby generate-htaccess.rb /$subdir/ vocab standard vocab-content/essglobal-vocab.{rdf,ttl} standard-content html-content/essglobal.html > $output_dir/.htaccess
