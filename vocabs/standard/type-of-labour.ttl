@@ -7,12 +7,13 @@
 <http://purl.org/essglobal/standard/type-of-labour/>
     dc:contributor "Alan Tygel (alantygel@gmail.com)", "Ana Alice Baptista (analice@dsi.uminho.pt)", "Craig Borowiak (cborowiakhaverford.edu)", "Daniel Tygel (dtygel@gmail.com)", "Jason Nardi (jason.nardi@gmail.com)" ;
     dc:creator "Mariana Malta (mariana@maltas.org)" ;
-    dc:description "SSE Initiative or SSE Network Legal form controlled vocabulary for SSE" ;
+    dc:description "SSE Initiative or SSE Network Legal Form controlled vocabulary for SSE" ;
     dc:language "en-en" ;
     dc:publisher <http://www.ripess.org/> ;
     dc:relation <http://www.dsi.uminho.pt/> ;
-    dc:title "Legal Form" ;
+    dc:title "Type of Labour" ;
     dcterms:created "2014-02-06"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2021-03-05"^^<http://www.w3.org/2001/XMLSchema#date> ;    
     dcterms:publisher "ESSGLOBAL" ;
     a skos:ConceptScheme .
 
