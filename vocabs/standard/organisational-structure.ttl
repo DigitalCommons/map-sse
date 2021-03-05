@@ -5,12 +5,13 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 
 <http://purl.org/essglobal/standard/organisational-structure/>
-    dc:description "Alternative SSE Initiative or SSE Network Legal form controlled vocabulary for SSE" ;
+    dc:description "Alternative SSE Initiative or SSE Network Legal Form controlled vocabulary for SSE" ;
     dc:language "en-en" ;
     dc:publisher <https://solidarityeconomy.coop/> ;
     dc:relation <http://www.ripess.org/> ;
-    dc:title "Legal Form Modified" ;
+    dc:title "Organisational Structure" ;
     dcterms:created "2019-05-16"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2021-03-05"^^<http://www.w3.org/2001/XMLSchema#date> ;    
     dcterms:publisher "ESSGLOBAL" ;
     a skos:ConceptScheme .
 
