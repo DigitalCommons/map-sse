@@ -79,8 +79,9 @@ RewriteRule ^#{$vocab_url_suffix}/ https://%{SERVER_NAME}#{$rewrite_base}#{$voca
 #   #{$standard_url_suffix}/activities/
 #   #{$standard_url_suffix}/activities/A01
 # and similar constructions for SKOS files other than activities.
-RewriteCond %{HTTP_ACCEPT} application/rdf\\+xml
-RewriteRule ^#{$standard_url_suffix}/([-a-z]+) https://%{SERVER_NAME}#{$rewrite_base}#{$standard_subdir}/$1.skos [R=303]
+RewriteRule ^#{$standard_url_suffix}/(.+)\\.(skos|rdf)$ https://%{SERVER_NAME}#{$rewrite_base}#{$standard_subdir}/$1.$2 [R=303]
+
+RewriteRule ^#{$standard_subdir}/(.+)\\.rdf$ https://%{SERVER_NAME}#{$rewrite_base}#{$standard_subdir}/$1.skos [R=303]
 
 # Rewrite rule to serve RDF/XML content from the namespace URI by default
 #RewriteRule ^example4a/ example4a-content/2005-10-31.rdf [R=303]
