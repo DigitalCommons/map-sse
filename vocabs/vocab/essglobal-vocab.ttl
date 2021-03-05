@@ -46,7 +46,7 @@
   a rdfs:Class ;
   rdfs:subClassOf <http://www.w3.org/ns/org#OrganizationalUnit> .
 
-<http://purl.org/essglobal/vocab/Network>
+  <http://purl.org/essglobal/vocab/Network>
   rdfs:label "Network"@en ;
   rdfs:label "Rede"@pt ;
   dc:description "A network of individuals and/or organizations that participate in the SSE. "@en ;
@@ -57,7 +57,7 @@
   a rdfs:Class ;
   rdfs:subClassOf <http://www.w3.org/ns/org#OrganizationalCollaboration> .
   
-<http://purl.org/essglobal/vocab/Address>
+  <http://purl.org/essglobal/vocab/Address>
   rdfs:label "Address"@en ;
   rdfs:label "Endereço"@pt ;
   dc:description "The physical address of the Location of Sale, SSe Initiative or Network. "@en ;
@@ -69,7 +69,7 @@
   rdfs:subClassOf <http://www.opengis.net/ont/geosparql#SpatialObject> .
 
 
-<http://purl.org/essglobal/vocab/ProductOrService>
+  <http://purl.org/essglobal/vocab/ProductOrService>
   rdfs:label "Product or Service"@en ;
   rdfs:label "Produto ou Serviço"@pt ;
   dc:description "The good offered by an SSE initiative. It may be material goods or provision of services. "@en ;
@@ -163,7 +163,7 @@
   owl:equivalentClass [ a owl:Restriction ; owl:onProperty skos:inScheme ; owl:hasValue <http://purl.org/essglobal/standard/activities> ] .
 
 
-  <http://purl.org/essglobal/vocab/ActivitiesModified>
+<http://purl.org/essglobal/vocab/ActivitiesModified>
   rdfs:label "Activities Modified VES"@en ;
   rdfs:label ""@pt ;
   dc:description "The modified activities vocabulary encoding scheme"@en ;
@@ -174,7 +174,7 @@
   owl:equivalentClass [ a owl:Restriction ; owl:onProperty skos:inScheme ; owl:hasValue <http://purl.org/essglobal/standard/activities-modified> ] .
   
 
-  <http://purl.org/essglobal/vocab/ActivitiesICA>
+<http://purl.org/essglobal/vocab/ActivitiesICA>
   rdfs:label "Activities ICA VES"@en ;
   rdfs:label ""@pt ;
   dc:description "The set of economic activities defined by the ICA to be used with the terms economicSector, primarySector"@en ;
@@ -184,8 +184,8 @@
   rdfs:subClassOf skos:Concept ;
   owl:equivalentClass [ a owl:Restriction ; owl:onProperty skos:inScheme ; owl:hasValue <http://purl.org/essglobal/standard/activities-ica> ] .
   
-    
- <http://purl.org/essglobal/vocab/LegalForm>
+  
+<http://purl.org/essglobal/vocab/LegalForm>
   rdfs:label "Legal Form VES"@en ;
   rdfs:label "Forma Jurídica VES"@pt ;
   dc:description "The legal form vocabulary encoding scheme"@en ;
@@ -195,7 +195,7 @@
   rdfs:subClassOf skos:Concept ;
   owl:equivalentClass [ a owl:Restriction ; owl:onProperty skos:inScheme ; owl:hasValue <http://purl.org/essglobal/standard/legal-form> ] .
 
-  <http://purl.org/essglobal/vocab/OrganisationalStructure>
+<http://purl.org/essglobal/vocab/OrganisationalStructure>
   rdfs:label "Organisational Structure VES"@en ;
   rdfs:label ""@pt ;
   dc:description "The organisational structure vocabulary encoding scheme"@en ;
@@ -205,7 +205,7 @@
   rdfs:subClassOf skos:Concept ;
   owl:equivalentClass [ a owl:Restriction ; owl:onProperty skos:inScheme ; owl:hasValue <http://purl.org/essglobal/standard/organisational-structure> ] .
 
-  <http://purl.org/essglobal/vocab/BaseMembershipType>
+<http://purl.org/essglobal/vocab/BaseMembershipType>
   rdfs:label "Base Membership Type VES"@en ;
   rdfs:label ""@pt ;
   dc:description "The type of membership of the organisation"@en ;
@@ -215,7 +215,7 @@
   rdfs:subClassOf skos:Concept ;
   owl:equivalentClass [ a owl:Restriction ; owl:onProperty skos:inScheme ; owl:hasValue <http://purl.org/essglobal/standard/base-membership-type> ] .
 
- <http://purl.org/essglobal/vocab/Qualifiers>
+<http://purl.org/essglobal/vocab/Qualifiers>
   rdfs:label "Qualifiers VES"@en ;
   rdfs:label "Qualificadores VES"@pt ;
   dc:description "The qualifiers vocabulary encoding scheme"@en ;
@@ -225,8 +225,8 @@
   dc:modified "2014-08-05"^^xsd:date ;
   rdfs:subClassOf skos:Concept ;
   owl:equivalentClass [ a owl:Restriction ; owl:onProperty skos:inScheme ; owl:hasValue <http://purl.org/essglobal/standard/qualifiers> ] .
-    
- <http://purl.org/essglobal/vocab/TypeOfLabour>
+  
+<http://purl.org/essglobal/vocab/TypeOfLabour>
   rdfs:label "Type of Labour VES"@en ;
   rdfs:label "Tipo de Trabalho VES"@pt ;
   dc:description "The type of labour vocabulary encoding scheme"@en ;
@@ -283,7 +283,7 @@
   rdfs:range [a owl:Class; owl:unionOf (<http://purl.org/essglobal/vocab/ActivitiesModified> <http://purl.org/essglobal/vocab/ActivitiesICA>) ] ;  
   rdfs:domain <http://purl.org/essglobal/vocab/SSEInitiative> .
 
-  <http://purl.org/essglobal/vocab/additionalSectors>
+<http://purl.org/essglobal/vocab/additionalSectors>
   rdfs:label "Additional Sectors"@en ;
   dc:description "Additional activities carried out by SSE initiatives."@en ;
   rdfs:isDefinedBy <http://purl.org/essglobal/vocab/> ;
@@ -341,7 +341,7 @@
   rdfs:range <http://purl.org/essglobal/vocab/LegalForm> ;
   rdfs:domain [a owl:Class; owl:unionOf (<http://purl.org/essglobal/vocab/SSEInitiative> <http://purl.org/essglobal/vocab/Network>) ] .
 
-  <http://purl.org/essglobal/vocab/organisationalStructure>
+<http://purl.org/essglobal/vocab/organisationalStructure>
   rdfs:label "Organisational Structure"@en ;
   rdfs:label ""@pt ;
   dc:description "The organisational structure of a SSE Initiative or Network."@en ;
@@ -353,7 +353,7 @@
   rdfs:range <http://purl.org/essglobal/vocab/OrganisationalStructure> ;
   rdfs:domain [a owl:Class; owl:unionOf (<http://purl.org/essglobal/vocab/SSEInitiative> <http://purl.org/essglobal/vocab/Network>) ] .
 
-  <http://purl.org/essglobal/vocab/baseMembershipType>
+<http://purl.org/essglobal/vocab/baseMembershipType>
   rdfs:label "Base Membership Type"@en ;
   rdfs:label ""@pt ;
   dc:description "The type of membership of an SSE Initiative or Network"@en ;
@@ -390,7 +390,7 @@
   rdfs:range <http://purl.org/essglobal/vocab/ProductOrService> ;
   owl:equivalentProperty <http://purl.org/goodrelations/v1#offers> .
 
-<http://purl.org/essglobal/vocab/hasAddress>
+  <http://purl.org/essglobal/vocab/hasAddress>
   rdfs:label "Has an address"@en ;
   rdfs:label "Tem um endereço"@pt ;
   dc:description "Object Property that links a Network, SSEInitiative or LocationOfSale to it's Address. "@en ;
@@ -487,7 +487,7 @@
   rdfs:range <http://purl.org/essglobal/vocab/LocationOfSale> ;
   owl:equivalentProperty <http://purl.org/goodrelations/v1#availableAtOrFrom> .
 
-<http://purl.org/essglobal/vocab/isAvailable>
+  <http://purl.org/essglobal/vocab/isAvailable>
   rdfs:label "Is available"@en ;
   rdfs:label "Está disponível"@pt ;
   dc:description "Property that specifies if the Sale Option (the product/service at a certain price, under specific properties, in a specific Sale Location) is available.THis property us a boolena: Yes or No."@en ;
