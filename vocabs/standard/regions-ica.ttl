@@ -7,10 +7,10 @@
 @prefix sreg: <http://purl.org/essglobal/standard/super-regions/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@base <http://purl.org/essglobal/standard/regions/> .
+@base <http://purl.org/essglobal/standard/regions-ica/> .
 
 <> a skos:ConceptScheme ;
-    dc:title "Regions";
+    dc:title "ICA Regions";
     dc:description "A controlled vocabulary of ICA country regions for SSE" ;
     dc:creator "Solidarity Economy Association";
     dc:language "en-en";
