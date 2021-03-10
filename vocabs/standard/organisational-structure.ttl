@@ -9,9 +9,9 @@
     dc:language "en-en" ;
     dc:publisher <https://solidarityeconomy.coop/> ;
     dc:relation <http://www.ripess.org/> ;
-    dc:title "Organisational Structure" ;
+    dc:title "Structure Type" ;
     dcterms:created "2019-05-16"^^<http://www.w3.org/2001/XMLSchema#date> ;
-    dcterms:modified "2021-03-05"^^<http://www.w3.org/2001/XMLSchema#date> ;    
+    dc:modified "2021-03-10"^^<http://www.w3.org/2001/XMLSchema#date> ;
     dcterms:publisher "ESSGLOBAL" ;
     a skos:ConceptScheme .
 
