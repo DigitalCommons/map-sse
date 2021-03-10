@@ -24,7 +24,7 @@ BG	Bulgaria	true	true	Bulgaria	BG	Europe	Europe (Eastern)
 BH	Bahrain	true	true	Bahrain	BH	Asia+Pacific	Middle East
 BI	Burundi	true	true	Burundi	BI	Africa	Central Africa
 BJ	Benin	true	true	Benin	BJ	Africa	West Africa
-BL	Saint Barthélemy	false	false
+BL	Saint Barthélemy	false	false				
 BM	Bermuda	true	true	Bermuda	BM	Americas	Caribbean countries
 BN	Brunei Darussalam	true	true	Brunei Darussalam	BN	Asia+Pacific	South East Asia
 BO	Bolivia, Plurinational State of	false	true	Bolivia	BO	Americas	South America
@@ -139,7 +139,7 @@ MA	Morocco	true	true	Morocco	MA	Africa	North Africa
 MC	Monaco	true	true	Monaco	MC	Europe	Europe (Western)
 MD	Moldova, Republic of	false	true	Moldova	MD	Europe	Europe (Eastern)
 ME	Montenegro	true	true	Montenegro	ME	Europe	Europe (Eastern)
-MF	Saint Martin (French part)	false	false
+MF	Saint Martin (French part)	false	false				
 MG	Madagascar	true	true	Madagascar	MG	Africa	Southern Africa
 MH	Marshall Islands	true	true	Marshall Islands	MH	Asia+Pacific	Oceania
 MK	North Macedonia	false	true	Macedonia, Republic of	MK	Europe	Europe (Eastern)
