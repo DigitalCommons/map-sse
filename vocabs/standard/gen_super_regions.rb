@@ -16,7 +16,7 @@ end
 
 languages = ['EN'] #,'ES','FR','DE','ZH']
 
-base_url = 'http://purl.org/essglobal/standard/super-regions/'
+base_url = 'http://purl.org/essglobal/standard/super-regions-ica/'
 scheme = Scheme.new(
   base_url: base_url,
   title: "Super Regions",

@@ -5,11 +5,11 @@ require './scheme'
 
 Languages = ['EN'] #,'ES','FR','DE','ZH']
 Prefixes = {
-  sreg: 'http://purl.org/essglobal/standard/super-regions/'
+  sreg: 'http://purl.org/essglobal/standard/super-regions-ica/'
 }
 IcaSuperRegionIds = CSV.foreach('ica-super-regions.tsv', col_sep: "\t", headers: true)
                       .to_h {|r| [r['Super-region'], r['ID']] }
-base_url = 'http://purl.org/essglobal/standard/regions/'
+base_url = 'http://purl.org/essglobal/standard/regions-ica/'
 
 class Region < Scheme::Term
   attr_reader :id, :srid, :name, :super_region

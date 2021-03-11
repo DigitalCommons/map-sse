@@ -7,7 +7,7 @@ require './scheme'
 
 Languages = ['EN','ES','FR','DE','ZH']
 Prefixes = {
-  reg: 'http://purl.org/essglobal/standard/regions/'
+  reg: 'http://purl.org/essglobal/standard/regions-ica/'
 }
 
 class Country < Scheme::Term
@@ -32,7 +32,7 @@ IsoCountries = CSV.foreach('iso-countries.tsv', col_sep: "\t", headers: true)
                  .to_h {|r| [r['ISO-Code'], IcaRegionIds[r['Region']]] }
 
 
-base_url = 'http://purl.org/essglobal/standard/countries/' # FIXME what was Colm's name?
+base_url = 'http://purl.org/essglobal/standard/countries-iso/'
 scheme = Scheme.new(
   base_url: base_url,
   title: "Countries",
