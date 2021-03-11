@@ -31,7 +31,11 @@ class Scheme
   end
 
   def uri(value)
-    value.gsub('<', '\u0096').gsub('>', '%\u0098')
+    q = value.gsub('<', '\u0096').gsub('>', '%\u0098')
+    # don't quote anything with a prefix (except http/https)
+    return "<#{q}>" if value =~ /^https?:/i
+    return q if value =~ /:/
+    return "<#{q}>"
   end
 
   def suri(value)
@@ -77,7 +81,7 @@ class Scheme
     end
 
     iostream.puts <<HERE
-@base <#{uri @base_url}> .
+@base #{uri @base_url} .
 
 <> a skos:ConceptScheme ;
     dc:title "#{qqstr @title}";
@@ -96,13 +100,13 @@ HERE
 
       # Non-language specific
       iostream.puts <<HERE
-<#{suri term.uri}> a skos:Concept;
-    skos:inScheme <#{suri term.scheme}>;
+#{suri term.uri} a skos:Concept;
+    skos:inScheme #{suri term.scheme};
 HERE
 
       if (term.within)
         iostream.puts <<HERE
-    ossr:within <#{suri term.within}>;
+    ossr:within #{suri term.within};
 HERE
       end
 
