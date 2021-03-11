@@ -4,13 +4,13 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix sreg: <http://purl.org/essglobal/standard/super-regions/> .
+@prefix sreg: <http://purl.org/essglobal/standard/super-regions-ica/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @base <http://purl.org/essglobal/standard/regions-ica/> .
 
 <> a skos:ConceptScheme ;
-    dc:title "ICA Regions";
+    dc:title "Regions";
     dc:description "A controlled vocabulary of ICA country regions for SSE" ;
     dc:creator "Solidarity Economy Association";
     dc:language "en-en";
@@ -18,90 +18,90 @@
     dcterms:created "2021-02-22"^^xsd:date;
     dcterms:publisher "ESSGLOBAL";
     dc:publisher <http://www.ripess.org/>;
-    dc:modified "2021-02-26"^^xsd:date.
+    dc:modified "2021-03-11"^^xsd:date.
 
 <I-AF-CE> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:I-AF>;
+    ossr:within sreg:I-AF;
     skos:prefLabel "Central Africa"@EN;
 .
 <I-AF-EA> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:I-AF>;
+    ossr:within sreg:I-AF;
     skos:prefLabel "East Africa"@EN;
 .
 <I-AF-NO> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:I-AF>;
+    ossr:within sreg:I-AF;
     skos:prefLabel "North Africa"@EN;
 .
 <I-AF-SO> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:I-AF>;
+    ossr:within sreg:I-AF;
     skos:prefLabel "Southern Africa"@EN;
 .
 <I-AF-WE> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:I-AF>;
+    ossr:within sreg:I-AF;
     skos:prefLabel "West Africa"@EN;
 .
 <I-AM-CB> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:I-AM>;
+    ossr:within sreg:I-AM;
     skos:prefLabel "Caribbean countries"@EN;
 .
 <I-AM-CE> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:I-AM>;
+    ossr:within sreg:I-AM;
     skos:prefLabel "Central America"@EN;
 .
 <I-AM-NO> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:I-AM>;
+    ossr:within sreg:I-AM;
     skos:prefLabel "North America"@EN;
 .
 <I-AM-SO> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:I-AM>;
+    ossr:within sreg:I-AM;
     skos:prefLabel "South America"@EN;
 .
 <I-AP-CE> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:I-AP>;
+    ossr:within sreg:I-AP;
     skos:prefLabel "Central Asia"@EN;
 .
 <I-AP-EA> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:I-AP>;
+    ossr:within sreg:I-AP;
     skos:prefLabel "East Asia"@EN;
 .
 <I-AP-ME> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:I-AP>;
+    ossr:within sreg:I-AP;
     skos:prefLabel "Middle East"@EN;
 .
 <I-AP-OC> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:I-AP>;
+    ossr:within sreg:I-AP;
     skos:prefLabel "Oceania"@EN;
 .
 <I-AP-SO> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:I-AP>;
+    ossr:within sreg:I-AP;
     skos:prefLabel "South Asia"@EN;
 .
 <I-AP-SE> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:I-AP>;
+    ossr:within sreg:I-AP;
     skos:prefLabel "South East Asia"@EN;
 .
 <I-EU-EA> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:I-EU>;
+    ossr:within sreg:I-EU;
     skos:prefLabel "Europe (Eastern)"@EN;
 .
 <I-EU-WE> a skos:Concept;
     skos:inScheme <>;
-    ossr:within <sreg:I-EU>;
+    ossr:within sreg:I-EU;
     skos:prefLabel "Europe (Western)"@EN;
 .
