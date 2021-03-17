@@ -1587,7 +1587,7 @@
 .
 <PG> a skos:Concept;
     skos:inScheme <>;
-    ossr:within reg:I-AF-WE;
+    ossr:within reg:I-AP-OC;
     skos:prefLabel "Papua New Guinea"@EN;
     skos:prefLabel "Papúa Nueva Guinea"@ES;
     skos:prefLabel "Papouasie-Nouvelle-Guinée"@FR;
