@@ -19,35 +19,35 @@
     a skos:Concept ;
     skos:altLabel "A" ;
     skos:inScheme <http://purl.org/essglobal/standard/base-membership-type/> ;
-    skos:prefLabel ""@es, ""@fr, ""@pt, "Consumer/Users"@en ;
+    skos:prefLabel "de consumo/usuarios"@es, "Consommateurs/usagers"@fr, ""@pt, "Consumer/Users"@en ;
     skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
 
 <http://purl.org/essglobal/standard/base-membership-type/BMT20>
     a skos:Concept ;
     skos:altLabel "B" ;
     skos:inScheme <http://purl.org/essglobal/standard/base-membership-type/> ;
-    skos:prefLabel ""@es, ""@fr, ""@pt, "Producers"@en ;
+    skos:prefLabel "de productores"@es, "Producteurs"@fr, ""@pt, "Producers"@en ;
     skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
 
 <http://purl.org/essglobal/standard/base-membership-type/BMT30>
     a skos:Concept ;
     skos:altLabel "C" ;
     skos:inScheme <http://purl.org/essglobal/standard/base-membership-type/> ;
-    skos:prefLabel ""@es, ""@fr, ""@pt, "Workers"@en ;
+    skos:prefLabel "de trabajadores"@es, "Travailleurs"@fr, ""@pt, "Workers"@en ;
     skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
 
 <http://purl.org/essglobal/standard/base-membership-type/BMT40>
     a skos:Concept ;
     skos:altLabel "D" ;
     skos:inScheme <http://purl.org/essglobal/standard/base-membership-type/> ;
-    skos:prefLabel ""@es, ""@fr, ""@pt, "Multi-stakeholders"@en ;
+    skos:prefLabel "de múltiples partes interesadas"@es, "Intérêt collectif"@fr, ""@pt, "Multi-stakeholders"@en ;
     skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
 
 <http://purl.org/essglobal/standard/base-membership-type/BMT50>
     a skos:Concept ;
     skos:altLabel "E" ;
     skos:inScheme <http://purl.org/essglobal/standard/base-membership-type/> ;
-    skos:prefLabel ""@es, ""@fr, ""@pt, "Residents"@en ;
+    skos:prefLabel "de residentes"@es, "Résidents"@fr, ""@pt, "Residents"@en ;
     skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
 
 <http://purl.org/essglobal/standard/base-membership-type/BMT60>

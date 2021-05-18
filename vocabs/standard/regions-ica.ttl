@@ -23,85 +23,85 @@
 <I-AF-CE> a skos:Concept;
     skos:inScheme <>;
     ossr:within sreg:I-AF;
-    skos:prefLabel "Central Africa"@EN;
+    skos:prefLabel "África Central"@ES,"Afrique centrale"@FR,"Central Africa"@EN;
 .
 <I-AF-EA> a skos:Concept;
     skos:inScheme <>;
     ossr:within sreg:I-AF;
-    skos:prefLabel "East Africa"@EN;
+    skos:prefLabel "África Oriental"@ES,"Afrique orientale"@FR,"East Africa"@EN;
 .
 <I-AF-NO> a skos:Concept;
     skos:inScheme <>;
     ossr:within sreg:I-AF;
-    skos:prefLabel "North Africa"@EN;
+    skos:prefLabel "África Septentrional"@ES,"Afrique du nord"@FR,"North Africa"@EN;
 .
 <I-AF-SO> a skos:Concept;
     skos:inScheme <>;
     ossr:within sreg:I-AF;
-    skos:prefLabel "Southern Africa"@EN;
+    skos:prefLabel "África Meridional"@ES,"Afrique australe"@FR,"Southern Africa"@EN;
 .
 <I-AF-WE> a skos:Concept;
     skos:inScheme <>;
     ossr:within sreg:I-AF;
-    skos:prefLabel "West Africa"@EN;
+    skos:prefLabel "África Occidental"@ES,"Afrique de l’Ouest"@FR,"West Africa"@EN;
 .
 <I-AM-CB> a skos:Concept;
     skos:inScheme <>;
     ossr:within sreg:I-AM;
-    skos:prefLabel "Caribbean countries"@EN;
+    skos:prefLabel "El Caribe"@ES,"Pays des Caraïbes"@FR,"Caribbean countries"@EN;
 .
 <I-AM-CE> a skos:Concept;
     skos:inScheme <>;
     ossr:within sreg:I-AM;
-    skos:prefLabel "Central America"@EN;
+    skos:prefLabel "América Central"@ES,"Amérique centrale"@FR,"Central America"@EN;
 .
 <I-AM-NO> a skos:Concept;
     skos:inScheme <>;
     ossr:within sreg:I-AM;
-    skos:prefLabel "North America"@EN;
+    skos:prefLabel "América del Norte"@ES,"Amérique du nord"@FR,"North America"@EN;
 .
 <I-AM-SO> a skos:Concept;
     skos:inScheme <>;
     ossr:within sreg:I-AM;
-    skos:prefLabel "South America"@EN;
+    skos:prefLabel "América del Sur"@ES,"Amérique du sud"@FR,"South America"@EN;
 .
 <I-AP-CE> a skos:Concept;
     skos:inScheme <>;
     ossr:within sreg:I-AP;
-    skos:prefLabel "Central Asia"@EN;
+    skos:prefLabel "Asia Central"@ES,"Asie centrale"@FR,"Central Asia"@EN;
 .
 <I-AP-EA> a skos:Concept;
     skos:inScheme <>;
     ossr:within sreg:I-AP;
-    skos:prefLabel "East Asia"@EN;
+    skos:prefLabel "Asia Oriental"@ES,"Asie de l’est"@FR,"East Asia"@EN;
 .
 <I-AP-ME> a skos:Concept;
     skos:inScheme <>;
     ossr:within sreg:I-AP;
-    skos:prefLabel "Middle East"@EN;
+    skos:prefLabel "Oriente Medio"@ES,"Moyen-Orient"@FR,"Middle East"@EN;
 .
 <I-AP-OC> a skos:Concept;
     skos:inScheme <>;
     ossr:within sreg:I-AP;
-    skos:prefLabel "Oceania"@EN;
+    skos:prefLabel "Oceanía"@ES,"Océanie"@FR,"Oceania"@EN;
 .
 <I-AP-SO> a skos:Concept;
     skos:inScheme <>;
     ossr:within sreg:I-AP;
-    skos:prefLabel "South Asia"@EN;
+    skos:prefLabel "Asia del Sur"@ES,"Asie du sud"@FR,"South Asia"@EN;
 .
 <I-AP-SE> a skos:Concept;
     skos:inScheme <>;
     ossr:within sreg:I-AP;
-    skos:prefLabel "South East Asia"@EN;
+    skos:prefLabel "Sudeste Asiático"@ES,"Asie du sud-est"@FR,"South East Asia"@EN;
 .
 <I-EU-EA> a skos:Concept;
     skos:inScheme <>;
     ossr:within sreg:I-EU;
-    skos:prefLabel "Europe (Eastern)"@EN;
+    skos:prefLabel "Europa (oriental)"@ES,"Europe (est)"@FR,"Europe (Eastern)"@EN;
 .
 <I-EU-WE> a skos:Concept;
     skos:inScheme <>;
     ossr:within sreg:I-EU;
-    skos:prefLabel "Europe (Western)"@EN;
+    skos:prefLabel "Europa (occidental)"@ES,"Europe (ouest)"@FR,"Europe (Western)"@EN;
 .

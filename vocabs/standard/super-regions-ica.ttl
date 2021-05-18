@@ -25,17 +25,17 @@
 .
 <I-AF> a skos:Concept;
     skos:inScheme <>;
-    skos:prefLabel "Africa"@EN;
+    skos:prefLabel "África"@ES,"Afrique"@FR,"Africa"@EN;
 .
 <I-AM> a skos:Concept;
     skos:inScheme <>;
-    skos:prefLabel "Americas"@EN;
+    skos:prefLabel "América"@ES,"Amériques"@FR,"Americas"@EN;
 .
 <I-AP> a skos:Concept;
     skos:inScheme <>;
-    skos:prefLabel "Asia+Pacific"@EN;
+    skos:prefLabel "Asia-Pacífico"@ES,"Asie+Pacifique"@FR,"Asia+Pacific"@EN;
 .
 <I-EU> a skos:Concept;
     skos:inScheme <>;
-    skos:prefLabel "Europe"@EN;
+    skos:prefLabel "Europa"@ES,"Europe"@FR,"Europe"@EN;
 .
