@@ -9,7 +9,7 @@
     dc:language "en-en" ;
     dc:publisher <https://solidarityeconomy.coop/> ;
     dc:relation <http://www.ripess.org/> ;
-    dc:title "Typology" ;
+    dc:title "Tipología"@es,"Typologie"@fr,"Typology"@en ;
     dcterms:created "2020-10-07"^^<http://www.w3.org/2001/XMLSchema#date> ;
     dc:modified "2021-03-10"^^<http://www.w3.org/2001/XMLSchema#date> ;
     dcterms:publisher "ESSGLOBAL" ;

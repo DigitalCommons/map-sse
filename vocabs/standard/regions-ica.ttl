@@ -10,7 +10,7 @@
 @base <http://purl.org/essglobal/standard/regions-ica/> .
 
 <> a skos:ConceptScheme ;
-    dc:title "Regions";
+    dc:title "Regiones"@es,"Régions"@fr,"Regions"@en;
     dc:description "A controlled vocabulary of ICA country regions for SSE" ;
     dc:creator "Solidarity Economy Association";
     dc:language "en-en";

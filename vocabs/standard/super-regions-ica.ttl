@@ -9,7 +9,7 @@
 @base <http://purl.org/essglobal/standard/super-regions-ica/> .
 
 <> a skos:ConceptScheme ;
-    dc:title "Super Regions";
+    dc:title "Superregión"@es,"Régions de niveau supérieur"@fr,"Super-Region"@en;
     dc:description "A controlled vocabulary of ICA country super-regions for SSE" ;
     dc:creator "Solidarity Economy Association";
     dc:language "en-en";
