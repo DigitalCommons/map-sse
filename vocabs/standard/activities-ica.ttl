@@ -54,14 +54,14 @@
     a skos:Concept ;
     skos:altLabel "N" ;
     skos:inScheme <http://purl.org/essglobal/standard/activities-ica/> ;
-    skos:prefLabel ""@es, ""@fr, ""@pt, "Financial Services"@en ;
+    skos:prefLabel "Servicios financieros"@es, "Services financiers"@fr, ""@pt, "Financial Services"@en ;
     skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
 
 <http://purl.org/essglobal/standard/activities-ica/ICA150>
     a skos:Concept ;
     skos:altLabel "O" ;
     skos:inScheme <http://purl.org/essglobal/standard/activities-ica/> ;
-    skos:prefLabel "Servicios financieros"@es, "Services financiers"@fr, ""@pt, "Insurance"@en ;
+    skos:prefLabel "Seguros"@es, "Assurance"@fr, ""@pt, "Insurance"@en ;
     skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
 
 <http://purl.org/essglobal/standard/activities-ica/ICA160>
