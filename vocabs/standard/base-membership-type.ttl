@@ -54,6 +54,6 @@
     a skos:Concept ;
     skos:altLabel "F" ;
     skos:inScheme <http://purl.org/essglobal/standard/base-membership-type/> ;
-    skos:prefLabel ""@es, ""@fr, ""@pt, "Others"@en ;
+    skos:prefLabel "Otros"@es, "Autres"@fr, ""@pt, "Others"@en ;
     skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
 

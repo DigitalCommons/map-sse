@@ -138,7 +138,7 @@
 <http://purl.org/essglobal/standard/organisational-structure/OS50>
     a skos:Concept ;
     skos:inScheme <http://purl.org/essglobal/standard/organisational-structure/> ;
-    skos:prefLabel ""@es, ""@fr, ""@it, ""@pt, "Company (Other)"@en ;
+    skos:prefLabel "Empresa (otra)"@es, "Entreprise (autre)"@fr, ""@it, ""@pt, "Company (Other)"@en ;
     skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
 
 <http://purl.org/essglobal/standard/organisational-structure/OS60>
