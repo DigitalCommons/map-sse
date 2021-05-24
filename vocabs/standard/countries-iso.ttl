@@ -10,7 +10,7 @@
 @base <http://purl.org/essglobal/standard/countries-iso/> .
 
 <> a skos:ConceptScheme ;
-    dc:title "Countries";
+    dc:title "Countries"@EN,"Des Pays"@FR,"Países"@ES,"Länder"@DE,"国别"@ZH;
     dc:description "A controlled vocabulary of countries compatible with ISO-3166-2 for SSE" ;
     dc:creator "Solidarity Economy Association";
     dc:language "en-en";
