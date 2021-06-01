@@ -1,3 +1,13 @@
+
+# PREREQUISITES
+
+You will need:
+
+- Ruby 2.x or newer
+- Bash 4.x or newer and the usual Unix shell utilities like grep, cat, date, getent
+- raptor (included in raptor2-utils on Debian)
+- rsync
+
 # USAGE
 
     build <target>
