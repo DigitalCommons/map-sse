@@ -31,18 +31,18 @@
 <http://purl.org/essglobal/standard/legal-form/L3>
     a skos:Concept ;
     skos:inScheme <http://purl.org/essglobal/standard/legal-form/> ;
-    skos:prefLabel ""@it, "Company "@en, "Empresa"@es, "Empresa"@pt, "Entreprise"@fr ;
+    skos:prefLabel ""@it, "Company"@en, "Empresa"@es, "Empresa"@pt, "Entreprise"@fr ;
     skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
 
 <http://purl.org/essglobal/standard/legal-form/L4>
     a skos:Concept ;
     skos:inScheme <http://purl.org/essglobal/standard/legal-form/> ;
-    skos:prefLabel ""@es, ""@fr, ""@it, "Non-Profit Organisation "@en, "Organização Não Governamental "@pt ;
+    skos:prefLabel ""@es, ""@fr, ""@it, "Non-Profit Organisation"@en, "Organização Não Governamental"@pt ;
     skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
 
 <http://purl.org/essglobal/standard/legal-form/L5>
     a skos:Concept ;
     skos:inScheme <http://purl.org/essglobal/standard/legal-form/> ;
-    skos:prefLabel ""@fr, ""@it, "Empresa Social"@es, "Empresa Social"@pt, "Social Entreprise "@en ;
+    skos:prefLabel ""@fr, ""@it, "Empresa Social"@es, "Empresa Social"@pt, "Social Enterprise"@en ;
     skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
 
