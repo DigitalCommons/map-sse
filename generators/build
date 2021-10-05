@@ -15,9 +15,9 @@ set -xv
 # remove any dev suffix
 case $target_version in
     *-dev)
-	prefix=dev.
-	target_version=${target_version%-dev}
-	;;
+        prefix=dev.
+        target_version=${target_version%-dev}
+        ;;
 esac
 
 case $target_version in
@@ -41,8 +41,8 @@ case $target_version in
         ;;
     *) echo "Unrecognised target version: $target_version"
        exit 1;;
-	esac
-	
+esac
+        
 orig_essglobal_url=http://purl.org/essglobal/
 output_dir=generated/$target_version
 
