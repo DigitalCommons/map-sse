@@ -49,7 +49,7 @@ RewriteCond %{HTTP_ACCEPT} text/html [OR]
 RewriteCond %{HTTP_ACCEPT} application/xhtml\\+xml [OR]
 RewriteCond %{HTTP_USER_AGENT} ^Mozilla/.*
 #RewriteRule ^example4a/$ example4a-content/2005-10-31.html [R=303]
-RewriteRule ^#{$vocab_url_suffix}/$ https://%{SERVER_NAME}#{$rewrite_base}#{$html_file} [R=303]
+RewriteRule ^#{$vocab_url_suffix}/$ https://%{SERVER_NAME}#{$rewrite_base}#{$html_file} [R=303,L]
 
 # Rewrite rule to serve directed HTML content from class/prop URIs
 RewriteCond %{HTTP_ACCEPT} !application/rdf\\+xml.*(text/html|application/xhtml\\+xml)
@@ -57,7 +57,7 @@ RewriteCond %{HTTP_ACCEPT} text/html [OR]
 RewriteCond %{HTTP_ACCEPT} application/xhtml\\+xml [OR]
 RewriteCond %{HTTP_USER_AGENT} ^Mozilla/.*
 #RewriteRule ^example4a/(.+) example4a-content/2005-10-31.html\#$1 [R=303,NE]
-RewriteRule ^#{$vocab_url_suffix}/(.+) https://%{SERVER_NAME}#{$rewrite_base}#{$html_file}\#$1 [R=303,NE]
+RewriteRule ^#{$vocab_url_suffix}/(.+) https://%{SERVER_NAME}#{$rewrite_base}#{$html_file}\#$1 [R=303,NE,L]
 
 RewriteCond %{HTTP_ACCEPT} !application/rdf\\+xml.*(text/html|application/xhtml\\+xml)
 RewriteCond %{HTTP_ACCEPT} text/html [OR]
@@ -65,11 +65,11 @@ RewriteCond %{HTTP_ACCEPT} application/xhtml\\+xml [OR]
 RewriteCond %{HTTP_USER_AGENT} ^Mozilla/.*
 # For now, for any URI that mentions the standard, we just point to the same section of the html doc:
 # We could do a lot better than this ... in the future.
-RewriteRule ^#{$standard_url_suffix} https://%{SERVER_NAME}#{$rewrite_base}#{$html_file}\#H4 [R=303,NE]
+RewriteRule ^#{$standard_url_suffix} https://%{SERVER_NAME}#{$rewrite_base}#{$html_file}\#H4 [R=303,NE,L]
 
 # Rewrite rule to serve Turtle content if requested
 RewriteCond %{HTTP_ACCEPT} text/turtle
-RewriteRule ^#{$vocab_url_suffix}/ https://%{SERVER_NAME}#{$rewrite_base}#{$vocab_ttl} [R=303]
+RewriteRule ^#{$vocab_url_suffix}/ https://%{SERVER_NAME}#{$rewrite_base}#{$vocab_ttl} [R=303,L]
 
 # Rewrite rule to serve SKOS files. 
 # There is an assumption here (in the RewriteRule pattern that filenames of the skos files
