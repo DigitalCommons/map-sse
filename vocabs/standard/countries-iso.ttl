@@ -10,7 +10,7 @@
 @base <http://purl.org/essglobal/standard/countries-iso/> .
 
 <> a skos:ConceptScheme ;
-    dc:title "Countries"@EN,"Des Pays"@FR,"Países"@ES,"Länder"@DE,"国别"@ZH;
+    dc:title "Countries"@EN,"Des Pays"@FR,"Países"@ES,"Länder"@DE,"国别"@ZH,"국가"@KO;
     dc:description "A controlled vocabulary of countries compatible with ISO-3166-2 for SSE" ;
     dc:creator "Solidarity Economy Association";
     dc:language "en-en";
@@ -18,7 +18,7 @@
     dcterms:created "2021-02-22"^^xsd:date;
     dcterms:publisher "ESSGLOBAL";
     dc:publisher <http://www.ripess.org/>;
-    dc:modified "2021-03-11"^^xsd:date.
+    dc:modified "2021-11-25"^^xsd:date.
 
 <AD> a skos:Concept;
     skos:inScheme <>;
@@ -28,6 +28,7 @@
     skos:prefLabel "Andorre"@FR;
     skos:prefLabel "Andorra"@DE;
     skos:prefLabel "安道尔"@ZH;
+    skos:prefLabel "안도라"@KO;
 .
 <AE> a skos:Concept;
     skos:inScheme <>;
@@ -37,6 +38,7 @@
     skos:prefLabel "Émirats arabes unis"@FR;
     skos:prefLabel "Vereinigte Arabische Emirate"@DE;
     skos:prefLabel "阿联酋"@ZH;
+    skos:prefLabel "아랍에미리트"@KO;
 .
 <AF> a skos:Concept;
     skos:inScheme <>;
@@ -46,6 +48,7 @@
     skos:prefLabel "Afghanistan"@FR;
     skos:prefLabel "Afghanistan"@DE;
     skos:prefLabel "阿富汗"@ZH;
+    skos:prefLabel "아프가니스탄"@KO;
 .
 <AG> a skos:Concept;
     skos:inScheme <>;
@@ -55,6 +58,7 @@
     skos:prefLabel "Antigua-et-Barbuda"@FR;
     skos:prefLabel "Antigua und Barbuda"@DE;
     skos:prefLabel "安提瓜和巴布达"@ZH;
+    skos:prefLabel "앤티가 바부다"@KO;
 .
 <AI> a skos:Concept;
     skos:inScheme <>;
@@ -64,6 +68,7 @@
     skos:prefLabel "Anguilla"@FR;
     skos:prefLabel "Anguilla"@DE;
     skos:prefLabel "安圭拉"@ZH;
+    skos:prefLabel "앵귈라"@KO;
 .
 <AL> a skos:Concept;
     skos:inScheme <>;
@@ -73,6 +78,7 @@
     skos:prefLabel "Albanie"@FR;
     skos:prefLabel "Albanien"@DE;
     skos:prefLabel "阿尔巴尼亚"@ZH;
+    skos:prefLabel "알바니아"@KO;
 .
 <AM> a skos:Concept;
     skos:inScheme <>;
@@ -82,6 +88,7 @@
     skos:prefLabel "Arménie"@FR;
     skos:prefLabel "Armenien"@DE;
     skos:prefLabel "亚美尼亚"@ZH;
+    skos:prefLabel "아르메니아"@KO;
 .
 <AO> a skos:Concept;
     skos:inScheme <>;
@@ -91,6 +98,7 @@
     skos:prefLabel "Angola"@FR;
     skos:prefLabel "Angola"@DE;
     skos:prefLabel "安哥拉"@ZH;
+    skos:prefLabel "앙골라"@KO;
 .
 <AQ> a skos:Concept;
     skos:inScheme <>;
@@ -99,6 +107,7 @@
     skos:prefLabel "Antarctique"@FR;
     skos:prefLabel "Antarktis"@DE;
     skos:prefLabel "南极洲"@ZH;
+    skos:prefLabel "남극"@KO;
 .
 <AR> a skos:Concept;
     skos:inScheme <>;
@@ -108,6 +117,7 @@
     skos:prefLabel "Argentine"@FR;
     skos:prefLabel "Argentinien"@DE;
     skos:prefLabel "阿根廷"@ZH;
+    skos:prefLabel "아르헨티나"@KO;
 .
 <AS> a skos:Concept;
     skos:inScheme <>;
@@ -117,6 +127,7 @@
     skos:prefLabel "Samoa américaines"@FR;
     skos:prefLabel "Amerikanisch-Samoa"@DE;
     skos:prefLabel "美属萨摩亚"@ZH;
+    skos:prefLabel "아메리칸사모아"@KO;
 .
 <AT> a skos:Concept;
     skos:inScheme <>;
@@ -126,6 +137,7 @@
     skos:prefLabel "Autriche"@FR;
     skos:prefLabel "Österreich"@DE;
     skos:prefLabel "奥地利"@ZH;
+    skos:prefLabel "오스트리아"@KO;
 .
 <AU> a skos:Concept;
     skos:inScheme <>;
@@ -135,6 +147,7 @@
     skos:prefLabel "Australie"@FR;
     skos:prefLabel "Australien"@DE;
     skos:prefLabel "澳大利亚"@ZH;
+    skos:prefLabel "오스트레일리아"@KO;
 .
 <AW> a skos:Concept;
     skos:inScheme <>;
@@ -144,6 +157,7 @@
     skos:prefLabel "Aruba"@FR;
     skos:prefLabel "Aruba"@DE;
     skos:prefLabel "阿鲁巴"@ZH;
+    skos:prefLabel "아루바"@KO;
 .
 <AX> a skos:Concept;
     skos:inScheme <>;
@@ -153,6 +167,7 @@
     skos:prefLabel "Åland, Îles"@FR;
     skos:prefLabel "Åland-Inseln"@DE;
     skos:prefLabel "奥兰群岛"@ZH;
+    skos:prefLabel "올란드 제도"@KO;
 .
 <AZ> a skos:Concept;
     skos:inScheme <>;
@@ -162,6 +177,7 @@
     skos:prefLabel "Azerbaïdjan"@FR;
     skos:prefLabel "Aserbaidschan"@DE;
     skos:prefLabel "阿塞拜疆"@ZH;
+    skos:prefLabel "아제르바이잔"@KO;
 .
 <BA> a skos:Concept;
     skos:inScheme <>;
@@ -171,6 +187,7 @@
     skos:prefLabel "Bosnie-Herzégovine"@FR;
     skos:prefLabel "Bosnien und Herzegowina"@DE;
     skos:prefLabel "波斯尼亚和黑塞哥维那"@ZH;
+    skos:prefLabel "보스니아 헤르체고비나"@KO;
 .
 <BB> a skos:Concept;
     skos:inScheme <>;
@@ -180,6 +197,7 @@
     skos:prefLabel "Barbade"@FR;
     skos:prefLabel "Barbados"@DE;
     skos:prefLabel "巴巴多斯"@ZH;
+    skos:prefLabel "바베이도스"@KO;
 .
 <BD> a skos:Concept;
     skos:inScheme <>;
@@ -189,6 +207,7 @@
     skos:prefLabel "Bangladesh"@FR;
     skos:prefLabel "Bangladesch"@DE;
     skos:prefLabel "孟加拉"@ZH;
+    skos:prefLabel "방글라데시"@KO;
 .
 <BE> a skos:Concept;
     skos:inScheme <>;
@@ -198,6 +217,7 @@
     skos:prefLabel "Belgique"@FR;
     skos:prefLabel "Belgien"@DE;
     skos:prefLabel "比利时"@ZH;
+    skos:prefLabel "벨기에"@KO;
 .
 <BF> a skos:Concept;
     skos:inScheme <>;
@@ -207,6 +227,7 @@
     skos:prefLabel "Burkina Faso"@FR;
     skos:prefLabel "Burkina Faso"@DE;
     skos:prefLabel "布基纳法索"@ZH;
+    skos:prefLabel "부르키나파소"@KO;
 .
 <BG> a skos:Concept;
     skos:inScheme <>;
@@ -216,6 +237,7 @@
     skos:prefLabel "Bulgarie"@FR;
     skos:prefLabel "Bulgarien"@DE;
     skos:prefLabel "保加利亚"@ZH;
+    skos:prefLabel "불가리아"@KO;
 .
 <BH> a skos:Concept;
     skos:inScheme <>;
@@ -225,6 +247,7 @@
     skos:prefLabel "Bahreïn"@FR;
     skos:prefLabel "Bahrain"@DE;
     skos:prefLabel "巴林"@ZH;
+    skos:prefLabel "바레인"@KO;
 .
 <BI> a skos:Concept;
     skos:inScheme <>;
@@ -234,6 +257,7 @@
     skos:prefLabel "Burundi"@FR;
     skos:prefLabel "Burundi"@DE;
     skos:prefLabel "布隆迪"@ZH;
+    skos:prefLabel "부룬디"@KO;
 .
 <BJ> a skos:Concept;
     skos:inScheme <>;
@@ -243,6 +267,7 @@
     skos:prefLabel "Bénin"@FR;
     skos:prefLabel "Benin"@DE;
     skos:prefLabel "贝宁"@ZH;
+    skos:prefLabel "베냉"@KO;
 .
 <BL> a skos:Concept;
     skos:inScheme <>;
@@ -251,6 +276,7 @@
     skos:prefLabel "Saint-Barthélemy"@FR;
     skos:prefLabel "Saint-Barthélemy"@DE;
     skos:prefLabel "圣巴泰勒米岛"@ZH;
+    skos:prefLabel "생바르텔레미"@KO;
 .
 <BM> a skos:Concept;
     skos:inScheme <>;
@@ -260,6 +286,7 @@
     skos:prefLabel "Bermudes"@FR;
     skos:prefLabel "Bermuda"@DE;
     skos:prefLabel "百慕大"@ZH;
+    skos:prefLabel "버뮤다"@KO;
 .
 <BN> a skos:Concept;
     skos:inScheme <>;
@@ -269,6 +296,7 @@
     skos:prefLabel "Brunéi Darussalam"@FR;
     skos:prefLabel "Brunei Darussalam"@DE;
     skos:prefLabel "文莱"@ZH;
+    skos:prefLabel "브루나이 다루살람"@KO;
 .
 <BO> a skos:Concept;
     skos:inScheme <>;
@@ -278,6 +306,7 @@
     skos:prefLabel "Bolivie"@FR;
     skos:prefLabel "Bolivien"@DE;
     skos:prefLabel "波利维亚"@ZH;
+    skos:prefLabel "볼리비아"@KO;
 .
 <BQ> a skos:Concept;
     skos:inScheme <>;
@@ -287,6 +316,7 @@
     skos:prefLabel "Bonaire, Saint-Eustache et Saba"@FR;
     skos:prefLabel "Bonaire, Sint Eustatius und Saba"@DE;
     skos:prefLabel "博奈尔、圣尤斯特歇斯岛和萨巴"@ZH;
+    skos:prefLabel "보네르, 신트외스타티위스, 사바 섬"@KO;
 .
 <BR> a skos:Concept;
     skos:inScheme <>;
@@ -296,6 +326,7 @@
     skos:prefLabel "Brésil"@FR;
     skos:prefLabel "Brasilien"@DE;
     skos:prefLabel "巴西"@ZH;
+    skos:prefLabel "브라질"@KO;
 .
 <BS> a skos:Concept;
     skos:inScheme <>;
@@ -305,6 +336,7 @@
     skos:prefLabel "Bahamas"@FR;
     skos:prefLabel "Bahamas"@DE;
     skos:prefLabel "巴哈马"@ZH;
+    skos:prefLabel "바하마"@KO;
 .
 <BT> a skos:Concept;
     skos:inScheme <>;
@@ -314,6 +346,7 @@
     skos:prefLabel "Bhoutan"@FR;
     skos:prefLabel "Bhutan"@DE;
     skos:prefLabel "不丹"@ZH;
+    skos:prefLabel "부탄"@KO;
 .
 <BV> a skos:Concept;
     skos:inScheme <>;
@@ -322,6 +355,7 @@
     skos:prefLabel "île Bouvet"@FR;
     skos:prefLabel "Bouvet-Insel"@DE;
     skos:prefLabel "布维群岛"@ZH;
+    skos:prefLabel "부베 섬"@KO;
 .
 <BW> a skos:Concept;
     skos:inScheme <>;
@@ -331,6 +365,7 @@
     skos:prefLabel "Botswana"@FR;
     skos:prefLabel "Botsuana"@DE;
     skos:prefLabel "博兹瓦那"@ZH;
+    skos:prefLabel "보츠와나"@KO;
 .
 <BY> a skos:Concept;
     skos:inScheme <>;
@@ -340,6 +375,7 @@
     skos:prefLabel "Bélarus"@FR;
     skos:prefLabel "Weißrussland"@DE;
     skos:prefLabel "白俄罗斯"@ZH;
+    skos:prefLabel "벨라루스"@KO;
 .
 <BZ> a skos:Concept;
     skos:inScheme <>;
@@ -349,6 +385,7 @@
     skos:prefLabel "Belize"@FR;
     skos:prefLabel "Belize"@DE;
     skos:prefLabel "伯利兹"@ZH;
+    skos:prefLabel "벨리즈"@KO;
 .
 <CA> a skos:Concept;
     skos:inScheme <>;
@@ -358,6 +395,7 @@
     skos:prefLabel "Canada"@FR;
     skos:prefLabel "Kanada"@DE;
     skos:prefLabel "加拿大"@ZH;
+    skos:prefLabel "캐나다"@KO;
 .
 <CC> a skos:Concept;
     skos:inScheme <>;
@@ -367,6 +405,7 @@
     skos:prefLabel "Cocos (Keeling), Îles"@FR;
     skos:prefLabel "Kokos-(Keeling-)Inseln"@DE;
     skos:prefLabel "科科斯群岛"@ZH;
+    skos:prefLabel "코코스 제도"@KO;
 .
 <CD> a skos:Concept;
     skos:inScheme <>;
@@ -376,6 +415,7 @@
     skos:prefLabel "République démocratique du Congo"@FR;
     skos:prefLabel "Demokratische Republik Kongo"@DE;
     skos:prefLabel "刚果民主共和国"@ZH;
+    skos:prefLabel "콩고 민주 공화국"@KO;
 .
 <CF> a skos:Concept;
     skos:inScheme <>;
@@ -385,6 +425,7 @@
     skos:prefLabel "République centrafricaine"@FR;
     skos:prefLabel "Zentralafrikanische Republik"@DE;
     skos:prefLabel "中非"@ZH;
+    skos:prefLabel "중앙아프리카 공화국"@KO;
 .
 <CG> a skos:Concept;
     skos:inScheme <>;
@@ -394,6 +435,7 @@
     skos:prefLabel "République du Congo"@FR;
     skos:prefLabel "Kongo"@DE;
     skos:prefLabel "刚果"@ZH;
+    skos:prefLabel "콩고"@KO;
 .
 <CH> a skos:Concept;
     skos:inScheme <>;
@@ -403,6 +445,7 @@
     skos:prefLabel "Suisse"@FR;
     skos:prefLabel "Schweiz"@DE;
     skos:prefLabel "瑞士"@ZH;
+    skos:prefLabel "스위스"@KO;
 .
 <CI> a skos:Concept;
     skos:inScheme <>;
@@ -412,6 +455,7 @@
     skos:prefLabel "Côte d'Ivoire"@FR;
     skos:prefLabel "Côte d'Ivoire"@DE;
     skos:prefLabel "科特迪瓦"@ZH;
+    skos:prefLabel "코트디부아르"@KO;
 .
 <CK> a skos:Concept;
     skos:inScheme <>;
@@ -421,6 +465,7 @@
     skos:prefLabel "îles Cook"@FR;
     skos:prefLabel "Cookinseln"@DE;
     skos:prefLabel "库克群岛"@ZH;
+    skos:prefLabel "쿡 제도"@KO;
 .
 <CL> a skos:Concept;
     skos:inScheme <>;
@@ -430,6 +475,7 @@
     skos:prefLabel "Chili"@FR;
     skos:prefLabel "Chile"@DE;
     skos:prefLabel "智利"@ZH;
+    skos:prefLabel "칠레"@KO;
 .
 <CM> a skos:Concept;
     skos:inScheme <>;
@@ -439,6 +485,7 @@
     skos:prefLabel "Cameroun"@FR;
     skos:prefLabel "Kamerun"@DE;
     skos:prefLabel "喀麦隆"@ZH;
+    skos:prefLabel "카메룬"@KO;
 .
 <CN> a skos:Concept;
     skos:inScheme <>;
@@ -448,6 +495,7 @@
     skos:prefLabel "Chine"@FR;
     skos:prefLabel "China"@DE;
     skos:prefLabel "中国"@ZH;
+    skos:prefLabel "중국"@KO;
 .
 <CO> a skos:Concept;
     skos:inScheme <>;
@@ -457,6 +505,7 @@
     skos:prefLabel "Colombie"@FR;
     skos:prefLabel "Kolumbien"@DE;
     skos:prefLabel "哥伦比亚"@ZH;
+    skos:prefLabel "콜롬비아"@KO;
 .
 <CR> a skos:Concept;
     skos:inScheme <>;
@@ -466,6 +515,7 @@
     skos:prefLabel "Costa Rica"@FR;
     skos:prefLabel "Costa Rica"@DE;
     skos:prefLabel "哥斯达黎加"@ZH;
+    skos:prefLabel "코스타리카"@KO;
 .
 <CU> a skos:Concept;
     skos:inScheme <>;
@@ -475,6 +525,7 @@
     skos:prefLabel "Cuba"@FR;
     skos:prefLabel "Kuba"@DE;
     skos:prefLabel "古巴"@ZH;
+    skos:prefLabel "쿠바"@KO;
 .
 <CV> a skos:Concept;
     skos:inScheme <>;
@@ -484,6 +535,7 @@
     skos:prefLabel "Cap-Vert"@FR;
     skos:prefLabel "Cabo Verde"@DE;
     skos:prefLabel "佛得角"@ZH;
+    skos:prefLabel "카보베르데"@KO;
 .
 <CW> a skos:Concept;
     skos:inScheme <>;
@@ -493,6 +545,7 @@
     skos:prefLabel "Curaçao"@FR;
     skos:prefLabel "Curaçao"@DE;
     skos:prefLabel "库拉索"@ZH;
+    skos:prefLabel "퀴라소"@KO;
 .
 <CX> a skos:Concept;
     skos:inScheme <>;
@@ -502,6 +555,7 @@
     skos:prefLabel "Christmas, Île"@FR;
     skos:prefLabel "Weihnachtsinseln"@DE;
     skos:prefLabel "圣诞岛"@ZH;
+    skos:prefLabel "크리스마스 섬"@KO;
 .
 <CY> a skos:Concept;
     skos:inScheme <>;
@@ -511,6 +565,7 @@
     skos:prefLabel "Chypre"@FR;
     skos:prefLabel "Zypern"@DE;
     skos:prefLabel "塞浦路斯"@ZH;
+    skos:prefLabel "키프로스"@KO;
 .
 <CZ> a skos:Concept;
     skos:inScheme <>;
@@ -520,6 +575,7 @@
     skos:prefLabel "Tchéquie"@FR;
     skos:prefLabel "Tschechien"@DE;
     skos:prefLabel "捷克"@ZH;
+    skos:prefLabel "체코"@KO;
 .
 <DE> a skos:Concept;
     skos:inScheme <>;
@@ -529,6 +585,7 @@
     skos:prefLabel "Allemagne"@FR;
     skos:prefLabel "Deutschland"@DE;
     skos:prefLabel "德国"@ZH;
+    skos:prefLabel "독일"@KO;
 .
 <DJ> a skos:Concept;
     skos:inScheme <>;
@@ -538,6 +595,7 @@
     skos:prefLabel "Djibouti"@FR;
     skos:prefLabel "Dschibuti"@DE;
     skos:prefLabel "吉布提"@ZH;
+    skos:prefLabel "지부티"@KO;
 .
 <DK> a skos:Concept;
     skos:inScheme <>;
@@ -547,6 +605,7 @@
     skos:prefLabel "Danemark"@FR;
     skos:prefLabel "Dänemark"@DE;
     skos:prefLabel "丹麦"@ZH;
+    skos:prefLabel "덴마크"@KO;
 .
 <DM> a skos:Concept;
     skos:inScheme <>;
@@ -556,6 +615,7 @@
     skos:prefLabel "Dominique"@FR;
     skos:prefLabel "Dominica"@DE;
     skos:prefLabel "多米尼克"@ZH;
+    skos:prefLabel "도미니카 연방"@KO;
 .
 <DO> a skos:Concept;
     skos:inScheme <>;
@@ -565,6 +625,7 @@
     skos:prefLabel "République dominicaine"@FR;
     skos:prefLabel "Dominikanische Republik"@DE;
     skos:prefLabel "多米尼加共和国"@ZH;
+    skos:prefLabel "도미니카 공화국"@KO;
 .
 <DZ> a skos:Concept;
     skos:inScheme <>;
@@ -574,6 +635,7 @@
     skos:prefLabel "Algérie"@FR;
     skos:prefLabel "Algerien"@DE;
     skos:prefLabel "阿尔及利亚"@ZH;
+    skos:prefLabel "알제리"@KO;
 .
 <EC> a skos:Concept;
     skos:inScheme <>;
@@ -583,6 +645,7 @@
     skos:prefLabel "Équateur"@FR;
     skos:prefLabel "Ecuador"@DE;
     skos:prefLabel "厄瓜多尔"@ZH;
+    skos:prefLabel "에콰도르"@KO;
 .
 <EE> a skos:Concept;
     skos:inScheme <>;
@@ -592,6 +655,7 @@
     skos:prefLabel "Estonie"@FR;
     skos:prefLabel "Estland"@DE;
     skos:prefLabel "爱沙尼亚"@ZH;
+    skos:prefLabel "에스토니아"@KO;
 .
 <EG> a skos:Concept;
     skos:inScheme <>;
@@ -601,6 +665,7 @@
     skos:prefLabel "Égypte"@FR;
     skos:prefLabel "Ägypten"@DE;
     skos:prefLabel "埃及"@ZH;
+    skos:prefLabel "이집트"@KO;
 .
 <EH> a skos:Concept;
     skos:inScheme <>;
@@ -610,6 +675,7 @@
     skos:prefLabel "Sahara occidental"@FR;
     skos:prefLabel "Westsahara"@DE;
     skos:prefLabel "西撒哈拉"@ZH;
+    skos:prefLabel "서사하라"@KO;
 .
 <ER> a skos:Concept;
     skos:inScheme <>;
@@ -619,6 +685,7 @@
     skos:prefLabel "Érythrée"@FR;
     skos:prefLabel "Eritrea"@DE;
     skos:prefLabel "厄立特里亚"@ZH;
+    skos:prefLabel "에리트레아"@KO;
 .
 <ES> a skos:Concept;
     skos:inScheme <>;
@@ -628,6 +695,7 @@
     skos:prefLabel "Espagne"@FR;
     skos:prefLabel "Spanien"@DE;
     skos:prefLabel "西班牙"@ZH;
+    skos:prefLabel "스페인"@KO;
 .
 <ET> a skos:Concept;
     skos:inScheme <>;
@@ -637,6 +705,7 @@
     skos:prefLabel "Éthiopie"@FR;
     skos:prefLabel "Äthiopien"@DE;
     skos:prefLabel "埃塞俄比亚"@ZH;
+    skos:prefLabel "에티오피아"@KO;
 .
 <FI> a skos:Concept;
     skos:inScheme <>;
@@ -646,6 +715,7 @@
     skos:prefLabel "Finlande"@FR;
     skos:prefLabel "Finnland"@DE;
     skos:prefLabel "芬兰"@ZH;
+    skos:prefLabel "핀란드"@KO;
 .
 <FJ> a skos:Concept;
     skos:inScheme <>;
@@ -655,6 +725,7 @@
     skos:prefLabel "Fidji"@FR;
     skos:prefLabel "Fidschi"@DE;
     skos:prefLabel "斐济"@ZH;
+    skos:prefLabel "피지"@KO;
 .
 <FK> a skos:Concept;
     skos:inScheme <>;
@@ -663,6 +734,7 @@
     skos:prefLabel "Malouines, Îles (Falkland)"@FR;
     skos:prefLabel "Falklandinseln (Malwinen)"@DE;
     skos:prefLabel "福克兰群岛(马尔维纳斯)"@ZH;
+    skos:prefLabel "포클랜드 제도 (말비나스)"@KO;
 .
 <FM> a skos:Concept;
     skos:inScheme <>;
@@ -672,6 +744,7 @@
     skos:prefLabel "Micronésie, États fédérés de"@FR;
     skos:prefLabel "Mikronesien, Föderierte Staaten von"@DE;
     skos:prefLabel "密克罗尼西亚"@ZH;
+    skos:prefLabel "미크로네시아 연방"@KO;
 .
 <FO> a skos:Concept;
     skos:inScheme <>;
@@ -681,6 +754,7 @@
     skos:prefLabel "îles Féroé"@FR;
     skos:prefLabel "Färöer-Inseln"@DE;
     skos:prefLabel "法罗群岛"@ZH;
+    skos:prefLabel "페로 제도"@KO;
 .
 <FR> a skos:Concept;
     skos:inScheme <>;
@@ -690,6 +764,7 @@
     skos:prefLabel "France"@FR;
     skos:prefLabel "Frankreich"@DE;
     skos:prefLabel "法国"@ZH;
+    skos:prefLabel "프랑스"@KO;
 .
 <GA> a skos:Concept;
     skos:inScheme <>;
@@ -699,6 +774,7 @@
     skos:prefLabel "Gabon"@FR;
     skos:prefLabel "Gabun"@DE;
     skos:prefLabel "加蓬"@ZH;
+    skos:prefLabel "가봉"@KO;
 .
 <GB> a skos:Concept;
     skos:inScheme <>;
@@ -708,6 +784,7 @@
     skos:prefLabel "Royaume-Uni"@FR;
     skos:prefLabel "Vereinigtes Königreich"@DE;
     skos:prefLabel "英国"@ZH;
+    skos:prefLabel "영국"@KO;
 .
 <GD> a skos:Concept;
     skos:inScheme <>;
@@ -717,6 +794,7 @@
     skos:prefLabel "Grenade"@FR;
     skos:prefLabel "Grenada"@DE;
     skos:prefLabel "格林纳达"@ZH;
+    skos:prefLabel "그레나다"@KO;
 .
 <GE> a skos:Concept;
     skos:inScheme <>;
@@ -726,6 +804,7 @@
     skos:prefLabel "Géorgie"@FR;
     skos:prefLabel "Georgien"@DE;
     skos:prefLabel "格鲁吉亚"@ZH;
+    skos:prefLabel "조지아"@KO;
 .
 <GF> a skos:Concept;
     skos:inScheme <>;
@@ -735,6 +814,7 @@
     skos:prefLabel "Guyane française"@FR;
     skos:prefLabel "Französisch-Guyana"@DE;
     skos:prefLabel "法属圭亚那"@ZH;
+    skos:prefLabel "프랑스령 기아나"@KO;
 .
 <GG> a skos:Concept;
     skos:inScheme <>;
@@ -743,6 +823,7 @@
     skos:prefLabel "Guernesey"@FR;
     skos:prefLabel "Guernsey"@DE;
     skos:prefLabel "根西岛"@ZH;
+    skos:prefLabel "건지 섬"@KO;
 .
 <GH> a skos:Concept;
     skos:inScheme <>;
@@ -752,6 +833,7 @@
     skos:prefLabel "Ghana"@FR;
     skos:prefLabel "Ghana"@DE;
     skos:prefLabel "加纳"@ZH;
+    skos:prefLabel "가나"@KO;
 .
 <GI> a skos:Concept;
     skos:inScheme <>;
@@ -761,6 +843,7 @@
     skos:prefLabel "Gibraltar"@FR;
     skos:prefLabel "Gibraltar"@DE;
     skos:prefLabel "直布罗陀"@ZH;
+    skos:prefLabel "지브롤터"@KO;
 .
 <GL> a skos:Concept;
     skos:inScheme <>;
@@ -770,6 +853,7 @@
     skos:prefLabel "Groënland"@FR;
     skos:prefLabel "Grönland"@DE;
     skos:prefLabel "格陵兰"@ZH;
+    skos:prefLabel "그린란드"@KO;
 .
 <GM> a skos:Concept;
     skos:inScheme <>;
@@ -779,6 +863,7 @@
     skos:prefLabel "Gambie"@FR;
     skos:prefLabel "Gambia"@DE;
     skos:prefLabel "冈比亚"@ZH;
+    skos:prefLabel "감비아"@KO;
 .
 <GN> a skos:Concept;
     skos:inScheme <>;
@@ -788,6 +873,7 @@
     skos:prefLabel "Guinée"@FR;
     skos:prefLabel "Guinea"@DE;
     skos:prefLabel "几内亚"@ZH;
+    skos:prefLabel "기니"@KO;
 .
 <GP> a skos:Concept;
     skos:inScheme <>;
@@ -797,6 +883,7 @@
     skos:prefLabel "Guadeloupe"@FR;
     skos:prefLabel "Guadeloupe"@DE;
     skos:prefLabel "瓜德罗普"@ZH;
+    skos:prefLabel "과들루프"@KO;
 .
 <GQ> a skos:Concept;
     skos:inScheme <>;
@@ -806,6 +893,7 @@
     skos:prefLabel "Guinée Équatoriale"@FR;
     skos:prefLabel "Äquatorialguinea"@DE;
     skos:prefLabel "赤道几内亚"@ZH;
+    skos:prefLabel "적도 기니"@KO;
 .
 <GR> a skos:Concept;
     skos:inScheme <>;
@@ -815,6 +903,7 @@
     skos:prefLabel "Grèce"@FR;
     skos:prefLabel "Griechenland"@DE;
     skos:prefLabel "希腊"@ZH;
+    skos:prefLabel "그리스"@KO;
 .
 <GS> a skos:Concept;
     skos:inScheme <>;
@@ -823,6 +912,7 @@
     skos:prefLabel "Géorgie du Sud et les îles Sandwich du Sud"@FR;
     skos:prefLabel "South Georgia und die Südlichen Sandwichinseln"@DE;
     skos:prefLabel "南乔治亚岛和南桑德韦奇岛"@ZH;
+    skos:prefLabel "사우스조지아 사우스샌드위치 제도"@KO;
 .
 <GT> a skos:Concept;
     skos:inScheme <>;
@@ -832,6 +922,7 @@
     skos:prefLabel "Guatemala"@FR;
     skos:prefLabel "Guatemala"@DE;
     skos:prefLabel "瓜地马拉"@ZH;
+    skos:prefLabel "과테말라"@KO;
 .
 <GU> a skos:Concept;
     skos:inScheme <>;
@@ -841,6 +932,7 @@
     skos:prefLabel "Guam"@FR;
     skos:prefLabel "Guam"@DE;
     skos:prefLabel "关岛"@ZH;
+    skos:prefLabel "괌"@KO;
 .
 <GW> a skos:Concept;
     skos:inScheme <>;
@@ -850,6 +942,7 @@
     skos:prefLabel "Guinée-Bissau"@FR;
     skos:prefLabel "Guinea-Bissau"@DE;
     skos:prefLabel "几内亚比绍"@ZH;
+    skos:prefLabel "기니비사우"@KO;
 .
 <GY> a skos:Concept;
     skos:inScheme <>;
@@ -859,6 +952,7 @@
     skos:prefLabel "Guyana"@FR;
     skos:prefLabel "Guyana"@DE;
     skos:prefLabel "圭亚那"@ZH;
+    skos:prefLabel "가이아나"@KO;
 .
 <HK> a skos:Concept;
     skos:inScheme <>;
@@ -868,6 +962,7 @@
     skos:prefLabel "Hong Kong"@FR;
     skos:prefLabel "Hongkong"@DE;
     skos:prefLabel "香港"@ZH;
+    skos:prefLabel "홍콩"@KO;
 .
 <HM> a skos:Concept;
     skos:inScheme <>;
@@ -876,6 +971,7 @@
     skos:prefLabel "îles Heard-et-MacDonald"@FR;
     skos:prefLabel "Heard und McDonaldinseln"@DE;
     skos:prefLabel "赫德岛与麦克唐纳群岛"@ZH;
+    skos:prefLabel "허드 맥도널드 제도"@KO;
 .
 <HN> a skos:Concept;
     skos:inScheme <>;
@@ -885,6 +981,7 @@
     skos:prefLabel "Honduras"@FR;
     skos:prefLabel "Honduras"@DE;
     skos:prefLabel "洪都拉斯"@ZH;
+    skos:prefLabel "온두라스"@KO;
 .
 <HR> a skos:Concept;
     skos:inScheme <>;
@@ -894,6 +991,7 @@
     skos:prefLabel "Croatie"@FR;
     skos:prefLabel "Kroatien"@DE;
     skos:prefLabel "克罗地亚"@ZH;
+    skos:prefLabel "크로아티아"@KO;
 .
 <HT> a skos:Concept;
     skos:inScheme <>;
@@ -903,6 +1001,7 @@
     skos:prefLabel "Haïti"@FR;
     skos:prefLabel "Haiti"@DE;
     skos:prefLabel "海地"@ZH;
+    skos:prefLabel "아이티"@KO;
 .
 <HU> a skos:Concept;
     skos:inScheme <>;
@@ -912,6 +1011,7 @@
     skos:prefLabel "Hongrie"@FR;
     skos:prefLabel "Ungarn"@DE;
     skos:prefLabel "匈牙利"@ZH;
+    skos:prefLabel "헝가리"@KO;
 .
 <ID> a skos:Concept;
     skos:inScheme <>;
@@ -921,6 +1021,7 @@
     skos:prefLabel "Indonésie"@FR;
     skos:prefLabel "Indonesien"@DE;
     skos:prefLabel "印度尼西亚"@ZH;
+    skos:prefLabel "인도네시아"@KO;
 .
 <IE> a skos:Concept;
     skos:inScheme <>;
@@ -930,6 +1031,7 @@
     skos:prefLabel "Irlande"@FR;
     skos:prefLabel "Irland"@DE;
     skos:prefLabel "爱尔兰"@ZH;
+    skos:prefLabel "아일랜드"@KO;
 .
 <IL> a skos:Concept;
     skos:inScheme <>;
@@ -939,6 +1041,7 @@
     skos:prefLabel "Israël"@FR;
     skos:prefLabel "Israel"@DE;
     skos:prefLabel "以色列"@ZH;
+    skos:prefLabel "이스라엘"@KO;
 .
 <IM> a skos:Concept;
     skos:inScheme <>;
@@ -947,6 +1050,7 @@
     skos:prefLabel "Île de Man"@FR;
     skos:prefLabel "Insel Man"@DE;
     skos:prefLabel "曼岛"@ZH;
+    skos:prefLabel "맨 섬"@KO;
 .
 <IN> a skos:Concept;
     skos:inScheme <>;
@@ -956,6 +1060,7 @@
     skos:prefLabel "Inde"@FR;
     skos:prefLabel "Indien"@DE;
     skos:prefLabel "印度"@ZH;
+    skos:prefLabel "인도"@KO;
 .
 <IO> a skos:Concept;
     skos:inScheme <>;
@@ -965,6 +1070,7 @@
     skos:prefLabel "Territoire britannique de l'océan Indien"@FR;
     skos:prefLabel "Britisches Territorium im Indischen Ozean"@DE;
     skos:prefLabel "英属印度洋领地"@ZH;
+    skos:prefLabel "영국령 인도양 지역"@KO;
 .
 <IQ> a skos:Concept;
     skos:inScheme <>;
@@ -974,6 +1080,7 @@
     skos:prefLabel "Irak"@FR;
     skos:prefLabel "Irak"@DE;
     skos:prefLabel "伊拉克"@ZH;
+    skos:prefLabel "이라크"@KO;
 .
 <IR> a skos:Concept;
     skos:inScheme <>;
@@ -983,6 +1090,7 @@
     skos:prefLabel "Iran, République islamique d'"@FR;
     skos:prefLabel "Iran, Islamische Republik"@DE;
     skos:prefLabel "伊朗"@ZH;
+    skos:prefLabel "이란 이슬람 공화국"@KO;
 .
 <IS> a skos:Concept;
     skos:inScheme <>;
@@ -992,6 +1100,7 @@
     skos:prefLabel "Islande"@FR;
     skos:prefLabel "Island"@DE;
     skos:prefLabel "冰岛"@ZH;
+    skos:prefLabel "아이슬란드"@KO;
 .
 <IT> a skos:Concept;
     skos:inScheme <>;
@@ -1001,6 +1110,7 @@
     skos:prefLabel "Italie"@FR;
     skos:prefLabel "Italien"@DE;
     skos:prefLabel "意大利"@ZH;
+    skos:prefLabel "이탈리아"@KO;
 .
 <JE> a skos:Concept;
     skos:inScheme <>;
@@ -1009,6 +1119,7 @@
     skos:prefLabel "Jersey"@FR;
     skos:prefLabel "Jersey"@DE;
     skos:prefLabel "泽西岛"@ZH;
+    skos:prefLabel "저지 섬"@KO;
 .
 <JM> a skos:Concept;
     skos:inScheme <>;
@@ -1018,6 +1129,7 @@
     skos:prefLabel "Jamaïque"@FR;
     skos:prefLabel "Jamaika"@DE;
     skos:prefLabel "牙买加"@ZH;
+    skos:prefLabel "자메이카"@KO;
 .
 <JO> a skos:Concept;
     skos:inScheme <>;
@@ -1027,6 +1139,7 @@
     skos:prefLabel "Jordanie"@FR;
     skos:prefLabel "Jordanien"@DE;
     skos:prefLabel "约旦"@ZH;
+    skos:prefLabel "요르단"@KO;
 .
 <JP> a skos:Concept;
     skos:inScheme <>;
@@ -1036,6 +1149,7 @@
     skos:prefLabel "Japon"@FR;
     skos:prefLabel "Japan"@DE;
     skos:prefLabel "日本"@ZH;
+    skos:prefLabel "일본"@KO;
 .
 <KE> a skos:Concept;
     skos:inScheme <>;
@@ -1045,6 +1159,7 @@
     skos:prefLabel "Kenya"@FR;
     skos:prefLabel "Kenia"@DE;
     skos:prefLabel "肯尼亚"@ZH;
+    skos:prefLabel "케냐"@KO;
 .
 <KG> a skos:Concept;
     skos:inScheme <>;
@@ -1054,6 +1169,7 @@
     skos:prefLabel "Kirghizistan"@FR;
     skos:prefLabel "Kirgisistan"@DE;
     skos:prefLabel "吉尔吉斯坦"@ZH;
+    skos:prefLabel "키르기스스탄"@KO;
 .
 <KH> a skos:Concept;
     skos:inScheme <>;
@@ -1063,6 +1179,7 @@
     skos:prefLabel "Cambodge"@FR;
     skos:prefLabel "Kambodscha"@DE;
     skos:prefLabel "柬埔塞"@ZH;
+    skos:prefLabel "캄보디아"@KO;
 .
 <KI> a skos:Concept;
     skos:inScheme <>;
@@ -1072,6 +1189,7 @@
     skos:prefLabel "Kiribati"@FR;
     skos:prefLabel "Kiribati"@DE;
     skos:prefLabel "基里巴斯"@ZH;
+    skos:prefLabel "키리바시"@KO;
 .
 <KM> a skos:Concept;
     skos:inScheme <>;
@@ -1081,6 +1199,7 @@
     skos:prefLabel "Comores"@FR;
     skos:prefLabel "Komoren"@DE;
     skos:prefLabel "科摩罗"@ZH;
+    skos:prefLabel "코모로"@KO;
 .
 <KN> a skos:Concept;
     skos:inScheme <>;
@@ -1090,6 +1209,7 @@
     skos:prefLabel "Saint-Christophe-et-Niévès"@FR;
     skos:prefLabel "St. Kitts und Nevis"@DE;
     skos:prefLabel "圣基茨和尼维斯"@ZH;
+    skos:prefLabel "세인트키츠 네비스"@KO;
 .
 <KP> a skos:Concept;
     skos:inScheme <>;
@@ -1099,6 +1219,7 @@
     skos:prefLabel "Corée, République populaire démocratique de"@FR;
     skos:prefLabel "Korea, Demokratische Volksrepublik"@DE;
     skos:prefLabel "朝鲜"@ZH;
+    skos:prefLabel "조선민주주의인민공화국"@KO;
 .
 <KR> a skos:Concept;
     skos:inScheme <>;
@@ -1108,6 +1229,7 @@
     skos:prefLabel "Corée, République de"@FR;
     skos:prefLabel "Korea, Republik"@DE;
     skos:prefLabel "韩国"@ZH;
+    skos:prefLabel "대한민국"@KO;
 .
 <KW> a skos:Concept;
     skos:inScheme <>;
@@ -1117,6 +1239,7 @@
     skos:prefLabel "Koweït"@FR;
     skos:prefLabel "Kuwait"@DE;
     skos:prefLabel "科威特"@ZH;
+    skos:prefLabel "쿠웨이트"@KO;
 .
 <KY> a skos:Concept;
     skos:inScheme <>;
@@ -1126,6 +1249,7 @@
     skos:prefLabel "îles Caïmans"@FR;
     skos:prefLabel "Cayman-Inseln"@DE;
     skos:prefLabel "开曼群岛"@ZH;
+    skos:prefLabel "케이맨 제도"@KO;
 .
 <KZ> a skos:Concept;
     skos:inScheme <>;
@@ -1135,6 +1259,7 @@
     skos:prefLabel "Kazakhstan"@FR;
     skos:prefLabel "Kasachstan"@DE;
     skos:prefLabel "哈萨克斯坦"@ZH;
+    skos:prefLabel "카자흐스탄"@KO;
 .
 <LA> a skos:Concept;
     skos:inScheme <>;
@@ -1144,6 +1269,7 @@
     skos:prefLabel "Lao, République démocratique populaire"@FR;
     skos:prefLabel "Laos, Demokratische Volksrepublik"@DE;
     skos:prefLabel "老挝人民民主共和国"@ZH;
+    skos:prefLabel "라오 인민 민주주의 공화국"@KO;
 .
 <LB> a skos:Concept;
     skos:inScheme <>;
@@ -1153,6 +1279,7 @@
     skos:prefLabel "Liban"@FR;
     skos:prefLabel "Libanon"@DE;
     skos:prefLabel "黎巴嫩"@ZH;
+    skos:prefLabel "레바논"@KO;
 .
 <LC> a skos:Concept;
     skos:inScheme <>;
@@ -1162,6 +1289,7 @@
     skos:prefLabel "Sainte-Lucie"@FR;
     skos:prefLabel "St. Lucia"@DE;
     skos:prefLabel "圣路西亚"@ZH;
+    skos:prefLabel "세인트루시아"@KO;
 .
 <LI> a skos:Concept;
     skos:inScheme <>;
@@ -1171,6 +1299,7 @@
     skos:prefLabel "Liechtenstein"@FR;
     skos:prefLabel "Liechtenstein"@DE;
     skos:prefLabel "列支敦士登"@ZH;
+    skos:prefLabel "리히텐슈타인"@KO;
 .
 <LK> a skos:Concept;
     skos:inScheme <>;
@@ -1180,6 +1309,7 @@
     skos:prefLabel "Sri Lanka"@FR;
     skos:prefLabel "Sri Lanka"@DE;
     skos:prefLabel "斯里兰卡"@ZH;
+    skos:prefLabel "스리랑카"@KO;
 .
 <LR> a skos:Concept;
     skos:inScheme <>;
@@ -1189,6 +1319,7 @@
     skos:prefLabel "Libéria"@FR;
     skos:prefLabel "Liberia"@DE;
     skos:prefLabel "利比里亚"@ZH;
+    skos:prefLabel "라이베리아"@KO;
 .
 <LS> a skos:Concept;
     skos:inScheme <>;
@@ -1198,6 +1329,7 @@
     skos:prefLabel "Lesotho"@FR;
     skos:prefLabel "Lesotho"@DE;
     skos:prefLabel "莱索托"@ZH;
+    skos:prefLabel "레소토"@KO;
 .
 <LT> a skos:Concept;
     skos:inScheme <>;
@@ -1207,6 +1339,7 @@
     skos:prefLabel "Lituanie"@FR;
     skos:prefLabel "Litauen"@DE;
     skos:prefLabel "立陶宛"@ZH;
+    skos:prefLabel "리투아니아"@KO;
 .
 <LU> a skos:Concept;
     skos:inScheme <>;
@@ -1216,6 +1349,7 @@
     skos:prefLabel "Luxembourg"@FR;
     skos:prefLabel "Luxemburg"@DE;
     skos:prefLabel "卢森堡"@ZH;
+    skos:prefLabel "룩셈부르크"@KO;
 .
 <LV> a skos:Concept;
     skos:inScheme <>;
@@ -1225,6 +1359,7 @@
     skos:prefLabel "Lettonie"@FR;
     skos:prefLabel "Lettland"@DE;
     skos:prefLabel "拉脱维亚"@ZH;
+    skos:prefLabel "라트비아"@KO;
 .
 <LY> a skos:Concept;
     skos:inScheme <>;
@@ -1234,6 +1369,7 @@
     skos:prefLabel "Libye"@FR;
     skos:prefLabel "Libyen"@DE;
     skos:prefLabel "利比亚"@ZH;
+    skos:prefLabel "리비아"@KO;
 .
 <MA> a skos:Concept;
     skos:inScheme <>;
@@ -1243,6 +1379,7 @@
     skos:prefLabel "Maroc"@FR;
     skos:prefLabel "Marokko"@DE;
     skos:prefLabel "摩洛哥"@ZH;
+    skos:prefLabel "모로코"@KO;
 .
 <MC> a skos:Concept;
     skos:inScheme <>;
@@ -1252,6 +1389,7 @@
     skos:prefLabel "Monaco"@FR;
     skos:prefLabel "Monaco"@DE;
     skos:prefLabel "摩纳哥"@ZH;
+    skos:prefLabel "모나코"@KO;
 .
 <MD> a skos:Concept;
     skos:inScheme <>;
@@ -1261,6 +1399,7 @@
     skos:prefLabel "Moldavie"@FR;
     skos:prefLabel "Moldau"@DE;
     skos:prefLabel "摩尔多瓦"@ZH;
+    skos:prefLabel "몰도바"@KO;
 .
 <ME> a skos:Concept;
     skos:inScheme <>;
@@ -1270,6 +1409,7 @@
     skos:prefLabel "Monténégro"@FR;
     skos:prefLabel "Montenegro"@DE;
     skos:prefLabel "黑山"@ZH;
+    skos:prefLabel "몬테네그로"@KO;
 .
 <MF> a skos:Concept;
     skos:inScheme <>;
@@ -1278,6 +1418,7 @@
     skos:prefLabel "Saint-Martin (partie française)"@FR;
     skos:prefLabel "Saint Martin (Französischer Teil)"@DE;
     skos:prefLabel "法属圣马丁"@ZH;
+    skos:prefLabel "생마르탱 (프랑스령)"@KO;
 .
 <MG> a skos:Concept;
     skos:inScheme <>;
@@ -1287,6 +1428,7 @@
     skos:prefLabel "Madagascar"@FR;
     skos:prefLabel "Madagaskar"@DE;
     skos:prefLabel "马达加斯加"@ZH;
+    skos:prefLabel "마다가스카르"@KO;
 .
 <MH> a skos:Concept;
     skos:inScheme <>;
@@ -1296,6 +1438,7 @@
     skos:prefLabel "Îles Marshall"@FR;
     skos:prefLabel "Marshallinseln"@DE;
     skos:prefLabel "马绍尔群岛"@ZH;
+    skos:prefLabel "마셜 제도"@KO;
 .
 <MK> a skos:Concept;
     skos:inScheme <>;
@@ -1305,6 +1448,7 @@
     skos:prefLabel "Macédoine du Nord"@FR;
     skos:prefLabel "Nordmazedonien"@DE;
     skos:prefLabel "北马其顿"@ZH;
+    skos:prefLabel "북마케도니아"@KO;
 .
 <ML> a skos:Concept;
     skos:inScheme <>;
@@ -1314,6 +1458,7 @@
     skos:prefLabel "Mali"@FR;
     skos:prefLabel "Mali"@DE;
     skos:prefLabel "马里"@ZH;
+    skos:prefLabel "말리"@KO;
 .
 <MM> a skos:Concept;
     skos:inScheme <>;
@@ -1323,6 +1468,7 @@
     skos:prefLabel "Birmanie"@FR;
     skos:prefLabel "Myanmar"@DE;
     skos:prefLabel "缅甸"@ZH;
+    skos:prefLabel "미얀마"@KO;
 .
 <MN> a skos:Concept;
     skos:inScheme <>;
@@ -1332,6 +1478,7 @@
     skos:prefLabel "Mongolie"@FR;
     skos:prefLabel "Mongolei"@DE;
     skos:prefLabel "蒙古"@ZH;
+    skos:prefLabel "몽골"@KO;
 .
 <MO> a skos:Concept;
     skos:inScheme <>;
@@ -1341,6 +1488,7 @@
     skos:prefLabel "Macau"@FR;
     skos:prefLabel "Macao"@DE;
     skos:prefLabel "澳门"@ZH;
+    skos:prefLabel "마카오"@KO;
 .
 <MP> a skos:Concept;
     skos:inScheme <>;
@@ -1350,6 +1498,7 @@
     skos:prefLabel "Îles Mariannes du Nord"@FR;
     skos:prefLabel "Nördliche Marianen"@DE;
     skos:prefLabel "北马里亚纳群岛"@ZH;
+    skos:prefLabel "북마리아나 제도"@KO;
 .
 <MQ> a skos:Concept;
     skos:inScheme <>;
@@ -1359,6 +1508,7 @@
     skos:prefLabel "Martinique"@FR;
     skos:prefLabel "Martinique"@DE;
     skos:prefLabel "马提尼克"@ZH;
+    skos:prefLabel "마르티니크"@KO;
 .
 <MR> a skos:Concept;
     skos:inScheme <>;
@@ -1368,6 +1518,7 @@
     skos:prefLabel "Mauritanie"@FR;
     skos:prefLabel "Mauretanien"@DE;
     skos:prefLabel "毛里塔尼亚"@ZH;
+    skos:prefLabel "모리타니"@KO;
 .
 <MS> a skos:Concept;
     skos:inScheme <>;
@@ -1377,6 +1528,7 @@
     skos:prefLabel "Montserrat"@FR;
     skos:prefLabel "Montserrat"@DE;
     skos:prefLabel "蒙塞拉特岛"@ZH;
+    skos:prefLabel "몬트세랫"@KO;
 .
 <MT> a skos:Concept;
     skos:inScheme <>;
@@ -1386,6 +1538,7 @@
     skos:prefLabel "Malte"@FR;
     skos:prefLabel "Malta"@DE;
     skos:prefLabel "马尔他"@ZH;
+    skos:prefLabel "몰타"@KO;
 .
 <MU> a skos:Concept;
     skos:inScheme <>;
@@ -1395,6 +1548,7 @@
     skos:prefLabel "Maurice"@FR;
     skos:prefLabel "Mauritius"@DE;
     skos:prefLabel "毛里求斯"@ZH;
+    skos:prefLabel "모리셔스"@KO;
 .
 <MV> a skos:Concept;
     skos:inScheme <>;
@@ -1404,6 +1558,7 @@
     skos:prefLabel "Maldives"@FR;
     skos:prefLabel "Malediven"@DE;
     skos:prefLabel "马尔代夫"@ZH;
+    skos:prefLabel "몰디브"@KO;
 .
 <MW> a skos:Concept;
     skos:inScheme <>;
@@ -1413,6 +1568,7 @@
     skos:prefLabel "Malawi"@FR;
     skos:prefLabel "Malawi"@DE;
     skos:prefLabel "马拉维"@ZH;
+    skos:prefLabel "말라위"@KO;
 .
 <MX> a skos:Concept;
     skos:inScheme <>;
@@ -1422,6 +1578,7 @@
     skos:prefLabel "Mexique"@FR;
     skos:prefLabel "Mexiko"@DE;
     skos:prefLabel "墨西哥"@ZH;
+    skos:prefLabel "멕시코"@KO;
 .
 <MY> a skos:Concept;
     skos:inScheme <>;
@@ -1431,6 +1588,7 @@
     skos:prefLabel "Malaisie"@FR;
     skos:prefLabel "Malaysia"@DE;
     skos:prefLabel "马来西亚"@ZH;
+    skos:prefLabel "말레이시아"@KO;
 .
 <MZ> a skos:Concept;
     skos:inScheme <>;
@@ -1440,6 +1598,7 @@
     skos:prefLabel "Mozambique"@FR;
     skos:prefLabel "Mosambik"@DE;
     skos:prefLabel "莫桑比克"@ZH;
+    skos:prefLabel "모잠비크"@KO;
 .
 <NA> a skos:Concept;
     skos:inScheme <>;
@@ -1449,6 +1608,7 @@
     skos:prefLabel "Namibie"@FR;
     skos:prefLabel "Namibia"@DE;
     skos:prefLabel "纳米比亚"@ZH;
+    skos:prefLabel "나미비아"@KO;
 .
 <NC> a skos:Concept;
     skos:inScheme <>;
@@ -1458,6 +1618,7 @@
     skos:prefLabel "Nouvelle-Calédonie"@FR;
     skos:prefLabel "Neukaledonien"@DE;
     skos:prefLabel "新喀里多尼亚"@ZH;
+    skos:prefLabel "누벨칼레도니"@KO;
 .
 <NE> a skos:Concept;
     skos:inScheme <>;
@@ -1467,6 +1628,7 @@
     skos:prefLabel "Niger"@FR;
     skos:prefLabel "Niger"@DE;
     skos:prefLabel "尼日尔"@ZH;
+    skos:prefLabel "니제르"@KO;
 .
 <NF> a skos:Concept;
     skos:inScheme <>;
@@ -1476,6 +1638,7 @@
     skos:prefLabel "île Norfolk"@FR;
     skos:prefLabel "Norfolkinsel"@DE;
     skos:prefLabel "诺福克岛"@ZH;
+    skos:prefLabel "노퍽 섬"@KO;
 .
 <NG> a skos:Concept;
     skos:inScheme <>;
@@ -1485,6 +1648,7 @@
     skos:prefLabel "Nigeria"@FR;
     skos:prefLabel "Nigeria"@DE;
     skos:prefLabel "尼日利亚"@ZH;
+    skos:prefLabel "나이지리아"@KO;
 .
 <NI> a skos:Concept;
     skos:inScheme <>;
@@ -1494,6 +1658,7 @@
     skos:prefLabel "Nicaragua"@FR;
     skos:prefLabel "Nicaragua"@DE;
     skos:prefLabel "尼加拉瓜"@ZH;
+    skos:prefLabel "니카라과"@KO;
 .
 <NL> a skos:Concept;
     skos:inScheme <>;
@@ -1503,6 +1668,7 @@
     skos:prefLabel "Pays-Bas"@FR;
     skos:prefLabel "Niederlande"@DE;
     skos:prefLabel "荷兰"@ZH;
+    skos:prefLabel "네덜란드"@KO;
 .
 <NO> a skos:Concept;
     skos:inScheme <>;
@@ -1512,6 +1678,7 @@
     skos:prefLabel "Norvège"@FR;
     skos:prefLabel "Norwegen"@DE;
     skos:prefLabel "挪威"@ZH;
+    skos:prefLabel "노르웨이"@KO;
 .
 <NP> a skos:Concept;
     skos:inScheme <>;
@@ -1521,6 +1688,7 @@
     skos:prefLabel "Népal"@FR;
     skos:prefLabel "Nepal"@DE;
     skos:prefLabel "尼泊尔"@ZH;
+    skos:prefLabel "네팔"@KO;
 .
 <NR> a skos:Concept;
     skos:inScheme <>;
@@ -1530,6 +1698,7 @@
     skos:prefLabel "Nauru"@FR;
     skos:prefLabel "Nauru"@DE;
     skos:prefLabel "瑙鲁"@ZH;
+    skos:prefLabel "나우루"@KO;
 .
 <NU> a skos:Concept;
     skos:inScheme <>;
@@ -1539,6 +1708,7 @@
     skos:prefLabel "Nioue"@FR;
     skos:prefLabel "Niue"@DE;
     skos:prefLabel "纽埃"@ZH;
+    skos:prefLabel "니우에"@KO;
 .
 <NZ> a skos:Concept;
     skos:inScheme <>;
@@ -1548,6 +1718,7 @@
     skos:prefLabel "Nouvelle-Zélande"@FR;
     skos:prefLabel "Neuseeland"@DE;
     skos:prefLabel "新西兰"@ZH;
+    skos:prefLabel "뉴질랜드"@KO;
 .
 <OM> a skos:Concept;
     skos:inScheme <>;
@@ -1557,6 +1728,7 @@
     skos:prefLabel "Oman"@FR;
     skos:prefLabel "Oman"@DE;
     skos:prefLabel "阿曼"@ZH;
+    skos:prefLabel "오만"@KO;
 .
 <PA> a skos:Concept;
     skos:inScheme <>;
@@ -1566,6 +1738,7 @@
     skos:prefLabel "Panama"@FR;
     skos:prefLabel "Panama"@DE;
     skos:prefLabel "巴拿马"@ZH;
+    skos:prefLabel "파나마"@KO;
 .
 <PE> a skos:Concept;
     skos:inScheme <>;
@@ -1575,6 +1748,7 @@
     skos:prefLabel "Pérou"@FR;
     skos:prefLabel "Peru"@DE;
     skos:prefLabel "秘鲁"@ZH;
+    skos:prefLabel "페루"@KO;
 .
 <PF> a skos:Concept;
     skos:inScheme <>;
@@ -1584,15 +1758,17 @@
     skos:prefLabel "Polynésie française"@FR;
     skos:prefLabel "Französisch-Polynesien"@DE;
     skos:prefLabel "法属玻利尼西亚"@ZH;
+    skos:prefLabel "프랑스령 폴리네시아"@KO;
 .
 <PG> a skos:Concept;
     skos:inScheme <>;
-    ossr:within reg:I-AP-OC;
+    ossr:within reg:I-AF-WE;
     skos:prefLabel "Papua New Guinea"@EN;
     skos:prefLabel "Papúa Nueva Guinea"@ES;
     skos:prefLabel "Papouasie-Nouvelle-Guinée"@FR;
     skos:prefLabel "Papua-Neuguinea"@DE;
     skos:prefLabel "巴布亚新几内亚"@ZH;
+    skos:prefLabel "파푸아뉴기니"@KO;
 .
 <PH> a skos:Concept;
     skos:inScheme <>;
@@ -1602,6 +1778,7 @@
     skos:prefLabel "Philippines"@FR;
     skos:prefLabel "Philippinen"@DE;
     skos:prefLabel "菲律宾"@ZH;
+    skos:prefLabel "필리핀"@KO;
 .
 <PK> a skos:Concept;
     skos:inScheme <>;
@@ -1611,6 +1788,7 @@
     skos:prefLabel "Pakistan"@FR;
     skos:prefLabel "Pakistan"@DE;
     skos:prefLabel "巴基斯坦"@ZH;
+    skos:prefLabel "파키스탄"@KO;
 .
 <PL> a skos:Concept;
     skos:inScheme <>;
@@ -1620,6 +1798,7 @@
     skos:prefLabel "Pologne"@FR;
     skos:prefLabel "Polen"@DE;
     skos:prefLabel "波兰"@ZH;
+    skos:prefLabel "폴란드"@KO;
 .
 <PM> a skos:Concept;
     skos:inScheme <>;
@@ -1629,6 +1808,7 @@
     skos:prefLabel "Saint-Pierre-et-Miquelon"@FR;
     skos:prefLabel "St. Pierre und Miquelon"@DE;
     skos:prefLabel "圣皮埃尔和密克隆"@ZH;
+    skos:prefLabel "생피에르 미클롱"@KO;
 .
 <PN> a skos:Concept;
     skos:inScheme <>;
@@ -1638,6 +1818,7 @@
     skos:prefLabel "Îles Pitcairn"@FR;
     skos:prefLabel "Pitcairn"@DE;
     skos:prefLabel "皮特克恩"@ZH;
+    skos:prefLabel "핏케언 제도"@KO;
 .
 <PR> a skos:Concept;
     skos:inScheme <>;
@@ -1647,6 +1828,7 @@
     skos:prefLabel "Porto Rico"@FR;
     skos:prefLabel "Puerto Rico"@DE;
     skos:prefLabel "波多黎各"@ZH;
+    skos:prefLabel "푸에르토리코"@KO;
 .
 <PS> a skos:Concept;
     skos:inScheme <>;
@@ -1656,6 +1838,7 @@
     skos:prefLabel "Palestine, État de"@FR;
     skos:prefLabel "Palästina, Staat"@DE;
     skos:prefLabel "巴勒斯坦"@ZH;
+    skos:prefLabel "팔레스타인"@KO;
 .
 <PT> a skos:Concept;
     skos:inScheme <>;
@@ -1665,6 +1848,7 @@
     skos:prefLabel "Portugal"@FR;
     skos:prefLabel "Portugal"@DE;
     skos:prefLabel "葡萄牙"@ZH;
+    skos:prefLabel "포르투갈"@KO;
 .
 <PW> a skos:Concept;
     skos:inScheme <>;
@@ -1674,6 +1858,7 @@
     skos:prefLabel "Palaos"@FR;
     skos:prefLabel "Palau"@DE;
     skos:prefLabel "帕劳"@ZH;
+    skos:prefLabel "팔라우"@KO;
 .
 <PY> a skos:Concept;
     skos:inScheme <>;
@@ -1683,6 +1868,7 @@
     skos:prefLabel "Paraguay"@FR;
     skos:prefLabel "Paraguay"@DE;
     skos:prefLabel "巴拉圭"@ZH;
+    skos:prefLabel "파라과이"@KO;
 .
 <QA> a skos:Concept;
     skos:inScheme <>;
@@ -1692,6 +1878,7 @@
     skos:prefLabel "Qatar"@FR;
     skos:prefLabel "Katar"@DE;
     skos:prefLabel "卡塔尔"@ZH;
+    skos:prefLabel "카타르"@KO;
 .
 <RE> a skos:Concept;
     skos:inScheme <>;
@@ -1701,6 +1888,7 @@
     skos:prefLabel "Réunion, Île de la"@FR;
     skos:prefLabel "Réunion"@DE;
     skos:prefLabel "留尼汪"@ZH;
+    skos:prefLabel "레위니옹"@KO;
 .
 <RO> a skos:Concept;
     skos:inScheme <>;
@@ -1710,6 +1898,7 @@
     skos:prefLabel "Roumanie"@FR;
     skos:prefLabel "Rumänien"@DE;
     skos:prefLabel "罗马尼亚"@ZH;
+    skos:prefLabel "루마니아"@KO;
 .
 <RS> a skos:Concept;
     skos:inScheme <>;
@@ -1719,6 +1908,7 @@
     skos:prefLabel "Serbie"@FR;
     skos:prefLabel "Serbien"@DE;
     skos:prefLabel "塞尔维亚"@ZH;
+    skos:prefLabel "세르비아"@KO;
 .
 <RU> a skos:Concept;
     skos:inScheme <>;
@@ -1728,6 +1918,7 @@
     skos:prefLabel "Russie, Fédération de"@FR;
     skos:prefLabel "Russische Föderation"@DE;
     skos:prefLabel "俄罗斯"@ZH;
+    skos:prefLabel "러시아 연방"@KO;
 .
 <RW> a skos:Concept;
     skos:inScheme <>;
@@ -1737,6 +1928,7 @@
     skos:prefLabel "Rwanda"@FR;
     skos:prefLabel "Ruanda"@DE;
     skos:prefLabel "卢旺达"@ZH;
+    skos:prefLabel "르완다"@KO;
 .
 <SA> a skos:Concept;
     skos:inScheme <>;
@@ -1746,6 +1938,7 @@
     skos:prefLabel "Arabie saoudite"@FR;
     skos:prefLabel "Saudi-Arabien"@DE;
     skos:prefLabel "沙特阿拉伯"@ZH;
+    skos:prefLabel "사우디아라비아"@KO;
 .
 <SB> a skos:Concept;
     skos:inScheme <>;
@@ -1755,6 +1948,7 @@
     skos:prefLabel "Salomon, Îles"@FR;
     skos:prefLabel "Salomoninseln"@DE;
     skos:prefLabel "所罗门群岛"@ZH;
+    skos:prefLabel "솔로몬 제도"@KO;
 .
 <SC> a skos:Concept;
     skos:inScheme <>;
@@ -1764,6 +1958,7 @@
     skos:prefLabel "Seychelles"@FR;
     skos:prefLabel "Seychellen"@DE;
     skos:prefLabel "塞舌尔"@ZH;
+    skos:prefLabel "세이셸"@KO;
 .
 <SD> a skos:Concept;
     skos:inScheme <>;
@@ -1773,6 +1968,7 @@
     skos:prefLabel "Soudan"@FR;
     skos:prefLabel "Sudan"@DE;
     skos:prefLabel "苏丹"@ZH;
+    skos:prefLabel "수단"@KO;
 .
 <SE> a skos:Concept;
     skos:inScheme <>;
@@ -1782,6 +1978,7 @@
     skos:prefLabel "Suède"@FR;
     skos:prefLabel "Schweden"@DE;
     skos:prefLabel "瑞典"@ZH;
+    skos:prefLabel "스웨덴"@KO;
 .
 <SG> a skos:Concept;
     skos:inScheme <>;
@@ -1791,6 +1988,7 @@
     skos:prefLabel "Singapour"@FR;
     skos:prefLabel "Singapur"@DE;
     skos:prefLabel "新加坡"@ZH;
+    skos:prefLabel "싱가포르"@KO;
 .
 <SH> a skos:Concept;
     skos:inScheme <>;
@@ -1800,6 +1998,7 @@
     skos:prefLabel "Sainte-Hélène, Ascension et Tristan da Cunha"@FR;
     skos:prefLabel "St. Helena, Ascension und Tristan da Cunha"@DE;
     skos:prefLabel "圣赫勒拿-阿森松-特里斯坦达库尼亚"@ZH;
+    skos:prefLabel "세인트헬레나 어센션 트리스탄다쿠냐"@KO;
 .
 <SI> a skos:Concept;
     skos:inScheme <>;
@@ -1809,6 +2008,7 @@
     skos:prefLabel "Slovénie"@FR;
     skos:prefLabel "Slowenien"@DE;
     skos:prefLabel "斯洛文尼亚"@ZH;
+    skos:prefLabel "슬로베니아"@KO;
 .
 <SJ> a skos:Concept;
     skos:inScheme <>;
@@ -1818,6 +2018,7 @@
     skos:prefLabel "Svalbard et île Jan Mayen"@FR;
     skos:prefLabel "Svalbard und Jan Mayen"@DE;
     skos:prefLabel "斯瓦尔巴特和扬马延岛"@ZH;
+    skos:prefLabel "스발바르 얀마옌 제도"@KO;
 .
 <SK> a skos:Concept;
     skos:inScheme <>;
@@ -1827,6 +2028,7 @@
     skos:prefLabel "Slovaquie"@FR;
     skos:prefLabel "Slowakei"@DE;
     skos:prefLabel "斯洛伐克"@ZH;
+    skos:prefLabel "슬로바키아"@KO;
 .
 <SL> a skos:Concept;
     skos:inScheme <>;
@@ -1836,6 +2038,7 @@
     skos:prefLabel "Sierra Leone"@FR;
     skos:prefLabel "Sierra Leone"@DE;
     skos:prefLabel "塞拉利昂"@ZH;
+    skos:prefLabel "시에라리온"@KO;
 .
 <SM> a skos:Concept;
     skos:inScheme <>;
@@ -1845,6 +2048,7 @@
     skos:prefLabel "Saint-Marin"@FR;
     skos:prefLabel "San Marino"@DE;
     skos:prefLabel "圣马力诺"@ZH;
+    skos:prefLabel "산마리노"@KO;
 .
 <SN> a skos:Concept;
     skos:inScheme <>;
@@ -1854,6 +2058,7 @@
     skos:prefLabel "Sénégal"@FR;
     skos:prefLabel "Senegal"@DE;
     skos:prefLabel "塞内加尔"@ZH;
+    skos:prefLabel "세네갈"@KO;
 .
 <SO> a skos:Concept;
     skos:inScheme <>;
@@ -1863,6 +2068,7 @@
     skos:prefLabel "Somalie"@FR;
     skos:prefLabel "Somalia"@DE;
     skos:prefLabel "索马里"@ZH;
+    skos:prefLabel "소말리아"@KO;
 .
 <SR> a skos:Concept;
     skos:inScheme <>;
@@ -1872,6 +2078,7 @@
     skos:prefLabel "Surinam"@FR;
     skos:prefLabel "Suriname"@DE;
     skos:prefLabel "苏里南"@ZH;
+    skos:prefLabel "수리남"@KO;
 .
 <SS> a skos:Concept;
     skos:inScheme <>;
@@ -1881,6 +2088,7 @@
     skos:prefLabel "Soudan du Sud"@FR;
     skos:prefLabel "Südsudan"@DE;
     skos:prefLabel "南苏丹"@ZH;
+    skos:prefLabel "남수단"@KO;
 .
 <ST> a skos:Concept;
     skos:inScheme <>;
@@ -1890,6 +2098,7 @@
     skos:prefLabel "Sao Tomé-et-Principe"@FR;
     skos:prefLabel "São Tomé und Príncipe"@DE;
     skos:prefLabel "圣多美和普林西比"@ZH;
+    skos:prefLabel "상투메 프린시페"@KO;
 .
 <SV> a skos:Concept;
     skos:inScheme <>;
@@ -1899,6 +2108,7 @@
     skos:prefLabel "Salvador"@FR;
     skos:prefLabel "El Salvador"@DE;
     skos:prefLabel "萨尔瓦多"@ZH;
+    skos:prefLabel "엘살바도르"@KO;
 .
 <SX> a skos:Concept;
     skos:inScheme <>;
@@ -1908,6 +2118,7 @@
     skos:prefLabel "Saint-Martin (partie néerlandaise)"@FR;
     skos:prefLabel "Saint-Martin (Niederländischer Teil)"@DE;
     skos:prefLabel "荷属圣马丁"@ZH;
+    skos:prefLabel "신트마르턴 (네덜란드령)"@KO;
 .
 <SY> a skos:Concept;
     skos:inScheme <>;
@@ -1917,6 +2128,7 @@
     skos:prefLabel "Syrienne, République arabe"@FR;
     skos:prefLabel "Syrien, Arabische Republik"@DE;
     skos:prefLabel "叙利亚"@ZH;
+    skos:prefLabel "시리아 아랍 공화국"@KO;
 .
 <SZ> a skos:Concept;
     skos:inScheme <>;
@@ -1926,6 +2138,7 @@
     skos:prefLabel "Eswatini"@FR;
     skos:prefLabel "Eswatini"@DE;
     skos:prefLabel "斯威士兰"@ZH;
+    skos:prefLabel "에스와티니"@KO;
 .
 <TC> a skos:Concept;
     skos:inScheme <>;
@@ -1935,6 +2148,7 @@
     skos:prefLabel "îles Turques-et-Caïques"@FR;
     skos:prefLabel "Turks- und Caicosinseln"@DE;
     skos:prefLabel "特克斯和凯科斯群岛"@ZH;
+    skos:prefLabel "터크스 케이커스 제도"@KO;
 .
 <TD> a skos:Concept;
     skos:inScheme <>;
@@ -1944,6 +2158,7 @@
     skos:prefLabel "Tchad"@FR;
     skos:prefLabel "Tschad"@DE;
     skos:prefLabel "乍得"@ZH;
+    skos:prefLabel "차드"@KO;
 .
 <TF> a skos:Concept;
     skos:inScheme <>;
@@ -1953,6 +2168,7 @@
     skos:prefLabel "Terres australes françaises"@FR;
     skos:prefLabel "Französische Süd- und Antarktisgebiete"@DE;
     skos:prefLabel "法属南半球领地"@ZH;
+    skos:prefLabel "프랑스령 남 자치구역"@KO;
 .
 <TG> a skos:Concept;
     skos:inScheme <>;
@@ -1962,6 +2178,7 @@
     skos:prefLabel "Togo"@FR;
     skos:prefLabel "Togo"@DE;
     skos:prefLabel "多哥"@ZH;
+    skos:prefLabel "토고"@KO;
 .
 <TH> a skos:Concept;
     skos:inScheme <>;
@@ -1971,6 +2188,7 @@
     skos:prefLabel "Thaïlande"@FR;
     skos:prefLabel "Thailand"@DE;
     skos:prefLabel "泰国"@ZH;
+    skos:prefLabel "태국"@KO;
 .
 <TJ> a skos:Concept;
     skos:inScheme <>;
@@ -1980,6 +2198,7 @@
     skos:prefLabel "Tadjikistan"@FR;
     skos:prefLabel "Tadschikistan"@DE;
     skos:prefLabel "塔吉克斯坦"@ZH;
+    skos:prefLabel "타지키스탄"@KO;
 .
 <TK> a skos:Concept;
     skos:inScheme <>;
@@ -1989,6 +2208,7 @@
     skos:prefLabel "Tokelau"@FR;
     skos:prefLabel "Tokelau"@DE;
     skos:prefLabel "托克劳群岛"@ZH;
+    skos:prefLabel "토켈라우"@KO;
 .
 <TL> a skos:Concept;
     skos:inScheme <>;
@@ -1998,6 +2218,7 @@
     skos:prefLabel "Timor oriental"@FR;
     skos:prefLabel "Timor-Leste"@DE;
     skos:prefLabel "东帝汶"@ZH;
+    skos:prefLabel "동티모르"@KO;
 .
 <TM> a skos:Concept;
     skos:inScheme <>;
@@ -2007,6 +2228,7 @@
     skos:prefLabel "Turkménistan"@FR;
     skos:prefLabel "Turkmenistan"@DE;
     skos:prefLabel "土库曼斯坦"@ZH;
+    skos:prefLabel "투르크메니스탄"@KO;
 .
 <TN> a skos:Concept;
     skos:inScheme <>;
@@ -2016,6 +2238,7 @@
     skos:prefLabel "Tunisie"@FR;
     skos:prefLabel "Tunesien"@DE;
     skos:prefLabel "突尼斯"@ZH;
+    skos:prefLabel "튀니지"@KO;
 .
 <TO> a skos:Concept;
     skos:inScheme <>;
@@ -2025,6 +2248,7 @@
     skos:prefLabel "Tonga"@FR;
     skos:prefLabel "Tonga"@DE;
     skos:prefLabel "汤加"@ZH;
+    skos:prefLabel "통가"@KO;
 .
 <TR> a skos:Concept;
     skos:inScheme <>;
@@ -2034,6 +2258,7 @@
     skos:prefLabel "Turquie"@FR;
     skos:prefLabel "Türkei"@DE;
     skos:prefLabel "土耳其"@ZH;
+    skos:prefLabel "터키"@KO;
 .
 <TT> a skos:Concept;
     skos:inScheme <>;
@@ -2043,6 +2268,7 @@
     skos:prefLabel "Trinité-et-Tobago"@FR;
     skos:prefLabel "Trinidad und Tobago"@DE;
     skos:prefLabel "特里尼达和多巴哥"@ZH;
+    skos:prefLabel "트리니다드 토바고"@KO;
 .
 <TV> a skos:Concept;
     skos:inScheme <>;
@@ -2052,6 +2278,7 @@
     skos:prefLabel "Tuvalu"@FR;
     skos:prefLabel "Tuvalu"@DE;
     skos:prefLabel "图瓦鲁"@ZH;
+    skos:prefLabel "투발루"@KO;
 .
 <TW> a skos:Concept;
     skos:inScheme <>;
@@ -2061,6 +2288,7 @@
     skos:prefLabel "Taïwan"@FR;
     skos:prefLabel "Taiwan"@DE;
     skos:prefLabel "台湾"@ZH;
+    skos:prefLabel "타이완"@KO;
 .
 <TZ> a skos:Concept;
     skos:inScheme <>;
@@ -2070,6 +2298,7 @@
     skos:prefLabel "Tanzanie"@FR;
     skos:prefLabel "Tansania"@DE;
     skos:prefLabel "坦桑尼亚"@ZH;
+    skos:prefLabel "탄자니아"@KO;
 .
 <UA> a skos:Concept;
     skos:inScheme <>;
@@ -2079,6 +2308,7 @@
     skos:prefLabel "Ukraine"@FR;
     skos:prefLabel "Ukraine"@DE;
     skos:prefLabel "乌克兰"@ZH;
+    skos:prefLabel "우크라이나"@KO;
 .
 <UG> a skos:Concept;
     skos:inScheme <>;
@@ -2088,6 +2318,7 @@
     skos:prefLabel "Ouganda"@FR;
     skos:prefLabel "Uganda"@DE;
     skos:prefLabel "乌干达"@ZH;
+    skos:prefLabel "우간다"@KO;
 .
 <UM> a skos:Concept;
     skos:inScheme <>;
@@ -2097,6 +2328,7 @@
     skos:prefLabel "Îles mineures éloignées des États-Unis"@FR;
     skos:prefLabel "United States Minor Outlying Islands"@DE;
     skos:prefLabel "美国本土外小岛屿"@ZH;
+    skos:prefLabel "미국령 군소 제도"@KO;
 .
 <US> a skos:Concept;
     skos:inScheme <>;
@@ -2106,6 +2338,7 @@
     skos:prefLabel "États-Unis"@FR;
     skos:prefLabel "Vereinigte Staaten"@DE;
     skos:prefLabel "美国"@ZH;
+    skos:prefLabel "미국"@KO;
 .
 <UY> a skos:Concept;
     skos:inScheme <>;
@@ -2115,6 +2348,7 @@
     skos:prefLabel "Uruguay"@FR;
     skos:prefLabel "Uruguay"@DE;
     skos:prefLabel "乌拉圭"@ZH;
+    skos:prefLabel "우루과이"@KO;
 .
 <UZ> a skos:Concept;
     skos:inScheme <>;
@@ -2124,6 +2358,7 @@
     skos:prefLabel "Ouzbékistan"@FR;
     skos:prefLabel "Usbekistan"@DE;
     skos:prefLabel "乌兹别克斯坦"@ZH;
+    skos:prefLabel "우즈베키스탄"@KO;
 .
 <VA> a skos:Concept;
     skos:inScheme <>;
@@ -2133,6 +2368,7 @@
     skos:prefLabel "Saint-Siège (état de la cité du Vatican)"@FR;
     skos:prefLabel "Heiliger Stuhl (Staat Vatikanstadt)"@DE;
     skos:prefLabel "梵地冈"@ZH;
+    skos:prefLabel "바티칸 시티 (Holy See)"@KO;
 .
 <VC> a skos:Concept;
     skos:inScheme <>;
@@ -2142,6 +2378,7 @@
     skos:prefLabel "Saint-Vincent-et-les-Grenadines"@FR;
     skos:prefLabel "St. Vincent und die Grenadinen"@DE;
     skos:prefLabel "圣文森特和格林纳丁斯"@ZH;
+    skos:prefLabel "세인트빈센트 그레나딘"@KO;
 .
 <VE> a skos:Concept;
     skos:inScheme <>;
@@ -2151,6 +2388,7 @@
     skos:prefLabel "Vénézuela"@FR;
     skos:prefLabel "Venezuela"@DE;
     skos:prefLabel "委内瑞拉"@ZH;
+    skos:prefLabel "베네수엘라"@KO;
 .
 <VG> a skos:Concept;
     skos:inScheme <>;
@@ -2160,6 +2398,7 @@
     skos:prefLabel "Îles Vierges britanniques"@FR;
     skos:prefLabel "Britische Jungferninseln"@DE;
     skos:prefLabel "英属维京群岛"@ZH;
+    skos:prefLabel "버진 제도, 영국령"@KO;
 .
 <VI> a skos:Concept;
     skos:inScheme <>;
@@ -2169,6 +2408,7 @@
     skos:prefLabel "Îles Vierges des États-Unis"@FR;
     skos:prefLabel "Amerikanische Jungferninseln"@DE;
     skos:prefLabel "美属维京群岛"@ZH;
+    skos:prefLabel "버진 제도, 미국령"@KO;
 .
 <VN> a skos:Concept;
     skos:inScheme <>;
@@ -2178,6 +2418,7 @@
     skos:prefLabel "Viêt Nam"@FR;
     skos:prefLabel "Vietnam"@DE;
     skos:prefLabel "越南"@ZH;
+    skos:prefLabel "베트남"@KO;
 .
 <VU> a skos:Concept;
     skos:inScheme <>;
@@ -2187,6 +2428,7 @@
     skos:prefLabel "Vanuatu"@FR;
     skos:prefLabel "Vanuatu"@DE;
     skos:prefLabel "瓦努阿图"@ZH;
+    skos:prefLabel "바누아투"@KO;
 .
 <WF> a skos:Concept;
     skos:inScheme <>;
@@ -2196,6 +2438,7 @@
     skos:prefLabel "Wallis et Futuna"@FR;
     skos:prefLabel "Wallis und Futuna"@DE;
     skos:prefLabel "瓦利斯和富图纳"@ZH;
+    skos:prefLabel "왈리스 퓌튀나"@KO;
 .
 <WS> a skos:Concept;
     skos:inScheme <>;
@@ -2205,6 +2448,7 @@
     skos:prefLabel "Samoa"@FR;
     skos:prefLabel "Samoa"@DE;
     skos:prefLabel "萨摩亚"@ZH;
+    skos:prefLabel "사모아"@KO;
 .
 <YE> a skos:Concept;
     skos:inScheme <>;
@@ -2214,6 +2458,7 @@
     skos:prefLabel "Yémen"@FR;
     skos:prefLabel "Jemen"@DE;
     skos:prefLabel "也门"@ZH;
+    skos:prefLabel "예멘"@KO;
 .
 <YT> a skos:Concept;
     skos:inScheme <>;
@@ -2223,6 +2468,7 @@
     skos:prefLabel "Mayotte"@FR;
     skos:prefLabel "Mayotte"@DE;
     skos:prefLabel "马约特"@ZH;
+    skos:prefLabel "마요트"@KO;
 .
 <ZA> a skos:Concept;
     skos:inScheme <>;
@@ -2232,6 +2478,7 @@
     skos:prefLabel "Afrique du Sud"@FR;
     skos:prefLabel "Südafrika"@DE;
     skos:prefLabel "南非"@ZH;
+    skos:prefLabel "남아프리카 공화국"@KO;
 .
 <ZM> a skos:Concept;
     skos:inScheme <>;
@@ -2241,6 +2488,7 @@
     skos:prefLabel "Zambie"@FR;
     skos:prefLabel "Sambia"@DE;
     skos:prefLabel "赞比亚"@ZH;
+    skos:prefLabel "잠비아"@KO;
 .
 <ZW> a skos:Concept;
     skos:inScheme <>;
@@ -2250,4 +2498,5 @@
     skos:prefLabel "Zimbabwe"@FR;
     skos:prefLabel "Simbabwe"@DE;
     skos:prefLabel "津巴布韦"@ZH;
+    skos:prefLabel "짐바브웨"@KO;
 .
