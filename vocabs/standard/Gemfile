@@ -1,0 +1,3 @@
+source "https://rubygems.org"
+gem "carmen"
+gem "i18n_data"
