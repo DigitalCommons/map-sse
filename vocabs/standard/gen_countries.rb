@@ -5,7 +5,11 @@ require 'date'
 require 'csv'
 require './scheme'
 
-Languages = ['EN','ES','FR','DE','ZH']
+# Run this and pipe the output into countries-iso.ttl But copy the old
+# one first!  The one thing you need to manually is translate the
+# title "Countries", so you'll need the old ones and add the new ones.
+
+Languages = ['EN','ES','FR','DE','ZH','KO']
 Prefixes = {
   reg: 'http://purl.org/essglobal/standard/regions-ica/'
 }
