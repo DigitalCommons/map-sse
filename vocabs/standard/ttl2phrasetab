@@ -1,0 +1,100 @@
+#!/bin/env ruby
+#
+# This script reads a TTL vocab file, and outputs a localisation
+# phrase table in TSV format for the following (shortened) property
+# URIs:
+#
+# - `title`
+# - `description`
+# - `prefLabel`
+# - `altLabel`
+# - `scopeNote`
+#
+# Columns are:
+#
+#  - `term`: the name of the vocab term, or blank if the property is for the entire vocab
+#  - `property`: the property in question (one of the list above)
+#  - ... followed by the language codes encountered (or at least, ``, which indicates
+#    a phrase with no specific language)
+#
+# Usage
+#
+#   ttl2phrasetab <$VOCAB_TTL >$PHRASETAB_TSV
+
+
+
+require "rdf/turtle"
+
+
+
+properties = %w(title definition description prefLabel altLabel scopeNote)
+default_lang = nil # no explicit language
+subfield_delim = ";"
+field_delim = "\t"
+langs = {}
+table = {}
+
+def shorten(url)
+  url.to_s.sub(%r{^.*[/#]}, '')
+end
+
+def escape(char)
+  ->(str) { str.gsub(char, "\\"+char) }
+end
+
+
+# Build up a map of target properties and their literals
+RDF::Reader.for(:turtle).new($stdin).each_triple do |s, p, o|
+
+  lang = if o.is_a?(RDF::Literal) && o.language 
+           o.language.to_s.upcase
+         else
+           default_lang
+         end
+  langs[lang] = true
+
+  short_p = shorten p
+  short_s = shorten s 
+  
+  if properties.include? short_p
+    table[short_s] ||= {}
+    subtable = table[short_s]
+
+    subtable[short_p] ||= {}
+    langary = subtable[short_p] # FIXME deal with multiple short_p
+
+    # Note, there can be more than one value for each property, so we
+    # use an array here.
+    langary[lang] ||= []
+    langary[lang] << o.to_s
+  else
+    #warn "Ignoring statement: #{s} #{p} #{o}"
+  end
+  
+end
+
+langs = langs.keys.sort do |a, b|
+  a.to_s <=> b.to_s # this will sort nil as ''
+end
+
+puts %w(term property).concat(langs).join("\t")
+
+table.keys.sort.each do |subj|
+  subtable = table[subj]
+
+  properties.each do |property|
+    if subtable[property]
+      localisations = langs.collect do |lang|
+        (subtable[property][lang] || [])
+          .compact
+          .collect(&escape(subfield_delim))
+          .join(subfield_delim)
+      end
+      puts [subj, property]
+             .concat(localisations)
+             .collect(&escape(field_delim))
+             .join("\t")
+    end
+  end
+  
+end
