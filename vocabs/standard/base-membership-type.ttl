@@ -15,45 +15,69 @@
     dcterms:publisher "ESSGLOBAL" ;
     a skos:ConceptScheme .
 
-<http://purl.org/essglobal/standard/base-membership-type/BMT10>
-    a skos:Concept ;
-    skos:altLabel "A" ;
-    skos:inScheme <http://purl.org/essglobal/standard/base-membership-type/> ;
-    skos:prefLabel "de consumo/usuarios"@es, "Consommateurs/usagers"@fr, ""@pt, "Consumer/Users"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
-<http://purl.org/essglobal/standard/base-membership-type/BMT20>
-    a skos:Concept ;
-    skos:altLabel "B" ;
-    skos:inScheme <http://purl.org/essglobal/standard/base-membership-type/> ;
-    skos:prefLabel "de productores"@es, "Producteurs"@fr, ""@pt, "Producers"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
-<http://purl.org/essglobal/standard/base-membership-type/BMT30>
-    a skos:Concept ;
-    skos:altLabel "C" ;
-    skos:inScheme <http://purl.org/essglobal/standard/base-membership-type/> ;
-    skos:prefLabel "de trabajadores"@es, "Travailleurs"@fr, ""@pt, "Workers"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
-<http://purl.org/essglobal/standard/base-membership-type/BMT40>
-    a skos:Concept ;
-    skos:altLabel "D" ;
-    skos:inScheme <http://purl.org/essglobal/standard/base-membership-type/> ;
-    skos:prefLabel "de múltiples partes interesadas"@es, "Intérêt collectif"@fr, ""@pt, "Multi-stakeholders"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
-<http://purl.org/essglobal/standard/base-membership-type/BMT50>
-    a skos:Concept ;
-    skos:altLabel "E" ;
-    skos:inScheme <http://purl.org/essglobal/standard/base-membership-type/> ;
-    skos:prefLabel "de residentes"@es, "Résidents"@fr, ""@pt, "Residents"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
-<http://purl.org/essglobal/standard/base-membership-type/BMT60>
-    a skos:Concept ;
-    skos:altLabel "F" ;
-    skos:inScheme <http://purl.org/essglobal/standard/base-membership-type/> ;
-    skos:prefLabel "Otros"@es, "Autres"@fr, ""@pt, "Others"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
+<BMT10> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Consumer/Users"@EN,
+        "de consumo/usuarios"@ES,
+        "Consommateurs/usagers"@FR;
+    skos:altLabel
+        "A";
+    skos:scopeNote
+        ;
+.
+<BMT20> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Producers"@EN,
+        "de productores"@ES,
+        "Producteurs"@FR;
+    skos:altLabel
+        "B";
+    skos:scopeNote
+        ;
+.
+<BMT30> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Workers"@EN,
+        "de trabajadores"@ES,
+        "Travailleurs"@FR;
+    skos:altLabel
+        "C";
+    skos:scopeNote
+        ;
+.
+<BMT40> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Multi-stakeholders"@EN,
+        "de múltiples partes interesadas"@ES,
+        "Intérêt collectif"@FR;
+    skos:altLabel
+        "D";
+    skos:scopeNote
+        ;
+.
+<BMT50> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Residents"@EN,
+        "de residentes"@ES,
+        "Résidents"@FR;
+    skos:altLabel
+        "E";
+    skos:scopeNote
+        ;
+.
+<BMT60> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Others"@EN,
+        "Otros"@ES,
+        "Autres"@FR;
+    skos:altLabel
+        "F";
+    skos:scopeNote
+        ;
+.

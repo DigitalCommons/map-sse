@@ -16,33 +16,50 @@
     dcterms:publisher "ESSGLOBAL" ;
     a skos:ConceptScheme .
 
-<http://purl.org/essglobal/standard/legal-form/L1>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/legal-form/> ;
-    skos:prefLabel ""@fr, "Grupo Informal"@es, "Grupo Informal"@pt, "Grupo Informale"@it, "Informal Group"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@it, ""@pt .
-
-<http://purl.org/essglobal/standard/legal-form/L2>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/legal-form/> ;
-    skos:prefLabel ""@fr, "Cooperativa"@es, "Cooperativa"@it, "Cooperativa"@pt, "Cooperative"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@it, ""@pt .
-
-<http://purl.org/essglobal/standard/legal-form/L3>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/legal-form/> ;
-    skos:prefLabel ""@it, "Company"@en, "Empresa"@es, "Empresa"@pt, "Entreprise"@fr ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
-<http://purl.org/essglobal/standard/legal-form/L4>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/legal-form/> ;
-    skos:prefLabel ""@es, ""@fr, ""@it, "Non-Profit Organisation"@en, "Organização Não Governamental"@pt ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
-<http://purl.org/essglobal/standard/legal-form/L5>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/legal-form/> ;
-    skos:prefLabel ""@fr, ""@it, "Empresa Social"@es, "Empresa Social"@pt, "Social Enterprise"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
+<L1> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Informal Group"@EN,
+        "Grupo Informal"@ES,
+        "Grupo Informale"@IT,
+        "Grupo Informal"@PT;
+    skos:scopeNote
+        ;
+.
+<L2> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Cooperative"@EN,
+        "Cooperativa"@ES,
+        "Cooperativa"@IT,
+        "Cooperativa"@PT;
+    skos:scopeNote
+        ;
+.
+<L3> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Company"@EN,
+        "Empresa"@ES,
+        "Entreprise"@FR,
+        "Empresa"@PT;
+    skos:scopeNote
+        ;
+.
+<L4> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Non-Profit Organisation"@EN,
+        "Organização Não Governamental"@PT;
+    skos:scopeNote
+        ;
+.
+<L5> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Social Enterprise"@EN,
+        "Empresa Social"@ES,
+        "Empresa Social"@PT;
+    skos:scopeNote
+        ;
+.

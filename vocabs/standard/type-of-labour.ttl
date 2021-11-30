@@ -17,33 +17,45 @@
     dcterms:publisher "ESSGLOBAL" ;
     a skos:ConceptScheme .
 
-<http://purl.org/essglobal/standard/type-of-labour/T1>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/type-of-labour/> ;
-    skos:prefLabel ""@en, ""@es, ""@fr, ""@it, ""@pt, "Associative"@en, "Associativo"@es, "Associativo"@pt ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@it, ""@pt .
-
-<http://purl.org/essglobal/standard/type-of-labour/T2>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/type-of-labour/> ;
-    skos:prefLabel ""@es, ""@fr, ""@it, "Subordinado"@pt, "Subordinate"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@it, ""@pt .
-
-<http://purl.org/essglobal/standard/type-of-labour/T3>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/type-of-labour/> ;
-    skos:prefLabel ""@es, ""@fr, ""@it, "Trabalho Voluntário"@pt, "Voluntary Work "@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@it, ""@pt .
-
-<http://purl.org/essglobal/standard/type-of-labour/T4>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/type-of-labour/> ;
-    skos:prefLabel ""@es, ""@fr, ""@it, ""@pt, "Reproductive Labour/Care Work "@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@it, ""@pt .
-
-<http://purl.org/essglobal/standard/type-of-labour/T5>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/type-of-labour/> ;
-    skos:prefLabel ""@es, ""@fr, ""@it, ""@pt, "Externally hired "@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@it, ""@pt .
-
+<T1> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        ""@EN,
+        "Associative"@EN,
+        ""@ES,
+        "Associativo"@ES,
+        ""@PT,
+        "Associativo"@PT;
+    skos:scopeNote
+        ;
+.
+<T2> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Subordinate"@EN,
+        "Subordinado"@PT;
+    skos:scopeNote
+        ;
+.
+<T3> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Voluntary Work "@EN,
+        "Trabalho Voluntário"@PT;
+    skos:scopeNote
+        ;
+.
+<T4> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Reproductive Labour/Care Work "@EN;
+    skos:scopeNote
+        ;
+.
+<T5> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Externally hired "@EN;
+    skos:scopeNote
+        ;
+.

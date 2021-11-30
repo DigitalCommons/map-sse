@@ -16,136 +16,288 @@
     dcterms:publisher "ESSGLOBAL" ;
     a skos:ConceptScheme .
 
-<http://purl.org/essglobal/standard/themes/T1>
-    a skos:Concept ;
-    skos:altLabel "Housing and mobility"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/themes/> ;
-    skos:prefLabel "Cidades em Transição e direito à moradia"@pt, "Ciudades en transición y derecho a la vivienda"@es, "Transition towns and housing rights"@en, "Villes en transition et droit a l'habitation"@fr ;
-    skos:scopeNote "Integra as tematicas acerca da habitacao e mobilidade"@pt, "Integra la temática sobre la vivienda y la movilidad"@es, "Integrates thematic about housing and mobility"@en, "Intègre thématique sur le logement et la mobilité"@fr .
-
-<http://purl.org/essglobal/standard/themes/T10>
-    a skos:Concept ;
-    skos:altLabel "Local development and \"Bien vivir\""@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/themes/> ;
-    skos:prefLabel "Desarrollo territorial y Bien Vivir"@es, "Desenvolvimento territorial e \"Bem Viver\""@pt, "Développement territorial et bien vivir"@fr, "Territorial development and \"Bien Vivir\""@en ;
-    skos:scopeNote "Integra as tematicas acerca de desenvolvimento local e bem-viver"@pt, "Integra la temática de desarrollo local y el bienestar"@es, "Integrates thematic about local development and wellbeing"@en, "Intègre thématique sur le développement local et le bien-être"@fr .
-
-<http://purl.org/essglobal/standard/themes/T11>
-    a skos:Concept ;
-    skos:altLabel "International Cooperation"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/themes/> ;
-    skos:prefLabel "Cooperación internacional"@es, "Cooperação Internacional"@pt, "Coopération internationale"@fr, "International Cooperation"@en ;
-    skos:scopeNote "Il intègre la coopération internationale sur la thématique"@fr, "Integra as tematicas acerca de cooperação internacional"@pt, "It integrates the international cooperation on thematic"@en, "Se integra a la cooperación internacional en la temática"@es .
-
-<http://purl.org/essglobal/standard/themes/T12>
-    a skos:Concept ;
-    skos:altLabel "Social justice and fight against poverty"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/themes/> ;
-    skos:prefLabel "Justice et insertion sociales et combat contre la pauvreté"@fr, "Justicia e inserción social y lucha contra la pobreza"@es, "Justiça Social e de inserção e luta contra a pobreza"@pt, "Social Justice and insertion and fight against poverty"@en ;
-    skos:scopeNote "Integra as tematicas acerca da justiça social e luta contra a pobreza"@pt, "Integra la temática sobre la justicia social y la lucha contra la pobreza"@es, "Integrates thematic about social justice and poverty alleviation"@en, "Intègre thématique sur la justice sociale et lutte contre la pauvreté"@fr .
-
-<http://purl.org/essglobal/standard/themes/T13>
-    a skos:Concept ;
-    skos:altLabel "Decent work and Self-Management"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/themes/> ;
-    skos:prefLabel "Decent work and Self-Management"@en, "Trabajo decente/digno y Autogestión"@es, "Trabalho decente e Autogestão"@pt, "Travail décent/digne et Autogestion"@fr ;
-    skos:scopeNote "Il intègre la thématique sur le travail décent et de l'autogestion"@fr, "Integra as tematicas acerca de trabalho decente e autogestão"@pt, "It integrates the thematic on decent work and self-management"@en, "Se integra la temática sobre el trabajo decente y la autogestión"@es .
-
-<http://purl.org/essglobal/standard/themes/T14>
-    a skos:Concept ;
-    skos:altLabel "Women"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/themes/> ;
-    skos:prefLabel "Femmes"@fr, "Mujeres"@es, "Mulheres"@pt, "Women"@en ;
-    skos:scopeNote "Integra as tematicas acerca de mulheres"@pt, "Integra la temática sobre la mujer"@es, "Integrates thematic about women"@en, "Intègre thématique sur les femmes"@fr .
-
-<http://purl.org/essglobal/standard/themes/T15>
-    a skos:Concept ;
-    skos:altLabel "Networking and social movements"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/themes/> ;
-    skos:prefLabel "Redes y organización del movimiento de ESS (nacional y internacional)"@es, "Réseautage et Organisation du mouvement de l'ÉSS (national et international)"@fr, "SSE movement organizing and networking (national and international)"@en, "SSE movimento de organização e trabalho em rede (nacional e internacional)"@pt ;
-    skos:scopeNote "Integra as tematicas acerca de networking e movimentos sociais"@pt, "Integrates on thematic networking and social movements"@en, "Intègre la mise en réseau thématique et mouvements sociaux"@fr, "Se integra en la creación de redes temáticas y los movimientos sociales"@es .
-
-<http://purl.org/essglobal/standard/themes/T16>
-    a skos:Concept ;
-    skos:altLabel "Research and technology"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/themes/> ;
-    skos:prefLabel "Pesquisa e tecnologia"@pt, "Research and technology"@en, "Technologie et recherche"@fr, "Tecnología e investigación"@es ;
-    skos:scopeNote "Integra as tematicas acerca de pesquisa e tecnologia"@pt, "Integrates on thematic research and technology"@en, "Intègre la recherche thématique et de la technologie"@fr, "Se integra en la investigación temática y la tecnología"@es .
-
-<http://purl.org/essglobal/standard/themes/T17>
-    a skos:Concept ;
-    skos:altLabel "Indigenous peoples and communities"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/themes/> ;
-    skos:prefLabel "Indigenous peoples and communities"@en, "Os povos indígenas e comunidades"@pt, "Peuples et Communautés traditionnels/indigènes"@fr, "Pueblos y comunidades tradicionales/originarias"@es ;
-    skos:scopeNote "Integra as tematicas acerca dos povos indígenas e comunidades"@pt, "Integra la temática acerca de los pueblos y comunidades indígenas"@es, "Integrates thematic about the indigenous peoples and communities"@en, "Intègre thématique sur les peuples autochtones et des communautés"@fr .
-
-<http://purl.org/essglobal/standard/themes/T18>
-    a skos:Concept ;
-    skos:altLabel "Communication and information"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/themes/> ;
-    skos:prefLabel "Alternative communication and information"@en, "Communication et information alternatives"@fr, "Comunicación e información alternativas"@es, "Comunicação alternativa e informações"@pt ;
-    skos:scopeNote "Integra as tematicas acerca de comunicação e informação"@pt, "Integra la temática de la comunicación y la información"@es, "Integrates thematic about communication and information"@en, "Intègre thématique sur la communication et l'information"@fr .
-
-<http://purl.org/essglobal/standard/themes/T19>
-    a skos:Concept ;
-    skos:altLabel "Other"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/themes/> ;
-    skos:prefLabel "Autres thématiques"@fr, "Other themes"@en, "Otros temas"@es, "Outros temas"@pt ;
-    skos:scopeNote "Integra as tematicas acerca de outros assuntos"@pt, "Integrates about other thematic issues"@en, "Intègre sur d'autres questions thématiques"@fr, "Se integra sobre otras cuestiones temáticas"@es .
-
-<http://purl.org/essglobal/standard/themes/T2>
-    a skos:Concept ;
-    skos:altLabel "Food and agriculture"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/themes/> ;
-    skos:prefLabel "A soberania alimentar e agricultura camponesa da agricultura"@pt, "Food souvereignty and peasant's farming agriculture"@en, "Soberanía alimentaria y Agricultura campesina"@es, "Souveraineté alimentaire et Agriculture paysanne"@fr ;
-    skos:scopeNote "Il intègre la thématique sur l'alimentation et l'agriculture"@fr, "Integra as tematicas acerca de alimento e agricultura"@pt, "Integra la temática sobre la alimentación y la agricultura"@es, "It integrates the thematic on food and agriculture"@en .
-
-<http://purl.org/essglobal/standard/themes/T3>
-    a skos:Concept ;
-    skos:altLabel "Finance"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/themes/> ;
-    skos:prefLabel "Finances Solidaires"@fr, "Finanzas Solidarias"@es, "Finanças sociais e de solidariedade"@pt, "Social and solidarity finances"@en ;
-    skos:scopeNote "Integra as tematicas acerca de finanças"@pt, "Integra la temática acerca de las finanzas"@es, "Integrates thematic about finances"@en, "Intègre thématique sur les finances"@fr .
-
-<http://purl.org/essglobal/standard/themes/T4>
-    a skos:Concept ;
-    skos:altLabel "Economies"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/themes/> ;
-    skos:prefLabel "Conceitos e valores relacionados com a Economia Solidária"@pt, "Conceptos y valores sobre Economía Solidaria"@es, "Concepts and values related to Solidarity Economy"@en, "Concepts et valeurs sur l'Économie Solidaire"@fr ;
-    skos:scopeNote "Integra as tematicas acerca de economias"@pt, "Integra la temática sobre las economías"@es, "Integrates thematic about economies"@en, "Intègre thématique sur les économies"@fr .
-
-<http://purl.org/essglobal/standard/themes/T5>
-    a skos:Concept ;
-    skos:altLabel "Environment, energy and commons"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/themes/> ;
-    skos:prefLabel "Ambiente e terras comuns"@pt, "Environment and commons"@en, "Environnement et biens communs"@fr, "Medio ambiente y bienes comunes"@es ;
-    skos:scopeNote "Integra as tematicas acerca de ambiente, energia e bens comuns"@pt, "Integra la temática sobre los bienes medio ambiente, energía y común"@es, "Integrates thematic about environment, energy and common goods"@en, "Intègre thématique sur les biens environnement, l'énergie et des communes"@fr .
-
-<http://purl.org/essglobal/standard/themes/T6>
-    a skos:Concept ;
-    skos:altLabel "Public policies"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/themes/> ;
-    skos:prefLabel "As políticas públicas"@pt, "Politicas Publicas"@es, "Politiques Publiques"@fr, "Public policies"@en ;
-    skos:scopeNote "Integra as tematicas acerca de políticas públicas"@pt, "Integra la temática sobre la política pública"@es, "Integrates thematic about public policy"@en, "Intègre thématique sur les politiques publiques"@fr .
-
-<http://purl.org/essglobal/standard/themes/T7>
-    a skos:Concept ;
-    skos:altLabel "Free culture and knowledge"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/themes/> ;
-    skos:prefLabel "Cultura e conhecimento livre"@pt, "Cultura y conocimiento libres"@es, "Free culture and knowledge"@en, "culture et connaissances (savoirs) libres"@fr ;
-    skos:scopeNote "Integra as tematicas acerca de cultura livre e conhecimento"@pt, "Integra la temática sobre la cultura y el conocimiento libres"@es, "Integrates thematic about free culture and knowledge"@en, "Intègre thématique sur la culture libre et la connaissance"@fr .
-
-<http://purl.org/essglobal/standard/themes/T8>
-    a skos:Concept ;
-    skos:altLabel "Education and learning"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/themes/> ;
-    skos:prefLabel "A educação popular e a formação"@pt, "Educacion y asesoria popular"@es, "Education populaire et apprentissage"@fr, "Popular education and training"@en ;
-    skos:scopeNote "Integra as tematicas acerca de educação e apredizagem"@pt, "Integrates on thematic education and apredizagem"@en, "Intègre sur l'éducation thématique et apredizagem"@fr, "Se integra en la educación y la temática apredizagem"@es .
-
-<http://purl.org/essglobal/standard/themes/T9>
-    a skos:Concept ;
-    skos:altLabel "Production, trade and consumption"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/themes/> ;
-    skos:prefLabel "Producción, Comercialización y consumo solidarios y responsables"@es, "Production, Commerce et consommation solidaires et responsables"@fr, "Solidariedade e produção responsável, comércio e consumo"@pt, "Solidarity and Responsible production, commerce and consumption"@en ;
-    skos:scopeNote "Il intègre la thématique sur la production, le commerce et la consommation"@fr, "Integra as tematicas acerca de produção, comércio e consumo"@pt, "It integrates the thematic on production, trade and consumption"@en, "Se integra la temática de la producción, el comercio y el consumo"@es .
-
+<T1> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Transition towns and housing rights"@EN,
+        "Ciudades en transición y derecho a la vivienda"@ES,
+        "Villes en transition et droit a l'habitation"@FR,
+        "Cidades em Transição e direito à moradia"@PT;
+    skos:altLabel
+        "Housing and mobility"@EN;
+    skos:scopeNote
+        "Integrates thematic about housing and mobility"@EN,
+        "Integra la temática sobre la vivienda y la movilidad"@ES,
+        "Intègre thématique sur le logement et la mobilité"@FR,
+        "Integra as tematicas acerca da habitacao e mobilidade"@PT;
+.
+<T10> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Territorial development and \"Bien Vivir\""@EN,
+        "Desarrollo territorial y Bien Vivir"@ES,
+        "Développement territorial et bien vivir"@FR,
+        "Desenvolvimento territorial e \"Bem Viver\""@PT;
+    skos:altLabel
+        "Local development and \"Bien vivir\""@EN;
+    skos:scopeNote
+        "Integrates thematic about local development and wellbeing"@EN,
+        "Integra la temática de desarrollo local y el bienestar"@ES,
+        "Intègre thématique sur le développement local et le bien-être"@FR,
+        "Integra as tematicas acerca de desenvolvimento local e bem-viver"@PT;
+.
+<T11> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "International Cooperation"@EN,
+        "Cooperación internacional"@ES,
+        "Coopération internationale"@FR,
+        "Cooperação Internacional"@PT;
+    skos:altLabel
+        "International Cooperation"@EN;
+    skos:scopeNote
+        "It integrates the international cooperation on thematic"@EN,
+        "Se integra a la cooperación internacional en la temática"@ES,
+        "Il intègre la coopération internationale sur la thématique"@FR,
+        "Integra as tematicas acerca de cooperação internacional"@PT;
+.
+<T12> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Social Justice and insertion and fight against poverty"@EN,
+        "Justicia e inserción social y lucha contra la pobreza"@ES,
+        "Justice et insertion sociales et combat contre la pauvreté"@FR,
+        "Justiça Social e de inserção e luta contra a pobreza"@PT;
+    skos:altLabel
+        "Social justice and fight against poverty"@EN;
+    skos:scopeNote
+        "Integrates thematic about social justice and poverty alleviation"@EN,
+        "Integra la temática sobre la justicia social y la lucha contra la pobreza"@ES,
+        "Intègre thématique sur la justice sociale et lutte contre la pauvreté"@FR,
+        "Integra as tematicas acerca da justiça social e luta contra a pobreza"@PT;
+.
+<T13> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Decent work and Self-Management"@EN,
+        "Trabajo decente/digno y Autogestión"@ES,
+        "Travail décent/digne et Autogestion"@FR,
+        "Trabalho decente e Autogestão"@PT;
+    skos:altLabel
+        "Decent work and Self-Management"@EN;
+    skos:scopeNote
+        "It integrates the thematic on decent work and self-management"@EN,
+        "Se integra la temática sobre el trabajo decente y la autogestión"@ES,
+        "Il intègre la thématique sur le travail décent et de l'autogestion"@FR,
+        "Integra as tematicas acerca de trabalho decente e autogestão"@PT;
+.
+<T14> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Women"@EN,
+        "Mujeres"@ES,
+        "Femmes"@FR,
+        "Mulheres"@PT;
+    skos:altLabel
+        "Women"@EN;
+    skos:scopeNote
+        "Integrates thematic about women"@EN,
+        "Integra la temática sobre la mujer"@ES,
+        "Intègre thématique sur les femmes"@FR,
+        "Integra as tematicas acerca de mulheres"@PT;
+.
+<T15> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "SSE movement organizing and networking (national and international)"@EN,
+        "Redes y organización del movimiento de ESS (nacional y internacional)"@ES,
+        "Réseautage et Organisation du mouvement de l'ÉSS (national et international)"@FR,
+        "SSE movimento de organização e trabalho em rede (nacional e internacional)"@PT;
+    skos:altLabel
+        "Networking and social movements"@EN;
+    skos:scopeNote
+        "Integrates on thematic networking and social movements"@EN,
+        "Se integra en la creación de redes temáticas y los movimientos sociales"@ES,
+        "Intègre la mise en réseau thématique et mouvements sociaux"@FR,
+        "Integra as tematicas acerca de networking e movimentos sociais"@PT;
+.
+<T16> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Research and technology"@EN,
+        "Tecnología e investigación"@ES,
+        "Technologie et recherche"@FR,
+        "Pesquisa e tecnologia"@PT;
+    skos:altLabel
+        "Research and technology"@EN;
+    skos:scopeNote
+        "Integrates on thematic research and technology"@EN,
+        "Se integra en la investigación temática y la tecnología"@ES,
+        "Intègre la recherche thématique et de la technologie"@FR,
+        "Integra as tematicas acerca de pesquisa e tecnologia"@PT;
+.
+<T17> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Indigenous peoples and communities"@EN,
+        "Pueblos y comunidades tradicionales/originarias"@ES,
+        "Peuples et Communautés traditionnels/indigènes"@FR,
+        "Os povos indígenas e comunidades"@PT;
+    skos:altLabel
+        "Indigenous peoples and communities"@EN;
+    skos:scopeNote
+        "Integrates thematic about the indigenous peoples and communities"@EN,
+        "Integra la temática acerca de los pueblos y comunidades indígenas"@ES,
+        "Intègre thématique sur les peuples autochtones et des communautés"@FR,
+        "Integra as tematicas acerca dos povos indígenas e comunidades"@PT;
+.
+<T18> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Alternative communication and information"@EN,
+        "Comunicación e información alternativas"@ES,
+        "Communication et information alternatives"@FR,
+        "Comunicação alternativa e informações"@PT;
+    skos:altLabel
+        "Communication and information"@EN;
+    skos:scopeNote
+        "Integrates thematic about communication and information"@EN,
+        "Integra la temática de la comunicación y la información"@ES,
+        "Intègre thématique sur la communication et l'information"@FR,
+        "Integra as tematicas acerca de comunicação e informação"@PT;
+.
+<T19> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Other themes"@EN,
+        "Otros temas"@ES,
+        "Autres thématiques"@FR,
+        "Outros temas"@PT;
+    skos:altLabel
+        "Other"@EN;
+    skos:scopeNote
+        "Integrates about other thematic issues"@EN,
+        "Se integra sobre otras cuestiones temáticas"@ES,
+        "Intègre sur d'autres questions thématiques"@FR,
+        "Integra as tematicas acerca de outros assuntos"@PT;
+.
+<T2> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Food souvereignty and peasant's farming agriculture"@EN,
+        "Soberanía alimentaria y Agricultura campesina"@ES,
+        "Souveraineté alimentaire et Agriculture paysanne"@FR,
+        "A soberania alimentar e agricultura camponesa da agricultura"@PT;
+    skos:altLabel
+        "Food and agriculture"@EN;
+    skos:scopeNote
+        "It integrates the thematic on food and agriculture"@EN,
+        "Integra la temática sobre la alimentación y la agricultura"@ES,
+        "Il intègre la thématique sur l'alimentation et l'agriculture"@FR,
+        "Integra as tematicas acerca de alimento e agricultura"@PT;
+.
+<T3> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Social and solidarity finances"@EN,
+        "Finanzas Solidarias"@ES,
+        "Finances Solidaires"@FR,
+        "Finanças sociais e de solidariedade"@PT;
+    skos:altLabel
+        "Finance"@EN;
+    skos:scopeNote
+        "Integrates thematic about finances"@EN,
+        "Integra la temática acerca de las finanzas"@ES,
+        "Intègre thématique sur les finances"@FR,
+        "Integra as tematicas acerca de finanças"@PT;
+.
+<T4> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Concepts and values related to Solidarity Economy"@EN,
+        "Conceptos y valores sobre Economía Solidaria"@ES,
+        "Concepts et valeurs sur l'Économie Solidaire"@FR,
+        "Conceitos e valores relacionados com a Economia Solidária"@PT;
+    skos:altLabel
+        "Economies"@EN;
+    skos:scopeNote
+        "Integrates thematic about economies"@EN,
+        "Integra la temática sobre las economías"@ES,
+        "Intègre thématique sur les économies"@FR,
+        "Integra as tematicas acerca de economias"@PT;
+.
+<T5> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Environment and commons"@EN,
+        "Medio ambiente y bienes comunes"@ES,
+        "Environnement et biens communs"@FR,
+        "Ambiente e terras comuns"@PT;
+    skos:altLabel
+        "Environment, energy and commons"@EN;
+    skos:scopeNote
+        "Integrates thematic about environment, energy and common goods"@EN,
+        "Integra la temática sobre los bienes medio ambiente, energía y común"@ES,
+        "Intègre thématique sur les biens environnement, l'énergie et des communes"@FR,
+        "Integra as tematicas acerca de ambiente, energia e bens comuns"@PT;
+.
+<T6> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Public policies"@EN,
+        "Politicas Publicas"@ES,
+        "Politiques Publiques"@FR,
+        "As políticas públicas"@PT;
+    skos:altLabel
+        "Public policies"@EN;
+    skos:scopeNote
+        "Integrates thematic about public policy"@EN,
+        "Integra la temática sobre la política pública"@ES,
+        "Intègre thématique sur les politiques publiques"@FR,
+        "Integra as tematicas acerca de políticas públicas"@PT;
+.
+<T7> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Free culture and knowledge"@EN,
+        "Cultura y conocimiento libres"@ES,
+        "culture et connaissances (savoirs) libres"@FR,
+        "Cultura e conhecimento livre"@PT;
+    skos:altLabel
+        "Free culture and knowledge"@EN;
+    skos:scopeNote
+        "Integrates thematic about free culture and knowledge"@EN,
+        "Integra la temática sobre la cultura y el conocimiento libres"@ES,
+        "Intègre thématique sur la culture libre et la connaissance"@FR,
+        "Integra as tematicas acerca de cultura livre e conhecimento"@PT;
+.
+<T8> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Popular education and training"@EN,
+        "Educacion y asesoria popular"@ES,
+        "Education populaire et apprentissage"@FR,
+        "A educação popular e a formação"@PT;
+    skos:altLabel
+        "Education and learning"@EN;
+    skos:scopeNote
+        "Integrates on thematic education and apredizagem"@EN,
+        "Se integra en la educación y la temática apredizagem"@ES,
+        "Intègre sur l'éducation thématique et apredizagem"@FR,
+        "Integra as tematicas acerca de educação e apredizagem"@PT;
+.
+<T9> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Solidarity and Responsible production, commerce and consumption"@EN,
+        "Producción, Comercialización y consumo solidarios y responsables"@ES,
+        "Production, Commerce et consommation solidaires et responsables"@FR,
+        "Solidariedade e produção responsável, comércio e consumo"@PT;
+    skos:altLabel
+        "Production, trade and consumption"@EN;
+    skos:scopeNote
+        "It integrates the thematic on production, trade and consumption"@EN,
+        "Se integra la temática de la producción, el comercio y el consumo"@ES,
+        "Il intègre la thématique sur la production, le commerce et la consommation"@FR,
+        "Integra as tematicas acerca de produção, comércio e consumo"@PT;
+.

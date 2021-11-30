@@ -21,6 +21,3 @@
     dc:publisher <http://www.ripess.org/>;
     dc:modified "2021-03-05"^^xsd:date.
 
-essglobal:countries-iso rdfs:subClassOf <>.
-essglobal:regions-ica rdfs:subClassOf <>.
-essglobal:super-regions-ica rdfs:subClassOf <>.

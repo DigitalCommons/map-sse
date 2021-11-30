@@ -21,21 +21,34 @@
 
 <I> a skos:Concept;
     skos:inScheme <>;
-    skos:prefLabel "Global"@EN;
+    skos:prefLabel
+        "Global"@EN;
 .
 <I-AF> a skos:Concept;
     skos:inScheme <>;
-    skos:prefLabel "África"@ES,"Afrique"@FR,"Africa"@EN;
+    skos:prefLabel
+        "Africa"@EN,
+        "África"@ES,
+        "Afrique"@FR;
 .
 <I-AM> a skos:Concept;
     skos:inScheme <>;
-    skos:prefLabel "América"@ES,"Amériques"@FR,"Americas"@EN;
+    skos:prefLabel
+        "Americas"@EN,
+        "América"@ES,
+        "Amériques"@FR;
 .
 <I-AP> a skos:Concept;
     skos:inScheme <>;
-    skos:prefLabel "Asia-Pacífico"@ES,"Asie+Pacifique"@FR,"Asia+Pacific"@EN;
+    skos:prefLabel
+        "Asia+Pacific"@EN,
+        "Asia-Pacífico"@ES,
+        "Asie+Pacifique"@FR;
 .
 <I-EU> a skos:Concept;
     skos:inScheme <>;
-    skos:prefLabel "Europa"@ES,"Europe"@FR,"Europe"@EN;
+    skos:prefLabel
+        "Europe"@EN,
+        "Europa"@ES,
+        "Europe"@FR;
 .

@@ -15,153 +15,198 @@
     dcterms:publisher "ESSGLOBAL" ;
     a skos:ConceptScheme .
 
-<http://purl.org/essglobal/standard/organisational-structure/OS10>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/organisational-structure/> ;
-    skos:prefLabel ""@es, ""@fr, ""@it, ""@pt, "Community group (formal or informal)"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@it, ""@pt .
-
-<http://purl.org/essglobal/standard/organisational-structure/OS100>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/organisational-structure/> ;
-    skos:prefLabel ""@es, ""@fr, ""@it, ""@pt, "Multi-stakeholder cooperative"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
-<http://purl.org/essglobal/standard/organisational-structure/OS110>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/organisational-structure/> ;
-    skos:prefLabel ""@es, ""@fr, ""@it, ""@pt, "Secondary cooperative"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
-<http://purl.org/essglobal/standard/organisational-structure/OS115>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/organisational-structure/> ;
-    skos:prefLabel "Cooperativa"@es, "Coopérative"@fr, ""@it, ""@pt, "Cooperative"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
-<http://purl.org/essglobal/standard/organisational-structure/OS120>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/organisational-structure/> ;
-    skos:prefLabel ""@es, ""@fr, ""@it, ""@pt, "Community Interest Company (CIC)"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
-<http://purl.org/essglobal/standard/organisational-structure/OS130>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/organisational-structure/> ;
-    skos:prefLabel ""@es, ""@fr, ""@it, ""@pt, "Community Benefit Society / Industrial and Provident Society (IPS)"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
-<http://purl.org/essglobal/standard/organisational-structure/OS140>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/organisational-structure/> ;
-    skos:prefLabel ""@es, ""@fr, ""@it, ""@pt, "Employee trust"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
-<http://purl.org/essglobal/standard/organisational-structure/OS150>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/organisational-structure/> ;
-    skos:prefLabel ""@es, ""@fr, ""@it, ""@pt, "Self-employed"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
-<http://purl.org/essglobal/standard/organisational-structure/OS160>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/organisational-structure/> ;
-    skos:prefLabel ""@es, ""@fr, ""@it, ""@pt, "Unincorporated"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
-<http://purl.org/essglobal/standard/organisational-structure/OS170>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/organisational-structure/> ;
-    skos:prefLabel "Mutual"@es, "Mutuelle"@fr, ""@it, ""@pt, "Mutual"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
-<http://purl.org/essglobal/standard/organisational-structure/OS180>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/organisational-structure/> ;
-    skos:prefLabel "Organismo federativo nacional"@es, "Organisation faîtière nationale"@fr, ""@it, ""@pt, "National apex"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
-<http://purl.org/essglobal/standard/organisational-structure/OS190>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/organisational-structure/> ;
-    skos:prefLabel "Sindicato o federación nacional sectorial"@es, "Union ou fédération nationale sectorielle"@fr, ""@it, ""@pt, "National sectoral federation or union"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
-<http://purl.org/essglobal/standard/organisational-structure/OS20>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/organisational-structure/> ;
-    skos:prefLabel ""@es, ""@fr, ""@it, ""@pt, "Not-for-profit organisation"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@it, ""@pt .
-
-<http://purl.org/essglobal/standard/organisational-structure/OS200>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/organisational-structure/> ;
-    skos:prefLabel "Federación o unión sectorial, estatal o regional"@es, "Union ou fédération régionale, nationale ou infranationale"@fr, ""@it, ""@pt, "Regional, state or provincial level federation or union"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
-<http://purl.org/essglobal/standard/organisational-structure/OS210>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/organisational-structure/> ;
-    skos:prefLabel "Grupo cooperativo"@es, "Groupe coopératif"@fr, ""@it, ""@pt, "Cooperative group"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
-<http://purl.org/essglobal/standard/organisational-structure/OS220>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/organisational-structure/> ;
-    skos:prefLabel "Entidad gubernamental"@es, "Agence/autorité gouvernementale"@fr, ""@it, ""@pt, "Government agency/body"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
-<http://purl.org/essglobal/standard/organisational-structure/OS230>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/organisational-structure/> ;
-    skos:prefLabel "Organización supranacional"@es, "Organisation supranationale"@fr, ""@it, ""@pt, "Supranational"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
-<http://purl.org/essglobal/standard/organisational-structure/OS240>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/organisational-structure/> ;
-    skos:prefLabel "Cooperativa de cooperativas/mutuales"@es, "Coopérative de coopératives/mutuelles"@fr, ""@it, ""@pt, "Cooperative of cooperatives / mutuals"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
-<http://purl.org/essglobal/standard/organisational-structure/OS30>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/organisational-structure/> ;
-    skos:prefLabel ""@es, ""@fr, ""@it, ""@pt, "Social enterprise"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
-<http://purl.org/essglobal/standard/organisational-structure/OS40>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/organisational-structure/> ;
-    skos:prefLabel ""@es, ""@fr, ""@it, ""@pt, "Charity"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
-<http://purl.org/essglobal/standard/organisational-structure/OS50>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/organisational-structure/> ;
-    skos:prefLabel "Empresa (otra)"@es, "Entreprise (autre)"@fr, ""@it, ""@pt, "Company (Other)"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
-<http://purl.org/essglobal/standard/organisational-structure/OS60>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/organisational-structure/> ;
-    skos:prefLabel ""@es, ""@fr, ""@it, ""@pt, "Workers cooperative"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
-<http://purl.org/essglobal/standard/organisational-structure/OS70>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/organisational-structure/> ;
-    skos:prefLabel ""@es, ""@fr, ""@it, ""@pt, "Housing cooperative"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
-<http://purl.org/essglobal/standard/organisational-structure/OS80>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/organisational-structure/> ;
-    skos:prefLabel ""@es, ""@fr, ""@it, ""@pt, "Consumer/User coop"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
-<http://purl.org/essglobal/standard/organisational-structure/OS90>
-    a skos:Concept ;
-    skos:inScheme <http://purl.org/essglobal/standard/organisational-structure/> ;
-    skos:prefLabel ""@es, ""@fr, ""@it, ""@pt, "Producer cooperative"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
+<OS10> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Community group (formal or informal)"@EN;
+    skos:scopeNote
+        ;
+.
+<OS100> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Multi-stakeholder cooperative"@EN;
+    skos:scopeNote
+        ;
+.
+<OS110> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Secondary cooperative"@EN;
+    skos:scopeNote
+        ;
+.
+<OS115> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Cooperative"@EN,
+        "Cooperativa"@ES,
+        "Coopérative"@FR;
+    skos:scopeNote
+        ;
+.
+<OS120> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Community Interest Company (CIC)"@EN;
+    skos:scopeNote
+        ;
+.
+<OS130> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Community Benefit Society / Industrial and Provident Society (IPS)"@EN;
+    skos:scopeNote
+        ;
+.
+<OS140> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Employee trust"@EN;
+    skos:scopeNote
+        ;
+.
+<OS150> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Self-employed"@EN;
+    skos:scopeNote
+        ;
+.
+<OS160> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Unincorporated"@EN;
+    skos:scopeNote
+        ;
+.
+<OS170> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Mutual"@EN,
+        "Mutual"@ES,
+        "Mutuelle"@FR;
+    skos:scopeNote
+        ;
+.
+<OS180> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "National apex"@EN,
+        "Organismo federativo nacional"@ES,
+        "Organisation faîtière nationale"@FR;
+    skos:scopeNote
+        ;
+.
+<OS190> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "National sectoral federation or union"@EN,
+        "Sindicato o federación nacional sectorial"@ES,
+        "Union ou fédération nationale sectorielle"@FR;
+    skos:scopeNote
+        ;
+.
+<OS20> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Not-for-profit organisation"@EN;
+    skos:scopeNote
+        ;
+.
+<OS200> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Regional, state or provincial level federation or union"@EN,
+        "Federación o unión sectorial, estatal o regional"@ES,
+        "Union ou fédération régionale, nationale ou infranationale"@FR;
+    skos:scopeNote
+        ;
+.
+<OS210> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Cooperative group"@EN,
+        "Grupo cooperativo"@ES,
+        "Groupe coopératif"@FR;
+    skos:scopeNote
+        ;
+.
+<OS220> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Government agency/body"@EN,
+        "Entidad gubernamental"@ES,
+        "Agence/autorité gouvernementale"@FR;
+    skos:scopeNote
+        ;
+.
+<OS230> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Supranational"@EN,
+        "Organización supranacional"@ES,
+        "Organisation supranationale"@FR;
+    skos:scopeNote
+        ;
+.
+<OS240> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Cooperative of cooperatives / mutuals"@EN,
+        "Cooperativa de cooperativas/mutuales"@ES,
+        "Coopérative de coopératives/mutuelles"@FR;
+    skos:scopeNote
+        ;
+.
+<OS30> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Social enterprise"@EN;
+    skos:scopeNote
+        ;
+.
+<OS40> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Charity"@EN;
+    skos:scopeNote
+        ;
+.
+<OS50> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Company (Other)"@EN,
+        "Empresa (otra)"@ES,
+        "Entreprise (autre)"@FR;
+    skos:scopeNote
+        ;
+.
+<OS60> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Workers cooperative"@EN;
+    skos:scopeNote
+        ;
+.
+<OS70> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Housing cooperative"@EN;
+    skos:scopeNote
+        ;
+.
+<OS80> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Consumer/User coop"@EN;
+    skos:scopeNote
+        ;
+.
+<OS90> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Producer cooperative"@EN;
+    skos:scopeNote
+        ;
+.
