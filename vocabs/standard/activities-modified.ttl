@@ -5,13 +5,6 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 
 <http://purl.org/essglobal/standard/activities-modified/>
-    dc:description "A modified activity vocabulary for SSE" ;
-    dc:language "en-en" ;
-    dc:publisher <https://solidarityeconomy.coop/> ;
-    dc:relation <http://www.ripess.org/> ;
-    dc:title "Activities (Modified)" ;
-    dcterms:created "2019-05-20"^^<http://www.w3.org/2001/XMLSchema#date> ;
-    dcterms:publisher "ESSGLOBAL" ;
     a skos:ConceptScheme .
 
 <AM10> a skos:Concept;
@@ -20,8 +13,6 @@
         "Arts, Media, Culture & Leisure"@EN;
     skos:altLabel
         "A";
-    skos:scopeNote
-        ;
 .
 <AM100> a skos:Concept;
     skos:inScheme <>;
@@ -29,8 +20,6 @@
         "Money & Finance"@EN;
     skos:altLabel
         "J";
-    skos:scopeNote
-        ;
 .
 <AM110> a skos:Concept;
     skos:inScheme <>;
@@ -38,8 +27,6 @@
         "Nature, Conservation & Environment"@EN;
     skos:altLabel
         "K";
-    skos:scopeNote
-        ;
 .
 <AM120> a skos:Concept;
     skos:inScheme <>;
@@ -47,8 +34,6 @@
         "Reduce, Reuse, Repair & Recycle"@EN;
     skos:altLabel
         "L";
-    skos:scopeNote
-        ;
 .
 <AM130> a skos:Concept;
     skos:inScheme <>;
@@ -56,8 +41,6 @@
         "Agriculture"@EN;
     skos:altLabel
         "M";
-    skos:scopeNote
-        ;
 .
 <AM140> a skos:Concept;
     skos:inScheme <>;
@@ -65,8 +48,6 @@
         "Industry"@EN;
     skos:altLabel
         "N";
-    skos:scopeNote
-        ;
 .
 <AM150> a skos:Concept;
     skos:inScheme <>;
@@ -74,8 +55,6 @@
         "Utilities"@EN;
     skos:altLabel
         "O";
-    skos:scopeNote
-        ;
 .
 <AM160> a skos:Concept;
     skos:inScheme <>;
@@ -83,8 +62,6 @@
         "Transport"@EN;
     skos:altLabel
         "P";
-    skos:scopeNote
-        ;
 .
 <AM20> a skos:Concept;
     skos:inScheme <>;
@@ -92,8 +69,6 @@
         "Campaigning, Activism & Advocacy"@EN;
     skos:altLabel
         "B";
-    skos:scopeNote
-        ;
 .
 <AM30> a skos:Concept;
     skos:inScheme <>;
@@ -101,8 +76,6 @@
         "Community & Collective Spaces"@EN;
     skos:altLabel
         "C";
-    skos:scopeNote
-        ;
 .
 <AM40> a skos:Concept;
     skos:inScheme <>;
@@ -110,8 +83,6 @@
         "Education"@EN;
     skos:altLabel
         "D";
-    skos:scopeNote
-        ;
 .
 <AM50> a skos:Concept;
     skos:inScheme <>;
@@ -119,8 +90,6 @@
         "Energy"@EN;
     skos:altLabel
         "E";
-    skos:scopeNote
-        ;
 .
 <AM60> a skos:Concept;
     skos:inScheme <>;
@@ -128,8 +97,6 @@
         "Food"@EN;
     skos:altLabel
         "F";
-    skos:scopeNote
-        ;
 .
 <AM70> a skos:Concept;
     skos:inScheme <>;
@@ -137,8 +104,6 @@
         "Goods & Services"@EN;
     skos:altLabel
         "G";
-    skos:scopeNote
-        ;
 .
 <AM80> a skos:Concept;
     skos:inScheme <>;
@@ -146,8 +111,6 @@
         "Health, Social Care & Wellbeing"@EN;
     skos:altLabel
         "H";
-    skos:scopeNote
-        ;
 .
 <AM90> a skos:Concept;
     skos:inScheme <>;
@@ -155,6 +118,4 @@
         "Housing"@EN;
     skos:altLabel
         "I";
-    skos:scopeNote
-        ;
 .

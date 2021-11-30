@@ -23,8 +23,6 @@
         "Grupo Informal"@ES,
         "Grupo Informale"@IT,
         "Grupo Informal"@PT;
-    skos:scopeNote
-        ;
 .
 <L2> a skos:Concept;
     skos:inScheme <>;
@@ -33,8 +31,6 @@
         "Cooperativa"@ES,
         "Cooperativa"@IT,
         "Cooperativa"@PT;
-    skos:scopeNote
-        ;
 .
 <L3> a skos:Concept;
     skos:inScheme <>;
@@ -43,16 +39,12 @@
         "Empresa"@ES,
         "Entreprise"@FR,
         "Empresa"@PT;
-    skos:scopeNote
-        ;
 .
 <L4> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "Non-Profit Organisation"@EN,
         "Organização Não Governamental"@PT;
-    skos:scopeNote
-        ;
 .
 <L5> a skos:Concept;
     skos:inScheme <>;
@@ -60,6 +52,4 @@
         "Social Enterprise"@EN,
         "Empresa Social"@ES,
         "Empresa Social"@PT;
-    skos:scopeNote
-        ;
 .

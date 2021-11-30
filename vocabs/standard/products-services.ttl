@@ -23,8 +23,6 @@
         "Farming and Fishing and Forestry and Wildlife Contracting Services"@EN;
     skos:prefLabel
         "Farming and Fishing and Forestry and Wildlife Contracting Services"@EN;
-    skos:scopeNote
-        ;
 .
 <70100000> a skos:Concept;
     skos:inScheme <>;
@@ -88,8 +86,6 @@
         "Mining and oil and gas services"@EN;
     skos:prefLabel
         "Mining and oil and gas services"@EN;
-    skos:scopeNote
-        ;
 .
 <71100000> a skos:Concept;
     skos:inScheme <>;
@@ -146,8 +142,6 @@
         "Building and Facility Construction and Maintenance Services"@EN;
     skos:prefLabel
         "Building and Facility Construction and Maintenance Services"@EN;
-    skos:scopeNote
-        ;
 .
 <72100000> a skos:Concept;
     skos:inScheme <>;
@@ -190,8 +184,6 @@
         "Industrial Production and Manufacturing Services"@EN;
     skos:prefLabel
         "Industrial Production and Manufacturing Services"@EN;
-    skos:scopeNote
-        ;
 .
 <73100000> a skos:Concept;
     skos:inScheme <>;
@@ -262,8 +254,6 @@
         "Industrial Cleaning Services"@EN;
     skos:prefLabel
         "Industrial Cleaning Services"@EN;
-    skos:scopeNote
-        ;
 .
 <76100000> a skos:Concept;
     skos:inScheme <>;
@@ -296,10 +286,8 @@
 <77000000> a skos:Concept;
     skos:inScheme <>;
     skos:definition
-        ;
+            "Environmental Services"@EN;
     skos:prefLabel
-        "Environmental Services"@EN;
-    skos:scopeNote
         "Environmental Services"@EN;
 .
 <77100000> a skos:Concept;
@@ -336,8 +324,6 @@
         "Transportation and Storage and Mail Services"@EN;
     skos:prefLabel
         "Transportation and Storage and Mail Services"@EN;
-    skos:scopeNote
-        ;
 .
 <78100000> a skos:Concept;
     skos:inScheme <>;
@@ -387,8 +373,6 @@
         "Management and Business Professionals and Administrative Services"@EN;
     skos:prefLabel
         "Management and Business Professionals and Administrative Services"@EN;
-    skos:scopeNote
-        ;
 .
 <80100000> a skos:Concept;
     skos:inScheme <>;
@@ -456,8 +440,6 @@
         "Engineering and Research and Technology Based Services"@EN;
     skos:prefLabel
         "Engineering and Research and Technology Based Services"@EN;
-    skos:scopeNote
-        ;
 .
 <81100000> a skos:Concept;
     skos:inScheme <>;
@@ -514,8 +496,6 @@
         "Editorial and Design and Graphic and Fine Art Services"@EN;
     skos:prefLabel
         "Editorial and Design and Graphic and Fine Art Services"@EN;
-    skos:scopeNote
-        ;
 .
 <82100000> a skos:Concept;
     skos:inScheme <>;
@@ -565,8 +545,6 @@
         "Public Utilities and Public Sector Related Services"@EN;
     skos:prefLabel
         "Public Utilities and Public Sector Related Services"@EN;
-    skos:scopeNote
-        ;
 .
 <83100000> a skos:Concept;
     skos:inScheme <>;
@@ -595,8 +573,6 @@
         "Financial and Insurance Services"@EN;
     skos:prefLabel
         "Financial and Insurance Services"@EN;
-    skos:scopeNote
-        ;
 .
 <84100000> a skos:Concept;
     skos:inScheme <>;
@@ -639,8 +615,6 @@
         "Healthcare Services"@EN;
     skos:prefLabel
         "Healthcare Services"@EN;
-    skos:scopeNote
-        ;
 .
 <85100000> a skos:Concept;
     skos:inScheme <>;
@@ -672,8 +646,6 @@
 .
 <85140000> a skos:Concept;
     skos:inScheme <>;
-    skos:definition
-        ;
     skos:prefLabel
         "85140000"@EN;
 .
@@ -690,8 +662,6 @@
         "Education and Training Services"@EN;
     skos:prefLabel
         "Education and Training Services"@EN;
-    skos:scopeNote
-        ;
 .
 <86100000> a skos:Concept;
     skos:inScheme <>;
@@ -734,8 +704,6 @@
         "Travel and Food and Lodging and Entertainment Services"@EN;
     skos:prefLabel
         "Travel and Food and Lodging and Entertainment Services"@EN;
-    skos:scopeNote
-        ;
 .
 <90100000> a skos:Concept;
     skos:inScheme <>;
@@ -778,8 +746,6 @@
         "Personal and Domestic Services"@EN;
     skos:prefLabel
         "Personal and Domestic Services"@EN;
-    skos:scopeNote
-        ;
 .
 <91100000> a skos:Concept;
     skos:inScheme <>;
@@ -801,8 +767,6 @@
         "Security and Safety Services"@EN;
     skos:prefLabel
         "Security and Safety Services"@EN;
-    skos:scopeNote
-        ;
 .
 <92120000> a skos:Concept;
     skos:inScheme <>;
@@ -817,8 +781,6 @@
         "Politics and Civic Affairs Services"@EN;
     skos:prefLabel
         "Politics and Civic Affairs Services"@EN;
-    skos:scopeNote
-        ;
 .
 <93100000> a skos:Concept;
     skos:inScheme <>;
@@ -873,10 +835,6 @@
     skos:inScheme <>;
     skos:definition
         "Organizations and Clubs"@EN;
-    skos:prefLabel
-        ;
-    skos:scopeNote
-        ;
 .
 <94100000> a skos:Concept;
     skos:inScheme <>;
@@ -912,8 +870,6 @@
         "Land and Buildings and Structures and Thoroughfares"@EN;
     skos:prefLabel
         "Land and Buildings and Structures and Thoroughfares"@EN;
-    skos:scopeNote
-        ;
 .
 <95100000> a skos:Concept;
     skos:inScheme <>;

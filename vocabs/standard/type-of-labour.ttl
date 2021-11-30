@@ -26,36 +26,26 @@
         "Associativo"@ES,
         ""@PT,
         "Associativo"@PT;
-    skos:scopeNote
-        ;
 .
 <T2> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "Subordinate"@EN,
         "Subordinado"@PT;
-    skos:scopeNote
-        ;
 .
 <T3> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "Voluntary Work"@EN,
         "Trabalho Voluntário"@PT;
-    skos:scopeNote
-        ;
 .
 <T4> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "Reproductive Labour/Care Work"@EN;
-    skos:scopeNote
-        ;
 .
 <T5> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "Externally hired"@EN;
-    skos:scopeNote
-        ;
 .
