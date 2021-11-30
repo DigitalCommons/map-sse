@@ -18,319 +18,232 @@
 <ICA10> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Agriculture"@EN,
+        "Agriculture "@EN,
         "Agricultura"@ES,
-        "Agriculture"@FR;
-    skos:altLabel
-        "A";
-    skos:scopeNote
-        ;
+        "Agriculture"@FR,
+        "농업"@KO;
+.
+<ICA20> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Dairy "@EN,
+        "Industria lechera"@ES,
+        "Industrie laitière"@FR,
+        "축산업"@KO;
+.
+<ICA30> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Forestry "@EN,
+        "Silvicultura"@ES,
+        "Foresterie"@FR,
+        "임업"@KO;
+.
+<ICA40> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Irrigation "@EN,
+        "Riego"@ES,
+        "Irrigation"@FR,
+        "관개사업"@KO;
+.
+<ICA50> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Fishing "@EN,
+        "Pesca"@ES,
+        "Pêche"@FR,
+        "어업"@KO;
+.
+<ICA60> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Artisans "@EN,
+        "Artesanía"@ES,
+        "Artisanat"@FR,
+        "수공업"@KO;
+.
+<ICA70> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Construction "@EN,
+        "Construcción"@ES,
+        "Construction"@FR,
+        "건설업"@KO;
+.
+<ICA80> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Industry "@EN,
+        "Industria"@ES,
+        "Industrie"@FR,
+        "산업"@KO;
+.
+<ICA90> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Manufacturing "@EN,
+        "Fabricación"@ES,
+        "Industrie manufacturière"@FR,
+        "제조업"@KO;
 .
 <ICA100> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Mining"@EN,
+        "Mining "@EN,
         "Minería"@ES,
-        "Exploitation minière"@FR;
-    skos:altLabel
-        "J";
-    skos:scopeNote
-        ;
+        "Exploitation minière"@FR,
+        "공업"@KO;
 .
 <ICA110> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Professional"@EN,
+        "Professional "@EN,
         "Actividades profesionales"@ES,
-        "Cadres et professions libérales"@FR;
-    skos:altLabel
-        "K";
-    skos:scopeNote
-        ;
+        "Cadres et professions libérales"@FR,
+        "전문직"@KO;
 .
 <ICA120> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Service"@EN,
+        "Service "@EN,
         "Servicios"@ES,
-        "Services"@FR;
-    skos:altLabel
-        "L";
-    skos:scopeNote
-        ;
+        "Services"@FR,
+        "서비스업"@KO;
 .
 <ICA130> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Tourism"@EN,
+        "Tourism "@EN,
         "Turismo"@ES,
-        "Tourisme"@FR;
-    skos:altLabel
-        "M";
-    skos:scopeNote
-        ;
+        "Tourisme"@FR,
+        "관광업"@KO;
 .
 <ICA140> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Financial Services"@EN,
+        "Financial Services "@EN,
         "Servicios financieros"@ES,
-        "Services financiers"@FR;
-    skos:altLabel
-        "N";
-    skos:scopeNote
-        ;
+        "Services financiers"@FR,
+        "금융 서비스업"@KO;
 .
 <ICA150> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "Insurance"@EN,
         "Seguros"@ES,
-        "Assurance"@FR;
-    skos:altLabel
-        "O";
-    skos:scopeNote
-        ;
+        "Assurance"@FR,
+        "보험"@KO;
 .
 <ICA160> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Education"@EN,
+        "Education "@EN,
         "Educación"@ES,
-        "Éducation"@FR;
-    skos:altLabel
-        "P";
-    skos:scopeNote
-        ;
+        "Éducation"@FR,
+        "교육"@KO;
 .
 <ICA170> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Health"@EN,
+        "Health "@EN,
         "Salud"@ES,
-        "Santé"@FR;
-    skos:altLabel
-        "Q";
-    skos:scopeNote
-        ;
+        "Santé"@FR,
+        "보건"@KO;
 .
 <ICA180> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Community"@EN,
+        "Community "@EN,
         "Servicios comunitarios"@ES,
-        "Action communautaire"@FR;
-    skos:altLabel
-        "R";
-    skos:scopeNote
-        ;
+        "Action communautaire"@FR,
+        "공동체"@KO;
 .
 <ICA190> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Social"@EN,
+        "Social "@EN,
         "Acción social"@ES,
-        "Action sociale"@FR;
-    skos:altLabel
-        "S";
-    skos:scopeNote
-        ;
-.
-<ICA20> a skos:Concept;
-    skos:inScheme <>;
-    skos:prefLabel
-        "Dairy"@EN,
-        "Industria lechera"@ES,
-        "Industrie laitière"@FR;
-    skos:altLabel
-        "B";
-    skos:scopeNote
-        ;
+        "Action sociale"@FR,
+        "사회"@KO;
 .
 <ICA200> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Social Service"@EN,
+        "Social Service "@EN,
         "Servicios sociales"@ES,
-        "Services sociaux"@FR;
-    skos:altLabel
-        "T";
-    skos:scopeNote
-        ;
+        "Services sociaux"@FR,
+        "사회 서비스업"@KO;
 .
 <ICA210> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Housing"@EN,
+        "Housing "@EN,
         "Vivienda"@ES,
-        "Logement"@FR;
-    skos:altLabel
-        "U";
-    skos:scopeNote
-        ;
+        "Logement"@FR,
+        "주택"@KO;
 .
 <ICA220> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Transport"@EN,
+        "Transport "@EN,
         "Transporte"@ES,
-        "Transports"@FR;
-    skos:altLabel
-        "V";
-    skos:scopeNote
-        ;
+        "Transports"@FR,
+        "운송"@KO;
 .
 <ICA230> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Utilities"@EN,
+        "Utilities "@EN,
         "Servicios públicos"@ES,
-        "Services publics"@FR;
-    skos:altLabel
-        "W";
-    skos:scopeNote
-        ;
+        "Services publics"@FR,
+        "공공서비스"@KO;
 .
 <ICA240> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Retail"@EN,
+        "Retail "@EN,
         "Comercio minorista"@ES,
-        "Grande distribution"@FR;
-    skos:altLabel
-        "X";
-    skos:scopeNote
-        ;
+        "Grande distribution"@FR,
+        "소매"@KO;
 .
 <ICA250> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Production"@EN,
+        "Production "@EN,
         "Producción"@ES,
-        "Production"@FR;
-    skos:altLabel
-        "Y";
-    skos:scopeNote
-        ;
+        "Production"@FR,
+        "생산"@KO;
 .
 <ICA260> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Wholesale and retail trade"@EN,
+        "Wholesale and retail trade "@EN,
         "Comercio mayorista y minorista"@ES,
-        "Vente de gros et de détail"@FR;
-    skos:altLabel
-        "Z";
-    skos:scopeNote
-        ;
+        "Vente de gros et de détail"@FR,
+        "도매와 소매 거래"@KO;
 .
 <ICA270> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "Education / health / social work"@EN,
         "Educación, salud y trabajo social"@ES,
-        "Éducation / Santé / Travail social"@FR;
-    skos:altLabel
-        "AA";
-    skos:scopeNote
-        ;
+        "Éducation / Santé / Travail social"@FR,
+        "교육/보건/사회사업"@KO;
 .
 <ICA280> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Other Services"@EN,
+        "Other Services "@EN,
         "Otros servicios"@ES,
-        "Autres services"@FR;
-    skos:altLabel
-        "AB";
-    skos:scopeNote
-        ;
+        "Autres services"@FR,
+        "기타 서비스"@KO;
 .
 <ICA290> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "All"@EN,
+        "All (Services)"@EN,
         "Todos los servicios"@ES,
-        "Tous (services)"@FR;
-    skos:altLabel
-        "AC";
-    skos:scopeNote
-        ;
-.
-<ICA30> a skos:Concept;
-    skos:inScheme <>;
-    skos:prefLabel
-        "Forestry"@EN,
-        "Silvicultura"@ES,
-        "Foresterie"@FR;
-    skos:altLabel
-        "C";
-    skos:scopeNote
-        ;
-.
-<ICA40> a skos:Concept;
-    skos:inScheme <>;
-    skos:prefLabel
-        "Irrigation"@EN,
-        "Riego"@ES,
-        "Irrigation"@FR;
-    skos:altLabel
-        "D";
-    skos:scopeNote
-        ;
-.
-<ICA50> a skos:Concept;
-    skos:inScheme <>;
-    skos:prefLabel
-        "Fishing"@EN,
-        "Pesca"@ES,
-        "Pêche"@FR;
-    skos:altLabel
-        "E";
-    skos:scopeNote
-        ;
-.
-<ICA60> a skos:Concept;
-    skos:inScheme <>;
-    skos:prefLabel
-        "Artisans"@EN,
-        "Artesanía"@ES,
-        "Artisanat"@FR;
-    skos:altLabel
-        "F";
-    skos:scopeNote
-        ;
-.
-<ICA70> a skos:Concept;
-    skos:inScheme <>;
-    skos:prefLabel
-        "Construction"@EN,
-        "Construcción"@ES,
-        "Construction"@FR;
-    skos:altLabel
-        "G";
-    skos:scopeNote
-        ;
-.
-<ICA80> a skos:Concept;
-    skos:inScheme <>;
-    skos:prefLabel
-        "Industry"@EN,
-        "Industria"@ES,
-        "Industrie"@FR;
-    skos:altLabel
-        "H";
-    skos:scopeNote
-        ;
-.
-<ICA90> a skos:Concept;
-    skos:inScheme <>;
-    skos:prefLabel
-        "Manufacturing"@EN,
-        "Fabricación"@ES,
-        "Industrie manufacturière"@FR;
-    skos:altLabel
-        "I";
-    skos:scopeNote
-        ;
+        "Tous (services)"@FR,
+        "모든(서비스)"@KO;
 .

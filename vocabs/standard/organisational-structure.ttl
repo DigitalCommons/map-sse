@@ -19,194 +19,165 @@
     skos:inScheme <>;
     skos:prefLabel
         "Community group (formal or informal)"@EN;
-    skos:scopeNote
-        ;
 .
 <OS100> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Multi-stakeholder cooperative"@EN;
-    skos:scopeNote
-        ;
+        "Multi-stakeholder cooperative"@EN,
+        "Cooperativas de múltiples partes interesadas"@ES,
+        "Coopératives d'intérêt collectif"@FR,
+        "다중이해관계자"@KO;
 .
 <OS110> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "Secondary cooperative"@EN;
-    skos:scopeNote
-        ;
 .
 <OS115> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "Cooperative"@EN,
         "Cooperativa"@ES,
-        "Coopérative"@FR;
-    skos:scopeNote
-        ;
+        "Coopérative"@FR,
+        "협동조합"@KO;
 .
 <OS120> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "Community Interest Company (CIC)"@EN;
-    skos:scopeNote
-        ;
 .
 <OS130> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "Community Benefit Society / Industrial and Provident Society (IPS)"@EN;
-    skos:scopeNote
-        ;
 .
 <OS140> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "Employee trust"@EN;
-    skos:scopeNote
-        ;
 .
 <OS150> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "Self-employed"@EN;
-    skos:scopeNote
-        ;
 .
 <OS160> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "Unincorporated"@EN;
-    skos:scopeNote
-        ;
 .
 <OS170> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Mutual"@EN,
+        "Mutual "@EN,
         "Mutual"@ES,
-        "Mutuelle"@FR;
-    skos:scopeNote
-        ;
+        "Mutuelle"@FR,
+        "상호회사"@KO;
 .
 <OS180> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "National apex"@EN,
+        "National apex "@EN,
         "Organismo federativo nacional"@ES,
-        "Organisation faîtière nationale"@FR;
-    skos:scopeNote
-        ;
+        "Organisation faîtière nationale"@FR,
+        " 국가 정상"@KO;
 .
 <OS190> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "National sectoral federation or union"@EN,
+        "National sectoral federation or union "@EN,
         "Sindicato o federación nacional sectorial"@ES,
-        "Union ou fédération nationale sectorielle"@FR;
-    skos:scopeNote
-        ;
+        "Union ou fédération nationale sectorielle"@FR,
+        "국가 차원의 연맹 및 노동조합"@KO;
 .
 <OS20> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "Not-for-profit organisation"@EN;
-    skos:scopeNote
-        ;
 .
 <OS200> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Regional, state or provincial level federation or union"@EN,
+        "Regional, state or provincial level federation or union "@EN,
         "Federación o unión sectorial, estatal o regional"@ES,
-        "Union ou fédération régionale, nationale ou infranationale"@FR;
-    skos:scopeNote
-        ;
+        "Union ou fédération régionale, nationale ou infranationale"@FR,
+        "지역, 주, 지자체 수준의 연맹 및 노동조합"@KO;
 .
 <OS210> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Cooperative group"@EN,
+        "Cooperative group "@EN,
         "Grupo cooperativo"@ES,
-        "Groupe coopératif"@FR;
-    skos:scopeNote
-        ;
+        "Groupe coopératif"@FR,
+        "협동조합 그룹"@KO;
 .
 <OS220> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Government agency/body"@EN,
+        "Government agency/body "@EN,
         "Entidad gubernamental"@ES,
-        "Agence/autorité gouvernementale"@FR;
-    skos:scopeNote
-        ;
+        "Agence/autorité gouvernementale"@FR,
+        "정부기관"@KO;
 .
 <OS230> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "Supranational"@EN,
         "Organización supranacional"@ES,
-        "Organisation supranationale"@FR;
-    skos:scopeNote
-        ;
+        "Organisation supranationale"@FR,
+        "국제조직"@KO;
 .
 <OS240> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Cooperative of cooperatives / mutuals"@EN,
+        "Cooperative of cooperatives / mutuals "@EN,
         "Cooperativa de cooperativas/mutuales"@ES,
-        "Coopérative de coopératives/mutuelles"@FR;
-    skos:scopeNote
-        ;
+        "Coopérative de coopératives/mutuelles"@FR,
+        "협동조합간 협동"@KO;
 .
 <OS30> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "Social enterprise"@EN;
-    skos:scopeNote
-        ;
 .
 <OS40> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "Charity"@EN;
-    skos:scopeNote
-        ;
 .
 <OS50> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "Company (Other)"@EN,
         "Empresa (otra)"@ES,
-        "Entreprise (autre)"@FR;
-    skos:scopeNote
-        ;
+        "Entreprise (autre)"@FR,
+        "회사(기타)"@KO;
 .
 <OS60> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Workers cooperative"@EN;
-    skos:scopeNote
-        ;
+        "Workers cooperative"@EN,
+        "Cooperativas de trabajo"@ES,
+        "Coopératives de travail associé"@FR,
+        "노동자"@KO;
 .
 <OS70> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "Housing cooperative"@EN;
-    skos:scopeNote
-        ;
 .
 <OS80> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Consumer/User coop"@EN;
-    skos:scopeNote
-        ;
+        "Consumer/User coops"@EN,
+        "Cooperativas de consumo"@ES,
+        "Coopératives de consommateurs"@FR;
 .
 <OS90> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Producer cooperative"@EN;
-    skos:scopeNote
-        ;
+        "Producer cooperative"@EN,
+        "Cooperativas de productores"@ES,
+        "Coopératives de producteurs"@FR,
+        "생산자"@KO;
 .

@@ -19,36 +19,40 @@
     dc:publisher <http://www.ripess.org/>;
     dc:modified "2021-03-11"^^xsd:date.
 
-<I> a skos:Concept;
-    skos:inScheme <>;
-    skos:prefLabel
-        "Global"@EN;
-.
 <I-AF> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "Africa"@EN,
         "África"@ES,
-        "Afrique"@FR;
+        "Afrique"@FR,
+        "아프리카"@KO;
 .
 <I-AM> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "Americas"@EN,
         "América"@ES,
-        "Amériques"@FR;
+        "Amériques"@FR,
+        "미주"@KO;
 .
 <I-AP> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "Asia+Pacific"@EN,
         "Asia-Pacífico"@ES,
-        "Asie+Pacifique"@FR;
+        "Asie+Pacifique"@FR,
+        "아시아 태평양"@KO;
 .
 <I-EU> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "Europe"@EN,
         "Europa"@ES,
-        "Europe"@FR;
+        "Europe"@FR,
+        "유럽"@KO;
+.
+<I> a skos:Concept;
+    skos:inScheme <>;
+    skos:prefLabel
+        "Global"@EN;
 .

@@ -25,117 +25,134 @@
     skos:prefLabel
         "Central Africa"@EN,
         "África Central"@ES,
-        "Afrique centrale"@FR;
+        "Afrique centrale"@FR,
+        "중부 아프리카"@KO;
 .
 <I-AF-EA> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "East Africa"@EN,
         "África Oriental"@ES,
-        "Afrique orientale"@FR;
+        "Afrique orientale"@FR,
+        "동부 아프리카"@KO;
 .
 <I-AF-NO> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "North Africa"@EN,
         "África Septentrional"@ES,
-        "Afrique du nord"@FR;
+        "Afrique du nord"@FR,
+        "북부 아프리카"@KO;
 .
 <I-AF-SO> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "Southern Africa"@EN,
         "África Meridional"@ES,
-        "Afrique australe"@FR;
+        "Afrique australe"@FR,
+        "남부 아프리카"@KO;
 .
 <I-AF-WE> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "West Africa"@EN,
         "África Occidental"@ES,
-        "Afrique de l’Ouest"@FR;
+        "Afrique de l’Ouest"@FR,
+        "서부 아프리카"@KO;
 .
 <I-AM-CB> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "Caribbean countries"@EN,
         "El Caribe"@ES,
-        "Pays des Caraïbes"@FR;
+        "Pays des Caraïbes"@FR,
+        "카리브해 지역"@KO;
 .
 <I-AM-CE> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "Central America"@EN,
         "América Central"@ES,
-        "Amérique centrale"@FR;
+        "Amérique centrale"@FR,
+        "중앙 아메리카"@KO;
 .
 <I-AM-NO> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "North America"@EN,
         "América del Norte"@ES,
-        "Amérique du nord"@FR;
+        "Amérique du nord"@FR,
+        "북아메리카"@KO;
 .
 <I-AM-SO> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "South America"@EN,
         "América del Sur"@ES,
-        "Amérique du sud"@FR;
+        "Amérique du sud"@FR,
+        "남아메리카"@KO;
 .
 <I-AP-CE> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "Central Asia"@EN,
         "Asia Central"@ES,
-        "Asie centrale"@FR;
+        "Asie centrale"@FR,
+        "중앙아시아"@KO;
 .
 <I-AP-EA> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "East Asia"@EN,
         "Asia Oriental"@ES,
-        "Asie de l’est"@FR;
+        "Asie de l’est"@FR,
+        "동아시아"@KO;
 .
 <I-AP-ME> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "Middle East"@EN,
         "Oriente Medio"@ES,
-        "Moyen-Orient"@FR;
+        "Moyen-Orient"@FR,
+        "중동"@KO;
 .
 <I-AP-OC> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "Oceania"@EN,
         "Oceanía"@ES,
-        "Océanie"@FR;
+        "Océanie"@FR,
+        "오세아니아"@KO;
 .
 <I-AP-SE> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "South East Asia"@EN,
         "Sudeste Asiático"@ES,
-        "Asie du sud-est"@FR;
+        "Asie du sud-est"@FR,
+        "동남아시아"@KO;
 .
 <I-AP-SO> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "South Asia"@EN,
         "Asia del Sur"@ES,
-        "Asie du sud"@FR;
+        "Asie du sud"@FR,
+        "남부아시아"@KO;
 .
 <I-EU-EA> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "Europe (Eastern)"@EN,
         "Europa (oriental)"@ES,
-        "Europe (est)"@FR;
+        "Europe (est)"@FR,
+        "유럽(동부)"@KO;
 .
 <I-EU-WE> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
         "Europe (Western)"@EN,
         "Europa (occidental)"@ES,
-        "Europe (ouest)"@FR;
+        "Europe (ouest)"@FR,
+        "유럽(서부)"@KO;
 .
