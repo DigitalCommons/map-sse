@@ -33,12 +33,12 @@ end
 
 class Term < Scheme::Term
   attr_reader :id
-  def initialize(base_uri, id, prefLabel:, altLabel: nil, scopeNote: nil)
+  def initialize(base_uri, id, properties:)
     super(uri: base_uri+id.to_s,
           scheme: base_uri,
-          pref_label: prefLabel,
-          alt_label: altLabel,
-          scope_note: scopeNote)
+          properties: properties.transform_keys do |key|
+            'skos:'+key
+          end)
     @id = id
   end
 end
@@ -46,7 +46,7 @@ end
 # Iterate over the input TSV, and build a nested hash index of
 # terms -> properties -> language code -> phrase
 term_index = autovivifying_hash
-CSV.new($stdin, col_sep: "\t", headers: true).each do |row|
+CSV.new($stdin, col_sep: "\t", headers: true, liberal_parsing: true).each do |row|
   term, property = row.fields('term', 'property')
 
   # remove the term and property fields
@@ -66,7 +66,7 @@ CSV.new($stdin, col_sep: "\t", headers: true).each do |row|
     [k, ary]
   end
   
-  term_index[term][property.to_sym] = terms.to_h
+  term_index[term][property] = terms.to_h
 end
    
 
@@ -82,7 +82,7 @@ scheme = Scheme.new(
   created: scheme_creation_date,
   prefixes: Prefixes,
   terms: term_index.except(nil).to_a.collect do |k, v|
-    Term.new(base_uri, k, **v)
+    Term.new(base_uri, k, properties: v)
   end,
 )
 

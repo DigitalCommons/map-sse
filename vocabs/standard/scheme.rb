@@ -184,20 +184,8 @@ HERE
     skos:inScheme #{suri term.scheme};
 HERE
 
-      if (term.within)
-        iostream.puts <<HERE
-    ossr:within #{suri term.within};
-HERE
-      end
-
-      if term.pref_label
-        write_text_property 'skos:prefLabel', term.pref_label, iostream
-      end
-      if term.alt_label
-        write_text_property 'skos:altLabel', term.alt_label, iostream
-      end
-      if term.scope_note
-        write_text_property 'skos:scopeNote', term.scope_note, iostream
+      term.properties.each_pair do |label, value|
+        write_text_property label, value, iostream
       end
       
       iostream.puts '.'
@@ -207,15 +195,12 @@ HERE
 
   # This represents a SKOS term
   class Term
-    attr_reader :uri, :scheme, :pref_label, :alt_label, :scope_note, :within
+    attr_reader :uri, :scheme, :properties
     
-    def initialize(uri:, scheme:, pref_label:, within: nil, alt_label: nil, scope_note: nil)
+    def initialize(uri:, scheme:, properties:)
       @uri = uri
       @scheme = scheme
-      @pref_label = pref_label
-      @alt_label = alt_label
-      @scope_note = scope_note
-      @within = within
+      @properties = properties
     end
   end
 end
