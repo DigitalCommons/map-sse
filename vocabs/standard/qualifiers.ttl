@@ -13,7 +13,7 @@
     dc:language "en-en" ;
     dc:publisher <http://www.ripess.org/> ;
     dc:relation <http://www.dsi.uminho.pt/> ;
-    dc:title "Qualifiers" ;
+    dc:title "Qualifiers"@EN, "Qualifiers"@ES, "Qualifiers"@FR, "Qualifiers"@KO, "Qualifiers"@PT;
     dcterms:created "2012-02-20"^^<http://www.w3.org/2001/XMLSchema#date> ;
     dcterms:modified "2014-01-25"^^<http://www.w3.org/2001/XMLSchema#date> ;
     dcterms:publisher "ESSGLOBAL" ;
