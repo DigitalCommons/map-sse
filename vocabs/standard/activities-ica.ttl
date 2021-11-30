@@ -11,7 +11,7 @@
     dc:language "en-en" ;
     dc:publisher <https://solidarityeconomy.coop/> ;
     dc:relation <http://www.ripess.org/> ;
-    dc:title "Economic Activity"@EN#, "Actividad económica"@ES#, "Secteur économique"@FR#, "경제활동"@KO;
+    dc:title "Economic Activity"@EN, "Actividad económica"@ES, "Secteur économique"@FR, "경제활동"@KO;
     dcterms:created "2020-07-29"^^<http://www.w3.org/2001/XMLSchema#date> ;
     dc:modified "2021-03-10"^^<http://www.w3.org/2001/XMLSchema#date> ;    
     dcterms:publisher "ESSGLOBAL" ;
