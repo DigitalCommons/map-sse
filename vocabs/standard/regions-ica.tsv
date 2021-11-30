@@ -1,20 +1,20 @@
-term	property		EN	ES	FR
-	title		Regions	Regiones	Régions
-	description	A controlled vocabulary of ICA country regions for SSE			
-I-AF-CE	prefLabel		Central Africa	África Central	Afrique centrale
-I-AF-EA	prefLabel		East Africa	África Oriental	Afrique orientale
-I-AF-NO	prefLabel		North Africa	África Septentrional	Afrique du nord
-I-AF-SO	prefLabel		Southern Africa	África Meridional	Afrique australe
-I-AF-WE	prefLabel		West Africa	África Occidental	Afrique de l’Ouest
-I-AM-CB	prefLabel		Caribbean countries	El Caribe	Pays des Caraïbes
-I-AM-CE	prefLabel		Central America	América Central	Amérique centrale
-I-AM-NO	prefLabel		North America	América del Norte	Amérique du nord
-I-AM-SO	prefLabel		South America	América del Sur	Amérique du sud
-I-AP-CE	prefLabel		Central Asia	Asia Central	Asie centrale
-I-AP-EA	prefLabel		East Asia	Asia Oriental	Asie de l’est
-I-AP-ME	prefLabel		Middle East	Oriente Medio	Moyen-Orient
-I-AP-OC	prefLabel		Oceania	Oceanía	Océanie
-I-AP-SE	prefLabel		South East Asia	Sudeste Asiático	Asie du sud-est
-I-AP-SO	prefLabel		South Asia	Asia del Sur	Asie du sud
-I-EU-EA	prefLabel		Europe (Eastern)	Europa (oriental)	Europe (est)
-I-EU-WE	prefLabel		Europe (Western)	Europa (occidental)	Europe (ouest)
+term	property		EN	ES	FR	KO	PT
+	title		Regions	Regiones	Régions	지역권	
+	description						
+I-AF-CE	prefLabel		Central Africa	África Central	Afrique centrale	중부 아프리카	
+I-AF-EA	prefLabel		East Africa	África Oriental	Afrique orientale	동부 아프리카	
+I-AF-NO	prefLabel		North Africa	África Septentrional	Afrique du nord	북부 아프리카	
+I-AF-SO	prefLabel		Southern Africa	África Meridional	Afrique australe	남부 아프리카	
+I-AF-WE	prefLabel		West Africa	África Occidental	Afrique de l’Ouest	서부 아프리카	
+I-AM-CB	prefLabel		Caribbean countries	El Caribe	Pays des Caraïbes	카리브해 지역	
+I-AM-CE	prefLabel		Central America	América Central	Amérique centrale	중앙 아메리카	
+I-AM-NO	prefLabel		North America	América del Norte	Amérique du nord	북아메리카	
+I-AM-SO	prefLabel		South America	América del Sur	Amérique du sud	남아메리카	
+I-AP-CE	prefLabel		Central Asia	Asia Central	Asie centrale	중앙아시아	
+I-AP-EA	prefLabel		East Asia	Asia Oriental	Asie de l’est	동아시아	
+I-AP-ME	prefLabel		Middle East	Oriente Medio	Moyen-Orient	중동	
+I-AP-OC	prefLabel		Oceania	Oceanía	Océanie	오세아니아	
+I-AP-SE	prefLabel		South East Asia	Sudeste Asiático	Asie du sud-est	동남아시아	
+I-AP-SO	prefLabel		South Asia	Asia del Sur	Asie du sud	남부아시아	
+I-EU-EA	prefLabel		Europe (Eastern)	Europa (oriental)	Europe (est)	유럽(동부)	
+I-EU-WE	prefLabel		Europe (Western)	Europa (occidental)	Europe (ouest)	유럽(서부)	

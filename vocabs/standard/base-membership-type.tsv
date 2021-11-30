@@ -1,21 +1,9 @@
-term	property		EN	ES	FR	PT
-	title		Typology	Tipología	Typologie	
-	description	The set of types of memberships to be used with the term baseMembershipType				
-BMT10	prefLabel		Consumer/Users	de consumo/usuarios	Consommateurs/usagers	
-BMT10	altLabel	A				
-BMT10	scopeNote					
-BMT20	prefLabel		Producers	de productores	Producteurs	
-BMT20	altLabel	B				
-BMT20	scopeNote					
-BMT30	prefLabel		Workers	de trabajadores	Travailleurs	
-BMT30	altLabel	C				
-BMT30	scopeNote					
-BMT40	prefLabel		Multi-stakeholders	de múltiples partes interesadas	Intérêt collectif	
-BMT40	altLabel	D				
-BMT40	scopeNote					
-BMT50	prefLabel		Residents	de residentes	Résidents	
-BMT50	altLabel	E				
-BMT50	scopeNote					
-BMT60	prefLabel		Others	Otros	Autres	
-BMT60	altLabel	F				
-BMT60	scopeNote					
+term	property		EN	ES	FR	KO	PT
+	title		Typology	Tipología	Typologie	유형	
+	description		The set of types of memberships to be used with the term baseMembershipType				
+BMT10	prefLabel		Consumer/Users 	de consumo/usuarios	Consommateurs/usagers	소비자/사용자	
+BMT20	prefLabel		Producers 	de productores	Producteurs	생산자	
+BMT30	prefLabel		Workers 	de trabajadores	Travailleurs	노동자	
+BMT40	prefLabel		Multi-stakeholders 	de múltiples partes interesadas	Intérêt collectif	다중이해관계자	
+BMT50	prefLabel		Residents 	de residentes	Résidents	거주자 	
+BMT60	prefLabel		Others	Otros	Autres	기타	
