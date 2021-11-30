@@ -4,6 +4,8 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 
+@base <http://purl.org/essglobal/standard/activities-ica/> .
+
 <http://purl.org/essglobal/standard/activities-ica/>
     dc:description "The set of economic activities defined by the ICA (L2) to be used with the terms economicSector, primarySector" ;
     dc:language "en-en" ;

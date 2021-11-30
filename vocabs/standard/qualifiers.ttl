@@ -4,6 +4,8 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 
+@base <http://purl.org/essglobal/standard/qualifiers/> .
+
 <http://purl.org/essglobal/standard/qualifiers/>
     dc:contributor "Ana Alice Baptista (analice@dsi.uminho.pt)", "Daniel Tygel (dtygel@gmail.com)", "Jason Nardi (jason.nardi@gmail.com)", "Marc Alphandery (marc.alphandery@wanadoo.fr)", "Mariana Malta (mariana@iscap.ipp.pt)" ;
     dc:creator "Cesar Araujo (cesar_araujo@sapo.pt)", "Leonardo Cruz (leonardopscruz@gmail.com)", "Rodrigo Alves (rasalves@gmail.com)", "Sergio Vale (gks_sergio@hotmail.com)" ;

@@ -4,6 +4,8 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 
+@base <http://purl.org/essglobal/standard/base-membership-type/> .
+
 <http://purl.org/essglobal/standard/base-membership-type/>
     dc:description "The set of types of memberships to be used with the term baseMembershipType" ;
     dc:language "en-en" ;

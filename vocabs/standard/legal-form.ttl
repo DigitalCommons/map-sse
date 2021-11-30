@@ -4,6 +4,8 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 
+@base <http://purl.org/essglobal/standard/legal-form/> .
+
 <http://purl.org/essglobal/standard/legal-form/>
     dc:contributor "Alan Tygel (alantygel@gmail.com)", "Ana Alice Baptista (analice@dsi.uminho.pt)", "Craig Borowiak (cborowiakhaverford.edu)", "Daniel Tygel (dtygel@gmail.com)", "Jason Nardi (jason.nardi@gmail.com)" ;
     dc:creator "Mariana Malta (mariana@maltas.org)" ;
