@@ -27,6 +27,7 @@
         "África Central"@ES,
         "Afrique centrale"@FR,
         "중부 아프리카"@KO;
+    ossr:within sreg:I-AF;
 .
 <I-AF-EA> a skos:Concept;
     skos:inScheme <>;
@@ -35,6 +36,7 @@
         "África Oriental"@ES,
         "Afrique orientale"@FR,
         "동부 아프리카"@KO;
+    ossr:within sreg:I-AF;
 .
 <I-AF-NO> a skos:Concept;
     skos:inScheme <>;
@@ -43,6 +45,7 @@
         "África Septentrional"@ES,
         "Afrique du nord"@FR,
         "북부 아프리카"@KO;
+    ossr:within sreg:I-AF;
 .
 <I-AF-SO> a skos:Concept;
     skos:inScheme <>;
@@ -51,6 +54,7 @@
         "África Meridional"@ES,
         "Afrique australe"@FR,
         "남부 아프리카"@KO;
+    ossr:within sreg:I-AF;
 .
 <I-AF-WE> a skos:Concept;
     skos:inScheme <>;
@@ -59,6 +63,7 @@
         "África Occidental"@ES,
         "Afrique de l’Ouest"@FR,
         "서부 아프리카"@KO;
+    ossr:within sreg:I-AF;
 .
 <I-AM-CB> a skos:Concept;
     skos:inScheme <>;
@@ -67,6 +72,7 @@
         "El Caribe"@ES,
         "Pays des Caraïbes"@FR,
         "카리브해 지역"@KO;
+    ossr:within sreg:I-AM;
 .
 <I-AM-CE> a skos:Concept;
     skos:inScheme <>;
@@ -75,6 +81,7 @@
         "América Central"@ES,
         "Amérique centrale"@FR,
         "중앙 아메리카"@KO;
+    ossr:within sreg:I-AM;
 .
 <I-AM-NO> a skos:Concept;
     skos:inScheme <>;
@@ -83,6 +90,7 @@
         "América del Norte"@ES,
         "Amérique du nord"@FR,
         "북아메리카"@KO;
+    ossr:within sreg:I-AM;
 .
 <I-AM-SO> a skos:Concept;
     skos:inScheme <>;
@@ -91,6 +99,7 @@
         "América del Sur"@ES,
         "Amérique du sud"@FR,
         "남아메리카"@KO;
+    ossr:within sreg:I-AM;
 .
 <I-AP-CE> a skos:Concept;
     skos:inScheme <>;
@@ -99,6 +108,7 @@
         "Asia Central"@ES,
         "Asie centrale"@FR,
         "중앙아시아"@KO;
+    ossr:within sreg:I-AP;
 .
 <I-AP-EA> a skos:Concept;
     skos:inScheme <>;
@@ -107,6 +117,7 @@
         "Asia Oriental"@ES,
         "Asie de l’est"@FR,
         "동아시아"@KO;
+    ossr:within sreg:I-AP;
 .
 <I-AP-ME> a skos:Concept;
     skos:inScheme <>;
@@ -115,6 +126,7 @@
         "Oriente Medio"@ES,
         "Moyen-Orient"@FR,
         "중동"@KO;
+    ossr:within sreg:I-AP;
 .
 <I-AP-OC> a skos:Concept;
     skos:inScheme <>;
@@ -123,6 +135,7 @@
         "Oceanía"@ES,
         "Océanie"@FR,
         "오세아니아"@KO;
+    ossr:within sreg:I-AP;
 .
 <I-AP-SE> a skos:Concept;
     skos:inScheme <>;
@@ -131,6 +144,7 @@
         "Sudeste Asiático"@ES,
         "Asie du sud-est"@FR,
         "동남아시아"@KO;
+    ossr:within sreg:I-AP;
 .
 <I-AP-SO> a skos:Concept;
     skos:inScheme <>;
@@ -139,6 +153,7 @@
         "Asia del Sur"@ES,
         "Asie du sud"@FR,
         "남부아시아"@KO;
+    ossr:within sreg:I-AP;
 .
 <I-EU-EA> a skos:Concept;
     skos:inScheme <>;
@@ -147,6 +162,7 @@
         "Europa (oriental)"@ES,
         "Europe (est)"@FR,
         "유럽(동부)"@KO;
+    ossr:within sreg:I-EU;
 .
 <I-EU-WE> a skos:Concept;
     skos:inScheme <>;
@@ -155,4 +171,5 @@
         "Europa (occidental)"@ES,
         "Europe (ouest)"@FR,
         "유럽(서부)"@KO;
+    ossr:within sreg:I-EU;
 .
