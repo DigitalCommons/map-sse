@@ -18,7 +18,7 @@
 <BMT10> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Consumer/Users "@EN,
+        "Consumer/Users"@EN,
         "de consumo/usuarios"@ES,
         "Consommateurs/usagers"@FR,
         "소비자/사용자"@KO;
@@ -26,7 +26,7 @@
 <BMT20> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Producers "@EN,
+        "Producers"@EN,
         "de productores"@ES,
         "Producteurs"@FR,
         "생산자"@KO;
@@ -34,7 +34,7 @@
 <BMT30> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Workers "@EN,
+        "Workers"@EN,
         "de trabajadores"@ES,
         "Travailleurs"@FR,
         "노동자"@KO;
@@ -42,7 +42,7 @@
 <BMT40> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Multi-stakeholders "@EN,
+        "Multi-stakeholders"@EN,
         "de múltiples partes interesadas"@ES,
         "Intérêt collectif"@FR,
         "다중이해관계자"@KO;
@@ -50,7 +50,7 @@
 <BMT50> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Residents "@EN,
+        "Residents"@EN,
         "de residentes"@ES,
         "Résidents"@FR,
         "거주자 "@KO;

@@ -69,7 +69,7 @@
 <OS170> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Mutual "@EN,
+        "Mutual"@EN,
         "Mutual"@ES,
         "Mutuelle"@FR,
         "상호회사"@KO;
@@ -77,7 +77,7 @@
 <OS180> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "National apex "@EN,
+        "National apex"@EN,
         "Organismo federativo nacional"@ES,
         "Organisation faîtière nationale"@FR,
         " 국가 정상"@KO;
@@ -85,7 +85,7 @@
 <OS190> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "National sectoral federation or union "@EN,
+        "National sectoral federation or union"@EN,
         "Sindicato o federación nacional sectorial"@ES,
         "Union ou fédération nationale sectorielle"@FR,
         "국가 차원의 연맹 및 노동조합"@KO;
@@ -98,7 +98,7 @@
 <OS200> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Regional, state or provincial level federation or union "@EN,
+        "Regional, state or provincial level federation or union"@EN,
         "Federación o unión sectorial, estatal o regional"@ES,
         "Union ou fédération régionale, nationale ou infranationale"@FR,
         "지역, 주, 지자체 수준의 연맹 및 노동조합"@KO;
@@ -106,7 +106,7 @@
 <OS210> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Cooperative group "@EN,
+        "Cooperative group"@EN,
         "Grupo cooperativo"@ES,
         "Groupe coopératif"@FR,
         "협동조합 그룹"@KO;
@@ -114,7 +114,7 @@
 <OS220> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Government agency/body "@EN,
+        "Government agency/body"@EN,
         "Entidad gubernamental"@ES,
         "Agence/autorité gouvernementale"@FR,
         "정부기관"@KO;
@@ -130,7 +130,7 @@
 <OS240> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Cooperative of cooperatives / mutuals "@EN,
+        "Cooperative of cooperatives / mutuals"@EN,
         "Cooperativa de cooperativas/mutuales"@ES,
         "Coopérative de coopératives/mutuelles"@FR,
         "협동조합간 협동"@KO;

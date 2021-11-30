@@ -40,7 +40,7 @@
 <T3> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Voluntary Work "@EN,
+        "Voluntary Work"@EN,
         "Trabalho Voluntário"@PT;
     skos:scopeNote
         ;
@@ -48,14 +48,14 @@
 <T4> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Reproductive Labour/Care Work "@EN;
+        "Reproductive Labour/Care Work"@EN;
     skos:scopeNote
         ;
 .
 <T5> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "Externally hired "@EN;
+        "Externally hired"@EN;
     skos:scopeNote
         ;
 .
