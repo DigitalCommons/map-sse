@@ -242,7 +242,7 @@
 <ICA290> a skos:Concept;
     skos:inScheme <>;
     skos:prefLabel
-        "All (Services)"@EN,
+        "All"@EN,
         "Todos los servicios"@ES,
         "Tous (services)"@FR,
         "모든(서비스)"@KO;
