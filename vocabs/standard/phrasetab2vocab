@@ -1,0 +1,91 @@
+#!/bin/env ruby
+require 'date'
+require 'csv'
+require 'optparse'
+require 'optparse/uri'
+require './scheme'
+
+Languages = ['EN'] #,'ES','FR','DE','ZH']
+Prefixes = {
+}
+
+subfield_delim = ';'
+
+options = {}
+base_uri = nil
+
+OptionParser.new do |opts|
+  opts.banner = "Usage: #{$0} [options]"
+  opts.on('-u', '--base-uri URI', URI, "Set base URI") do |v|
+    base_uri = v.to_s
+  end
+end.parse!
+
+abort "You must supply a base URI" unless base_uri
+
+# Makes an autovivifying Hash.
+# Adapted from https://t-a-w.blogspot.com/2006/07/autovivification-in-ruby.html
+def autovivifying_hash
+  Hash.new do |ht, k|
+    ht[k] = autovivifying_hash
+  end
+end
+
+class Term < Scheme::Term
+  attr_reader :id
+  def initialize(base_uri, id, prefLabel:, altLabel: nil, scopeNote: nil)
+    super(uri: base_uri+id.to_s,
+          scheme: base_uri,
+          pref_label: prefLabel,
+          alt_label: altLabel,
+          scope_note: scopeNote)
+    @id = id
+  end
+end
+
+# Iterate over the input TSV, and build a nested hash index of
+# terms -> properties -> language code -> phrase
+term_index = autovivifying_hash
+CSV.new($stdin, col_sep: "\t", headers: true).each do |row|
+  term, property = row.fields('term', 'property')
+
+  # remove the term and property fields
+  terms = row.to_h.except('term', 'property')
+
+  # split multi-value items (those with a subfield delimiter)
+  terms = terms.to_a.collect do |k, v|
+    ary = if v
+            # Here we use a negative lookbehind anchor to ensure we only match
+            # subfield_delims not preceeded by an escape character.
+            v.split(/(?<!\\)#{Regexp.quote(subfield_delim)}/)
+              .collect {|it| it.gsub(/\\(.)/, '\1') } # unescape
+          else
+            []
+          end
+    
+    [k, ary]
+  end
+  
+  term_index[term][property.to_sym] = terms.to_h
+end
+   
+
+scheme_props = term_index.delete(nil)
+
+scheme_creation_date = '2021-02-22'
+
+scheme = Scheme.new(
+  base_uri: base_uri,
+  title: scheme_props['title'],
+  description: scheme_props['description'],
+  modified: Date.today.to_s,
+  created: scheme_creation_date,
+  prefixes: Prefixes,
+  terms: term_index.except(nil).to_a.collect do |k, v|
+    Term.new(base_uri, k, **v)
+  end,
+)
+
+
+scheme.write
+
