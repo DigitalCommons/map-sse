@@ -1,0 +1,252 @@
+term	property		DE	EN	ES	FR	KO	ZH
+	title		Länder	Countries	Países	Des Pays	국가	国别
+	description	A controlled vocabulary of countries compatible with ISO-3166-2 for SSE						
+AD	prefLabel		Andorra	Andorra	Andorra	Andorre	안도라	安道尔
+AE	prefLabel		Vereinigte Arabische Emirate	United Arab Emirates	Emiratos Árabes Unidos	Émirats arabes unis	아랍에미리트	阿联酋
+AF	prefLabel		Afghanistan	Afghanistan	Afganistán	Afghanistan	아프가니스탄	阿富汗
+AG	prefLabel		Antigua und Barbuda	Antigua and Barbuda	Antigua y Barbuda	Antigua-et-Barbuda	앤티가 바부다	安提瓜和巴布达
+AI	prefLabel		Anguilla	Anguilla	Anguila	Anguilla	앵귈라	安圭拉
+AL	prefLabel		Albanien	Albania	Albania	Albanie	알바니아	阿尔巴尼亚
+AM	prefLabel		Armenien	Armenia	Armenia	Arménie	아르메니아	亚美尼亚
+AO	prefLabel		Angola	Angola	Angola	Angola	앙골라	安哥拉
+AQ	prefLabel		Antarktis	Antarctica	Antártida	Antarctique	남극	南极洲
+AR	prefLabel		Argentinien	Argentina	Argentina	Argentine	아르헨티나	阿根廷
+AS	prefLabel		Amerikanisch-Samoa	American Samoa	Samoa Estadounidense	Samoa américaines	아메리칸사모아	美属萨摩亚
+AT	prefLabel		Österreich	Austria	Austria	Autriche	오스트리아	奥地利
+AU	prefLabel		Australien	Australia	Australia	Australie	오스트레일리아	澳大利亚
+AW	prefLabel		Aruba	Aruba	Aruba	Aruba	아루바	阿鲁巴
+AX	prefLabel		Åland-Inseln	Åland Islands	Islas Äland	Åland, Îles	올란드 제도	奥兰群岛
+AZ	prefLabel		Aserbaidschan	Azerbaijan	Azerbaiyán	Azerbaïdjan	아제르바이잔	阿塞拜疆
+BA	prefLabel		Bosnien und Herzegowina	Bosnia and Herzegovina	Bosnia y Herzegovina	Bosnie-Herzégovine	보스니아 헤르체고비나	波斯尼亚和黑塞哥维那
+BB	prefLabel		Barbados	Barbados	Barbados	Barbade	바베이도스	巴巴多斯
+BD	prefLabel		Bangladesch	Bangladesh	Bangladés	Bangladesh	방글라데시	孟加拉
+BE	prefLabel		Belgien	Belgium	Bélgica	Belgique	벨기에	比利时
+BF	prefLabel		Burkina Faso	Burkina Faso	Burquina Faso	Burkina Faso	부르키나파소	布基纳法索
+BG	prefLabel		Bulgarien	Bulgaria	Bulgaria	Bulgarie	불가리아	保加利亚
+BH	prefLabel		Bahrain	Bahrain	Baréin	Bahreïn	바레인	巴林
+BI	prefLabel		Burundi	Burundi	Burundi	Burundi	부룬디	布隆迪
+BJ	prefLabel		Benin	Benin	Benín	Bénin	베냉	贝宁
+BL	prefLabel		Saint-Barthélemy	Saint Barthélemy	San Bartolomé	Saint-Barthélemy	생바르텔레미	圣巴泰勒米岛
+BM	prefLabel		Bermuda	Bermuda	Islas Bermudas	Bermudes	버뮤다	百慕大
+BN	prefLabel		Brunei Darussalam	Brunei Darussalam	Brunei Darussalam	Brunéi Darussalam	브루나이 다루살람	文莱
+BO	prefLabel		Bolivien	Bolivia	Bolivia	Bolivie	볼리비아	波利维亚
+BQ	prefLabel		Bonaire, Sint Eustatius und Saba	Bonaire, Sint Eustatius and Saba	Islas BES (Caribe Neerlandés)	Bonaire, Saint-Eustache et Saba	보네르, 신트외스타티위스, 사바 섬	博奈尔、圣尤斯特歇斯岛和萨巴
+BR	prefLabel		Brasilien	Brazil	Brasil	Brésil	브라질	巴西
+BS	prefLabel		Bahamas	Bahamas	Bahamas	Bahamas	바하마	巴哈马
+BT	prefLabel		Bhutan	Bhutan	Bután	Bhoutan	부탄	不丹
+BV	prefLabel		Bouvet-Insel	Bouvet Island	Isla Bouvet	île Bouvet	부베 섬	布维群岛
+BW	prefLabel		Botsuana	Botswana	Botsuana	Botswana	보츠와나	博兹瓦那
+BY	prefLabel		Weißrussland	Belarus	Bielorrusia	Bélarus	벨라루스	白俄罗斯
+BZ	prefLabel		Belize	Belize	Belice	Belize	벨리즈	伯利兹
+CA	prefLabel		Kanada	Canada	Canadá	Canada	캐나다	加拿大
+CC	prefLabel		Kokos-(Keeling-)Inseln	Cocos (Keeling) Islands	Islas Cocos (Keeling)	Cocos (Keeling), Îles	코코스 제도	科科斯群岛
+CD	prefLabel		Demokratische Republik Kongo	Congo, The Democratic Republic of the	Congo, República Democrática del	République démocratique du Congo	콩고 민주 공화국	刚果民主共和国
+CF	prefLabel		Zentralafrikanische Republik	Central African Republic	República Centroafricana	République centrafricaine	중앙아프리카 공화국	中非
+CG	prefLabel		Kongo	Congo	Congo	République du Congo	콩고	刚果
+CH	prefLabel		Schweiz	Switzerland	Suiza	Suisse	스위스	瑞士
+CI	prefLabel		Côte d'Ivoire	Côte d'Ivoire	Costa de Marfíl	Côte d'Ivoire	코트디부아르	科特迪瓦
+CK	prefLabel		Cookinseln	Cook Islands	Islas Cook	îles Cook	쿡 제도	库克群岛
+CL	prefLabel		Chile	Chile	Chile	Chili	칠레	智利
+CM	prefLabel		Kamerun	Cameroon	Camerún	Cameroun	카메룬	喀麦隆
+CN	prefLabel		China	China	China	Chine	중국	中国
+CO	prefLabel		Kolumbien	Colombia	Colombia	Colombie	콜롬비아	哥伦比亚
+CR	prefLabel		Costa Rica	Costa Rica	Costa Rica	Costa Rica	코스타리카	哥斯达黎加
+CU	prefLabel		Kuba	Cuba	Cuba	Cuba	쿠바	古巴
+CV	prefLabel		Cabo Verde	Cabo Verde	Cabo Verde	Cap-Vert	카보베르데	佛得角
+CW	prefLabel		Curaçao	Curaçao	Curazao	Curaçao	퀴라소	库拉索
+CX	prefLabel		Weihnachtsinseln	Christmas Island	Isla de Navidad	Christmas, Île	크리스마스 섬	圣诞岛
+CY	prefLabel		Zypern	Cyprus	Chipre	Chypre	키프로스	塞浦路斯
+CZ	prefLabel		Tschechien	Czechia	Chequia	Tchéquie	체코	捷克
+DE	prefLabel		Deutschland	Germany	Alemania	Allemagne	독일	德国
+DJ	prefLabel		Dschibuti	Djibouti	Yibuti	Djibouti	지부티	吉布提
+DK	prefLabel		Dänemark	Denmark	Dinamarca	Danemark	덴마크	丹麦
+DM	prefLabel		Dominica	Dominica	Dominica	Dominique	도미니카 연방	多米尼克
+DO	prefLabel		Dominikanische Republik	Dominican Republic	República Dominicana	République dominicaine	도미니카 공화국	多米尼加共和国
+DZ	prefLabel		Algerien	Algeria	Algeria	Algérie	알제리	阿尔及利亚
+EC	prefLabel		Ecuador	Ecuador	Ecuador	Équateur	에콰도르	厄瓜多尔
+EE	prefLabel		Estland	Estonia	Estonia	Estonie	에스토니아	爱沙尼亚
+EG	prefLabel		Ägypten	Egypt	Egipto	Égypte	이집트	埃及
+EH	prefLabel		Westsahara	Western Sahara	Sahara Occidental	Sahara occidental	서사하라	西撒哈拉
+ER	prefLabel		Eritrea	Eritrea	Eritrea	Érythrée	에리트레아	厄立特里亚
+ES	prefLabel		Spanien	Spain	España	Espagne	스페인	西班牙
+ET	prefLabel		Äthiopien	Ethiopia	Etiopía	Éthiopie	에티오피아	埃塞俄比亚
+FI	prefLabel		Finnland	Finland	Finlandia	Finlande	핀란드	芬兰
+FJ	prefLabel		Fidschi	Fiji	Fiyi	Fidji	피지	斐济
+FK	prefLabel		Falklandinseln (Malwinen)	Falkland Islands (Malvinas)	Islas Falkland (Malvinas)	Malouines, Îles (Falkland)	포클랜드 제도 (말비나스)	福克兰群岛(马尔维纳斯)
+FM	prefLabel		Mikronesien, Föderierte Staaten von	Micronesia, Federated States of	Micronesia, Estados Federados de	Micronésie, États fédérés de	미크로네시아 연방	密克罗尼西亚
+FO	prefLabel		Färöer-Inseln	Faroe Islands	Islas Feroe	îles Féroé	페로 제도	法罗群岛
+FR	prefLabel		Frankreich	France	Francia	France	프랑스	法国
+GA	prefLabel		Gabun	Gabon	Gabón	Gabon	가봉	加蓬
+GB	prefLabel		Vereinigtes Königreich	United Kingdom	Reino Unido	Royaume-Uni	영국	英国
+GD	prefLabel		Grenada	Grenada	Granada	Grenade	그레나다	格林纳达
+GE	prefLabel		Georgien	Georgia	Georgia	Géorgie	조지아	格鲁吉亚
+GF	prefLabel		Französisch-Guyana	French Guiana	Guayana Francesa	Guyane française	프랑스령 기아나	法属圭亚那
+GG	prefLabel		Guernsey	Guernsey	Guernsey	Guernesey	건지 섬	根西岛
+GH	prefLabel		Ghana	Ghana	Ghana	Ghana	가나	加纳
+GI	prefLabel		Gibraltar	Gibraltar	Gibraltar	Gibraltar	지브롤터	直布罗陀
+GL	prefLabel		Grönland	Greenland	Groenlandia	Groënland	그린란드	格陵兰
+GM	prefLabel		Gambia	Gambia	Gambia	Gambie	감비아	冈比亚
+GN	prefLabel		Guinea	Guinea	Guinea	Guinée	기니	几内亚
+GP	prefLabel		Guadeloupe	Guadeloupe	Guadalupe	Guadeloupe	과들루프	瓜德罗普
+GQ	prefLabel		Äquatorialguinea	Equatorial Guinea	Guinea Ecuatorial	Guinée Équatoriale	적도 기니	赤道几内亚
+GR	prefLabel		Griechenland	Greece	Grecia	Grèce	그리스	希腊
+GS	prefLabel		South Georgia und die Südlichen Sandwichinseln	South Georgia and the South Sandwich Islands	Islas Georgias del Sur y Sándwich del Sur	Géorgie du Sud et les îles Sandwich du Sud	사우스조지아 사우스샌드위치 제도	南乔治亚岛和南桑德韦奇岛
+GT	prefLabel		Guatemala	Guatemala	Guatemala	Guatemala	과테말라	瓜地马拉
+GU	prefLabel		Guam	Guam	Guam	Guam	괌	关岛
+GW	prefLabel		Guinea-Bissau	Guinea-Bissau	Guinea-Bisáu	Guinée-Bissau	기니비사우	几内亚比绍
+GY	prefLabel		Guyana	Guyana	Guyana	Guyana	가이아나	圭亚那
+HK	prefLabel		Hongkong	Hong Kong	Hong Kong	Hong Kong	홍콩	香港
+HM	prefLabel		Heard und McDonaldinseln	Heard Island and McDonald Islands	Islas Heard y McDonald	îles Heard-et-MacDonald	허드 맥도널드 제도	赫德岛与麦克唐纳群岛
+HN	prefLabel		Honduras	Honduras	Honduras	Honduras	온두라스	洪都拉斯
+HR	prefLabel		Kroatien	Croatia	Croacia	Croatie	크로아티아	克罗地亚
+HT	prefLabel		Haiti	Haiti	Haití	Haïti	아이티	海地
+HU	prefLabel		Ungarn	Hungary	Hungría	Hongrie	헝가리	匈牙利
+ID	prefLabel		Indonesien	Indonesia	Indonesia	Indonésie	인도네시아	印度尼西亚
+IE	prefLabel		Irland	Ireland	Irlanda	Irlande	아일랜드	爱尔兰
+IL	prefLabel		Israel	Israel	Israel	Israël	이스라엘	以色列
+IM	prefLabel		Insel Man	Isle of Man	Isla de Man	Île de Man	맨 섬	曼岛
+IN	prefLabel		Indien	India	India	Inde	인도	印度
+IO	prefLabel		Britisches Territorium im Indischen Ozean	British Indian Ocean Territory	Territorio Británico del Océano Índico	Territoire britannique de l'océan Indien	영국령 인도양 지역	英属印度洋领地
+IQ	prefLabel		Irak	Iraq	Irak	Irak	이라크	伊拉克
+IR	prefLabel		Iran, Islamische Republik	Iran, Islamic Republic of	Irán, República islámica de	Iran, République islamique d'	이란 이슬람 공화국	伊朗
+IS	prefLabel		Island	Iceland	Islandia	Islande	아이슬란드	冰岛
+IT	prefLabel		Italien	Italy	Italia	Italie	이탈리아	意大利
+JE	prefLabel		Jersey	Jersey	Jersey	Jersey	저지 섬	泽西岛
+JM	prefLabel		Jamaika	Jamaica	Jamaica	Jamaïque	자메이카	牙买加
+JO	prefLabel		Jordanien	Jordan	Jordania	Jordanie	요르단	约旦
+JP	prefLabel		Japan	Japan	Japón	Japon	일본	日本
+KE	prefLabel		Kenia	Kenya	Kenia	Kenya	케냐	肯尼亚
+KG	prefLabel		Kirgisistan	Kyrgyzstan	Kirguistán	Kirghizistan	키르기스스탄	吉尔吉斯坦
+KH	prefLabel		Kambodscha	Cambodia	Camboya	Cambodge	캄보디아	柬埔塞
+KI	prefLabel		Kiribati	Kiribati	Kiribati	Kiribati	키리바시	基里巴斯
+KM	prefLabel		Komoren	Comoros	Comores, Islas	Comores	코모로	科摩罗
+KN	prefLabel		St. Kitts und Nevis	Saint Kitts and Nevis	San Cristóbal y Nieves	Saint-Christophe-et-Niévès	세인트키츠 네비스	圣基茨和尼维斯
+KP	prefLabel		Korea, Demokratische Volksrepublik	Korea, Democratic People's Republic of	Corea, República Democrática Popular de	Corée, République populaire démocratique de	조선민주주의인민공화국	朝鲜
+KR	prefLabel		Korea, Republik	Korea, Republic of	Corea, República de	Corée, République de	대한민국	韩国
+KW	prefLabel		Kuwait	Kuwait	Kuwait	Koweït	쿠웨이트	科威特
+KY	prefLabel		Cayman-Inseln	Cayman Islands	Islas Caimán	îles Caïmans	케이맨 제도	开曼群岛
+KZ	prefLabel		Kasachstan	Kazakhstan	Kazajistán	Kazakhstan	카자흐스탄	哈萨克斯坦
+LA	prefLabel		Laos, Demokratische Volksrepublik	Lao People's Democratic Republic	República Democrática Popular de Lao	Lao, République démocratique populaire	라오 인민 민주주의 공화국	老挝人民民主共和国
+LB	prefLabel		Libanon	Lebanon	Líbano	Liban	레바논	黎巴嫩
+LC	prefLabel		St. Lucia	Saint Lucia	Santa Lucía	Sainte-Lucie	세인트루시아	圣路西亚
+LI	prefLabel		Liechtenstein	Liechtenstein	Liechtenstein	Liechtenstein	리히텐슈타인	列支敦士登
+LK	prefLabel		Sri Lanka	Sri Lanka	Sri Lanka	Sri Lanka	스리랑카	斯里兰卡
+LR	prefLabel		Liberia	Liberia	Liberia	Libéria	라이베리아	利比里亚
+LS	prefLabel		Lesotho	Lesotho	Lesoto	Lesotho	레소토	莱索托
+LT	prefLabel		Litauen	Lithuania	Lituania	Lituanie	리투아니아	立陶宛
+LU	prefLabel		Luxemburg	Luxembourg	Luxemburgo	Luxembourg	룩셈부르크	卢森堡
+LV	prefLabel		Lettland	Latvia	Letonia	Lettonie	라트비아	拉脱维亚
+LY	prefLabel		Libyen	Libya	Libia	Libye	리비아	利比亚
+MA	prefLabel		Marokko	Morocco	Marruecos	Maroc	모로코	摩洛哥
+MC	prefLabel		Monaco	Monaco	Mónaco	Monaco	모나코	摩纳哥
+MD	prefLabel		Moldau	Moldova	Moldavia	Moldavie	몰도바	摩尔多瓦
+ME	prefLabel		Montenegro	Montenegro	Montenegro	Monténégro	몬테네그로	黑山
+MF	prefLabel		Saint Martin (Französischer Teil)	Saint Martin (French part)	San Martín (zona francesa)	Saint-Martin (partie française)	생마르탱 (프랑스령)	法属圣马丁
+MG	prefLabel		Madagaskar	Madagascar	Madagascar	Madagascar	마다가스카르	马达加斯加
+MH	prefLabel		Marshallinseln	Marshall Islands	Islas Marshall	Îles Marshall	마셜 제도	马绍尔群岛
+MK	prefLabel		Nordmazedonien	North Macedonia	Macedonia del Norte	Macédoine du Nord	북마케도니아	北马其顿
+ML	prefLabel		Mali	Mali	Mali	Mali	말리	马里
+MM	prefLabel		Myanmar	Myanmar	Birmania	Birmanie	미얀마	缅甸
+MN	prefLabel		Mongolei	Mongolia	Mongolia	Mongolie	몽골	蒙古
+MO	prefLabel		Macao	Macao	Macao	Macau	마카오	澳门
+MP	prefLabel		Nördliche Marianen	Northern Mariana Islands	Islas Marianas del Norte	Îles Mariannes du Nord	북마리아나 제도	北马里亚纳群岛
+MQ	prefLabel		Martinique	Martinique	Martinica	Martinique	마르티니크	马提尼克
+MR	prefLabel		Mauretanien	Mauritania	Mauritania	Mauritanie	모리타니	毛里塔尼亚
+MS	prefLabel		Montserrat	Montserrat	Montserrat	Montserrat	몬트세랫	蒙塞拉特岛
+MT	prefLabel		Malta	Malta	Malta	Malte	몰타	马尔他
+MU	prefLabel		Mauritius	Mauritius	Mauricio	Maurice	모리셔스	毛里求斯
+MV	prefLabel		Malediven	Maldives	Islas Maldivas	Maldives	몰디브	马尔代夫
+MW	prefLabel		Malawi	Malawi	Malaui	Malawi	말라위	马拉维
+MX	prefLabel		Mexiko	Mexico	México	Mexique	멕시코	墨西哥
+MY	prefLabel		Malaysia	Malaysia	Malasia	Malaisie	말레이시아	马来西亚
+MZ	prefLabel		Mosambik	Mozambique	Mozambique	Mozambique	모잠비크	莫桑比克
+NA	prefLabel		Namibia	Namibia	Namibia	Namibie	나미비아	纳米比亚
+NC	prefLabel		Neukaledonien	New Caledonia	Nueva Caledonia	Nouvelle-Calédonie	누벨칼레도니	新喀里多尼亚
+NE	prefLabel		Niger	Niger	Niger	Niger	니제르	尼日尔
+NF	prefLabel		Norfolkinsel	Norfolk Island	Isla Norfolk	île Norfolk	노퍽 섬	诺福克岛
+NG	prefLabel		Nigeria	Nigeria	Nigeria	Nigeria	나이지리아	尼日利亚
+NI	prefLabel		Nicaragua	Nicaragua	Nicaragua	Nicaragua	니카라과	尼加拉瓜
+NL	prefLabel		Niederlande	Netherlands	Países Bajos	Pays-Bas	네덜란드	荷兰
+NO	prefLabel		Norwegen	Norway	Noruega	Norvège	노르웨이	挪威
+NP	prefLabel		Nepal	Nepal	Nepal	Népal	네팔	尼泊尔
+NR	prefLabel		Nauru	Nauru	Nauru	Nauru	나우루	瑙鲁
+NU	prefLabel		Niue	Niue	Niue	Nioue	니우에	纽埃
+NZ	prefLabel		Neuseeland	New Zealand	Nueva Zelanda	Nouvelle-Zélande	뉴질랜드	新西兰
+OM	prefLabel		Oman	Oman	Omán	Oman	오만	阿曼
+PA	prefLabel		Panama	Panama	Panamá	Panama	파나마	巴拿马
+PE	prefLabel		Peru	Peru	Perú	Pérou	페루	秘鲁
+PF	prefLabel		Französisch-Polynesien	French Polynesia	Polinesia Francesa	Polynésie française	프랑스령 폴리네시아	法属玻利尼西亚
+PG	prefLabel		Papua-Neuguinea	Papua New Guinea	Papúa Nueva Guinea	Papouasie-Nouvelle-Guinée	파푸아뉴기니	巴布亚新几内亚
+PH	prefLabel		Philippinen	Philippines	Filipinas	Philippines	필리핀	菲律宾
+PK	prefLabel		Pakistan	Pakistan	Pakistán	Pakistan	파키스탄	巴基斯坦
+PL	prefLabel		Polen	Poland	Polonia	Pologne	폴란드	波兰
+PM	prefLabel		St. Pierre und Miquelon	Saint Pierre and Miquelon	San Pedro y Miquelon	Saint-Pierre-et-Miquelon	생피에르 미클롱	圣皮埃尔和密克隆
+PN	prefLabel		Pitcairn	Pitcairn	Pitcairn	Îles Pitcairn	핏케언 제도	皮特克恩
+PR	prefLabel		Puerto Rico	Puerto Rico	Puerto Rico	Porto Rico	푸에르토리코	波多黎各
+PS	prefLabel		Palästina, Staat	Palestine, State of	Palestina, Estado de	Palestine, État de	팔레스타인	巴勒斯坦
+PT	prefLabel		Portugal	Portugal	Portugal	Portugal	포르투갈	葡萄牙
+PW	prefLabel		Palau	Palau	Palaos	Palaos	팔라우	帕劳
+PY	prefLabel		Paraguay	Paraguay	Paraguay	Paraguay	파라과이	巴拉圭
+QA	prefLabel		Katar	Qatar	Catar	Qatar	카타르	卡塔尔
+RE	prefLabel		Réunion	Réunion	Reunión	Réunion, Île de la	레위니옹	留尼汪
+RO	prefLabel		Rumänien	Romania	Rumanía	Roumanie	루마니아	罗马尼亚
+RS	prefLabel		Serbien	Serbia	Serbia	Serbie	세르비아	塞尔维亚
+RU	prefLabel		Russische Föderation	Russian Federation	Federación Rusa	Russie, Fédération de	러시아 연방	俄罗斯
+RW	prefLabel		Ruanda	Rwanda	Ruanda	Rwanda	르완다	卢旺达
+SA	prefLabel		Saudi-Arabien	Saudi Arabia	Arabia Saudí	Arabie saoudite	사우디아라비아	沙特阿拉伯
+SB	prefLabel		Salomoninseln	Solomon Islands	Islas Salomón	Salomon, Îles	솔로몬 제도	所罗门群岛
+SC	prefLabel		Seychellen	Seychelles	Seychelles	Seychelles	세이셸	塞舌尔
+SD	prefLabel		Sudan	Sudan	Sudán	Soudan	수단	苏丹
+SE	prefLabel		Schweden	Sweden	Suecia	Suède	스웨덴	瑞典
+SG	prefLabel		Singapur	Singapore	Singapur	Singapour	싱가포르	新加坡
+SH	prefLabel		St. Helena, Ascension und Tristan da Cunha	Saint Helena, Ascension and Tristan da Cunha	Santa Elena, Ascensión y Tristán de Acuña	Sainte-Hélène, Ascension et Tristan da Cunha	세인트헬레나 어센션 트리스탄다쿠냐	圣赫勒拿-阿森松-特里斯坦达库尼亚
+SI	prefLabel		Slowenien	Slovenia	Eslovenia	Slovénie	슬로베니아	斯洛文尼亚
+SJ	prefLabel		Svalbard und Jan Mayen	Svalbard and Jan Mayen	Svalbard y Jan Mayen	Svalbard et île Jan Mayen	스발바르 얀마옌 제도	斯瓦尔巴特和扬马延岛
+SK	prefLabel		Slowakei	Slovakia	Eslovaquia	Slovaquie	슬로바키아	斯洛伐克
+SL	prefLabel		Sierra Leone	Sierra Leone	Sierra Leona	Sierra Leone	시에라리온	塞拉利昂
+SM	prefLabel		San Marino	San Marino	San Marino	Saint-Marin	산마리노	圣马力诺
+SN	prefLabel		Senegal	Senegal	Senegal	Sénégal	세네갈	塞内加尔
+SO	prefLabel		Somalia	Somalia	Somalia	Somalie	소말리아	索马里
+SR	prefLabel		Suriname	Suriname	Surinám	Surinam	수리남	苏里南
+SS	prefLabel		Südsudan	South Sudan	Sudán del Sur	Soudan du Sud	남수단	南苏丹
+ST	prefLabel		São Tomé und Príncipe	Sao Tome and Principe	Santo Tomé y Príncipe	Sao Tomé-et-Principe	상투메 프린시페	圣多美和普林西比
+SV	prefLabel		El Salvador	El Salvador	El Salvador	Salvador	엘살바도르	萨尔瓦多
+SX	prefLabel		Saint-Martin (Niederländischer Teil)	Sint Maarten (Dutch part)	Isla de San Martín (zona holandsea)	Saint-Martin (partie néerlandaise)	신트마르턴 (네덜란드령)	荷属圣马丁
+SY	prefLabel		Syrien, Arabische Republik	Syrian Arab Republic	República árabe de Siria	Syrienne, République arabe	시리아 아랍 공화국	叙利亚
+SZ	prefLabel		Eswatini	Eswatini	Suazilandia	Eswatini	에스와티니	斯威士兰
+TC	prefLabel		Turks- und Caicosinseln	Turks and Caicos Islands	Islas Turcas y Caicos	îles Turques-et-Caïques	터크스 케이커스 제도	特克斯和凯科斯群岛
+TD	prefLabel		Tschad	Chad	Chad	Tchad	차드	乍得
+TF	prefLabel		Französische Süd- und Antarktisgebiete	French Southern Territories	Territorios Franceses del Sur	Terres australes françaises	프랑스령 남 자치구역	法属南半球领地
+TG	prefLabel		Togo	Togo	Togo	Togo	토고	多哥
+TH	prefLabel		Thailand	Thailand	Tailandia	Thaïlande	태국	泰国
+TJ	prefLabel		Tadschikistan	Tajikistan	Tayikistán	Tadjikistan	타지키스탄	塔吉克斯坦
+TK	prefLabel		Tokelau	Tokelau	Tokelau	Tokelau	토켈라우	托克劳群岛
+TL	prefLabel		Timor-Leste	Timor-Leste	Timor Oriental	Timor oriental	동티모르	东帝汶
+TM	prefLabel		Turkmenistan	Turkmenistan	Turkmenistán	Turkménistan	투르크메니스탄	土库曼斯坦
+TN	prefLabel		Tunesien	Tunisia	Tunez	Tunisie	튀니지	突尼斯
+TO	prefLabel		Tonga	Tonga	Tonga	Tonga	통가	汤加
+TR	prefLabel		Türkei	Turkey	Turquía	Turquie	터키	土耳其
+TT	prefLabel		Trinidad und Tobago	Trinidad and Tobago	Trinidad y Tobago	Trinité-et-Tobago	트리니다드 토바고	特里尼达和多巴哥
+TV	prefLabel		Tuvalu	Tuvalu	Tuvalu	Tuvalu	투발루	图瓦鲁
+TW	prefLabel		Taiwan	Taiwan	Taiwán	Taïwan	타이완	台湾
+TZ	prefLabel		Tansania	Tanzania	Tanzania	Tanzanie	탄자니아	坦桑尼亚
+UA	prefLabel		Ukraine	Ukraine	Ucrania	Ukraine	우크라이나	乌克兰
+UG	prefLabel		Uganda	Uganda	Uganda	Ouganda	우간다	乌干达
+UM	prefLabel		United States Minor Outlying Islands	United States Minor Outlying Islands	Islas Ultramarinas Menores de Estados Unidos	Îles mineures éloignées des États-Unis	미국령 군소 제도	美国本土外小岛屿
+US	prefLabel		Vereinigte Staaten	United States	Estados Unidos	États-Unis	미국	美国
+UY	prefLabel		Uruguay	Uruguay	Uruguay	Uruguay	우루과이	乌拉圭
+UZ	prefLabel		Usbekistan	Uzbekistan	Uzbekistán	Ouzbékistan	우즈베키스탄	乌兹别克斯坦
+VA	prefLabel		Heiliger Stuhl (Staat Vatikanstadt)	Holy See (Vatican City State)	Santa Sede (Ciudad Estado del Vaticano)	Saint-Siège (état de la cité du Vatican)	바티칸 시티 (Holy See)	梵地冈
+VC	prefLabel		St. Vincent und die Grenadinen	Saint Vincent and the Grenadines	San Vicente y las Granadinas	Saint-Vincent-et-les-Grenadines	세인트빈센트 그레나딘	圣文森特和格林纳丁斯
+VE	prefLabel		Venezuela	Venezuela	Venezuela	Vénézuela	베네수엘라	委内瑞拉
+VG	prefLabel		Britische Jungferninseln	Virgin Islands, British	Islas Vírgenes, Británicas	Îles Vierges britanniques	버진 제도, 영국령	英属维京群岛
+VI	prefLabel		Amerikanische Jungferninseln	Virgin Islands, U.S.	Islas Vírgenes, de EEUU	Îles Vierges des États-Unis	버진 제도, 미국령	美属维京群岛
+VN	prefLabel		Vietnam	Vietnam	Vietnam	Viêt Nam	베트남	越南
+VU	prefLabel		Vanuatu	Vanuatu	Vanuatu	Vanuatu	바누아투	瓦努阿图
+WF	prefLabel		Wallis und Futuna	Wallis and Futuna	Wallis y Futuna	Wallis et Futuna	왈리스 퓌튀나	瓦利斯和富图纳
+WS	prefLabel		Samoa	Samoa	Samoa	Samoa	사모아	萨摩亚
+YE	prefLabel		Jemen	Yemen	Yemen	Yémen	예멘	也门
+YT	prefLabel		Mayotte	Mayotte	Mayotte	Mayotte	마요트	马约特
+ZA	prefLabel		Südafrika	South Africa	Sudáfrica	Afrique du Sud	남아프리카 공화국	南非
+ZM	prefLabel		Sambia	Zambia	Zambia	Zambie	잠비아	赞比亚
+ZW	prefLabel		Simbabwe	Zimbabwe	Zimbabue	Zimbabwe	짐바브웨	津巴布韦

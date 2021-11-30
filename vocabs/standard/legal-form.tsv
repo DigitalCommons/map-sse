@@ -1,0 +1,13 @@
+term	property		EN	ES	FR	IT	PT
+	title	Legal Form					
+	description	SSE Initiative or SSE Network Legal form controlled vocabulary for SSE					
+L1	prefLabel		Informal Group	Grupo Informal		Grupo Informale	Grupo Informal
+L1	scopeNote						
+L2	prefLabel		Cooperative	Cooperativa		Cooperativa	Cooperativa
+L2	scopeNote						
+L3	prefLabel		Company	Empresa	Entreprise		Empresa
+L3	scopeNote						
+L4	prefLabel		Non-Profit Organisation				Organização Não Governamental
+L4	scopeNote						
+L5	prefLabel		Social Enterprise	Empresa Social			Empresa Social
+L5	scopeNote						

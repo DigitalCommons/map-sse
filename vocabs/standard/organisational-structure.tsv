@@ -1,0 +1,53 @@
+term	property		EN	ES	FR	IT	PT
+	title		Structure Type	Tipo de estructura	Type de structure		
+	description	Alternative SSE Initiative or SSE Network Legal Form controlled vocabulary for SSE					
+OS10	prefLabel		Community group (formal or informal)				
+OS10	scopeNote						
+OS100	prefLabel		Multi-stakeholder cooperative				
+OS100	scopeNote						
+OS110	prefLabel		Secondary cooperative				
+OS110	scopeNote						
+OS115	prefLabel		Cooperative	Cooperativa	Coopérative		
+OS115	scopeNote						
+OS120	prefLabel		Community Interest Company (CIC)				
+OS120	scopeNote						
+OS130	prefLabel		Community Benefit Society / Industrial and Provident Society (IPS)				
+OS130	scopeNote						
+OS140	prefLabel		Employee trust				
+OS140	scopeNote						
+OS150	prefLabel		Self-employed				
+OS150	scopeNote						
+OS160	prefLabel		Unincorporated				
+OS160	scopeNote						
+OS170	prefLabel		Mutual	Mutual	Mutuelle		
+OS170	scopeNote						
+OS180	prefLabel		National apex	Organismo federativo nacional	Organisation faîtière nationale		
+OS180	scopeNote						
+OS190	prefLabel		National sectoral federation or union	Sindicato o federación nacional sectorial	Union ou fédération nationale sectorielle		
+OS190	scopeNote						
+OS20	prefLabel		Not-for-profit organisation				
+OS20	scopeNote						
+OS200	prefLabel		Regional, state or provincial level federation or union	Federación o unión sectorial, estatal o regional	Union ou fédération régionale, nationale ou infranationale		
+OS200	scopeNote						
+OS210	prefLabel		Cooperative group	Grupo cooperativo	Groupe coopératif		
+OS210	scopeNote						
+OS220	prefLabel		Government agency/body	Entidad gubernamental	Agence/autorité gouvernementale		
+OS220	scopeNote						
+OS230	prefLabel		Supranational	Organización supranacional	Organisation supranationale		
+OS230	scopeNote						
+OS240	prefLabel		Cooperative of cooperatives / mutuals	Cooperativa de cooperativas/mutuales	Coopérative de coopératives/mutuelles		
+OS240	scopeNote						
+OS30	prefLabel		Social enterprise				
+OS30	scopeNote						
+OS40	prefLabel		Charity				
+OS40	scopeNote						
+OS50	prefLabel		Company (Other)	Empresa (otra)	Entreprise (autre)		
+OS50	scopeNote						
+OS60	prefLabel		Workers cooperative				
+OS60	scopeNote						
+OS70	prefLabel		Housing cooperative				
+OS70	scopeNote						
+OS80	prefLabel		Consumer/User coop				
+OS80	scopeNote						
+OS90	prefLabel		Producer cooperative				
+OS90	scopeNote						

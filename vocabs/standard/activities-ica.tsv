@@ -1,0 +1,90 @@
+term	property		EN	ES	FR	PT
+	title		Economic Activity	Actividad económica	Secteur économique	
+	description	The set of economic activities defined by the ICA (L2) to be used with the terms economicSector, primarySector				
+ICA10	prefLabel		Agriculture	Agricultura	Agriculture	
+ICA10	altLabel	A				
+ICA10	scopeNote					
+ICA100	prefLabel		Mining	Minería	Exploitation minière	
+ICA100	altLabel	J				
+ICA100	scopeNote					
+ICA110	prefLabel		Professional	Actividades profesionales	Cadres et professions libérales	
+ICA110	altLabel	K				
+ICA110	scopeNote					
+ICA120	prefLabel		Service	Servicios	Services	
+ICA120	altLabel	L				
+ICA120	scopeNote					
+ICA130	prefLabel		Tourism	Turismo	Tourisme	
+ICA130	altLabel	M				
+ICA130	scopeNote					
+ICA140	prefLabel		Financial Services	Servicios financieros	Services financiers	
+ICA140	altLabel	N				
+ICA140	scopeNote					
+ICA150	prefLabel		Insurance	Seguros	Assurance	
+ICA150	altLabel	O				
+ICA150	scopeNote					
+ICA160	prefLabel		Education	Educación	Éducation	
+ICA160	altLabel	P				
+ICA160	scopeNote					
+ICA170	prefLabel		Health	Salud	Santé	
+ICA170	altLabel	Q				
+ICA170	scopeNote					
+ICA180	prefLabel		Community	Servicios comunitarios	Action communautaire	
+ICA180	altLabel	R				
+ICA180	scopeNote					
+ICA190	prefLabel		Social	Acción social	Action sociale	
+ICA190	altLabel	S				
+ICA190	scopeNote					
+ICA20	prefLabel		Dairy	Industria lechera	Industrie laitière	
+ICA20	altLabel	B				
+ICA20	scopeNote					
+ICA200	prefLabel		Social Service	Servicios sociales	Services sociaux	
+ICA200	altLabel	T				
+ICA200	scopeNote					
+ICA210	prefLabel		Housing	Vivienda	Logement	
+ICA210	altLabel	U				
+ICA210	scopeNote					
+ICA220	prefLabel		Transport	Transporte	Transports	
+ICA220	altLabel	V				
+ICA220	scopeNote					
+ICA230	prefLabel		Utilities	Servicios públicos	Services publics	
+ICA230	altLabel	W				
+ICA230	scopeNote					
+ICA240	prefLabel		Retail	Comercio minorista	Grande distribution	
+ICA240	altLabel	X				
+ICA240	scopeNote					
+ICA250	prefLabel		Production	Producción	Production	
+ICA250	altLabel	Y				
+ICA250	scopeNote					
+ICA260	prefLabel		Wholesale and retail trade	Comercio mayorista y minorista	Vente de gros et de détail	
+ICA260	altLabel	Z				
+ICA260	scopeNote					
+ICA270	prefLabel		Education / health / social work	Educación, salud y trabajo social	Éducation / Santé / Travail social	
+ICA270	altLabel	AA				
+ICA270	scopeNote					
+ICA280	prefLabel		Other Services	Otros servicios	Autres services	
+ICA280	altLabel	AB				
+ICA280	scopeNote					
+ICA290	prefLabel		All	Todos los servicios	Tous (services)	
+ICA290	altLabel	AC				
+ICA290	scopeNote					
+ICA30	prefLabel		Forestry	Silvicultura	Foresterie	
+ICA30	altLabel	C				
+ICA30	scopeNote					
+ICA40	prefLabel		Irrigation	Riego	Irrigation	
+ICA40	altLabel	D				
+ICA40	scopeNote					
+ICA50	prefLabel		Fishing	Pesca	Pêche	
+ICA50	altLabel	E				
+ICA50	scopeNote					
+ICA60	prefLabel		Artisans	Artesanía	Artisanat	
+ICA60	altLabel	F				
+ICA60	scopeNote					
+ICA70	prefLabel		Construction	Construcción	Construction	
+ICA70	altLabel	G				
+ICA70	scopeNote					
+ICA80	prefLabel		Industry	Industria	Industrie	
+ICA80	altLabel	H				
+ICA80	scopeNote					
+ICA90	prefLabel		Manufacturing	Fabricación	Industrie manufacturière	
+ICA90	altLabel	I				
+ICA90	scopeNote					

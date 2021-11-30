@@ -1,0 +1,60 @@
+term	property		EN	ES	FR	PT
+	title	Themes				
+	description	Themes controlled vocabulary for SSE				
+T1	prefLabel		Transition towns and housing rights	Ciudades en transición y derecho a la vivienda	Villes en transition et droit a l'habitation	Cidades em Transição e direito à moradia
+T1	altLabel		Housing and mobility			
+T1	scopeNote		Integrates thematic about housing and mobility	Integra la temática sobre la vivienda y la movilidad	Intègre thématique sur le logement et la mobilité	Integra as tematicas acerca da habitacao e mobilidade
+T10	prefLabel		Territorial development and "Bien Vivir"	Desarrollo territorial y Bien Vivir	Développement territorial et bien vivir	Desenvolvimento territorial e "Bem Viver"
+T10	altLabel		Local development and "Bien vivir"			
+T10	scopeNote		Integrates thematic about local development and wellbeing	Integra la temática de desarrollo local y el bienestar	Intègre thématique sur le développement local et le bien-être	Integra as tematicas acerca de desenvolvimento local e bem-viver
+T11	prefLabel		International Cooperation	Cooperación internacional	Coopération internationale	Cooperação Internacional
+T11	altLabel		International Cooperation			
+T11	scopeNote		It integrates the international cooperation on thematic	Se integra a la cooperación internacional en la temática	Il intègre la coopération internationale sur la thématique	Integra as tematicas acerca de cooperação internacional
+T12	prefLabel		Social Justice and insertion and fight against poverty	Justicia e inserción social y lucha contra la pobreza	Justice et insertion sociales et combat contre la pauvreté	Justiça Social e de inserção e luta contra a pobreza
+T12	altLabel		Social justice and fight against poverty			
+T12	scopeNote		Integrates thematic about social justice and poverty alleviation	Integra la temática sobre la justicia social y la lucha contra la pobreza	Intègre thématique sur la justice sociale et lutte contre la pauvreté	Integra as tematicas acerca da justiça social e luta contra a pobreza
+T13	prefLabel		Decent work and Self-Management	Trabajo decente/digno y Autogestión	Travail décent/digne et Autogestion	Trabalho decente e Autogestão
+T13	altLabel		Decent work and Self-Management			
+T13	scopeNote		It integrates the thematic on decent work and self-management	Se integra la temática sobre el trabajo decente y la autogestión	Il intègre la thématique sur le travail décent et de l'autogestion	Integra as tematicas acerca de trabalho decente e autogestão
+T14	prefLabel		Women	Mujeres	Femmes	Mulheres
+T14	altLabel		Women			
+T14	scopeNote		Integrates thematic about women	Integra la temática sobre la mujer	Intègre thématique sur les femmes	Integra as tematicas acerca de mulheres
+T15	prefLabel		SSE movement organizing and networking (national and international)	Redes y organización del movimiento de ESS (nacional y internacional)	Réseautage et Organisation du mouvement de l'ÉSS (national et international)	SSE movimento de organização e trabalho em rede (nacional e internacional)
+T15	altLabel		Networking and social movements			
+T15	scopeNote		Integrates on thematic networking and social movements	Se integra en la creación de redes temáticas y los movimientos sociales	Intègre la mise en réseau thématique et mouvements sociaux	Integra as tematicas acerca de networking e movimentos sociais
+T16	prefLabel		Research and technology	Tecnología e investigación	Technologie et recherche	Pesquisa e tecnologia
+T16	altLabel		Research and technology			
+T16	scopeNote		Integrates on thematic research and technology	Se integra en la investigación temática y la tecnología	Intègre la recherche thématique et de la technologie	Integra as tematicas acerca de pesquisa e tecnologia
+T17	prefLabel		Indigenous peoples and communities	Pueblos y comunidades tradicionales/originarias	Peuples et Communautés traditionnels/indigènes	Os povos indígenas e comunidades
+T17	altLabel		Indigenous peoples and communities			
+T17	scopeNote		Integrates thematic about the indigenous peoples and communities	Integra la temática acerca de los pueblos y comunidades indígenas	Intègre thématique sur les peuples autochtones et des communautés	Integra as tematicas acerca dos povos indígenas e comunidades
+T18	prefLabel		Alternative communication and information	Comunicación e información alternativas	Communication et information alternatives	Comunicação alternativa e informações
+T18	altLabel		Communication and information			
+T18	scopeNote		Integrates thematic about communication and information	Integra la temática de la comunicación y la información	Intègre thématique sur la communication et l'information	Integra as tematicas acerca de comunicação e informação
+T19	prefLabel		Other themes	Otros temas	Autres thématiques	Outros temas
+T19	altLabel		Other			
+T19	scopeNote		Integrates about other thematic issues	Se integra sobre otras cuestiones temáticas	Intègre sur d'autres questions thématiques	Integra as tematicas acerca de outros assuntos
+T2	prefLabel		Food souvereignty and peasant's farming agriculture	Soberanía alimentaria y Agricultura campesina	Souveraineté alimentaire et Agriculture paysanne	A soberania alimentar e agricultura camponesa da agricultura
+T2	altLabel		Food and agriculture			
+T2	scopeNote		It integrates the thematic on food and agriculture	Integra la temática sobre la alimentación y la agricultura	Il intègre la thématique sur l'alimentation et l'agriculture	Integra as tematicas acerca de alimento e agricultura
+T3	prefLabel		Social and solidarity finances	Finanzas Solidarias	Finances Solidaires	Finanças sociais e de solidariedade
+T3	altLabel		Finance			
+T3	scopeNote		Integrates thematic about finances	Integra la temática acerca de las finanzas	Intègre thématique sur les finances	Integra as tematicas acerca de finanças
+T4	prefLabel		Concepts and values related to Solidarity Economy	Conceptos y valores sobre Economía Solidaria	Concepts et valeurs sur l'Économie Solidaire	Conceitos e valores relacionados com a Economia Solidária
+T4	altLabel		Economies			
+T4	scopeNote		Integrates thematic about economies	Integra la temática sobre las economías	Intègre thématique sur les économies	Integra as tematicas acerca de economias
+T5	prefLabel		Environment and commons	Medio ambiente y bienes comunes	Environnement et biens communs	Ambiente e terras comuns
+T5	altLabel		Environment, energy and commons			
+T5	scopeNote		Integrates thematic about environment, energy and common goods	Integra la temática sobre los bienes medio ambiente, energía y común	Intègre thématique sur les biens environnement, l'énergie et des communes	Integra as tematicas acerca de ambiente, energia e bens comuns
+T6	prefLabel		Public policies	Politicas Publicas	Politiques Publiques	As políticas públicas
+T6	altLabel		Public policies			
+T6	scopeNote		Integrates thematic about public policy	Integra la temática sobre la política pública	Intègre thématique sur les politiques publiques	Integra as tematicas acerca de políticas públicas
+T7	prefLabel		Free culture and knowledge	Cultura y conocimiento libres	culture et connaissances (savoirs) libres	Cultura e conhecimento livre
+T7	altLabel		Free culture and knowledge			
+T7	scopeNote		Integrates thematic about free culture and knowledge	Integra la temática sobre la cultura y el conocimiento libres	Intègre thématique sur la culture libre et la connaissance	Integra as tematicas acerca de cultura livre e conhecimento
+T8	prefLabel		Popular education and training	Educacion y asesoria popular	Education populaire et apprentissage	A educação popular e a formação
+T8	altLabel		Education and learning			
+T8	scopeNote		Integrates on thematic education and apredizagem	Se integra en la educación y la temática apredizagem	Intègre sur l'éducation thématique et apredizagem	Integra as tematicas acerca de educação e apredizagem
+T9	prefLabel		Solidarity and Responsible production, commerce and consumption	Producción, Comercialización y consumo solidarios y responsables	Production, Commerce et consommation solidaires et responsables	Solidariedade e produção responsável, comércio e consumo
+T9	altLabel		Production, trade and consumption			
+T9	scopeNote		It integrates the thematic on production, trade and consumption	Se integra la temática de la producción, el comercio y el consumo	Il intègre la thématique sur la production, le commerce et la consommation	Integra as tematicas acerca de produção, comércio e consumo

@@ -1,0 +1,8 @@
+term	property		EN	ES	FR
+	title		Super-Region	Superregión	Régions de niveau supérieur
+	description	A controlled vocabulary of ICA country super-regions for SSE			
+I	prefLabel		Global		
+I-AF	prefLabel		Africa	África	Afrique
+I-AM	prefLabel		Americas	América	Amériques
+I-AP	prefLabel		Asia+Pacific	Asia-Pacífico	Asie+Pacifique
+I-EU	prefLabel		Europe	Europa	Europe

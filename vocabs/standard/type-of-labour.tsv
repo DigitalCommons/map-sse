@@ -1,0 +1,13 @@
+term	property		EN	ES	FR	IT	PT
+	title	Type of Labour					
+	description	SSE Initiative or SSE Network Legal Form controlled vocabulary for SSE					
+T1	prefLabel		;Associative	;Associativo			;Associativo
+T1	scopeNote						
+T2	prefLabel		Subordinate				Subordinado
+T2	scopeNote						
+T3	prefLabel		Voluntary Work 				Trabalho Voluntário
+T3	scopeNote						
+T4	prefLabel		Reproductive Labour/Care Work 				
+T4	scopeNote						
+T5	prefLabel		Externally hired 				
+T5	scopeNote						

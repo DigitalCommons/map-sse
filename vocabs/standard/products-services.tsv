@@ -1,0 +1,277 @@
+term	property		EN
+	title	Products and Services	
+	description	Qualifiers controlled vocabulary for SSE	
+70000000	definition		Farming and Fishing and Forestry and Wildlife Contracting Services
+70000000	prefLabel		Farming and Fishing and Forestry and Wildlife Contracting Services
+70000000	scopeNote		
+70100000	definition		Fisheries and aquaculture
+70100000	prefLabel		70100000
+70110000	definition		Horticulture
+70110000	prefLabel		70110000
+70120000	definition		Livestock services
+70120000	prefLabel		70120000
+70130000	definition		Land and soil preparation and management and protection
+70130000	prefLabel		70130000
+70140000	definition		Crop production and management and protection
+70140000	prefLabel		70140000
+70150000	definition		Forestry
+70150000	prefLabel		70150000
+70160000	definition		Wildlife and flora
+70160000	prefLabel		70160000
+70170000	definition		Water resources development and oversight
+70170000	prefLabel		70170000
+71000000	definition		Mining and oil and gas services
+71000000	prefLabel		Mining and oil and gas services
+71000000	scopeNote		
+71100000	definition		Mining services
+71100000	prefLabel		71100000
+71110000	definition		Oil and gas exploration services
+71110000	prefLabel		71110000
+71120000	definition		Well drilling and construction services
+71120000	prefLabel		71120000
+71130000	definition		Oil and gas extraction and production enhancement services
+71130000	prefLabel		71130000
+71140000	definition		Oil and gas restoration and reclamation services
+71140000	prefLabel		71140000
+71150000	definition		Oil and gas data management and processing services
+71150000	prefLabel		71150000
+71160000	definition		Oil and gas well project management services
+71160000	prefLabel		71160000
+72000000	definition		Building and Facility Construction and Maintenance Services
+72000000	prefLabel		Building and Facility Construction and Maintenance Services
+72000000	scopeNote		
+72100000	definition		Building and facility maintenance and repair services
+72100000	prefLabel		72100000
+72110000	definition		Residential building construction services
+72110000	prefLabel		72110000
+72120000	definition		Nonresidential building construction services
+72120000	prefLabel		72120000
+72140000	definition		Heavy construction services
+72140000	prefLabel		72140000
+72150000	definition		Specialized trade construction and maintenance services
+72150000	prefLabel		72150000
+73000000	definition		Industrial Production and Manufacturing Services
+73000000	prefLabel		Industrial Production and Manufacturing Services
+73000000	scopeNote		
+73100000	definition		Plastic and chemical industries
+73100000	prefLabel		73100000
+73110000	definition		Wood and paper industries
+73110000	prefLabel		73110000
+73120000	definition		Metal and mineral industries
+73120000	prefLabel		73120000
+73130000	definition		Food and beverage industries
+73130000	prefLabel		73130000
+73140000	definition		Fibers and textiles and fabric industries
+73140000	prefLabel		73140000
+73150000	definition		Manufacturing support services
+73150000	prefLabel		73150000
+73160000	definition		Manufacture
+73160000	prefLabel		73160000
+73170000	definition		Precision instruments
+73170000	prefLabel		73170000
+73180000	definition		Machining and processing services
+73180000	prefLabel		73180000
+76000000	definition		Industrial Cleaning Services
+76000000	prefLabel		Industrial Cleaning Services
+76000000	scopeNote		
+76100000	definition		Decontamination services
+76100000	prefLabel		76100000
+76110000	definition		Cleaning and janitorial services
+76110000	prefLabel		76110000
+76120000	definition		Refuse disposal and treatment
+76120000	prefLabel		76120000
+76130000	definition		Toxic and hazardous waste cleanup
+76130000	prefLabel		76130000
+77000000	definition		
+77000000	prefLabel		Environmental Services
+77000000	scopeNote		Environmental Services
+77100000	definition		Environmental management
+77100000	prefLabel		77100000
+77110000	definition		Environmental protection
+77110000	prefLabel		77110000
+77120000	definition		Pollution tracking and monitoring and rehabilitation
+77120000	prefLabel		77120000
+77130000	definition		Pollutants tracking and monitoring and rehabilitation services
+77130000	prefLabel		70130000
+78000000	definition		Transportation and Storage and Mail Services
+78000000	prefLabel		Transportation and Storage and Mail Services
+78000000	scopeNote		
+78100000	definition		Mail and cargo transport
+78100000	prefLabel		78100000
+78110000	definition		Passenger transport
+78110000	prefLabel		78110000
+78120000	definition		Material packing and handling
+78120000	prefLabel		78120000
+78130000	definition		Storage
+78130000	prefLabel		78130000
+78140000	definition		Transport services
+78140000	prefLabel		78140000
+78180000	definition		Transportation repair or maintenance services
+78180000	prefLabel		78180000
+80000000	definition		Management and Business Professionals and Administrative Services
+80000000	prefLabel		Management and Business Professionals and Administrative Services
+80000000	scopeNote		
+80100000	definition		Management advisory services
+80100000	prefLabel		80100000
+80110000	definition		Human resources services
+80110000	prefLabel		80110000
+80120000	definition		Legal services
+80120000	prefLabel		80120000
+80130000	definition		Real estate services
+80130000	prefLabel		80130000
+80140000	definition		Marketing and distribution
+80140000	prefLabel		80140000
+80150000	definition		Entertainment services;Food and nutrition services;Public administration and finance services;Trade policy and services
+80150000	prefLabel		80150000;90150000
+80160000	definition		Business administration services
+80160000	prefLabel		80160000
+805170000	definition		Death and dying support services
+805170000	prefLabel		85170000
+81000000	definition		Engineering and Research and Technology Based Services
+81000000	prefLabel		Engineering and Research and Technology Based Services
+81000000	scopeNote		
+81100000	definition		Professional engineering services
+81100000	prefLabel		81100000
+81110000	definition		Computer Services
+81110000	prefLabel		81110000
+81120000	definition		Economics
+81120000	prefLabel		81120000
+81130000	definition		Statistics
+81130000	prefLabel		81130000
+81140000	definition		Manufacturing technologies
+81140000	prefLabel		81140000
+81150000	definition		Earth science services
+81150000	prefLabel		81150000
+81160000	definition		Information Technology Service Delivery
+81160000	prefLabel		81160000
+82000000	definition		Editorial and Design and Graphic and Fine Art Services
+82000000	prefLabel		Editorial and Design and Graphic and Fine Art Services
+82000000	scopeNote		
+82100000	definition		Advertising
+82100000	prefLabel		82100000
+82110000	definition		Writing and translations
+82110000	prefLabel		82110000
+82120000	definition		Reproduction services
+82120000	prefLabel		82120000
+82130000	definition		Photographic services
+82130000	prefLabel		82130000
+82140000	definition		Graphic design
+82140000	prefLabel		82140000
+82150000	definition		Professional artists and performers
+82150000	prefLabel		82150000
+83000000	definition		Public Utilities and Public Sector Related Services
+83000000	prefLabel		Public Utilities and Public Sector Related Services
+83000000	scopeNote		
+83100000	definition		Utilities
+83100000	prefLabel		83100000
+83110000	definition		Telecommunications media services
+83110000	prefLabel		83110000
+83120000	definition		Information services
+83120000	prefLabel		83120000
+84000000	definition		Financial and Insurance Services
+84000000	prefLabel		Financial and Insurance Services
+84000000	scopeNote		
+84100000	definition		Development finance
+84100000	prefLabel		84100000
+84110000	definition		Accounting and bookkeeping services
+84110000	prefLabel		84110000
+84120000	definition		Banking and investment
+84120000	prefLabel		84120000
+84130000	definition		Insurance and retirement services
+84130000	prefLabel		84130000
+84140000	definition		Credit agencies
+84140000	prefLabel		84140000
+85000000	definition		Healthcare Services
+85000000	prefLabel		Healthcare Services
+85000000	scopeNote		
+85100000	definition		Comprehensive health services
+85100000	prefLabel		85100000
+85110000	definition		Disease prevention and control
+85110000	prefLabel		85110000
+85120000	definition		Medical practice
+85120000	prefLabel		85120000
+85130000	definition		Medical science research and experimentation
+85130000	prefLabel		85130000
+85140000	definition		
+85140000	prefLabel		85140000
+85160000	definition		Medical Surgical Equipment Maintenance Refurbishment and Repair Services
+85160000	prefLabel		85160000
+86000000	definition		Education and Training Services
+86000000	prefLabel		Education and Training Services
+86000000	scopeNote		
+86100000	definition		Vocational training
+86100000	prefLabel		86100000
+86110000	definition		Alternative educational systems
+86110000	prefLabel		86110000
+86120000	definition		Educational institutions
+86120000	prefLabel		86120000
+86130000	definition		Specialized educational services
+86130000	prefLabel		86130000
+86140000	definition		Educational facilities
+86140000	prefLabel		86140000
+90000000	definition		Travel and Food and Lodging and Entertainment Services
+90000000	prefLabel		Travel and Food and Lodging and Entertainment Services
+90000000	scopeNote		
+90100000	definition		Restaurants and catering
+90100000	prefLabel		90100000
+90110000	definition		Hotels and lodging and meeting facilities
+90110000	prefLabel		90110000
+90120000	definition		Travel facilitation
+90120000	prefLabel		90120000
+90130000	definition		Performing arts
+90130000	prefLabel		90130000
+90140000	definition		Commercial sports
+90140000	prefLabel		90140000
+91000000	definition		Personal and Domestic Services
+91000000	prefLabel		Personal and Domestic Services
+91000000	scopeNote		
+91100000	definition		Personal appearance
+91100000	prefLabel		91100000
+91110000	definition		Domestic and personal assistance
+91110000	prefLabel		91110000
+92000000	definition		Security and Safety Services
+92000000	prefLabel		Security and Safety Services
+92000000	scopeNote		
+92120000	definition		Security and personal safety
+92120000	prefLabel		92120000
+93000000	definition		Politics and Civic Affairs Services
+93000000	prefLabel		Politics and Civic Affairs Services
+93000000	scopeNote		
+93100000	definition		Political systems and institutions
+93100000	prefLabel		93100000
+93110000	definition		Socio political conditions
+93110000	prefLabel		93110000
+93120000	definition		International relations
+93120000	prefLabel		93120000
+93130000	definition		Humanitarian aid and relief
+93130000	prefLabel		93130000
+93140000	definition		Community and social services
+93140000	prefLabel		93140000
+93160000	definition		Taxation
+93160000	prefLabel		93160000
+93170000	definition		Trade policy and regulation
+93170000	prefLabel		93170000
+94000000	definition		Organizations and Clubs
+94000000	prefLabel		
+94000000	scopeNote		
+94100000	definition		Work related organizations
+94100000	prefLabel		94100000
+94110000	definition		Religious organizations
+94110000	prefLabel		94110000
+94120000	definition		Clubs
+94120000	prefLabel		94120000
+94130000	definition		Civic organizations and associations and movements
+94130000	prefLabel		94130000
+95000000	definition		Land and Buildings and Structures and Thoroughfares
+95000000	prefLabel		Land and Buildings and Structures and Thoroughfares
+95000000	scopeNote		
+95100000	definition		Land parcels
+95100000	prefLabel		95100000
+95110000	definition		Thoroughfares
+95110000	prefLabel		95110000
+95120000	definition		Permanent buildings and structures
+95120000	prefLabel		95120000
+95130000	definition		Portable buildings and structures
+95130000	prefLabel		95130000
+95140000	definition		Prefabricated buildings and structures
+95140000	prefLabel		95140000

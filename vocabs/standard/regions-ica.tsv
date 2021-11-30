@@ -1,0 +1,20 @@
+term	property		EN	ES	FR
+	title		Regions	Regiones	Régions
+	description	A controlled vocabulary of ICA country regions for SSE			
+I-AF-CE	prefLabel		Central Africa	África Central	Afrique centrale
+I-AF-EA	prefLabel		East Africa	África Oriental	Afrique orientale
+I-AF-NO	prefLabel		North Africa	África Septentrional	Afrique du nord
+I-AF-SO	prefLabel		Southern Africa	África Meridional	Afrique australe
+I-AF-WE	prefLabel		West Africa	África Occidental	Afrique de l’Ouest
+I-AM-CB	prefLabel		Caribbean countries	El Caribe	Pays des Caraïbes
+I-AM-CE	prefLabel		Central America	América Central	Amérique centrale
+I-AM-NO	prefLabel		North America	América del Norte	Amérique du nord
+I-AM-SO	prefLabel		South America	América del Sur	Amérique du sud
+I-AP-CE	prefLabel		Central Asia	Asia Central	Asie centrale
+I-AP-EA	prefLabel		East Asia	Asia Oriental	Asie de l’est
+I-AP-ME	prefLabel		Middle East	Oriente Medio	Moyen-Orient
+I-AP-OC	prefLabel		Oceania	Oceanía	Océanie
+I-AP-SE	prefLabel		South East Asia	Sudeste Asiático	Asie du sud-est
+I-AP-SO	prefLabel		South Asia	Asia del Sur	Asie du sud
+I-EU-EA	prefLabel		Europe (Eastern)	Europa (oriental)	Europe (est)
+I-EU-WE	prefLabel		Europe (Western)	Europa (occidental)	Europe (ouest)
