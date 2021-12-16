@@ -90,11 +90,14 @@ scheme_props = term_index.delete('')
 
 scheme = Scheme.new(
   base_uri: base_uri,
-  title: scheme_props['title'],
-  description: scheme_props['description'],
+  title: scheme_props['dc:title'],
+  description: scheme_props['dc:description'],
   modified: scheme_modified_date,
   created: scheme_creation_date,
   prefixes: Prefixes,
+  properties: {
+    foo: '"bar"',
+  },
   terms: term_index.to_a.collect do |k, v|
     Term.new(base_uri, k, properties: v)
   end,

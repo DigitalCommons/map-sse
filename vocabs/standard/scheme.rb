@@ -13,7 +13,7 @@ require 'csv'
 
 # This writes a SKOS schema to a stream via #write
 class Scheme
-  attr_reader :base_uri, :title, :modified, :created, :terms
+  attr_reader :base_uri, :title, :modified, :created, :terms, :properties
 
   KnownPrefixes = {
     dc: "http://purl.org/dc/elements/1.1/",
@@ -124,6 +124,7 @@ class Scheme
   def initialize(base_uri:, title:,
                  modified:, created:,
                  description:,
+                 properties: {},
                  terms:, prefixes: {}, languages: nil)
     @base_uri = base_uri
     @title = title
@@ -132,9 +133,11 @@ class Scheme
     @created = created
     @terms = terms
     @languages = languages
+    @properties = properties.to_h
 
     @prefixes = Scheme._prefix_sort(
       **prefixes,
+      
       **KnownPrefixes.slice(*MandatoryPrefixes)
     )
   end
@@ -167,21 +170,30 @@ HERE
       iostream.puts "@prefix #{prefix}: <#{url}> ."
     end
 
+    all_props = {
+      **@properties,
+      'dc:creator': '"Solidarity Economy Association"',
+      'dc:description': "\n        #{qqstrs @description, indent: 8}",
+      'dc:language': '"en-en"',
+      'dc:modified': "#{qqstr @modified}^^xsd:date",
+      'dc:publisher': "<http://www.ripess.org/>",
+      'dc:title': "\n        #{qqstrs @title, indent: 8}",
+      'dcterms:created': "#{qqstr @created}^^xsd:date",
+      'dcterms:creator': "<http://solidarityeconomy.coop>",
+      'dcterms:publisher': '"ESSGLOBAL"',
+    }
+    
     iostream.puts <<HERE
 @base #{uri @base_uri} .
 
 <> a skos:ConceptScheme;
-    dc:creator "Solidarity Economy Association";
-    dc:description
-        #{qqstrs @description, indent: 8};
-    dc:language "en-en";
-    dc:modified #{qqstr @modified}^^xsd:date;
-    dc:publisher <http://www.ripess.org/>;
-    dc:title
-        #{qqstrs @title, indent: 8};
-    dcterms:created #{qqstr @created}^^xsd:date;
-    dcterms:creator <http://solidarityeconomy.coop>;
-    dcterms:publisher "ESSGLOBAL";
+HERE
+    
+    all_props.sort.each do |property, value|
+      iostream.puts "    #{property} #{value};"
+    end
+
+    iostream.puts <<HERE   
 .
 HERE
 
