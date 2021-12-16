@@ -15,6 +15,17 @@ require 'csv'
 class Scheme
   attr_reader :base_uri, :title, :modified, :created, :terms
 
+  KnownPrefixes = {
+    dc: "http://purl.org/dc/elements/1.1/",
+    dcterms: "http://purl.org/dc/terms/",
+    skos: "http://www.w3.org/2004/02/skos/core#",
+    xsd: "http://www.w3.org/2001/XMLSchema#", # for xsd:date
+    
+    ossr: "http://data.ordnancesurvey.co.uk/ontology/spatialrelations/", # for within
+  }
+
+  MandatoryPrefixes = [:dc, :dcterms, :skos, :xsd]
+
   def self._prefix_sort(**prefixes)
     prefixes
       .to_a
@@ -124,11 +135,7 @@ class Scheme
 
     @prefixes = Scheme._prefix_sort(
       **prefixes,
-      dc: "http://purl.org/dc/elements/1.1/",
-      dcterms: "http://purl.org/dc/terms/",
-      skos: "http://www.w3.org/2004/02/skos/core#",
-      xsd: "http://www.w3.org/2001/XMLSchema#",
-      ossr: "http://data.ordnancesurvey.co.uk/ontology/spatialrelations/",
+      **KnownPrefixes.slice(*MandatoryPrefixes)
     )
   end
 
@@ -163,17 +170,19 @@ HERE
     iostream.puts <<HERE
 @base #{uri @base_uri} .
 
-<> a skos:ConceptScheme ;
-    dc:title #{qqstrs @title};
-    dc:description #{qqstrs @description} ;
+<> a skos:ConceptScheme;
     dc:creator "Solidarity Economy Association";
+    dc:description
+        #{qqstrs @description, indent: 8};
     dc:language "en-en";
-    dcterms:creator <http://solidarityeconomy.coop>; # ?
-    dcterms:created #{qqstr @created}^^xsd:date;
-    dcterms:publisher "ESSGLOBAL";
+    dc:modified #{qqstr @modified}^^xsd:date;
     dc:publisher <http://www.ripess.org/>;
-    dc:modified #{qqstr @modified}^^xsd:date.
-
+    dc:title
+        #{qqstrs @title, indent: 8};
+    dcterms:created #{qqstr @created}^^xsd:date;
+    dcterms:creator <http://solidarityeconomy.coop>;
+    dcterms:publisher "ESSGLOBAL";
+.
 HERE
 
     @terms.each do |term| 
