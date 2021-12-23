@@ -14,18 +14,16 @@ subfield_delim = ';'
 
 options = {}
 
-scheme_creation_date = '2021-02-22' # HACK
 scheme_modified_date = Date.today.to_s
 base_uri = nil
 
 OptionParser.new do |opts|
   opts.banner = "Usage: #{$0} [options]"
-  opts.on('-u', '--base-uri URI', URI, "Set base URI") do |v|
+  opts.on('-u', '--base-uri [URI]', URI, "Set base URI") do |v|
     base_uri = v.to_s
   end
 end.parse!
 
-abort "You must supply a base URI" unless base_uri
 
 # Makes an autovivifying Hash.
 # Adapted from https://t-a-w.blogspot.com/2006/07/autovivification-in-ruby.html
@@ -41,7 +39,7 @@ class Term < Scheme::Term
     super(uri: base_uri+id.to_s,
           scheme: base_uri,
           properties: properties.transform_keys do |key|
-            'skos:'+key
+            key
           end)
     @id = id
   end
@@ -89,16 +87,19 @@ end
 # Get the global properties for the vocab (these have no term field)
 scheme_props = term_index.delete('')
 
+props_base_uri = scheme_props.delete('base_uri')
+base_uri = props_base_uri[""].first if base_uri.to_s.empty?
+
+abort "You must supply a base URI" unless base_uri
+
 scheme = Scheme.new(
   base_uri: base_uri,
-  title: scheme_props['dc:title'],
-  description: scheme_props['dc:description'],
+  title: scheme_props.delete('dc:title'),
+  description: scheme_props.delete('dc:description'),
   modified: scheme_modified_date,
-  created: scheme_creation_date,
+  created: scheme_props.delete('dcterms:created')[""].first,
   prefixes: Prefixes,
-  properties: {
-    foo: '"bar"',
-  },
+  properties: scheme_props.transform_keys {|k| k.to_sym },
   terms: term_index.to_a.collect do |k, v|
     Term.new(base_uri, k, properties: v)
   end,

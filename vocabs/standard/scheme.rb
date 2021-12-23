@@ -48,6 +48,14 @@ class Scheme
     return value
   end
 
+  def is_quri?(value)
+    value.to_s.strip =~ /^<http.*>$/sm
+  end
+  
+  def is_uri?(value)
+    value.to_s.strip =~ %r{^https?://}sm
+  end
+  
   def uri(value)
     q = value.gsub('<', '\u0096').gsub('>', '%\u0098')
     # don't quote anything with a prefix (except http/https)
@@ -68,7 +76,7 @@ class Scheme
     '"'+value.to_s.gsub(/\\/, '\\\\').gsub(/"/, '\\"')+'"'
   end
 
-  def qqstrs(values, indent: false)
+  def qqstrs(values, indent: false, newline: false)
     qqvalues =
       case values
       when String
@@ -80,7 +88,8 @@ class Scheme
         # (may be an array for a list of phrases, or nil if none)
         values.flat_map do |key, val|
           # compute the postfix from the key, if any
-          postfix = if key
+          key = key.to_s.strip
+          postfix = if key && key != ''
                       '@'+key
                     else
                       ''
@@ -101,9 +110,17 @@ class Scheme
         end
         
       when Enumerable
-        values.map do |key, val|
-          qqstr key # plain list of values
-        end.join(", ")
+        # plain list of values
+        values.map do |key|
+          # Attempt to use the correct quoting style
+          if is_quri?(key)
+            key
+          elsif is_uri?(key)
+            uri(key)
+          else
+            qqstr(key) 
+          end
+        end
         
       else
         [qqstr(values.to_s)] # single non-string value
@@ -116,9 +133,12 @@ class Scheme
             else
               ", "
             end
-    
 
-    return qqvalues.join(delim)
+    if newline
+      return "\n#{" " * indent}#{qqvalues.join(delim)}"
+    else
+      return qqvalues.join(delim)
+    end
   end
   
   def initialize(base_uri:, title:,
@@ -169,19 +189,15 @@ HERE
     @prefixes.sort.each do |prefix, url|
       iostream.puts "@prefix #{prefix}: <#{url}> ."
     end
-
+    
     all_props = {
-      **@properties,
-      'dc:creator': '"Solidarity Economy Association"',
-      'dc:description': "\n        #{qqstrs @description, indent: 8}",
-      'dc:language': '"en-en"',
+      'dc:description': qqstrs(@description, indent: 8, newline: true),
       'dc:modified': "#{qqstr @modified}^^xsd:date",
-      'dc:publisher': "<http://www.ripess.org/>",
-      'dc:title': "\n        #{qqstrs @title, indent: 8}",
+      'dc:title': qqstrs(@title, indent: 8, newline: true),
       'dcterms:created': "#{qqstr @created}^^xsd:date",
-      'dcterms:creator': "<http://solidarityeconomy.coop>",
-      'dcterms:publisher': '"ESSGLOBAL"',
+      **@properties,
     }
+
     
     iostream.puts <<HERE
 @base #{uri @base_uri} .
@@ -190,7 +206,24 @@ HERE
 HERE
     
     all_props.sort.each do |property, value|
-      iostream.puts "    #{property} #{value};"
+
+      if value.is_a? Hash
+        value.delete_if do |k, v|
+          v.empty?
+        end
+        if value.keys == [""]
+          value = qqstrs(value[""])
+        else
+          value = qqstrs(value, indent: 8, newline: true) 
+        end
+      end
+
+      delim = if value =~ /^\s/
+                "" # don't delim if value starts with whitespace
+              else
+                " "
+              end 
+      iostream.puts "    #{property}#{delim}#{value};"
     end
 
     iostream.puts <<HERE   
