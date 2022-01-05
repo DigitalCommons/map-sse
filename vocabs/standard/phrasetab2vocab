@@ -4,13 +4,187 @@ require 'date'
 require 'csv'
 require 'optparse'
 require 'optparse/uri'
-require './scheme'
+require 'rdf'
+require 'rdf/turtle'
 
-Languages = ['EN'] #,'ES','FR','DE','ZH']
-Prefixes = {
+
+# The rogue value used as the CSV column heading for "languageless" values.
+NoLang = ""
+SubfieldDelim = ';'
+
+
+KnownPrefixes = {
+  dc: "http://purl.org/dc/elements/1.1/",
+  dcterms: "http://purl.org/dc/terms/",
+  skos: "http://www.w3.org/2004/02/skos/core#",
+  xsd: "http://www.w3.org/2001/XMLSchema#", # for xsd:date
+  rdfs: "http://www.w3.org/2000/01/rdf-schema#",
+  adcmi: "http://purl.org/dc/aboutdcmi#",
+  
+  ossr: "http://data.ordnancesurvey.co.uk/ontology/spatialrelations/", # for within
 }
 
-subfield_delim = ';'
+
+# FIXME This is currently somewhat guesswork, and incomplete.
+#
+# This class defines a set of methods with the `as_` prefix and an XSD
+# type IDs which will map the data hash expanded from an input CSV row
+# and return an appropriate RDF value to feed into RDF::Vocabulary.
+#
+# Input value to these methods should be a Hash. Keys of this Hash are
+# language terms plus the rogue value string NoLang, indicating no
+# language. Values are arrays of zero or more values for that
+# language.
+class Normaliser
+
+  def initialize
+    # FIXME These are currently somewhat guesswork, and incomplete.
+    #
+    # This array maps property URIs to the expected type(s) they should be
+    # populated with. The type maps to Normaliser function (see below).
+    #
+    # See my question https://stackoverflow.com/questions/70490524
+    @known_types = {
+      'dc:contributor': [:anyType],
+      'dc:coverage': [:anyType],
+      'dc:created': [:date,:dateTime],
+      'dc:creator': [:anyURI,:string],
+      'dc:date': [:date,:dateTime],
+      'dc:description': [:string],
+      'dc:format': [:anyType],
+      'dc:identifier': [:anyType],
+      'dc:language': [:language],
+      'dc:modified': [:date,:dateTime],
+      'dc:publisher': [:anyURI,:string],
+      'dc:relation': [:anyURI,:string],
+      'dc:rights': [:anyType],
+      'dc:source': [:anyType],
+      'dc:subject': [:anyType],
+      'dc:title': [:string],
+      'dc:type': [:anyType],
+      'dcterms:contributor': [:anyType],
+      'dcterms:coverage': [:anyType],
+      'dcterms:created': [:date,:dateTime],
+      'dcterms:creator': [:anyURI,:string],
+      'dcterms:date': [:date,:dateTime],
+      'dcterms:description': [:string],
+      'dcterms:format': [:anyType],
+      'dcterms:identifier': [:anyURI],
+      'dcterms:language': [:language],
+      'dcterms:publisher': [:anyURI,:string],
+      'dcterms:relation': [:anyURI,:string],
+      'dcterms:rights': [:anyType],
+      'dcterms:source': [:anyType],
+      'dcterms:subject': [:anyType],
+      'dcterms:title': [:string],
+      'dcterms:type': [:anyType],
+    }
+    end
+  
+  def as_anyType(v)
+    as_string(v) # Bit of a HACK, delegates to :string
+  end
+
+  def as_string(v)
+    if v.respond_to? :keys
+      v.keys.sort.map do |lang|
+        vals = v[lang]
+        vals.map do |val|
+          RDF::Literal.new(val, language: lang)
+        end
+      end.flatten
+    elsif v.is_a? String
+      RDF::Literal.new(v.to_s)
+    elsif v.respond_to? :map
+      v.map {|e| RDF::Literal.new(e.to_s) }
+    else
+      nil
+    end
+  end
+  
+  def as_anyURI(v)
+    uri = URI(v)
+    raise if uri.class == URI::Generic
+    RDF::URI.new(v)        
+  rescue
+    warn "Invalid URI: #{v}"
+    nil
+  end
+
+  def as_language(v)
+    RDF::Literal.new(v.to_s) # FIXME
+  end
+  
+  def as_date(v)
+    RDF::Literal.new(Date.parse(v))
+  rescue
+  end
+  
+  def as_dateTime(v)
+    RDF::Literal.new(DateTime.parse(v))
+  rescue
+  end
+
+  # Normalise a single property value, given the property id referring
+  # to it to look up the right function in Normalisers.
+  #
+  # The value should be a Hash as accepted by the normalising (`as_*`)
+  # methods. Keys of this Hash are language terms plus the rogue value
+  # string NoLang, indicating no language. Values are arrays of zero
+  # or more values for that language.
+  def normalise_value(id, value)
+    types = @known_types[id.to_sym] || [:anyType]
+    for type in types do
+      normalised = send("as_#{type}", value)
+      
+      # warn "normalised #{value}+#{type}-> #{normalised}" # DEBUG
+      # Stop when one is non-nil
+      return normalised unless normalised.nil?
+    end
+    
+    # We have no value
+    raise "Invalid value for property `#{id}`, expecting one of the types `#{types}`: #{value}"
+  end
+
+  # Normalise a hash of properties.
+  #
+  # Properties should be a hash, with keys an URI (possibly abbreviated into a pname),
+  # and value a hash as expected by the #normalise_value method.
+  def normalise_props(props)
+    props.map do |elem|
+      property, fields = elem
+      # Collapse to a single language-free value if now possible
+      # warn "norm   #{property} -> #{fields}" # DEBUG
+
+      if fields.empty?
+        fields = normalise_value(property, NoLang)
+      elsif fields.is_a? Array
+        fields = fields.map {|f| normalise_value(property, f)}
+      elsif fields.is_a? Hash
+        if fields.keys == [NoLang]
+          fields = fields[NoLang]
+
+          if fields.is_a?(Array)
+            fields = fields.map {|f| normalise_value(property, f) }
+
+          else
+            fields = [normalise_value(property, fields)]
+          end
+        else
+          # Language-tagged; this is a hash of arrays of phrases, which we
+          # need to flatten into an array of language-tagged literals
+          fields = normalise_value(property, fields)
+        end
+      else
+        raise "unrecognised fields: #{fields}"
+      end
+
+      # warn "normed #{property} -> #{fields}" # DEBUG
+      [property,fields]
+    end.to_h
+  end
+  
+end
 
 options = {}
 
@@ -33,18 +207,6 @@ def autovivifying_hash
   end
 end
 
-class Term < Scheme::Term
-  attr_reader :id
-  def initialize(base_uri, id, properties:)
-    super(uri: base_uri+id.to_s,
-          scheme: base_uri,
-          properties: properties.transform_keys do |key|
-            key
-          end)
-    @id = id
-  end
-end
-
 # Iterate over the input TSV, and build a nested hash index of
 # terms -> properties -> language code -> phrase
 term_index = autovivifying_hash
@@ -56,11 +218,13 @@ CSV.new($stdin, col_sep: "\t", headers: true, liberal_parsing: true).each do |ro
   property = property.to_s.strip
 
   # remove the term and property fields
-  terms = row.to_h.except('term', 'property')
+  fields = row.to_h
+  fields.delete('term')
+  fields.delete('property')
 
   # split multi-value items (those with a subfield delimiter)
-  terms = terms.to_a.collect do |k, v|
-    # Sanitise the terms,
+  fields = fields.to_a.collect do |k, v|
+    # Sanitise the fields,
     # remove spurious whitespace
     k = k.to_s.strip
     v = v.to_s.strip
@@ -68,18 +232,31 @@ CSV.new($stdin, col_sep: "\t", headers: true, liberal_parsing: true).each do |ro
     ary = if v
             # Here we use a negative lookbehind anchor to ensure we only match
             # subfield_delims not preceeded by an escape character.
-            v.split(/(?<!\\)#{Regexp.quote(subfield_delim)}/)
+            v.split(/(?<!\\)#{Regexp.quote(SubfieldDelim)}/)
               .collect {|it| it.gsub(/\\(.)/, '\1') } # unescape
           else
             []
           end
-    
+
     [k, ary]
+  end.to_h
+
+  # Remove empty fields
+  fields.delete_if do |k, v|
+    v.empty?
   end
+
+
+
+
+  # warn "#{property}>> #{fields}" # DEBUG
   
-  term_index[term][property] = terms.to_h
+  term_index[term][property] = fields
 end
-   
+
+
+
+
 if term_index.empty?
   raise "Input phrasetab gives an emtpy term index!"
 end
@@ -88,23 +265,71 @@ end
 scheme_props = term_index.delete('')
 
 props_base_uri = scheme_props.delete('base_uri')
-base_uri = props_base_uri[""].first if base_uri.to_s.empty?
 
+base_uri = props_base_uri&.fetch(NoLang)&.first.to_s if base_uri.to_s.empty?
+
+normaliser = Normaliser.new
+scheme_props = normaliser.normalise_props(scheme_props)
 abort "You must supply a base URI" unless base_uri
 
-scheme = Scheme.new(
-  base_uri: base_uri,
-  title: scheme_props.delete('dc:title'),
-  description: scheme_props.delete('dc:description'),
-  modified: scheme_modified_date,
-  created: scheme_props.delete('dcterms:created')[""].first,
-  prefixes: Prefixes,
-  properties: scheme_props.transform_keys {|k| k.to_sym },
-  terms: term_index.to_a.collect do |k, v|
-    Term.new(base_uri, k, properties: v)
-  end,
-)
+vocab = Class.new(RDF::Vocabulary(base_uri)) do
+
+  # Ontology definition
+  ontology base_uri, **scheme_props.merge({'rdf:type': 'skos:ConceptScheme'})
+
+  # Term definitions
+  term_index.each_pair do |property, value|
+    termprops = normaliser.normalise_props(value)
+    #pp termprops # DEBUG
+    term property, **termprops.merge({'rdf:type': 'skos:Concept',
+                                      'skos:inScheme': base_uri})
+  end
+end
+
+# RDF lib seems not to supply anything like this which works on a hash of prefixes
+def expand_pname(pname, prefixes: KnownPrefixes)
+  prefix, suffix = pname.to_s.split(':', 2)
+  return pname unless prefix && suffix
+  return RDF::URI(pname, validate: true) if prefix =~ /^https?/
+  prefix = prefix.to_sym
+  if prefixes.has_key?(prefix)
+    RDF::URI("#{prefixes[prefix]}#{suffix}", validate: true)
+  else
+    raise KeyError.new("unknown pname prefix `#{prefix}` in `#{pname}`")
+  end
+end
+
+graph = RDF::Graph.new << vocab.to_enum
+#pp graph.to_enum.to_a.sort
+writer = RDF::Writer.for(:ttl)
+
+# FIXME relativize breaks given array of RDF::Literal string
+
+# Redefine #format_uri for to suit our aesthetics
+class RDF::Turtle::Writer
+  def format_uri(uri, *options)
+    xuri = expand_pname uri
+    md = get_pname(xuri)
+    
+    log_debug("relativize") {"#{uri.to_ntriples} => #{md.inspect}"} if md != uri.to_s
+    return md if md && md != xuri.to_s
+
+    ruri = xuri.relativize(base_uri)
+
+    return "<#{ruri}>" if ruri && ruri != uri.to_s
+    return "<#{uri}>"
+  end
+end
 
 
-scheme.write
+puts writer.dump(
+       graph, nil,
+       base_uri: vocab,
+       validate: false,
+       canonicalize: false,
+       standard_prefixes: true,
+       prefixes: KnownPrefixes
+     )
+
+
 
