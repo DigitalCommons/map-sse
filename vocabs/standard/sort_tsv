@@ -1,0 +1,30 @@
+#!/bin/env ruby
+require 'csv'
+
+# Sorts a tab-delimited file input on STDIN, sorting fields like GNU `sort -V`
+
+opts = {
+  headers:true,
+  col_sep: "\t",
+  quote_char: "\0", # when outputting, omit quotes
+  liberal_parsing: true,
+}
+
+table = CSV.new($stdin, **opts)
+
+
+# Emulate unix's sort -V: split each field into an array of string or
+# numeric values, and sort by those in turn. So for example, ICA10
+# sorts above ICA100.
+sorted_ary = table.sort_by do |r|
+  x = r.fields.map do |f|
+    # Split the field into array of [<string>, nil] or [nil, <number>] values
+    f.to_s.scan(/(\D+)|(\d+)/).map do |m|
+      s,n = m
+      n ? n.to_i : s.to_s # Convert number strings to integers
+    end.to_a
+  end
+  x
+end
+
+puts CSV::Table.new(sorted_ary).to_csv(**opts)
