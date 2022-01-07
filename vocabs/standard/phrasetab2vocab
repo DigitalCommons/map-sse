@@ -210,9 +210,15 @@ end
 # Iterate over the input TSV, and build a nested hash index of
 # terms -> properties -> language code -> phrase
 term_index = autovivifying_hash
+lineno = 1
 CSV.new($stdin, col_sep: "\t", headers: true, liberal_parsing: true).each do |row|
+  lineno += 1
   term, property = row.fields('term', 'property')
-
+  unless property
+    warn "Skipping blank property in line #{lineno}: #{row}"
+    next
+  end
+  
   # remove nulls/padding
   term = term.to_s.strip
   property = property.to_s.strip
