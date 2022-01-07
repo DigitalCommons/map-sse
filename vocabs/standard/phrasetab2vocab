@@ -252,11 +252,6 @@ CSV.new($stdin, col_sep: "\t", headers: true, liberal_parsing: true).each do |ro
     v.empty?
   end
 
-
-
-
-  # warn "#{property}>> #{fields}" # DEBUG
-  
   term_index[term][property] = fields
 end
 
@@ -307,12 +302,23 @@ end
 
 graph = RDF::Graph.new << vocab.to_enum
 #pp graph.to_enum.to_a.sort
-writer = RDF::Writer.for(:ttl)
 
-# FIXME relativize breaks given array of RDF::Literal string
 
-# Redefine #format_uri for to suit our aesthetics
-class RDF::Turtle::Writer
+
+# Tweak RDF::Turtle::Writer to suit our aesthetics
+#
+# See https://stackoverflow.com/questions/4470108/when-monkey-patching-an-instance-method-can-you-call-the-overridden-method-from
+module WriterExtensions
+
+  def initialize(output = $stdout, **options, &block)
+    # Save any prefixes supplied from being zapped later in the #preprocess function
+    @@prefixes = options[:prefixes]&.dup || {}
+    super
+  end
+  
+  # Redefine such that this won't try and relativize URIs with lots of
+  # `../..` when qname URIs are in an adjacent namespace as the base
+  # URI. 
   def format_uri(uri, *options)
     xuri = expand_pname uri
     md = get_pname(xuri)
@@ -325,9 +331,84 @@ class RDF::Turtle::Writer
     return "<#{ruri}>" if ruri && ruri != uri.to_s
     return "<#{uri}>"
   end
+
+  # Sort objects by datatype, then those with language tags by the
+  # tags, then the strings. Attemtps to enforce a deterministic order.
+  def sort_objects(objects)
+    objects.sort_by do |obj|
+      case obj
+      when RDF::Literal
+        [obj.datatype, obj.language, obj.to_s]
+      else
+        [nil, nil, obj.to_s]
+      end
+    end
+  end
+
+  # Sort the order of objects being output
+  #
+  # Uses #sort_objects
+  def objectList(subject, predicate, objects)
+    objects = sort_objects(objects) if objects.length > 1
+
+    # Delegate to the supermethod
+    super(subject, predicate, objects)
+  end
+
+  # Capture prefixes used in qnames such that they appear in the header
+  #
+  # Without this, terms like `skos:prefName` won't be listed, even if
+  # the :standard_prefixes and/or :prefixes options are set.
+  def get_pname(resource)
+    case resource
+    when RDF::URI # Detect prefixes
+      px, _ = resource.to_s.split(':', 2)
+      
+      case px
+      when "http", "https"
+        # Not a prefix - continue as before (short circuits a trivial case).
+        return super
+
+      when nil
+        return super
+        
+      else
+        # Check the prefix...
+        px = px.to_sym
+        case
+        when prefixes.has_key?(px)
+          # Prefix already marked as used, leave url alone.
+          return resource.to_s
+
+        when @@prefixes.has_key?(px)
+          # Prefix supplied by caller, but not yet marked as used.
+          # Mark it so, then leave url alone.
+          prefix(px, @@prefixes[px])
+          return resource.to_s
+          
+        when @options[:standard_prefixes] && RDF::Vocabulary.vocab_map.has_key?(px)
+          # Prefix a standard one, but not yet marked as used.
+          # Mark it so, then leave url alone.
+          prefix(px, @@prefixes[px])
+          return resource.to_s
+        end
+      end
+    end
+    
+    # In all other cases, delegate to the supermethod.
+    super
+  end
+end
+
+# Use the extensions defined above
+class RDF::Turtle::Writer
+  prepend WriterExtensions
 end
 
 
+writer = RDF::Writer.for(:ttl)
+
+# Dump the graph as TTL
 puts writer.dump(
        graph, nil,
        base_uri: vocab,
@@ -336,6 +417,4 @@ puts writer.dump(
        standard_prefixes: true,
        prefixes: KnownPrefixes
      )
-
-
 
