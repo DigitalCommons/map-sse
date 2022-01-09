@@ -23,20 +23,29 @@
 
 
 require 'rdf'
-require 'rdf/vocab'
+require 'rdf/vocab' # 3.2
 require 'rdf/turtle'
+require './known-prefixes'
+
+RDF::Vocabulary.vocab_map.delete(:dc)
+RDF::Vocabulary.vocab_map.delete(:dc11)
+
+RDF::Vocabulary.register(:dc, "http://purl.org/dc/elements/1.1/")
+RDF::Vocabulary.register(:dcterms, "http://purl.org/dc/terms/")
 
 class TTL2PhraseTab
 
   attr_reader :graph, :base_uri
-  
+
   def initialize(graph)
     @graph = graph
-    
-    #    assert true
-    stmt = graph.query({predicate: RDF.type, object: RDF::Vocab::SKOS.ConceptScheme})
-    @base_uri = stmt.first_subject.to_s
 
+    # Find base URI
+    stmt = graph.query({predicate: RDF.type, object: RDF::Vocab::SKOS.ConceptScheme})
+    unless @base_uri = stmt.first_subject.to_s
+      raise "base_uri property is missing"
+    end
+    
     @default_lang = nil # no explicit language
     @subfield_delim = ";"
     @field_delim = "\t"
@@ -102,7 +111,9 @@ class TTL2PhraseTab
   private
   
   def shorten_url(url)
-    url.pname.delete_prefix(@base_uri.to_s)  
+    # See https://github.com/ruby-rdf/rdf-vocab/issues/73
+    # regarding the use of the prefixes parameter
+    url.pname(prefixes: KnownPrefixes).delete_prefix(@base_uri.to_s)
   end
   
   def escape(char)
