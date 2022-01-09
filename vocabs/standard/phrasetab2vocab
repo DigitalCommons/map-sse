@@ -265,7 +265,8 @@ abort "You must supply a base URI" unless base_uri
 vocab = Class.new(RDF::Vocabulary(base_uri)) do
 
   # Ontology definition
-  ontology base_uri, **scheme_props.merge({'rdf:type': 'skos:ConceptScheme'})
+  ontology base_uri, **scheme_props.merge({'rdf:type': 'skos:ConceptScheme',
+                                           'dc:modified': Date.today.iso8601})
 
   # Term definitions
   term_index.each_pair do |property, value|
