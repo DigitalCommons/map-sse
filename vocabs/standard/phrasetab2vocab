@@ -330,7 +330,7 @@ end
 # terms -> properties -> language code -> phrase
 term_index = autovivifying_hash
 lineno = 1
-CSV.new($stdin, col_sep: "\t", headers: true, liberal_parsing: true).each do |row|
+CSV.new($stdin, col_sep: "\t", headers: true, quote_char: "\0", liberal_parsing: true).each do |row|
   lineno += 1
   term, property = row.fields('term', 'property')
   unless property
