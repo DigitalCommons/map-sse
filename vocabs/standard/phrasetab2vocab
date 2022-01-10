@@ -13,6 +13,119 @@ require './known-prefixes'
 NoLang = ""
 SubfieldDelim = ';'
 
+# Tweak RDF::Turtle::Writer to suit our aesthetics
+#
+# See https://stackoverflow.com/questions/4470108/when-monkey-patching-an-instance-method-can-you-call-the-overridden-method-from
+module WriterExtensions
+
+  def initialize(output = $stdout, **options, &block)
+    # Save any prefixes supplied from being zapped later in the #preprocess function
+    @@prefixes = options[:prefixes]&.dup || {}
+    super
+  end
+  
+  # RDF lib seems not to supply anything like this which works on a hash of prefixes
+  def self.expand_pname(pname, prefixes: KnownPrefixes)
+    prefix, suffix = pname.to_s.split(':', 2)
+    return pname unless prefix && suffix
+    return RDF::URI(pname, validate: true) if prefix =~ /^https?/
+    prefix = prefix.to_sym
+    if prefixes.has_key?(prefix)
+      RDF::URI("#{prefixes[prefix]}#{suffix}", validate: true)
+    else
+      raise KeyError.new("unknown pname prefix `#{prefix}` in `#{pname}`")
+    end
+  end
+
+  def expand_pname(name)
+    WriterExtensions.expand_pname(name)
+  end
+  
+  # Redefine such that this won't try and relativize URIs with lots of
+  # `../..` when qname URIs are in an adjacent namespace as the base
+  # URI. 
+  def format_uri(uri, *options)
+    xuri = expand_pname uri
+    md = get_pname(xuri)
+    
+    log_debug("relativize") {"#{uri.to_ntriples} => #{md.inspect}"} if md != uri.to_s
+    return md if md && md != xuri.to_s
+
+    ruri = xuri.relativize(base_uri)
+
+    return "<#{ruri}>" if ruri && ruri != uri.to_s
+    return "<#{uri}>"
+  end
+
+  # Sort objects by datatype, then those with language tags by the
+  # tags, then the strings. Attemtps to enforce a deterministic order.
+  def sort_objects(objects)
+    objects.sort_by do |obj|
+      case obj
+      when RDF::Literal
+        [obj.datatype, obj.language, obj.to_s]
+      else
+        [nil, nil, obj.to_s]
+      end
+    end
+  end
+
+  # Sort the order of objects being output
+  #
+  # Uses #sort_objects
+  def objectList(subject, predicate, objects)
+    objects = sort_objects(objects) if objects.length > 1
+
+    # Delegate to the supermethod
+    super(subject, predicate, objects)
+  end
+
+  # Capture prefixes used in qnames such that they appear in the header
+  #
+  # Without this, terms like `skos:prefName` won't be listed, even if
+  # the :standard_prefixes and/or :prefixes options are set.
+  def get_pname(resource)
+    case resource
+    when RDF::URI # Detect prefixes
+      px, _ = resource.to_s.split(':', 2)
+      
+      case px
+      when "http", "https"
+        # Not a prefix - continue as before (short circuits a trivial case).
+        return super
+
+      when nil
+        return super
+        
+      else
+        # Check the prefix...
+        px = px.to_sym
+        case
+        when prefixes.has_key?(px)
+          # Prefix already marked as used, leave url alone.
+          return resource.to_s
+
+        when @@prefixes.has_key?(px)
+          # Prefix supplied by caller, but not yet marked as used.
+          # Mark it so, then leave url alone.
+          prefix(px, @@prefixes[px])
+          return resource.to_s
+          
+        when @options[:standard_prefixes] && RDF::Vocabulary.vocab_map.has_key?(px)
+          # Prefix a standard one, but not yet marked as used.
+          # Mark it so, then leave url alone.
+          prefix(px, @@prefixes[px])
+          return resource.to_s
+        end
+      end
+    end
+    
+    # In all other cases, delegate to the supermethod.
+    super
+  end
+end
+
+
 
 # FIXME This is currently somewhat guesswork, and incomplete.
 #
@@ -26,7 +139,7 @@ SubfieldDelim = ';'
 # language.
 class Normaliser
 
-  def initialize
+  def initialize(base_uri:)
     # FIXME These are currently somewhat guesswork, and incomplete.
     #
     # This array maps property URIs to the expected type(s) they should be
@@ -67,7 +180,16 @@ class Normaliser
       'dcterms:subject': [:anyType],
       'dcterms:title': [:string],
       'dcterms:type': [:anyType],
+      'rdf:type': [:anyURI],
+      'skos:ConceptScheme': [:anyURI],
+      'skos:Concept': [:anyURI],
+      'skos:altLabel': [:string],
+      'skos:inScheme': [:anyURI],
+      'skos:prefLabel': [:string],
+      'skos:scopeNote': [:string],                    
     }
+
+    @base_uri = URI(base_uri)
     end
   
   def as_anyType(v)
@@ -92,9 +214,15 @@ class Normaliser
   end
   
   def as_anyURI(v)
-    uri = URI(v)
+    if v == ''
+      # warn "using base #{@base_uri}" # DEBUG
+      uri = @base_uri
+    else
+      uri = URI(WriterExtensions.expand_pname(v))
+    end
+    # warn "uri #{v} => #{uri}" # DEBUG
     raise if uri.class == URI::Generic
-    RDF::URI.new(v)        
+    RDF::URI.new(uri)
   rescue
     warn "Invalid URI: #{v}"
     nil
@@ -122,7 +250,9 @@ class Normaliser
   # string NoLang, indicating no language. Values are arrays of zero
   # or more values for that language.
   def normalise_value(id, value)
-    types = @known_types[id.to_sym] || [:anyType]
+    shortid = RDF::URI(id).pname
+    types = @known_types[shortid.to_sym] || [:anyType]
+    # warn "normalising #{id} as #{types}" # DEBUG
     for type in types do
       normalised = send("as_#{type}", value)
       
@@ -253,142 +383,35 @@ end
 
 # Get the global properties for the vocab (these have no term field)
 scheme_props = term_index.delete('')
+scheme_props.merge!({'rdf:type' => {'' => ['skos:ConceptScheme']},
+                     'dc:modified' => {'' => [Date.today.iso8601]}})
 
 props_base_uri = scheme_props.delete('base_uri')
 
 base_uri = props_base_uri&.fetch(NoLang)&.first.to_s if base_uri.to_s.empty?
 
-normaliser = Normaliser.new
+normaliser = Normaliser.new(base_uri: base_uri)
 scheme_props = normaliser.normalise_props(scheme_props)
 abort "You must supply a base URI" unless base_uri
 
 vocab = Class.new(RDF::Vocabulary(base_uri)) do
 
   # Ontology definition
-  ontology base_uri, **scheme_props.merge({'rdf:type': 'skos:ConceptScheme',
-                                           'dc:modified': Date.today.iso8601})
-
+  ontology base_uri, **scheme_props
   # Term definitions
   term_index.each_pair do |property, value|
+    value.merge!({'rdf:type' => {'' => ['skos:Concept']},
+                  'skos:inScheme' => {'' => [base_uri]}})
     termprops = normaliser.normalise_props(value)
     #pp termprops # DEBUG
-    term property, **termprops.merge({'rdf:type': 'skos:Concept',
-                                      'skos:inScheme': base_uri})
+    term property, **termprops
   end
 end
 
-# RDF lib seems not to supply anything like this which works on a hash of prefixes
-def expand_pname(pname, prefixes: KnownPrefixes)
-  prefix, suffix = pname.to_s.split(':', 2)
-  return pname unless prefix && suffix
-  return RDF::URI(pname, validate: true) if prefix =~ /^https?/
-  prefix = prefix.to_sym
-  if prefixes.has_key?(prefix)
-    RDF::URI("#{prefixes[prefix]}#{suffix}", validate: true)
-  else
-    raise KeyError.new("unknown pname prefix `#{prefix}` in `#{pname}`")
-  end
-end
+# Deduplicate statements whilst reading into a graph object
+graph = RDF::Graph.new.insert(*vocab.to_enum.to_a.uniq)
 
-graph = RDF::Graph.new << vocab.to_enum
-#pp graph.to_enum.to_a.sort
-
-
-
-# Tweak RDF::Turtle::Writer to suit our aesthetics
-#
-# See https://stackoverflow.com/questions/4470108/when-monkey-patching-an-instance-method-can-you-call-the-overridden-method-from
-module WriterExtensions
-
-  def initialize(output = $stdout, **options, &block)
-    # Save any prefixes supplied from being zapped later in the #preprocess function
-    @@prefixes = options[:prefixes]&.dup || {}
-    super
-  end
-  
-  # Redefine such that this won't try and relativize URIs with lots of
-  # `../..` when qname URIs are in an adjacent namespace as the base
-  # URI. 
-  def format_uri(uri, *options)
-    xuri = expand_pname uri
-    md = get_pname(xuri)
-    
-    log_debug("relativize") {"#{uri.to_ntriples} => #{md.inspect}"} if md != uri.to_s
-    return md if md && md != xuri.to_s
-
-    ruri = xuri.relativize(base_uri)
-
-    return "<#{ruri}>" if ruri && ruri != uri.to_s
-    return "<#{uri}>"
-  end
-
-  # Sort objects by datatype, then those with language tags by the
-  # tags, then the strings. Attemtps to enforce a deterministic order.
-  def sort_objects(objects)
-    objects.sort_by do |obj|
-      case obj
-      when RDF::Literal
-        [obj.datatype, obj.language, obj.to_s]
-      else
-        [nil, nil, obj.to_s]
-      end
-    end
-  end
-
-  # Sort the order of objects being output
-  #
-  # Uses #sort_objects
-  def objectList(subject, predicate, objects)
-    objects = sort_objects(objects) if objects.length > 1
-
-    # Delegate to the supermethod
-    super(subject, predicate, objects)
-  end
-
-  # Capture prefixes used in qnames such that they appear in the header
-  #
-  # Without this, terms like `skos:prefName` won't be listed, even if
-  # the :standard_prefixes and/or :prefixes options are set.
-  def get_pname(resource)
-    case resource
-    when RDF::URI # Detect prefixes
-      px, _ = resource.to_s.split(':', 2)
-      
-      case px
-      when "http", "https"
-        # Not a prefix - continue as before (short circuits a trivial case).
-        return super
-
-      when nil
-        return super
-        
-      else
-        # Check the prefix...
-        px = px.to_sym
-        case
-        when prefixes.has_key?(px)
-          # Prefix already marked as used, leave url alone.
-          return resource.to_s
-
-        when @@prefixes.has_key?(px)
-          # Prefix supplied by caller, but not yet marked as used.
-          # Mark it so, then leave url alone.
-          prefix(px, @@prefixes[px])
-          return resource.to_s
-          
-        when @options[:standard_prefixes] && RDF::Vocabulary.vocab_map.has_key?(px)
-          # Prefix a standard one, but not yet marked as used.
-          # Mark it so, then leave url alone.
-          prefix(px, @@prefixes[px])
-          return resource.to_s
-        end
-      end
-    end
-    
-    # In all other cases, delegate to the supermethod.
-    super
-  end
-end
+# pp graph.to_enum.to_a.sort DEBUG
 
 # Use the extensions defined above
 class RDF::Turtle::Writer
