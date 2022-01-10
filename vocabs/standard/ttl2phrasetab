@@ -87,10 +87,13 @@ class TTL2PhraseTab
 
     io.puts %w(term property).concat(langs).join("\t")
 
-    table.keys.sort.each do |subj|
+    # now put the base_uri (which isn't really a real statement)
+    io.puts ['', 'base_uri', @base_uri].concat([''] * langs.length).join("\t")
+
+    rows = table.keys.collect do |subj|
       subtable = table[subj]
 
-      subtable.keys.each do |property|
+      subtable.keys.collect do |property|
         if subtable[property]
           localisations = langs.collect do |lang|
             (subtable[property][lang] || [])
@@ -98,13 +101,28 @@ class TTL2PhraseTab
               .collect(&escape(@subfield_delim))
               .join(@subfield_delim)
           end
-          io.puts [subj, property]
-                 .concat(localisations)
-                 .collect(&escape(@field_delim))
-                 .join("\t")
+          [subj, property]
+            .concat(localisations)
+            .collect(&escape(@field_delim))
         end
       end
-
+    end.flatten(1)
+    
+    # Emulate unix's sort -V: split each field into an array of string or
+    # numeric values, and sort by those in turn. So for example, ICA10
+    # sorts above ICA100.
+    rows.sort_by! do |r|
+      r.map do |f|
+        # Split the field into array of [<string>, nil] or [nil, <number>] values
+        f.to_s.scan(/(\D+)|(\d+)/).map do |m|
+          s,n = m
+          n ? n.to_i : s.to_s # Convert number strings to integers
+        end.to_a
+        end
+    end
+    
+    rows.each do |row|                   
+      io.puts row.join("\t")
     end
   end
 
