@@ -33,18 +33,18 @@
 <http://purl.org/essglobal/standard/type-of-labour/T3>
     a skos:Concept ;
     skos:inScheme <http://purl.org/essglobal/standard/type-of-labour/> ;
-    skos:prefLabel ""@es, ""@fr, ""@it, "Trabalho Voluntário"@pt, "Voluntary Work "@en ;
+    skos:prefLabel ""@es, ""@fr, ""@it, "Trabalho Voluntário"@pt, "Voluntary Work"@en ;
     skos:scopeNote ""@en, ""@es, ""@fr, ""@it, ""@pt .
 
 <http://purl.org/essglobal/standard/type-of-labour/T4>
     a skos:Concept ;
     skos:inScheme <http://purl.org/essglobal/standard/type-of-labour/> ;
-    skos:prefLabel ""@es, ""@fr, ""@it, ""@pt, "Reproductive Labour/Care Work "@en ;
+    skos:prefLabel ""@es, ""@fr, ""@it, ""@pt, "Reproductive Labour/Care Work"@en ;
     skos:scopeNote ""@en, ""@es, ""@fr, ""@it, ""@pt .
 
 <http://purl.org/essglobal/standard/type-of-labour/T5>
     a skos:Concept ;
     skos:inScheme <http://purl.org/essglobal/standard/type-of-labour/> ;
-    skos:prefLabel ""@es, ""@fr, ""@it, ""@pt, "Externally hired "@en ;
+    skos:prefLabel ""@es, ""@fr, ""@it, ""@pt, "Externally hired"@en ;
     skos:scopeNote ""@en, ""@es, ""@fr, ""@it, ""@pt .
 
