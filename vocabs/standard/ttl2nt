@@ -1,0 +1,39 @@
+#!/bin/env ruby
+#
+# This script reads a TTL files on stdin, and writes it as NTriples on
+# stdout, sorted in a helpful way (so that language tags are
+# consistently ordered).
+#
+# Usage
+#
+#   ttl2nt <$TTL >$NT
+
+
+require 'rdf'
+require 'rdf/vocab' # 3.2
+require 'rdf/turtle'
+
+
+RDF::Reader.for(:ttl).new($stdin) do |reader|
+  graph = RDF::Graph.new.insert(reader.to_a)
+
+  sorted = graph.to_a.sort_by do |stmt|
+    # Sort objects by datatype, then those with language tags by the
+    # tags, then the strings. Attemtps to enforce a deterministic order.
+    stmt.to_a.map do |t|
+      case t
+      when RDF::Literal
+        [t.datatype, t.language, t.to_s.downcase]
+      else
+        [nil, nil, t.to_s.downcase]
+      end
+    end
+  end
+
+  RDF::Writer.for(:ntriples).new($stdout) do |writer|
+    sorted.each do |stmt|
+      writer << stmt
+    end
+  end
+end
+
