@@ -21,7 +21,7 @@
 <http://purl.org/essglobal/standard/type-of-labour/T1>
     a skos:Concept ;
     skos:inScheme <http://purl.org/essglobal/standard/type-of-labour/> ;
-    skos:prefLabel ""@en, ""@es, ""@fr, ""@it, ""@pt, "Associative"@en, "Associativo"@es, "Associativo"@pt ;
+    skos:prefLabel ""@fr, ""@it, "Associative"@en, "Associativo"@es, "Associativo"@pt ;
     skos:scopeNote ""@en, ""@es, ""@fr, ""@it, ""@pt .
 
 <http://purl.org/essglobal/standard/type-of-labour/T2>
