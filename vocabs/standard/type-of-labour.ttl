@@ -14,7 +14,7 @@
     dc:relation <http://www.dsi.uminho.pt/> ;
     dc:title "Type of Labour" ;
     dcterms:created "2014-02-06"^^<http://www.w3.org/2001/XMLSchema#date> ;
-    dcterms:modified "2021-03-05"^^<http://www.w3.org/2001/XMLSchema#date> ;    
+    dc:modified "2021-03-05"^^<http://www.w3.org/2001/XMLSchema#date> ;    
     dcterms:publisher "ESSGLOBAL" ;
     a skos:ConceptScheme .
 
