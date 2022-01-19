@@ -9,6 +9,9 @@ KnownPrefixes = {
   rdf: "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
   
   ossr: "http://data.ordnancesurvey.co.uk/ontology/spatialrelations/", # for within
+# essglobal: this varies... can't include it here. Can we?
+# reg:  depends on essglobal:super-regions-ica
+# sreg: depends on essglobal:regions-ica
 }
 
   
