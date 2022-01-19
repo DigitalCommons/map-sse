@@ -202,7 +202,7 @@ class Normaliser
       'skos:scopeNote': [:string],                    
     }
 
-    @base_uri = URI(base_uri)
+    @base_uri = URI(base_uri.to_s)
   end
 
   def determine_langs(lang_list)
@@ -411,35 +411,62 @@ end
 
 # Get the global properties for the vocab (these have no term field)
 scheme_props = term_index.delete('')
-scheme_props.merge!({'rdf:type' => {'' => ['skos:ConceptScheme']},
-                     'dc:modified' => {'' => [Date.today.iso8601]}})
+scheme_props.merge!({'dc:modified' => {'' => [Date.today.iso8601]}})
 
 props_base_uri = scheme_props.delete('base_uri')
 
-base_uri = props_base_uri&.fetch(NoLang)&.first.to_s if base_uri.to_s.empty?
+if base_uri.to_s.empty? && !props_base_uri.to_s.empty?
+  base_uri = RDF::URI(props_base_uri&.fetch(NoLang)&.first.to_s)
+end
+
+abort "You must supply a base URI" unless base_uri
 
 # Note, we specify the full list of languages to output here,
 # rather than allowing each term to vary
 normaliser = Normaliser.new(base_uri: base_uri, langs: langs)
 scheme_props = normaliser.normalise_props(scheme_props)
-abort "You must supply a base URI" unless base_uri
 
-vocab = Class.new(RDF::Vocabulary(base_uri)) do
+stmts = []
 
-  # Ontology definition
-  ontology base_uri, **scheme_props
-  # Term definitions
-  term_index.each_pair do |property, value|
-    value.merge!({'rdf:type' => {'' => ['skos:Concept']},
-                  'skos:inScheme' => {'' => [base_uri]}})
-    termprops = normaliser.normalise_props(value)
-    #pp termprops # DEBUG
-    term property, **termprops
+# Vocab ontology definitions
+scheme_props.each_pair do |property, values|
+  prop_uri = RDF::URI(WriterExtensions.expand_pname(property))
+#  warn "puri #{property} -> #{prop_uri}"
+  values.each do |value|
+    stmts << RDF::Statement.new(
+      base_uri,
+      prop_uri,
+      value,
+    )
   end
 end
 
+# Term definitions
+term_index.each_pair do |term, properties|
+  properties.merge!({#'rdf:type' => {'' => ['skos:Concept']},
+                      #'skos:inScheme' => {'' => [base_uri]}
+                    })
+  term_uri = RDF::URI(WriterExtensions.expand_pname(term))
+  # warn "expand #{term} to #{term_uri} "
+  
+  norm_props = normaliser.normalise_props(properties)
+  norm_props.each_pair do |property, values|
+    prop_uri = RDF::URI(WriterExtensions.expand_pname(property))
+    values = [values] unless values.is_a? Array
+    values.each do |value|
+      stmts << RDF::Statement.new(
+        term_uri,
+        prop_uri,
+        value,
+      )
+    end
+  end
+end
+
+
 # Deduplicate statements whilst reading into a graph object
-graph = RDF::Graph.new.insert(*vocab.to_enum.to_a.uniq)
+graph = RDF::Graph.new.insert(*stmts.uniq)
+  
 
 # pp graph.to_enum.to_a.sort DEBUG
 
@@ -454,7 +481,7 @@ writer = RDF::Writer.for(:ttl)
 # Dump the graph as TTL
 puts writer.dump(
        graph, nil,
-       base_uri: vocab,
+       base_uri: base_uri,
        validate: false,
        canonicalize: false,
        standard_prefixes: true,
