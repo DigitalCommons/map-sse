@@ -46,6 +46,10 @@ class TTL2PhraseTab
       raise "base_uri property is missing"
     end
     
+    # Shorten @base_uri with a prefix, if possible
+    @short_base_uri = RDF::URI(@base_uri).pname(prefixes: KnownPrefixes)
+    
+
     @default_lang = nil # no explicit language
     @subfield_delim = ";"
     @field_delim = "\t"
@@ -131,7 +135,7 @@ class TTL2PhraseTab
   def shorten_url(url)
     # See https://github.com/ruby-rdf/rdf-vocab/issues/73
     # regarding the use of the prefixes parameter
-    url.pname(prefixes: KnownPrefixes).delete_prefix(@base_uri.to_s)
+    url.pname(prefixes: KnownPrefixes).delete_prefix(@short_base_uri)
   end
   
   def escape(char)
