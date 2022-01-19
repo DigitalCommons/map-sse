@@ -1,909 +1,811 @@
 @base <http://purl.org/essglobal/standard/products-services/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-
-<http://purl.org/essglobal/standard/products-services/>
-    dc:contributor "", "Ana Alice Baptista (analice@dsi.uminho.pt)", "Daniel Tygel (dtygel@gmail.com)", "Jason Nardi (jason.nardi@gmail.com)", "Marc Alphandery (marc.alphandery@wanadoo.fr)" ;
-    dc:creator "Mariana Curado Malta (mariana@maltas.org)" ;
-    dc:description "Qualifiers controlled vocabulary for SSE" ;
-    dc:language "en-en" ;
-    dc:publisher <http://www.ripess.org/> ;
-    dc:relation <http://www.dsi.uminho.pt/> ;
-    dc:title "Products and Services" ;
-    dcterms:created "2014-02-20"^^<http://www.w3.org/2001/XMLSchema#date> ;
-    dcterms:publisher "ESSGLOBAL" ;
-    a skos:ConceptScheme ;
-    skos:hasTopConcept <http://purl.org/essglobal/standard/products-services/70000000>, <http://purl.org/essglobal/standard/products-services/71000000>, <http://purl.org/essglobal/standard/products-services/72000000>, <http://purl.org/essglobal/standard/products-services/73000000>, <http://purl.org/essglobal/standard/products-services/74000000>, <http://purl.org/essglobal/standard/products-services/76000000>, <http://purl.org/essglobal/standard/products-services/77000000>, <http://purl.org/essglobal/standard/products-services/78000000>, <http://purl.org/essglobal/standard/products-services/80000000>, <http://purl.org/essglobal/standard/products-services/81000000>, <http://purl.org/essglobal/standard/products-services/82000000>, <http://purl.org/essglobal/standard/products-services/83000000>, <http://purl.org/essglobal/standard/products-services/84000000>, <http://purl.org/essglobal/standard/products-services/85000000>, <http://purl.org/essglobal/standard/products-services/86000000>, <http://purl.org/essglobal/standard/products-services/90000000>, <http://purl.org/essglobal/standard/products-services/91000000>, <http://purl.org/essglobal/standard/products-services/92000000>, <http://purl.org/essglobal/standard/products-services/93000000>, <http://purl.org/essglobal/standard/products-services/94000000>, <http://purl.org/essglobal/standard/products-services/95000000> .
-
-<http://purl.org/essglobal/standard/products-services/70000000>
-    a skos:Concept ;
-    skos:definition "Farming and Fishing and Forestry and Wildlife Contracting Services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "Farming and Fishing and Forestry and Wildlife Contracting Services"@en ;
-    skos:scopeNote ""@en .
-
-<http://purl.org/essglobal/standard/products-services/70100000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/70000000> ;
-    skos:definition "Fisheries and aquaculture"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "70100000"@en .
-
-<http://purl.org/essglobal/standard/products-services/70110000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/70000000> ;
-    skos:definition "Horticulture"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "70110000"@en .
-
-<http://purl.org/essglobal/standard/products-services/70120000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/70000000> ;
-    skos:definition "Livestock services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "70120000"@en .
-
-<http://purl.org/essglobal/standard/products-services/70130000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/70000000> ;
-    skos:definition "Land and soil preparation and management and protection"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "70130000"@en .
-
-<http://purl.org/essglobal/standard/products-services/70140000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/70000000> ;
-    skos:definition "Crop production and management and protection"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "70140000"@en .
-
-<http://purl.org/essglobal/standard/products-services/70150000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/70000000> ;
-    skos:definition "Forestry"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "70150000"@en .
-
-<http://purl.org/essglobal/standard/products-services/70160000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/70000000> ;
-    skos:definition "Wildlife and flora"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "70160000"@en .
-
-<http://purl.org/essglobal/standard/products-services/70170000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/70000000> ;
-    skos:definition "Water resources development and oversight"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "70170000"@en .
-
-<http://purl.org/essglobal/standard/products-services/71000000>
-    a skos:Concept ;
-    skos:definition "Mining and oil and gas services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "Mining and oil and gas services"@en ;
-    skos:scopeNote ""@en .
-
-<http://purl.org/essglobal/standard/products-services/71100000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/71000000> ;
-    skos:definition "Mining services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "71100000"@en .
-
-<http://purl.org/essglobal/standard/products-services/71110000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/71000000> ;
-    skos:definition "Oil and gas exploration services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "71110000"@en .
-
-<http://purl.org/essglobal/standard/products-services/71120000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/71000000> ;
-    skos:definition "Well drilling and construction services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "71120000"@en .
-
-<http://purl.org/essglobal/standard/products-services/71130000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/71000000> ;
-    skos:definition "Oil and gas extraction and production enhancement services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "71130000"@en .
-
-<http://purl.org/essglobal/standard/products-services/71140000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/71000000> ;
-    skos:definition "Oil and gas restoration and reclamation services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "71140000"@en .
-
-<http://purl.org/essglobal/standard/products-services/71150000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/71000000> ;
-    skos:definition "Oil and gas data management and processing services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "71150000"@en .
-
-<http://purl.org/essglobal/standard/products-services/71160000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/71000000> ;
-    skos:definition "Oil and gas well project management services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "71160000"@en .
-
-<http://purl.org/essglobal/standard/products-services/72000000>
-    a skos:Concept ;
-    skos:definition "Building and Facility Construction and Maintenance Services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "Building and Facility Construction and Maintenance Services"@en ;
-    skos:scopeNote ""@en .
-
-<http://purl.org/essglobal/standard/products-services/72100000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/72000000> ;
-    skos:definition "Building and facility maintenance and repair services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "72100000"@en .
-
-<http://purl.org/essglobal/standard/products-services/72110000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/72000000> ;
-    skos:definition "Residential building construction services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "72110000"@en .
-
-<http://purl.org/essglobal/standard/products-services/72120000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/72000000> ;
-    skos:definition "Nonresidential building construction services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "72120000"@en .
-
-<http://purl.org/essglobal/standard/products-services/72140000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/72000000> ;
-    skos:definition "Heavy construction services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "72140000"@en .
-
-<http://purl.org/essglobal/standard/products-services/72150000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/72000000> ;
-    skos:definition "Specialized trade construction and maintenance services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "72150000"@en .
-
-<http://purl.org/essglobal/standard/products-services/73000000>
-    a skos:Concept ;
-    skos:definition "Industrial Production and Manufacturing Services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "Industrial Production and Manufacturing Services"@en ;
-    skos:scopeNote ""@en .
-
-<http://purl.org/essglobal/standard/products-services/73100000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/73000000> ;
-    skos:definition "Plastic and chemical industries"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "73100000"@en .
-
-<http://purl.org/essglobal/standard/products-services/73110000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/73000000> ;
-    skos:definition "Wood and paper industries"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "73110000"@en .
-
-<http://purl.org/essglobal/standard/products-services/73120000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/73000000> ;
-    skos:definition "Metal and mineral industries"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "73120000"@en .
-
-<http://purl.org/essglobal/standard/products-services/73130000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/73000000> ;
-    skos:definition "Food and beverage industries"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "73130000"@en .
-
-<http://purl.org/essglobal/standard/products-services/73140000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/73000000> ;
-    skos:definition "Fibers and textiles and fabric industries"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "73140000"@en .
-
-<http://purl.org/essglobal/standard/products-services/73150000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/73000000> ;
-    skos:definition "Manufacturing support services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "73150000"@en .
-
-<http://purl.org/essglobal/standard/products-services/73160000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/73000000> ;
-    skos:definition "Manufacture"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "73160000"@en .
-
-<http://purl.org/essglobal/standard/products-services/73170000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/73000000> ;
-    skos:definition "Precision instruments"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "73170000"@en .
-
-<http://purl.org/essglobal/standard/products-services/73180000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/73000000> ;
-    skos:definition "Machining and processing services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "73180000"@en .
-
-<http://purl.org/essglobal/standard/products-services/76000000>
-    a skos:Concept ;
-    skos:definition "Industrial Cleaning Services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "Industrial Cleaning Services"@en ;
-    skos:scopeNote ""@en .
-
-<http://purl.org/essglobal/standard/products-services/76100000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/76000000> ;
-    skos:definition "Decontamination services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "76100000"@en .
-
-<http://purl.org/essglobal/standard/products-services/76110000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/76000000> ;
-    skos:definition "Cleaning and janitorial services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "76110000"@en .
-
-<http://purl.org/essglobal/standard/products-services/76120000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/76000000> ;
-    skos:definition "Refuse disposal and treatment"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "76120000"@en .
-
-<http://purl.org/essglobal/standard/products-services/76130000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/76000000> ;
-    skos:definition "Toxic and hazardous waste cleanup"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "76130000"@en .
-
-<http://purl.org/essglobal/standard/products-services/77000000>
-    a skos:Concept ;
-    skos:definition ""@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "Environmental Services"@en ;
-    skos:scopeNote "Environmental Services"@en .
-
-<http://purl.org/essglobal/standard/products-services/77100000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/77000000> ;
-    skos:definition "Environmental management"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "77100000"@en .
-
-<http://purl.org/essglobal/standard/products-services/77110000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/77000000> ;
-    skos:definition "Environmental protection"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "77110000"@en .
-
-<http://purl.org/essglobal/standard/products-services/77120000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/77000000> ;
-    skos:definition "Pollution tracking and monitoring and rehabilitation"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "77120000"@en .
-
-<http://purl.org/essglobal/standard/products-services/77130000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/77000000> ;
-    skos:definition "Pollutants tracking and monitoring and rehabilitation services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "70130000"@en .
-
-<http://purl.org/essglobal/standard/products-services/78000000>
-    a skos:Concept ;
-    skos:definition "Transportation and Storage and Mail Services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "Transportation and Storage and Mail Services"@en ;
-    skos:scopeNote ""@en .
-
-<http://purl.org/essglobal/standard/products-services/78100000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/78000000> ;
-    skos:definition "Mail and cargo transport"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "78100000"@en .
-
-<http://purl.org/essglobal/standard/products-services/78110000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/78000000> ;
-    skos:definition "Passenger transport"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "78110000"@en .
-
-<http://purl.org/essglobal/standard/products-services/78120000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/78000000> ;
-    skos:definition "Material packing and handling"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "78120000"@en .
-
-<http://purl.org/essglobal/standard/products-services/78130000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/78000000> ;
-    skos:definition "Storage"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "78130000"@en .
-
-<http://purl.org/essglobal/standard/products-services/78140000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/78000000> ;
-    skos:definition "Transport services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "78140000"@en .
-
-<http://purl.org/essglobal/standard/products-services/78180000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/78000000> ;
-    skos:definition "Transportation repair or maintenance services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "78180000"@en .
-
-<http://purl.org/essglobal/standard/products-services/80000000>
-    a skos:Concept ;
-    skos:definition "Management and Business Professionals and Administrative Services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "Management and Business Professionals and Administrative Services"@en ;
-    skos:scopeNote ""@en .
-
-<http://purl.org/essglobal/standard/products-services/80100000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/80000000> ;
-    skos:definition "Management advisory services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "80100000"@en .
-
-<http://purl.org/essglobal/standard/products-services/80110000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/80000000> ;
-    skos:definition "Human resources services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "80110000"@en .
-
-<http://purl.org/essglobal/standard/products-services/80120000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/80000000> ;
-    skos:definition "Legal services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "80120000"@en .
-
-<http://purl.org/essglobal/standard/products-services/80130000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/80000000> ;
-    skos:definition "Real estate services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "80130000"@en .
-
-<http://purl.org/essglobal/standard/products-services/80140000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/80000000> ;
-    skos:definition "Marketing and distribution"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "80140000"@en .
-
-<http://purl.org/essglobal/standard/products-services/80150000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/80000000>, <http://purl.org/essglobal/standard/products-services/90000000> ;
-    skos:definition "Entertainment services"@en, "Food and nutrition services"@en, "Public administration and finance services"@en, "Trade policy and services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "80150000"@en, "90150000"@en .
-
-<http://purl.org/essglobal/standard/products-services/80160000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/80000000> ;
-    skos:definition "Business administration services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "80160000"@en .
-
-<http://purl.org/essglobal/standard/products-services/805170000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/85000000> ;
-    skos:definition "Death and dying support services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "85170000"@en .
-
-<http://purl.org/essglobal/standard/products-services/81000000>
-    a skos:Concept ;
-    skos:definition "Engineering and Research and Technology Based Services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "Engineering and Research and Technology Based Services"@en ;
-    skos:scopeNote ""@en .
-
-<http://purl.org/essglobal/standard/products-services/81100000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/81000000> ;
-    skos:definition "Professional engineering services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "81100000"@en .
-
-<http://purl.org/essglobal/standard/products-services/81110000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/81000000> ;
-    skos:definition "Computer Services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "81110000"@en .
-
-<http://purl.org/essglobal/standard/products-services/81120000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/81000000> ;
-    skos:definition "Economics"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "81120000"@en .
-
-<http://purl.org/essglobal/standard/products-services/81130000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/81000000> ;
-    skos:definition "Statistics"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "81130000"@en .
-
-<http://purl.org/essglobal/standard/products-services/81140000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/81000000> ;
-    skos:definition "Manufacturing technologies"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "81140000"@en .
-
-<http://purl.org/essglobal/standard/products-services/81150000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/81000000> ;
-    skos:definition "Earth science services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "81150000"@en .
-
-<http://purl.org/essglobal/standard/products-services/81160000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/81000000> ;
-    skos:definition "Information Technology Service Delivery"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "81160000"@en .
-
-<http://purl.org/essglobal/standard/products-services/82000000>
-    a skos:Concept ;
-    skos:definition "Editorial and Design and Graphic and Fine Art Services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "Editorial and Design and Graphic and Fine Art Services"@en ;
-    skos:scopeNote ""@en .
-
-<http://purl.org/essglobal/standard/products-services/82100000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/82000000> ;
-    skos:definition "Advertising"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "82100000"@en .
-
-<http://purl.org/essglobal/standard/products-services/82110000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/82000000> ;
-    skos:definition "Writing and translations"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "82110000"@en .
-
-<http://purl.org/essglobal/standard/products-services/82120000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/82000000> ;
-    skos:definition "Reproduction services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "82120000"@en .
-
-<http://purl.org/essglobal/standard/products-services/82130000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/82000000> ;
-    skos:definition "Photographic services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "82130000"@en .
-
-<http://purl.org/essglobal/standard/products-services/82140000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/82000000> ;
-    skos:definition "Graphic design"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "82140000"@en .
-
-<http://purl.org/essglobal/standard/products-services/82150000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/82000000> ;
-    skos:definition "Professional artists and performers"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "82150000"@en .
-
-<http://purl.org/essglobal/standard/products-services/83000000>
-    a skos:Concept ;
-    skos:definition "Public Utilities and Public Sector Related Services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "Public Utilities and Public Sector Related Services"@en ;
-    skos:scopeNote ""@en .
-
-<http://purl.org/essglobal/standard/products-services/83100000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/83000000> ;
-    skos:definition "Utilities"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "83100000"@en .
-
-<http://purl.org/essglobal/standard/products-services/83110000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/83000000> ;
-    skos:definition "Telecommunications media services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "83110000"@en .
-
-<http://purl.org/essglobal/standard/products-services/83120000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/83000000> ;
-    skos:definition "Information services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "83120000"@en .
-
-<http://purl.org/essglobal/standard/products-services/84000000>
-    a skos:Concept ;
-    skos:definition "Financial and Insurance Services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "Financial and Insurance Services"@en ;
-    skos:scopeNote ""@en .
-
-<http://purl.org/essglobal/standard/products-services/84100000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/84000000> ;
-    skos:definition "Development finance"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "84100000"@en .
-
-<http://purl.org/essglobal/standard/products-services/84110000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/84000000> ;
-    skos:definition "Accounting and bookkeeping services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "84110000"@en .
-
-<http://purl.org/essglobal/standard/products-services/84120000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/84000000> ;
-    skos:definition "Banking and investment"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "84120000"@en .
-
-<http://purl.org/essglobal/standard/products-services/84130000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/84000000> ;
-    skos:definition "Insurance and retirement services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "84130000"@en .
-
-<http://purl.org/essglobal/standard/products-services/84140000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/84000000> ;
-    skos:definition "Credit agencies"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "84140000"@en .
-
-<http://purl.org/essglobal/standard/products-services/85000000>
-    a skos:Concept ;
-    skos:definition "Healthcare Services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "Healthcare Services"@en ;
-    skos:scopeNote ""@en .
-
-<http://purl.org/essglobal/standard/products-services/85100000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/85000000> ;
-    skos:definition "Comprehensive health services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "85100000"@en .
-
-<http://purl.org/essglobal/standard/products-services/85110000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/85000000> ;
-    skos:definition "Disease prevention and control"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "85110000"@en .
-
-<http://purl.org/essglobal/standard/products-services/85120000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/85000000> ;
-    skos:definition "Medical practice"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "85120000"@en .
-
-<http://purl.org/essglobal/standard/products-services/85130000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/85000000> ;
-    skos:definition "Medical science research and experimentation"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "85130000"@en .
-
-<http://purl.org/essglobal/standard/products-services/85140000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/85000000> ;
-    skos:definition ""@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "85140000"@en .
-
-<http://purl.org/essglobal/standard/products-services/85160000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/85000000> ;
-    skos:definition "Medical Surgical Equipment Maintenance Refurbishment and Repair Services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "85160000"@en .
-
-<http://purl.org/essglobal/standard/products-services/86000000>
-    a skos:Concept ;
-    skos:definition "Education and Training Services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "Education and Training Services"@en ;
-    skos:scopeNote ""@en .
-
-<http://purl.org/essglobal/standard/products-services/86100000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/86000000> ;
-    skos:definition "Vocational training"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "86100000"@en .
-
-<http://purl.org/essglobal/standard/products-services/86110000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/86000000> ;
-    skos:definition "Alternative educational systems"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "86110000"@en .
-
-<http://purl.org/essglobal/standard/products-services/86120000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/86000000> ;
-    skos:definition "Educational institutions"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "86120000"@en .
-
-<http://purl.org/essglobal/standard/products-services/86130000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/86000000> ;
-    skos:definition "Specialized educational services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "86130000"@en .
-
-<http://purl.org/essglobal/standard/products-services/86140000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/86000000> ;
-    skos:definition "Educational facilities"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "86140000"@en .
-
-<http://purl.org/essglobal/standard/products-services/90000000>
-    a skos:Concept ;
-    skos:definition "Travel and Food and Lodging and Entertainment Services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "Travel and Food and Lodging and Entertainment Services"@en ;
-    skos:scopeNote ""@en .
-
-<http://purl.org/essglobal/standard/products-services/90100000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/90000000> ;
-    skos:definition "Restaurants and catering"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "90100000"@en .
-
-<http://purl.org/essglobal/standard/products-services/90110000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/90000000> ;
-    skos:definition "Hotels and lodging and meeting facilities"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "90110000"@en .
-
-<http://purl.org/essglobal/standard/products-services/90120000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/90000000> ;
-    skos:definition "Travel facilitation"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "90120000"@en .
-
-<http://purl.org/essglobal/standard/products-services/90130000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/90000000> ;
-    skos:definition "Performing arts"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "90130000"@en .
-
-<http://purl.org/essglobal/standard/products-services/90140000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/90000000> ;
-    skos:definition "Commercial sports"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "90140000"@en .
-
-<http://purl.org/essglobal/standard/products-services/91000000>
-    a skos:Concept ;
-    skos:definition "Personal and Domestic Services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "Personal and Domestic Services"@en ;
-    skos:scopeNote ""@en .
-
-<http://purl.org/essglobal/standard/products-services/91100000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/91000000> ;
-    skos:definition "Personal appearance"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "91100000"@en .
-
-<http://purl.org/essglobal/standard/products-services/91110000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/91000000> ;
-    skos:definition "Domestic and personal assistance"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "91110000"@en .
-
-<http://purl.org/essglobal/standard/products-services/92000000>
-    a skos:Concept ;
-    skos:definition "Security and Safety Services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "Security and Safety Services"@en ;
-    skos:scopeNote ""@en .
-
-<http://purl.org/essglobal/standard/products-services/92120000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/92000000> ;
-    skos:definition "Security and personal safety"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "92120000"@en .
-
-<http://purl.org/essglobal/standard/products-services/93000000>
-    a skos:Concept ;
-    skos:definition "Politics and Civic Affairs Services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "Politics and Civic Affairs Services"@en ;
-    skos:scopeNote ""@en .
-
-<http://purl.org/essglobal/standard/products-services/93100000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/93000000> ;
-    skos:definition "Political systems and institutions"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "93100000"@en .
-
-<http://purl.org/essglobal/standard/products-services/93110000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/93000000> ;
-    skos:definition "Socio political conditions"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "93110000"@en .
-
-<http://purl.org/essglobal/standard/products-services/93120000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/93000000> ;
-    skos:definition "International relations"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "93120000"@en .
-
-<http://purl.org/essglobal/standard/products-services/93130000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/93000000> ;
-    skos:definition "Humanitarian aid and relief"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "93130000"@en .
-
-<http://purl.org/essglobal/standard/products-services/93140000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/93000000> ;
-    skos:definition "Community and social services"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "93140000"@en .
-
-<http://purl.org/essglobal/standard/products-services/93160000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/93000000> ;
-    skos:definition "Taxation"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "93160000"@en .
-
-<http://purl.org/essglobal/standard/products-services/93170000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/93000000> ;
-    skos:definition "Trade policy and regulation"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "93170000"@en .
-
-<http://purl.org/essglobal/standard/products-services/94000000>
-    a skos:Concept ;
-    skos:definition "Organizations and Clubs"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel ""@en ;
-    skos:scopeNote ""@en .
-
-<http://purl.org/essglobal/standard/products-services/94100000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/94000000> ;
-    skos:definition "Work related organizations"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "94100000"@en .
-
-<http://purl.org/essglobal/standard/products-services/94110000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/94000000> ;
-    skos:definition "Religious organizations"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "94110000"@en .
-
-<http://purl.org/essglobal/standard/products-services/94120000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/94000000> ;
-    skos:definition "Clubs"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "94120000"@en .
-
-<http://purl.org/essglobal/standard/products-services/94130000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/94000000> ;
-    skos:definition "Civic organizations and associations and movements"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "94130000"@en .
-
-<http://purl.org/essglobal/standard/products-services/95000000>
-    a skos:Concept ;
-    skos:definition "Land and Buildings and Structures and Thoroughfares"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "Land and Buildings and Structures and Thoroughfares"@en ;
-    skos:scopeNote ""@en .
-
-<http://purl.org/essglobal/standard/products-services/95100000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/95000000> ;
-    skos:definition "Land parcels"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "95100000"@en .
-
-<http://purl.org/essglobal/standard/products-services/95110000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/95000000> ;
-    skos:definition "Thoroughfares"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "95110000"@en .
-
-<http://purl.org/essglobal/standard/products-services/95120000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/95000000> ;
-    skos:definition "Permanent buildings and structures"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "95120000"@en .
-
-<http://purl.org/essglobal/standard/products-services/95130000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/95000000> ;
-    skos:definition "Portable buildings and structures"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "95130000"@en .
-
-<http://purl.org/essglobal/standard/products-services/95140000>
-    a skos:Concept ;
-    skos:broader <http://purl.org/essglobal/standard/products-services/95000000> ;
-    skos:definition "Prefabricated buildings and structures"@en ;
-    skos:inScheme <http://purl.org/essglobal/standard/products-services/> ;
-    skos:prefLabel "95140000"@en .
-
+@prefix essglobal: <http://purl.org/essglobal/standard/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme;
+  dc:contributor "",
+    "Ana Alice Baptista (analice@dsi.uminho.pt)",
+    "Daniel Tygel (dtygel@gmail.com)",
+    "Jason Nardi (jason.nardi@gmail.com)",
+    "Marc Alphandery (marc.alphandery@wanadoo.fr)";
+  dc:creator "Mariana Curado Malta (mariana@maltas.org)";
+  dc:description "Qualifiers controlled vocabulary for SSE";
+  dc:language "en-en";
+  dc:modified "2022-01-19"^^xsd:date;
+  dc:publisher <http://www.ripess.org/>;
+  dc:relation <http://www.dsi.uminho.pt/>;
+  dc:title "Products and Services";
+  dcterms:created "2014-02-20"^^xsd:date;
+  dcterms:publisher "ESSGLOBAL";
+  skos:hasTopConcept <70000000>,
+    <71000000>,
+    <72000000>,
+    <73000000>,
+    <74000000>,
+    <76000000>,
+    <77000000>,
+    <78000000>,
+    <80000000>,
+    <81000000>,
+    <82000000>,
+    <83000000>,
+    <84000000>,
+    <85000000>,
+    <86000000>,
+    <90000000>,
+    <91000000>,
+    <92000000>,
+    <93000000>,
+    <94000000>,
+    <95000000> .
+
+<70000000> a skos:Concept;
+  skos:definition "Farming and Fishing and Forestry and Wildlife Contracting Services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "Farming and Fishing and Forestry and Wildlife Contracting Services"@en;
+  skos:scopeNote "" .
+
+<70100000> a skos:Concept;
+  skos:broader <70000000>;
+  skos:definition "Fisheries and aquaculture"@en;
+  skos:inScheme <>;
+  skos:prefLabel "70100000"@en .
+
+<70110000> a skos:Concept;
+  skos:broader <70000000>;
+  skos:definition "Horticulture"@en;
+  skos:inScheme <>;
+  skos:prefLabel "70110000"@en .
+
+<70120000> a skos:Concept;
+  skos:broader <70000000>;
+  skos:definition "Livestock services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "70120000"@en .
+
+<70130000> a skos:Concept;
+  skos:broader <70000000>;
+  skos:definition "Land and soil preparation and management and protection"@en;
+  skos:inScheme <>;
+  skos:prefLabel "70130000"@en .
+
+<70140000> a skos:Concept;
+  skos:broader <70000000>;
+  skos:definition "Crop production and management and protection"@en;
+  skos:inScheme <>;
+  skos:prefLabel "70140000"@en .
+
+<70150000> a skos:Concept;
+  skos:broader <70000000>;
+  skos:definition "Forestry"@en;
+  skos:inScheme <>;
+  skos:prefLabel "70150000"@en .
+
+<70160000> a skos:Concept;
+  skos:broader <70000000>;
+  skos:definition "Wildlife and flora"@en;
+  skos:inScheme <>;
+  skos:prefLabel "70160000"@en .
+
+<70170000> a skos:Concept;
+  skos:broader <70000000>;
+  skos:definition "Water resources development and oversight"@en;
+  skos:inScheme <>;
+  skos:prefLabel "70170000"@en .
+
+<71000000> a skos:Concept;
+  skos:definition "Mining and oil and gas services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "Mining and oil and gas services"@en;
+  skos:scopeNote "" .
+
+<71100000> a skos:Concept;
+  skos:broader <71000000>;
+  skos:definition "Mining services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "71100000"@en .
+
+<71110000> a skos:Concept;
+  skos:broader <71000000>;
+  skos:definition "Oil and gas exploration services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "71110000"@en .
+
+<71120000> a skos:Concept;
+  skos:broader <71000000>;
+  skos:definition "Well drilling and construction services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "71120000"@en .
+
+<71130000> a skos:Concept;
+  skos:broader <71000000>;
+  skos:definition "Oil and gas extraction and production enhancement services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "71130000"@en .
+
+<71140000> a skos:Concept;
+  skos:broader <71000000>;
+  skos:definition "Oil and gas restoration and reclamation services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "71140000"@en .
+
+<71150000> a skos:Concept;
+  skos:broader <71000000>;
+  skos:definition "Oil and gas data management and processing services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "71150000"@en .
+
+<71160000> a skos:Concept;
+  skos:broader <71000000>;
+  skos:definition "Oil and gas well project management services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "71160000"@en .
+
+<72000000> a skos:Concept;
+  skos:definition "Building and Facility Construction and Maintenance Services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "Building and Facility Construction and Maintenance Services"@en;
+  skos:scopeNote "" .
+
+<72100000> a skos:Concept;
+  skos:broader <72000000>;
+  skos:definition "Building and facility maintenance and repair services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "72100000"@en .
+
+<72110000> a skos:Concept;
+  skos:broader <72000000>;
+  skos:definition "Residential building construction services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "72110000"@en .
+
+<72120000> a skos:Concept;
+  skos:broader <72000000>;
+  skos:definition "Nonresidential building construction services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "72120000"@en .
+
+<72140000> a skos:Concept;
+  skos:broader <72000000>;
+  skos:definition "Heavy construction services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "72140000"@en .
+
+<72150000> a skos:Concept;
+  skos:broader <72000000>;
+  skos:definition "Specialized trade construction and maintenance services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "72150000"@en .
+
+<73000000> a skos:Concept;
+  skos:definition "Industrial Production and Manufacturing Services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "Industrial Production and Manufacturing Services"@en;
+  skos:scopeNote "" .
+
+<73100000> a skos:Concept;
+  skos:broader <73000000>;
+  skos:definition "Plastic and chemical industries"@en;
+  skos:inScheme <>;
+  skos:prefLabel "73100000"@en .
+
+<73110000> a skos:Concept;
+  skos:broader <73000000>;
+  skos:definition "Wood and paper industries"@en;
+  skos:inScheme <>;
+  skos:prefLabel "73110000"@en .
+
+<73120000> a skos:Concept;
+  skos:broader <73000000>;
+  skos:definition "Metal and mineral industries"@en;
+  skos:inScheme <>;
+  skos:prefLabel "73120000"@en .
+
+<73130000> a skos:Concept;
+  skos:broader <73000000>;
+  skos:definition "Food and beverage industries"@en;
+  skos:inScheme <>;
+  skos:prefLabel "73130000"@en .
+
+<73140000> a skos:Concept;
+  skos:broader <73000000>;
+  skos:definition "Fibers and textiles and fabric industries"@en;
+  skos:inScheme <>;
+  skos:prefLabel "73140000"@en .
+
+<73150000> a skos:Concept;
+  skos:broader <73000000>;
+  skos:definition "Manufacturing support services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "73150000"@en .
+
+<73160000> a skos:Concept;
+  skos:broader <73000000>;
+  skos:definition "Manufacture"@en;
+  skos:inScheme <>;
+  skos:prefLabel "73160000"@en .
+
+<73170000> a skos:Concept;
+  skos:broader <73000000>;
+  skos:definition "Precision instruments"@en;
+  skos:inScheme <>;
+  skos:prefLabel "73170000"@en .
+
+<73180000> a skos:Concept;
+  skos:broader <73000000>;
+  skos:definition "Machining and processing services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "73180000"@en .
+
+<76000000> a skos:Concept;
+  skos:definition "Industrial Cleaning Services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "Industrial Cleaning Services"@en;
+  skos:scopeNote "" .
+
+<76100000> a skos:Concept;
+  skos:broader <76000000>;
+  skos:definition "Decontamination services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "76100000"@en .
+
+<76110000> a skos:Concept;
+  skos:broader <76000000>;
+  skos:definition "Cleaning and janitorial services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "76110000"@en .
+
+<76120000> a skos:Concept;
+  skos:broader <76000000>;
+  skos:definition "Refuse disposal and treatment"@en;
+  skos:inScheme <>;
+  skos:prefLabel "76120000"@en .
+
+<76130000> a skos:Concept;
+  skos:broader <76000000>;
+  skos:definition "Toxic and hazardous waste cleanup"@en;
+  skos:inScheme <>;
+  skos:prefLabel "76130000"@en .
+
+<77000000> a skos:Concept;
+  skos:definition "";
+  skos:inScheme <>;
+  skos:prefLabel "Environmental Services"@en;
+  skos:scopeNote "Environmental Services"@en .
+
+<77100000> a skos:Concept;
+  skos:broader <77000000>;
+  skos:definition "Environmental management"@en;
+  skos:inScheme <>;
+  skos:prefLabel "77100000"@en .
+
+<77110000> a skos:Concept;
+  skos:broader <77000000>;
+  skos:definition "Environmental protection"@en;
+  skos:inScheme <>;
+  skos:prefLabel "77110000"@en .
+
+<77120000> a skos:Concept;
+  skos:broader <77000000>;
+  skos:definition "Pollution tracking and monitoring and rehabilitation"@en;
+  skos:inScheme <>;
+  skos:prefLabel "77120000"@en .
+
+<77130000> a skos:Concept;
+  skos:broader <77000000>;
+  skos:definition "Pollutants tracking and monitoring and rehabilitation services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "70130000"@en .
+
+<78000000> a skos:Concept;
+  skos:definition "Transportation and Storage and Mail Services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "Transportation and Storage and Mail Services"@en;
+  skos:scopeNote "" .
+
+<78100000> a skos:Concept;
+  skos:broader <78000000>;
+  skos:definition "Mail and cargo transport"@en;
+  skos:inScheme <>;
+  skos:prefLabel "78100000"@en .
+
+<78110000> a skos:Concept;
+  skos:broader <78000000>;
+  skos:definition "Passenger transport"@en;
+  skos:inScheme <>;
+  skos:prefLabel "78110000"@en .
+
+<78120000> a skos:Concept;
+  skos:broader <78000000>;
+  skos:definition "Material packing and handling"@en;
+  skos:inScheme <>;
+  skos:prefLabel "78120000"@en .
+
+<78130000> a skos:Concept;
+  skos:broader <78000000>;
+  skos:definition "Storage"@en;
+  skos:inScheme <>;
+  skos:prefLabel "78130000"@en .
+
+<78140000> a skos:Concept;
+  skos:broader <78000000>;
+  skos:definition "Transport services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "78140000"@en .
+
+<78180000> a skos:Concept;
+  skos:broader <78000000>;
+  skos:definition "Transportation repair or maintenance services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "78180000"@en .
+
+<80000000> a skos:Concept;
+  skos:definition "Management and Business Professionals and Administrative Services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "Management and Business Professionals and Administrative Services"@en;
+  skos:scopeNote "" .
+
+<80100000> a skos:Concept;
+  skos:broader <80000000>;
+  skos:definition "Management advisory services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "80100000"@en .
+
+<80110000> a skos:Concept;
+  skos:broader <80000000>;
+  skos:definition "Human resources services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "80110000"@en .
+
+<80120000> a skos:Concept;
+  skos:broader <80000000>;
+  skos:definition "Legal services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "80120000"@en .
+
+<80130000> a skos:Concept;
+  skos:broader <80000000>;
+  skos:definition "Real estate services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "80130000"@en .
+
+<80140000> a skos:Concept;
+  skos:broader <80000000>;
+  skos:definition "Marketing and distribution"@en;
+  skos:inScheme <>;
+  skos:prefLabel "80140000"@en .
+
+<80150000> a skos:Concept;
+  skos:broader <80000000>,
+    <90000000>;
+  skos:definition "Entertainment services"@en,
+    "Food and nutrition services"@en,
+    "Public administration and finance services"@en,
+    "Trade policy and services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "80150000"@en,
+    "90150000"@en .
+
+<80160000> a skos:Concept;
+  skos:broader <80000000>;
+  skos:definition "Business administration services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "80160000"@en .
+
+<805170000> a skos:Concept;
+  skos:broader <85000000>;
+  skos:definition "Death and dying support services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "85170000"@en .
+
+<81000000> a skos:Concept;
+  skos:definition "Engineering and Research and Technology Based Services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "Engineering and Research and Technology Based Services"@en;
+  skos:scopeNote "" .
+
+<81100000> a skos:Concept;
+  skos:broader <81000000>;
+  skos:definition "Professional engineering services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "81100000"@en .
+
+<81110000> a skos:Concept;
+  skos:broader <81000000>;
+  skos:definition "Computer Services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "81110000"@en .
+
+<81120000> a skos:Concept;
+  skos:broader <81000000>;
+  skos:definition "Economics"@en;
+  skos:inScheme <>;
+  skos:prefLabel "81120000"@en .
+
+<81130000> a skos:Concept;
+  skos:broader <81000000>;
+  skos:definition "Statistics"@en;
+  skos:inScheme <>;
+  skos:prefLabel "81130000"@en .
+
+<81140000> a skos:Concept;
+  skos:broader <81000000>;
+  skos:definition "Manufacturing technologies"@en;
+  skos:inScheme <>;
+  skos:prefLabel "81140000"@en .
+
+<81150000> a skos:Concept;
+  skos:broader <81000000>;
+  skos:definition "Earth science services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "81150000"@en .
+
+<81160000> a skos:Concept;
+  skos:broader <81000000>;
+  skos:definition "Information Technology Service Delivery"@en;
+  skos:inScheme <>;
+  skos:prefLabel "81160000"@en .
+
+<82000000> a skos:Concept;
+  skos:definition "Editorial and Design and Graphic and Fine Art Services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "Editorial and Design and Graphic and Fine Art Services"@en;
+  skos:scopeNote "" .
+
+<82100000> a skos:Concept;
+  skos:broader <82000000>;
+  skos:definition "Advertising"@en;
+  skos:inScheme <>;
+  skos:prefLabel "82100000"@en .
+
+<82110000> a skos:Concept;
+  skos:broader <82000000>;
+  skos:definition "Writing and translations"@en;
+  skos:inScheme <>;
+  skos:prefLabel "82110000"@en .
+
+<82120000> a skos:Concept;
+  skos:broader <82000000>;
+  skos:definition "Reproduction services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "82120000"@en .
+
+<82130000> a skos:Concept;
+  skos:broader <82000000>;
+  skos:definition "Photographic services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "82130000"@en .
+
+<82140000> a skos:Concept;
+  skos:broader <82000000>;
+  skos:definition "Graphic design"@en;
+  skos:inScheme <>;
+  skos:prefLabel "82140000"@en .
+
+<82150000> a skos:Concept;
+  skos:broader <82000000>;
+  skos:definition "Professional artists and performers"@en;
+  skos:inScheme <>;
+  skos:prefLabel "82150000"@en .
+
+<83000000> a skos:Concept;
+  skos:definition "Public Utilities and Public Sector Related Services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "Public Utilities and Public Sector Related Services"@en;
+  skos:scopeNote "" .
+
+<83100000> a skos:Concept;
+  skos:broader <83000000>;
+  skos:definition "Utilities"@en;
+  skos:inScheme <>;
+  skos:prefLabel "83100000"@en .
+
+<83110000> a skos:Concept;
+  skos:broader <83000000>;
+  skos:definition "Telecommunications media services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "83110000"@en .
+
+<83120000> a skos:Concept;
+  skos:broader <83000000>;
+  skos:definition "Information services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "83120000"@en .
+
+<84000000> a skos:Concept;
+  skos:definition "Financial and Insurance Services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "Financial and Insurance Services"@en;
+  skos:scopeNote "" .
+
+<84100000> a skos:Concept;
+  skos:broader <84000000>;
+  skos:definition "Development finance"@en;
+  skos:inScheme <>;
+  skos:prefLabel "84100000"@en .
+
+<84110000> a skos:Concept;
+  skos:broader <84000000>;
+  skos:definition "Accounting and bookkeeping services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "84110000"@en .
+
+<84120000> a skos:Concept;
+  skos:broader <84000000>;
+  skos:definition "Banking and investment"@en;
+  skos:inScheme <>;
+  skos:prefLabel "84120000"@en .
+
+<84130000> a skos:Concept;
+  skos:broader <84000000>;
+  skos:definition "Insurance and retirement services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "84130000"@en .
+
+<84140000> a skos:Concept;
+  skos:broader <84000000>;
+  skos:definition "Credit agencies"@en;
+  skos:inScheme <>;
+  skos:prefLabel "84140000"@en .
+
+<85000000> a skos:Concept;
+  skos:definition "Healthcare Services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "Healthcare Services"@en;
+  skos:scopeNote "" .
+
+<85100000> a skos:Concept;
+  skos:broader <85000000>;
+  skos:definition "Comprehensive health services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "85100000"@en .
+
+<85110000> a skos:Concept;
+  skos:broader <85000000>;
+  skos:definition "Disease prevention and control"@en;
+  skos:inScheme <>;
+  skos:prefLabel "85110000"@en .
+
+<85120000> a skos:Concept;
+  skos:broader <85000000>;
+  skos:definition "Medical practice"@en;
+  skos:inScheme <>;
+  skos:prefLabel "85120000"@en .
+
+<85130000> a skos:Concept;
+  skos:broader <85000000>;
+  skos:definition "Medical science research and experimentation"@en;
+  skos:inScheme <>;
+  skos:prefLabel "85130000"@en .
+
+<85140000> a skos:Concept;
+  skos:broader <85000000>;
+  skos:definition "";
+  skos:inScheme <>;
+  skos:prefLabel "85140000"@en .
+
+<85160000> a skos:Concept;
+  skos:broader <85000000>;
+  skos:definition "Medical Surgical Equipment Maintenance Refurbishment and Repair Services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "85160000"@en .
+
+<86000000> a skos:Concept;
+  skos:definition "Education and Training Services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "Education and Training Services"@en;
+  skos:scopeNote "" .
+
+<86100000> a skos:Concept;
+  skos:broader <86000000>;
+  skos:definition "Vocational training"@en;
+  skos:inScheme <>;
+  skos:prefLabel "86100000"@en .
+
+<86110000> a skos:Concept;
+  skos:broader <86000000>;
+  skos:definition "Alternative educational systems"@en;
+  skos:inScheme <>;
+  skos:prefLabel "86110000"@en .
+
+<86120000> a skos:Concept;
+  skos:broader <86000000>;
+  skos:definition "Educational institutions"@en;
+  skos:inScheme <>;
+  skos:prefLabel "86120000"@en .
+
+<86130000> a skos:Concept;
+  skos:broader <86000000>;
+  skos:definition "Specialized educational services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "86130000"@en .
+
+<86140000> a skos:Concept;
+  skos:broader <86000000>;
+  skos:definition "Educational facilities"@en;
+  skos:inScheme <>;
+  skos:prefLabel "86140000"@en .
+
+<90000000> a skos:Concept;
+  skos:definition "Travel and Food and Lodging and Entertainment Services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "Travel and Food and Lodging and Entertainment Services"@en;
+  skos:scopeNote "" .
+
+<90100000> a skos:Concept;
+  skos:broader <90000000>;
+  skos:definition "Restaurants and catering"@en;
+  skos:inScheme <>;
+  skos:prefLabel "90100000"@en .
+
+<90110000> a skos:Concept;
+  skos:broader <90000000>;
+  skos:definition "Hotels and lodging and meeting facilities"@en;
+  skos:inScheme <>;
+  skos:prefLabel "90110000"@en .
+
+<90120000> a skos:Concept;
+  skos:broader <90000000>;
+  skos:definition "Travel facilitation"@en;
+  skos:inScheme <>;
+  skos:prefLabel "90120000"@en .
+
+<90130000> a skos:Concept;
+  skos:broader <90000000>;
+  skos:definition "Performing arts"@en;
+  skos:inScheme <>;
+  skos:prefLabel "90130000"@en .
+
+<90140000> a skos:Concept;
+  skos:broader <90000000>;
+  skos:definition "Commercial sports"@en;
+  skos:inScheme <>;
+  skos:prefLabel "90140000"@en .
+
+<91000000> a skos:Concept;
+  skos:definition "Personal and Domestic Services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "Personal and Domestic Services"@en;
+  skos:scopeNote "" .
+
+<91100000> a skos:Concept;
+  skos:broader <91000000>;
+  skos:definition "Personal appearance"@en;
+  skos:inScheme <>;
+  skos:prefLabel "91100000"@en .
+
+<91110000> a skos:Concept;
+  skos:broader <91000000>;
+  skos:definition "Domestic and personal assistance"@en;
+  skos:inScheme <>;
+  skos:prefLabel "91110000"@en .
+
+<92000000> a skos:Concept;
+  skos:definition "Security and Safety Services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "Security and Safety Services"@en;
+  skos:scopeNote "" .
+
+<92120000> a skos:Concept;
+  skos:broader <92000000>;
+  skos:definition "Security and personal safety"@en;
+  skos:inScheme <>;
+  skos:prefLabel "92120000"@en .
+
+<93000000> a skos:Concept;
+  skos:definition "Politics and Civic Affairs Services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "Politics and Civic Affairs Services"@en;
+  skos:scopeNote "" .
+
+<93100000> a skos:Concept;
+  skos:broader <93000000>;
+  skos:definition "Political systems and institutions"@en;
+  skos:inScheme <>;
+  skos:prefLabel "93100000"@en .
+
+<93110000> a skos:Concept;
+  skos:broader <93000000>;
+  skos:definition "Socio political conditions"@en;
+  skos:inScheme <>;
+  skos:prefLabel "93110000"@en .
+
+<93120000> a skos:Concept;
+  skos:broader <93000000>;
+  skos:definition "International relations"@en;
+  skos:inScheme <>;
+  skos:prefLabel "93120000"@en .
+
+<93130000> a skos:Concept;
+  skos:broader <93000000>;
+  skos:definition "Humanitarian aid and relief"@en;
+  skos:inScheme <>;
+  skos:prefLabel "93130000"@en .
+
+<93140000> a skos:Concept;
+  skos:broader <93000000>;
+  skos:definition "Community and social services"@en;
+  skos:inScheme <>;
+  skos:prefLabel "93140000"@en .
+
+<93160000> a skos:Concept;
+  skos:broader <93000000>;
+  skos:definition "Taxation"@en;
+  skos:inScheme <>;
+  skos:prefLabel "93160000"@en .
+
+<93170000> a skos:Concept;
+  skos:broader <93000000>;
+  skos:definition "Trade policy and regulation"@en;
+  skos:inScheme <>;
+  skos:prefLabel "93170000"@en .
+
+<94000000> a skos:Concept;
+  skos:definition "Organizations and Clubs"@en;
+  skos:inScheme <>;
+  skos:prefLabel "";
+  skos:scopeNote "" .
+
+<94100000> a skos:Concept;
+  skos:broader <94000000>;
+  skos:definition "Work related organizations"@en;
+  skos:inScheme <>;
+  skos:prefLabel "94100000"@en .
+
+<94110000> a skos:Concept;
+  skos:broader <94000000>;
+  skos:definition "Religious organizations"@en;
+  skos:inScheme <>;
+  skos:prefLabel "94110000"@en .
+
+<94120000> a skos:Concept;
+  skos:broader <94000000>;
+  skos:definition "Clubs"@en;
+  skos:inScheme <>;
+  skos:prefLabel "94120000"@en .
+
+<94130000> a skos:Concept;
+  skos:broader <94000000>;
+  skos:definition "Civic organizations and associations and movements"@en;
+  skos:inScheme <>;
+  skos:prefLabel "94130000"@en .
+
+<95000000> a skos:Concept;
+  skos:definition "Land and Buildings and Structures and Thoroughfares"@en;
+  skos:inScheme <>;
+  skos:prefLabel "Land and Buildings and Structures and Thoroughfares"@en;
+  skos:scopeNote "" .
+
+<95100000> a skos:Concept;
+  skos:broader <95000000>;
+  skos:definition "Land parcels"@en;
+  skos:inScheme <>;
+  skos:prefLabel "95100000"@en .
+
+<95110000> a skos:Concept;
+  skos:broader <95000000>;
+  skos:definition "Thoroughfares"@en;
+  skos:inScheme <>;
+  skos:prefLabel "95110000"@en .
+
+<95120000> a skos:Concept;
+  skos:broader <95000000>;
+  skos:definition "Permanent buildings and structures"@en;
+  skos:inScheme <>;
+  skos:prefLabel "95120000"@en .
+
+<95130000> a skos:Concept;
+  skos:broader <95000000>;
+  skos:definition "Portable buildings and structures"@en;
+  skos:inScheme <>;
+  skos:prefLabel "95130000"@en .
+
+<95140000> a skos:Concept;
+  skos:broader <95000000>;
+  skos:definition "Prefabricated buildings and structures"@en;
+  skos:inScheme <>;
+  skos:prefLabel "95140000"@en .

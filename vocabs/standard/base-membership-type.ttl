@@ -1,60 +1,74 @@
 @base <http://purl.org/essglobal/standard/base-membership-type/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix essglobal: <http://purl.org/essglobal/standard/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://purl.org/essglobal/standard/base-membership-type/>
-    dc:description "The set of types of memberships to be used with the term baseMembershipType" ;
-    dc:language "en-en" ;
-    dc:publisher <https://solidarityeconomy.coop/> ;
-    dc:relation <http://www.ripess.org/> ;
-    dc:title "Tipología"@es,"Typologie"@fr,"Typology"@en ;
-    dcterms:created "2020-10-07"^^<http://www.w3.org/2001/XMLSchema#date> ;
-    dc:modified "2021-03-10"^^<http://www.w3.org/2001/XMLSchema#date> ;
-    dcterms:publisher "ESSGLOBAL" ;
-    a skos:ConceptScheme .
+<> a skos:ConceptScheme;
+  dc:description "The set of types of memberships to be used with the term baseMembershipType";
+  dc:language "en-en";
+  dc:modified "2022-01-19"^^xsd:date;
+  dc:publisher <https://solidarityeconomy.coop/>;
+  dc:relation <http://www.ripess.org/>;
+  dc:title "Typology"@en,
+    "Tipología"@es,
+    "Typologie"@fr,
+    ""@pt;
+  dcterms:created "2020-10-07"^^xsd:date;
+  dcterms:publisher "ESSGLOBAL" .
 
-<http://purl.org/essglobal/standard/base-membership-type/BMT10>
-    a skos:Concept ;
-    skos:altLabel "A" ;
-    skos:inScheme <http://purl.org/essglobal/standard/base-membership-type/> ;
-    skos:prefLabel "de consumo/usuarios"@es, "Consommateurs/usagers"@fr, ""@pt, "Consumer/Users"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<BMT10> a skos:Concept;
+  skos:altLabel "A";
+  skos:inScheme <>;
+  skos:prefLabel "Consumer/Users"@en,
+    "de consumo/usuarios"@es,
+    "Consommateurs/usagers"@fr,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/base-membership-type/BMT20>
-    a skos:Concept ;
-    skos:altLabel "B" ;
-    skos:inScheme <http://purl.org/essglobal/standard/base-membership-type/> ;
-    skos:prefLabel "de productores"@es, "Producteurs"@fr, ""@pt, "Producers"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<BMT20> a skos:Concept;
+  skos:altLabel "B";
+  skos:inScheme <>;
+  skos:prefLabel "Producers"@en,
+    "de productores"@es,
+    "Producteurs"@fr,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/base-membership-type/BMT30>
-    a skos:Concept ;
-    skos:altLabel "C" ;
-    skos:inScheme <http://purl.org/essglobal/standard/base-membership-type/> ;
-    skos:prefLabel "de trabajadores"@es, "Travailleurs"@fr, ""@pt, "Workers"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<BMT30> a skos:Concept;
+  skos:altLabel "C";
+  skos:inScheme <>;
+  skos:prefLabel "Workers"@en,
+    "de trabajadores"@es,
+    "Travailleurs"@fr,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/base-membership-type/BMT40>
-    a skos:Concept ;
-    skos:altLabel "D" ;
-    skos:inScheme <http://purl.org/essglobal/standard/base-membership-type/> ;
-    skos:prefLabel "de múltiples partes interesadas"@es, "Intérêt collectif"@fr, ""@pt, "Multi-stakeholders"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<BMT40> a skos:Concept;
+  skos:altLabel "D";
+  skos:inScheme <>;
+  skos:prefLabel "Multi-stakeholders"@en,
+    "de múltiples partes interesadas"@es,
+    "Intérêt collectif"@fr,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/base-membership-type/BMT50>
-    a skos:Concept ;
-    skos:altLabel "E" ;
-    skos:inScheme <http://purl.org/essglobal/standard/base-membership-type/> ;
-    skos:prefLabel "de residentes"@es, "Résidents"@fr, ""@pt, "Residents"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<BMT50> a skos:Concept;
+  skos:altLabel "E";
+  skos:inScheme <>;
+  skos:prefLabel "Residents"@en,
+    "de residentes"@es,
+    "Résidents"@fr,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/base-membership-type/BMT60>
-    a skos:Concept ;
-    skos:altLabel "F" ;
-    skos:inScheme <http://purl.org/essglobal/standard/base-membership-type/> ;
-    skos:prefLabel "Otros"@es, "Autres"@fr, ""@pt, "Others"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
+<BMT60> a skos:Concept;
+  skos:altLabel "F";
+  skos:inScheme <>;
+  skos:prefLabel "Others"@en,
+    "Otros"@es,
+    "Autres"@fr,
+    ""@pt;
+  skos:scopeNote "" .

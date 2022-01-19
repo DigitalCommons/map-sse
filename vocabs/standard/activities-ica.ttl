@@ -1,221 +1,281 @@
 @base <http://purl.org/essglobal/standard/activities-ica/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix essglobal: <http://purl.org/essglobal/standard/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://purl.org/essglobal/standard/activities-ica/>
-    dc:description "The set of economic activities defined by the ICA (L2) to be used with the terms economicSector, primarySector" ;
-    dc:language "en-en" ;
-    dc:publisher <https://solidarityeconomy.coop/> ;
-    dc:relation <http://www.ripess.org/> ;
-    dc:title "Actividad económica"@es,"Secteur économique"@fr,"Economic Activity"@en ;
-    dcterms:created "2020-07-29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-    dc:modified "2021-03-10"^^<http://www.w3.org/2001/XMLSchema#date> ;    
-    dcterms:publisher "ESSGLOBAL" ;
-    a skos:ConceptScheme .
+<> a skos:ConceptScheme;
+  dc:description "The set of economic activities defined by the ICA (L2) to be used with the terms economicSector, primarySector";
+  dc:language "en-en";
+  dc:modified "2022-01-19"^^xsd:date;
+  dc:publisher <https://solidarityeconomy.coop/>;
+  dc:relation <http://www.ripess.org/>;
+  dc:title "Economic Activity"@en,
+    "Actividad económica"@es,
+    "Secteur économique"@fr,
+    ""@pt;
+  dcterms:created "2020-07-29"^^xsd:date;
+  dcterms:publisher "ESSGLOBAL" .
 
-<http://purl.org/essglobal/standard/activities-ica/ICA10>
-    a skos:Concept ;
-    skos:altLabel "A" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-ica/> ;
-    skos:prefLabel "Agricultura"@es, "Agriculture"@fr, ""@pt, "Agriculture"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<ICA10> a skos:Concept;
+  skos:altLabel "A";
+  skos:inScheme <>;
+  skos:prefLabel "Agriculture"@en,
+    "Agricultura"@es,
+    "Agriculture"@fr,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-ica/ICA100>
-    a skos:Concept ;
-    skos:altLabel "J" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-ica/> ;
-    skos:prefLabel "Minería"@es, "Exploitation minière"@fr, ""@pt, "Mining"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<ICA100> a skos:Concept;
+  skos:altLabel "J";
+  skos:inScheme <>;
+  skos:prefLabel "Mining"@en,
+    "Minería"@es,
+    "Exploitation minière"@fr,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-ica/ICA110>
-    a skos:Concept ;
-    skos:altLabel "K" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-ica/> ;
-    skos:prefLabel "Actividades profesionales"@es, "Cadres et professions libérales"@fr, ""@pt, "Professional"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<ICA110> a skos:Concept;
+  skos:altLabel "K";
+  skos:inScheme <>;
+  skos:prefLabel "Professional"@en,
+    "Actividades profesionales"@es,
+    "Cadres et professions libérales"@fr,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-ica/ICA120>
-    a skos:Concept ;
-    skos:altLabel "L" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-ica/> ;
-    skos:prefLabel "Servicios"@es, "Services"@fr, ""@pt, "Service"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<ICA120> a skos:Concept;
+  skos:altLabel "L";
+  skos:inScheme <>;
+  skos:prefLabel "Service"@en,
+    "Servicios"@es,
+    "Services"@fr,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-ica/ICA130>
-    a skos:Concept ;
-    skos:altLabel "M" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-ica/> ;
-    skos:prefLabel "Turismo"@es, "Tourisme"@fr, ""@pt, "Tourism"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<ICA130> a skos:Concept;
+  skos:altLabel "M";
+  skos:inScheme <>;
+  skos:prefLabel "Tourism"@en,
+    "Turismo"@es,
+    "Tourisme"@fr,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-ica/ICA140>
-    a skos:Concept ;
-    skos:altLabel "N" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-ica/> ;
-    skos:prefLabel "Servicios financieros"@es, "Services financiers"@fr, ""@pt, "Financial Services"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<ICA140> a skos:Concept;
+  skos:altLabel "N";
+  skos:inScheme <>;
+  skos:prefLabel "Financial Services"@en,
+    "Servicios financieros"@es,
+    "Services financiers"@fr,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-ica/ICA150>
-    a skos:Concept ;
-    skos:altLabel "O" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-ica/> ;
-    skos:prefLabel "Seguros"@es, "Assurance"@fr, ""@pt, "Insurance"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<ICA150> a skos:Concept;
+  skos:altLabel "O";
+  skos:inScheme <>;
+  skos:prefLabel "Insurance"@en,
+    "Seguros"@es,
+    "Assurance"@fr,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-ica/ICA160>
-    a skos:Concept ;
-    skos:altLabel "P" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-ica/> ;
-    skos:prefLabel "Educación"@es, "Éducation"@fr, ""@pt, "Education"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<ICA160> a skos:Concept;
+  skos:altLabel "P";
+  skos:inScheme <>;
+  skos:prefLabel "Education"@en,
+    "Educación"@es,
+    "Éducation"@fr,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-ica/ICA170>
-    a skos:Concept ;
-    skos:altLabel "Q" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-ica/> ;
-    skos:prefLabel "Salud"@es, "Santé"@fr, ""@pt, "Health"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<ICA170> a skos:Concept;
+  skos:altLabel "Q";
+  skos:inScheme <>;
+  skos:prefLabel "Health"@en,
+    "Salud"@es,
+    "Santé"@fr,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-ica/ICA180>
-    a skos:Concept ;
-    skos:altLabel "R" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-ica/> ;
-    skos:prefLabel "Servicios comunitarios"@es, "Action communautaire"@fr, ""@pt, "Community"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<ICA180> a skos:Concept;
+  skos:altLabel "R";
+  skos:inScheme <>;
+  skos:prefLabel "Community"@en,
+    "Servicios comunitarios"@es,
+    "Action communautaire"@fr,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-ica/ICA190>
-    a skos:Concept ;
-    skos:altLabel "S" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-ica/> ;
-    skos:prefLabel "Acción social"@es, "Action sociale"@fr, ""@pt, "Social"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<ICA190> a skos:Concept;
+  skos:altLabel "S";
+  skos:inScheme <>;
+  skos:prefLabel "Social"@en,
+    "Acción social"@es,
+    "Action sociale"@fr,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-ica/ICA20>
-    a skos:Concept ;
-    skos:altLabel "B" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-ica/> ;
-    skos:prefLabel "Industria lechera"@es, "Industrie laitière"@fr, ""@pt, "Dairy"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<ICA20> a skos:Concept;
+  skos:altLabel "B";
+  skos:inScheme <>;
+  skos:prefLabel "Dairy"@en,
+    "Industria lechera"@es,
+    "Industrie laitière"@fr,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-ica/ICA200>
-    a skos:Concept ;
-    skos:altLabel "T" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-ica/> ;
-    skos:prefLabel "Servicios sociales"@es, "Services sociaux"@fr, ""@pt, "Social Service"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<ICA200> a skos:Concept;
+  skos:altLabel "T";
+  skos:inScheme <>;
+  skos:prefLabel "Social Service"@en,
+    "Servicios sociales"@es,
+    "Services sociaux"@fr,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-ica/ICA210>
-    a skos:Concept ;
-    skos:altLabel "U" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-ica/> ;
-    skos:prefLabel "Vivienda"@es, "Logement"@fr, ""@pt, "Housing"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<ICA210> a skos:Concept;
+  skos:altLabel "U";
+  skos:inScheme <>;
+  skos:prefLabel "Housing"@en,
+    "Vivienda"@es,
+    "Logement"@fr,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-ica/ICA220>
-    a skos:Concept ;
-    skos:altLabel "V" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-ica/> ;
-    skos:prefLabel "Transporte"@es, "Transports"@fr, ""@pt, "Transport"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<ICA220> a skos:Concept;
+  skos:altLabel "V";
+  skos:inScheme <>;
+  skos:prefLabel "Transport"@en,
+    "Transporte"@es,
+    "Transports"@fr,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-ica/ICA230>
-    a skos:Concept ;
-    skos:altLabel "W" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-ica/> ;
-    skos:prefLabel "Servicios públicos"@es, "Services publics"@fr, ""@pt, "Utilities"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<ICA230> a skos:Concept;
+  skos:altLabel "W";
+  skos:inScheme <>;
+  skos:prefLabel "Utilities"@en,
+    "Servicios públicos"@es,
+    "Services publics"@fr,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-ica/ICA240>
-    a skos:Concept ;
-    skos:altLabel "X" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-ica/> ;
-    skos:prefLabel "Comercio minorista"@es, "Grande distribution"@fr, ""@pt, "Retail"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<ICA240> a skos:Concept;
+  skos:altLabel "X";
+  skos:inScheme <>;
+  skos:prefLabel "Retail"@en,
+    "Comercio minorista"@es,
+    "Grande distribution"@fr,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-ica/ICA250>
-    a skos:Concept ;
-    skos:altLabel "Y" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-ica/> ;
-    skos:prefLabel "Producción"@es, "Production"@fr, ""@pt, "Production"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<ICA250> a skos:Concept;
+  skos:altLabel "Y";
+  skos:inScheme <>;
+  skos:prefLabel "Production"@en,
+    "Producción"@es,
+    "Production"@fr,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-ica/ICA260>
-    a skos:Concept ;
-    skos:altLabel "Z" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-ica/> ;
-    skos:prefLabel "Comercio mayorista y minorista"@es, "Vente de gros et de détail"@fr, ""@pt, "Wholesale and retail trade"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<ICA260> a skos:Concept;
+  skos:altLabel "Z";
+  skos:inScheme <>;
+  skos:prefLabel "Wholesale and retail trade"@en,
+    "Comercio mayorista y minorista"@es,
+    "Vente de gros et de détail"@fr,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-ica/ICA270>
-    a skos:Concept ;
-    skos:altLabel "AA" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-ica/> ;
-    skos:prefLabel "Educación, salud y trabajo social"@es, "Éducation / Santé / Travail social"@fr, ""@pt, "Education / health / social work"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<ICA270> a skos:Concept;
+  skos:altLabel "AA";
+  skos:inScheme <>;
+  skos:prefLabel "Education / health / social work"@en,
+    "Educación, salud y trabajo social"@es,
+    "Éducation / Santé / Travail social"@fr,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-ica/ICA280>
-    a skos:Concept ;
-    skos:altLabel "AB" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-ica/> ;
-    skos:prefLabel "Otros servicios"@es, "Autres services"@fr, ""@pt, "Other Services"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<ICA280> a skos:Concept;
+  skos:altLabel "AB";
+  skos:inScheme <>;
+  skos:prefLabel "Other Services"@en,
+    "Otros servicios"@es,
+    "Autres services"@fr,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-ica/ICA290>
-    a skos:Concept ;
-    skos:altLabel "AC" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-ica/> ;
-    skos:prefLabel "Todos los servicios"@es, "Tous (services)"@fr, ""@pt, "All"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<ICA290> a skos:Concept;
+  skos:altLabel "AC";
+  skos:inScheme <>;
+  skos:prefLabel "All"@en,
+    "Todos los servicios"@es,
+    "Tous (services)"@fr,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-ica/ICA30>
-    a skos:Concept ;
-    skos:altLabel "C" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-ica/> ;
-    skos:prefLabel "Silvicultura"@es, "Foresterie"@fr, ""@pt, "Forestry"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<ICA30> a skos:Concept;
+  skos:altLabel "C";
+  skos:inScheme <>;
+  skos:prefLabel "Forestry"@en,
+    "Silvicultura"@es,
+    "Foresterie"@fr,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-ica/ICA40>
-    a skos:Concept ;
-    skos:altLabel "D" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-ica/> ;
-    skos:prefLabel "Riego"@es, "Irrigation"@fr, ""@pt, "Irrigation"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<ICA40> a skos:Concept;
+  skos:altLabel "D";
+  skos:inScheme <>;
+  skos:prefLabel "Irrigation"@en,
+    "Riego"@es,
+    "Irrigation"@fr,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-ica/ICA50>
-    a skos:Concept ;
-    skos:altLabel "E" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-ica/> ;
-    skos:prefLabel "Pesca"@es, "Pêche"@fr, ""@pt, "Fishing"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<ICA50> a skos:Concept;
+  skos:altLabel "E";
+  skos:inScheme <>;
+  skos:prefLabel "Fishing"@en,
+    "Pesca"@es,
+    "Pêche"@fr,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-ica/ICA60>
-    a skos:Concept ;
-    skos:altLabel "F" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-ica/> ;
-    skos:prefLabel "Artesanía"@es, "Artisanat"@fr, ""@pt, "Artisans"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<ICA60> a skos:Concept;
+  skos:altLabel "F";
+  skos:inScheme <>;
+  skos:prefLabel "Artisans"@en,
+    "Artesanía"@es,
+    "Artisanat"@fr,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-ica/ICA70>
-    a skos:Concept ;
-    skos:altLabel "G" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-ica/> ;
-    skos:prefLabel "Construcción"@es, "Construction"@fr, ""@pt, "Construction"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<ICA70> a skos:Concept;
+  skos:altLabel "G";
+  skos:inScheme <>;
+  skos:prefLabel "Construction"@en,
+    "Construcción"@es,
+    "Construction"@fr,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-ica/ICA80>
-    a skos:Concept ;
-    skos:altLabel "H" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-ica/> ;
-    skos:prefLabel "Industria"@es, "Industrie"@fr, ""@pt, "Industry"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<ICA80> a skos:Concept;
+  skos:altLabel "H";
+  skos:inScheme <>;
+  skos:prefLabel "Industry"@en,
+    "Industria"@es,
+    "Industrie"@fr,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-ica/ICA90>
-    a skos:Concept ;
-    skos:altLabel "I" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-ica/> ;
-    skos:prefLabel "Fabricación"@es, "Industrie manufacturière"@fr, ""@pt, "Manufacturing"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
+<ICA90> a skos:Concept;
+  skos:altLabel "I";
+  skos:inScheme <>;
+  skos:prefLabel "Manufacturing"@en,
+    "Fabricación"@es,
+    "Industrie manufacturière"@fr,
+    ""@pt;
+  skos:scopeNote "" .

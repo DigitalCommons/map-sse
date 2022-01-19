@@ -1,2502 +1,2505 @@
+@base <http://purl.org/essglobal/standard/countries-iso/> .
+@prefix coun: <http://purl.org/essglobal/standard/countries-iso/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix ossr: <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix reg: <http://purl.org/essglobal/standard/regions-ica/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@base <http://purl.org/essglobal/standard/countries-iso/> .
 
-<> a skos:ConceptScheme ;
-    dc:title "Countries"@EN,"Des Pays"@FR,"Países"@ES,"Länder"@DE,"国别"@ZH,"국가"@KO;
-    dc:description "A controlled vocabulary of countries compatible with ISO-3166-2 for SSE" ;
-    dc:creator "Solidarity Economy Association";
-    dc:language "en-en";
-    dcterms:creator <http://solidarityeconomy.coop>; # ?
-    dcterms:created "2021-02-22"^^xsd:date;
-    dcterms:publisher "ESSGLOBAL";
-    dc:publisher <http://www.ripess.org/>;
-    dc:modified "2021-11-25"^^xsd:date.
+coun: a skos:ConceptScheme;
+  dc:creator "Solidarity Economy Association";
+  dc:description "A controlled vocabulary of countries compatible with ISO-3166-2 for SSE";
+  dc:language "en-en";
+  dc:modified "2022-01-19"^^xsd:date;
+  dc:publisher <http://www.ripess.org/>;
+  dc:title "Länder"@de,
+    "Countries"@en,
+    "Países"@es,
+    "Des Pays"@fr,
+    "국가"@ko,
+    "国别"@zh;
+  dcterms:created "2021-02-22"^^xsd:date;
+  dcterms:creator <http://solidarityeconomy.coop>;
+  dcterms:publisher "ESSGLOBAL" .
 
 <AD> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-WE;
-    skos:prefLabel "Andorra"@EN;
-    skos:prefLabel "Andorra"@ES;
-    skos:prefLabel "Andorre"@FR;
-    skos:prefLabel "Andorra"@DE;
-    skos:prefLabel "安道尔"@ZH;
-    skos:prefLabel "안도라"@KO;
-.
+  ossr:within reg:I-EU-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Andorra"@de,
+    "Andorra"@en,
+    "Andorra"@es,
+    "Andorre"@fr,
+    "안도라"@ko,
+    "安道尔"@zh .
+
 <AE> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-ME;
-    skos:prefLabel "United Arab Emirates"@EN;
-    skos:prefLabel "Emiratos Árabes Unidos"@ES;
-    skos:prefLabel "Émirats arabes unis"@FR;
-    skos:prefLabel "Vereinigte Arabische Emirate"@DE;
-    skos:prefLabel "阿联酋"@ZH;
-    skos:prefLabel "아랍에미리트"@KO;
-.
+  ossr:within reg:I-AP-ME;
+  skos:inScheme coun:;
+  skos:prefLabel "Vereinigte Arabische Emirate"@de,
+    "United Arab Emirates"@en,
+    "Emiratos Árabes Unidos"@es,
+    "Émirats arabes unis"@fr,
+    "아랍에미리트"@ko,
+    "阿联酋"@zh .
+
 <AF> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-SO;
-    skos:prefLabel "Afghanistan"@EN;
-    skos:prefLabel "Afganistán"@ES;
-    skos:prefLabel "Afghanistan"@FR;
-    skos:prefLabel "Afghanistan"@DE;
-    skos:prefLabel "阿富汗"@ZH;
-    skos:prefLabel "아프가니스탄"@KO;
-.
+  ossr:within reg:I-AP-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Afghanistan"@de,
+    "Afghanistan"@en,
+    "Afganistán"@es,
+    "Afghanistan"@fr,
+    "아프가니스탄"@ko,
+    "阿富汗"@zh .
+
 <AG> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CB;
-    skos:prefLabel "Antigua and Barbuda"@EN;
-    skos:prefLabel "Antigua y Barbuda"@ES;
-    skos:prefLabel "Antigua-et-Barbuda"@FR;
-    skos:prefLabel "Antigua und Barbuda"@DE;
-    skos:prefLabel "安提瓜和巴布达"@ZH;
-    skos:prefLabel "앤티가 바부다"@KO;
-.
+  ossr:within reg:I-AM-CB;
+  skos:inScheme coun:;
+  skos:prefLabel "Antigua und Barbuda"@de,
+    "Antigua and Barbuda"@en,
+    "Antigua y Barbuda"@es,
+    "Antigua-et-Barbuda"@fr,
+    "앤티가 바부다"@ko,
+    "安提瓜和巴布达"@zh .
+
 <AI> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CB;
-    skos:prefLabel "Anguilla"@EN;
-    skos:prefLabel "Anguila"@ES;
-    skos:prefLabel "Anguilla"@FR;
-    skos:prefLabel "Anguilla"@DE;
-    skos:prefLabel "安圭拉"@ZH;
-    skos:prefLabel "앵귈라"@KO;
-.
+  ossr:within reg:I-AM-CB;
+  skos:inScheme coun:;
+  skos:prefLabel "Anguilla"@de,
+    "Anguilla"@en,
+    "Anguila"@es,
+    "Anguilla"@fr,
+    "앵귈라"@ko,
+    "安圭拉"@zh .
+
 <AL> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-EA;
-    skos:prefLabel "Albania"@EN;
-    skos:prefLabel "Albania"@ES;
-    skos:prefLabel "Albanie"@FR;
-    skos:prefLabel "Albanien"@DE;
-    skos:prefLabel "阿尔巴尼亚"@ZH;
-    skos:prefLabel "알바니아"@KO;
-.
+  ossr:within reg:I-EU-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Albanien"@de,
+    "Albania"@en,
+    "Albania"@es,
+    "Albanie"@fr,
+    "알바니아"@ko,
+    "阿尔巴尼亚"@zh .
+
 <AM> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-EA;
-    skos:prefLabel "Armenia"@EN;
-    skos:prefLabel "Armenia"@ES;
-    skos:prefLabel "Arménie"@FR;
-    skos:prefLabel "Armenien"@DE;
-    skos:prefLabel "亚美尼亚"@ZH;
-    skos:prefLabel "아르메니아"@KO;
-.
+  ossr:within reg:I-EU-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Armenien"@de,
+    "Armenia"@en,
+    "Armenia"@es,
+    "Arménie"@fr,
+    "아르메니아"@ko,
+    "亚美尼亚"@zh .
+
 <AO> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-SO;
-    skos:prefLabel "Angola"@EN;
-    skos:prefLabel "Angola"@ES;
-    skos:prefLabel "Angola"@FR;
-    skos:prefLabel "Angola"@DE;
-    skos:prefLabel "安哥拉"@ZH;
-    skos:prefLabel "앙골라"@KO;
-.
+  ossr:within reg:I-AF-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Angola"@de,
+    "Angola"@en,
+    "Angola"@es,
+    "Angola"@fr,
+    "앙골라"@ko,
+    "安哥拉"@zh .
+
 <AQ> a skos:Concept;
-    skos:inScheme <>;
-    skos:prefLabel "Antarctica"@EN;
-    skos:prefLabel "Antártida"@ES;
-    skos:prefLabel "Antarctique"@FR;
-    skos:prefLabel "Antarktis"@DE;
-    skos:prefLabel "南极洲"@ZH;
-    skos:prefLabel "남극"@KO;
-.
+  skos:inScheme coun:;
+  skos:prefLabel "Antarktis"@de,
+    "Antarctica"@en,
+    "Antártida"@es,
+    "Antarctique"@fr,
+    "남극"@ko,
+    "南极洲"@zh .
+
 <AR> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-SO;
-    skos:prefLabel "Argentina"@EN;
-    skos:prefLabel "Argentina"@ES;
-    skos:prefLabel "Argentine"@FR;
-    skos:prefLabel "Argentinien"@DE;
-    skos:prefLabel "阿根廷"@ZH;
-    skos:prefLabel "아르헨티나"@KO;
-.
+  ossr:within reg:I-AM-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Argentinien"@de,
+    "Argentina"@en,
+    "Argentina"@es,
+    "Argentine"@fr,
+    "아르헨티나"@ko,
+    "阿根廷"@zh .
+
 <AS> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-OC;
-    skos:prefLabel "American Samoa"@EN;
-    skos:prefLabel "Samoa Estadounidense"@ES;
-    skos:prefLabel "Samoa américaines"@FR;
-    skos:prefLabel "Amerikanisch-Samoa"@DE;
-    skos:prefLabel "美属萨摩亚"@ZH;
-    skos:prefLabel "아메리칸사모아"@KO;
-.
+  ossr:within reg:I-AP-OC;
+  skos:inScheme coun:;
+  skos:prefLabel "Amerikanisch-Samoa"@de,
+    "American Samoa"@en,
+    "Samoa Estadounidense"@es,
+    "Samoa américaines"@fr,
+    "아메리칸사모아"@ko,
+    "美属萨摩亚"@zh .
+
 <AT> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-WE;
-    skos:prefLabel "Austria"@EN;
-    skos:prefLabel "Austria"@ES;
-    skos:prefLabel "Autriche"@FR;
-    skos:prefLabel "Österreich"@DE;
-    skos:prefLabel "奥地利"@ZH;
-    skos:prefLabel "오스트리아"@KO;
-.
+  ossr:within reg:I-EU-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Österreich"@de,
+    "Austria"@en,
+    "Austria"@es,
+    "Autriche"@fr,
+    "오스트리아"@ko,
+    "奥地利"@zh .
+
 <AU> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-OC;
-    skos:prefLabel "Australia"@EN;
-    skos:prefLabel "Australia"@ES;
-    skos:prefLabel "Australie"@FR;
-    skos:prefLabel "Australien"@DE;
-    skos:prefLabel "澳大利亚"@ZH;
-    skos:prefLabel "오스트레일리아"@KO;
-.
+  ossr:within reg:I-AP-OC;
+  skos:inScheme coun:;
+  skos:prefLabel "Australien"@de,
+    "Australia"@en,
+    "Australia"@es,
+    "Australie"@fr,
+    "오스트레일리아"@ko,
+    "澳大利亚"@zh .
+
 <AW> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CB;
-    skos:prefLabel "Aruba"@EN;
-    skos:prefLabel "Aruba"@ES;
-    skos:prefLabel "Aruba"@FR;
-    skos:prefLabel "Aruba"@DE;
-    skos:prefLabel "阿鲁巴"@ZH;
-    skos:prefLabel "아루바"@KO;
-.
+  ossr:within reg:I-AM-CB;
+  skos:inScheme coun:;
+  skos:prefLabel "Aruba"@de,
+    "Aruba"@en,
+    "Aruba"@es,
+    "Aruba"@fr,
+    "아루바"@ko,
+    "阿鲁巴"@zh .
+
 <AX> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-WE;
-    skos:prefLabel "Åland Islands"@EN;
-    skos:prefLabel "Islas Äland"@ES;
-    skos:prefLabel "Åland, Îles"@FR;
-    skos:prefLabel "Åland-Inseln"@DE;
-    skos:prefLabel "奥兰群岛"@ZH;
-    skos:prefLabel "올란드 제도"@KO;
-.
+  ossr:within reg:I-EU-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Åland-Inseln"@de,
+    "Åland Islands"@en,
+    "Islas Äland"@es,
+    "Åland, Îles"@fr,
+    "올란드 제도"@ko,
+    "奥兰群岛"@zh .
+
 <AZ> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-EA;
-    skos:prefLabel "Azerbaijan"@EN;
-    skos:prefLabel "Azerbaiyán"@ES;
-    skos:prefLabel "Azerbaïdjan"@FR;
-    skos:prefLabel "Aserbaidschan"@DE;
-    skos:prefLabel "阿塞拜疆"@ZH;
-    skos:prefLabel "아제르바이잔"@KO;
-.
+  ossr:within reg:I-EU-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Aserbaidschan"@de,
+    "Azerbaijan"@en,
+    "Azerbaiyán"@es,
+    "Azerbaïdjan"@fr,
+    "아제르바이잔"@ko,
+    "阿塞拜疆"@zh .
+
 <BA> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-EA;
-    skos:prefLabel "Bosnia and Herzegovina"@EN;
-    skos:prefLabel "Bosnia y Herzegovina"@ES;
-    skos:prefLabel "Bosnie-Herzégovine"@FR;
-    skos:prefLabel "Bosnien und Herzegowina"@DE;
-    skos:prefLabel "波斯尼亚和黑塞哥维那"@ZH;
-    skos:prefLabel "보스니아 헤르체고비나"@KO;
-.
+  ossr:within reg:I-EU-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Bosnien und Herzegowina"@de,
+    "Bosnia and Herzegovina"@en,
+    "Bosnia y Herzegovina"@es,
+    "Bosnie-Herzégovine"@fr,
+    "보스니아 헤르체고비나"@ko,
+    "波斯尼亚和黑塞哥维那"@zh .
+
 <BB> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CB;
-    skos:prefLabel "Barbados"@EN;
-    skos:prefLabel "Barbados"@ES;
-    skos:prefLabel "Barbade"@FR;
-    skos:prefLabel "Barbados"@DE;
-    skos:prefLabel "巴巴多斯"@ZH;
-    skos:prefLabel "바베이도스"@KO;
-.
+  ossr:within reg:I-AM-CB;
+  skos:inScheme coun:;
+  skos:prefLabel "Barbados"@de,
+    "Barbados"@en,
+    "Barbados"@es,
+    "Barbade"@fr,
+    "바베이도스"@ko,
+    "巴巴多斯"@zh .
+
 <BD> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-SO;
-    skos:prefLabel "Bangladesh"@EN;
-    skos:prefLabel "Bangladés"@ES;
-    skos:prefLabel "Bangladesh"@FR;
-    skos:prefLabel "Bangladesch"@DE;
-    skos:prefLabel "孟加拉"@ZH;
-    skos:prefLabel "방글라데시"@KO;
-.
+  ossr:within reg:I-AP-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Bangladesch"@de,
+    "Bangladesh"@en,
+    "Bangladés"@es,
+    "Bangladesh"@fr,
+    "방글라데시"@ko,
+    "孟加拉"@zh .
+
 <BE> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-WE;
-    skos:prefLabel "Belgium"@EN;
-    skos:prefLabel "Bélgica"@ES;
-    skos:prefLabel "Belgique"@FR;
-    skos:prefLabel "Belgien"@DE;
-    skos:prefLabel "比利时"@ZH;
-    skos:prefLabel "벨기에"@KO;
-.
+  ossr:within reg:I-EU-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Belgien"@de,
+    "Belgium"@en,
+    "Bélgica"@es,
+    "Belgique"@fr,
+    "벨기에"@ko,
+    "比利时"@zh .
+
 <BF> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-WE;
-    skos:prefLabel "Burkina Faso"@EN;
-    skos:prefLabel "Burquina Faso"@ES;
-    skos:prefLabel "Burkina Faso"@FR;
-    skos:prefLabel "Burkina Faso"@DE;
-    skos:prefLabel "布基纳法索"@ZH;
-    skos:prefLabel "부르키나파소"@KO;
-.
+  ossr:within reg:I-AF-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Burkina Faso"@de,
+    "Burkina Faso"@en,
+    "Burquina Faso"@es,
+    "Burkina Faso"@fr,
+    "부르키나파소"@ko,
+    "布基纳法索"@zh .
+
 <BG> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-EA;
-    skos:prefLabel "Bulgaria"@EN;
-    skos:prefLabel "Bulgaria"@ES;
-    skos:prefLabel "Bulgarie"@FR;
-    skos:prefLabel "Bulgarien"@DE;
-    skos:prefLabel "保加利亚"@ZH;
-    skos:prefLabel "불가리아"@KO;
-.
+  ossr:within reg:I-EU-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Bulgarien"@de,
+    "Bulgaria"@en,
+    "Bulgaria"@es,
+    "Bulgarie"@fr,
+    "불가리아"@ko,
+    "保加利亚"@zh .
+
 <BH> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-ME;
-    skos:prefLabel "Bahrain"@EN;
-    skos:prefLabel "Baréin"@ES;
-    skos:prefLabel "Bahreïn"@FR;
-    skos:prefLabel "Bahrain"@DE;
-    skos:prefLabel "巴林"@ZH;
-    skos:prefLabel "바레인"@KO;
-.
+  ossr:within reg:I-AP-ME;
+  skos:inScheme coun:;
+  skos:prefLabel "Bahrain"@de,
+    "Bahrain"@en,
+    "Baréin"@es,
+    "Bahreïn"@fr,
+    "바레인"@ko,
+    "巴林"@zh .
+
 <BI> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-CE;
-    skos:prefLabel "Burundi"@EN;
-    skos:prefLabel "Burundi"@ES;
-    skos:prefLabel "Burundi"@FR;
-    skos:prefLabel "Burundi"@DE;
-    skos:prefLabel "布隆迪"@ZH;
-    skos:prefLabel "부룬디"@KO;
-.
+  ossr:within reg:I-AF-CE;
+  skos:inScheme coun:;
+  skos:prefLabel "Burundi"@de,
+    "Burundi"@en,
+    "Burundi"@es,
+    "Burundi"@fr,
+    "부룬디"@ko,
+    "布隆迪"@zh .
+
 <BJ> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-WE;
-    skos:prefLabel "Benin"@EN;
-    skos:prefLabel "Benín"@ES;
-    skos:prefLabel "Bénin"@FR;
-    skos:prefLabel "Benin"@DE;
-    skos:prefLabel "贝宁"@ZH;
-    skos:prefLabel "베냉"@KO;
-.
+  ossr:within reg:I-AF-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Benin"@de,
+    "Benin"@en,
+    "Benín"@es,
+    "Bénin"@fr,
+    "베냉"@ko,
+    "贝宁"@zh .
+
 <BL> a skos:Concept;
-    skos:inScheme <>;
-    skos:prefLabel "Saint Barthélemy"@EN;
-    skos:prefLabel "San Bartolomé"@ES;
-    skos:prefLabel "Saint-Barthélemy"@FR;
-    skos:prefLabel "Saint-Barthélemy"@DE;
-    skos:prefLabel "圣巴泰勒米岛"@ZH;
-    skos:prefLabel "생바르텔레미"@KO;
-.
+  skos:inScheme coun:;
+  skos:prefLabel "Saint-Barthélemy"@de,
+    "Saint Barthélemy"@en,
+    "San Bartolomé"@es,
+    "Saint-Barthélemy"@fr,
+    "생바르텔레미"@ko,
+    "圣巴泰勒米岛"@zh .
+
 <BM> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CB;
-    skos:prefLabel "Bermuda"@EN;
-    skos:prefLabel "Islas Bermudas"@ES;
-    skos:prefLabel "Bermudes"@FR;
-    skos:prefLabel "Bermuda"@DE;
-    skos:prefLabel "百慕大"@ZH;
-    skos:prefLabel "버뮤다"@KO;
-.
+  ossr:within reg:I-AM-CB;
+  skos:inScheme coun:;
+  skos:prefLabel "Bermuda"@de,
+    "Bermuda"@en,
+    "Islas Bermudas"@es,
+    "Bermudes"@fr,
+    "버뮤다"@ko,
+    "百慕大"@zh .
+
 <BN> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-SE;
-    skos:prefLabel "Brunei Darussalam"@EN;
-    skos:prefLabel "Brunei Darussalam"@ES;
-    skos:prefLabel "Brunéi Darussalam"@FR;
-    skos:prefLabel "Brunei Darussalam"@DE;
-    skos:prefLabel "文莱"@ZH;
-    skos:prefLabel "브루나이 다루살람"@KO;
-.
+  ossr:within reg:I-AP-SE;
+  skos:inScheme coun:;
+  skos:prefLabel "Brunei Darussalam"@de,
+    "Brunei Darussalam"@en,
+    "Brunei Darussalam"@es,
+    "Brunéi Darussalam"@fr,
+    "브루나이 다루살람"@ko,
+    "文莱"@zh .
+
 <BO> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-SO;
-    skos:prefLabel "Bolivia"@EN;
-    skos:prefLabel "Bolivia"@ES;
-    skos:prefLabel "Bolivie"@FR;
-    skos:prefLabel "Bolivien"@DE;
-    skos:prefLabel "波利维亚"@ZH;
-    skos:prefLabel "볼리비아"@KO;
-.
+  ossr:within reg:I-AM-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Bolivien"@de,
+    "Bolivia"@en,
+    "Bolivia"@es,
+    "Bolivie"@fr,
+    "볼리비아"@ko,
+    "波利维亚"@zh .
+
 <BQ> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CB;
-    skos:prefLabel "Bonaire, Sint Eustatius and Saba"@EN;
-    skos:prefLabel "Islas BES (Caribe Neerlandés)"@ES;
-    skos:prefLabel "Bonaire, Saint-Eustache et Saba"@FR;
-    skos:prefLabel "Bonaire, Sint Eustatius und Saba"@DE;
-    skos:prefLabel "博奈尔、圣尤斯特歇斯岛和萨巴"@ZH;
-    skos:prefLabel "보네르, 신트외스타티위스, 사바 섬"@KO;
-.
+  ossr:within reg:I-AM-CB;
+  skos:inScheme coun:;
+  skos:prefLabel "Bonaire, Sint Eustatius und Saba"@de,
+    "Bonaire, Sint Eustatius and Saba"@en,
+    "Islas BES (Caribe Neerlandés)"@es,
+    "Bonaire, Saint-Eustache et Saba"@fr,
+    "보네르, 신트외스타티위스, 사바 섬"@ko,
+    "博奈尔、圣尤斯特歇斯岛和萨巴"@zh .
+
 <BR> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-SO;
-    skos:prefLabel "Brazil"@EN;
-    skos:prefLabel "Brasil"@ES;
-    skos:prefLabel "Brésil"@FR;
-    skos:prefLabel "Brasilien"@DE;
-    skos:prefLabel "巴西"@ZH;
-    skos:prefLabel "브라질"@KO;
-.
+  ossr:within reg:I-AM-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Brasilien"@de,
+    "Brazil"@en,
+    "Brasil"@es,
+    "Brésil"@fr,
+    "브라질"@ko,
+    "巴西"@zh .
+
 <BS> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CB;
-    skos:prefLabel "Bahamas"@EN;
-    skos:prefLabel "Bahamas"@ES;
-    skos:prefLabel "Bahamas"@FR;
-    skos:prefLabel "Bahamas"@DE;
-    skos:prefLabel "巴哈马"@ZH;
-    skos:prefLabel "바하마"@KO;
-.
+  ossr:within reg:I-AM-CB;
+  skos:inScheme coun:;
+  skos:prefLabel "Bahamas"@de,
+    "Bahamas"@en,
+    "Bahamas"@es,
+    "Bahamas"@fr,
+    "바하마"@ko,
+    "巴哈马"@zh .
+
 <BT> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-SO;
-    skos:prefLabel "Bhutan"@EN;
-    skos:prefLabel "Bután"@ES;
-    skos:prefLabel "Bhoutan"@FR;
-    skos:prefLabel "Bhutan"@DE;
-    skos:prefLabel "不丹"@ZH;
-    skos:prefLabel "부탄"@KO;
-.
+  ossr:within reg:I-AP-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Bhutan"@de,
+    "Bhutan"@en,
+    "Bután"@es,
+    "Bhoutan"@fr,
+    "부탄"@ko,
+    "不丹"@zh .
+
 <BV> a skos:Concept;
-    skos:inScheme <>;
-    skos:prefLabel "Bouvet Island"@EN;
-    skos:prefLabel "Isla Bouvet"@ES;
-    skos:prefLabel "île Bouvet"@FR;
-    skos:prefLabel "Bouvet-Insel"@DE;
-    skos:prefLabel "布维群岛"@ZH;
-    skos:prefLabel "부베 섬"@KO;
-.
+  skos:inScheme coun:;
+  skos:prefLabel "Bouvet-Insel"@de,
+    "Bouvet Island"@en,
+    "Isla Bouvet"@es,
+    "île Bouvet"@fr,
+    "부베 섬"@ko,
+    "布维群岛"@zh .
+
 <BW> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-SO;
-    skos:prefLabel "Botswana"@EN;
-    skos:prefLabel "Botsuana"@ES;
-    skos:prefLabel "Botswana"@FR;
-    skos:prefLabel "Botsuana"@DE;
-    skos:prefLabel "博兹瓦那"@ZH;
-    skos:prefLabel "보츠와나"@KO;
-.
+  ossr:within reg:I-AF-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Botsuana"@de,
+    "Botswana"@en,
+    "Botsuana"@es,
+    "Botswana"@fr,
+    "보츠와나"@ko,
+    "博兹瓦那"@zh .
+
 <BY> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-EA;
-    skos:prefLabel "Belarus"@EN;
-    skos:prefLabel "Bielorrusia"@ES;
-    skos:prefLabel "Bélarus"@FR;
-    skos:prefLabel "Weißrussland"@DE;
-    skos:prefLabel "白俄罗斯"@ZH;
-    skos:prefLabel "벨라루스"@KO;
-.
+  ossr:within reg:I-EU-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Weißrussland"@de,
+    "Belarus"@en,
+    "Bielorrusia"@es,
+    "Bélarus"@fr,
+    "벨라루스"@ko,
+    "白俄罗斯"@zh .
+
 <BZ> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CE;
-    skos:prefLabel "Belize"@EN;
-    skos:prefLabel "Belice"@ES;
-    skos:prefLabel "Belize"@FR;
-    skos:prefLabel "Belize"@DE;
-    skos:prefLabel "伯利兹"@ZH;
-    skos:prefLabel "벨리즈"@KO;
-.
+  ossr:within reg:I-AM-CE;
+  skos:inScheme coun:;
+  skos:prefLabel "Belize"@de,
+    "Belize"@en,
+    "Belice"@es,
+    "Belize"@fr,
+    "벨리즈"@ko,
+    "伯利兹"@zh .
+
 <CA> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-NO;
-    skos:prefLabel "Canada"@EN;
-    skos:prefLabel "Canadá"@ES;
-    skos:prefLabel "Canada"@FR;
-    skos:prefLabel "Kanada"@DE;
-    skos:prefLabel "加拿大"@ZH;
-    skos:prefLabel "캐나다"@KO;
-.
+  ossr:within reg:I-AM-NO;
+  skos:inScheme coun:;
+  skos:prefLabel "Kanada"@de,
+    "Canada"@en,
+    "Canadá"@es,
+    "Canada"@fr,
+    "캐나다"@ko,
+    "加拿大"@zh .
+
 <CC> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-OC;
-    skos:prefLabel "Cocos (Keeling) Islands"@EN;
-    skos:prefLabel "Islas Cocos (Keeling)"@ES;
-    skos:prefLabel "Cocos (Keeling), Îles"@FR;
-    skos:prefLabel "Kokos-(Keeling-)Inseln"@DE;
-    skos:prefLabel "科科斯群岛"@ZH;
-    skos:prefLabel "코코스 제도"@KO;
-.
+  ossr:within reg:I-AP-OC;
+  skos:inScheme coun:;
+  skos:prefLabel "Kokos-(Keeling-)Inseln"@de,
+    "Cocos (Keeling) Islands"@en,
+    "Islas Cocos (Keeling)"@es,
+    "Cocos (Keeling), Îles"@fr,
+    "코코스 제도"@ko,
+    "科科斯群岛"@zh .
+
 <CD> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-CE;
-    skos:prefLabel "Congo, The Democratic Republic of the"@EN;
-    skos:prefLabel "Congo, República Democrática del"@ES;
-    skos:prefLabel "République démocratique du Congo"@FR;
-    skos:prefLabel "Demokratische Republik Kongo"@DE;
-    skos:prefLabel "刚果民主共和国"@ZH;
-    skos:prefLabel "콩고 민주 공화국"@KO;
-.
+  ossr:within reg:I-AF-CE;
+  skos:inScheme coun:;
+  skos:prefLabel "Demokratische Republik Kongo"@de,
+    "Congo, The Democratic Republic of the"@en,
+    "Congo, República Democrática del"@es,
+    "République démocratique du Congo"@fr,
+    "콩고 민주 공화국"@ko,
+    "刚果民主共和国"@zh .
+
 <CF> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-CE;
-    skos:prefLabel "Central African Republic"@EN;
-    skos:prefLabel "República Centroafricana"@ES;
-    skos:prefLabel "République centrafricaine"@FR;
-    skos:prefLabel "Zentralafrikanische Republik"@DE;
-    skos:prefLabel "中非"@ZH;
-    skos:prefLabel "중앙아프리카 공화국"@KO;
-.
+  ossr:within reg:I-AF-CE;
+  skos:inScheme coun:;
+  skos:prefLabel "Zentralafrikanische Republik"@de,
+    "Central African Republic"@en,
+    "República Centroafricana"@es,
+    "République centrafricaine"@fr,
+    "중앙아프리카 공화국"@ko,
+    "中非"@zh .
+
 <CG> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-CE;
-    skos:prefLabel "Congo"@EN;
-    skos:prefLabel "Congo"@ES;
-    skos:prefLabel "République du Congo"@FR;
-    skos:prefLabel "Kongo"@DE;
-    skos:prefLabel "刚果"@ZH;
-    skos:prefLabel "콩고"@KO;
-.
+  ossr:within reg:I-AF-CE;
+  skos:inScheme coun:;
+  skos:prefLabel "Kongo"@de,
+    "Congo"@en,
+    "Congo"@es,
+    "République du Congo"@fr,
+    "콩고"@ko,
+    "刚果"@zh .
+
 <CH> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-WE;
-    skos:prefLabel "Switzerland"@EN;
-    skos:prefLabel "Suiza"@ES;
-    skos:prefLabel "Suisse"@FR;
-    skos:prefLabel "Schweiz"@DE;
-    skos:prefLabel "瑞士"@ZH;
-    skos:prefLabel "스위스"@KO;
-.
+  ossr:within reg:I-EU-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Schweiz"@de,
+    "Switzerland"@en,
+    "Suiza"@es,
+    "Suisse"@fr,
+    "스위스"@ko,
+    "瑞士"@zh .
+
 <CI> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-WE;
-    skos:prefLabel "Côte d'Ivoire"@EN;
-    skos:prefLabel "Costa de Marfíl"@ES;
-    skos:prefLabel "Côte d'Ivoire"@FR;
-    skos:prefLabel "Côte d'Ivoire"@DE;
-    skos:prefLabel "科特迪瓦"@ZH;
-    skos:prefLabel "코트디부아르"@KO;
-.
+  ossr:within reg:I-AF-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Côte d'Ivoire"@de,
+    "Côte d'Ivoire"@en,
+    "Costa de Marfíl"@es,
+    "Côte d'Ivoire"@fr,
+    "코트디부아르"@ko,
+    "科特迪瓦"@zh .
+
 <CK> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-OC;
-    skos:prefLabel "Cook Islands"@EN;
-    skos:prefLabel "Islas Cook"@ES;
-    skos:prefLabel "îles Cook"@FR;
-    skos:prefLabel "Cookinseln"@DE;
-    skos:prefLabel "库克群岛"@ZH;
-    skos:prefLabel "쿡 제도"@KO;
-.
+  ossr:within reg:I-AP-OC;
+  skos:inScheme coun:;
+  skos:prefLabel "Cookinseln"@de,
+    "Cook Islands"@en,
+    "Islas Cook"@es,
+    "îles Cook"@fr,
+    "쿡 제도"@ko,
+    "库克群岛"@zh .
+
 <CL> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-SO;
-    skos:prefLabel "Chile"@EN;
-    skos:prefLabel "Chile"@ES;
-    skos:prefLabel "Chili"@FR;
-    skos:prefLabel "Chile"@DE;
-    skos:prefLabel "智利"@ZH;
-    skos:prefLabel "칠레"@KO;
-.
+  ossr:within reg:I-AM-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Chile"@de,
+    "Chile"@en,
+    "Chile"@es,
+    "Chili"@fr,
+    "칠레"@ko,
+    "智利"@zh .
+
 <CM> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-CE;
-    skos:prefLabel "Cameroon"@EN;
-    skos:prefLabel "Camerún"@ES;
-    skos:prefLabel "Cameroun"@FR;
-    skos:prefLabel "Kamerun"@DE;
-    skos:prefLabel "喀麦隆"@ZH;
-    skos:prefLabel "카메룬"@KO;
-.
+  ossr:within reg:I-AF-CE;
+  skos:inScheme coun:;
+  skos:prefLabel "Kamerun"@de,
+    "Cameroon"@en,
+    "Camerún"@es,
+    "Cameroun"@fr,
+    "카메룬"@ko,
+    "喀麦隆"@zh .
+
 <CN> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-EA;
-    skos:prefLabel "China"@EN;
-    skos:prefLabel "China"@ES;
-    skos:prefLabel "Chine"@FR;
-    skos:prefLabel "China"@DE;
-    skos:prefLabel "中国"@ZH;
-    skos:prefLabel "중국"@KO;
-.
+  ossr:within reg:I-AP-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "China"@de,
+    "China"@en,
+    "China"@es,
+    "Chine"@fr,
+    "중국"@ko,
+    "中国"@zh .
+
 <CO> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-SO;
-    skos:prefLabel "Colombia"@EN;
-    skos:prefLabel "Colombia"@ES;
-    skos:prefLabel "Colombie"@FR;
-    skos:prefLabel "Kolumbien"@DE;
-    skos:prefLabel "哥伦比亚"@ZH;
-    skos:prefLabel "콜롬비아"@KO;
-.
+  ossr:within reg:I-AM-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Kolumbien"@de,
+    "Colombia"@en,
+    "Colombia"@es,
+    "Colombie"@fr,
+    "콜롬비아"@ko,
+    "哥伦比亚"@zh .
+
 <CR> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CE;
-    skos:prefLabel "Costa Rica"@EN;
-    skos:prefLabel "Costa Rica"@ES;
-    skos:prefLabel "Costa Rica"@FR;
-    skos:prefLabel "Costa Rica"@DE;
-    skos:prefLabel "哥斯达黎加"@ZH;
-    skos:prefLabel "코스타리카"@KO;
-.
+  ossr:within reg:I-AM-CE;
+  skos:inScheme coun:;
+  skos:prefLabel "Costa Rica"@de,
+    "Costa Rica"@en,
+    "Costa Rica"@es,
+    "Costa Rica"@fr,
+    "코스타리카"@ko,
+    "哥斯达黎加"@zh .
+
 <CU> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CB;
-    skos:prefLabel "Cuba"@EN;
-    skos:prefLabel "Cuba"@ES;
-    skos:prefLabel "Cuba"@FR;
-    skos:prefLabel "Kuba"@DE;
-    skos:prefLabel "古巴"@ZH;
-    skos:prefLabel "쿠바"@KO;
-.
+  ossr:within reg:I-AM-CB;
+  skos:inScheme coun:;
+  skos:prefLabel "Kuba"@de,
+    "Cuba"@en,
+    "Cuba"@es,
+    "Cuba"@fr,
+    "쿠바"@ko,
+    "古巴"@zh .
+
 <CV> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-WE;
-    skos:prefLabel "Cabo Verde"@EN;
-    skos:prefLabel "Cabo Verde"@ES;
-    skos:prefLabel "Cap-Vert"@FR;
-    skos:prefLabel "Cabo Verde"@DE;
-    skos:prefLabel "佛得角"@ZH;
-    skos:prefLabel "카보베르데"@KO;
-.
+  ossr:within reg:I-AF-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Cabo Verde"@de,
+    "Cabo Verde"@en,
+    "Cabo Verde"@es,
+    "Cap-Vert"@fr,
+    "카보베르데"@ko,
+    "佛得角"@zh .
+
 <CW> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CB;
-    skos:prefLabel "Curaçao"@EN;
-    skos:prefLabel "Curazao"@ES;
-    skos:prefLabel "Curaçao"@FR;
-    skos:prefLabel "Curaçao"@DE;
-    skos:prefLabel "库拉索"@ZH;
-    skos:prefLabel "퀴라소"@KO;
-.
+  ossr:within reg:I-AM-CB;
+  skos:inScheme coun:;
+  skos:prefLabel "Curaçao"@de,
+    "Curaçao"@en,
+    "Curazao"@es,
+    "Curaçao"@fr,
+    "퀴라소"@ko,
+    "库拉索"@zh .
+
 <CX> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-OC;
-    skos:prefLabel "Christmas Island"@EN;
-    skos:prefLabel "Isla de Navidad"@ES;
-    skos:prefLabel "Christmas, Île"@FR;
-    skos:prefLabel "Weihnachtsinseln"@DE;
-    skos:prefLabel "圣诞岛"@ZH;
-    skos:prefLabel "크리스마스 섬"@KO;
-.
+  ossr:within reg:I-AP-OC;
+  skos:inScheme coun:;
+  skos:prefLabel "Weihnachtsinseln"@de,
+    "Christmas Island"@en,
+    "Isla de Navidad"@es,
+    "Christmas, Île"@fr,
+    "크리스마스 섬"@ko,
+    "圣诞岛"@zh .
+
 <CY> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-WE;
-    skos:prefLabel "Cyprus"@EN;
-    skos:prefLabel "Chipre"@ES;
-    skos:prefLabel "Chypre"@FR;
-    skos:prefLabel "Zypern"@DE;
-    skos:prefLabel "塞浦路斯"@ZH;
-    skos:prefLabel "키프로스"@KO;
-.
+  ossr:within reg:I-EU-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Zypern"@de,
+    "Cyprus"@en,
+    "Chipre"@es,
+    "Chypre"@fr,
+    "키프로스"@ko,
+    "塞浦路斯"@zh .
+
 <CZ> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-EA;
-    skos:prefLabel "Czechia"@EN;
-    skos:prefLabel "Chequia"@ES;
-    skos:prefLabel "Tchéquie"@FR;
-    skos:prefLabel "Tschechien"@DE;
-    skos:prefLabel "捷克"@ZH;
-    skos:prefLabel "체코"@KO;
-.
+  ossr:within reg:I-EU-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Tschechien"@de,
+    "Czechia"@en,
+    "Chequia"@es,
+    "Tchéquie"@fr,
+    "체코"@ko,
+    "捷克"@zh .
+
 <DE> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-WE;
-    skos:prefLabel "Germany"@EN;
-    skos:prefLabel "Alemania"@ES;
-    skos:prefLabel "Allemagne"@FR;
-    skos:prefLabel "Deutschland"@DE;
-    skos:prefLabel "德国"@ZH;
-    skos:prefLabel "독일"@KO;
-.
+  ossr:within reg:I-EU-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Deutschland"@de,
+    "Germany"@en,
+    "Alemania"@es,
+    "Allemagne"@fr,
+    "독일"@ko,
+    "德国"@zh .
+
 <DJ> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-EA;
-    skos:prefLabel "Djibouti"@EN;
-    skos:prefLabel "Yibuti"@ES;
-    skos:prefLabel "Djibouti"@FR;
-    skos:prefLabel "Dschibuti"@DE;
-    skos:prefLabel "吉布提"@ZH;
-    skos:prefLabel "지부티"@KO;
-.
+  ossr:within reg:I-AF-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Dschibuti"@de,
+    "Djibouti"@en,
+    "Yibuti"@es,
+    "Djibouti"@fr,
+    "지부티"@ko,
+    "吉布提"@zh .
+
 <DK> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-WE;
-    skos:prefLabel "Denmark"@EN;
-    skos:prefLabel "Dinamarca"@ES;
-    skos:prefLabel "Danemark"@FR;
-    skos:prefLabel "Dänemark"@DE;
-    skos:prefLabel "丹麦"@ZH;
-    skos:prefLabel "덴마크"@KO;
-.
+  ossr:within reg:I-EU-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Dänemark"@de,
+    "Denmark"@en,
+    "Dinamarca"@es,
+    "Danemark"@fr,
+    "덴마크"@ko,
+    "丹麦"@zh .
+
 <DM> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CB;
-    skos:prefLabel "Dominica"@EN;
-    skos:prefLabel "Dominica"@ES;
-    skos:prefLabel "Dominique"@FR;
-    skos:prefLabel "Dominica"@DE;
-    skos:prefLabel "多米尼克"@ZH;
-    skos:prefLabel "도미니카 연방"@KO;
-.
+  ossr:within reg:I-AM-CB;
+  skos:inScheme coun:;
+  skos:prefLabel "Dominica"@de,
+    "Dominica"@en,
+    "Dominica"@es,
+    "Dominique"@fr,
+    "도미니카 연방"@ko,
+    "多米尼克"@zh .
+
 <DO> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CB;
-    skos:prefLabel "Dominican Republic"@EN;
-    skos:prefLabel "República Dominicana"@ES;
-    skos:prefLabel "République dominicaine"@FR;
-    skos:prefLabel "Dominikanische Republik"@DE;
-    skos:prefLabel "多米尼加共和国"@ZH;
-    skos:prefLabel "도미니카 공화국"@KO;
-.
+  ossr:within reg:I-AM-CB;
+  skos:inScheme coun:;
+  skos:prefLabel "Dominikanische Republik"@de,
+    "Dominican Republic"@en,
+    "República Dominicana"@es,
+    "République dominicaine"@fr,
+    "도미니카 공화국"@ko,
+    "多米尼加共和国"@zh .
+
 <DZ> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-NO;
-    skos:prefLabel "Algeria"@EN;
-    skos:prefLabel "Algeria"@ES;
-    skos:prefLabel "Algérie"@FR;
-    skos:prefLabel "Algerien"@DE;
-    skos:prefLabel "阿尔及利亚"@ZH;
-    skos:prefLabel "알제리"@KO;
-.
+  ossr:within reg:I-AF-NO;
+  skos:inScheme coun:;
+  skos:prefLabel "Algerien"@de,
+    "Algeria"@en,
+    "Algeria"@es,
+    "Algérie"@fr,
+    "알제리"@ko,
+    "阿尔及利亚"@zh .
+
 <EC> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-SO;
-    skos:prefLabel "Ecuador"@EN;
-    skos:prefLabel "Ecuador"@ES;
-    skos:prefLabel "Équateur"@FR;
-    skos:prefLabel "Ecuador"@DE;
-    skos:prefLabel "厄瓜多尔"@ZH;
-    skos:prefLabel "에콰도르"@KO;
-.
+  ossr:within reg:I-AM-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Ecuador"@de,
+    "Ecuador"@en,
+    "Ecuador"@es,
+    "Équateur"@fr,
+    "에콰도르"@ko,
+    "厄瓜多尔"@zh .
+
 <EE> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-EA;
-    skos:prefLabel "Estonia"@EN;
-    skos:prefLabel "Estonia"@ES;
-    skos:prefLabel "Estonie"@FR;
-    skos:prefLabel "Estland"@DE;
-    skos:prefLabel "爱沙尼亚"@ZH;
-    skos:prefLabel "에스토니아"@KO;
-.
+  ossr:within reg:I-EU-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Estland"@de,
+    "Estonia"@en,
+    "Estonia"@es,
+    "Estonie"@fr,
+    "에스토니아"@ko,
+    "爱沙尼亚"@zh .
+
 <EG> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-NO;
-    skos:prefLabel "Egypt"@EN;
-    skos:prefLabel "Egipto"@ES;
-    skos:prefLabel "Égypte"@FR;
-    skos:prefLabel "Ägypten"@DE;
-    skos:prefLabel "埃及"@ZH;
-    skos:prefLabel "이집트"@KO;
-.
+  ossr:within reg:I-AF-NO;
+  skos:inScheme coun:;
+  skos:prefLabel "Ägypten"@de,
+    "Egypt"@en,
+    "Egipto"@es,
+    "Égypte"@fr,
+    "이집트"@ko,
+    "埃及"@zh .
+
 <EH> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-NO;
-    skos:prefLabel "Western Sahara"@EN;
-    skos:prefLabel "Sahara Occidental"@ES;
-    skos:prefLabel "Sahara occidental"@FR;
-    skos:prefLabel "Westsahara"@DE;
-    skos:prefLabel "西撒哈拉"@ZH;
-    skos:prefLabel "서사하라"@KO;
-.
+  ossr:within reg:I-AF-NO;
+  skos:inScheme coun:;
+  skos:prefLabel "Westsahara"@de,
+    "Western Sahara"@en,
+    "Sahara Occidental"@es,
+    "Sahara occidental"@fr,
+    "서사하라"@ko,
+    "西撒哈拉"@zh .
+
 <ER> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-ME;
-    skos:prefLabel "Eritrea"@EN;
-    skos:prefLabel "Eritrea"@ES;
-    skos:prefLabel "Érythrée"@FR;
-    skos:prefLabel "Eritrea"@DE;
-    skos:prefLabel "厄立特里亚"@ZH;
-    skos:prefLabel "에리트레아"@KO;
-.
+  ossr:within reg:I-AP-ME;
+  skos:inScheme coun:;
+  skos:prefLabel "Eritrea"@de,
+    "Eritrea"@en,
+    "Eritrea"@es,
+    "Érythrée"@fr,
+    "에리트레아"@ko,
+    "厄立特里亚"@zh .
+
 <ES> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-WE;
-    skos:prefLabel "Spain"@EN;
-    skos:prefLabel "España"@ES;
-    skos:prefLabel "Espagne"@FR;
-    skos:prefLabel "Spanien"@DE;
-    skos:prefLabel "西班牙"@ZH;
-    skos:prefLabel "스페인"@KO;
-.
+  ossr:within reg:I-EU-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Spanien"@de,
+    "Spain"@en,
+    "España"@es,
+    "Espagne"@fr,
+    "스페인"@ko,
+    "西班牙"@zh .
+
 <ET> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-EA;
-    skos:prefLabel "Ethiopia"@EN;
-    skos:prefLabel "Etiopía"@ES;
-    skos:prefLabel "Éthiopie"@FR;
-    skos:prefLabel "Äthiopien"@DE;
-    skos:prefLabel "埃塞俄比亚"@ZH;
-    skos:prefLabel "에티오피아"@KO;
-.
+  ossr:within reg:I-AF-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Äthiopien"@de,
+    "Ethiopia"@en,
+    "Etiopía"@es,
+    "Éthiopie"@fr,
+    "에티오피아"@ko,
+    "埃塞俄比亚"@zh .
+
 <FI> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-WE;
-    skos:prefLabel "Finland"@EN;
-    skos:prefLabel "Finlandia"@ES;
-    skos:prefLabel "Finlande"@FR;
-    skos:prefLabel "Finnland"@DE;
-    skos:prefLabel "芬兰"@ZH;
-    skos:prefLabel "핀란드"@KO;
-.
+  ossr:within reg:I-EU-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Finnland"@de,
+    "Finland"@en,
+    "Finlandia"@es,
+    "Finlande"@fr,
+    "핀란드"@ko,
+    "芬兰"@zh .
+
 <FJ> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-OC;
-    skos:prefLabel "Fiji"@EN;
-    skos:prefLabel "Fiyi"@ES;
-    skos:prefLabel "Fidji"@FR;
-    skos:prefLabel "Fidschi"@DE;
-    skos:prefLabel "斐济"@ZH;
-    skos:prefLabel "피지"@KO;
-.
+  ossr:within reg:I-AP-OC;
+  skos:inScheme coun:;
+  skos:prefLabel "Fidschi"@de,
+    "Fiji"@en,
+    "Fiyi"@es,
+    "Fidji"@fr,
+    "피지"@ko,
+    "斐济"@zh .
+
 <FK> a skos:Concept;
-    skos:inScheme <>;
-    skos:prefLabel "Falkland Islands (Malvinas)"@EN;
-    skos:prefLabel "Islas Falkland (Malvinas)"@ES;
-    skos:prefLabel "Malouines, Îles (Falkland)"@FR;
-    skos:prefLabel "Falklandinseln (Malwinen)"@DE;
-    skos:prefLabel "福克兰群岛(马尔维纳斯)"@ZH;
-    skos:prefLabel "포클랜드 제도 (말비나스)"@KO;
-.
+  skos:inScheme coun:;
+  skos:prefLabel "Falklandinseln (Malwinen)"@de,
+    "Falkland Islands (Malvinas)"@en,
+    "Islas Falkland (Malvinas)"@es,
+    "Malouines, Îles (Falkland)"@fr,
+    "포클랜드 제도 (말비나스)"@ko,
+    "福克兰群岛(马尔维纳斯)"@zh .
+
 <FM> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-OC;
-    skos:prefLabel "Micronesia, Federated States of"@EN;
-    skos:prefLabel "Micronesia, Estados Federados de"@ES;
-    skos:prefLabel "Micronésie, États fédérés de"@FR;
-    skos:prefLabel "Mikronesien, Föderierte Staaten von"@DE;
-    skos:prefLabel "密克罗尼西亚"@ZH;
-    skos:prefLabel "미크로네시아 연방"@KO;
-.
+  ossr:within reg:I-AP-OC;
+  skos:inScheme coun:;
+  skos:prefLabel "Mikronesien, Föderierte Staaten von"@de,
+    "Micronesia, Federated States of"@en,
+    "Micronesia, Estados Federados de"@es,
+    "Micronésie, États fédérés de"@fr,
+    "미크로네시아 연방"@ko,
+    "密克罗尼西亚"@zh .
+
 <FO> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-WE;
-    skos:prefLabel "Faroe Islands"@EN;
-    skos:prefLabel "Islas Feroe"@ES;
-    skos:prefLabel "îles Féroé"@FR;
-    skos:prefLabel "Färöer-Inseln"@DE;
-    skos:prefLabel "法罗群岛"@ZH;
-    skos:prefLabel "페로 제도"@KO;
-.
+  ossr:within reg:I-EU-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Färöer-Inseln"@de,
+    "Faroe Islands"@en,
+    "Islas Feroe"@es,
+    "îles Féroé"@fr,
+    "페로 제도"@ko,
+    "法罗群岛"@zh .
+
 <FR> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-WE;
-    skos:prefLabel "France"@EN;
-    skos:prefLabel "Francia"@ES;
-    skos:prefLabel "France"@FR;
-    skos:prefLabel "Frankreich"@DE;
-    skos:prefLabel "法国"@ZH;
-    skos:prefLabel "프랑스"@KO;
-.
+  ossr:within reg:I-EU-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Frankreich"@de,
+    "France"@en,
+    "Francia"@es,
+    "France"@fr,
+    "프랑스"@ko,
+    "法国"@zh .
+
 <GA> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-CE;
-    skos:prefLabel "Gabon"@EN;
-    skos:prefLabel "Gabón"@ES;
-    skos:prefLabel "Gabon"@FR;
-    skos:prefLabel "Gabun"@DE;
-    skos:prefLabel "加蓬"@ZH;
-    skos:prefLabel "가봉"@KO;
-.
+  ossr:within reg:I-AF-CE;
+  skos:inScheme coun:;
+  skos:prefLabel "Gabun"@de,
+    "Gabon"@en,
+    "Gabón"@es,
+    "Gabon"@fr,
+    "가봉"@ko,
+    "加蓬"@zh .
+
 <GB> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-WE;
-    skos:prefLabel "United Kingdom"@EN;
-    skos:prefLabel "Reino Unido"@ES;
-    skos:prefLabel "Royaume-Uni"@FR;
-    skos:prefLabel "Vereinigtes Königreich"@DE;
-    skos:prefLabel "英国"@ZH;
-    skos:prefLabel "영국"@KO;
-.
+  ossr:within reg:I-EU-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Vereinigtes Königreich"@de,
+    "United Kingdom"@en,
+    "Reino Unido"@es,
+    "Royaume-Uni"@fr,
+    "영국"@ko,
+    "英国"@zh .
+
 <GD> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CB;
-    skos:prefLabel "Grenada"@EN;
-    skos:prefLabel "Granada"@ES;
-    skos:prefLabel "Grenade"@FR;
-    skos:prefLabel "Grenada"@DE;
-    skos:prefLabel "格林纳达"@ZH;
-    skos:prefLabel "그레나다"@KO;
-.
+  ossr:within reg:I-AM-CB;
+  skos:inScheme coun:;
+  skos:prefLabel "Grenada"@de,
+    "Grenada"@en,
+    "Granada"@es,
+    "Grenade"@fr,
+    "그레나다"@ko,
+    "格林纳达"@zh .
+
 <GE> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-EA;
-    skos:prefLabel "Georgia"@EN;
-    skos:prefLabel "Georgia"@ES;
-    skos:prefLabel "Géorgie"@FR;
-    skos:prefLabel "Georgien"@DE;
-    skos:prefLabel "格鲁吉亚"@ZH;
-    skos:prefLabel "조지아"@KO;
-.
+  ossr:within reg:I-EU-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Georgien"@de,
+    "Georgia"@en,
+    "Georgia"@es,
+    "Géorgie"@fr,
+    "조지아"@ko,
+    "格鲁吉亚"@zh .
+
 <GF> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-SO;
-    skos:prefLabel "French Guiana"@EN;
-    skos:prefLabel "Guayana Francesa"@ES;
-    skos:prefLabel "Guyane française"@FR;
-    skos:prefLabel "Französisch-Guyana"@DE;
-    skos:prefLabel "法属圭亚那"@ZH;
-    skos:prefLabel "프랑스령 기아나"@KO;
-.
+  ossr:within reg:I-AM-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Französisch-Guyana"@de,
+    "French Guiana"@en,
+    "Guayana Francesa"@es,
+    "Guyane française"@fr,
+    "프랑스령 기아나"@ko,
+    "法属圭亚那"@zh .
+
 <GG> a skos:Concept;
-    skos:inScheme <>;
-    skos:prefLabel "Guernsey"@EN;
-    skos:prefLabel "Guernsey"@ES;
-    skos:prefLabel "Guernesey"@FR;
-    skos:prefLabel "Guernsey"@DE;
-    skos:prefLabel "根西岛"@ZH;
-    skos:prefLabel "건지 섬"@KO;
-.
+  skos:inScheme coun:;
+  skos:prefLabel "Guernsey"@de,
+    "Guernsey"@en,
+    "Guernsey"@es,
+    "Guernesey"@fr,
+    "건지 섬"@ko,
+    "根西岛"@zh .
+
 <GH> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-WE;
-    skos:prefLabel "Ghana"@EN;
-    skos:prefLabel "Ghana"@ES;
-    skos:prefLabel "Ghana"@FR;
-    skos:prefLabel "Ghana"@DE;
-    skos:prefLabel "加纳"@ZH;
-    skos:prefLabel "가나"@KO;
-.
+  ossr:within reg:I-AF-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Ghana"@de,
+    "Ghana"@en,
+    "Ghana"@es,
+    "Ghana"@fr,
+    "가나"@ko,
+    "加纳"@zh .
+
 <GI> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-WE;
-    skos:prefLabel "Gibraltar"@EN;
-    skos:prefLabel "Gibraltar"@ES;
-    skos:prefLabel "Gibraltar"@FR;
-    skos:prefLabel "Gibraltar"@DE;
-    skos:prefLabel "直布罗陀"@ZH;
-    skos:prefLabel "지브롤터"@KO;
-.
+  ossr:within reg:I-EU-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Gibraltar"@de,
+    "Gibraltar"@en,
+    "Gibraltar"@es,
+    "Gibraltar"@fr,
+    "지브롤터"@ko,
+    "直布罗陀"@zh .
+
 <GL> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-WE;
-    skos:prefLabel "Greenland"@EN;
-    skos:prefLabel "Groenlandia"@ES;
-    skos:prefLabel "Groënland"@FR;
-    skos:prefLabel "Grönland"@DE;
-    skos:prefLabel "格陵兰"@ZH;
-    skos:prefLabel "그린란드"@KO;
-.
+  ossr:within reg:I-EU-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Grönland"@de,
+    "Greenland"@en,
+    "Groenlandia"@es,
+    "Groënland"@fr,
+    "그린란드"@ko,
+    "格陵兰"@zh .
+
 <GM> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-WE;
-    skos:prefLabel "Gambia"@EN;
-    skos:prefLabel "Gambia"@ES;
-    skos:prefLabel "Gambie"@FR;
-    skos:prefLabel "Gambia"@DE;
-    skos:prefLabel "冈比亚"@ZH;
-    skos:prefLabel "감비아"@KO;
-.
+  ossr:within reg:I-AF-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Gambia"@de,
+    "Gambia"@en,
+    "Gambia"@es,
+    "Gambie"@fr,
+    "감비아"@ko,
+    "冈比亚"@zh .
+
 <GN> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-WE;
-    skos:prefLabel "Guinea"@EN;
-    skos:prefLabel "Guinea"@ES;
-    skos:prefLabel "Guinée"@FR;
-    skos:prefLabel "Guinea"@DE;
-    skos:prefLabel "几内亚"@ZH;
-    skos:prefLabel "기니"@KO;
-.
+  ossr:within reg:I-AF-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Guinea"@de,
+    "Guinea"@en,
+    "Guinea"@es,
+    "Guinée"@fr,
+    "기니"@ko,
+    "几内亚"@zh .
+
 <GP> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CB;
-    skos:prefLabel "Guadeloupe"@EN;
-    skos:prefLabel "Guadalupe"@ES;
-    skos:prefLabel "Guadeloupe"@FR;
-    skos:prefLabel "Guadeloupe"@DE;
-    skos:prefLabel "瓜德罗普"@ZH;
-    skos:prefLabel "과들루프"@KO;
-.
+  ossr:within reg:I-AM-CB;
+  skos:inScheme coun:;
+  skos:prefLabel "Guadeloupe"@de,
+    "Guadeloupe"@en,
+    "Guadalupe"@es,
+    "Guadeloupe"@fr,
+    "과들루프"@ko,
+    "瓜德罗普"@zh .
+
 <GQ> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-WE;
-    skos:prefLabel "Equatorial Guinea"@EN;
-    skos:prefLabel "Guinea Ecuatorial"@ES;
-    skos:prefLabel "Guinée Équatoriale"@FR;
-    skos:prefLabel "Äquatorialguinea"@DE;
-    skos:prefLabel "赤道几内亚"@ZH;
-    skos:prefLabel "적도 기니"@KO;
-.
+  ossr:within reg:I-AF-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Äquatorialguinea"@de,
+    "Equatorial Guinea"@en,
+    "Guinea Ecuatorial"@es,
+    "Guinée Équatoriale"@fr,
+    "적도 기니"@ko,
+    "赤道几内亚"@zh .
+
 <GR> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-WE;
-    skos:prefLabel "Greece"@EN;
-    skos:prefLabel "Grecia"@ES;
-    skos:prefLabel "Grèce"@FR;
-    skos:prefLabel "Griechenland"@DE;
-    skos:prefLabel "希腊"@ZH;
-    skos:prefLabel "그리스"@KO;
-.
+  ossr:within reg:I-EU-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Griechenland"@de,
+    "Greece"@en,
+    "Grecia"@es,
+    "Grèce"@fr,
+    "그리스"@ko,
+    "希腊"@zh .
+
 <GS> a skos:Concept;
-    skos:inScheme <>;
-    skos:prefLabel "South Georgia and the South Sandwich Islands"@EN;
-    skos:prefLabel "Islas Georgias del Sur y Sándwich del Sur"@ES;
-    skos:prefLabel "Géorgie du Sud et les îles Sandwich du Sud"@FR;
-    skos:prefLabel "South Georgia und die Südlichen Sandwichinseln"@DE;
-    skos:prefLabel "南乔治亚岛和南桑德韦奇岛"@ZH;
-    skos:prefLabel "사우스조지아 사우스샌드위치 제도"@KO;
-.
+  skos:inScheme coun:;
+  skos:prefLabel "South Georgia und die Südlichen Sandwichinseln"@de,
+    "South Georgia and the South Sandwich Islands"@en,
+    "Islas Georgias del Sur y Sándwich del Sur"@es,
+    "Géorgie du Sud et les îles Sandwich du Sud"@fr,
+    "사우스조지아 사우스샌드위치 제도"@ko,
+    "南乔治亚岛和南桑德韦奇岛"@zh .
+
 <GT> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CE;
-    skos:prefLabel "Guatemala"@EN;
-    skos:prefLabel "Guatemala"@ES;
-    skos:prefLabel "Guatemala"@FR;
-    skos:prefLabel "Guatemala"@DE;
-    skos:prefLabel "瓜地马拉"@ZH;
-    skos:prefLabel "과테말라"@KO;
-.
+  ossr:within reg:I-AM-CE;
+  skos:inScheme coun:;
+  skos:prefLabel "Guatemala"@de,
+    "Guatemala"@en,
+    "Guatemala"@es,
+    "Guatemala"@fr,
+    "과테말라"@ko,
+    "瓜地马拉"@zh .
+
 <GU> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-OC;
-    skos:prefLabel "Guam"@EN;
-    skos:prefLabel "Guam"@ES;
-    skos:prefLabel "Guam"@FR;
-    skos:prefLabel "Guam"@DE;
-    skos:prefLabel "关岛"@ZH;
-    skos:prefLabel "괌"@KO;
-.
+  ossr:within reg:I-AP-OC;
+  skos:inScheme coun:;
+  skos:prefLabel "Guam"@de,
+    "Guam"@en,
+    "Guam"@es,
+    "Guam"@fr,
+    "괌"@ko,
+    "关岛"@zh .
+
 <GW> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-WE;
-    skos:prefLabel "Guinea-Bissau"@EN;
-    skos:prefLabel "Guinea-Bisáu"@ES;
-    skos:prefLabel "Guinée-Bissau"@FR;
-    skos:prefLabel "Guinea-Bissau"@DE;
-    skos:prefLabel "几内亚比绍"@ZH;
-    skos:prefLabel "기니비사우"@KO;
-.
+  ossr:within reg:I-AF-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Guinea-Bissau"@de,
+    "Guinea-Bissau"@en,
+    "Guinea-Bisáu"@es,
+    "Guinée-Bissau"@fr,
+    "기니비사우"@ko,
+    "几内亚比绍"@zh .
+
 <GY> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-SO;
-    skos:prefLabel "Guyana"@EN;
-    skos:prefLabel "Guyana"@ES;
-    skos:prefLabel "Guyana"@FR;
-    skos:prefLabel "Guyana"@DE;
-    skos:prefLabel "圭亚那"@ZH;
-    skos:prefLabel "가이아나"@KO;
-.
+  ossr:within reg:I-AM-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Guyana"@de,
+    "Guyana"@en,
+    "Guyana"@es,
+    "Guyana"@fr,
+    "가이아나"@ko,
+    "圭亚那"@zh .
+
 <HK> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-EA;
-    skos:prefLabel "Hong Kong"@EN;
-    skos:prefLabel "Hong Kong"@ES;
-    skos:prefLabel "Hong Kong"@FR;
-    skos:prefLabel "Hongkong"@DE;
-    skos:prefLabel "香港"@ZH;
-    skos:prefLabel "홍콩"@KO;
-.
+  ossr:within reg:I-AP-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Hongkong"@de,
+    "Hong Kong"@en,
+    "Hong Kong"@es,
+    "Hong Kong"@fr,
+    "홍콩"@ko,
+    "香港"@zh .
+
 <HM> a skos:Concept;
-    skos:inScheme <>;
-    skos:prefLabel "Heard Island and McDonald Islands"@EN;
-    skos:prefLabel "Islas Heard y McDonald"@ES;
-    skos:prefLabel "îles Heard-et-MacDonald"@FR;
-    skos:prefLabel "Heard und McDonaldinseln"@DE;
-    skos:prefLabel "赫德岛与麦克唐纳群岛"@ZH;
-    skos:prefLabel "허드 맥도널드 제도"@KO;
-.
+  skos:inScheme coun:;
+  skos:prefLabel "Heard und McDonaldinseln"@de,
+    "Heard Island and McDonald Islands"@en,
+    "Islas Heard y McDonald"@es,
+    "îles Heard-et-MacDonald"@fr,
+    "허드 맥도널드 제도"@ko,
+    "赫德岛与麦克唐纳群岛"@zh .
+
 <HN> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CE;
-    skos:prefLabel "Honduras"@EN;
-    skos:prefLabel "Honduras"@ES;
-    skos:prefLabel "Honduras"@FR;
-    skos:prefLabel "Honduras"@DE;
-    skos:prefLabel "洪都拉斯"@ZH;
-    skos:prefLabel "온두라스"@KO;
-.
+  ossr:within reg:I-AM-CE;
+  skos:inScheme coun:;
+  skos:prefLabel "Honduras"@de,
+    "Honduras"@en,
+    "Honduras"@es,
+    "Honduras"@fr,
+    "온두라스"@ko,
+    "洪都拉斯"@zh .
+
 <HR> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-EA;
-    skos:prefLabel "Croatia"@EN;
-    skos:prefLabel "Croacia"@ES;
-    skos:prefLabel "Croatie"@FR;
-    skos:prefLabel "Kroatien"@DE;
-    skos:prefLabel "克罗地亚"@ZH;
-    skos:prefLabel "크로아티아"@KO;
-.
+  ossr:within reg:I-EU-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Kroatien"@de,
+    "Croatia"@en,
+    "Croacia"@es,
+    "Croatie"@fr,
+    "크로아티아"@ko,
+    "克罗地亚"@zh .
+
 <HT> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CB;
-    skos:prefLabel "Haiti"@EN;
-    skos:prefLabel "Haití"@ES;
-    skos:prefLabel "Haïti"@FR;
-    skos:prefLabel "Haiti"@DE;
-    skos:prefLabel "海地"@ZH;
-    skos:prefLabel "아이티"@KO;
-.
+  ossr:within reg:I-AM-CB;
+  skos:inScheme coun:;
+  skos:prefLabel "Haiti"@de,
+    "Haiti"@en,
+    "Haití"@es,
+    "Haïti"@fr,
+    "아이티"@ko,
+    "海地"@zh .
+
 <HU> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-EA;
-    skos:prefLabel "Hungary"@EN;
-    skos:prefLabel "Hungría"@ES;
-    skos:prefLabel "Hongrie"@FR;
-    skos:prefLabel "Ungarn"@DE;
-    skos:prefLabel "匈牙利"@ZH;
-    skos:prefLabel "헝가리"@KO;
-.
+  ossr:within reg:I-EU-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Ungarn"@de,
+    "Hungary"@en,
+    "Hungría"@es,
+    "Hongrie"@fr,
+    "헝가리"@ko,
+    "匈牙利"@zh .
+
 <ID> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-SE;
-    skos:prefLabel "Indonesia"@EN;
-    skos:prefLabel "Indonesia"@ES;
-    skos:prefLabel "Indonésie"@FR;
-    skos:prefLabel "Indonesien"@DE;
-    skos:prefLabel "印度尼西亚"@ZH;
-    skos:prefLabel "인도네시아"@KO;
-.
+  ossr:within reg:I-AP-SE;
+  skos:inScheme coun:;
+  skos:prefLabel "Indonesien"@de,
+    "Indonesia"@en,
+    "Indonesia"@es,
+    "Indonésie"@fr,
+    "인도네시아"@ko,
+    "印度尼西亚"@zh .
+
 <IE> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-WE;
-    skos:prefLabel "Ireland"@EN;
-    skos:prefLabel "Irlanda"@ES;
-    skos:prefLabel "Irlande"@FR;
-    skos:prefLabel "Irland"@DE;
-    skos:prefLabel "爱尔兰"@ZH;
-    skos:prefLabel "아일랜드"@KO;
-.
+  ossr:within reg:I-EU-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Irland"@de,
+    "Ireland"@en,
+    "Irlanda"@es,
+    "Irlande"@fr,
+    "아일랜드"@ko,
+    "爱尔兰"@zh .
+
 <IL> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-EA;
-    skos:prefLabel "Israel"@EN;
-    skos:prefLabel "Israel"@ES;
-    skos:prefLabel "Israël"@FR;
-    skos:prefLabel "Israel"@DE;
-    skos:prefLabel "以色列"@ZH;
-    skos:prefLabel "이스라엘"@KO;
-.
+  ossr:within reg:I-EU-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Israel"@de,
+    "Israel"@en,
+    "Israel"@es,
+    "Israël"@fr,
+    "이스라엘"@ko,
+    "以色列"@zh .
+
 <IM> a skos:Concept;
-    skos:inScheme <>;
-    skos:prefLabel "Isle of Man"@EN;
-    skos:prefLabel "Isla de Man"@ES;
-    skos:prefLabel "Île de Man"@FR;
-    skos:prefLabel "Insel Man"@DE;
-    skos:prefLabel "曼岛"@ZH;
-    skos:prefLabel "맨 섬"@KO;
-.
+  skos:inScheme coun:;
+  skos:prefLabel "Insel Man"@de,
+    "Isle of Man"@en,
+    "Isla de Man"@es,
+    "Île de Man"@fr,
+    "맨 섬"@ko,
+    "曼岛"@zh .
+
 <IN> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-SO;
-    skos:prefLabel "India"@EN;
-    skos:prefLabel "India"@ES;
-    skos:prefLabel "Inde"@FR;
-    skos:prefLabel "Indien"@DE;
-    skos:prefLabel "印度"@ZH;
-    skos:prefLabel "인도"@KO;
-.
+  ossr:within reg:I-AP-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Indien"@de,
+    "India"@en,
+    "India"@es,
+    "Inde"@fr,
+    "인도"@ko,
+    "印度"@zh .
+
 <IO> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-SO;
-    skos:prefLabel "British Indian Ocean Territory"@EN;
-    skos:prefLabel "Territorio Británico del Océano Índico"@ES;
-    skos:prefLabel "Territoire britannique de l'océan Indien"@FR;
-    skos:prefLabel "Britisches Territorium im Indischen Ozean"@DE;
-    skos:prefLabel "英属印度洋领地"@ZH;
-    skos:prefLabel "영국령 인도양 지역"@KO;
-.
+  ossr:within reg:I-AP-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Britisches Territorium im Indischen Ozean"@de,
+    "British Indian Ocean Territory"@en,
+    "Territorio Británico del Océano Índico"@es,
+    "Territoire britannique de l'océan Indien"@fr,
+    "영국령 인도양 지역"@ko,
+    "英属印度洋领地"@zh .
+
 <IQ> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-ME;
-    skos:prefLabel "Iraq"@EN;
-    skos:prefLabel "Irak"@ES;
-    skos:prefLabel "Irak"@FR;
-    skos:prefLabel "Irak"@DE;
-    skos:prefLabel "伊拉克"@ZH;
-    skos:prefLabel "이라크"@KO;
-.
+  ossr:within reg:I-AP-ME;
+  skos:inScheme coun:;
+  skos:prefLabel "Irak"@de,
+    "Iraq"@en,
+    "Irak"@es,
+    "Irak"@fr,
+    "이라크"@ko,
+    "伊拉克"@zh .
+
 <IR> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-ME;
-    skos:prefLabel "Iran, Islamic Republic of"@EN;
-    skos:prefLabel "Irán, República islámica de"@ES;
-    skos:prefLabel "Iran, République islamique d'"@FR;
-    skos:prefLabel "Iran, Islamische Republik"@DE;
-    skos:prefLabel "伊朗"@ZH;
-    skos:prefLabel "이란 이슬람 공화국"@KO;
-.
+  ossr:within reg:I-AP-ME;
+  skos:inScheme coun:;
+  skos:prefLabel "Iran, Islamische Republik"@de,
+    "Iran, Islamic Republic of"@en,
+    "Irán, República islámica de"@es,
+    "Iran, République islamique d'"@fr,
+    "이란 이슬람 공화국"@ko,
+    "伊朗"@zh .
+
 <IS> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-WE;
-    skos:prefLabel "Iceland"@EN;
-    skos:prefLabel "Islandia"@ES;
-    skos:prefLabel "Islande"@FR;
-    skos:prefLabel "Island"@DE;
-    skos:prefLabel "冰岛"@ZH;
-    skos:prefLabel "아이슬란드"@KO;
-.
+  ossr:within reg:I-EU-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Island"@de,
+    "Iceland"@en,
+    "Islandia"@es,
+    "Islande"@fr,
+    "아이슬란드"@ko,
+    "冰岛"@zh .
+
 <IT> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-WE;
-    skos:prefLabel "Italy"@EN;
-    skos:prefLabel "Italia"@ES;
-    skos:prefLabel "Italie"@FR;
-    skos:prefLabel "Italien"@DE;
-    skos:prefLabel "意大利"@ZH;
-    skos:prefLabel "이탈리아"@KO;
-.
+  ossr:within reg:I-EU-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Italien"@de,
+    "Italy"@en,
+    "Italia"@es,
+    "Italie"@fr,
+    "이탈리아"@ko,
+    "意大利"@zh .
+
 <JE> a skos:Concept;
-    skos:inScheme <>;
-    skos:prefLabel "Jersey"@EN;
-    skos:prefLabel "Jersey"@ES;
-    skos:prefLabel "Jersey"@FR;
-    skos:prefLabel "Jersey"@DE;
-    skos:prefLabel "泽西岛"@ZH;
-    skos:prefLabel "저지 섬"@KO;
-.
+  skos:inScheme coun:;
+  skos:prefLabel "Jersey"@de,
+    "Jersey"@en,
+    "Jersey"@es,
+    "Jersey"@fr,
+    "저지 섬"@ko,
+    "泽西岛"@zh .
+
 <JM> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CB;
-    skos:prefLabel "Jamaica"@EN;
-    skos:prefLabel "Jamaica"@ES;
-    skos:prefLabel "Jamaïque"@FR;
-    skos:prefLabel "Jamaika"@DE;
-    skos:prefLabel "牙买加"@ZH;
-    skos:prefLabel "자메이카"@KO;
-.
+  ossr:within reg:I-AM-CB;
+  skos:inScheme coun:;
+  skos:prefLabel "Jamaika"@de,
+    "Jamaica"@en,
+    "Jamaica"@es,
+    "Jamaïque"@fr,
+    "자메이카"@ko,
+    "牙买加"@zh .
+
 <JO> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-ME;
-    skos:prefLabel "Jordan"@EN;
-    skos:prefLabel "Jordania"@ES;
-    skos:prefLabel "Jordanie"@FR;
-    skos:prefLabel "Jordanien"@DE;
-    skos:prefLabel "约旦"@ZH;
-    skos:prefLabel "요르단"@KO;
-.
+  ossr:within reg:I-AP-ME;
+  skos:inScheme coun:;
+  skos:prefLabel "Jordanien"@de,
+    "Jordan"@en,
+    "Jordania"@es,
+    "Jordanie"@fr,
+    "요르단"@ko,
+    "约旦"@zh .
+
 <JP> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-EA;
-    skos:prefLabel "Japan"@EN;
-    skos:prefLabel "Japón"@ES;
-    skos:prefLabel "Japon"@FR;
-    skos:prefLabel "Japan"@DE;
-    skos:prefLabel "日本"@ZH;
-    skos:prefLabel "일본"@KO;
-.
+  ossr:within reg:I-AP-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Japan"@de,
+    "Japan"@en,
+    "Japón"@es,
+    "Japon"@fr,
+    "일본"@ko,
+    "日本"@zh .
+
 <KE> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-EA;
-    skos:prefLabel "Kenya"@EN;
-    skos:prefLabel "Kenia"@ES;
-    skos:prefLabel "Kenya"@FR;
-    skos:prefLabel "Kenia"@DE;
-    skos:prefLabel "肯尼亚"@ZH;
-    skos:prefLabel "케냐"@KO;
-.
+  ossr:within reg:I-AF-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Kenia"@de,
+    "Kenya"@en,
+    "Kenia"@es,
+    "Kenya"@fr,
+    "케냐"@ko,
+    "肯尼亚"@zh .
+
 <KG> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-CE;
-    skos:prefLabel "Kyrgyzstan"@EN;
-    skos:prefLabel "Kirguistán"@ES;
-    skos:prefLabel "Kirghizistan"@FR;
-    skos:prefLabel "Kirgisistan"@DE;
-    skos:prefLabel "吉尔吉斯坦"@ZH;
-    skos:prefLabel "키르기스스탄"@KO;
-.
+  ossr:within reg:I-AP-CE;
+  skos:inScheme coun:;
+  skos:prefLabel "Kirgisistan"@de,
+    "Kyrgyzstan"@en,
+    "Kirguistán"@es,
+    "Kirghizistan"@fr,
+    "키르기스스탄"@ko,
+    "吉尔吉斯坦"@zh .
+
 <KH> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-SE;
-    skos:prefLabel "Cambodia"@EN;
-    skos:prefLabel "Camboya"@ES;
-    skos:prefLabel "Cambodge"@FR;
-    skos:prefLabel "Kambodscha"@DE;
-    skos:prefLabel "柬埔塞"@ZH;
-    skos:prefLabel "캄보디아"@KO;
-.
+  ossr:within reg:I-AP-SE;
+  skos:inScheme coun:;
+  skos:prefLabel "Kambodscha"@de,
+    "Cambodia"@en,
+    "Camboya"@es,
+    "Cambodge"@fr,
+    "캄보디아"@ko,
+    "柬埔塞"@zh .
+
 <KI> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-OC;
-    skos:prefLabel "Kiribati"@EN;
-    skos:prefLabel "Kiribati"@ES;
-    skos:prefLabel "Kiribati"@FR;
-    skos:prefLabel "Kiribati"@DE;
-    skos:prefLabel "基里巴斯"@ZH;
-    skos:prefLabel "키리바시"@KO;
-.
+  ossr:within reg:I-AP-OC;
+  skos:inScheme coun:;
+  skos:prefLabel "Kiribati"@de,
+    "Kiribati"@en,
+    "Kiribati"@es,
+    "Kiribati"@fr,
+    "키리바시"@ko,
+    "基里巴斯"@zh .
+
 <KM> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-SO;
-    skos:prefLabel "Comoros"@EN;
-    skos:prefLabel "Comores, Islas"@ES;
-    skos:prefLabel "Comores"@FR;
-    skos:prefLabel "Komoren"@DE;
-    skos:prefLabel "科摩罗"@ZH;
-    skos:prefLabel "코모로"@KO;
-.
+  ossr:within reg:I-AF-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Komoren"@de,
+    "Comoros"@en,
+    "Comores, Islas"@es,
+    "Comores"@fr,
+    "코모로"@ko,
+    "科摩罗"@zh .
+
 <KN> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CB;
-    skos:prefLabel "Saint Kitts and Nevis"@EN;
-    skos:prefLabel "San Cristóbal y Nieves"@ES;
-    skos:prefLabel "Saint-Christophe-et-Niévès"@FR;
-    skos:prefLabel "St. Kitts und Nevis"@DE;
-    skos:prefLabel "圣基茨和尼维斯"@ZH;
-    skos:prefLabel "세인트키츠 네비스"@KO;
-.
+  ossr:within reg:I-AM-CB;
+  skos:inScheme coun:;
+  skos:prefLabel "St. Kitts und Nevis"@de,
+    "Saint Kitts and Nevis"@en,
+    "San Cristóbal y Nieves"@es,
+    "Saint-Christophe-et-Niévès"@fr,
+    "세인트키츠 네비스"@ko,
+    "圣基茨和尼维斯"@zh .
+
 <KP> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-EA;
-    skos:prefLabel "Korea, Democratic People's Republic of"@EN;
-    skos:prefLabel "Corea, República Democrática Popular de"@ES;
-    skos:prefLabel "Corée, République populaire démocratique de"@FR;
-    skos:prefLabel "Korea, Demokratische Volksrepublik"@DE;
-    skos:prefLabel "朝鲜"@ZH;
-    skos:prefLabel "조선민주주의인민공화국"@KO;
-.
+  ossr:within reg:I-AP-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Korea, Demokratische Volksrepublik"@de,
+    "Korea, Democratic People's Republic of"@en,
+    "Corea, República Democrática Popular de"@es,
+    "Corée, République populaire démocratique de"@fr,
+    "조선민주주의인민공화국"@ko,
+    "朝鲜"@zh .
+
 <KR> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-EA;
-    skos:prefLabel "Korea, Republic of"@EN;
-    skos:prefLabel "Corea, República de"@ES;
-    skos:prefLabel "Corée, République de"@FR;
-    skos:prefLabel "Korea, Republik"@DE;
-    skos:prefLabel "韩国"@ZH;
-    skos:prefLabel "대한민국"@KO;
-.
+  ossr:within reg:I-AP-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Korea, Republik"@de,
+    "Korea, Republic of"@en,
+    "Corea, República de"@es,
+    "Corée, République de"@fr,
+    "대한민국"@ko,
+    "韩国"@zh .
+
 <KW> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-ME;
-    skos:prefLabel "Kuwait"@EN;
-    skos:prefLabel "Kuwait"@ES;
-    skos:prefLabel "Koweït"@FR;
-    skos:prefLabel "Kuwait"@DE;
-    skos:prefLabel "科威特"@ZH;
-    skos:prefLabel "쿠웨이트"@KO;
-.
+  ossr:within reg:I-AP-ME;
+  skos:inScheme coun:;
+  skos:prefLabel "Kuwait"@de,
+    "Kuwait"@en,
+    "Kuwait"@es,
+    "Koweït"@fr,
+    "쿠웨이트"@ko,
+    "科威特"@zh .
+
 <KY> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CB;
-    skos:prefLabel "Cayman Islands"@EN;
-    skos:prefLabel "Islas Caimán"@ES;
-    skos:prefLabel "îles Caïmans"@FR;
-    skos:prefLabel "Cayman-Inseln"@DE;
-    skos:prefLabel "开曼群岛"@ZH;
-    skos:prefLabel "케이맨 제도"@KO;
-.
+  ossr:within reg:I-AM-CB;
+  skos:inScheme coun:;
+  skos:prefLabel "Cayman-Inseln"@de,
+    "Cayman Islands"@en,
+    "Islas Caimán"@es,
+    "îles Caïmans"@fr,
+    "케이맨 제도"@ko,
+    "开曼群岛"@zh .
+
 <KZ> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-CE;
-    skos:prefLabel "Kazakhstan"@EN;
-    skos:prefLabel "Kazajistán"@ES;
-    skos:prefLabel "Kazakhstan"@FR;
-    skos:prefLabel "Kasachstan"@DE;
-    skos:prefLabel "哈萨克斯坦"@ZH;
-    skos:prefLabel "카자흐스탄"@KO;
-.
+  ossr:within reg:I-AP-CE;
+  skos:inScheme coun:;
+  skos:prefLabel "Kasachstan"@de,
+    "Kazakhstan"@en,
+    "Kazajistán"@es,
+    "Kazakhstan"@fr,
+    "카자흐스탄"@ko,
+    "哈萨克斯坦"@zh .
+
 <LA> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-SE;
-    skos:prefLabel "Lao People's Democratic Republic"@EN;
-    skos:prefLabel "República Democrática Popular de Lao"@ES;
-    skos:prefLabel "Lao, République démocratique populaire"@FR;
-    skos:prefLabel "Laos, Demokratische Volksrepublik"@DE;
-    skos:prefLabel "老挝人民民主共和国"@ZH;
-    skos:prefLabel "라오 인민 민주주의 공화국"@KO;
-.
+  ossr:within reg:I-AP-SE;
+  skos:inScheme coun:;
+  skos:prefLabel "Laos, Demokratische Volksrepublik"@de,
+    "Lao People's Democratic Republic"@en,
+    "República Democrática Popular de Lao"@es,
+    "Lao, République démocratique populaire"@fr,
+    "라오 인민 민주주의 공화국"@ko,
+    "老挝人民民主共和国"@zh .
+
 <LB> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-ME;
-    skos:prefLabel "Lebanon"@EN;
-    skos:prefLabel "Líbano"@ES;
-    skos:prefLabel "Liban"@FR;
-    skos:prefLabel "Libanon"@DE;
-    skos:prefLabel "黎巴嫩"@ZH;
-    skos:prefLabel "레바논"@KO;
-.
+  ossr:within reg:I-AP-ME;
+  skos:inScheme coun:;
+  skos:prefLabel "Libanon"@de,
+    "Lebanon"@en,
+    "Líbano"@es,
+    "Liban"@fr,
+    "레바논"@ko,
+    "黎巴嫩"@zh .
+
 <LC> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CB;
-    skos:prefLabel "Saint Lucia"@EN;
-    skos:prefLabel "Santa Lucía"@ES;
-    skos:prefLabel "Sainte-Lucie"@FR;
-    skos:prefLabel "St. Lucia"@DE;
-    skos:prefLabel "圣路西亚"@ZH;
-    skos:prefLabel "세인트루시아"@KO;
-.
+  ossr:within reg:I-AM-CB;
+  skos:inScheme coun:;
+  skos:prefLabel "St. Lucia"@de,
+    "Saint Lucia"@en,
+    "Santa Lucía"@es,
+    "Sainte-Lucie"@fr,
+    "세인트루시아"@ko,
+    "圣路西亚"@zh .
+
 <LI> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-WE;
-    skos:prefLabel "Liechtenstein"@EN;
-    skos:prefLabel "Liechtenstein"@ES;
-    skos:prefLabel "Liechtenstein"@FR;
-    skos:prefLabel "Liechtenstein"@DE;
-    skos:prefLabel "列支敦士登"@ZH;
-    skos:prefLabel "리히텐슈타인"@KO;
-.
+  ossr:within reg:I-EU-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Liechtenstein"@de,
+    "Liechtenstein"@en,
+    "Liechtenstein"@es,
+    "Liechtenstein"@fr,
+    "리히텐슈타인"@ko,
+    "列支敦士登"@zh .
+
 <LK> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-SO;
-    skos:prefLabel "Sri Lanka"@EN;
-    skos:prefLabel "Sri Lanka"@ES;
-    skos:prefLabel "Sri Lanka"@FR;
-    skos:prefLabel "Sri Lanka"@DE;
-    skos:prefLabel "斯里兰卡"@ZH;
-    skos:prefLabel "스리랑카"@KO;
-.
+  ossr:within reg:I-AP-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Sri Lanka"@de,
+    "Sri Lanka"@en,
+    "Sri Lanka"@es,
+    "Sri Lanka"@fr,
+    "스리랑카"@ko,
+    "斯里兰卡"@zh .
+
 <LR> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-WE;
-    skos:prefLabel "Liberia"@EN;
-    skos:prefLabel "Liberia"@ES;
-    skos:prefLabel "Libéria"@FR;
-    skos:prefLabel "Liberia"@DE;
-    skos:prefLabel "利比里亚"@ZH;
-    skos:prefLabel "라이베리아"@KO;
-.
+  ossr:within reg:I-AF-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Liberia"@de,
+    "Liberia"@en,
+    "Liberia"@es,
+    "Libéria"@fr,
+    "라이베리아"@ko,
+    "利比里亚"@zh .
+
 <LS> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-SO;
-    skos:prefLabel "Lesotho"@EN;
-    skos:prefLabel "Lesoto"@ES;
-    skos:prefLabel "Lesotho"@FR;
-    skos:prefLabel "Lesotho"@DE;
-    skos:prefLabel "莱索托"@ZH;
-    skos:prefLabel "레소토"@KO;
-.
+  ossr:within reg:I-AF-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Lesotho"@de,
+    "Lesotho"@en,
+    "Lesoto"@es,
+    "Lesotho"@fr,
+    "레소토"@ko,
+    "莱索托"@zh .
+
 <LT> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-EA;
-    skos:prefLabel "Lithuania"@EN;
-    skos:prefLabel "Lituania"@ES;
-    skos:prefLabel "Lituanie"@FR;
-    skos:prefLabel "Litauen"@DE;
-    skos:prefLabel "立陶宛"@ZH;
-    skos:prefLabel "리투아니아"@KO;
-.
+  ossr:within reg:I-EU-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Litauen"@de,
+    "Lithuania"@en,
+    "Lituania"@es,
+    "Lituanie"@fr,
+    "리투아니아"@ko,
+    "立陶宛"@zh .
+
 <LU> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-WE;
-    skos:prefLabel "Luxembourg"@EN;
-    skos:prefLabel "Luxemburgo"@ES;
-    skos:prefLabel "Luxembourg"@FR;
-    skos:prefLabel "Luxemburg"@DE;
-    skos:prefLabel "卢森堡"@ZH;
-    skos:prefLabel "룩셈부르크"@KO;
-.
+  ossr:within reg:I-EU-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Luxemburg"@de,
+    "Luxembourg"@en,
+    "Luxemburgo"@es,
+    "Luxembourg"@fr,
+    "룩셈부르크"@ko,
+    "卢森堡"@zh .
+
 <LV> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-EA;
-    skos:prefLabel "Latvia"@EN;
-    skos:prefLabel "Letonia"@ES;
-    skos:prefLabel "Lettonie"@FR;
-    skos:prefLabel "Lettland"@DE;
-    skos:prefLabel "拉脱维亚"@ZH;
-    skos:prefLabel "라트비아"@KO;
-.
+  ossr:within reg:I-EU-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Lettland"@de,
+    "Latvia"@en,
+    "Letonia"@es,
+    "Lettonie"@fr,
+    "라트비아"@ko,
+    "拉脱维亚"@zh .
+
 <LY> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-NO;
-    skos:prefLabel "Libya"@EN;
-    skos:prefLabel "Libia"@ES;
-    skos:prefLabel "Libye"@FR;
-    skos:prefLabel "Libyen"@DE;
-    skos:prefLabel "利比亚"@ZH;
-    skos:prefLabel "리비아"@KO;
-.
+  ossr:within reg:I-AF-NO;
+  skos:inScheme coun:;
+  skos:prefLabel "Libyen"@de,
+    "Libya"@en,
+    "Libia"@es,
+    "Libye"@fr,
+    "리비아"@ko,
+    "利比亚"@zh .
+
 <MA> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-NO;
-    skos:prefLabel "Morocco"@EN;
-    skos:prefLabel "Marruecos"@ES;
-    skos:prefLabel "Maroc"@FR;
-    skos:prefLabel "Marokko"@DE;
-    skos:prefLabel "摩洛哥"@ZH;
-    skos:prefLabel "모로코"@KO;
-.
+  ossr:within reg:I-AF-NO;
+  skos:inScheme coun:;
+  skos:prefLabel "Marokko"@de,
+    "Morocco"@en,
+    "Marruecos"@es,
+    "Maroc"@fr,
+    "모로코"@ko,
+    "摩洛哥"@zh .
+
 <MC> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-WE;
-    skos:prefLabel "Monaco"@EN;
-    skos:prefLabel "Mónaco"@ES;
-    skos:prefLabel "Monaco"@FR;
-    skos:prefLabel "Monaco"@DE;
-    skos:prefLabel "摩纳哥"@ZH;
-    skos:prefLabel "모나코"@KO;
-.
+  ossr:within reg:I-EU-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Monaco"@de,
+    "Monaco"@en,
+    "Mónaco"@es,
+    "Monaco"@fr,
+    "모나코"@ko,
+    "摩纳哥"@zh .
+
 <MD> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-EA;
-    skos:prefLabel "Moldova"@EN;
-    skos:prefLabel "Moldavia"@ES;
-    skos:prefLabel "Moldavie"@FR;
-    skos:prefLabel "Moldau"@DE;
-    skos:prefLabel "摩尔多瓦"@ZH;
-    skos:prefLabel "몰도바"@KO;
-.
+  ossr:within reg:I-EU-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Moldau"@de,
+    "Moldova"@en,
+    "Moldavia"@es,
+    "Moldavie"@fr,
+    "몰도바"@ko,
+    "摩尔多瓦"@zh .
+
 <ME> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-EA;
-    skos:prefLabel "Montenegro"@EN;
-    skos:prefLabel "Montenegro"@ES;
-    skos:prefLabel "Monténégro"@FR;
-    skos:prefLabel "Montenegro"@DE;
-    skos:prefLabel "黑山"@ZH;
-    skos:prefLabel "몬테네그로"@KO;
-.
+  ossr:within reg:I-EU-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Montenegro"@de,
+    "Montenegro"@en,
+    "Montenegro"@es,
+    "Monténégro"@fr,
+    "몬테네그로"@ko,
+    "黑山"@zh .
+
 <MF> a skos:Concept;
-    skos:inScheme <>;
-    skos:prefLabel "Saint Martin (French part)"@EN;
-    skos:prefLabel "San Martín (zona francesa)"@ES;
-    skos:prefLabel "Saint-Martin (partie française)"@FR;
-    skos:prefLabel "Saint Martin (Französischer Teil)"@DE;
-    skos:prefLabel "法属圣马丁"@ZH;
-    skos:prefLabel "생마르탱 (프랑스령)"@KO;
-.
+  skos:inScheme coun:;
+  skos:prefLabel "Saint Martin (Französischer Teil)"@de,
+    "Saint Martin (French part)"@en,
+    "San Martín (zona francesa)"@es,
+    "Saint-Martin (partie française)"@fr,
+    "생마르탱 (프랑스령)"@ko,
+    "法属圣马丁"@zh .
+
 <MG> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-SO;
-    skos:prefLabel "Madagascar"@EN;
-    skos:prefLabel "Madagascar"@ES;
-    skos:prefLabel "Madagascar"@FR;
-    skos:prefLabel "Madagaskar"@DE;
-    skos:prefLabel "马达加斯加"@ZH;
-    skos:prefLabel "마다가스카르"@KO;
-.
+  ossr:within reg:I-AF-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Madagaskar"@de,
+    "Madagascar"@en,
+    "Madagascar"@es,
+    "Madagascar"@fr,
+    "마다가스카르"@ko,
+    "马达加斯加"@zh .
+
 <MH> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-OC;
-    skos:prefLabel "Marshall Islands"@EN;
-    skos:prefLabel "Islas Marshall"@ES;
-    skos:prefLabel "Îles Marshall"@FR;
-    skos:prefLabel "Marshallinseln"@DE;
-    skos:prefLabel "马绍尔群岛"@ZH;
-    skos:prefLabel "마셜 제도"@KO;
-.
+  ossr:within reg:I-AP-OC;
+  skos:inScheme coun:;
+  skos:prefLabel "Marshallinseln"@de,
+    "Marshall Islands"@en,
+    "Islas Marshall"@es,
+    "Îles Marshall"@fr,
+    "마셜 제도"@ko,
+    "马绍尔群岛"@zh .
+
 <MK> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-EA;
-    skos:prefLabel "North Macedonia"@EN;
-    skos:prefLabel "Macedonia del Norte"@ES;
-    skos:prefLabel "Macédoine du Nord"@FR;
-    skos:prefLabel "Nordmazedonien"@DE;
-    skos:prefLabel "北马其顿"@ZH;
-    skos:prefLabel "북마케도니아"@KO;
-.
+  ossr:within reg:I-EU-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Nordmazedonien"@de,
+    "North Macedonia"@en,
+    "Macedonia del Norte"@es,
+    "Macédoine du Nord"@fr,
+    "북마케도니아"@ko,
+    "北马其顿"@zh .
+
 <ML> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-WE;
-    skos:prefLabel "Mali"@EN;
-    skos:prefLabel "Mali"@ES;
-    skos:prefLabel "Mali"@FR;
-    skos:prefLabel "Mali"@DE;
-    skos:prefLabel "马里"@ZH;
-    skos:prefLabel "말리"@KO;
-.
+  ossr:within reg:I-AF-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Mali"@de,
+    "Mali"@en,
+    "Mali"@es,
+    "Mali"@fr,
+    "말리"@ko,
+    "马里"@zh .
+
 <MM> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-SE;
-    skos:prefLabel "Myanmar"@EN;
-    skos:prefLabel "Birmania"@ES;
-    skos:prefLabel "Birmanie"@FR;
-    skos:prefLabel "Myanmar"@DE;
-    skos:prefLabel "缅甸"@ZH;
-    skos:prefLabel "미얀마"@KO;
-.
+  ossr:within reg:I-AP-SE;
+  skos:inScheme coun:;
+  skos:prefLabel "Myanmar"@de,
+    "Myanmar"@en,
+    "Birmania"@es,
+    "Birmanie"@fr,
+    "미얀마"@ko,
+    "缅甸"@zh .
+
 <MN> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-EA;
-    skos:prefLabel "Mongolia"@EN;
-    skos:prefLabel "Mongolia"@ES;
-    skos:prefLabel "Mongolie"@FR;
-    skos:prefLabel "Mongolei"@DE;
-    skos:prefLabel "蒙古"@ZH;
-    skos:prefLabel "몽골"@KO;
-.
+  ossr:within reg:I-AP-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Mongolei"@de,
+    "Mongolia"@en,
+    "Mongolia"@es,
+    "Mongolie"@fr,
+    "몽골"@ko,
+    "蒙古"@zh .
+
 <MO> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-EA;
-    skos:prefLabel "Macao"@EN;
-    skos:prefLabel "Macao"@ES;
-    skos:prefLabel "Macau"@FR;
-    skos:prefLabel "Macao"@DE;
-    skos:prefLabel "澳门"@ZH;
-    skos:prefLabel "마카오"@KO;
-.
+  ossr:within reg:I-AP-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Macao"@de,
+    "Macao"@en,
+    "Macao"@es,
+    "Macau"@fr,
+    "마카오"@ko,
+    "澳门"@zh .
+
 <MP> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-OC;
-    skos:prefLabel "Northern Mariana Islands"@EN;
-    skos:prefLabel "Islas Marianas del Norte"@ES;
-    skos:prefLabel "Îles Mariannes du Nord"@FR;
-    skos:prefLabel "Nördliche Marianen"@DE;
-    skos:prefLabel "北马里亚纳群岛"@ZH;
-    skos:prefLabel "북마리아나 제도"@KO;
-.
+  ossr:within reg:I-AP-OC;
+  skos:inScheme coun:;
+  skos:prefLabel "Nördliche Marianen"@de,
+    "Northern Mariana Islands"@en,
+    "Islas Marianas del Norte"@es,
+    "Îles Mariannes du Nord"@fr,
+    "북마리아나 제도"@ko,
+    "北马里亚纳群岛"@zh .
+
 <MQ> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CB;
-    skos:prefLabel "Martinique"@EN;
-    skos:prefLabel "Martinica"@ES;
-    skos:prefLabel "Martinique"@FR;
-    skos:prefLabel "Martinique"@DE;
-    skos:prefLabel "马提尼克"@ZH;
-    skos:prefLabel "마르티니크"@KO;
-.
+  ossr:within reg:I-AM-CB;
+  skos:inScheme coun:;
+  skos:prefLabel "Martinique"@de,
+    "Martinique"@en,
+    "Martinica"@es,
+    "Martinique"@fr,
+    "마르티니크"@ko,
+    "马提尼克"@zh .
+
 <MR> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-WE;
-    skos:prefLabel "Mauritania"@EN;
-    skos:prefLabel "Mauritania"@ES;
-    skos:prefLabel "Mauritanie"@FR;
-    skos:prefLabel "Mauretanien"@DE;
-    skos:prefLabel "毛里塔尼亚"@ZH;
-    skos:prefLabel "모리타니"@KO;
-.
+  ossr:within reg:I-AF-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Mauretanien"@de,
+    "Mauritania"@en,
+    "Mauritania"@es,
+    "Mauritanie"@fr,
+    "모리타니"@ko,
+    "毛里塔尼亚"@zh .
+
 <MS> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CB;
-    skos:prefLabel "Montserrat"@EN;
-    skos:prefLabel "Montserrat"@ES;
-    skos:prefLabel "Montserrat"@FR;
-    skos:prefLabel "Montserrat"@DE;
-    skos:prefLabel "蒙塞拉特岛"@ZH;
-    skos:prefLabel "몬트세랫"@KO;
-.
+  ossr:within reg:I-AM-CB;
+  skos:inScheme coun:;
+  skos:prefLabel "Montserrat"@de,
+    "Montserrat"@en,
+    "Montserrat"@es,
+    "Montserrat"@fr,
+    "몬트세랫"@ko,
+    "蒙塞拉特岛"@zh .
+
 <MT> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-WE;
-    skos:prefLabel "Malta"@EN;
-    skos:prefLabel "Malta"@ES;
-    skos:prefLabel "Malte"@FR;
-    skos:prefLabel "Malta"@DE;
-    skos:prefLabel "马尔他"@ZH;
-    skos:prefLabel "몰타"@KO;
-.
+  ossr:within reg:I-EU-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Malta"@de,
+    "Malta"@en,
+    "Malta"@es,
+    "Malte"@fr,
+    "몰타"@ko,
+    "马尔他"@zh .
+
 <MU> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-SO;
-    skos:prefLabel "Mauritius"@EN;
-    skos:prefLabel "Mauricio"@ES;
-    skos:prefLabel "Maurice"@FR;
-    skos:prefLabel "Mauritius"@DE;
-    skos:prefLabel "毛里求斯"@ZH;
-    skos:prefLabel "모리셔스"@KO;
-.
+  ossr:within reg:I-AF-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Mauritius"@de,
+    "Mauritius"@en,
+    "Mauricio"@es,
+    "Maurice"@fr,
+    "모리셔스"@ko,
+    "毛里求斯"@zh .
+
 <MV> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-SO;
-    skos:prefLabel "Maldives"@EN;
-    skos:prefLabel "Islas Maldivas"@ES;
-    skos:prefLabel "Maldives"@FR;
-    skos:prefLabel "Malediven"@DE;
-    skos:prefLabel "马尔代夫"@ZH;
-    skos:prefLabel "몰디브"@KO;
-.
+  ossr:within reg:I-AP-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Malediven"@de,
+    "Maldives"@en,
+    "Islas Maldivas"@es,
+    "Maldives"@fr,
+    "몰디브"@ko,
+    "马尔代夫"@zh .
+
 <MW> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-SO;
-    skos:prefLabel "Malawi"@EN;
-    skos:prefLabel "Malaui"@ES;
-    skos:prefLabel "Malawi"@FR;
-    skos:prefLabel "Malawi"@DE;
-    skos:prefLabel "马拉维"@ZH;
-    skos:prefLabel "말라위"@KO;
-.
+  ossr:within reg:I-AF-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Malawi"@de,
+    "Malawi"@en,
+    "Malaui"@es,
+    "Malawi"@fr,
+    "말라위"@ko,
+    "马拉维"@zh .
+
 <MX> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-NO;
-    skos:prefLabel "Mexico"@EN;
-    skos:prefLabel "México"@ES;
-    skos:prefLabel "Mexique"@FR;
-    skos:prefLabel "Mexiko"@DE;
-    skos:prefLabel "墨西哥"@ZH;
-    skos:prefLabel "멕시코"@KO;
-.
+  ossr:within reg:I-AM-NO;
+  skos:inScheme coun:;
+  skos:prefLabel "Mexiko"@de,
+    "Mexico"@en,
+    "México"@es,
+    "Mexique"@fr,
+    "멕시코"@ko,
+    "墨西哥"@zh .
+
 <MY> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-SE;
-    skos:prefLabel "Malaysia"@EN;
-    skos:prefLabel "Malasia"@ES;
-    skos:prefLabel "Malaisie"@FR;
-    skos:prefLabel "Malaysia"@DE;
-    skos:prefLabel "马来西亚"@ZH;
-    skos:prefLabel "말레이시아"@KO;
-.
+  ossr:within reg:I-AP-SE;
+  skos:inScheme coun:;
+  skos:prefLabel "Malaysia"@de,
+    "Malaysia"@en,
+    "Malasia"@es,
+    "Malaisie"@fr,
+    "말레이시아"@ko,
+    "马来西亚"@zh .
+
 <MZ> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-EA;
-    skos:prefLabel "Mozambique"@EN;
-    skos:prefLabel "Mozambique"@ES;
-    skos:prefLabel "Mozambique"@FR;
-    skos:prefLabel "Mosambik"@DE;
-    skos:prefLabel "莫桑比克"@ZH;
-    skos:prefLabel "모잠비크"@KO;
-.
+  ossr:within reg:I-AF-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Mosambik"@de,
+    "Mozambique"@en,
+    "Mozambique"@es,
+    "Mozambique"@fr,
+    "모잠비크"@ko,
+    "莫桑比克"@zh .
+
 <NA> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-SO;
-    skos:prefLabel "Namibia"@EN;
-    skos:prefLabel "Namibia"@ES;
-    skos:prefLabel "Namibie"@FR;
-    skos:prefLabel "Namibia"@DE;
-    skos:prefLabel "纳米比亚"@ZH;
-    skos:prefLabel "나미비아"@KO;
-.
+  ossr:within reg:I-AF-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Namibia"@de,
+    "Namibia"@en,
+    "Namibia"@es,
+    "Namibie"@fr,
+    "나미비아"@ko,
+    "纳米比亚"@zh .
+
 <NC> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-OC;
-    skos:prefLabel "New Caledonia"@EN;
-    skos:prefLabel "Nueva Caledonia"@ES;
-    skos:prefLabel "Nouvelle-Calédonie"@FR;
-    skos:prefLabel "Neukaledonien"@DE;
-    skos:prefLabel "新喀里多尼亚"@ZH;
-    skos:prefLabel "누벨칼레도니"@KO;
-.
+  ossr:within reg:I-AP-OC;
+  skos:inScheme coun:;
+  skos:prefLabel "Neukaledonien"@de,
+    "New Caledonia"@en,
+    "Nueva Caledonia"@es,
+    "Nouvelle-Calédonie"@fr,
+    "누벨칼레도니"@ko,
+    "新喀里多尼亚"@zh .
+
 <NE> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-WE;
-    skos:prefLabel "Niger"@EN;
-    skos:prefLabel "Niger"@ES;
-    skos:prefLabel "Niger"@FR;
-    skos:prefLabel "Niger"@DE;
-    skos:prefLabel "尼日尔"@ZH;
-    skos:prefLabel "니제르"@KO;
-.
+  ossr:within reg:I-AF-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Niger"@de,
+    "Niger"@en,
+    "Niger"@es,
+    "Niger"@fr,
+    "니제르"@ko,
+    "尼日尔"@zh .
+
 <NF> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-OC;
-    skos:prefLabel "Norfolk Island"@EN;
-    skos:prefLabel "Isla Norfolk"@ES;
-    skos:prefLabel "île Norfolk"@FR;
-    skos:prefLabel "Norfolkinsel"@DE;
-    skos:prefLabel "诺福克岛"@ZH;
-    skos:prefLabel "노퍽 섬"@KO;
-.
+  ossr:within reg:I-AP-OC;
+  skos:inScheme coun:;
+  skos:prefLabel "Norfolkinsel"@de,
+    "Norfolk Island"@en,
+    "Isla Norfolk"@es,
+    "île Norfolk"@fr,
+    "노퍽 섬"@ko,
+    "诺福克岛"@zh .
+
 <NG> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-WE;
-    skos:prefLabel "Nigeria"@EN;
-    skos:prefLabel "Nigeria"@ES;
-    skos:prefLabel "Nigeria"@FR;
-    skos:prefLabel "Nigeria"@DE;
-    skos:prefLabel "尼日利亚"@ZH;
-    skos:prefLabel "나이지리아"@KO;
-.
+  ossr:within reg:I-AF-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Nigeria"@de,
+    "Nigeria"@en,
+    "Nigeria"@es,
+    "Nigeria"@fr,
+    "나이지리아"@ko,
+    "尼日利亚"@zh .
+
 <NI> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CE;
-    skos:prefLabel "Nicaragua"@EN;
-    skos:prefLabel "Nicaragua"@ES;
-    skos:prefLabel "Nicaragua"@FR;
-    skos:prefLabel "Nicaragua"@DE;
-    skos:prefLabel "尼加拉瓜"@ZH;
-    skos:prefLabel "니카라과"@KO;
-.
+  ossr:within reg:I-AM-CE;
+  skos:inScheme coun:;
+  skos:prefLabel "Nicaragua"@de,
+    "Nicaragua"@en,
+    "Nicaragua"@es,
+    "Nicaragua"@fr,
+    "니카라과"@ko,
+    "尼加拉瓜"@zh .
+
 <NL> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-WE;
-    skos:prefLabel "Netherlands"@EN;
-    skos:prefLabel "Países Bajos"@ES;
-    skos:prefLabel "Pays-Bas"@FR;
-    skos:prefLabel "Niederlande"@DE;
-    skos:prefLabel "荷兰"@ZH;
-    skos:prefLabel "네덜란드"@KO;
-.
+  ossr:within reg:I-EU-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Niederlande"@de,
+    "Netherlands"@en,
+    "Países Bajos"@es,
+    "Pays-Bas"@fr,
+    "네덜란드"@ko,
+    "荷兰"@zh .
+
 <NO> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-WE;
-    skos:prefLabel "Norway"@EN;
-    skos:prefLabel "Noruega"@ES;
-    skos:prefLabel "Norvège"@FR;
-    skos:prefLabel "Norwegen"@DE;
-    skos:prefLabel "挪威"@ZH;
-    skos:prefLabel "노르웨이"@KO;
-.
+  ossr:within reg:I-EU-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Norwegen"@de,
+    "Norway"@en,
+    "Noruega"@es,
+    "Norvège"@fr,
+    "노르웨이"@ko,
+    "挪威"@zh .
+
 <NP> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-SO;
-    skos:prefLabel "Nepal"@EN;
-    skos:prefLabel "Nepal"@ES;
-    skos:prefLabel "Népal"@FR;
-    skos:prefLabel "Nepal"@DE;
-    skos:prefLabel "尼泊尔"@ZH;
-    skos:prefLabel "네팔"@KO;
-.
+  ossr:within reg:I-AP-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Nepal"@de,
+    "Nepal"@en,
+    "Nepal"@es,
+    "Népal"@fr,
+    "네팔"@ko,
+    "尼泊尔"@zh .
+
 <NR> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-OC;
-    skos:prefLabel "Nauru"@EN;
-    skos:prefLabel "Nauru"@ES;
-    skos:prefLabel "Nauru"@FR;
-    skos:prefLabel "Nauru"@DE;
-    skos:prefLabel "瑙鲁"@ZH;
-    skos:prefLabel "나우루"@KO;
-.
+  ossr:within reg:I-AP-OC;
+  skos:inScheme coun:;
+  skos:prefLabel "Nauru"@de,
+    "Nauru"@en,
+    "Nauru"@es,
+    "Nauru"@fr,
+    "나우루"@ko,
+    "瑙鲁"@zh .
+
 <NU> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-OC;
-    skos:prefLabel "Niue"@EN;
-    skos:prefLabel "Niue"@ES;
-    skos:prefLabel "Nioue"@FR;
-    skos:prefLabel "Niue"@DE;
-    skos:prefLabel "纽埃"@ZH;
-    skos:prefLabel "니우에"@KO;
-.
+  ossr:within reg:I-AP-OC;
+  skos:inScheme coun:;
+  skos:prefLabel "Niue"@de,
+    "Niue"@en,
+    "Niue"@es,
+    "Nioue"@fr,
+    "니우에"@ko,
+    "纽埃"@zh .
+
 <NZ> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-OC;
-    skos:prefLabel "New Zealand"@EN;
-    skos:prefLabel "Nueva Zelanda"@ES;
-    skos:prefLabel "Nouvelle-Zélande"@FR;
-    skos:prefLabel "Neuseeland"@DE;
-    skos:prefLabel "新西兰"@ZH;
-    skos:prefLabel "뉴질랜드"@KO;
-.
+  ossr:within reg:I-AP-OC;
+  skos:inScheme coun:;
+  skos:prefLabel "Neuseeland"@de,
+    "New Zealand"@en,
+    "Nueva Zelanda"@es,
+    "Nouvelle-Zélande"@fr,
+    "뉴질랜드"@ko,
+    "新西兰"@zh .
+
 <OM> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-ME;
-    skos:prefLabel "Oman"@EN;
-    skos:prefLabel "Omán"@ES;
-    skos:prefLabel "Oman"@FR;
-    skos:prefLabel "Oman"@DE;
-    skos:prefLabel "阿曼"@ZH;
-    skos:prefLabel "오만"@KO;
-.
+  ossr:within reg:I-AP-ME;
+  skos:inScheme coun:;
+  skos:prefLabel "Oman"@de,
+    "Oman"@en,
+    "Omán"@es,
+    "Oman"@fr,
+    "오만"@ko,
+    "阿曼"@zh .
+
 <PA> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CE;
-    skos:prefLabel "Panama"@EN;
-    skos:prefLabel "Panamá"@ES;
-    skos:prefLabel "Panama"@FR;
-    skos:prefLabel "Panama"@DE;
-    skos:prefLabel "巴拿马"@ZH;
-    skos:prefLabel "파나마"@KO;
-.
+  ossr:within reg:I-AM-CE;
+  skos:inScheme coun:;
+  skos:prefLabel "Panama"@de,
+    "Panama"@en,
+    "Panamá"@es,
+    "Panama"@fr,
+    "파나마"@ko,
+    "巴拿马"@zh .
+
 <PE> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-SO;
-    skos:prefLabel "Peru"@EN;
-    skos:prefLabel "Perú"@ES;
-    skos:prefLabel "Pérou"@FR;
-    skos:prefLabel "Peru"@DE;
-    skos:prefLabel "秘鲁"@ZH;
-    skos:prefLabel "페루"@KO;
-.
+  ossr:within reg:I-AM-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Peru"@de,
+    "Peru"@en,
+    "Perú"@es,
+    "Pérou"@fr,
+    "페루"@ko,
+    "秘鲁"@zh .
+
 <PF> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-OC;
-    skos:prefLabel "French Polynesia"@EN;
-    skos:prefLabel "Polinesia Francesa"@ES;
-    skos:prefLabel "Polynésie française"@FR;
-    skos:prefLabel "Französisch-Polynesien"@DE;
-    skos:prefLabel "法属玻利尼西亚"@ZH;
-    skos:prefLabel "프랑스령 폴리네시아"@KO;
-.
+  ossr:within reg:I-AP-OC;
+  skos:inScheme coun:;
+  skos:prefLabel "Französisch-Polynesien"@de,
+    "French Polynesia"@en,
+    "Polinesia Francesa"@es,
+    "Polynésie française"@fr,
+    "프랑스령 폴리네시아"@ko,
+    "法属玻利尼西亚"@zh .
+
 <PG> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-WE;
-    skos:prefLabel "Papua New Guinea"@EN;
-    skos:prefLabel "Papúa Nueva Guinea"@ES;
-    skos:prefLabel "Papouasie-Nouvelle-Guinée"@FR;
-    skos:prefLabel "Papua-Neuguinea"@DE;
-    skos:prefLabel "巴布亚新几内亚"@ZH;
-    skos:prefLabel "파푸아뉴기니"@KO;
-.
+  ossr:within reg:I-AF-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Papua-Neuguinea"@de,
+    "Papua New Guinea"@en,
+    "Papúa Nueva Guinea"@es,
+    "Papouasie-Nouvelle-Guinée"@fr,
+    "파푸아뉴기니"@ko,
+    "巴布亚新几内亚"@zh .
+
 <PH> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-SE;
-    skos:prefLabel "Philippines"@EN;
-    skos:prefLabel "Filipinas"@ES;
-    skos:prefLabel "Philippines"@FR;
-    skos:prefLabel "Philippinen"@DE;
-    skos:prefLabel "菲律宾"@ZH;
-    skos:prefLabel "필리핀"@KO;
-.
+  ossr:within reg:I-AP-SE;
+  skos:inScheme coun:;
+  skos:prefLabel "Philippinen"@de,
+    "Philippines"@en,
+    "Filipinas"@es,
+    "Philippines"@fr,
+    "필리핀"@ko,
+    "菲律宾"@zh .
+
 <PK> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-SO;
-    skos:prefLabel "Pakistan"@EN;
-    skos:prefLabel "Pakistán"@ES;
-    skos:prefLabel "Pakistan"@FR;
-    skos:prefLabel "Pakistan"@DE;
-    skos:prefLabel "巴基斯坦"@ZH;
-    skos:prefLabel "파키스탄"@KO;
-.
+  ossr:within reg:I-AP-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Pakistan"@de,
+    "Pakistan"@en,
+    "Pakistán"@es,
+    "Pakistan"@fr,
+    "파키스탄"@ko,
+    "巴基斯坦"@zh .
+
 <PL> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-EA;
-    skos:prefLabel "Poland"@EN;
-    skos:prefLabel "Polonia"@ES;
-    skos:prefLabel "Pologne"@FR;
-    skos:prefLabel "Polen"@DE;
-    skos:prefLabel "波兰"@ZH;
-    skos:prefLabel "폴란드"@KO;
-.
+  ossr:within reg:I-EU-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Polen"@de,
+    "Poland"@en,
+    "Polonia"@es,
+    "Pologne"@fr,
+    "폴란드"@ko,
+    "波兰"@zh .
+
 <PM> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-NO;
-    skos:prefLabel "Saint Pierre and Miquelon"@EN;
-    skos:prefLabel "San Pedro y Miquelon"@ES;
-    skos:prefLabel "Saint-Pierre-et-Miquelon"@FR;
-    skos:prefLabel "St. Pierre und Miquelon"@DE;
-    skos:prefLabel "圣皮埃尔和密克隆"@ZH;
-    skos:prefLabel "생피에르 미클롱"@KO;
-.
+  ossr:within reg:I-AM-NO;
+  skos:inScheme coun:;
+  skos:prefLabel "St. Pierre und Miquelon"@de,
+    "Saint Pierre and Miquelon"@en,
+    "San Pedro y Miquelon"@es,
+    "Saint-Pierre-et-Miquelon"@fr,
+    "생피에르 미클롱"@ko,
+    "圣皮埃尔和密克隆"@zh .
+
 <PN> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-OC;
-    skos:prefLabel "Pitcairn"@EN;
-    skos:prefLabel "Pitcairn"@ES;
-    skos:prefLabel "Îles Pitcairn"@FR;
-    skos:prefLabel "Pitcairn"@DE;
-    skos:prefLabel "皮特克恩"@ZH;
-    skos:prefLabel "핏케언 제도"@KO;
-.
+  ossr:within reg:I-AP-OC;
+  skos:inScheme coun:;
+  skos:prefLabel "Pitcairn"@de,
+    "Pitcairn"@en,
+    "Pitcairn"@es,
+    "Îles Pitcairn"@fr,
+    "핏케언 제도"@ko,
+    "皮特克恩"@zh .
+
 <PR> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CB;
-    skos:prefLabel "Puerto Rico"@EN;
-    skos:prefLabel "Puerto Rico"@ES;
-    skos:prefLabel "Porto Rico"@FR;
-    skos:prefLabel "Puerto Rico"@DE;
-    skos:prefLabel "波多黎各"@ZH;
-    skos:prefLabel "푸에르토리코"@KO;
-.
+  ossr:within reg:I-AM-CB;
+  skos:inScheme coun:;
+  skos:prefLabel "Puerto Rico"@de,
+    "Puerto Rico"@en,
+    "Puerto Rico"@es,
+    "Porto Rico"@fr,
+    "푸에르토리코"@ko,
+    "波多黎各"@zh .
+
 <PS> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-ME;
-    skos:prefLabel "Palestine, State of"@EN;
-    skos:prefLabel "Palestina, Estado de"@ES;
-    skos:prefLabel "Palestine, État de"@FR;
-    skos:prefLabel "Palästina, Staat"@DE;
-    skos:prefLabel "巴勒斯坦"@ZH;
-    skos:prefLabel "팔레스타인"@KO;
-.
+  ossr:within reg:I-AP-ME;
+  skos:inScheme coun:;
+  skos:prefLabel "Palästina, Staat"@de,
+    "Palestine, State of"@en,
+    "Palestina, Estado de"@es,
+    "Palestine, État de"@fr,
+    "팔레스타인"@ko,
+    "巴勒斯坦"@zh .
+
 <PT> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-WE;
-    skos:prefLabel "Portugal"@EN;
-    skos:prefLabel "Portugal"@ES;
-    skos:prefLabel "Portugal"@FR;
-    skos:prefLabel "Portugal"@DE;
-    skos:prefLabel "葡萄牙"@ZH;
-    skos:prefLabel "포르투갈"@KO;
-.
+  ossr:within reg:I-EU-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Portugal"@de,
+    "Portugal"@en,
+    "Portugal"@es,
+    "Portugal"@fr,
+    "포르투갈"@ko,
+    "葡萄牙"@zh .
+
 <PW> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-OC;
-    skos:prefLabel "Palau"@EN;
-    skos:prefLabel "Palaos"@ES;
-    skos:prefLabel "Palaos"@FR;
-    skos:prefLabel "Palau"@DE;
-    skos:prefLabel "帕劳"@ZH;
-    skos:prefLabel "팔라우"@KO;
-.
+  ossr:within reg:I-AP-OC;
+  skos:inScheme coun:;
+  skos:prefLabel "Palau"@de,
+    "Palau"@en,
+    "Palaos"@es,
+    "Palaos"@fr,
+    "팔라우"@ko,
+    "帕劳"@zh .
+
 <PY> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-SO;
-    skos:prefLabel "Paraguay"@EN;
-    skos:prefLabel "Paraguay"@ES;
-    skos:prefLabel "Paraguay"@FR;
-    skos:prefLabel "Paraguay"@DE;
-    skos:prefLabel "巴拉圭"@ZH;
-    skos:prefLabel "파라과이"@KO;
-.
+  ossr:within reg:I-AM-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Paraguay"@de,
+    "Paraguay"@en,
+    "Paraguay"@es,
+    "Paraguay"@fr,
+    "파라과이"@ko,
+    "巴拉圭"@zh .
+
 <QA> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-ME;
-    skos:prefLabel "Qatar"@EN;
-    skos:prefLabel "Catar"@ES;
-    skos:prefLabel "Qatar"@FR;
-    skos:prefLabel "Katar"@DE;
-    skos:prefLabel "卡塔尔"@ZH;
-    skos:prefLabel "카타르"@KO;
-.
+  ossr:within reg:I-AP-ME;
+  skos:inScheme coun:;
+  skos:prefLabel "Katar"@de,
+    "Qatar"@en,
+    "Catar"@es,
+    "Qatar"@fr,
+    "카타르"@ko,
+    "卡塔尔"@zh .
+
 <RE> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-EA;
-    skos:prefLabel "Réunion"@EN;
-    skos:prefLabel "Reunión"@ES;
-    skos:prefLabel "Réunion, Île de la"@FR;
-    skos:prefLabel "Réunion"@DE;
-    skos:prefLabel "留尼汪"@ZH;
-    skos:prefLabel "레위니옹"@KO;
-.
+  ossr:within reg:I-AF-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Réunion"@de,
+    "Réunion"@en,
+    "Reunión"@es,
+    "Réunion, Île de la"@fr,
+    "레위니옹"@ko,
+    "留尼汪"@zh .
+
 <RO> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-EA;
-    skos:prefLabel "Romania"@EN;
-    skos:prefLabel "Rumanía"@ES;
-    skos:prefLabel "Roumanie"@FR;
-    skos:prefLabel "Rumänien"@DE;
-    skos:prefLabel "罗马尼亚"@ZH;
-    skos:prefLabel "루마니아"@KO;
-.
+  ossr:within reg:I-EU-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Rumänien"@de,
+    "Romania"@en,
+    "Rumanía"@es,
+    "Roumanie"@fr,
+    "루마니아"@ko,
+    "罗马尼亚"@zh .
+
 <RS> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-EA;
-    skos:prefLabel "Serbia"@EN;
-    skos:prefLabel "Serbia"@ES;
-    skos:prefLabel "Serbie"@FR;
-    skos:prefLabel "Serbien"@DE;
-    skos:prefLabel "塞尔维亚"@ZH;
-    skos:prefLabel "세르비아"@KO;
-.
+  ossr:within reg:I-EU-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Serbien"@de,
+    "Serbia"@en,
+    "Serbia"@es,
+    "Serbie"@fr,
+    "세르비아"@ko,
+    "塞尔维亚"@zh .
+
 <RU> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-EA;
-    skos:prefLabel "Russian Federation"@EN;
-    skos:prefLabel "Federación Rusa"@ES;
-    skos:prefLabel "Russie, Fédération de"@FR;
-    skos:prefLabel "Russische Föderation"@DE;
-    skos:prefLabel "俄罗斯"@ZH;
-    skos:prefLabel "러시아 연방"@KO;
-.
+  ossr:within reg:I-EU-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Russische Föderation"@de,
+    "Russian Federation"@en,
+    "Federación Rusa"@es,
+    "Russie, Fédération de"@fr,
+    "러시아 연방"@ko,
+    "俄罗斯"@zh .
+
 <RW> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-CE;
-    skos:prefLabel "Rwanda"@EN;
-    skos:prefLabel "Ruanda"@ES;
-    skos:prefLabel "Rwanda"@FR;
-    skos:prefLabel "Ruanda"@DE;
-    skos:prefLabel "卢旺达"@ZH;
-    skos:prefLabel "르완다"@KO;
-.
+  ossr:within reg:I-AF-CE;
+  skos:inScheme coun:;
+  skos:prefLabel "Ruanda"@de,
+    "Rwanda"@en,
+    "Ruanda"@es,
+    "Rwanda"@fr,
+    "르완다"@ko,
+    "卢旺达"@zh .
+
 <SA> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-ME;
-    skos:prefLabel "Saudi Arabia"@EN;
-    skos:prefLabel "Arabia Saudí"@ES;
-    skos:prefLabel "Arabie saoudite"@FR;
-    skos:prefLabel "Saudi-Arabien"@DE;
-    skos:prefLabel "沙特阿拉伯"@ZH;
-    skos:prefLabel "사우디아라비아"@KO;
-.
+  ossr:within reg:I-AP-ME;
+  skos:inScheme coun:;
+  skos:prefLabel "Saudi-Arabien"@de,
+    "Saudi Arabia"@en,
+    "Arabia Saudí"@es,
+    "Arabie saoudite"@fr,
+    "사우디아라비아"@ko,
+    "沙特阿拉伯"@zh .
+
 <SB> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-OC;
-    skos:prefLabel "Solomon Islands"@EN;
-    skos:prefLabel "Islas Salomón"@ES;
-    skos:prefLabel "Salomon, Îles"@FR;
-    skos:prefLabel "Salomoninseln"@DE;
-    skos:prefLabel "所罗门群岛"@ZH;
-    skos:prefLabel "솔로몬 제도"@KO;
-.
+  ossr:within reg:I-AP-OC;
+  skos:inScheme coun:;
+  skos:prefLabel "Salomoninseln"@de,
+    "Solomon Islands"@en,
+    "Islas Salomón"@es,
+    "Salomon, Îles"@fr,
+    "솔로몬 제도"@ko,
+    "所罗门群岛"@zh .
+
 <SC> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-SO;
-    skos:prefLabel "Seychelles"@EN;
-    skos:prefLabel "Seychelles"@ES;
-    skos:prefLabel "Seychelles"@FR;
-    skos:prefLabel "Seychellen"@DE;
-    skos:prefLabel "塞舌尔"@ZH;
-    skos:prefLabel "세이셸"@KO;
-.
+  ossr:within reg:I-AF-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Seychellen"@de,
+    "Seychelles"@en,
+    "Seychelles"@es,
+    "Seychelles"@fr,
+    "세이셸"@ko,
+    "塞舌尔"@zh .
+
 <SD> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-EA;
-    skos:prefLabel "Sudan"@EN;
-    skos:prefLabel "Sudán"@ES;
-    skos:prefLabel "Soudan"@FR;
-    skos:prefLabel "Sudan"@DE;
-    skos:prefLabel "苏丹"@ZH;
-    skos:prefLabel "수단"@KO;
-.
+  ossr:within reg:I-AF-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Sudan"@de,
+    "Sudan"@en,
+    "Sudán"@es,
+    "Soudan"@fr,
+    "수단"@ko,
+    "苏丹"@zh .
+
 <SE> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-WE;
-    skos:prefLabel "Sweden"@EN;
-    skos:prefLabel "Suecia"@ES;
-    skos:prefLabel "Suède"@FR;
-    skos:prefLabel "Schweden"@DE;
-    skos:prefLabel "瑞典"@ZH;
-    skos:prefLabel "스웨덴"@KO;
-.
+  ossr:within reg:I-EU-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Schweden"@de,
+    "Sweden"@en,
+    "Suecia"@es,
+    "Suède"@fr,
+    "스웨덴"@ko,
+    "瑞典"@zh .
+
 <SG> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-SE;
-    skos:prefLabel "Singapore"@EN;
-    skos:prefLabel "Singapur"@ES;
-    skos:prefLabel "Singapour"@FR;
-    skos:prefLabel "Singapur"@DE;
-    skos:prefLabel "新加坡"@ZH;
-    skos:prefLabel "싱가포르"@KO;
-.
+  ossr:within reg:I-AP-SE;
+  skos:inScheme coun:;
+  skos:prefLabel "Singapur"@de,
+    "Singapore"@en,
+    "Singapur"@es,
+    "Singapour"@fr,
+    "싱가포르"@ko,
+    "新加坡"@zh .
+
 <SH> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-WE;
-    skos:prefLabel "Saint Helena, Ascension and Tristan da Cunha"@EN;
-    skos:prefLabel "Santa Elena, Ascensión y Tristán de Acuña"@ES;
-    skos:prefLabel "Sainte-Hélène, Ascension et Tristan da Cunha"@FR;
-    skos:prefLabel "St. Helena, Ascension und Tristan da Cunha"@DE;
-    skos:prefLabel "圣赫勒拿-阿森松-特里斯坦达库尼亚"@ZH;
-    skos:prefLabel "세인트헬레나 어센션 트리스탄다쿠냐"@KO;
-.
+  ossr:within reg:I-AF-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "St. Helena, Ascension und Tristan da Cunha"@de,
+    "Saint Helena, Ascension and Tristan da Cunha"@en,
+    "Santa Elena, Ascensión y Tristán de Acuña"@es,
+    "Sainte-Hélène, Ascension et Tristan da Cunha"@fr,
+    "세인트헬레나 어센션 트리스탄다쿠냐"@ko,
+    "圣赫勒拿-阿森松-特里斯坦达库尼亚"@zh .
+
 <SI> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-EA;
-    skos:prefLabel "Slovenia"@EN;
-    skos:prefLabel "Eslovenia"@ES;
-    skos:prefLabel "Slovénie"@FR;
-    skos:prefLabel "Slowenien"@DE;
-    skos:prefLabel "斯洛文尼亚"@ZH;
-    skos:prefLabel "슬로베니아"@KO;
-.
+  ossr:within reg:I-EU-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Slowenien"@de,
+    "Slovenia"@en,
+    "Eslovenia"@es,
+    "Slovénie"@fr,
+    "슬로베니아"@ko,
+    "斯洛文尼亚"@zh .
+
 <SJ> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-WE;
-    skos:prefLabel "Svalbard and Jan Mayen"@EN;
-    skos:prefLabel "Svalbard y Jan Mayen"@ES;
-    skos:prefLabel "Svalbard et île Jan Mayen"@FR;
-    skos:prefLabel "Svalbard und Jan Mayen"@DE;
-    skos:prefLabel "斯瓦尔巴特和扬马延岛"@ZH;
-    skos:prefLabel "스발바르 얀마옌 제도"@KO;
-.
+  ossr:within reg:I-EU-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Svalbard und Jan Mayen"@de,
+    "Svalbard and Jan Mayen"@en,
+    "Svalbard y Jan Mayen"@es,
+    "Svalbard et île Jan Mayen"@fr,
+    "스발바르 얀마옌 제도"@ko,
+    "斯瓦尔巴特和扬马延岛"@zh .
+
 <SK> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-EA;
-    skos:prefLabel "Slovakia"@EN;
-    skos:prefLabel "Eslovaquia"@ES;
-    skos:prefLabel "Slovaquie"@FR;
-    skos:prefLabel "Slowakei"@DE;
-    skos:prefLabel "斯洛伐克"@ZH;
-    skos:prefLabel "슬로바키아"@KO;
-.
+  ossr:within reg:I-EU-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Slowakei"@de,
+    "Slovakia"@en,
+    "Eslovaquia"@es,
+    "Slovaquie"@fr,
+    "슬로바키아"@ko,
+    "斯洛伐克"@zh .
+
 <SL> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-WE;
-    skos:prefLabel "Sierra Leone"@EN;
-    skos:prefLabel "Sierra Leona"@ES;
-    skos:prefLabel "Sierra Leone"@FR;
-    skos:prefLabel "Sierra Leone"@DE;
-    skos:prefLabel "塞拉利昂"@ZH;
-    skos:prefLabel "시에라리온"@KO;
-.
+  ossr:within reg:I-AF-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Sierra Leone"@de,
+    "Sierra Leone"@en,
+    "Sierra Leona"@es,
+    "Sierra Leone"@fr,
+    "시에라리온"@ko,
+    "塞拉利昂"@zh .
+
 <SM> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-WE;
-    skos:prefLabel "San Marino"@EN;
-    skos:prefLabel "San Marino"@ES;
-    skos:prefLabel "Saint-Marin"@FR;
-    skos:prefLabel "San Marino"@DE;
-    skos:prefLabel "圣马力诺"@ZH;
-    skos:prefLabel "산마리노"@KO;
-.
+  ossr:within reg:I-EU-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "San Marino"@de,
+    "San Marino"@en,
+    "San Marino"@es,
+    "Saint-Marin"@fr,
+    "산마리노"@ko,
+    "圣马力诺"@zh .
+
 <SN> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-WE;
-    skos:prefLabel "Senegal"@EN;
-    skos:prefLabel "Senegal"@ES;
-    skos:prefLabel "Sénégal"@FR;
-    skos:prefLabel "Senegal"@DE;
-    skos:prefLabel "塞内加尔"@ZH;
-    skos:prefLabel "세네갈"@KO;
-.
+  ossr:within reg:I-AF-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Senegal"@de,
+    "Senegal"@en,
+    "Senegal"@es,
+    "Sénégal"@fr,
+    "세네갈"@ko,
+    "塞内加尔"@zh .
+
 <SO> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-EA;
-    skos:prefLabel "Somalia"@EN;
-    skos:prefLabel "Somalia"@ES;
-    skos:prefLabel "Somalie"@FR;
-    skos:prefLabel "Somalia"@DE;
-    skos:prefLabel "索马里"@ZH;
-    skos:prefLabel "소말리아"@KO;
-.
+  ossr:within reg:I-AF-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Somalia"@de,
+    "Somalia"@en,
+    "Somalia"@es,
+    "Somalie"@fr,
+    "소말리아"@ko,
+    "索马里"@zh .
+
 <SR> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-SO;
-    skos:prefLabel "Suriname"@EN;
-    skos:prefLabel "Surinám"@ES;
-    skos:prefLabel "Surinam"@FR;
-    skos:prefLabel "Suriname"@DE;
-    skos:prefLabel "苏里南"@ZH;
-    skos:prefLabel "수리남"@KO;
-.
+  ossr:within reg:I-AM-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Suriname"@de,
+    "Suriname"@en,
+    "Surinám"@es,
+    "Surinam"@fr,
+    "수리남"@ko,
+    "苏里南"@zh .
+
 <SS> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-EA;
-    skos:prefLabel "South Sudan"@EN;
-    skos:prefLabel "Sudán del Sur"@ES;
-    skos:prefLabel "Soudan du Sud"@FR;
-    skos:prefLabel "Südsudan"@DE;
-    skos:prefLabel "南苏丹"@ZH;
-    skos:prefLabel "남수단"@KO;
-.
+  ossr:within reg:I-AF-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Südsudan"@de,
+    "South Sudan"@en,
+    "Sudán del Sur"@es,
+    "Soudan du Sud"@fr,
+    "남수단"@ko,
+    "南苏丹"@zh .
+
 <ST> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-CE;
-    skos:prefLabel "Sao Tome and Principe"@EN;
-    skos:prefLabel "Santo Tomé y Príncipe"@ES;
-    skos:prefLabel "Sao Tomé-et-Principe"@FR;
-    skos:prefLabel "São Tomé und Príncipe"@DE;
-    skos:prefLabel "圣多美和普林西比"@ZH;
-    skos:prefLabel "상투메 프린시페"@KO;
-.
+  ossr:within reg:I-AF-CE;
+  skos:inScheme coun:;
+  skos:prefLabel "São Tomé und Príncipe"@de,
+    "Sao Tome and Principe"@en,
+    "Santo Tomé y Príncipe"@es,
+    "Sao Tomé-et-Principe"@fr,
+    "상투메 프린시페"@ko,
+    "圣多美和普林西比"@zh .
+
 <SV> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CE;
-    skos:prefLabel "El Salvador"@EN;
-    skos:prefLabel "El Salvador"@ES;
-    skos:prefLabel "Salvador"@FR;
-    skos:prefLabel "El Salvador"@DE;
-    skos:prefLabel "萨尔瓦多"@ZH;
-    skos:prefLabel "엘살바도르"@KO;
-.
+  ossr:within reg:I-AM-CE;
+  skos:inScheme coun:;
+  skos:prefLabel "El Salvador"@de,
+    "El Salvador"@en,
+    "El Salvador"@es,
+    "Salvador"@fr,
+    "엘살바도르"@ko,
+    "萨尔瓦多"@zh .
+
 <SX> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CB;
-    skos:prefLabel "Sint Maarten (Dutch part)"@EN;
-    skos:prefLabel "Isla de San Martín (zona holandsea)"@ES;
-    skos:prefLabel "Saint-Martin (partie néerlandaise)"@FR;
-    skos:prefLabel "Saint-Martin (Niederländischer Teil)"@DE;
-    skos:prefLabel "荷属圣马丁"@ZH;
-    skos:prefLabel "신트마르턴 (네덜란드령)"@KO;
-.
+  ossr:within reg:I-AM-CB;
+  skos:inScheme coun:;
+  skos:prefLabel "Saint-Martin (Niederländischer Teil)"@de,
+    "Sint Maarten (Dutch part)"@en,
+    "Isla de San Martín (zona holandsea)"@es,
+    "Saint-Martin (partie néerlandaise)"@fr,
+    "신트마르턴 (네덜란드령)"@ko,
+    "荷属圣马丁"@zh .
+
 <SY> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-ME;
-    skos:prefLabel "Syrian Arab Republic"@EN;
-    skos:prefLabel "República árabe de Siria"@ES;
-    skos:prefLabel "Syrienne, République arabe"@FR;
-    skos:prefLabel "Syrien, Arabische Republik"@DE;
-    skos:prefLabel "叙利亚"@ZH;
-    skos:prefLabel "시리아 아랍 공화국"@KO;
-.
+  ossr:within reg:I-AP-ME;
+  skos:inScheme coun:;
+  skos:prefLabel "Syrien, Arabische Republik"@de,
+    "Syrian Arab Republic"@en,
+    "República árabe de Siria"@es,
+    "Syrienne, République arabe"@fr,
+    "시리아 아랍 공화국"@ko,
+    "叙利亚"@zh .
+
 <SZ> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-SO;
-    skos:prefLabel "Eswatini"@EN;
-    skos:prefLabel "Suazilandia"@ES;
-    skos:prefLabel "Eswatini"@FR;
-    skos:prefLabel "Eswatini"@DE;
-    skos:prefLabel "斯威士兰"@ZH;
-    skos:prefLabel "에스와티니"@KO;
-.
+  ossr:within reg:I-AF-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Eswatini"@de,
+    "Eswatini"@en,
+    "Suazilandia"@es,
+    "Eswatini"@fr,
+    "에스와티니"@ko,
+    "斯威士兰"@zh .
+
 <TC> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CB;
-    skos:prefLabel "Turks and Caicos Islands"@EN;
-    skos:prefLabel "Islas Turcas y Caicos"@ES;
-    skos:prefLabel "îles Turques-et-Caïques"@FR;
-    skos:prefLabel "Turks- und Caicosinseln"@DE;
-    skos:prefLabel "特克斯和凯科斯群岛"@ZH;
-    skos:prefLabel "터크스 케이커스 제도"@KO;
-.
+  ossr:within reg:I-AM-CB;
+  skos:inScheme coun:;
+  skos:prefLabel "Turks- und Caicosinseln"@de,
+    "Turks and Caicos Islands"@en,
+    "Islas Turcas y Caicos"@es,
+    "îles Turques-et-Caïques"@fr,
+    "터크스 케이커스 제도"@ko,
+    "特克斯和凯科斯群岛"@zh .
+
 <TD> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-CE;
-    skos:prefLabel "Chad"@EN;
-    skos:prefLabel "Chad"@ES;
-    skos:prefLabel "Tchad"@FR;
-    skos:prefLabel "Tschad"@DE;
-    skos:prefLabel "乍得"@ZH;
-    skos:prefLabel "차드"@KO;
-.
+  ossr:within reg:I-AF-CE;
+  skos:inScheme coun:;
+  skos:prefLabel "Tschad"@de,
+    "Chad"@en,
+    "Chad"@es,
+    "Tchad"@fr,
+    "차드"@ko,
+    "乍得"@zh .
+
 <TF> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-WE;
-    skos:prefLabel "French Southern Territories"@EN;
-    skos:prefLabel "Territorios Franceses del Sur"@ES;
-    skos:prefLabel "Terres australes françaises"@FR;
-    skos:prefLabel "Französische Süd- und Antarktisgebiete"@DE;
-    skos:prefLabel "法属南半球领地"@ZH;
-    skos:prefLabel "프랑스령 남 자치구역"@KO;
-.
+  ossr:within reg:I-EU-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Französische Süd- und Antarktisgebiete"@de,
+    "French Southern Territories"@en,
+    "Territorios Franceses del Sur"@es,
+    "Terres australes françaises"@fr,
+    "프랑스령 남 자치구역"@ko,
+    "法属南半球领地"@zh .
+
 <TG> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-WE;
-    skos:prefLabel "Togo"@EN;
-    skos:prefLabel "Togo"@ES;
-    skos:prefLabel "Togo"@FR;
-    skos:prefLabel "Togo"@DE;
-    skos:prefLabel "多哥"@ZH;
-    skos:prefLabel "토고"@KO;
-.
+  ossr:within reg:I-AF-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Togo"@de,
+    "Togo"@en,
+    "Togo"@es,
+    "Togo"@fr,
+    "토고"@ko,
+    "多哥"@zh .
+
 <TH> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-SE;
-    skos:prefLabel "Thailand"@EN;
-    skos:prefLabel "Tailandia"@ES;
-    skos:prefLabel "Thaïlande"@FR;
-    skos:prefLabel "Thailand"@DE;
-    skos:prefLabel "泰国"@ZH;
-    skos:prefLabel "태국"@KO;
-.
+  ossr:within reg:I-AP-SE;
+  skos:inScheme coun:;
+  skos:prefLabel "Thailand"@de,
+    "Thailand"@en,
+    "Tailandia"@es,
+    "Thaïlande"@fr,
+    "태국"@ko,
+    "泰国"@zh .
+
 <TJ> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-CE;
-    skos:prefLabel "Tajikistan"@EN;
-    skos:prefLabel "Tayikistán"@ES;
-    skos:prefLabel "Tadjikistan"@FR;
-    skos:prefLabel "Tadschikistan"@DE;
-    skos:prefLabel "塔吉克斯坦"@ZH;
-    skos:prefLabel "타지키스탄"@KO;
-.
+  ossr:within reg:I-AP-CE;
+  skos:inScheme coun:;
+  skos:prefLabel "Tadschikistan"@de,
+    "Tajikistan"@en,
+    "Tayikistán"@es,
+    "Tadjikistan"@fr,
+    "타지키스탄"@ko,
+    "塔吉克斯坦"@zh .
+
 <TK> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-OC;
-    skos:prefLabel "Tokelau"@EN;
-    skos:prefLabel "Tokelau"@ES;
-    skos:prefLabel "Tokelau"@FR;
-    skos:prefLabel "Tokelau"@DE;
-    skos:prefLabel "托克劳群岛"@ZH;
-    skos:prefLabel "토켈라우"@KO;
-.
+  ossr:within reg:I-AP-OC;
+  skos:inScheme coun:;
+  skos:prefLabel "Tokelau"@de,
+    "Tokelau"@en,
+    "Tokelau"@es,
+    "Tokelau"@fr,
+    "토켈라우"@ko,
+    "托克劳群岛"@zh .
+
 <TL> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-OC;
-    skos:prefLabel "Timor-Leste"@EN;
-    skos:prefLabel "Timor Oriental"@ES;
-    skos:prefLabel "Timor oriental"@FR;
-    skos:prefLabel "Timor-Leste"@DE;
-    skos:prefLabel "东帝汶"@ZH;
-    skos:prefLabel "동티모르"@KO;
-.
+  ossr:within reg:I-AP-OC;
+  skos:inScheme coun:;
+  skos:prefLabel "Timor-Leste"@de,
+    "Timor-Leste"@en,
+    "Timor Oriental"@es,
+    "Timor oriental"@fr,
+    "동티모르"@ko,
+    "东帝汶"@zh .
+
 <TM> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-CE;
-    skos:prefLabel "Turkmenistan"@EN;
-    skos:prefLabel "Turkmenistán"@ES;
-    skos:prefLabel "Turkménistan"@FR;
-    skos:prefLabel "Turkmenistan"@DE;
-    skos:prefLabel "土库曼斯坦"@ZH;
-    skos:prefLabel "투르크메니스탄"@KO;
-.
+  ossr:within reg:I-AP-CE;
+  skos:inScheme coun:;
+  skos:prefLabel "Turkmenistan"@de,
+    "Turkmenistan"@en,
+    "Turkmenistán"@es,
+    "Turkménistan"@fr,
+    "투르크메니스탄"@ko,
+    "土库曼斯坦"@zh .
+
 <TN> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-NO;
-    skos:prefLabel "Tunisia"@EN;
-    skos:prefLabel "Tunez"@ES;
-    skos:prefLabel "Tunisie"@FR;
-    skos:prefLabel "Tunesien"@DE;
-    skos:prefLabel "突尼斯"@ZH;
-    skos:prefLabel "튀니지"@KO;
-.
+  ossr:within reg:I-AF-NO;
+  skos:inScheme coun:;
+  skos:prefLabel "Tunesien"@de,
+    "Tunisia"@en,
+    "Tunez"@es,
+    "Tunisie"@fr,
+    "튀니지"@ko,
+    "突尼斯"@zh .
+
 <TO> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-OC;
-    skos:prefLabel "Tonga"@EN;
-    skos:prefLabel "Tonga"@ES;
-    skos:prefLabel "Tonga"@FR;
-    skos:prefLabel "Tonga"@DE;
-    skos:prefLabel "汤加"@ZH;
-    skos:prefLabel "통가"@KO;
-.
+  ossr:within reg:I-AP-OC;
+  skos:inScheme coun:;
+  skos:prefLabel "Tonga"@de,
+    "Tonga"@en,
+    "Tonga"@es,
+    "Tonga"@fr,
+    "통가"@ko,
+    "汤加"@zh .
+
 <TR> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-WE;
-    skos:prefLabel "Turkey"@EN;
-    skos:prefLabel "Turquía"@ES;
-    skos:prefLabel "Turquie"@FR;
-    skos:prefLabel "Türkei"@DE;
-    skos:prefLabel "土耳其"@ZH;
-    skos:prefLabel "터키"@KO;
-.
+  ossr:within reg:I-EU-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Türkei"@de,
+    "Turkey"@en,
+    "Turquía"@es,
+    "Turquie"@fr,
+    "터키"@ko,
+    "土耳其"@zh .
+
 <TT> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CB;
-    skos:prefLabel "Trinidad and Tobago"@EN;
-    skos:prefLabel "Trinidad y Tobago"@ES;
-    skos:prefLabel "Trinité-et-Tobago"@FR;
-    skos:prefLabel "Trinidad und Tobago"@DE;
-    skos:prefLabel "特里尼达和多巴哥"@ZH;
-    skos:prefLabel "트리니다드 토바고"@KO;
-.
+  ossr:within reg:I-AM-CB;
+  skos:inScheme coun:;
+  skos:prefLabel "Trinidad und Tobago"@de,
+    "Trinidad and Tobago"@en,
+    "Trinidad y Tobago"@es,
+    "Trinité-et-Tobago"@fr,
+    "트리니다드 토바고"@ko,
+    "特里尼达和多巴哥"@zh .
+
 <TV> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-OC;
-    skos:prefLabel "Tuvalu"@EN;
-    skos:prefLabel "Tuvalu"@ES;
-    skos:prefLabel "Tuvalu"@FR;
-    skos:prefLabel "Tuvalu"@DE;
-    skos:prefLabel "图瓦鲁"@ZH;
-    skos:prefLabel "투발루"@KO;
-.
+  ossr:within reg:I-AP-OC;
+  skos:inScheme coun:;
+  skos:prefLabel "Tuvalu"@de,
+    "Tuvalu"@en,
+    "Tuvalu"@es,
+    "Tuvalu"@fr,
+    "투발루"@ko,
+    "图瓦鲁"@zh .
+
 <TW> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-SE;
-    skos:prefLabel "Taiwan"@EN;
-    skos:prefLabel "Taiwán"@ES;
-    skos:prefLabel "Taïwan"@FR;
-    skos:prefLabel "Taiwan"@DE;
-    skos:prefLabel "台湾"@ZH;
-    skos:prefLabel "타이완"@KO;
-.
+  ossr:within reg:I-AP-SE;
+  skos:inScheme coun:;
+  skos:prefLabel "Taiwan"@de,
+    "Taiwan"@en,
+    "Taiwán"@es,
+    "Taïwan"@fr,
+    "타이완"@ko,
+    "台湾"@zh .
+
 <TZ> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-EA;
-    skos:prefLabel "Tanzania"@EN;
-    skos:prefLabel "Tanzania"@ES;
-    skos:prefLabel "Tanzanie"@FR;
-    skos:prefLabel "Tansania"@DE;
-    skos:prefLabel "坦桑尼亚"@ZH;
-    skos:prefLabel "탄자니아"@KO;
-.
+  ossr:within reg:I-AF-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Tansania"@de,
+    "Tanzania"@en,
+    "Tanzania"@es,
+    "Tanzanie"@fr,
+    "탄자니아"@ko,
+    "坦桑尼亚"@zh .
+
 <UA> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-EA;
-    skos:prefLabel "Ukraine"@EN;
-    skos:prefLabel "Ucrania"@ES;
-    skos:prefLabel "Ukraine"@FR;
-    skos:prefLabel "Ukraine"@DE;
-    skos:prefLabel "乌克兰"@ZH;
-    skos:prefLabel "우크라이나"@KO;
-.
+  ossr:within reg:I-EU-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Ukraine"@de,
+    "Ukraine"@en,
+    "Ucrania"@es,
+    "Ukraine"@fr,
+    "우크라이나"@ko,
+    "乌克兰"@zh .
+
 <UG> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-EA;
-    skos:prefLabel "Uganda"@EN;
-    skos:prefLabel "Uganda"@ES;
-    skos:prefLabel "Ouganda"@FR;
-    skos:prefLabel "Uganda"@DE;
-    skos:prefLabel "乌干达"@ZH;
-    skos:prefLabel "우간다"@KO;
-.
+  ossr:within reg:I-AF-EA;
+  skos:inScheme coun:;
+  skos:prefLabel "Uganda"@de,
+    "Uganda"@en,
+    "Uganda"@es,
+    "Ouganda"@fr,
+    "우간다"@ko,
+    "乌干达"@zh .
+
 <UM> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-OC;
-    skos:prefLabel "United States Minor Outlying Islands"@EN;
-    skos:prefLabel "Islas Ultramarinas Menores de Estados Unidos"@ES;
-    skos:prefLabel "Îles mineures éloignées des États-Unis"@FR;
-    skos:prefLabel "United States Minor Outlying Islands"@DE;
-    skos:prefLabel "美国本土外小岛屿"@ZH;
-    skos:prefLabel "미국령 군소 제도"@KO;
-.
+  ossr:within reg:I-AP-OC;
+  skos:inScheme coun:;
+  skos:prefLabel "United States Minor Outlying Islands"@de,
+    "United States Minor Outlying Islands"@en,
+    "Islas Ultramarinas Menores de Estados Unidos"@es,
+    "Îles mineures éloignées des États-Unis"@fr,
+    "미국령 군소 제도"@ko,
+    "美国本土外小岛屿"@zh .
+
 <US> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-NO;
-    skos:prefLabel "United States"@EN;
-    skos:prefLabel "Estados Unidos"@ES;
-    skos:prefLabel "États-Unis"@FR;
-    skos:prefLabel "Vereinigte Staaten"@DE;
-    skos:prefLabel "美国"@ZH;
-    skos:prefLabel "미국"@KO;
-.
+  ossr:within reg:I-AM-NO;
+  skos:inScheme coun:;
+  skos:prefLabel "Vereinigte Staaten"@de,
+    "United States"@en,
+    "Estados Unidos"@es,
+    "États-Unis"@fr,
+    "미국"@ko,
+    "美国"@zh .
+
 <UY> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-SO;
-    skos:prefLabel "Uruguay"@EN;
-    skos:prefLabel "Uruguay"@ES;
-    skos:prefLabel "Uruguay"@FR;
-    skos:prefLabel "Uruguay"@DE;
-    skos:prefLabel "乌拉圭"@ZH;
-    skos:prefLabel "우루과이"@KO;
-.
+  ossr:within reg:I-AM-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Uruguay"@de,
+    "Uruguay"@en,
+    "Uruguay"@es,
+    "Uruguay"@fr,
+    "우루과이"@ko,
+    "乌拉圭"@zh .
+
 <UZ> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-CE;
-    skos:prefLabel "Uzbekistan"@EN;
-    skos:prefLabel "Uzbekistán"@ES;
-    skos:prefLabel "Ouzbékistan"@FR;
-    skos:prefLabel "Usbekistan"@DE;
-    skos:prefLabel "乌兹别克斯坦"@ZH;
-    skos:prefLabel "우즈베키스탄"@KO;
-.
+  ossr:within reg:I-AP-CE;
+  skos:inScheme coun:;
+  skos:prefLabel "Usbekistan"@de,
+    "Uzbekistan"@en,
+    "Uzbekistán"@es,
+    "Ouzbékistan"@fr,
+    "우즈베키스탄"@ko,
+    "乌兹别克斯坦"@zh .
+
 <VA> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-EU-WE;
-    skos:prefLabel "Holy See (Vatican City State)"@EN;
-    skos:prefLabel "Santa Sede (Ciudad Estado del Vaticano)"@ES;
-    skos:prefLabel "Saint-Siège (état de la cité du Vatican)"@FR;
-    skos:prefLabel "Heiliger Stuhl (Staat Vatikanstadt)"@DE;
-    skos:prefLabel "梵地冈"@ZH;
-    skos:prefLabel "바티칸 시티 (Holy See)"@KO;
-.
+  ossr:within reg:I-EU-WE;
+  skos:inScheme coun:;
+  skos:prefLabel "Heiliger Stuhl (Staat Vatikanstadt)"@de,
+    "Holy See (Vatican City State)"@en,
+    "Santa Sede (Ciudad Estado del Vaticano)"@es,
+    "Saint-Siège (état de la cité du Vatican)"@fr,
+    "바티칸 시티 (Holy See)"@ko,
+    "梵地冈"@zh .
+
 <VC> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CB;
-    skos:prefLabel "Saint Vincent and the Grenadines"@EN;
-    skos:prefLabel "San Vicente y las Granadinas"@ES;
-    skos:prefLabel "Saint-Vincent-et-les-Grenadines"@FR;
-    skos:prefLabel "St. Vincent und die Grenadinen"@DE;
-    skos:prefLabel "圣文森特和格林纳丁斯"@ZH;
-    skos:prefLabel "세인트빈센트 그레나딘"@KO;
-.
+  ossr:within reg:I-AM-CB;
+  skos:inScheme coun:;
+  skos:prefLabel "St. Vincent und die Grenadinen"@de,
+    "Saint Vincent and the Grenadines"@en,
+    "San Vicente y las Granadinas"@es,
+    "Saint-Vincent-et-les-Grenadines"@fr,
+    "세인트빈센트 그레나딘"@ko,
+    "圣文森特和格林纳丁斯"@zh .
+
 <VE> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-SO;
-    skos:prefLabel "Venezuela"@EN;
-    skos:prefLabel "Venezuela"@ES;
-    skos:prefLabel "Vénézuela"@FR;
-    skos:prefLabel "Venezuela"@DE;
-    skos:prefLabel "委内瑞拉"@ZH;
-    skos:prefLabel "베네수엘라"@KO;
-.
+  ossr:within reg:I-AM-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Venezuela"@de,
+    "Venezuela"@en,
+    "Venezuela"@es,
+    "Vénézuela"@fr,
+    "베네수엘라"@ko,
+    "委内瑞拉"@zh .
+
 <VG> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CB;
-    skos:prefLabel "Virgin Islands, British"@EN;
-    skos:prefLabel "Islas Vírgenes, Británicas"@ES;
-    skos:prefLabel "Îles Vierges britanniques"@FR;
-    skos:prefLabel "Britische Jungferninseln"@DE;
-    skos:prefLabel "英属维京群岛"@ZH;
-    skos:prefLabel "버진 제도, 영국령"@KO;
-.
+  ossr:within reg:I-AM-CB;
+  skos:inScheme coun:;
+  skos:prefLabel "Britische Jungferninseln"@de,
+    "Virgin Islands, British"@en,
+    "Islas Vírgenes, Británicas"@es,
+    "Îles Vierges britanniques"@fr,
+    "버진 제도, 영국령"@ko,
+    "英属维京群岛"@zh .
+
 <VI> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AM-CB;
-    skos:prefLabel "Virgin Islands, U.S."@EN;
-    skos:prefLabel "Islas Vírgenes, de EEUU"@ES;
-    skos:prefLabel "Îles Vierges des États-Unis"@FR;
-    skos:prefLabel "Amerikanische Jungferninseln"@DE;
-    skos:prefLabel "美属维京群岛"@ZH;
-    skos:prefLabel "버진 제도, 미국령"@KO;
-.
+  ossr:within reg:I-AM-CB;
+  skos:inScheme coun:;
+  skos:prefLabel "Amerikanische Jungferninseln"@de,
+    "Virgin Islands, U.S."@en,
+    "Islas Vírgenes, de EEUU"@es,
+    "Îles Vierges des États-Unis"@fr,
+    "버진 제도, 미국령"@ko,
+    "美属维京群岛"@zh .
+
 <VN> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-SE;
-    skos:prefLabel "Vietnam"@EN;
-    skos:prefLabel "Vietnam"@ES;
-    skos:prefLabel "Viêt Nam"@FR;
-    skos:prefLabel "Vietnam"@DE;
-    skos:prefLabel "越南"@ZH;
-    skos:prefLabel "베트남"@KO;
-.
+  ossr:within reg:I-AP-SE;
+  skos:inScheme coun:;
+  skos:prefLabel "Vietnam"@de,
+    "Vietnam"@en,
+    "Vietnam"@es,
+    "Viêt Nam"@fr,
+    "베트남"@ko,
+    "越南"@zh .
+
 <VU> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-OC;
-    skos:prefLabel "Vanuatu"@EN;
-    skos:prefLabel "Vanuatu"@ES;
-    skos:prefLabel "Vanuatu"@FR;
-    skos:prefLabel "Vanuatu"@DE;
-    skos:prefLabel "瓦努阿图"@ZH;
-    skos:prefLabel "바누아투"@KO;
-.
+  ossr:within reg:I-AP-OC;
+  skos:inScheme coun:;
+  skos:prefLabel "Vanuatu"@de,
+    "Vanuatu"@en,
+    "Vanuatu"@es,
+    "Vanuatu"@fr,
+    "바누아투"@ko,
+    "瓦努阿图"@zh .
+
 <WF> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-OC;
-    skos:prefLabel "Wallis and Futuna"@EN;
-    skos:prefLabel "Wallis y Futuna"@ES;
-    skos:prefLabel "Wallis et Futuna"@FR;
-    skos:prefLabel "Wallis und Futuna"@DE;
-    skos:prefLabel "瓦利斯和富图纳"@ZH;
-    skos:prefLabel "왈리스 퓌튀나"@KO;
-.
+  ossr:within reg:I-AP-OC;
+  skos:inScheme coun:;
+  skos:prefLabel "Wallis und Futuna"@de,
+    "Wallis and Futuna"@en,
+    "Wallis y Futuna"@es,
+    "Wallis et Futuna"@fr,
+    "왈리스 퓌튀나"@ko,
+    "瓦利斯和富图纳"@zh .
+
 <WS> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-OC;
-    skos:prefLabel "Samoa"@EN;
-    skos:prefLabel "Samoa"@ES;
-    skos:prefLabel "Samoa"@FR;
-    skos:prefLabel "Samoa"@DE;
-    skos:prefLabel "萨摩亚"@ZH;
-    skos:prefLabel "사모아"@KO;
-.
+  ossr:within reg:I-AP-OC;
+  skos:inScheme coun:;
+  skos:prefLabel "Samoa"@de,
+    "Samoa"@en,
+    "Samoa"@es,
+    "Samoa"@fr,
+    "사모아"@ko,
+    "萨摩亚"@zh .
+
 <YE> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AP-ME;
-    skos:prefLabel "Yemen"@EN;
-    skos:prefLabel "Yemen"@ES;
-    skos:prefLabel "Yémen"@FR;
-    skos:prefLabel "Jemen"@DE;
-    skos:prefLabel "也门"@ZH;
-    skos:prefLabel "예멘"@KO;
-.
+  ossr:within reg:I-AP-ME;
+  skos:inScheme coun:;
+  skos:prefLabel "Jemen"@de,
+    "Yemen"@en,
+    "Yemen"@es,
+    "Yémen"@fr,
+    "예멘"@ko,
+    "也门"@zh .
+
 <YT> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-SO;
-    skos:prefLabel "Mayotte"@EN;
-    skos:prefLabel "Mayotte"@ES;
-    skos:prefLabel "Mayotte"@FR;
-    skos:prefLabel "Mayotte"@DE;
-    skos:prefLabel "马约特"@ZH;
-    skos:prefLabel "마요트"@KO;
-.
+  ossr:within reg:I-AF-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Mayotte"@de,
+    "Mayotte"@en,
+    "Mayotte"@es,
+    "Mayotte"@fr,
+    "마요트"@ko,
+    "马约特"@zh .
+
 <ZA> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-SO;
-    skos:prefLabel "South Africa"@EN;
-    skos:prefLabel "Sudáfrica"@ES;
-    skos:prefLabel "Afrique du Sud"@FR;
-    skos:prefLabel "Südafrika"@DE;
-    skos:prefLabel "南非"@ZH;
-    skos:prefLabel "남아프리카 공화국"@KO;
-.
+  ossr:within reg:I-AF-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Südafrika"@de,
+    "South Africa"@en,
+    "Sudáfrica"@es,
+    "Afrique du Sud"@fr,
+    "남아프리카 공화국"@ko,
+    "南非"@zh .
+
 <ZM> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-SO;
-    skos:prefLabel "Zambia"@EN;
-    skos:prefLabel "Zambia"@ES;
-    skos:prefLabel "Zambie"@FR;
-    skos:prefLabel "Sambia"@DE;
-    skos:prefLabel "赞比亚"@ZH;
-    skos:prefLabel "잠비아"@KO;
-.
+  ossr:within reg:I-AF-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Sambia"@de,
+    "Zambia"@en,
+    "Zambia"@es,
+    "Zambie"@fr,
+    "잠비아"@ko,
+    "赞比亚"@zh .
+
 <ZW> a skos:Concept;
-    skos:inScheme <>;
-    ossr:within reg:I-AF-SO;
-    skos:prefLabel "Zimbabwe"@EN;
-    skos:prefLabel "Zimbabue"@ES;
-    skos:prefLabel "Zimbabwe"@FR;
-    skos:prefLabel "Simbabwe"@DE;
-    skos:prefLabel "津巴布韦"@ZH;
-    skos:prefLabel "짐바브웨"@KO;
-.
+  ossr:within reg:I-AF-SO;
+  skos:inScheme coun:;
+  skos:prefLabel "Simbabwe"@de,
+    "Zimbabwe"@en,
+    "Zimbabue"@es,
+    "Zimbabwe"@fr,
+    "짐바브웨"@ko,
+    "津巴布韦"@zh .
