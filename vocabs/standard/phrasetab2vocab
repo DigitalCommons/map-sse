@@ -139,7 +139,9 @@ end
 # language.
 class Normaliser
 
-  def initialize(base_uri:)
+  def initialize(base_uri:, langs: nil)
+    @langs = langs
+    
     # FIXME These are currently somewhat guesswork, and incomplete.
     #
     # This array maps property URIs to the expected type(s) they should be
@@ -201,23 +203,32 @@ class Normaliser
     }
 
     @base_uri = URI(base_uri)
+  end
+
+  def determine_langs(lang_list)
+    if @langs
+      @langs
+    else 
+      lang_list.map {|lang| lang.downcase }.sort
     end
+  end
   
   def as_anyType(v)
     as_string(v) # Bit of a HACK, delegates to :string
   end
 
   def as_string(v)
-    if v.respond_to? :keys
-      v.keys.sort.map do |lang|
-        vals = v[lang]
+    if v.respond_to? :keys # language-tagged strings
+      langs = determine_langs v.keys
+      langs.map do |lang|
+        vals = v[lang] || ['']
         vals.map do |val|
           RDF::Literal.new(val, language: lang)
         end
       end.flatten
-    elsif v.is_a? String
+    elsif v.is_a? String # Language-less string
       RDF::Literal.new(v.to_s)
-    elsif v.respond_to? :map
+    elsif v.respond_to? :map # multiple strings
       v.map {|e| RDF::Literal.new(e.to_s) }
     else
       nil
@@ -341,6 +352,7 @@ end
 # terms -> properties -> language code -> phrase
 term_index = autovivifying_hash
 lineno = 1
+langs = nil
 CSV.new($stdin, col_sep: "\t", headers: true, quote_char: "\0", liberal_parsing: true).each do |row|
   lineno += 1
   term, property = row.fields('term', 'property')
@@ -358,6 +370,11 @@ CSV.new($stdin, col_sep: "\t", headers: true, quote_char: "\0", liberal_parsing:
   fields.delete('term')
   fields.delete('property')
 
+  # Capture the language headers
+  langs ||= fields.keys.delete_if do |f|
+    f.nil? or f.empty?
+  end
+  
   # split multi-value items (those with a subfield delimiter)
   fields = fields.to_a.collect do |k, v|
     # Sanitise the fields,
@@ -401,7 +418,9 @@ props_base_uri = scheme_props.delete('base_uri')
 
 base_uri = props_base_uri&.fetch(NoLang)&.first.to_s if base_uri.to_s.empty?
 
-normaliser = Normaliser.new(base_uri: base_uri)
+# Note, we specify the full list of languages to output here,
+# rather than allowing each term to vary
+normaliser = Normaliser.new(base_uri: base_uri, langs: langs)
 scheme_props = normaliser.normalise_props(scheme_props)
 abort "You must supply a base URI" unless base_uri
 
