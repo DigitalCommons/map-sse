@@ -1,0 +1,80 @@
+term	property		EN	ES	FR
+	base_uri	http://purl.org/essglobal/standard/regions-ica/				
+	dc:creator	Solidarity Economy Association			
+	dc:description	A controlled vocabulary of ICA country regions for SSE			
+	dc:language	en-en			
+	dc:modified	2021-03-11			
+	dc:publisher	http://www.ripess.org/			
+	dc:title		Regions	Regiones	Régions
+	dcterms:created	2021-02-22			
+	dcterms:creator	http://solidarityeconomy.coop			
+	dcterms:publisher	ESSGLOBAL			
+	rdf:type	http://www.w3.org/2004/02/skos/core#ConceptScheme			
+I-AF-CE	ossr:within	http://purl.org/essglobal/standard/super-regions-ica/I-AF			
+I-AF-CE	rdf:type	http://www.w3.org/2004/02/skos/core#Concept			
+I-AF-CE	skos:inScheme	http://purl.org/essglobal/standard/regions-ica/			
+I-AF-CE	skos:prefLabel		Central Africa	África Central	Afrique centrale
+I-AF-EA	ossr:within	http://purl.org/essglobal/standard/super-regions-ica/I-AF			
+I-AF-EA	rdf:type	http://www.w3.org/2004/02/skos/core#Concept			
+I-AF-EA	skos:inScheme	http://purl.org/essglobal/standard/regions-ica/			
+I-AF-EA	skos:prefLabel		East Africa	África Oriental	Afrique orientale
+I-AF-NO	ossr:within	http://purl.org/essglobal/standard/super-regions-ica/I-AF			
+I-AF-NO	rdf:type	http://www.w3.org/2004/02/skos/core#Concept			
+I-AF-NO	skos:inScheme	http://purl.org/essglobal/standard/regions-ica/			
+I-AF-NO	skos:prefLabel		North Africa	África Septentrional	Afrique du nord
+I-AF-SO	ossr:within	http://purl.org/essglobal/standard/super-regions-ica/I-AF			
+I-AF-SO	rdf:type	http://www.w3.org/2004/02/skos/core#Concept			
+I-AF-SO	skos:inScheme	http://purl.org/essglobal/standard/regions-ica/			
+I-AF-SO	skos:prefLabel		Southern Africa	África Meridional	Afrique australe
+I-AF-WE	ossr:within	http://purl.org/essglobal/standard/super-regions-ica/I-AF			
+I-AF-WE	rdf:type	http://www.w3.org/2004/02/skos/core#Concept			
+I-AF-WE	skos:inScheme	http://purl.org/essglobal/standard/regions-ica/			
+I-AF-WE	skos:prefLabel		West Africa	África Occidental	Afrique de l’Ouest
+I-AM-CB	ossr:within	http://purl.org/essglobal/standard/super-regions-ica/I-AM			
+I-AM-CB	rdf:type	http://www.w3.org/2004/02/skos/core#Concept			
+I-AM-CB	skos:inScheme	http://purl.org/essglobal/standard/regions-ica/			
+I-AM-CB	skos:prefLabel		Caribbean countries	El Caribe	Pays des Caraïbes
+I-AM-CE	ossr:within	http://purl.org/essglobal/standard/super-regions-ica/I-AM			
+I-AM-CE	rdf:type	http://www.w3.org/2004/02/skos/core#Concept			
+I-AM-CE	skos:inScheme	http://purl.org/essglobal/standard/regions-ica/			
+I-AM-CE	skos:prefLabel		Central America	América Central	Amérique centrale
+I-AM-NO	ossr:within	http://purl.org/essglobal/standard/super-regions-ica/I-AM			
+I-AM-NO	rdf:type	http://www.w3.org/2004/02/skos/core#Concept			
+I-AM-NO	skos:inScheme	http://purl.org/essglobal/standard/regions-ica/			
+I-AM-NO	skos:prefLabel		North America	América del Norte	Amérique du nord
+I-AM-SO	ossr:within	http://purl.org/essglobal/standard/super-regions-ica/I-AM			
+I-AM-SO	rdf:type	http://www.w3.org/2004/02/skos/core#Concept			
+I-AM-SO	skos:inScheme	http://purl.org/essglobal/standard/regions-ica/			
+I-AM-SO	skos:prefLabel		South America	América del Sur	Amérique du sud
+I-AP-CE	ossr:within	http://purl.org/essglobal/standard/super-regions-ica/I-AP			
+I-AP-CE	rdf:type	http://www.w3.org/2004/02/skos/core#Concept			
+I-AP-CE	skos:inScheme	http://purl.org/essglobal/standard/regions-ica/			
+I-AP-CE	skos:prefLabel		Central Asia	Asia Central	Asie centrale
+I-AP-EA	ossr:within	http://purl.org/essglobal/standard/super-regions-ica/I-AP			
+I-AP-EA	rdf:type	http://www.w3.org/2004/02/skos/core#Concept			
+I-AP-EA	skos:inScheme	http://purl.org/essglobal/standard/regions-ica/			
+I-AP-EA	skos:prefLabel		East Asia	Asia Oriental	Asie de l’est
+I-AP-ME	ossr:within	http://purl.org/essglobal/standard/super-regions-ica/I-AP			
+I-AP-ME	rdf:type	http://www.w3.org/2004/02/skos/core#Concept			
+I-AP-ME	skos:inScheme	http://purl.org/essglobal/standard/regions-ica/			
+I-AP-ME	skos:prefLabel		Middle East	Oriente Medio	Moyen-Orient
+I-AP-OC	ossr:within	http://purl.org/essglobal/standard/super-regions-ica/I-AP			
+I-AP-OC	rdf:type	http://www.w3.org/2004/02/skos/core#Concept			
+I-AP-OC	skos:inScheme	http://purl.org/essglobal/standard/regions-ica/			
+I-AP-OC	skos:prefLabel		Oceania	Oceanía	Océanie
+I-AP-SE	ossr:within	http://purl.org/essglobal/standard/super-regions-ica/I-AP			
+I-AP-SE	rdf:type	http://www.w3.org/2004/02/skos/core#Concept			
+I-AP-SE	skos:inScheme	http://purl.org/essglobal/standard/regions-ica/			
+I-AP-SE	skos:prefLabel		South East Asia	Sudeste Asiático	Asie du sud-est
+I-AP-SO	ossr:within	http://purl.org/essglobal/standard/super-regions-ica/I-AP			
+I-AP-SO	rdf:type	http://www.w3.org/2004/02/skos/core#Concept			
+I-AP-SO	skos:inScheme	http://purl.org/essglobal/standard/regions-ica/			
+I-AP-SO	skos:prefLabel		South Asia	Asia del Sur	Asie du sud
+I-EU-EA	ossr:within	http://purl.org/essglobal/standard/super-regions-ica/I-EU			
+I-EU-EA	rdf:type	http://www.w3.org/2004/02/skos/core#Concept			
+I-EU-EA	skos:inScheme	http://purl.org/essglobal/standard/regions-ica/			
+I-EU-EA	skos:prefLabel		Europe (Eastern)	Europa (oriental)	Europe (est)
+I-EU-WE	ossr:within	http://purl.org/essglobal/standard/super-regions-ica/I-EU			
+I-EU-WE	rdf:type	http://www.w3.org/2004/02/skos/core#Concept			
+I-EU-WE	skos:inScheme	http://purl.org/essglobal/standard/regions-ica/			
+I-EU-WE	skos:prefLabel		Europe (Western)	Europa (occidental)	Europe (ouest)

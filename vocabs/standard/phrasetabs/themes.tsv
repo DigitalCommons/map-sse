@@ -1,0 +1,107 @@
+term	property		EN	ES	FR	PT
+	base_uri	http://purl.org/essglobal/standard/themes/					
+	dc:contributor	Ana Alice Baptista (analice@dsi.uminho.pt);Daniel Tygel (dtygel@gmail.com);Jason Nardi (jason.nardi@gmail.com);Marc Alphandery (marc.alphandery@wanadoo.fr);Mariana Malta (mariana@iscap.ipp.pt)				
+	dc:creator	César Araújo (cesar_araujo@sapo.pt);Leonardo Cruz (leonardopscruz@gmail.com);Rodrigo Alves (rasalves@gmail.com);Sérgio Vale (gks_sergio@hotmail.com)				
+	dc:description	Themes controlled vocabulary for SSE				
+	dc:language	en-en				
+	dc:publisher	http://www.ripess.org/				
+	dc:relation	http://www.dsi.uminho.pt/				
+	dc:title	Themes				
+	dcterms:created	2012-02-20				
+	dcterms:publisher	ESSGLOBAL				
+	rdf:type	http://www.w3.org/2004/02/skos/core#ConceptScheme				
+T1	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+T1	skos:altLabel		Housing and mobility			
+T1	skos:inScheme	http://purl.org/essglobal/standard/themes/				
+T1	skos:prefLabel		Transition towns and housing rights	Ciudades en transición y derecho a la vivienda	Villes en transition et droit a l'habitation	Cidades em Transição e direito à moradia
+T1	skos:scopeNote		Integrates thematic about housing and mobility	Integra la temática sobre la vivienda y la movilidad	Intègre thématique sur le logement et la mobilité	Integra as tematicas acerca da habitacao e mobilidade
+T2	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+T2	skos:altLabel		Food and agriculture			
+T2	skos:inScheme	http://purl.org/essglobal/standard/themes/				
+T2	skos:prefLabel		Food souvereignty and peasant's farming agriculture	Soberanía alimentaria y Agricultura campesina	Souveraineté alimentaire et Agriculture paysanne	A soberania alimentar e agricultura camponesa da agricultura
+T2	skos:scopeNote		It integrates the thematic on food and agriculture	Integra la temática sobre la alimentación y la agricultura	Il intègre la thématique sur l'alimentation et l'agriculture	Integra as tematicas acerca de alimento e agricultura
+T3	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+T3	skos:altLabel		Finance			
+T3	skos:inScheme	http://purl.org/essglobal/standard/themes/				
+T3	skos:prefLabel		Social and solidarity finances	Finanzas Solidarias	Finances Solidaires	Finanças sociais e de solidariedade
+T3	skos:scopeNote		Integrates thematic about finances	Integra la temática acerca de las finanzas	Intègre thématique sur les finances	Integra as tematicas acerca de finanças
+T4	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+T4	skos:altLabel		Economies			
+T4	skos:inScheme	http://purl.org/essglobal/standard/themes/				
+T4	skos:prefLabel		Concepts and values related to Solidarity Economy	Conceptos y valores sobre Economía Solidaria	Concepts et valeurs sur l'Économie Solidaire	Conceitos e valores relacionados com a Economia Solidária
+T4	skos:scopeNote		Integrates thematic about economies	Integra la temática sobre las economías	Intègre thématique sur les économies	Integra as tematicas acerca de economias
+T5	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+T5	skos:altLabel		Environment, energy and commons			
+T5	skos:inScheme	http://purl.org/essglobal/standard/themes/				
+T5	skos:prefLabel		Environment and commons	Medio ambiente y bienes comunes	Environnement et biens communs	Ambiente e terras comuns
+T5	skos:scopeNote		Integrates thematic about environment, energy and common goods	Integra la temática sobre los bienes medio ambiente, energía y común	Intègre thématique sur les biens environnement, l'énergie et des communes	Integra as tematicas acerca de ambiente, energia e bens comuns
+T6	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+T6	skos:altLabel		Public policies			
+T6	skos:inScheme	http://purl.org/essglobal/standard/themes/				
+T6	skos:prefLabel		Public policies	Politicas Publicas	Politiques Publiques	As políticas públicas
+T6	skos:scopeNote		Integrates thematic about public policy	Integra la temática sobre la política pública	Intègre thématique sur les politiques publiques	Integra as tematicas acerca de políticas públicas
+T7	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+T7	skos:altLabel		Free culture and knowledge			
+T7	skos:inScheme	http://purl.org/essglobal/standard/themes/				
+T7	skos:prefLabel		Free culture and knowledge	Cultura y conocimiento libres	culture et connaissances (savoirs) libres	Cultura e conhecimento livre
+T7	skos:scopeNote		Integrates thematic about free culture and knowledge	Integra la temática sobre la cultura y el conocimiento libres	Intègre thématique sur la culture libre et la connaissance	Integra as tematicas acerca de cultura livre e conhecimento
+T8	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+T8	skos:altLabel		Education and learning			
+T8	skos:inScheme	http://purl.org/essglobal/standard/themes/				
+T8	skos:prefLabel		Popular education and training	Educacion y asesoria popular	Education populaire et apprentissage	A educação popular e a formação
+T8	skos:scopeNote		Integrates on thematic education and apredizagem	Se integra en la educación y la temática apredizagem	Intègre sur l'éducation thématique et apredizagem	Integra as tematicas acerca de educação e apredizagem
+T9	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+T9	skos:altLabel		Production, trade and consumption			
+T9	skos:inScheme	http://purl.org/essglobal/standard/themes/				
+T9	skos:prefLabel		Solidarity and Responsible production, commerce and consumption	Producción, Comercialización y consumo solidarios y responsables	Production, Commerce et consommation solidaires et responsables	Solidariedade e produção responsável, comércio e consumo
+T9	skos:scopeNote		It integrates the thematic on production, trade and consumption	Se integra la temática de la producción, el comercio y el consumo	Il intègre la thématique sur la production, le commerce et la consommation	Integra as tematicas acerca de produção, comércio e consumo
+T10	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+T10	skos:altLabel		Local development and "Bien vivir"			
+T10	skos:inScheme	http://purl.org/essglobal/standard/themes/				
+T10	skos:prefLabel		Territorial development and "Bien Vivir"	Desarrollo territorial y Bien Vivir	Développement territorial et bien vivir	Desenvolvimento territorial e "Bem Viver"
+T10	skos:scopeNote		Integrates thematic about local development and wellbeing	Integra la temática de desarrollo local y el bienestar	Intègre thématique sur le développement local et le bien-être	Integra as tematicas acerca de desenvolvimento local e bem-viver
+T11	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+T11	skos:altLabel		International Cooperation			
+T11	skos:inScheme	http://purl.org/essglobal/standard/themes/				
+T11	skos:prefLabel		International Cooperation	Cooperación internacional	Coopération internationale	Cooperação Internacional
+T11	skos:scopeNote		It integrates the international cooperation on thematic	Se integra a la cooperación internacional en la temática	Il intègre la coopération internationale sur la thématique	Integra as tematicas acerca de cooperação internacional
+T12	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+T12	skos:altLabel		Social justice and fight against poverty			
+T12	skos:inScheme	http://purl.org/essglobal/standard/themes/				
+T12	skos:prefLabel		Social Justice and insertion and fight against poverty	Justicia e inserción social y lucha contra la pobreza	Justice et insertion sociales et combat contre la pauvreté	Justiça Social e de inserção e luta contra a pobreza
+T12	skos:scopeNote		Integrates thematic about social justice and poverty alleviation	Integra la temática sobre la justicia social y la lucha contra la pobreza	Intègre thématique sur la justice sociale et lutte contre la pauvreté	Integra as tematicas acerca da justiça social e luta contra a pobreza
+T13	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+T13	skos:altLabel		Decent work and Self-Management			
+T13	skos:inScheme	http://purl.org/essglobal/standard/themes/				
+T13	skos:prefLabel		Decent work and Self-Management	Trabajo decente/digno y Autogestión	Travail décent/digne et Autogestion	Trabalho decente e Autogestão
+T13	skos:scopeNote		It integrates the thematic on decent work and self-management	Se integra la temática sobre el trabajo decente y la autogestión	Il intègre la thématique sur le travail décent et de l'autogestion	Integra as tematicas acerca de trabalho decente e autogestão
+T14	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+T14	skos:altLabel		Women			
+T14	skos:inScheme	http://purl.org/essglobal/standard/themes/				
+T14	skos:prefLabel		Women	Mujeres	Femmes	Mulheres
+T14	skos:scopeNote		Integrates thematic about women	Integra la temática sobre la mujer	Intègre thématique sur les femmes	Integra as tematicas acerca de mulheres
+T15	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+T15	skos:altLabel		Networking and social movements			
+T15	skos:inScheme	http://purl.org/essglobal/standard/themes/				
+T15	skos:prefLabel		SSE movement organizing and networking (national and international)	Redes y organización del movimiento de ESS (nacional y internacional)	Réseautage et Organisation du mouvement de l'ÉSS (national et international)	SSE movimento de organização e trabalho em rede (nacional e internacional)
+T15	skos:scopeNote		Integrates on thematic networking and social movements	Se integra en la creación de redes temáticas y los movimientos sociales	Intègre la mise en réseau thématique et mouvements sociaux	Integra as tematicas acerca de networking e movimentos sociais
+T16	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+T16	skos:altLabel		Research and technology			
+T16	skos:inScheme	http://purl.org/essglobal/standard/themes/				
+T16	skos:prefLabel		Research and technology	Tecnología e investigación	Technologie et recherche	Pesquisa e tecnologia
+T16	skos:scopeNote		Integrates on thematic research and technology	Se integra en la investigación temática y la tecnología	Intègre la recherche thématique et de la technologie	Integra as tematicas acerca de pesquisa e tecnologia
+T17	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+T17	skos:altLabel		Indigenous peoples and communities			
+T17	skos:inScheme	http://purl.org/essglobal/standard/themes/				
+T17	skos:prefLabel		Indigenous peoples and communities	Pueblos y comunidades tradicionales/originarias	Peuples et Communautés traditionnels/indigènes	Os povos indígenas e comunidades
+T17	skos:scopeNote		Integrates thematic about the indigenous peoples and communities	Integra la temática acerca de los pueblos y comunidades indígenas	Intègre thématique sur les peuples autochtones et des communautés	Integra as tematicas acerca dos povos indígenas e comunidades
+T18	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+T18	skos:altLabel		Communication and information			
+T18	skos:inScheme	http://purl.org/essglobal/standard/themes/				
+T18	skos:prefLabel		Alternative communication and information	Comunicación e información alternativas	Communication et information alternatives	Comunicação alternativa e informações
+T18	skos:scopeNote		Integrates thematic about communication and information	Integra la temática de la comunicación y la información	Intègre thématique sur la communication et l'information	Integra as tematicas acerca de comunicação e informação
+T19	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+T19	skos:altLabel		Other			
+T19	skos:inScheme	http://purl.org/essglobal/standard/themes/				
+T19	skos:prefLabel		Other themes	Otros temas	Autres thématiques	Outros temas
+T19	skos:scopeNote		Integrates about other thematic issues	Se integra sobre otras cuestiones temáticas	Intègre sur d'autres questions thématiques	Integra as tematicas acerca de outros assuntos

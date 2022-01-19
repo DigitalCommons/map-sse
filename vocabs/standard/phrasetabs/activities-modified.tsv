@@ -1,0 +1,90 @@
+term	property		EN	ES	FR	PT
+	base_uri	http://purl.org/essglobal/standard/activities-modified/					
+	dc:description	A modified activity vocabulary for SSE				
+	dc:language	en-en				
+	dc:publisher	https://solidarityeconomy.coop/				
+	dc:relation	http://www.ripess.org/				
+	dc:title	Activities (Modified)				
+	dcterms:created	2019-05-20				
+	dcterms:publisher	ESSGLOBAL				
+	rdf:type	http://www.w3.org/2004/02/skos/core#ConceptScheme				
+AM10	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+AM10	skos:altLabel	A				
+AM10	skos:inScheme	http://purl.org/essglobal/standard/activities-modified/				
+AM10	skos:prefLabel		Arts, Media, Culture & Leisure			
+AM10	skos:scopeNote					
+AM20	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+AM20	skos:altLabel	B				
+AM20	skos:inScheme	http://purl.org/essglobal/standard/activities-modified/				
+AM20	skos:prefLabel		Campaigning, Activism & Advocacy			
+AM20	skos:scopeNote					
+AM30	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+AM30	skos:altLabel	C				
+AM30	skos:inScheme	http://purl.org/essglobal/standard/activities-modified/				
+AM30	skos:prefLabel		Community & Collective Spaces			
+AM30	skos:scopeNote					
+AM40	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+AM40	skos:altLabel	D				
+AM40	skos:inScheme	http://purl.org/essglobal/standard/activities-modified/				
+AM40	skos:prefLabel		Education			
+AM40	skos:scopeNote					
+AM50	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+AM50	skos:altLabel	E				
+AM50	skos:inScheme	http://purl.org/essglobal/standard/activities-modified/				
+AM50	skos:prefLabel		Energy			
+AM50	skos:scopeNote					
+AM60	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+AM60	skos:altLabel	F				
+AM60	skos:inScheme	http://purl.org/essglobal/standard/activities-modified/				
+AM60	skos:prefLabel		Food			
+AM60	skos:scopeNote					
+AM70	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+AM70	skos:altLabel	G				
+AM70	skos:inScheme	http://purl.org/essglobal/standard/activities-modified/				
+AM70	skos:prefLabel		Goods & Services			
+AM70	skos:scopeNote					
+AM80	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+AM80	skos:altLabel	H				
+AM80	skos:inScheme	http://purl.org/essglobal/standard/activities-modified/				
+AM80	skos:prefLabel		Health, Social Care & Wellbeing			
+AM80	skos:scopeNote					
+AM90	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+AM90	skos:altLabel	I				
+AM90	skos:inScheme	http://purl.org/essglobal/standard/activities-modified/				
+AM90	skos:prefLabel		Housing			
+AM90	skos:scopeNote					
+AM100	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+AM100	skos:altLabel	J				
+AM100	skos:inScheme	http://purl.org/essglobal/standard/activities-modified/				
+AM100	skos:prefLabel		Money & Finance			
+AM100	skos:scopeNote					
+AM110	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+AM110	skos:altLabel	K				
+AM110	skos:inScheme	http://purl.org/essglobal/standard/activities-modified/				
+AM110	skos:prefLabel		Nature, Conservation & Environment			
+AM110	skos:scopeNote					
+AM120	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+AM120	skos:altLabel	L				
+AM120	skos:inScheme	http://purl.org/essglobal/standard/activities-modified/				
+AM120	skos:prefLabel		Reduce, Reuse, Repair & Recycle			
+AM120	skos:scopeNote					
+AM130	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+AM130	skos:altLabel	M				
+AM130	skos:inScheme	http://purl.org/essglobal/standard/activities-modified/				
+AM130	skos:prefLabel		Agriculture			
+AM130	skos:scopeNote					
+AM140	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+AM140	skos:altLabel	N				
+AM140	skos:inScheme	http://purl.org/essglobal/standard/activities-modified/				
+AM140	skos:prefLabel		Industry			
+AM140	skos:scopeNote					
+AM150	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+AM150	skos:altLabel	O				
+AM150	skos:inScheme	http://purl.org/essglobal/standard/activities-modified/				
+AM150	skos:prefLabel		Utilities			
+AM150	skos:scopeNote					
+AM160	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
+AM160	skos:altLabel	P				
+AM160	skos:inScheme	http://purl.org/essglobal/standard/activities-modified/				
+AM160	skos:prefLabel		Transport			
+AM160	skos:scopeNote					

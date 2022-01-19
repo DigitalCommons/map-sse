@@ -1,0 +1,998 @@
+term	property		DE	EN	ES	FR	KO	ZH
+	base_uri	http://purl.org/essglobal/standard/countries-iso/							
+	dc:creator	Solidarity Economy Association						
+	dc:description	A controlled vocabulary of countries compatible with ISO-3166-2 for SSE						
+	dc:language	en-en						
+	dc:modified	2021-11-25						
+	dc:publisher	http://www.ripess.org/						
+	dc:title		Länder	Countries	Países	Des Pays	국가	国别
+	dcterms:created	2021-02-22						
+	dcterms:creator	http://solidarityeconomy.coop						
+	dcterms:publisher	ESSGLOBAL						
+	rdf:type	http://www.w3.org/2004/02/skos/core#ConceptScheme						
+AD	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE						
+AD	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+AD	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+AD	skos:prefLabel		Andorra	Andorra	Andorra	Andorre	안도라	安道尔
+AE	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-ME						
+AE	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+AE	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+AE	skos:prefLabel		Vereinigte Arabische Emirate	United Arab Emirates	Emiratos Árabes Unidos	Émirats arabes unis	아랍에미리트	阿联酋
+AF	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-SO						
+AF	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+AF	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+AF	skos:prefLabel		Afghanistan	Afghanistan	Afganistán	Afghanistan	아프가니스탄	阿富汗
+AG	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CB						
+AG	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+AG	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+AG	skos:prefLabel		Antigua und Barbuda	Antigua and Barbuda	Antigua y Barbuda	Antigua-et-Barbuda	앤티가 바부다	安提瓜和巴布达
+AI	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CB						
+AI	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+AI	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+AI	skos:prefLabel		Anguilla	Anguilla	Anguila	Anguilla	앵귈라	安圭拉
+AL	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-EA						
+AL	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+AL	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+AL	skos:prefLabel		Albanien	Albania	Albania	Albanie	알바니아	阿尔巴尼亚
+AM	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-EA						
+AM	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+AM	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+AM	skos:prefLabel		Armenien	Armenia	Armenia	Arménie	아르메니아	亚美尼亚
+AO	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-SO						
+AO	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+AO	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+AO	skos:prefLabel		Angola	Angola	Angola	Angola	앙골라	安哥拉
+AQ	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+AQ	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+AQ	skos:prefLabel		Antarktis	Antarctica	Antártida	Antarctique	남극	南极洲
+AR	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-SO						
+AR	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+AR	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+AR	skos:prefLabel		Argentinien	Argentina	Argentina	Argentine	아르헨티나	阿根廷
+AS	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-OC						
+AS	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+AS	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+AS	skos:prefLabel		Amerikanisch-Samoa	American Samoa	Samoa Estadounidense	Samoa américaines	아메리칸사모아	美属萨摩亚
+AT	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE						
+AT	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+AT	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+AT	skos:prefLabel		Österreich	Austria	Austria	Autriche	오스트리아	奥地利
+AU	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-OC						
+AU	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+AU	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+AU	skos:prefLabel		Australien	Australia	Australia	Australie	오스트레일리아	澳大利亚
+AW	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CB						
+AW	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+AW	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+AW	skos:prefLabel		Aruba	Aruba	Aruba	Aruba	아루바	阿鲁巴
+AX	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE						
+AX	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+AX	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+AX	skos:prefLabel		Åland-Inseln	Åland Islands	Islas Äland	Åland, Îles	올란드 제도	奥兰群岛
+AZ	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-EA						
+AZ	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+AZ	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+AZ	skos:prefLabel		Aserbaidschan	Azerbaijan	Azerbaiyán	Azerbaïdjan	아제르바이잔	阿塞拜疆
+BA	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-EA						
+BA	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+BA	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+BA	skos:prefLabel		Bosnien und Herzegowina	Bosnia and Herzegovina	Bosnia y Herzegovina	Bosnie-Herzégovine	보스니아 헤르체고비나	波斯尼亚和黑塞哥维那
+BB	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CB						
+BB	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+BB	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+BB	skos:prefLabel		Barbados	Barbados	Barbados	Barbade	바베이도스	巴巴多斯
+BD	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-SO						
+BD	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+BD	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+BD	skos:prefLabel		Bangladesch	Bangladesh	Bangladés	Bangladesh	방글라데시	孟加拉
+BE	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE						
+BE	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+BE	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+BE	skos:prefLabel		Belgien	Belgium	Bélgica	Belgique	벨기에	比利时
+BF	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-WE						
+BF	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+BF	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+BF	skos:prefLabel		Burkina Faso	Burkina Faso	Burquina Faso	Burkina Faso	부르키나파소	布基纳法索
+BG	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-EA						
+BG	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+BG	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+BG	skos:prefLabel		Bulgarien	Bulgaria	Bulgaria	Bulgarie	불가리아	保加利亚
+BH	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-ME						
+BH	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+BH	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+BH	skos:prefLabel		Bahrain	Bahrain	Baréin	Bahreïn	바레인	巴林
+BI	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-CE						
+BI	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+BI	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+BI	skos:prefLabel		Burundi	Burundi	Burundi	Burundi	부룬디	布隆迪
+BJ	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-WE						
+BJ	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+BJ	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+BJ	skos:prefLabel		Benin	Benin	Benín	Bénin	베냉	贝宁
+BL	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+BL	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+BL	skos:prefLabel		Saint-Barthélemy	Saint Barthélemy	San Bartolomé	Saint-Barthélemy	생바르텔레미	圣巴泰勒米岛
+BM	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CB						
+BM	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+BM	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+BM	skos:prefLabel		Bermuda	Bermuda	Islas Bermudas	Bermudes	버뮤다	百慕大
+BN	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-SE						
+BN	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+BN	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+BN	skos:prefLabel		Brunei Darussalam	Brunei Darussalam	Brunei Darussalam	Brunéi Darussalam	브루나이 다루살람	文莱
+BO	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-SO						
+BO	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+BO	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+BO	skos:prefLabel		Bolivien	Bolivia	Bolivia	Bolivie	볼리비아	波利维亚
+BQ	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CB						
+BQ	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+BQ	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+BQ	skos:prefLabel		Bonaire, Sint Eustatius und Saba	Bonaire, Sint Eustatius and Saba	Islas BES (Caribe Neerlandés)	Bonaire, Saint-Eustache et Saba	보네르, 신트외스타티위스, 사바 섬	博奈尔、圣尤斯特歇斯岛和萨巴
+BR	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-SO						
+BR	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+BR	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+BR	skos:prefLabel		Brasilien	Brazil	Brasil	Brésil	브라질	巴西
+BS	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CB						
+BS	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+BS	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+BS	skos:prefLabel		Bahamas	Bahamas	Bahamas	Bahamas	바하마	巴哈马
+BT	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-SO						
+BT	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+BT	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+BT	skos:prefLabel		Bhutan	Bhutan	Bután	Bhoutan	부탄	不丹
+BV	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+BV	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+BV	skos:prefLabel		Bouvet-Insel	Bouvet Island	Isla Bouvet	île Bouvet	부베 섬	布维群岛
+BW	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-SO						
+BW	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+BW	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+BW	skos:prefLabel		Botsuana	Botswana	Botsuana	Botswana	보츠와나	博兹瓦那
+BY	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-EA						
+BY	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+BY	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+BY	skos:prefLabel		Weißrussland	Belarus	Bielorrusia	Bélarus	벨라루스	白俄罗斯
+BZ	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CE						
+BZ	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+BZ	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+BZ	skos:prefLabel		Belize	Belize	Belice	Belize	벨리즈	伯利兹
+CA	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-NO						
+CA	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+CA	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+CA	skos:prefLabel		Kanada	Canada	Canadá	Canada	캐나다	加拿大
+CC	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-OC						
+CC	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+CC	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+CC	skos:prefLabel		Kokos-(Keeling-)Inseln	Cocos (Keeling) Islands	Islas Cocos (Keeling)	Cocos (Keeling), Îles	코코스 제도	科科斯群岛
+CD	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-CE						
+CD	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+CD	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+CD	skos:prefLabel		Demokratische Republik Kongo	Congo, The Democratic Republic of the	Congo, República Democrática del	République démocratique du Congo	콩고 민주 공화국	刚果民主共和国
+CF	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-CE						
+CF	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+CF	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+CF	skos:prefLabel		Zentralafrikanische Republik	Central African Republic	República Centroafricana	République centrafricaine	중앙아프리카 공화국	中非
+CG	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-CE						
+CG	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+CG	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+CG	skos:prefLabel		Kongo	Congo	Congo	République du Congo	콩고	刚果
+CH	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE						
+CH	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+CH	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+CH	skos:prefLabel		Schweiz	Switzerland	Suiza	Suisse	스위스	瑞士
+CI	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-WE						
+CI	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+CI	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+CI	skos:prefLabel		Côte d'Ivoire	Côte d'Ivoire	Costa de Marfíl	Côte d'Ivoire	코트디부아르	科特迪瓦
+CK	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-OC						
+CK	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+CK	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+CK	skos:prefLabel		Cookinseln	Cook Islands	Islas Cook	îles Cook	쿡 제도	库克群岛
+CL	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-SO						
+CL	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+CL	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+CL	skos:prefLabel		Chile	Chile	Chile	Chili	칠레	智利
+CM	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-CE						
+CM	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+CM	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+CM	skos:prefLabel		Kamerun	Cameroon	Camerún	Cameroun	카메룬	喀麦隆
+CN	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-EA						
+CN	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+CN	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+CN	skos:prefLabel		China	China	China	Chine	중국	中国
+CO	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-SO						
+CO	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+CO	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+CO	skos:prefLabel		Kolumbien	Colombia	Colombia	Colombie	콜롬비아	哥伦比亚
+CR	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CE						
+CR	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+CR	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+CR	skos:prefLabel		Costa Rica	Costa Rica	Costa Rica	Costa Rica	코스타리카	哥斯达黎加
+CU	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CB						
+CU	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+CU	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+CU	skos:prefLabel		Kuba	Cuba	Cuba	Cuba	쿠바	古巴
+CV	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-WE						
+CV	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+CV	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+CV	skos:prefLabel		Cabo Verde	Cabo Verde	Cabo Verde	Cap-Vert	카보베르데	佛得角
+CW	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CB						
+CW	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+CW	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+CW	skos:prefLabel		Curaçao	Curaçao	Curazao	Curaçao	퀴라소	库拉索
+CX	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-OC						
+CX	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+CX	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+CX	skos:prefLabel		Weihnachtsinseln	Christmas Island	Isla de Navidad	Christmas, Île	크리스마스 섬	圣诞岛
+CY	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE						
+CY	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+CY	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+CY	skos:prefLabel		Zypern	Cyprus	Chipre	Chypre	키프로스	塞浦路斯
+CZ	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-EA						
+CZ	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+CZ	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+CZ	skos:prefLabel		Tschechien	Czechia	Chequia	Tchéquie	체코	捷克
+DE	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE						
+DE	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+DE	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+DE	skos:prefLabel		Deutschland	Germany	Alemania	Allemagne	독일	德国
+DJ	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-EA						
+DJ	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+DJ	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+DJ	skos:prefLabel		Dschibuti	Djibouti	Yibuti	Djibouti	지부티	吉布提
+DK	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE						
+DK	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+DK	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+DK	skos:prefLabel		Dänemark	Denmark	Dinamarca	Danemark	덴마크	丹麦
+DM	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CB						
+DM	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+DM	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+DM	skos:prefLabel		Dominica	Dominica	Dominica	Dominique	도미니카 연방	多米尼克
+DO	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CB						
+DO	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+DO	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+DO	skos:prefLabel		Dominikanische Republik	Dominican Republic	República Dominicana	République dominicaine	도미니카 공화국	多米尼加共和国
+DZ	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-NO						
+DZ	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+DZ	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+DZ	skos:prefLabel		Algerien	Algeria	Algeria	Algérie	알제리	阿尔及利亚
+EC	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-SO						
+EC	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+EC	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+EC	skos:prefLabel		Ecuador	Ecuador	Ecuador	Équateur	에콰도르	厄瓜多尔
+EE	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-EA						
+EE	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+EE	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+EE	skos:prefLabel		Estland	Estonia	Estonia	Estonie	에스토니아	爱沙尼亚
+EG	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-NO						
+EG	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+EG	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+EG	skos:prefLabel		Ägypten	Egypt	Egipto	Égypte	이집트	埃及
+EH	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-NO						
+EH	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+EH	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+EH	skos:prefLabel		Westsahara	Western Sahara	Sahara Occidental	Sahara occidental	서사하라	西撒哈拉
+ER	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-ME						
+ER	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+ER	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+ER	skos:prefLabel		Eritrea	Eritrea	Eritrea	Érythrée	에리트레아	厄立特里亚
+ES	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE						
+ES	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+ES	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+ES	skos:prefLabel		Spanien	Spain	España	Espagne	스페인	西班牙
+ET	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-EA						
+ET	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+ET	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+ET	skos:prefLabel		Äthiopien	Ethiopia	Etiopía	Éthiopie	에티오피아	埃塞俄比亚
+FI	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE						
+FI	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+FI	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+FI	skos:prefLabel		Finnland	Finland	Finlandia	Finlande	핀란드	芬兰
+FJ	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-OC						
+FJ	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+FJ	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+FJ	skos:prefLabel		Fidschi	Fiji	Fiyi	Fidji	피지	斐济
+FK	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+FK	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+FK	skos:prefLabel		Falklandinseln (Malwinen)	Falkland Islands (Malvinas)	Islas Falkland (Malvinas)	Malouines, Îles (Falkland)	포클랜드 제도 (말비나스)	福克兰群岛(马尔维纳斯)
+FM	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-OC						
+FM	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+FM	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+FM	skos:prefLabel		Mikronesien, Föderierte Staaten von	Micronesia, Federated States of	Micronesia, Estados Federados de	Micronésie, États fédérés de	미크로네시아 연방	密克罗尼西亚
+FO	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE						
+FO	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+FO	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+FO	skos:prefLabel		Färöer-Inseln	Faroe Islands	Islas Feroe	îles Féroé	페로 제도	法罗群岛
+FR	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE						
+FR	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+FR	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+FR	skos:prefLabel		Frankreich	France	Francia	France	프랑스	法国
+GA	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-CE						
+GA	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+GA	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+GA	skos:prefLabel		Gabun	Gabon	Gabón	Gabon	가봉	加蓬
+GB	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE						
+GB	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+GB	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+GB	skos:prefLabel		Vereinigtes Königreich	United Kingdom	Reino Unido	Royaume-Uni	영국	英国
+GD	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CB						
+GD	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+GD	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+GD	skos:prefLabel		Grenada	Grenada	Granada	Grenade	그레나다	格林纳达
+GE	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-EA						
+GE	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+GE	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+GE	skos:prefLabel		Georgien	Georgia	Georgia	Géorgie	조지아	格鲁吉亚
+GF	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-SO						
+GF	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+GF	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+GF	skos:prefLabel		Französisch-Guyana	French Guiana	Guayana Francesa	Guyane française	프랑스령 기아나	法属圭亚那
+GG	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+GG	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+GG	skos:prefLabel		Guernsey	Guernsey	Guernsey	Guernesey	건지 섬	根西岛
+GH	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-WE						
+GH	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+GH	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+GH	skos:prefLabel		Ghana	Ghana	Ghana	Ghana	가나	加纳
+GI	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE						
+GI	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+GI	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+GI	skos:prefLabel		Gibraltar	Gibraltar	Gibraltar	Gibraltar	지브롤터	直布罗陀
+GL	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE						
+GL	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+GL	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+GL	skos:prefLabel		Grönland	Greenland	Groenlandia	Groënland	그린란드	格陵兰
+GM	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-WE						
+GM	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+GM	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+GM	skos:prefLabel		Gambia	Gambia	Gambia	Gambie	감비아	冈比亚
+GN	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-WE						
+GN	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+GN	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+GN	skos:prefLabel		Guinea	Guinea	Guinea	Guinée	기니	几内亚
+GP	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CB						
+GP	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+GP	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+GP	skos:prefLabel		Guadeloupe	Guadeloupe	Guadalupe	Guadeloupe	과들루프	瓜德罗普
+GQ	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-WE						
+GQ	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+GQ	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+GQ	skos:prefLabel		Äquatorialguinea	Equatorial Guinea	Guinea Ecuatorial	Guinée Équatoriale	적도 기니	赤道几内亚
+GR	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE						
+GR	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+GR	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+GR	skos:prefLabel		Griechenland	Greece	Grecia	Grèce	그리스	希腊
+GS	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+GS	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+GS	skos:prefLabel		South Georgia und die Südlichen Sandwichinseln	South Georgia and the South Sandwich Islands	Islas Georgias del Sur y Sándwich del Sur	Géorgie du Sud et les îles Sandwich du Sud	사우스조지아 사우스샌드위치 제도	南乔治亚岛和南桑德韦奇岛
+GT	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CE						
+GT	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+GT	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+GT	skos:prefLabel		Guatemala	Guatemala	Guatemala	Guatemala	과테말라	瓜地马拉
+GU	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-OC						
+GU	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+GU	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+GU	skos:prefLabel		Guam	Guam	Guam	Guam	괌	关岛
+GW	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-WE						
+GW	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+GW	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+GW	skos:prefLabel		Guinea-Bissau	Guinea-Bissau	Guinea-Bisáu	Guinée-Bissau	기니비사우	几内亚比绍
+GY	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-SO						
+GY	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+GY	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+GY	skos:prefLabel		Guyana	Guyana	Guyana	Guyana	가이아나	圭亚那
+HK	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-EA						
+HK	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+HK	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+HK	skos:prefLabel		Hongkong	Hong Kong	Hong Kong	Hong Kong	홍콩	香港
+HM	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+HM	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+HM	skos:prefLabel		Heard und McDonaldinseln	Heard Island and McDonald Islands	Islas Heard y McDonald	îles Heard-et-MacDonald	허드 맥도널드 제도	赫德岛与麦克唐纳群岛
+HN	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CE						
+HN	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+HN	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+HN	skos:prefLabel		Honduras	Honduras	Honduras	Honduras	온두라스	洪都拉斯
+HR	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-EA						
+HR	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+HR	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+HR	skos:prefLabel		Kroatien	Croatia	Croacia	Croatie	크로아티아	克罗地亚
+HT	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CB						
+HT	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+HT	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+HT	skos:prefLabel		Haiti	Haiti	Haití	Haïti	아이티	海地
+HU	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-EA						
+HU	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+HU	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+HU	skos:prefLabel		Ungarn	Hungary	Hungría	Hongrie	헝가리	匈牙利
+ID	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-SE						
+ID	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+ID	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+ID	skos:prefLabel		Indonesien	Indonesia	Indonesia	Indonésie	인도네시아	印度尼西亚
+IE	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE						
+IE	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+IE	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+IE	skos:prefLabel		Irland	Ireland	Irlanda	Irlande	아일랜드	爱尔兰
+IL	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-EA						
+IL	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+IL	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+IL	skos:prefLabel		Israel	Israel	Israel	Israël	이스라엘	以色列
+IM	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+IM	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+IM	skos:prefLabel		Insel Man	Isle of Man	Isla de Man	Île de Man	맨 섬	曼岛
+IN	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-SO						
+IN	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+IN	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+IN	skos:prefLabel		Indien	India	India	Inde	인도	印度
+IO	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-SO						
+IO	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+IO	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+IO	skos:prefLabel		Britisches Territorium im Indischen Ozean	British Indian Ocean Territory	Territorio Británico del Océano Índico	Territoire britannique de l'océan Indien	영국령 인도양 지역	英属印度洋领地
+IQ	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-ME						
+IQ	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+IQ	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+IQ	skos:prefLabel		Irak	Iraq	Irak	Irak	이라크	伊拉克
+IR	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-ME						
+IR	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+IR	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+IR	skos:prefLabel		Iran, Islamische Republik	Iran, Islamic Republic of	Irán, República islámica de	Iran, République islamique d'	이란 이슬람 공화국	伊朗
+IS	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE						
+IS	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+IS	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+IS	skos:prefLabel		Island	Iceland	Islandia	Islande	아이슬란드	冰岛
+IT	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE						
+IT	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+IT	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+IT	skos:prefLabel		Italien	Italy	Italia	Italie	이탈리아	意大利
+JE	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+JE	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+JE	skos:prefLabel		Jersey	Jersey	Jersey	Jersey	저지 섬	泽西岛
+JM	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CB						
+JM	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+JM	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+JM	skos:prefLabel		Jamaika	Jamaica	Jamaica	Jamaïque	자메이카	牙买加
+JO	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-ME						
+JO	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+JO	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+JO	skos:prefLabel		Jordanien	Jordan	Jordania	Jordanie	요르단	约旦
+JP	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-EA						
+JP	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+JP	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+JP	skos:prefLabel		Japan	Japan	Japón	Japon	일본	日本
+KE	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-EA						
+KE	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+KE	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+KE	skos:prefLabel		Kenia	Kenya	Kenia	Kenya	케냐	肯尼亚
+KG	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-CE						
+KG	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+KG	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+KG	skos:prefLabel		Kirgisistan	Kyrgyzstan	Kirguistán	Kirghizistan	키르기스스탄	吉尔吉斯坦
+KH	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-SE						
+KH	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+KH	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+KH	skos:prefLabel		Kambodscha	Cambodia	Camboya	Cambodge	캄보디아	柬埔塞
+KI	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-OC						
+KI	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+KI	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+KI	skos:prefLabel		Kiribati	Kiribati	Kiribati	Kiribati	키리바시	基里巴斯
+KM	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-SO						
+KM	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+KM	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+KM	skos:prefLabel		Komoren	Comoros	Comores, Islas	Comores	코모로	科摩罗
+KN	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CB						
+KN	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+KN	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+KN	skos:prefLabel		St. Kitts und Nevis	Saint Kitts and Nevis	San Cristóbal y Nieves	Saint-Christophe-et-Niévès	세인트키츠 네비스	圣基茨和尼维斯
+KP	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-EA						
+KP	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+KP	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+KP	skos:prefLabel		Korea, Demokratische Volksrepublik	Korea, Democratic People's Republic of	Corea, República Democrática Popular de	Corée, République populaire démocratique de	조선민주주의인민공화국	朝鲜
+KR	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-EA						
+KR	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+KR	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+KR	skos:prefLabel		Korea, Republik	Korea, Republic of	Corea, República de	Corée, République de	대한민국	韩国
+KW	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-ME						
+KW	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+KW	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+KW	skos:prefLabel		Kuwait	Kuwait	Kuwait	Koweït	쿠웨이트	科威特
+KY	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CB						
+KY	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+KY	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+KY	skos:prefLabel		Cayman-Inseln	Cayman Islands	Islas Caimán	îles Caïmans	케이맨 제도	开曼群岛
+KZ	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-CE						
+KZ	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+KZ	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+KZ	skos:prefLabel		Kasachstan	Kazakhstan	Kazajistán	Kazakhstan	카자흐스탄	哈萨克斯坦
+LA	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-SE						
+LA	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+LA	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+LA	skos:prefLabel		Laos, Demokratische Volksrepublik	Lao People's Democratic Republic	República Democrática Popular de Lao	Lao, République démocratique populaire	라오 인민 민주주의 공화국	老挝人民民主共和国
+LB	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-ME						
+LB	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+LB	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+LB	skos:prefLabel		Libanon	Lebanon	Líbano	Liban	레바논	黎巴嫩
+LC	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CB						
+LC	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+LC	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+LC	skos:prefLabel		St. Lucia	Saint Lucia	Santa Lucía	Sainte-Lucie	세인트루시아	圣路西亚
+LI	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE						
+LI	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+LI	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+LI	skos:prefLabel		Liechtenstein	Liechtenstein	Liechtenstein	Liechtenstein	리히텐슈타인	列支敦士登
+LK	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-SO						
+LK	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+LK	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+LK	skos:prefLabel		Sri Lanka	Sri Lanka	Sri Lanka	Sri Lanka	스리랑카	斯里兰卡
+LR	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-WE						
+LR	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+LR	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+LR	skos:prefLabel		Liberia	Liberia	Liberia	Libéria	라이베리아	利比里亚
+LS	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-SO						
+LS	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+LS	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+LS	skos:prefLabel		Lesotho	Lesotho	Lesoto	Lesotho	레소토	莱索托
+LT	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-EA						
+LT	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+LT	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+LT	skos:prefLabel		Litauen	Lithuania	Lituania	Lituanie	리투아니아	立陶宛
+LU	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE						
+LU	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+LU	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+LU	skos:prefLabel		Luxemburg	Luxembourg	Luxemburgo	Luxembourg	룩셈부르크	卢森堡
+LV	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-EA						
+LV	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+LV	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+LV	skos:prefLabel		Lettland	Latvia	Letonia	Lettonie	라트비아	拉脱维亚
+LY	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-NO						
+LY	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+LY	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+LY	skos:prefLabel		Libyen	Libya	Libia	Libye	리비아	利比亚
+MA	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-NO						
+MA	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+MA	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+MA	skos:prefLabel		Marokko	Morocco	Marruecos	Maroc	모로코	摩洛哥
+MC	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE						
+MC	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+MC	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+MC	skos:prefLabel		Monaco	Monaco	Mónaco	Monaco	모나코	摩纳哥
+MD	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-EA						
+MD	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+MD	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+MD	skos:prefLabel		Moldau	Moldova	Moldavia	Moldavie	몰도바	摩尔多瓦
+ME	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-EA						
+ME	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+ME	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+ME	skos:prefLabel		Montenegro	Montenegro	Montenegro	Monténégro	몬테네그로	黑山
+MF	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+MF	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+MF	skos:prefLabel		Saint Martin (Französischer Teil)	Saint Martin (French part)	San Martín (zona francesa)	Saint-Martin (partie française)	생마르탱 (프랑스령)	法属圣马丁
+MG	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-SO						
+MG	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+MG	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+MG	skos:prefLabel		Madagaskar	Madagascar	Madagascar	Madagascar	마다가스카르	马达加斯加
+MH	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-OC						
+MH	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+MH	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+MH	skos:prefLabel		Marshallinseln	Marshall Islands	Islas Marshall	Îles Marshall	마셜 제도	马绍尔群岛
+MK	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-EA						
+MK	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+MK	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+MK	skos:prefLabel		Nordmazedonien	North Macedonia	Macedonia del Norte	Macédoine du Nord	북마케도니아	北马其顿
+ML	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-WE						
+ML	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+ML	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+ML	skos:prefLabel		Mali	Mali	Mali	Mali	말리	马里
+MM	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-SE						
+MM	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+MM	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+MM	skos:prefLabel		Myanmar	Myanmar	Birmania	Birmanie	미얀마	缅甸
+MN	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-EA						
+MN	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+MN	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+MN	skos:prefLabel		Mongolei	Mongolia	Mongolia	Mongolie	몽골	蒙古
+MO	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-EA						
+MO	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+MO	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+MO	skos:prefLabel		Macao	Macao	Macao	Macau	마카오	澳门
+MP	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-OC						
+MP	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+MP	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+MP	skos:prefLabel		Nördliche Marianen	Northern Mariana Islands	Islas Marianas del Norte	Îles Mariannes du Nord	북마리아나 제도	北马里亚纳群岛
+MQ	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CB						
+MQ	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+MQ	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+MQ	skos:prefLabel		Martinique	Martinique	Martinica	Martinique	마르티니크	马提尼克
+MR	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-WE						
+MR	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+MR	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+MR	skos:prefLabel		Mauretanien	Mauritania	Mauritania	Mauritanie	모리타니	毛里塔尼亚
+MS	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CB						
+MS	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+MS	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+MS	skos:prefLabel		Montserrat	Montserrat	Montserrat	Montserrat	몬트세랫	蒙塞拉特岛
+MT	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE						
+MT	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+MT	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+MT	skos:prefLabel		Malta	Malta	Malta	Malte	몰타	马尔他
+MU	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-SO						
+MU	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+MU	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+MU	skos:prefLabel		Mauritius	Mauritius	Mauricio	Maurice	모리셔스	毛里求斯
+MV	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-SO						
+MV	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+MV	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+MV	skos:prefLabel		Malediven	Maldives	Islas Maldivas	Maldives	몰디브	马尔代夫
+MW	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-SO						
+MW	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+MW	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+MW	skos:prefLabel		Malawi	Malawi	Malaui	Malawi	말라위	马拉维
+MX	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-NO						
+MX	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+MX	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+MX	skos:prefLabel		Mexiko	Mexico	México	Mexique	멕시코	墨西哥
+MY	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-SE						
+MY	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+MY	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+MY	skos:prefLabel		Malaysia	Malaysia	Malasia	Malaisie	말레이시아	马来西亚
+MZ	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-EA						
+MZ	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+MZ	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+MZ	skos:prefLabel		Mosambik	Mozambique	Mozambique	Mozambique	모잠비크	莫桑比克
+NA	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-SO						
+NA	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+NA	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+NA	skos:prefLabel		Namibia	Namibia	Namibia	Namibie	나미비아	纳米比亚
+NC	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-OC						
+NC	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+NC	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+NC	skos:prefLabel		Neukaledonien	New Caledonia	Nueva Caledonia	Nouvelle-Calédonie	누벨칼레도니	新喀里多尼亚
+NE	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-WE						
+NE	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+NE	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+NE	skos:prefLabel		Niger	Niger	Niger	Niger	니제르	尼日尔
+NF	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-OC						
+NF	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+NF	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+NF	skos:prefLabel		Norfolkinsel	Norfolk Island	Isla Norfolk	île Norfolk	노퍽 섬	诺福克岛
+NG	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-WE						
+NG	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+NG	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+NG	skos:prefLabel		Nigeria	Nigeria	Nigeria	Nigeria	나이지리아	尼日利亚
+NI	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CE						
+NI	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+NI	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+NI	skos:prefLabel		Nicaragua	Nicaragua	Nicaragua	Nicaragua	니카라과	尼加拉瓜
+NL	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE						
+NL	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+NL	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+NL	skos:prefLabel		Niederlande	Netherlands	Países Bajos	Pays-Bas	네덜란드	荷兰
+NO	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE						
+NO	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+NO	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+NO	skos:prefLabel		Norwegen	Norway	Noruega	Norvège	노르웨이	挪威
+NP	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-SO						
+NP	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+NP	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+NP	skos:prefLabel		Nepal	Nepal	Nepal	Népal	네팔	尼泊尔
+NR	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-OC						
+NR	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+NR	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+NR	skos:prefLabel		Nauru	Nauru	Nauru	Nauru	나우루	瑙鲁
+NU	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-OC						
+NU	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+NU	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+NU	skos:prefLabel		Niue	Niue	Niue	Nioue	니우에	纽埃
+NZ	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-OC						
+NZ	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+NZ	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+NZ	skos:prefLabel		Neuseeland	New Zealand	Nueva Zelanda	Nouvelle-Zélande	뉴질랜드	新西兰
+OM	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-ME						
+OM	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+OM	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+OM	skos:prefLabel		Oman	Oman	Omán	Oman	오만	阿曼
+PA	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CE						
+PA	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+PA	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+PA	skos:prefLabel		Panama	Panama	Panamá	Panama	파나마	巴拿马
+PE	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-SO						
+PE	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+PE	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+PE	skos:prefLabel		Peru	Peru	Perú	Pérou	페루	秘鲁
+PF	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-OC						
+PF	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+PF	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+PF	skos:prefLabel		Französisch-Polynesien	French Polynesia	Polinesia Francesa	Polynésie française	프랑스령 폴리네시아	法属玻利尼西亚
+PG	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-WE						
+PG	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+PG	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+PG	skos:prefLabel		Papua-Neuguinea	Papua New Guinea	Papúa Nueva Guinea	Papouasie-Nouvelle-Guinée	파푸아뉴기니	巴布亚新几内亚
+PH	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-SE						
+PH	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+PH	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+PH	skos:prefLabel		Philippinen	Philippines	Filipinas	Philippines	필리핀	菲律宾
+PK	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-SO						
+PK	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+PK	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+PK	skos:prefLabel		Pakistan	Pakistan	Pakistán	Pakistan	파키스탄	巴基斯坦
+PL	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-EA						
+PL	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+PL	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+PL	skos:prefLabel		Polen	Poland	Polonia	Pologne	폴란드	波兰
+PM	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-NO						
+PM	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+PM	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+PM	skos:prefLabel		St. Pierre und Miquelon	Saint Pierre and Miquelon	San Pedro y Miquelon	Saint-Pierre-et-Miquelon	생피에르 미클롱	圣皮埃尔和密克隆
+PN	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-OC						
+PN	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+PN	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+PN	skos:prefLabel		Pitcairn	Pitcairn	Pitcairn	Îles Pitcairn	핏케언 제도	皮特克恩
+PR	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CB						
+PR	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+PR	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+PR	skos:prefLabel		Puerto Rico	Puerto Rico	Puerto Rico	Porto Rico	푸에르토리코	波多黎各
+PS	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-ME						
+PS	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+PS	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+PS	skos:prefLabel		Palästina, Staat	Palestine, State of	Palestina, Estado de	Palestine, État de	팔레스타인	巴勒斯坦
+PT	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE						
+PT	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+PT	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+PT	skos:prefLabel		Portugal	Portugal	Portugal	Portugal	포르투갈	葡萄牙
+PW	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-OC						
+PW	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+PW	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+PW	skos:prefLabel		Palau	Palau	Palaos	Palaos	팔라우	帕劳
+PY	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-SO						
+PY	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+PY	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+PY	skos:prefLabel		Paraguay	Paraguay	Paraguay	Paraguay	파라과이	巴拉圭
+QA	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-ME						
+QA	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+QA	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+QA	skos:prefLabel		Katar	Qatar	Catar	Qatar	카타르	卡塔尔
+RE	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-EA						
+RE	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+RE	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+RE	skos:prefLabel		Réunion	Réunion	Reunión	Réunion, Île de la	레위니옹	留尼汪
+RO	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-EA						
+RO	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+RO	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+RO	skos:prefLabel		Rumänien	Romania	Rumanía	Roumanie	루마니아	罗马尼亚
+RS	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-EA						
+RS	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+RS	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+RS	skos:prefLabel		Serbien	Serbia	Serbia	Serbie	세르비아	塞尔维亚
+RU	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-EA						
+RU	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+RU	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+RU	skos:prefLabel		Russische Föderation	Russian Federation	Federación Rusa	Russie, Fédération de	러시아 연방	俄罗斯
+RW	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-CE						
+RW	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+RW	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+RW	skos:prefLabel		Ruanda	Rwanda	Ruanda	Rwanda	르완다	卢旺达
+SA	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-ME						
+SA	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+SA	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+SA	skos:prefLabel		Saudi-Arabien	Saudi Arabia	Arabia Saudí	Arabie saoudite	사우디아라비아	沙特阿拉伯
+SB	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-OC						
+SB	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+SB	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+SB	skos:prefLabel		Salomoninseln	Solomon Islands	Islas Salomón	Salomon, Îles	솔로몬 제도	所罗门群岛
+SC	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-SO						
+SC	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+SC	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+SC	skos:prefLabel		Seychellen	Seychelles	Seychelles	Seychelles	세이셸	塞舌尔
+SD	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-EA						
+SD	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+SD	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+SD	skos:prefLabel		Sudan	Sudan	Sudán	Soudan	수단	苏丹
+SE	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE						
+SE	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+SE	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+SE	skos:prefLabel		Schweden	Sweden	Suecia	Suède	스웨덴	瑞典
+SG	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-SE						
+SG	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+SG	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+SG	skos:prefLabel		Singapur	Singapore	Singapur	Singapour	싱가포르	新加坡
+SH	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-WE						
+SH	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+SH	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+SH	skos:prefLabel		St. Helena, Ascension und Tristan da Cunha	Saint Helena, Ascension and Tristan da Cunha	Santa Elena, Ascensión y Tristán de Acuña	Sainte-Hélène, Ascension et Tristan da Cunha	세인트헬레나 어센션 트리스탄다쿠냐	圣赫勒拿-阿森松-特里斯坦达库尼亚
+SI	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-EA						
+SI	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+SI	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+SI	skos:prefLabel		Slowenien	Slovenia	Eslovenia	Slovénie	슬로베니아	斯洛文尼亚
+SJ	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE						
+SJ	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+SJ	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+SJ	skos:prefLabel		Svalbard und Jan Mayen	Svalbard and Jan Mayen	Svalbard y Jan Mayen	Svalbard et île Jan Mayen	스발바르 얀마옌 제도	斯瓦尔巴特和扬马延岛
+SK	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-EA						
+SK	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+SK	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+SK	skos:prefLabel		Slowakei	Slovakia	Eslovaquia	Slovaquie	슬로바키아	斯洛伐克
+SL	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-WE						
+SL	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+SL	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+SL	skos:prefLabel		Sierra Leone	Sierra Leone	Sierra Leona	Sierra Leone	시에라리온	塞拉利昂
+SM	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE						
+SM	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+SM	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+SM	skos:prefLabel		San Marino	San Marino	San Marino	Saint-Marin	산마리노	圣马力诺
+SN	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-WE						
+SN	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+SN	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+SN	skos:prefLabel		Senegal	Senegal	Senegal	Sénégal	세네갈	塞内加尔
+SO	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-EA						
+SO	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+SO	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+SO	skos:prefLabel		Somalia	Somalia	Somalia	Somalie	소말리아	索马里
+SR	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-SO						
+SR	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+SR	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+SR	skos:prefLabel		Suriname	Suriname	Surinám	Surinam	수리남	苏里南
+SS	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-EA						
+SS	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+SS	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+SS	skos:prefLabel		Südsudan	South Sudan	Sudán del Sur	Soudan du Sud	남수단	南苏丹
+ST	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-CE						
+ST	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+ST	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+ST	skos:prefLabel		São Tomé und Príncipe	Sao Tome and Principe	Santo Tomé y Príncipe	Sao Tomé-et-Principe	상투메 프린시페	圣多美和普林西比
+SV	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CE						
+SV	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+SV	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+SV	skos:prefLabel		El Salvador	El Salvador	El Salvador	Salvador	엘살바도르	萨尔瓦多
+SX	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CB						
+SX	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+SX	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+SX	skos:prefLabel		Saint-Martin (Niederländischer Teil)	Sint Maarten (Dutch part)	Isla de San Martín (zona holandsea)	Saint-Martin (partie néerlandaise)	신트마르턴 (네덜란드령)	荷属圣马丁
+SY	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-ME						
+SY	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+SY	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+SY	skos:prefLabel		Syrien, Arabische Republik	Syrian Arab Republic	República árabe de Siria	Syrienne, République arabe	시리아 아랍 공화국	叙利亚
+SZ	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-SO						
+SZ	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+SZ	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+SZ	skos:prefLabel		Eswatini	Eswatini	Suazilandia	Eswatini	에스와티니	斯威士兰
+TC	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CB						
+TC	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+TC	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+TC	skos:prefLabel		Turks- und Caicosinseln	Turks and Caicos Islands	Islas Turcas y Caicos	îles Turques-et-Caïques	터크스 케이커스 제도	特克斯和凯科斯群岛
+TD	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-CE						
+TD	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+TD	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+TD	skos:prefLabel		Tschad	Chad	Chad	Tchad	차드	乍得
+TF	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE						
+TF	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+TF	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+TF	skos:prefLabel		Französische Süd- und Antarktisgebiete	French Southern Territories	Territorios Franceses del Sur	Terres australes françaises	프랑스령 남 자치구역	法属南半球领地
+TG	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-WE						
+TG	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+TG	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+TG	skos:prefLabel		Togo	Togo	Togo	Togo	토고	多哥
+TH	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-SE						
+TH	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+TH	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+TH	skos:prefLabel		Thailand	Thailand	Tailandia	Thaïlande	태국	泰国
+TJ	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-CE						
+TJ	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+TJ	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+TJ	skos:prefLabel		Tadschikistan	Tajikistan	Tayikistán	Tadjikistan	타지키스탄	塔吉克斯坦
+TK	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-OC						
+TK	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+TK	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+TK	skos:prefLabel		Tokelau	Tokelau	Tokelau	Tokelau	토켈라우	托克劳群岛
+TL	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-OC						
+TL	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+TL	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+TL	skos:prefLabel		Timor-Leste	Timor-Leste	Timor Oriental	Timor oriental	동티모르	东帝汶
+TM	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-CE						
+TM	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+TM	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+TM	skos:prefLabel		Turkmenistan	Turkmenistan	Turkmenistán	Turkménistan	투르크메니스탄	土库曼斯坦
+TN	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-NO						
+TN	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+TN	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+TN	skos:prefLabel		Tunesien	Tunisia	Tunez	Tunisie	튀니지	突尼斯
+TO	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-OC						
+TO	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+TO	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+TO	skos:prefLabel		Tonga	Tonga	Tonga	Tonga	통가	汤加
+TR	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE						
+TR	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+TR	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+TR	skos:prefLabel		Türkei	Turkey	Turquía	Turquie	터키	土耳其
+TT	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CB						
+TT	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+TT	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+TT	skos:prefLabel		Trinidad und Tobago	Trinidad and Tobago	Trinidad y Tobago	Trinité-et-Tobago	트리니다드 토바고	特里尼达和多巴哥
+TV	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-OC						
+TV	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+TV	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+TV	skos:prefLabel		Tuvalu	Tuvalu	Tuvalu	Tuvalu	투발루	图瓦鲁
+TW	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-SE						
+TW	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+TW	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+TW	skos:prefLabel		Taiwan	Taiwan	Taiwán	Taïwan	타이완	台湾
+TZ	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-EA						
+TZ	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+TZ	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+TZ	skos:prefLabel		Tansania	Tanzania	Tanzania	Tanzanie	탄자니아	坦桑尼亚
+UA	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-EA						
+UA	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+UA	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+UA	skos:prefLabel		Ukraine	Ukraine	Ucrania	Ukraine	우크라이나	乌克兰
+UG	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-EA						
+UG	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+UG	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+UG	skos:prefLabel		Uganda	Uganda	Uganda	Ouganda	우간다	乌干达
+UM	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-OC						
+UM	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+UM	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+UM	skos:prefLabel		United States Minor Outlying Islands	United States Minor Outlying Islands	Islas Ultramarinas Menores de Estados Unidos	Îles mineures éloignées des États-Unis	미국령 군소 제도	美国本土外小岛屿
+US	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-NO						
+US	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+US	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+US	skos:prefLabel		Vereinigte Staaten	United States	Estados Unidos	États-Unis	미국	美国
+UY	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-SO						
+UY	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+UY	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+UY	skos:prefLabel		Uruguay	Uruguay	Uruguay	Uruguay	우루과이	乌拉圭
+UZ	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-CE						
+UZ	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+UZ	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+UZ	skos:prefLabel		Usbekistan	Uzbekistan	Uzbekistán	Ouzbékistan	우즈베키스탄	乌兹别克斯坦
+VA	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE						
+VA	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+VA	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+VA	skos:prefLabel		Heiliger Stuhl (Staat Vatikanstadt)	Holy See (Vatican City State)	Santa Sede (Ciudad Estado del Vaticano)	Saint-Siège (état de la cité du Vatican)	바티칸 시티 (Holy See)	梵地冈
+VC	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CB						
+VC	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+VC	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+VC	skos:prefLabel		St. Vincent und die Grenadinen	Saint Vincent and the Grenadines	San Vicente y las Granadinas	Saint-Vincent-et-les-Grenadines	세인트빈센트 그레나딘	圣文森特和格林纳丁斯
+VE	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-SO						
+VE	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+VE	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+VE	skos:prefLabel		Venezuela	Venezuela	Venezuela	Vénézuela	베네수엘라	委内瑞拉
+VG	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CB						
+VG	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+VG	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+VG	skos:prefLabel		Britische Jungferninseln	Virgin Islands, British	Islas Vírgenes, Británicas	Îles Vierges britanniques	버진 제도, 영국령	英属维京群岛
+VI	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AM-CB						
+VI	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+VI	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+VI	skos:prefLabel		Amerikanische Jungferninseln	Virgin Islands, U.S.	Islas Vírgenes, de EEUU	Îles Vierges des États-Unis	버진 제도, 미국령	美属维京群岛
+VN	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-SE						
+VN	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+VN	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+VN	skos:prefLabel		Vietnam	Vietnam	Vietnam	Viêt Nam	베트남	越南
+VU	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-OC						
+VU	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+VU	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+VU	skos:prefLabel		Vanuatu	Vanuatu	Vanuatu	Vanuatu	바누아투	瓦努阿图
+WF	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-OC						
+WF	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+WF	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+WF	skos:prefLabel		Wallis und Futuna	Wallis and Futuna	Wallis y Futuna	Wallis et Futuna	왈리스 퓌튀나	瓦利斯和富图纳
+WS	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-OC						
+WS	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+WS	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+WS	skos:prefLabel		Samoa	Samoa	Samoa	Samoa	사모아	萨摩亚
+YE	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AP-ME						
+YE	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+YE	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+YE	skos:prefLabel		Jemen	Yemen	Yemen	Yémen	예멘	也门
+YT	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-SO						
+YT	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+YT	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+YT	skos:prefLabel		Mayotte	Mayotte	Mayotte	Mayotte	마요트	马约特
+ZA	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-SO						
+ZA	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+ZA	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+ZA	skos:prefLabel		Südafrika	South Africa	Sudáfrica	Afrique du Sud	남아프리카 공화국	南非
+ZM	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-SO						
+ZM	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+ZM	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+ZM	skos:prefLabel		Sambia	Zambia	Zambia	Zambie	잠비아	赞比亚
+ZW	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-AF-SO						
+ZW	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+ZW	skos:inScheme	http://purl.org/essglobal/standard/countries-iso/						
+ZW	skos:prefLabel		Simbabwe	Zimbabwe	Zimbabue	Zimbabwe	짐바브웨	津巴布韦

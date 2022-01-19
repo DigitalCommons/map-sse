@@ -1,0 +1,33 @@
+term	property		EN	ES	FR	IT	PT
+	base_uri	http://purl.org/essglobal/standard/type-of-labour/						
+	dc:contributor	Alan Tygel (alantygel@gmail.com);Ana Alice Baptista (analice@dsi.uminho.pt);Craig Borowiak (cborowiakhaverford.edu);Daniel Tygel (dtygel@gmail.com);Jason Nardi (jason.nardi@gmail.com)					
+	dc:creator	Mariana Malta (mariana@maltas.org)					
+	dc:description	SSE Initiative or SSE Network Legal Form controlled vocabulary for SSE					
+	dc:language	en-en					
+	dc:modified	2021-03-05					
+	dc:publisher	http://www.ripess.org/					
+	dc:relation	http://www.dsi.uminho.pt/					
+	dc:title	Type of Labour					
+	dcterms:created	2014-02-06					
+	dcterms:publisher	ESSGLOBAL					
+	rdf:type	http://www.w3.org/2004/02/skos/core#ConceptScheme					
+T1	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+T1	skos:inScheme	http://purl.org/essglobal/standard/type-of-labour/					
+T1	skos:prefLabel		Associative	Associativo			Associativo
+T1	skos:scopeNote						
+T2	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+T2	skos:inScheme	http://purl.org/essglobal/standard/type-of-labour/					
+T2	skos:prefLabel		Subordinate				Subordinado
+T2	skos:scopeNote						
+T3	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+T3	skos:inScheme	http://purl.org/essglobal/standard/type-of-labour/					
+T3	skos:prefLabel		Voluntary Work				Trabalho Voluntário
+T3	skos:scopeNote						
+T4	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+T4	skos:inScheme	http://purl.org/essglobal/standard/type-of-labour/					
+T4	skos:prefLabel		Reproductive Labour/Care Work				
+T4	skos:scopeNote						
+T5	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+T5	skos:inScheme	http://purl.org/essglobal/standard/type-of-labour/					
+T5	skos:prefLabel		Externally hired				
+T5	skos:scopeNote						
