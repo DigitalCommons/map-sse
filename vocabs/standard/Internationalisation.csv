@@ -5,10 +5,10 @@ Application	sea-map	showSearch			Show search	Mostrar búsqueda	Afficher la reche
 Application	sea-map	showInfo			Show info	Mostrar información	Afficher les informations	정보 표시	
 Application	sea-map	hideDirectory			Hide directory	Ocultar directorio	Masquer l’annuaire	디렉토리 숨기기	
 Application	sea-map	close			Close [country]	Cerrar [país]	Fermer [pays]	닫기	
-Application	sea-map	zoomIn			Zoom in 	Acercar	Zoom avant	쥼인	
+Application	sea-map	zoomIn			Zoom in	Acercar	Zoom avant	쥼인	
 Application	sea-map	zoomOut			Zoom out	Alejar	Zoom arrière	쥼아웃	
 Application	sea-map	search			Search	Buscar	Rechercher	검색	
-Application	sea-map	whenSearch			When you search, or click on map markers, you'll see the results here 	Los resultados de la búsqueda o selección en los marcadores del mapa se mostrarán aquí.	Lorsque vous effectuez une recherche ou cliquez sur les repères de la carte, les résultats s’affichent ici.	검색시 혹은 지도표지를 클릭할시 결과는 여기서 볼수 있음.	
+Application	sea-map	whenSearch			When you search, or click on map markers, you'll see the results here	Los resultados de la búsqueda o selección en los marcadores del mapa se mostrarán aquí.	Lorsque vous effectuez une recherche ou cliquez sur les repères de la carte, les résultats s’affichent ici.	검색시 혹은 지도표지를 클릭할시 결과는 여기서 볼수 있음.	
 Application	sea-map	loading			Loading	Cargando…	Chargement des données	로딩	
 Application	sea-map	showDatasets			Show datasets	Mostrar conjuntos de datos	Afficher les ensembles de données	자료 표시	
 Application	sea-map	searchInitiatives			Search initiatives	Buscar iniciativas	Rechercher des initiatives	이니셔티브 찾기	
@@ -44,15 +44,15 @@ Data	organisational-structure	OS130	skos:prefLabel		Community Benefit Society / 
 Data	organisational-structure	OS140	skos:prefLabel		Employee trust				
 Data	organisational-structure	OS150	skos:prefLabel		Self-employed				
 Data	organisational-structure	OS160	skos:prefLabel		Unincorporated				
-Data	organisational-structure	OS170	skos:prefLabel		Mutual 	Mutual	Mutuelle	상호회사	
-Data	organisational-structure	OS180	skos:prefLabel		National apex 	Organismo federativo nacional	Organisation faîtière nationale	 국가 정상	
-Data	organisational-structure	OS190	skos:prefLabel		National sectoral federation or union 	Sindicato o federación nacional sectorial	Union ou fédération nationale sectorielle	국가 차원의 연맹 및 노동조합	
+Data	organisational-structure	OS170	skos:prefLabel		Mutual	Mutual	Mutuelle	상호회사	
+Data	organisational-structure	OS180	skos:prefLabel		National apex	Organismo federativo nacional	Organisation faîtière nationale	 국가 정상	
+Data	organisational-structure	OS190	skos:prefLabel		National sectoral federation or union	Sindicato o federación nacional sectorial	Union ou fédération nationale sectorielle	국가 차원의 연맹 및 노동조합	
 Data	organisational-structure	OS20	skos:prefLabel		Not-for-profit organisation				
-Data	organisational-structure	OS200	skos:prefLabel		Regional, state or provincial level federation or union 	Federación o unión sectorial, estatal o regional	Union ou fédération régionale, nationale ou infranationale	지역, 주, 지자체 수준의 연맹 및 노동조합	
-Data	organisational-structure	OS210	skos:prefLabel		Cooperative group 	Grupo cooperativo	Groupe coopératif	협동조합 그룹	
-Data	organisational-structure	OS220	skos:prefLabel		Government agency/body 	Entidad gubernamental	Agence/autorité gouvernementale	정부기관	
+Data	organisational-structure	OS200	skos:prefLabel		Regional, state or provincial level federation or union	Federación o unión sectorial, estatal o regional	Union ou fédération régionale, nationale ou infranationale	지역, 주, 지자체 수준의 연맹 및 노동조합	
+Data	organisational-structure	OS210	skos:prefLabel		Cooperative group	Grupo cooperativo	Groupe coopératif	협동조합 그룹	
+Data	organisational-structure	OS220	skos:prefLabel		Government agency/body	Entidad gubernamental	Agence/autorité gouvernementale	정부기관	
 Data	organisational-structure	OS230	skos:prefLabel		Supranational	Organización supranacional	Organisation supranationale	국제조직	
-Data	organisational-structure	OS240	skos:prefLabel		Cooperative of cooperatives / mutuals 	Cooperativa de cooperativas/mutuales	Coopérative de coopératives/mutuelles	협동조합간 협동	
+Data	organisational-structure	OS240	skos:prefLabel		Cooperative of cooperatives / mutuals	Cooperativa de cooperativas/mutuales	Coopérative de coopératives/mutuelles	협동조합간 협동	
 Data	organisational-structure	OS30	skos:prefLabel		Social enterprise				
 Data	organisational-structure	OS40	skos:prefLabel		Charity						
 Data	organisational-structure	OS50	skos:prefLabel		Company (Other)	Empresa (otra)	Entreprise (autre)	회사(기타)			
@@ -112,43 +112,43 @@ Data	qualifiers	q09	skos:prefLabel		Coop Promoter/Supporter	Promotor o impulsor 
 													
 Data	base-membership-type		dc:title		Typology	Tipología	Typologie	유형					
 Data	base-membership-type		dc:description		The set of types of memberships to be used with the term baseMembershipType								
-Data	base-membership-type	BMT10	skos:prefLabel		Consumer/Users 	de consumo/usuarios	Consommateurs/usagers	소비자/사용자					
-Data	base-membership-type	BMT20	skos:prefLabel		Producers 	de productores	Producteurs	생산자					
-Data	base-membership-type	BMT30	skos:prefLabel		Workers 	de trabajadores	Travailleurs	노동자					
-Data	base-membership-type	BMT40	skos:prefLabel		Multi-stakeholders 	de múltiples partes interesadas	Intérêt collectif	다중이해관계자					
-Data	base-membership-type	BMT50	skos:prefLabel		Residents 	de residentes	Résidents	거주자 					
+Data	base-membership-type	BMT10	skos:prefLabel		Consumer/Users	de consumo/usuarios	Consommateurs/usagers	소비자/사용자					
+Data	base-membership-type	BMT20	skos:prefLabel		Producers	de productores	Producteurs	생산자					
+Data	base-membership-type	BMT30	skos:prefLabel		Workers	de trabajadores	Travailleurs	노동자					
+Data	base-membership-type	BMT40	skos:prefLabel		Multi-stakeholders	de múltiples partes interesadas	Intérêt collectif	다중이해관계자					
+Data	base-membership-type	BMT50	skos:prefLabel		Residents	de residentes	Résidents	거주자					
 Data	base-membership-type	BMT60	skos:prefLabel		Others	Otros	Autres	기타					
 													
 Data	activities-ica		dc:title		Economic Activity	Actividad económica	Secteur économique	경제활동					
 Data	activities-ica		dc:description		The set of economic activities defined by the ICA (L2) to be used with the terms economicSector, primarySector								
-Data	activities-ica	ICA10	skos:prefLabel		Agriculture 	Agricultura	Agriculture	농업					
-Data	activities-ica	ICA20	skos:prefLabel		Dairy 	Industria lechera	Industrie laitière	축산업					
-Data	activities-ica	ICA30	skos:prefLabel		Forestry 	Silvicultura	Foresterie	임업					
-Data	activities-ica	ICA40	skos:prefLabel		Irrigation 	Riego	Irrigation	관개사업					
-Data	activities-ica	ICA50	skos:prefLabel		Fishing 	Pesca	Pêche	어업					
-Data	activities-ica	ICA60	skos:prefLabel		Artisans 	Artesanía	Artisanat	수공업					
-Data	activities-ica	ICA70	skos:prefLabel		Construction 	Construcción	Construction	건설업					
-Data	activities-ica	ICA80	skos:prefLabel		Industry 	Industria	Industrie	산업					
-Data	activities-ica	ICA90	skos:prefLabel		Manufacturing 	Fabricación	Industrie manufacturière	제조업					
-Data	activities-ica	ICA100	skos:prefLabel		Mining 	Minería	Exploitation minière	공업					
-Data	activities-ica	ICA110	skos:prefLabel		Professional 	Actividades profesionales	Cadres et professions libérales	전문직					
-Data	activities-ica	ICA120	skos:prefLabel		Service 	Servicios	Services	서비스업					
-Data	activities-ica	ICA130	skos:prefLabel		Tourism 	Turismo	Tourisme	관광업					
-Data	activities-ica	ICA140	skos:prefLabel		Financial Services 	Servicios financieros	Services financiers	금융 서비스업					
+Data	activities-ica	ICA10	skos:prefLabel		Agriculture	Agricultura	Agriculture	농업					
+Data	activities-ica	ICA20	skos:prefLabel		Dairy	Industria lechera	Industrie laitière	축산업					
+Data	activities-ica	ICA30	skos:prefLabel		Forestry	Silvicultura	Foresterie	임업					
+Data	activities-ica	ICA40	skos:prefLabel		Irrigation	Riego	Irrigation	관개사업					
+Data	activities-ica	ICA50	skos:prefLabel		Fishing	Pesca	Pêche	어업					
+Data	activities-ica	ICA60	skos:prefLabel		Artisans	Artesanía	Artisanat	수공업					
+Data	activities-ica	ICA70	skos:prefLabel		Construction	Construcción	Construction	건설업					
+Data	activities-ica	ICA80	skos:prefLabel		Industry	Industria	Industrie	산업					
+Data	activities-ica	ICA90	skos:prefLabel		Manufacturing	Fabricación	Industrie manufacturière	제조업					
+Data	activities-ica	ICA100	skos:prefLabel		Mining	Minería	Exploitation minière	공업					
+Data	activities-ica	ICA110	skos:prefLabel		Professional	Actividades profesionales	Cadres et professions libérales	전문직					
+Data	activities-ica	ICA120	skos:prefLabel		Service	Servicios	Services	서비스업					
+Data	activities-ica	ICA130	skos:prefLabel		Tourism	Turismo	Tourisme	관광업					
+Data	activities-ica	ICA140	skos:prefLabel		Financial Services	Servicios financieros	Services financiers	금융 서비스업					
 Data	activities-ica	ICA150	skos:prefLabel		Insurance	Seguros	Assurance	보험					
-Data	activities-ica	ICA160	skos:prefLabel		Education 	Educación	Éducation	교육					
-Data	activities-ica	ICA170	skos:prefLabel		Health 	Salud	Santé	보건					
-Data	activities-ica	ICA180	skos:prefLabel		Community 	Servicios comunitarios	Action communautaire	공동체					
-Data	activities-ica	ICA190	skos:prefLabel		Social 	Acción social	Action sociale	사회					
-Data	activities-ica	ICA200	skos:prefLabel		Social Service 	Servicios sociales	Services sociaux	사회 서비스업					
-Data	activities-ica	ICA210	skos:prefLabel		Housing 	Vivienda	Logement	주택					
-Data	activities-ica	ICA220	skos:prefLabel		Transport 	Transporte	Transports	운송					
-Data	activities-ica	ICA230	skos:prefLabel		Utilities 	Servicios públicos	Services publics	공공서비스					
-Data	activities-ica	ICA240	skos:prefLabel		Retail 	Comercio minorista	Grande distribution	소매					
-Data	activities-ica	ICA250	skos:prefLabel		Production 	Producción	Production	생산					
-Data	activities-ica	ICA260	skos:prefLabel		Wholesale and retail trade 	Comercio mayorista y minorista	Vente de gros et de détail	도매와 소매 거래					
+Data	activities-ica	ICA160	skos:prefLabel		Education	Educación	Éducation	교육					
+Data	activities-ica	ICA170	skos:prefLabel		Health	Salud	Santé	보건					
+Data	activities-ica	ICA180	skos:prefLabel		Community	Servicios comunitarios	Action communautaire	공동체					
+Data	activities-ica	ICA190	skos:prefLabel		Social	Acción social	Action sociale	사회					
+Data	activities-ica	ICA200	skos:prefLabel		Social Service	Servicios sociales	Services sociaux	사회 서비스업					
+Data	activities-ica	ICA210	skos:prefLabel		Housing	Vivienda	Logement	주택					
+Data	activities-ica	ICA220	skos:prefLabel		Transport	Transporte	Transports	운송					
+Data	activities-ica	ICA230	skos:prefLabel		Utilities	Servicios públicos	Services publics	공공서비스					
+Data	activities-ica	ICA240	skos:prefLabel		Retail	Comercio minorista	Grande distribution	소매					
+Data	activities-ica	ICA250	skos:prefLabel		Production	Producción	Production	생산					
+Data	activities-ica	ICA260	skos:prefLabel		Wholesale and retail trade	Comercio mayorista y minorista	Vente de gros et de détail	도매와 소매 거래					
 Data	activities-ica	ICA270	skos:prefLabel		Education / health / social work	Educación, salud y trabajo social	Éducation / Santé / Travail social	교육/보건/사회사업					
-Data	activities-ica	ICA280	skos:prefLabel		Other Services 	Otros servicios	Autres services	기타 서비스					
+Data	activities-ica	ICA280	skos:prefLabel		Other Services	Otros servicios	Autres services	기타 서비스					
 Data	activities-ica	ICA290	skos:prefLabel		All (Services)	Todos los servicios	Tous (services)	모든(서비스)					
 													
 Data	activities		dc:title		Activities								
