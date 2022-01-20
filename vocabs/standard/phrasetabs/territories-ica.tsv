@@ -1,15 +1,15 @@
-term	property		EN	ES	FR
-	base_uri	http://purl.org/essglobal/standard/territories-ica/				
-	dc:creator	Solidarity Economy Association			
-	dc:description	A controlled vocabulary of countries, regions and territories associated with ICA members			
-	dc:language	en-en			
-	dc:modified	2021-03-05			
-	dc:publisher	http://www.ripess.org/			
-	dc:title		ICA Territories	Territorio	Territoire
-	dcterms:created	2021-03-05			
-	dcterms:creator	http://solidarityeconomy.coop			
-	dcterms:publisher	ESSGLOBAL			
-	rdf:type	http://www.w3.org/2004/02/skos/core#ConceptScheme			
-essglobal:countries-iso	rdfs:subClassOf	http://purl.org/essglobal/standard/territories-ica/			
-essglobal:regions-ica	rdfs:subClassOf	http://purl.org/essglobal/standard/territories-ica/			
-essglobal:super-regions-ica	rdfs:subClassOf	http://purl.org/essglobal/standard/territories-ica/			
+term	property		EN	ES	FR	KO	PT
+	base_uri	http://purl.org/essglobal/standard/territories-ica/					
+	dc:creator	Solidarity Economy Association					
+	dc:description	A controlled vocabulary of countries, regions and territories associated with ICA members					
+	dc:language	en-en					
+	dc:modified	2021-03-05					
+	dc:publisher	http://www.ripess.org/					
+	dc:title		ICA Territories	Territorio	Territoire		
+	dcterms:created	2021-03-05					
+	dcterms:creator	http://solidarityeconomy.coop					
+	dcterms:publisher	ESSGLOBAL					
+	rdf:type	http://www.w3.org/2004/02/skos/core#ConceptScheme					
+essglobal:countries-iso	rdfs:subClassOf	http://purl.org/essglobal/standard/territories-ica/					
+essglobal:regions-ica	rdfs:subClassOf	http://purl.org/essglobal/standard/territories-ica/					
+essglobal:super-regions-ica	rdfs:subClassOf	http://purl.org/essglobal/standard/territories-ica/					

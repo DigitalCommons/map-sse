@@ -1,118 +1,118 @@
-term	property		EN	ES	FR	PT
+term	property		EN	ES	FR	PT	KO
 	base_uri	http://purl.org/essglobal/standard/activities/					
-	dc:contributor	Ana Alice Baptista (analice@dsi.uminho.pt);Daniel Tygel (dtygel@gmail.com);Jason Nardi (jason.nardi@gmail.com);Marc Alphandery (marc.alphandery@wanadoo.fr);Mariana Malta (mariana@iscap.ipp.pt)				
-	dc:creator	César Araújo (cesar_araujo@sapo.pt);Leonardo Cruz (leonardopscruz@gmail.com);Rodrigo Alves (rasalves@gmail.com);Sérgio Vale (gks_sergio@hotmail.com)				
-	dc:description	Activities controlled vocabulary for SSE				
-	dc:language	en-en				
-	dc:modified	2014-01-25				
-	dc:publisher	http://www.ripess.org/				
-	dc:relation	http://www.dsi.uminho.pt/				
-	dc:title	Activities				
-	dcterms:created	2012-02-20				
-	dcterms:publisher	ESSGLOBAL				
-	rdf:type	http://www.w3.org/2004/02/skos/core#ConceptScheme				
-a01	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
-a01	skos:altLabel	A;Agriculture, forestry and fishing				
-a01	skos:inScheme	http://purl.org/essglobal/standard/activities/				
-a01	skos:prefLabel		Agriculture and environment	Agricultura y medio ambiente	Agriculture et environnement	Agricultura e ambiente
-a01	skos:scopeNote		Integrates the sectors of agriculture, forestry and fishing	Integra los sectores de la agricultura, la silvicultura y la pesca	Intègre les secteurs de l'agriculture, la sylviculture et la pêche	Integra os setores da agricultura, silvicultura e pesca
-a02	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
-a02	skos:altLabel	B;Mining and quarrying				
-a02	skos:inScheme	http://purl.org/essglobal/standard/activities/				
-a02	skos:prefLabel		Mining and quarrying	Mineria y canteras	Mines et carrières	Indústria extrativa
-a02	skos:scopeNote		Integra sectors of the extractive industry	Integra los sectores de la industria extractiva	Integra secteurs de l'industrie extractive	Integra os setores da Indústria extrativista
-a03	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
-a03	skos:altLabel	C;Manufacturing				
-a03	skos:inScheme	http://purl.org/essglobal/standard/activities/				
-a03	skos:prefLabel		Craftmanship and manufacturing	Producción industrial y artesanal	Artisanat et manifacturier	Artesanato e manufatura
-a03	skos:scopeNote		Integrates the manufacturing sectors	Integra los sectores manufactureros	Intègre les secteurs de la fabrication	Integra os setores de fabrico
-a04	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
-a04	skos:altLabel	D;Electricity, gas, steam and air conditioning supply				
-a04	skos:inScheme	http://purl.org/essglobal/standard/activities/				
-a04	skos:prefLabel		Energy production and distribution	Producción y distribución de energía	production et distribution de l'énergie	Produção e distribuição de energia
-a04	skos:scopeNote		Includes the sectors of electricity, gas, steam and air conditioning	Corresponde a los sectores de acondicionamiento de electricidad, gas, vapor y aire	Comprend les secteurs du conditionnement d'électricité, de gaz, de vapeur et d'air	Integra os setores de electricidade, gás, vapor e ar condicionado
-a05	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
-a05	skos:altLabel	E;Water supply\; sewerage, waste management and remediation activities				
-a05	skos:inScheme	http://purl.org/essglobal/standard/activities/				
-a05	skos:prefLabel		Recycling, waste treatment, water cycle and ecological restoration	Reciclage, tratamento de basura, ciclo de agua y retauración ecologica	Recyclage, traitement des déchets, cycle de l'eau et la restauration écologique	Reciclagem, tratamento de resíduos, ciclo da água e restauração ecológica
-a05	skos:scopeNote		Includes the sectors of water supply sanitation activities, waste management and remediation	Corresponde a los sectores de las actividades de saneamiento de agua de abastecimiento, la gestión de residuos y descontaminación	Comprend les secteurs d'activités d'approvisionnement en eau assainissement, gestion des déchets et d'assainissement	Integra os setores de abastecimento de água. atividades de saneamento, gestão de resíduos, e remediação
-a06	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
-a06	skos:altLabel	Construction;F				
-a06	skos:inScheme	http://purl.org/essglobal/standard/activities/				
-a06	skos:prefLabel		Construction, public works and refurbishing	Construcción, trabajos publicos y restauración	Construction, travaux publics et remise à neuf	Construção, obras públicas e recondicionamento
-a06	skos:scopeNote		Includes the sectors of construction	Incluye los sectores de la construcción	Comprend les secteurs de la construction	Integra os setores de construção
-a07	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
-a07	skos:altLabel	G;Wholesale and retail trade\; repair of motor vehicles and motorcycles				
-a07	skos:inScheme	http://purl.org/essglobal/standard/activities/				
-a07	skos:prefLabel		Trade and distribution	Distribución y comercialización	Commerce et distribution	Comércio e distribuição
-a07	skos:scopeNote		Includes the sectors of trade and retail trade, repair of motor vehicles and motorcycles	Corresponde a los sectores del comercio y el comercio al por menor, reparación de vehículos de motor y motocicletas	Comprend les secteurs du commerce et du commerce de détail, réparation de véhicules automobiles et de motocycles	Integra os setores de comércio e retalho, reparação de veículos automóveis e motociclos
-a08	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
-a08	skos:altLabel	H;Transportation and storage				
-a08	skos:inScheme	http://purl.org/essglobal/standard/activities/				
-a08	skos:prefLabel		Transport, logistics and storage	Transporte, logística y almacenamiento	Transport, logistique et entreposage	Transporte, logística e armazenagem
-a08	skos:scopeNote		Includes the sectors of transport and storage	Corresponde a los sectores de transporte y almacenamiento	Comprend les secteurs du transport et de stockage	Integra os setores de transporte e armazenamento
-a09	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
-a09	skos:altLabel	Accommodation and food service activities;I				
-a09	skos:inScheme	http://purl.org/essglobal/standard/activities/				
-a09	skos:prefLabel		Hospitality and food service activities	Restauracion y hosteleria	Restauration, hôtellerie, catering	Atividades dos serviços de hotelaria e alimentação
-a09	skos:scopeNote		Integrates the industry sectors of accommodation and food services	Integra los sectores de la industria de servicios de alojamiento y comida	Intègre les secteurs de l'industrie des services d'hébergement et de nourriture	Integra os setores de atividades dos serviços de alojamento e restauração
-a10	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
-a10	skos:altLabel	Information and communication;J				
-a10	skos:inScheme	http://purl.org/essglobal/standard/activities/				
-a10	skos:prefLabel		Information, communication and technologies	Información, comunicación y tecnologías	Information, communication et technologies	Informação, comunicação e tecnologias
-a10	skos:scopeNote		Integrates information and communication sectors	Integra los sectores de información y comunicación	Intègre secteurs de l'information et de la communication	Integra os setores de informação e comunicação
-a11	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
-a11	skos:altLabel	Financial and insurance activities;K				
-a11	skos:inScheme	http://purl.org/essglobal/standard/activities/				
-a11	skos:prefLabel		Financial, insurance and related activities	Actividades financieras, de seguros y relacionados	Finance, assurance et activités connexes	Atividades de seguros, financeira e afins
-a11	skos:scopeNote		Includes the sectors of financial and insurance activities	Incluye los sectores de actividades financieras y de seguros	Comprend les secteurs des activités financières et d'assurance	Integra os setores de atividades financeiras e de seguros
-a12	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
-a12	skos:altLabel	L;Real estate activities				
-a12	skos:inScheme	http://purl.org/essglobal/standard/activities/				
-a12	skos:prefLabel		Habitat and housing	Hábitat y la vivienda	Habitat et logement	Habitat e habitação
-a12	skos:scopeNote		Includes the sectors of real estate activities	Incluye los sectores de la actividad inmobiliaria	Comprend les secteurs d'activités immobilières	Integra os setores de atividades imobiliárias
-a13	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
-a13	skos:altLabel	M;Professional, scientific and technical activities				
-a13	skos:inScheme	http://purl.org/essglobal/standard/activities/				
-a13	skos:prefLabel		Professional, scientific and technical activities	Actividades profesionales, científicas y técnicas	Activités professionnelles, scientifiques et techniques	Atividades profissionais, científicas e técnicas
-a13	skos:scopeNote		Integrates the sectors of professional, scientific and technical	Integra los sectores de servicios profesionales, científicos y técnicos	Intègre les secteurs de services professionnels, scientifiques et techniques	Integra os setores de atividades profissionais, científicas e técnicas
-a14	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
-a14	skos:altLabel	Administrative and support service activities;N				
-a14	skos:inScheme	http://purl.org/essglobal/standard/activities/				
-a14	skos:prefLabel		Administration and management, tourism, rentals	Administración y gestión, el turismo y alquiler	Administration et mangement, tourisme et location	Administração e gestão, turismo, aluguel
-a14	skos:scopeNote		Includes the sectors of administrative and support service activities	Incluye los sectores de actividades administrativas y servicios auxiliares	Comprend les secteurs d'activités de services administratifs et de soutien	Integra os setores de administrativas e de apoio as atividades de serviços
-a15	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
-a15	skos:altLabel	O;Public administration and defence\; compulsory social security				
-a15	skos:inScheme	http://purl.org/essglobal/standard/activities/				
-a15	skos:prefLabel		Public administration and social security	Administración pública y seguridad social	Administration publique et sécurité sociale	Administração pública e da segurança social
-a15	skos:scopeNote		Includes the sectors of public administration, defense and compulsory social security	Incluye los sectores de la administración pública, defensa y seguridad social obligatoria	Comprend les secteurs de l'administration publique, la défense et de sécurité sociale obligatoire	Integra os setores de administração pública, defesa e segurança social obrigatória
-a16	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
-a16	skos:altLabel	Education;P				
-a16	skos:inScheme	http://purl.org/essglobal/standard/activities/				
-a16	skos:prefLabel		Education and training	Educación y formación	Éducation et formation	Educação e formação
-a16	skos:scopeNote		Integrates education sectors	Integra los sectores de educación	Intègre secteurs de l'éducation	Integra os setores de educação
-a17	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
-a17	skos:altLabel	Human health and social work activities;Q				
-a17	skos:inScheme	http://purl.org/essglobal/standard/activities/				
-a17	skos:prefLabel		Social services, health and employment	Servicios sociales, salud y empleo	Services sociaux et santé	Serviços sociais, saúde e emprego
-a17	skos:scopeNote		Includes the sectors of health and social	Incluye los sectores de salud y sociales	Comprend les secteurs de la santé et social	Integra os setores de saúde humana e acção social
-a18	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
-a18	skos:altLabel	Arts, entertainment and recreation;R				
-a18	skos:inScheme	http://purl.org/essglobal/standard/activities/				
-a18	skos:prefLabel		Arts, culture, recreation and sports	Arte, cultura, recreación y deporte	Art, culture, loisirs et sports	Artes, cultura, recreação e esportes
-a18	skos:scopeNote		Includes the sectors of arts, entertainment and recreation	Corresponde a los sectores de las artes, el entretenimiento y la recreación	Comprend les secteurs des arts, spectacles et loisirs	Integra os setores de artes, entretenimento e recreação
-a19	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
-a19	skos:altLabel	Other service activities;S				
-a19	skos:inScheme	http://purl.org/essglobal/standard/activities/				
-a19	skos:prefLabel		Membership activities, repairing and wellness	Actividades de organización social, mutualización y reparación		Atividades associativas, reparação e bem-estar
-a19	skos:scopeNote		Integrates the activities of other sectors of services	Integra las actividades de otros sectores de servicios	Intègre les activités d'autres secteurs de services	Integra os setores de outras atividades de serviços
-a20	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
-a20	skos:altLabel	Activities of households as employers\; undifferentiated goods- and services-producing activities of households for own use;T				
-a20	skos:inScheme	http://purl.org/essglobal/standard/activities/				
-a20	skos:prefLabel		Household activities, self-production, domestic work	Actividades domesticas e de auto-producción		Atividades domésticas, auto-produção de trabalho, doméstico
-a20	skos:scopeNote		Integra sectors of activities of households as employers	Integra los sectores de las actividades de los hogares como empleadores	Integra secteurs d'activités des ménages en tant qu'employeurs	Integra os setores de atividades das famílias empregadoras
-a21	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
-a21	skos:altLabel	Activities of extraterritorial organizations and bodies;U				
-a21	skos:inScheme	http://purl.org/essglobal/standard/activities/				
-a21	skos:prefLabel		International diplomacy and cooperation	Diplomacia internacional y cooperación		Diplomacia e a cooperação internacional
-a21	skos:scopeNote		Integra sectors of activities of organizations and bodies	Integra los sectores de actividades de las organizaciones y organismos	Integra secteurs d'activités des organisations et organismes	Integra os setores de atividades de organizações e entidades extraterritoriais
+	dc:contributor	Ana Alice Baptista (analice@dsi.uminho.pt);Daniel Tygel (dtygel@gmail.com);Jason Nardi (jason.nardi@gmail.com);Marc Alphandery (marc.alphandery@wanadoo.fr);Mariana Malta (mariana@iscap.ipp.pt)					
+	dc:creator	César Araújo (cesar_araujo@sapo.pt);Leonardo Cruz (leonardopscruz@gmail.com);Rodrigo Alves (rasalves@gmail.com);Sérgio Vale (gks_sergio@hotmail.com)					
+	dc:description	Activities controlled vocabulary for SSE	Activities controlled vocabulary for SSE				
+	dc:language	en-en					
+	dc:modified	2014-01-25					
+	dc:publisher	http://www.ripess.org/					
+	dc:relation	http://www.dsi.uminho.pt/					
+	dc:title	Activities	Activities				
+	dcterms:created	2012-02-20					
+	dcterms:publisher	ESSGLOBAL					
+	rdf:type	http://www.w3.org/2004/02/skos/core#ConceptScheme					
+a01	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+a01	skos:altLabel	A;Agriculture, forestry and fishing	Agriculture, forestry and fishing				
+a01	skos:inScheme	http://purl.org/essglobal/standard/activities/					
+a01	skos:prefLabel		Agriculture and environment	Agricultura y medio ambiente	Agriculture et environnement	Agricultura e ambiente	
+a01	skos:scopeNote		Integrates the sectors of agriculture, forestry and fishing	Integra los sectores de la agricultura, la silvicultura y la pesca	Intègre les secteurs de l'agriculture, la sylviculture et la pêche	Integra os setores da agricultura, silvicultura e pesca	
+a02	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+a02	skos:altLabel	B;Mining and quarrying	Mining and quarrying				
+a02	skos:inScheme	http://purl.org/essglobal/standard/activities/					
+a02	skos:prefLabel		Mining and quarrying	Mineria y canteras	Mines et carrières	Indústria extrativa	
+a02	skos:scopeNote		Integra sectors of the extractive industry	Integra los sectores de la industria extractiva	Integra secteurs de l'industrie extractive	Integra os setores da Indústria extrativista	
+a03	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+a03	skos:altLabel	C;Manufacturing	Manufacturing				
+a03	skos:inScheme	http://purl.org/essglobal/standard/activities/					
+a03	skos:prefLabel		Craftmanship and manufacturing	Producción industrial y artesanal	Artisanat et manifacturier	Artesanato e manufatura	
+a03	skos:scopeNote		Integrates the manufacturing sectors	Integra los sectores manufactureros	Intègre les secteurs de la fabrication	Integra os setores de fabrico	
+a04	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+a04	skos:altLabel	D;Electricity, gas, steam and air conditioning supply	Electricity, gas, steam and air conditioning supply				
+a04	skos:inScheme	http://purl.org/essglobal/standard/activities/					
+a04	skos:prefLabel		Energy production and distribution	Producción y distribución de energía	production et distribution de l'énergie	Produção e distribuição de energia	
+a04	skos:scopeNote		Includes the sectors of electricity, gas, steam and air conditioning	Corresponde a los sectores de acondicionamiento de electricidad, gas, vapor y aire	Comprend les secteurs du conditionnement d'électricité, de gaz, de vapeur et d'air	Integra os setores de electricidade, gás, vapor e ar condicionado	
+a05	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+a05	skos:altLabel	E;Water supply\; sewerage, waste management and remediation activities	Water supply; sewerage, waste management and remediation tivities				
+a05	skos:inScheme	http://purl.org/essglobal/standard/activities/					
+a05	skos:prefLabel		Recycling, waste treatment, water cycle and ecological restoration	Reciclage, tratamento de basura, ciclo de agua y retauración ecologica	Recyclage, traitement des déchets, cycle de l'eau et la restauration écologique	Reciclagem, tratamento de resíduos, ciclo da água e restauração ecológica	
+a05	skos:scopeNote		Includes the sectors of water supply sanitation activities, waste management and remediation	Corresponde a los sectores de las actividades de saneamiento de agua de abastecimiento, la gestión de residuos y descontaminación	Comprend les secteurs d'activités d'approvisionnement en eau assainissement, gestion des déchets et d'assainissement	Integra os setores de abastecimento de água. atividades de saneamento, gestão de resíduos, e remediação	
+a06	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+a06	skos:altLabel	Construction;F	Construction				
+a06	skos:inScheme	http://purl.org/essglobal/standard/activities/					
+a06	skos:prefLabel		Construction, public works and refurbishing	Construcción, trabajos publicos y restauración	Construction, travaux publics et remise à neuf	Construção, obras públicas e recondicionamento	
+a06	skos:scopeNote		Includes the sectors of construction	Incluye los sectores de la construcción	Comprend les secteurs de la construction	Integra os setores de construção	
+a07	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+a07	skos:altLabel	G;Wholesale and retail trade\; repair of motor vehicles and motorcycles	Wholesale and retail trade; repair of motor vehicles and motorcycles				
+a07	skos:inScheme	http://purl.org/essglobal/standard/activities/					
+a07	skos:prefLabel		Trade and distribution	Distribución y comercialización	Commerce et distribution	Comércio e distribuição	
+a07	skos:scopeNote		Includes the sectors of trade and retail trade, repair of motor vehicles and motorcycles	Corresponde a los sectores del comercio y el comercio al por menor, reparación de vehículos de motor y motocicletas	Comprend les secteurs du commerce et du commerce de détail, réparation de véhicules automobiles et de motocycles	Integra os setores de comércio e retalho, reparação de veículos automóveis e motociclos	
+a08	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+a08	skos:altLabel	H;Transportation and storage	Transportation and storage				
+a08	skos:inScheme	http://purl.org/essglobal/standard/activities/					
+a08	skos:prefLabel		Transport, logistics and storage	Transporte, logística y almacenamiento	Transport, logistique et entreposage	Transporte, logística e armazenagem	
+a08	skos:scopeNote		Includes the sectors of transport and storage	Corresponde a los sectores de transporte y almacenamiento	Comprend les secteurs du transport et de stockage	Integra os setores de transporte e armazenamento	
+a09	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+a09	skos:altLabel	Accommodation and food service activities;I	Accommodation and food service activities				
+a09	skos:inScheme	http://purl.org/essglobal/standard/activities/					
+a09	skos:prefLabel		Hospitality and food service activities	Restauracion y hosteleria	Restauration, hôtellerie, catering	Atividades dos serviços de hotelaria e alimentação	
+a09	skos:scopeNote		Integrates the industry sectors of accommodation and food services	Integra los sectores de la industria de servicios de alojamiento y comida	Intègre les secteurs de l'industrie des services d'hébergement et de nourriture	Integra os setores de atividades dos serviços de alojamento e restauração	
+a10	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+a10	skos:altLabel	Information and communication;J	Information and communication				
+a10	skos:inScheme	http://purl.org/essglobal/standard/activities/					
+a10	skos:prefLabel		Information, communication and technologies	Información, comunicación y tecnologías	Information, communication et technologies	Informação, comunicação e tecnologias	
+a10	skos:scopeNote		Integrates information and communication sectors	Integra los sectores de información y comunicación	Intègre secteurs de l'information et de la communication	Integra os setores de informação e comunicação	
+a11	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+a11	skos:altLabel	Financial and insurance activities;K	Financial and insurance activities				
+a11	skos:inScheme	http://purl.org/essglobal/standard/activities/					
+a11	skos:prefLabel		Financial, insurance and related activities	Actividades financieras, de seguros y relacionados	Finance, assurance et activités connexes	Atividades de seguros, financeira e afins	
+a11	skos:scopeNote		Includes the sectors of financial and insurance activities	Incluye los sectores de actividades financieras y de seguros	Comprend les secteurs des activités financières et d'assurance	Integra os setores de atividades financeiras e de seguros	
+a12	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+a12	skos:altLabel	L;Real estate activities	Real estate activities				
+a12	skos:inScheme	http://purl.org/essglobal/standard/activities/					
+a12	skos:prefLabel		Habitat and housing	Hábitat y la vivienda	Habitat et logement	Habitat e habitação	
+a12	skos:scopeNote		Includes the sectors of real estate activities	Incluye los sectores de la actividad inmobiliaria	Comprend les secteurs d'activités immobilières	Integra os setores de atividades imobiliárias	
+a13	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+a13	skos:altLabel	M;Professional, scientific and technical activities	Professional, scientific and technical activities				
+a13	skos:inScheme	http://purl.org/essglobal/standard/activities/					
+a13	skos:prefLabel		Professional, scientific and technical activities	Actividades profesionales, científicas y técnicas	Activités professionnelles, scientifiques et techniques	Atividades profissionais, científicas e técnicas	
+a13	skos:scopeNote		Integrates the sectors of professional, scientific and technical	Integra los sectores de servicios profesionales, científicos y técnicos	Intègre les secteurs de services professionnels, scientifiques et techniques	Integra os setores de atividades profissionais, científicas e técnicas	
+a14	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+a14	skos:altLabel	Administrative and support service activities;N	Administrative and support service activities				
+a14	skos:inScheme	http://purl.org/essglobal/standard/activities/					
+a14	skos:prefLabel		Administration and management, tourism, rentals	Administración y gestión, el turismo y alquiler	Administration et mangement, tourisme et location	Administração e gestão, turismo, aluguel	
+a14	skos:scopeNote		Includes the sectors of administrative and support service activities	Incluye los sectores de actividades administrativas y servicios auxiliares	Comprend les secteurs d'activités de services administratifs et de soutien	Integra os setores de administrativas e de apoio as atividades de serviços	
+a15	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+a15	skos:altLabel	O;Public administration and defence\; compulsory social security	Public administration and defence; compulsory social security				
+a15	skos:inScheme	http://purl.org/essglobal/standard/activities/					
+a15	skos:prefLabel		Public administration and social security	Administración pública y seguridad social	Administration publique et sécurité sociale	Administração pública e da segurança social	
+a15	skos:scopeNote		Includes the sectors of public administration, defense and compulsory social security	Incluye los sectores de la administración pública, defensa y seguridad social obligatoria	Comprend les secteurs de l'administration publique, la défense et de sécurité sociale obligatoire	Integra os setores de administração pública, defesa e segurança social obrigatória	
+a16	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+a16	skos:altLabel	Education;P	Education				
+a16	skos:inScheme	http://purl.org/essglobal/standard/activities/					
+a16	skos:prefLabel		Education and training	Educación y formación	Éducation et formation	Educação e formação	
+a16	skos:scopeNote		Integrates education sectors	Integra los sectores de educación	Intègre secteurs de l'éducation	Integra os setores de educação	
+a17	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+a17	skos:altLabel	Human health and social work activities;Q	Human health and social work activities				
+a17	skos:inScheme	http://purl.org/essglobal/standard/activities/					
+a17	skos:prefLabel		Social services, health and employment	Servicios sociales, salud y empleo	Services sociaux et santé	Serviços sociais, saúde e emprego	
+a17	skos:scopeNote		Includes the sectors of health and social	Incluye los sectores de salud y sociales	Comprend les secteurs de la santé et social	Integra os setores de saúde humana e acção social	
+a18	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+a18	skos:altLabel	Arts, entertainment and recreation;R	Arts, entertainment and recreation				
+a18	skos:inScheme	http://purl.org/essglobal/standard/activities/					
+a18	skos:prefLabel		Arts, culture, recreation and sports	Arte, cultura, recreación y deporte	Art, culture, loisirs et sports	Artes, cultura, recreação e esportes	
+a18	skos:scopeNote		Includes the sectors of arts, entertainment and recreation	Corresponde a los sectores de las artes, el entretenimiento y la recreación	Comprend les secteurs des arts, spectacles et loisirs	Integra os setores de artes, entretenimento e recreação	
+a19	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+a19	skos:altLabel	Other service activities;S	Other service activities				
+a19	skos:inScheme	http://purl.org/essglobal/standard/activities/					
+a19	skos:prefLabel		Membership activities, repairing and wellness	Actividades de organización social, mutualización y reparación		Atividades associativas, reparação e bem-estar	
+a19	skos:scopeNote		Integrates the activities of other sectors of services	Integra las actividades de otros sectores de servicios	Intègre les activités d'autres secteurs de services	Integra os setores de outras atividades de serviços	
+a20	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+a20	skos:altLabel	Activities of households as employers\; undifferentiated goods- and services-producing activities of households for own use;T	Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use				
+a20	skos:inScheme	http://purl.org/essglobal/standard/activities/					
+a20	skos:prefLabel		Household activities, self-production, domestic work	Actividades domesticas e de auto-producción		Atividades domésticas, auto-produção de trabalho, doméstico	
+a20	skos:scopeNote		Integra sectors of activities of households as employers	Integra los sectores de las actividades de los hogares como empleadores	Integra secteurs d'activités des ménages en tant qu'employeurs	Integra os setores de atividades das famílias empregadoras	
+a21	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+a21	skos:altLabel	Activities of extraterritorial organizations and bodies;U	Activities of extraterritorial organizations and bodies				
+a21	skos:inScheme	http://purl.org/essglobal/standard/activities/					
+a21	skos:prefLabel		International diplomacy and cooperation	Diplomacia internacional y cooperación		Diplomacia e a cooperação internacional	
+a21	skos:scopeNote		Integra sectors of activities of organizations and bodies	Integra los sectores de actividades de las organizaciones y organismos	Integra secteurs d'activités des organisations et organismes	Integra os setores de atividades de organizações e entidades extraterritoriais	

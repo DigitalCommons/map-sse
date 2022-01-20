@@ -1,41 +1,41 @@
-term	property		EN	ES	FR	PT
+term	property		EN	ES	FR	PT	KO
 	base_uri	http://purl.org/essglobal/standard/base-membership-type/					
-	dc:description	The set of types of memberships to be used with the term baseMembershipType				
-	dc:language	en-en				
-	dc:modified	2021-03-10				
-	dc:publisher	https://solidarityeconomy.coop/				
-	dc:relation	http://www.ripess.org/				
-	dc:title		Typology	Tipología	Typologie	
-	dcterms:created	2020-10-07				
-	dcterms:publisher	ESSGLOBAL				
-	rdf:type	http://www.w3.org/2004/02/skos/core#ConceptScheme				
-BMT10	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
-BMT10	skos:altLabel	A				
-BMT10	skos:inScheme	http://purl.org/essglobal/standard/base-membership-type/				
-BMT10	skos:prefLabel		Consumer/Users	de consumo/usuarios	Consommateurs/usagers	
-BMT10	skos:scopeNote					
-BMT20	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
-BMT20	skos:altLabel	B				
-BMT20	skos:inScheme	http://purl.org/essglobal/standard/base-membership-type/				
-BMT20	skos:prefLabel		Producers	de productores	Producteurs	
-BMT20	skos:scopeNote					
-BMT30	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
-BMT30	skos:altLabel	C				
-BMT30	skos:inScheme	http://purl.org/essglobal/standard/base-membership-type/				
-BMT30	skos:prefLabel		Workers	de trabajadores	Travailleurs	
-BMT30	skos:scopeNote					
-BMT40	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
-BMT40	skos:altLabel	D				
-BMT40	skos:inScheme	http://purl.org/essglobal/standard/base-membership-type/				
-BMT40	skos:prefLabel		Multi-stakeholders	de múltiples partes interesadas	Intérêt collectif	
-BMT40	skos:scopeNote					
-BMT50	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
-BMT50	skos:altLabel	E				
-BMT50	skos:inScheme	http://purl.org/essglobal/standard/base-membership-type/				
-BMT50	skos:prefLabel		Residents	de residentes	Résidents	
-BMT50	skos:scopeNote					
-BMT60	rdf:type	http://www.w3.org/2004/02/skos/core#Concept				
-BMT60	skos:altLabel	F				
-BMT60	skos:inScheme	http://purl.org/essglobal/standard/base-membership-type/				
-BMT60	skos:prefLabel		Others	Otros	Autres	
-BMT60	skos:scopeNote					
+	dc:description	The set of types of memberships to be used with the term baseMembershipType	The set of types of memberships to be used with the term baseMembershipType				
+	dc:language	en-en					
+	dc:modified	2021-03-10					
+	dc:publisher	https://solidarityeconomy.coop/					
+	dc:relation	http://www.ripess.org/					
+	dc:title		Typology	Tipología	Typologie		유형
+	dcterms:created	2020-10-07					
+	dcterms:publisher	ESSGLOBAL					
+	rdf:type	http://www.w3.org/2004/02/skos/core#ConceptScheme					
+BMT10	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+BMT10	skos:altLabel	A					
+BMT10	skos:inScheme	http://purl.org/essglobal/standard/base-membership-type/					
+BMT10	skos:prefLabel		Consumer/Users	de consumo/usuarios	Consommateurs/usagers		소비자/사용자
+BMT10	skos:scopeNote						
+BMT20	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+BMT20	skos:altLabel	B					
+BMT20	skos:inScheme	http://purl.org/essglobal/standard/base-membership-type/					
+BMT20	skos:prefLabel		Producers	de productores	Producteurs		생산자
+BMT20	skos:scopeNote						
+BMT30	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+BMT30	skos:altLabel	C					
+BMT30	skos:inScheme	http://purl.org/essglobal/standard/base-membership-type/					
+BMT30	skos:prefLabel		Workers	de trabajadores	Travailleurs		노동자
+BMT30	skos:scopeNote						
+BMT40	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+BMT40	skos:altLabel	D					
+BMT40	skos:inScheme	http://purl.org/essglobal/standard/base-membership-type/					
+BMT40	skos:prefLabel		Multi-stakeholders	de múltiples partes interesadas	Intérêt collectif		다중이해관계자
+BMT40	skos:scopeNote						
+BMT50	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+BMT50	skos:altLabel	E					
+BMT50	skos:inScheme	http://purl.org/essglobal/standard/base-membership-type/					
+BMT50	skos:prefLabel		Residents	de residentes	Résidents		거주자
+BMT50	skos:scopeNote						
+BMT60	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+BMT60	skos:altLabel	F					
+BMT60	skos:inScheme	http://purl.org/essglobal/standard/base-membership-type/					
+BMT60	skos:prefLabel		Others	Otros	Autres		기타
+BMT60	skos:scopeNote						
