@@ -1,0 +1,107 @@
+#!/bin/env ruby
+require 'csv'
+require 'time'
+
+# Merge spreadsheet-exported replacement data into a phrasetab
+#
+# Usage:
+#
+#     merge-phrasetabs to-merge.tsv phrasetab1.tsv [phrasetab2.tsv ...] 
+#
+# Updates the phrastabs with a .new.tsv suffix. On success the
+# previous one renamed with a timestamp suffix (same timestamp for all
+# generated in the same run), and the new file renamed to the original
+# name. By default, the old one is then deleted.
+
+# FIXME set this via CLI parameters, later.
+options = { delete: true}
+
+opts = {
+  headers:true,
+  col_sep: "\t",
+  quote_char: "\0", # when outputting, omit quotes
+  liberal_parsing: true,
+}
+
+replacements_file = ARGV.shift
+
+# Read in the replacements data
+replacements = {}
+headers = nil
+CSV.open(replacements_file, 'r:bom|utf-8', **opts).each do |row|
+  domain, term, property = row.fields('Domain', 'term', 'property')
+    
+  fields = row.to_h
+  fields.delete_if do |header|
+    ['Category','Domain','term','property','',nil].include?(header)
+  end
+
+  headers ||= fields.keys.sort
+  
+  terms = replacements[domain.to_s] ||= {}
+  properties = terms[term.to_s] ||= {}
+  properties[property.to_s] = fields.to_h
+end
+
+timestamp = Time.new.iso8601
+
+ARGV.each do |file|
+  out_file = "#{file}.new"
+  current_file = out_file
+
+  domain = File.basename(file, '.*')
+  warn "Updating #{file} as domain #{domain}..."
+  begin
+    File.open(out_file, 'w') do |out|
+
+      # Read in the old data to be updated, writing it out line by line
+      line = 1  
+      CSV.foreach(file, **opts).each do |row|
+        # Get term and property fields, mapping nil to ''
+        term, property = row.fields('term', 'property').map {|f| f.to_s}
+        replacement = replacements.dig(domain, term, property)
+        
+        # Remove trailing empty cols
+        row.headers.each_with_index do |header, ix|
+          row.delete(ix) if header.to_s.empty? && ix > 2
+        end
+        
+        # Merge in replacements, add in empties
+        headers.each do |header|
+          if replacement
+            new_value = replacement[header].to_s.strip.gsub('\\t', '\t')
+            if !new_value.empty? && row[header] != new_value
+              warn "  '#{term}'\t'#{property}@#{header}':\n"+
+                   "    - '#{row[header]}'\n    + '#{new_value}'"
+              row[header] = new_value
+            end
+          else
+            row[header] = '' unless row.has_key?(header)
+          end
+        end
+        
+        out.puts row.headers.join("\t") unless line > 1
+        out.puts row.fields.map {|f| f.to_s.gsub(/\t/, '\\t')}.join("\t")
+        line += 1
+      end
+    end
+
+    old_file = "#{file}.#{timestamp}"
+
+    # warn "Saving #{file} as #{old_file}."
+    File.rename(file, old_file)
+    current_file = old_file
+
+    # warn "Renaming #{out_file} as #{file}."
+    File.rename(out_file, file)
+
+    if options[:delete]
+      # warn "Deleting #{old_file}."
+      File.delete(old_file)
+    end
+    
+    # warn "Done."
+  rescue => e
+    warn "Failed to update #{file}\n(previous version preserved as #{current_file})\n#{e}"
+  end
+end
