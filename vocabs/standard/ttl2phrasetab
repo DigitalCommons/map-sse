@@ -1,0 +1,151 @@
+#!/bin/env ruby
+#
+# This script reads a TTL vocab file, and outputs a localisation
+# phrase table in TSV format for the following (shortened) property
+# URIs:
+#
+# - `title`
+# - `description`
+# - `prefLabel`
+# - `altLabel`
+# - `scopeNote`
+#
+# Columns are:
+#
+#  - `term`: the name of the vocab term, or blank if the property is for the entire vocab
+#  - `property`: the property in question (one of the list above)
+#  - ... followed by the language codes encountered (or at least, ``, which indicates
+#    a phrase with no specific language)
+#
+# Usage
+#
+#   ttl2phrasetab <$VOCAB_TTL >$PHRASETAB_TSV
+
+
+require 'rdf'
+require 'rdf/vocab' # 3.2
+require 'rdf/turtle'
+require './known-prefixes'
+
+RDF::Vocabulary.vocab_map.delete(:dc)
+RDF::Vocabulary.vocab_map.delete(:dc11)
+
+RDF::Vocabulary.register(:dc, "http://purl.org/dc/elements/1.1/")
+RDF::Vocabulary.register(:dcterms, "http://purl.org/dc/terms/")
+
+class TTL2PhraseTab
+
+  attr_reader :graph, :base_uri
+
+  def initialize(graph)
+    @graph = graph
+
+    # Find base URI
+    stmt = graph.query({predicate: RDF.type, object: RDF::Vocab::SKOS.ConceptScheme})
+    unless @base_uri = stmt.first_subject.to_s
+      raise "base_uri property is missing"
+    end
+    
+    # Shorten @base_uri with a prefix, if possible
+    @short_base_uri = RDF::URI(@base_uri).pname(prefixes: KnownPrefixes)
+    
+
+    @default_lang = nil # no explicit language
+    @subfield_delim = ";"
+    @field_delim = "\t"
+  end
+  
+  def dump(io = $stdout)
+    # Build up a map of target properties and their literals
+
+    langs = {}
+    table = {}
+    
+    @graph.to_enum.each_triple do |s, p, o|
+      
+      lang = if o.is_a?(RDF::Literal) && o.language 
+               o.language.to_s.upcase
+             else
+               @default_lang
+             end
+      langs[lang] = true
+      
+      short_p = shorten_url p
+      short_s = shorten_url s 
+
+      table[short_s] ||= {}
+      subtable = table[short_s]
+      
+      subtable[short_p] ||= {}
+      langary = subtable[short_p] # FIXME deal with multiple short_p
+      
+      # Note, there can be more than one value for each property, so we
+      # use an array here.
+      langary[lang] ||= []
+      langary[lang] << o.to_s
+    end
+
+    langs = langs.keys.sort do |a, b|
+      a.to_s <=> b.to_s # this will sort nil as ''
+    end
+
+    io.puts %w(term property).concat(langs).join("\t")
+
+    # now put the base_uri (which isn't really a real statement)
+    io.puts ['', 'base_uri', @base_uri].concat([''] * langs.length).join("\t")
+
+    rows = table.keys.collect do |subj|
+      subtable = table[subj]
+
+      subtable.keys.collect do |property|
+        if subtable[property]
+          localisations = langs.collect do |lang|
+            (subtable[property][lang] || [])
+              .compact
+              .collect(&escape(@subfield_delim))
+              .join(@subfield_delim)
+          end
+          [subj, property]
+            .concat(localisations)
+            .collect(&escape(@field_delim))
+        end
+      end
+    end.flatten(1)
+    
+    # Emulate unix's sort -V: split each field into an array of string or
+    # numeric values, and sort by those in turn. So for example, ICA10
+    # sorts above ICA100.
+    rows.sort_by! do |r|
+      r.map do |f|
+        # Split the field into array of [<string>, nil] or [nil, <number>] values
+        f.to_s.scan(/(\D+)|(\d+)/).map do |m|
+          s,n = m
+          n ? n.to_i : s.to_s # Convert number strings to integers
+        end.to_a
+        end
+    end
+    
+    rows.each do |row|                   
+      io.puts row.join("\t")
+    end
+  end
+
+  private
+  
+  def shorten_url(url)
+    # See https://github.com/ruby-rdf/rdf-vocab/issues/73
+    # regarding the use of the prefixes parameter
+    url.pname(prefixes: KnownPrefixes).delete_prefix(@short_base_uri)
+  end
+  
+  def escape(char)
+    ->(str) { str.gsub(char, "\\"+char) }
+  end
+end
+
+
+reader = RDF::Reader.for(:turtle).new($stdin) do |reader|
+  graph = RDF::Graph.new << reader.to_enum
+
+  TTL2PhraseTab.new(graph).dump
+end

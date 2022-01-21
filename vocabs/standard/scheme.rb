@@ -5,8 +5,26 @@ require 'date'
 require 'ostruct'
 require 'csv'
 
+# test for
+# non-lang labels
+# multiple labels
+# subdelimited labels
+# escaped chars \; \t
+
+# This writes a SKOS schema to a stream via #write
 class Scheme
-  attr_reader :base_url, :title, :modified, :created, :terms
+  attr_reader :base_uri, :title, :modified, :created, :terms, :properties
+
+  KnownPrefixes = {
+    dc: "http://purl.org/dc/elements/1.1/",
+    dcterms: "http://purl.org/dc/terms/",
+    skos: "http://www.w3.org/2004/02/skos/core#",
+    xsd: "http://www.w3.org/2001/XMLSchema#", # for xsd:date
+    
+    ossr: "http://data.ordnancesurvey.co.uk/ontology/spatialrelations/", # for within
+  }
+
+  MandatoryPrefixes = [:dc, :dcterms, :skos, :xsd]
 
   def self._prefix_sort(**prefixes)
     prefixes
@@ -15,10 +33,10 @@ class Scheme
       .sort {|a, b| a[1].length <=> b[1].length }
   end
 
-  # shorten a uri with prefixes / base_url if poss
+  # shorten a uri with prefixes / base_uri if poss
   def _suri(value)
-    if (value.start_with? @base_url)
-      return value.slice(@base_url.length..-1)
+    if (value.start_with? @base_uri)
+      return value.slice(@base_uri.length..-1)
     end
 
     @prefixes.each do |p|
@@ -30,6 +48,14 @@ class Scheme
     return value
   end
 
+  def is_quri?(value)
+    value.to_s.strip =~ /^<http.*>$/sm
+  end
+  
+  def is_uri?(value)
+    value.to_s.strip =~ %r{^https?://}sm
+  end
+  
   def uri(value)
     q = value.gsub('<', '\u0096').gsub('>', '%\u0098')
     # don't quote anything with a prefix (except http/https)
@@ -43,57 +69,165 @@ class Scheme
   end
 
   def qstr(value)
-    value.gsub(/\\/, '\\\\').gsub(/'/, '\\\'')
+    "'"+value.to_s.gsub(/\\/, '\\\\').gsub(/'/, '\\\'')+"'"
   end
   
   def qqstr(value)
-    value.gsub(/\\/, '\\\\').gsub(/"/, '\\"')
+    '"'+value.to_s.gsub(/\\/, '\\\\').gsub(/"/, '\\"')+'"'
+  end
+
+  def qqstrs(values, indent: false, newline: false)
+    qqvalues =
+      case values
+      when String
+        [qqstr(values)] # single value string (Strings are Enumerable)
+        
+      when Hash
+        # A hash represents localised values, with keys the language
+        # (may be nil for no language), and values the phrases
+        # (may be an array for a list of phrases, or nil if none)
+        values.flat_map do |key, val|
+          # compute the postfix from the key, if any
+          key = key.to_s.strip
+          postfix = if key && key != ''
+                      '@'+key
+                    else
+                      ''
+                    end
+          
+          case val
+          when nil # Empty value
+            []
+            
+          when Array # Multiple values
+            val.collect do |v|
+              qqstr(v)+postfix 
+            end
+            
+          else # Just one value
+            qqstr(val)+postfix
+          end
+        end
+        
+      when Enumerable
+        # plain list of values
+        values.map do |key|
+          # Attempt to use the correct quoting style
+          if is_quri?(key)
+            key
+          elsif is_uri?(key)
+            uri(key)
+          else
+            qqstr(key) 
+          end
+        end
+        
+      else
+        [qqstr(values.to_s)] # single non-string value
+        
+      end
+
+    delim = if indent
+              indent = 4 unless indent.is_a? Numeric
+              ",\n" + (" " * indent)
+            else
+              ", "
+            end
+
+    if newline
+      return "\n#{" " * indent}#{qqvalues.join(delim)}"
+    else
+      return qqvalues.join(delim)
+    end
   end
   
-  def initialize(base_url:, title:,
+  def initialize(base_uri:, title:,
                  modified:, created:,
                  description:,
+                 properties: {},
                  terms:, prefixes: {}, languages: nil)
-    @base_url = base_url
+    @base_uri = base_uri
     @title = title
     @description = description
     @modified = modified
     @created = created
     @terms = terms
     @languages = languages
+    @properties = properties.to_h
 
     @prefixes = Scheme._prefix_sort(
       **prefixes,
-      dc: "http://purl.org/dc/elements/1.1/",
-      dcterms: "http://purl.org/dc/terms/",
-      rdf: "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-      rdfs: "http://www.w3.org/2000/01/rdf-schema#",
-      skos: "http://www.w3.org/2004/02/skos/core#",
-      xml: "http://www.w3.org/XML/1998/namespace",
-      xsd: "http://www.w3.org/2001/XMLSchema#",
-      ossr: "http://data.ordnancesurvey.co.uk/ontology/spatialrelations/",
+      
+      **KnownPrefixes.slice(*MandatoryPrefixes)
     )
   end
 
+  # Write a skos property
+  # Note, expects values to be a single string or a hash of language => value strings
+  def write_text_property(label, values, iostream)
+    # Normalise values into a hash of language terms
+    unless values.respond_to?(:keys)
+      values = { nil => values.to_s }
+    end
+
+    # Enforce elements for the schema-wide langage list, if set, else
+    # just use those available
+    if @languages
+      @languages.each do |lang|
+        values = values.merge({lang => nil}) 
+      end
+    end
+    
+    # Language-specific terms
+    iostream.puts <<HERE
+    #{label}
+        #{qqstrs values, indent: 8};
+HERE
+  end
+  
   def write(iostream = $stdout)
     @prefixes.sort.each do |prefix, url|
       iostream.puts "@prefix #{prefix}: <#{url}> ."
     end
+    
+    all_props = {
+      'dc:description': qqstrs(@description, indent: 8, newline: true),
+      'dc:modified': "#{qqstr @modified}^^xsd:date",
+      'dc:title': qqstrs(@title, indent: 8, newline: true),
+      'dcterms:created': "#{qqstr @created}^^xsd:date",
+      **@properties,
+    }
 
+    
     iostream.puts <<HERE
-@base #{uri @base_url} .
+@base #{uri @base_uri} .
 
-<> a skos:ConceptScheme ;
-    dc:title "#{qqstr @title}";
-    dc:description "#{qqstr @description}" ;
-    dc:creator "Solidarity Economy Association";
-    dc:language "en-en";
-    dcterms:creator <http://solidarityeconomy.coop>; # ?
-    dcterms:created "#{qqstr @created}"^^xsd:date;
-    dcterms:publisher "ESSGLOBAL";
-    dc:publisher <http://www.ripess.org/>;
-    dc:modified "#{qqstr @modified}"^^xsd:date.
+<> a skos:ConceptScheme;
+HERE
+    
+    all_props.sort.each do |property, value|
 
+      if value.is_a? Hash
+        value.delete_if do |k, v|
+          v.empty?
+        end
+        if value.keys == [""]
+          value = qqstrs(value[""])
+        else
+          value = qqstrs(value, indent: 8, newline: true) 
+        end
+      end
+
+      delim = if value =~ /^\s/
+                "" # don't delim if value starts with whitespace
+              else
+                " "
+              end 
+      iostream.puts "    #{property}#{delim}#{value};"
+    end
+
+    iostream.puts <<HERE   
+.
 HERE
 
     @terms.each do |term| 
@@ -104,22 +238,8 @@ HERE
     skos:inScheme #{suri term.scheme};
 HERE
 
-      if (term.within)
-        iostream.puts <<HERE
-    ossr:within #{suri term.within};
-HERE
-      end
-
-      pref_labels = term.pref_label.respond_to?(:each_pair)? term.pref_label : {'EN'=>term.pref_label}
-      languages = @languages || pref_labels.keys
-
-      # Language-specific
-      languages.each do |l|
-        next unless pref_labels.has_key? l
-        iostream.puts <<HERE
-    skos:prefLabel "#{qqstr pref_labels[l]}"@#{l};
-HERE
-        #    skos:altLabel "#{term[:official]}";
+      term.properties.each_pair do |label, value|
+        write_text_property label, value, iostream
       end
       
       iostream.puts '.'
@@ -127,16 +247,14 @@ HERE
   end
 
 
-
+  # This represents a SKOS term
   class Term
-    attr_reader :uri, :scheme, :pref_label, :alt_labels, :within
+    attr_reader :uri, :scheme, :properties
     
-    def initialize(uri:, scheme:, pref_label:, within: nil, alt_labels: [])
+    def initialize(uri:, scheme:, properties:)
       @uri = uri
       @scheme = scheme
-      @pref_label = pref_label
-      @within = within
-      @alt_labels = alt_labels
+      @properties = properties
     end
   end
 end
