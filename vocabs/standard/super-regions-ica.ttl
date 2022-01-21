@@ -10,11 +10,13 @@ sreg: a skos:ConceptScheme;
   dc:creator "Solidarity Economy Association";
   dc:description "A controlled vocabulary of ICA country super-regions for SSE";
   dc:language "en-en";
-  dc:modified "2022-01-19"^^xsd:date;
+  dc:modified "2022-01-21"^^xsd:date;
   dc:publisher <http://www.ripess.org/>;
   dc:title "Super-Region"@en,
     "Superregión"@es,
-    "Régions de niveau supérieur"@fr;
+    "Régions de niveau supérieur"@fr,
+    "거대 지역권"@ko,
+    ""@pt;
   dcterms:created "2021-02-22"^^xsd:date;
   dcterms:creator <http://solidarityeconomy.coop>;
   dcterms:publisher "ESSGLOBAL" .
@@ -23,28 +25,38 @@ sreg: a skos:ConceptScheme;
   skos:inScheme sreg:;
   skos:prefLabel "Global"@en,
     ""@es,
-    ""@fr .
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <I-AF> a skos:Concept;
   skos:inScheme sreg:;
   skos:prefLabel "Africa"@en,
     "África"@es,
-    "Afrique"@fr .
+    "Afrique"@fr,
+    "아프리카"@ko,
+    ""@pt .
 
 <I-AM> a skos:Concept;
   skos:inScheme sreg:;
   skos:prefLabel "Americas"@en,
     "América"@es,
-    "Amériques"@fr .
+    "Amériques"@fr,
+    "미주"@ko,
+    ""@pt .
 
 <I-AP> a skos:Concept;
   skos:inScheme sreg:;
   skos:prefLabel "Asia+Pacific"@en,
     "Asia-Pacífico"@es,
-    "Asie+Pacifique"@fr .
+    "Asie+Pacifique"@fr,
+    "아시아 태평양"@ko,
+    ""@pt .
 
 <I-EU> a skos:Concept;
   skos:inScheme sreg:;
   skos:prefLabel "Europe"@en,
     "Europa"@es,
-    "Europe"@fr .
+    "Europe"@fr,
+    "유럽"@ko,
+    ""@pt .

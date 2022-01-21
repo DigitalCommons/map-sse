@@ -7,14 +7,19 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <> a skos:ConceptScheme;
-  dc:description "The set of economic activities defined by the ICA (L2) to be used with the terms economicSector, primarySector";
+  dc:description "The set of economic activities defined by the ICA (L2) to be used with the terms economicSector, primarySector"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   dc:language "en-en";
-  dc:modified "2022-01-19"^^xsd:date;
+  dc:modified "2022-01-21"^^xsd:date;
   dc:publisher <https://solidarityeconomy.coop/>;
   dc:relation <http://www.ripess.org/>;
   dc:title "Economic Activity"@en,
     "Actividad económica"@es,
     "Secteur économique"@fr,
+    "경제활동"@ko,
     ""@pt;
   dcterms:created "2020-07-29"^^xsd:date;
   dcterms:publisher "ESSGLOBAL" .
@@ -25,6 +30,7 @@
   skos:prefLabel "Agriculture"@en,
     "Agricultura"@es,
     "Agriculture"@fr,
+    "농업"@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -34,6 +40,7 @@
   skos:prefLabel "Mining"@en,
     "Minería"@es,
     "Exploitation minière"@fr,
+    "공업"@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -43,6 +50,7 @@
   skos:prefLabel "Professional"@en,
     "Actividades profesionales"@es,
     "Cadres et professions libérales"@fr,
+    "전문직"@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -52,6 +60,7 @@
   skos:prefLabel "Service"@en,
     "Servicios"@es,
     "Services"@fr,
+    "서비스업"@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -61,6 +70,7 @@
   skos:prefLabel "Tourism"@en,
     "Turismo"@es,
     "Tourisme"@fr,
+    "관광업"@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -70,6 +80,7 @@
   skos:prefLabel "Financial Services"@en,
     "Servicios financieros"@es,
     "Services financiers"@fr,
+    "금융 서비스업"@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -79,6 +90,7 @@
   skos:prefLabel "Insurance"@en,
     "Seguros"@es,
     "Assurance"@fr,
+    "보험"@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -88,6 +100,7 @@
   skos:prefLabel "Education"@en,
     "Educación"@es,
     "Éducation"@fr,
+    "교육"@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -97,6 +110,7 @@
   skos:prefLabel "Health"@en,
     "Salud"@es,
     "Santé"@fr,
+    "보건"@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -106,6 +120,7 @@
   skos:prefLabel "Community"@en,
     "Servicios comunitarios"@es,
     "Action communautaire"@fr,
+    "공동체"@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -115,6 +130,7 @@
   skos:prefLabel "Social"@en,
     "Acción social"@es,
     "Action sociale"@fr,
+    "사회"@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -124,6 +140,7 @@
   skos:prefLabel "Dairy"@en,
     "Industria lechera"@es,
     "Industrie laitière"@fr,
+    "축산업"@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -133,6 +150,7 @@
   skos:prefLabel "Social Service"@en,
     "Servicios sociales"@es,
     "Services sociaux"@fr,
+    "사회 서비스업"@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -142,6 +160,7 @@
   skos:prefLabel "Housing"@en,
     "Vivienda"@es,
     "Logement"@fr,
+    "주택"@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -151,6 +170,7 @@
   skos:prefLabel "Transport"@en,
     "Transporte"@es,
     "Transports"@fr,
+    "운송"@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -160,6 +180,7 @@
   skos:prefLabel "Utilities"@en,
     "Servicios públicos"@es,
     "Services publics"@fr,
+    "공공서비스"@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -169,6 +190,7 @@
   skos:prefLabel "Retail"@en,
     "Comercio minorista"@es,
     "Grande distribution"@fr,
+    "소매"@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -178,6 +200,7 @@
   skos:prefLabel "Production"@en,
     "Producción"@es,
     "Production"@fr,
+    "생산"@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -187,6 +210,7 @@
   skos:prefLabel "Wholesale and retail trade"@en,
     "Comercio mayorista y minorista"@es,
     "Vente de gros et de détail"@fr,
+    "도매와 소매 거래"@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -196,6 +220,7 @@
   skos:prefLabel "Education / health / social work"@en,
     "Educación, salud y trabajo social"@es,
     "Éducation / Santé / Travail social"@fr,
+    "교육/보건/사회사업"@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -205,15 +230,17 @@
   skos:prefLabel "Other Services"@en,
     "Otros servicios"@es,
     "Autres services"@fr,
+    "기타 서비스"@ko,
     ""@pt;
   skos:scopeNote "" .
 
 <ICA290> a skos:Concept;
   skos:altLabel "AC";
   skos:inScheme <>;
-  skos:prefLabel "All"@en,
+  skos:prefLabel "All (Services)"@en,
     "Todos los servicios"@es,
     "Tous (services)"@fr,
+    "모든(서비스)"@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -223,6 +250,7 @@
   skos:prefLabel "Forestry"@en,
     "Silvicultura"@es,
     "Foresterie"@fr,
+    "임업"@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -232,6 +260,7 @@
   skos:prefLabel "Irrigation"@en,
     "Riego"@es,
     "Irrigation"@fr,
+    "관개사업"@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -241,6 +270,7 @@
   skos:prefLabel "Fishing"@en,
     "Pesca"@es,
     "Pêche"@fr,
+    "어업"@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -250,6 +280,7 @@
   skos:prefLabel "Artisans"@en,
     "Artesanía"@es,
     "Artisanat"@fr,
+    "수공업"@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -259,6 +290,7 @@
   skos:prefLabel "Construction"@en,
     "Construcción"@es,
     "Construction"@fr,
+    "건설업"@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -268,6 +300,7 @@
   skos:prefLabel "Industry"@en,
     "Industria"@es,
     "Industrie"@fr,
+    "산업"@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -277,5 +310,6 @@
   skos:prefLabel "Manufacturing"@en,
     "Fabricación"@es,
     "Industrie manufacturière"@fr,
+    "제조업"@ko,
     ""@pt;
   skos:scopeNote "" .

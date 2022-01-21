@@ -15,7 +15,7 @@
   dc:creator "Mariana Curado Malta (mariana@maltas.org)";
   dc:description "Qualifiers controlled vocabulary for SSE";
   dc:language "en-en";
-  dc:modified "2022-01-19"^^xsd:date;
+  dc:modified "2022-01-21"^^xsd:date;
   dc:publisher <http://www.ripess.org/>;
   dc:relation <http://www.dsi.uminho.pt/>;
   dc:title "Products and Services";
@@ -44,340 +44,788 @@
     <95000000> .
 
 <70000000> a skos:Concept;
-  skos:definition "Farming and Fishing and Forestry and Wildlife Contracting Services"@en;
+  skos:definition "Farming and Fishing and Forestry and Wildlife Contracting Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "Farming and Fishing and Forestry and Wildlife Contracting Services"@en;
+  skos:prefLabel "Farming and Fishing and Forestry and Wildlife Contracting Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:scopeNote "" .
 
 <70100000> a skos:Concept;
   skos:broader <70000000>;
-  skos:definition "Fisheries and aquaculture"@en;
+  skos:definition "Fisheries and aquaculture"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "70100000"@en .
+  skos:prefLabel "70100000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <70110000> a skos:Concept;
   skos:broader <70000000>;
-  skos:definition "Horticulture"@en;
+  skos:definition "Horticulture"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "70110000"@en .
+  skos:prefLabel "70110000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <70120000> a skos:Concept;
   skos:broader <70000000>;
-  skos:definition "Livestock services"@en;
+  skos:definition "Livestock services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "70120000"@en .
+  skos:prefLabel "70120000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <70130000> a skos:Concept;
   skos:broader <70000000>;
-  skos:definition "Land and soil preparation and management and protection"@en;
+  skos:definition "Land and soil preparation and management and protection"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "70130000"@en .
+  skos:prefLabel "70130000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <70140000> a skos:Concept;
   skos:broader <70000000>;
-  skos:definition "Crop production and management and protection"@en;
+  skos:definition "Crop production and management and protection"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "70140000"@en .
+  skos:prefLabel "70140000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <70150000> a skos:Concept;
   skos:broader <70000000>;
-  skos:definition "Forestry"@en;
+  skos:definition "Forestry"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "70150000"@en .
+  skos:prefLabel "70150000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <70160000> a skos:Concept;
   skos:broader <70000000>;
-  skos:definition "Wildlife and flora"@en;
+  skos:definition "Wildlife and flora"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "70160000"@en .
+  skos:prefLabel "70160000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <70170000> a skos:Concept;
   skos:broader <70000000>;
-  skos:definition "Water resources development and oversight"@en;
+  skos:definition "Water resources development and oversight"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "70170000"@en .
+  skos:prefLabel "70170000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <71000000> a skos:Concept;
-  skos:definition "Mining and oil and gas services"@en;
+  skos:definition "Mining and oil and gas services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "Mining and oil and gas services"@en;
+  skos:prefLabel "Mining and oil and gas services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:scopeNote "" .
 
 <71100000> a skos:Concept;
   skos:broader <71000000>;
-  skos:definition "Mining services"@en;
+  skos:definition "Mining services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "71100000"@en .
+  skos:prefLabel "71100000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <71110000> a skos:Concept;
   skos:broader <71000000>;
-  skos:definition "Oil and gas exploration services"@en;
+  skos:definition "Oil and gas exploration services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "71110000"@en .
+  skos:prefLabel "71110000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <71120000> a skos:Concept;
   skos:broader <71000000>;
-  skos:definition "Well drilling and construction services"@en;
+  skos:definition "Well drilling and construction services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "71120000"@en .
+  skos:prefLabel "71120000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <71130000> a skos:Concept;
   skos:broader <71000000>;
-  skos:definition "Oil and gas extraction and production enhancement services"@en;
+  skos:definition "Oil and gas extraction and production enhancement services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "71130000"@en .
+  skos:prefLabel "71130000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <71140000> a skos:Concept;
   skos:broader <71000000>;
-  skos:definition "Oil and gas restoration and reclamation services"@en;
+  skos:definition "Oil and gas restoration and reclamation services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "71140000"@en .
+  skos:prefLabel "71140000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <71150000> a skos:Concept;
   skos:broader <71000000>;
-  skos:definition "Oil and gas data management and processing services"@en;
+  skos:definition "Oil and gas data management and processing services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "71150000"@en .
+  skos:prefLabel "71150000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <71160000> a skos:Concept;
   skos:broader <71000000>;
-  skos:definition "Oil and gas well project management services"@en;
+  skos:definition "Oil and gas well project management services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "71160000"@en .
+  skos:prefLabel "71160000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <72000000> a skos:Concept;
-  skos:definition "Building and Facility Construction and Maintenance Services"@en;
+  skos:definition "Building and Facility Construction and Maintenance Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "Building and Facility Construction and Maintenance Services"@en;
+  skos:prefLabel "Building and Facility Construction and Maintenance Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:scopeNote "" .
 
 <72100000> a skos:Concept;
   skos:broader <72000000>;
-  skos:definition "Building and facility maintenance and repair services"@en;
+  skos:definition "Building and facility maintenance and repair services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "72100000"@en .
+  skos:prefLabel "72100000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <72110000> a skos:Concept;
   skos:broader <72000000>;
-  skos:definition "Residential building construction services"@en;
+  skos:definition "Residential building construction services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "72110000"@en .
+  skos:prefLabel "72110000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <72120000> a skos:Concept;
   skos:broader <72000000>;
-  skos:definition "Nonresidential building construction services"@en;
+  skos:definition "Nonresidential building construction services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "72120000"@en .
+  skos:prefLabel "72120000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <72140000> a skos:Concept;
   skos:broader <72000000>;
-  skos:definition "Heavy construction services"@en;
+  skos:definition "Heavy construction services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "72140000"@en .
+  skos:prefLabel "72140000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <72150000> a skos:Concept;
   skos:broader <72000000>;
-  skos:definition "Specialized trade construction and maintenance services"@en;
+  skos:definition "Specialized trade construction and maintenance services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "72150000"@en .
+  skos:prefLabel "72150000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <73000000> a skos:Concept;
-  skos:definition "Industrial Production and Manufacturing Services"@en;
+  skos:definition "Industrial Production and Manufacturing Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "Industrial Production and Manufacturing Services"@en;
+  skos:prefLabel "Industrial Production and Manufacturing Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:scopeNote "" .
 
 <73100000> a skos:Concept;
   skos:broader <73000000>;
-  skos:definition "Plastic and chemical industries"@en;
+  skos:definition "Plastic and chemical industries"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "73100000"@en .
+  skos:prefLabel "73100000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <73110000> a skos:Concept;
   skos:broader <73000000>;
-  skos:definition "Wood and paper industries"@en;
+  skos:definition "Wood and paper industries"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "73110000"@en .
+  skos:prefLabel "73110000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <73120000> a skos:Concept;
   skos:broader <73000000>;
-  skos:definition "Metal and mineral industries"@en;
+  skos:definition "Metal and mineral industries"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "73120000"@en .
+  skos:prefLabel "73120000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <73130000> a skos:Concept;
   skos:broader <73000000>;
-  skos:definition "Food and beverage industries"@en;
+  skos:definition "Food and beverage industries"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "73130000"@en .
+  skos:prefLabel "73130000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <73140000> a skos:Concept;
   skos:broader <73000000>;
-  skos:definition "Fibers and textiles and fabric industries"@en;
+  skos:definition "Fibers and textiles and fabric industries"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "73140000"@en .
+  skos:prefLabel "73140000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <73150000> a skos:Concept;
   skos:broader <73000000>;
-  skos:definition "Manufacturing support services"@en;
+  skos:definition "Manufacturing support services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "73150000"@en .
+  skos:prefLabel "73150000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <73160000> a skos:Concept;
   skos:broader <73000000>;
-  skos:definition "Manufacture"@en;
+  skos:definition "Manufacture"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "73160000"@en .
+  skos:prefLabel "73160000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <73170000> a skos:Concept;
   skos:broader <73000000>;
-  skos:definition "Precision instruments"@en;
+  skos:definition "Precision instruments"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "73170000"@en .
+  skos:prefLabel "73170000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <73180000> a skos:Concept;
   skos:broader <73000000>;
-  skos:definition "Machining and processing services"@en;
+  skos:definition "Machining and processing services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "73180000"@en .
+  skos:prefLabel "73180000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <76000000> a skos:Concept;
-  skos:definition "Industrial Cleaning Services"@en;
+  skos:definition "Industrial Cleaning Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "Industrial Cleaning Services"@en;
+  skos:prefLabel "Industrial Cleaning Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:scopeNote "" .
 
 <76100000> a skos:Concept;
   skos:broader <76000000>;
-  skos:definition "Decontamination services"@en;
+  skos:definition "Decontamination services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "76100000"@en .
+  skos:prefLabel "76100000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <76110000> a skos:Concept;
   skos:broader <76000000>;
-  skos:definition "Cleaning and janitorial services"@en;
+  skos:definition "Cleaning and janitorial services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "76110000"@en .
+  skos:prefLabel "76110000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <76120000> a skos:Concept;
   skos:broader <76000000>;
-  skos:definition "Refuse disposal and treatment"@en;
+  skos:definition "Refuse disposal and treatment"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "76120000"@en .
+  skos:prefLabel "76120000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <76130000> a skos:Concept;
   skos:broader <76000000>;
-  skos:definition "Toxic and hazardous waste cleanup"@en;
+  skos:definition "Toxic and hazardous waste cleanup"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "76130000"@en .
+  skos:prefLabel "76130000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <77000000> a skos:Concept;
   skos:definition "";
   skos:inScheme <>;
-  skos:prefLabel "Environmental Services"@en;
-  skos:scopeNote "Environmental Services"@en .
+  skos:prefLabel "Environmental Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
+  skos:scopeNote "Environmental Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <77100000> a skos:Concept;
   skos:broader <77000000>;
-  skos:definition "Environmental management"@en;
+  skos:definition "Environmental management"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "77100000"@en .
+  skos:prefLabel "77100000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <77110000> a skos:Concept;
   skos:broader <77000000>;
-  skos:definition "Environmental protection"@en;
+  skos:definition "Environmental protection"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "77110000"@en .
+  skos:prefLabel "77110000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <77120000> a skos:Concept;
   skos:broader <77000000>;
-  skos:definition "Pollution tracking and monitoring and rehabilitation"@en;
+  skos:definition "Pollution tracking and monitoring and rehabilitation"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "77120000"@en .
+  skos:prefLabel "77120000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <77130000> a skos:Concept;
   skos:broader <77000000>;
-  skos:definition "Pollutants tracking and monitoring and rehabilitation services"@en;
+  skos:definition "Pollutants tracking and monitoring and rehabilitation services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "70130000"@en .
+  skos:prefLabel "70130000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <78000000> a skos:Concept;
-  skos:definition "Transportation and Storage and Mail Services"@en;
+  skos:definition "Transportation and Storage and Mail Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "Transportation and Storage and Mail Services"@en;
+  skos:prefLabel "Transportation and Storage and Mail Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:scopeNote "" .
 
 <78100000> a skos:Concept;
   skos:broader <78000000>;
-  skos:definition "Mail and cargo transport"@en;
+  skos:definition "Mail and cargo transport"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "78100000"@en .
+  skos:prefLabel "78100000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <78110000> a skos:Concept;
   skos:broader <78000000>;
-  skos:definition "Passenger transport"@en;
+  skos:definition "Passenger transport"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "78110000"@en .
+  skos:prefLabel "78110000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <78120000> a skos:Concept;
   skos:broader <78000000>;
-  skos:definition "Material packing and handling"@en;
+  skos:definition "Material packing and handling"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "78120000"@en .
+  skos:prefLabel "78120000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <78130000> a skos:Concept;
   skos:broader <78000000>;
-  skos:definition "Storage"@en;
+  skos:definition "Storage"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "78130000"@en .
+  skos:prefLabel "78130000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <78140000> a skos:Concept;
   skos:broader <78000000>;
-  skos:definition "Transport services"@en;
+  skos:definition "Transport services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "78140000"@en .
+  skos:prefLabel "78140000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <78180000> a skos:Concept;
   skos:broader <78000000>;
-  skos:definition "Transportation repair or maintenance services"@en;
+  skos:definition "Transportation repair or maintenance services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "78180000"@en .
+  skos:prefLabel "78180000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <80000000> a skos:Concept;
-  skos:definition "Management and Business Professionals and Administrative Services"@en;
+  skos:definition "Management and Business Professionals and Administrative Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "Management and Business Professionals and Administrative Services"@en;
+  skos:prefLabel "Management and Business Professionals and Administrative Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:scopeNote "" .
 
 <80100000> a skos:Concept;
   skos:broader <80000000>;
-  skos:definition "Management advisory services"@en;
+  skos:definition "Management advisory services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "80100000"@en .
+  skos:prefLabel "80100000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <80110000> a skos:Concept;
   skos:broader <80000000>;
-  skos:definition "Human resources services"@en;
+  skos:definition "Human resources services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "80110000"@en .
+  skos:prefLabel "80110000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <80120000> a skos:Concept;
   skos:broader <80000000>;
-  skos:definition "Legal services"@en;
+  skos:definition "Legal services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "80120000"@en .
+  skos:prefLabel "80120000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <80130000> a skos:Concept;
   skos:broader <80000000>;
-  skos:definition "Real estate services"@en;
+  skos:definition "Real estate services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "80130000"@en .
+  skos:prefLabel "80130000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <80140000> a skos:Concept;
   skos:broader <80000000>;
-  skos:definition "Marketing and distribution"@en;
+  skos:definition "Marketing and distribution"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "80140000"@en .
+  skos:prefLabel "80140000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <80150000> a skos:Concept;
   skos:broader <80000000>,
@@ -385,427 +833,987 @@
   skos:definition "Entertainment services"@en,
     "Food and nutrition services"@en,
     "Public administration and finance services"@en,
-    "Trade policy and services"@en;
+    "Trade policy and services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
   skos:prefLabel "80150000"@en,
-    "90150000"@en .
+    "90150000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <80160000> a skos:Concept;
   skos:broader <80000000>;
-  skos:definition "Business administration services"@en;
+  skos:definition "Business administration services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "80160000"@en .
+  skos:prefLabel "80160000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <805170000> a skos:Concept;
   skos:broader <85000000>;
-  skos:definition "Death and dying support services"@en;
+  skos:definition "Death and dying support services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "85170000"@en .
+  skos:prefLabel "85170000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <81000000> a skos:Concept;
-  skos:definition "Engineering and Research and Technology Based Services"@en;
+  skos:definition "Engineering and Research and Technology Based Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "Engineering and Research and Technology Based Services"@en;
+  skos:prefLabel "Engineering and Research and Technology Based Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:scopeNote "" .
 
 <81100000> a skos:Concept;
   skos:broader <81000000>;
-  skos:definition "Professional engineering services"@en;
+  skos:definition "Professional engineering services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "81100000"@en .
+  skos:prefLabel "81100000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <81110000> a skos:Concept;
   skos:broader <81000000>;
-  skos:definition "Computer Services"@en;
+  skos:definition "Computer Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "81110000"@en .
+  skos:prefLabel "81110000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <81120000> a skos:Concept;
   skos:broader <81000000>;
-  skos:definition "Economics"@en;
+  skos:definition "Economics"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "81120000"@en .
+  skos:prefLabel "81120000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <81130000> a skos:Concept;
   skos:broader <81000000>;
-  skos:definition "Statistics"@en;
+  skos:definition "Statistics"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "81130000"@en .
+  skos:prefLabel "81130000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <81140000> a skos:Concept;
   skos:broader <81000000>;
-  skos:definition "Manufacturing technologies"@en;
+  skos:definition "Manufacturing technologies"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "81140000"@en .
+  skos:prefLabel "81140000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <81150000> a skos:Concept;
   skos:broader <81000000>;
-  skos:definition "Earth science services"@en;
+  skos:definition "Earth science services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "81150000"@en .
+  skos:prefLabel "81150000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <81160000> a skos:Concept;
   skos:broader <81000000>;
-  skos:definition "Information Technology Service Delivery"@en;
+  skos:definition "Information Technology Service Delivery"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "81160000"@en .
+  skos:prefLabel "81160000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <82000000> a skos:Concept;
-  skos:definition "Editorial and Design and Graphic and Fine Art Services"@en;
+  skos:definition "Editorial and Design and Graphic and Fine Art Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "Editorial and Design and Graphic and Fine Art Services"@en;
+  skos:prefLabel "Editorial and Design and Graphic and Fine Art Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:scopeNote "" .
 
 <82100000> a skos:Concept;
   skos:broader <82000000>;
-  skos:definition "Advertising"@en;
+  skos:definition "Advertising"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "82100000"@en .
+  skos:prefLabel "82100000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <82110000> a skos:Concept;
   skos:broader <82000000>;
-  skos:definition "Writing and translations"@en;
+  skos:definition "Writing and translations"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "82110000"@en .
+  skos:prefLabel "82110000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <82120000> a skos:Concept;
   skos:broader <82000000>;
-  skos:definition "Reproduction services"@en;
+  skos:definition "Reproduction services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "82120000"@en .
+  skos:prefLabel "82120000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <82130000> a skos:Concept;
   skos:broader <82000000>;
-  skos:definition "Photographic services"@en;
+  skos:definition "Photographic services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "82130000"@en .
+  skos:prefLabel "82130000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <82140000> a skos:Concept;
   skos:broader <82000000>;
-  skos:definition "Graphic design"@en;
+  skos:definition "Graphic design"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "82140000"@en .
+  skos:prefLabel "82140000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <82150000> a skos:Concept;
   skos:broader <82000000>;
-  skos:definition "Professional artists and performers"@en;
+  skos:definition "Professional artists and performers"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "82150000"@en .
+  skos:prefLabel "82150000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <83000000> a skos:Concept;
-  skos:definition "Public Utilities and Public Sector Related Services"@en;
+  skos:definition "Public Utilities and Public Sector Related Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "Public Utilities and Public Sector Related Services"@en;
+  skos:prefLabel "Public Utilities and Public Sector Related Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:scopeNote "" .
 
 <83100000> a skos:Concept;
   skos:broader <83000000>;
-  skos:definition "Utilities"@en;
+  skos:definition "Utilities"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "83100000"@en .
+  skos:prefLabel "83100000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <83110000> a skos:Concept;
   skos:broader <83000000>;
-  skos:definition "Telecommunications media services"@en;
+  skos:definition "Telecommunications media services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "83110000"@en .
+  skos:prefLabel "83110000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <83120000> a skos:Concept;
   skos:broader <83000000>;
-  skos:definition "Information services"@en;
+  skos:definition "Information services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "83120000"@en .
+  skos:prefLabel "83120000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <84000000> a skos:Concept;
-  skos:definition "Financial and Insurance Services"@en;
+  skos:definition "Financial and Insurance Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "Financial and Insurance Services"@en;
+  skos:prefLabel "Financial and Insurance Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:scopeNote "" .
 
 <84100000> a skos:Concept;
   skos:broader <84000000>;
-  skos:definition "Development finance"@en;
+  skos:definition "Development finance"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "84100000"@en .
+  skos:prefLabel "84100000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <84110000> a skos:Concept;
   skos:broader <84000000>;
-  skos:definition "Accounting and bookkeeping services"@en;
+  skos:definition "Accounting and bookkeeping services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "84110000"@en .
+  skos:prefLabel "84110000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <84120000> a skos:Concept;
   skos:broader <84000000>;
-  skos:definition "Banking and investment"@en;
+  skos:definition "Banking and investment"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "84120000"@en .
+  skos:prefLabel "84120000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <84130000> a skos:Concept;
   skos:broader <84000000>;
-  skos:definition "Insurance and retirement services"@en;
+  skos:definition "Insurance and retirement services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "84130000"@en .
+  skos:prefLabel "84130000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <84140000> a skos:Concept;
   skos:broader <84000000>;
-  skos:definition "Credit agencies"@en;
+  skos:definition "Credit agencies"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "84140000"@en .
+  skos:prefLabel "84140000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <85000000> a skos:Concept;
-  skos:definition "Healthcare Services"@en;
+  skos:definition "Healthcare Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "Healthcare Services"@en;
+  skos:prefLabel "Healthcare Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:scopeNote "" .
 
 <85100000> a skos:Concept;
   skos:broader <85000000>;
-  skos:definition "Comprehensive health services"@en;
+  skos:definition "Comprehensive health services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "85100000"@en .
+  skos:prefLabel "85100000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <85110000> a skos:Concept;
   skos:broader <85000000>;
-  skos:definition "Disease prevention and control"@en;
+  skos:definition "Disease prevention and control"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "85110000"@en .
+  skos:prefLabel "85110000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <85120000> a skos:Concept;
   skos:broader <85000000>;
-  skos:definition "Medical practice"@en;
+  skos:definition "Medical practice"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "85120000"@en .
+  skos:prefLabel "85120000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <85130000> a skos:Concept;
   skos:broader <85000000>;
-  skos:definition "Medical science research and experimentation"@en;
+  skos:definition "Medical science research and experimentation"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "85130000"@en .
+  skos:prefLabel "85130000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <85140000> a skos:Concept;
   skos:broader <85000000>;
   skos:definition "";
   skos:inScheme <>;
-  skos:prefLabel "85140000"@en .
+  skos:prefLabel "85140000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <85160000> a skos:Concept;
   skos:broader <85000000>;
-  skos:definition "Medical Surgical Equipment Maintenance Refurbishment and Repair Services"@en;
+  skos:definition "Medical Surgical Equipment Maintenance Refurbishment and Repair Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "85160000"@en .
+  skos:prefLabel "85160000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <86000000> a skos:Concept;
-  skos:definition "Education and Training Services"@en;
+  skos:definition "Education and Training Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "Education and Training Services"@en;
+  skos:prefLabel "Education and Training Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:scopeNote "" .
 
 <86100000> a skos:Concept;
   skos:broader <86000000>;
-  skos:definition "Vocational training"@en;
+  skos:definition "Vocational training"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "86100000"@en .
+  skos:prefLabel "86100000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <86110000> a skos:Concept;
   skos:broader <86000000>;
-  skos:definition "Alternative educational systems"@en;
+  skos:definition "Alternative educational systems"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "86110000"@en .
+  skos:prefLabel "86110000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <86120000> a skos:Concept;
   skos:broader <86000000>;
-  skos:definition "Educational institutions"@en;
+  skos:definition "Educational institutions"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "86120000"@en .
+  skos:prefLabel "86120000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <86130000> a skos:Concept;
   skos:broader <86000000>;
-  skos:definition "Specialized educational services"@en;
+  skos:definition "Specialized educational services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "86130000"@en .
+  skos:prefLabel "86130000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <86140000> a skos:Concept;
   skos:broader <86000000>;
-  skos:definition "Educational facilities"@en;
+  skos:definition "Educational facilities"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "86140000"@en .
+  skos:prefLabel "86140000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <90000000> a skos:Concept;
-  skos:definition "Travel and Food and Lodging and Entertainment Services"@en;
+  skos:definition "Travel and Food and Lodging and Entertainment Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "Travel and Food and Lodging and Entertainment Services"@en;
+  skos:prefLabel "Travel and Food and Lodging and Entertainment Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:scopeNote "" .
 
 <90100000> a skos:Concept;
   skos:broader <90000000>;
-  skos:definition "Restaurants and catering"@en;
+  skos:definition "Restaurants and catering"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "90100000"@en .
+  skos:prefLabel "90100000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <90110000> a skos:Concept;
   skos:broader <90000000>;
-  skos:definition "Hotels and lodging and meeting facilities"@en;
+  skos:definition "Hotels and lodging and meeting facilities"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "90110000"@en .
+  skos:prefLabel "90110000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <90120000> a skos:Concept;
   skos:broader <90000000>;
-  skos:definition "Travel facilitation"@en;
+  skos:definition "Travel facilitation"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "90120000"@en .
+  skos:prefLabel "90120000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <90130000> a skos:Concept;
   skos:broader <90000000>;
-  skos:definition "Performing arts"@en;
+  skos:definition "Performing arts"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "90130000"@en .
+  skos:prefLabel "90130000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <90140000> a skos:Concept;
   skos:broader <90000000>;
-  skos:definition "Commercial sports"@en;
+  skos:definition "Commercial sports"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "90140000"@en .
+  skos:prefLabel "90140000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <91000000> a skos:Concept;
-  skos:definition "Personal and Domestic Services"@en;
+  skos:definition "Personal and Domestic Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "Personal and Domestic Services"@en;
+  skos:prefLabel "Personal and Domestic Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:scopeNote "" .
 
 <91100000> a skos:Concept;
   skos:broader <91000000>;
-  skos:definition "Personal appearance"@en;
+  skos:definition "Personal appearance"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "91100000"@en .
+  skos:prefLabel "91100000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <91110000> a skos:Concept;
   skos:broader <91000000>;
-  skos:definition "Domestic and personal assistance"@en;
+  skos:definition "Domestic and personal assistance"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "91110000"@en .
+  skos:prefLabel "91110000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <92000000> a skos:Concept;
-  skos:definition "Security and Safety Services"@en;
+  skos:definition "Security and Safety Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "Security and Safety Services"@en;
+  skos:prefLabel "Security and Safety Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:scopeNote "" .
 
 <92120000> a skos:Concept;
   skos:broader <92000000>;
-  skos:definition "Security and personal safety"@en;
+  skos:definition "Security and personal safety"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "92120000"@en .
+  skos:prefLabel "92120000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <93000000> a skos:Concept;
-  skos:definition "Politics and Civic Affairs Services"@en;
+  skos:definition "Politics and Civic Affairs Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "Politics and Civic Affairs Services"@en;
+  skos:prefLabel "Politics and Civic Affairs Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:scopeNote "" .
 
 <93100000> a skos:Concept;
   skos:broader <93000000>;
-  skos:definition "Political systems and institutions"@en;
+  skos:definition "Political systems and institutions"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "93100000"@en .
+  skos:prefLabel "93100000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <93110000> a skos:Concept;
   skos:broader <93000000>;
-  skos:definition "Socio political conditions"@en;
+  skos:definition "Socio political conditions"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "93110000"@en .
+  skos:prefLabel "93110000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <93120000> a skos:Concept;
   skos:broader <93000000>;
-  skos:definition "International relations"@en;
+  skos:definition "International relations"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "93120000"@en .
+  skos:prefLabel "93120000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <93130000> a skos:Concept;
   skos:broader <93000000>;
-  skos:definition "Humanitarian aid and relief"@en;
+  skos:definition "Humanitarian aid and relief"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "93130000"@en .
+  skos:prefLabel "93130000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <93140000> a skos:Concept;
   skos:broader <93000000>;
-  skos:definition "Community and social services"@en;
+  skos:definition "Community and social services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "93140000"@en .
+  skos:prefLabel "93140000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <93160000> a skos:Concept;
   skos:broader <93000000>;
-  skos:definition "Taxation"@en;
+  skos:definition "Taxation"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "93160000"@en .
+  skos:prefLabel "93160000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <93170000> a skos:Concept;
   skos:broader <93000000>;
-  skos:definition "Trade policy and regulation"@en;
+  skos:definition "Trade policy and regulation"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "93170000"@en .
+  skos:prefLabel "93170000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <94000000> a skos:Concept;
-  skos:definition "Organizations and Clubs"@en;
+  skos:definition "Organizations and Clubs"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
   skos:prefLabel "";
   skos:scopeNote "" .
 
 <94100000> a skos:Concept;
   skos:broader <94000000>;
-  skos:definition "Work related organizations"@en;
+  skos:definition "Work related organizations"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "94100000"@en .
+  skos:prefLabel "94100000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <94110000> a skos:Concept;
   skos:broader <94000000>;
-  skos:definition "Religious organizations"@en;
+  skos:definition "Religious organizations"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "94110000"@en .
+  skos:prefLabel "94110000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <94120000> a skos:Concept;
   skos:broader <94000000>;
-  skos:definition "Clubs"@en;
+  skos:definition "Clubs"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "94120000"@en .
+  skos:prefLabel "94120000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <94130000> a skos:Concept;
   skos:broader <94000000>;
-  skos:definition "Civic organizations and associations and movements"@en;
+  skos:definition "Civic organizations and associations and movements"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "94130000"@en .
+  skos:prefLabel "94130000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <95000000> a skos:Concept;
-  skos:definition "Land and Buildings and Structures and Thoroughfares"@en;
+  skos:definition "Land and Buildings and Structures and Thoroughfares"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "Land and Buildings and Structures and Thoroughfares"@en;
+  skos:prefLabel "Land and Buildings and Structures and Thoroughfares"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:scopeNote "" .
 
 <95100000> a skos:Concept;
   skos:broader <95000000>;
-  skos:definition "Land parcels"@en;
+  skos:definition "Land parcels"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "95100000"@en .
+  skos:prefLabel "95100000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <95110000> a skos:Concept;
   skos:broader <95000000>;
-  skos:definition "Thoroughfares"@en;
+  skos:definition "Thoroughfares"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "95110000"@en .
+  skos:prefLabel "95110000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <95120000> a skos:Concept;
   skos:broader <95000000>;
-  skos:definition "Permanent buildings and structures"@en;
+  skos:definition "Permanent buildings and structures"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "95120000"@en .
+  skos:prefLabel "95120000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <95130000> a skos:Concept;
   skos:broader <95000000>;
-  skos:definition "Portable buildings and structures"@en;
+  skos:definition "Portable buildings and structures"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "95130000"@en .
+  skos:prefLabel "95130000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .
 
 <95140000> a skos:Concept;
   skos:broader <95000000>;
-  skos:definition "Prefabricated buildings and structures"@en;
+  skos:definition "Prefabricated buildings and structures"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "95140000"@en .
+  skos:prefLabel "95140000"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt .

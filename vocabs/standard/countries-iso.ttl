@@ -12,13 +12,14 @@ coun: a skos:ConceptScheme;
   dc:creator "Solidarity Economy Association";
   dc:description "A controlled vocabulary of countries compatible with ISO-3166-2 for SSE";
   dc:language "en-en";
-  dc:modified "2022-01-19"^^xsd:date;
+  dc:modified "2022-01-21"^^xsd:date;
   dc:publisher <http://www.ripess.org/>;
   dc:title "Länder"@de,
     "Countries"@en,
     "Países"@es,
     "Des Pays"@fr,
     "국가"@ko,
+    ""@pt,
     "国别"@zh;
   dcterms:created "2021-02-22"^^xsd:date;
   dcterms:creator <http://solidarityeconomy.coop>;
@@ -32,6 +33,7 @@ coun: a skos:ConceptScheme;
     "Andorra"@es,
     "Andorre"@fr,
     "안도라"@ko,
+    ""@pt,
     "安道尔"@zh .
 
 <AE> a skos:Concept;
@@ -42,6 +44,7 @@ coun: a skos:ConceptScheme;
     "Emiratos Árabes Unidos"@es,
     "Émirats arabes unis"@fr,
     "아랍에미리트"@ko,
+    ""@pt,
     "阿联酋"@zh .
 
 <AF> a skos:Concept;
@@ -52,6 +55,7 @@ coun: a skos:ConceptScheme;
     "Afganistán"@es,
     "Afghanistan"@fr,
     "아프가니스탄"@ko,
+    ""@pt,
     "阿富汗"@zh .
 
 <AG> a skos:Concept;
@@ -62,6 +66,7 @@ coun: a skos:ConceptScheme;
     "Antigua y Barbuda"@es,
     "Antigua-et-Barbuda"@fr,
     "앤티가 바부다"@ko,
+    ""@pt,
     "安提瓜和巴布达"@zh .
 
 <AI> a skos:Concept;
@@ -72,6 +77,7 @@ coun: a skos:ConceptScheme;
     "Anguila"@es,
     "Anguilla"@fr,
     "앵귈라"@ko,
+    ""@pt,
     "安圭拉"@zh .
 
 <AL> a skos:Concept;
@@ -82,6 +88,7 @@ coun: a skos:ConceptScheme;
     "Albania"@es,
     "Albanie"@fr,
     "알바니아"@ko,
+    ""@pt,
     "阿尔巴尼亚"@zh .
 
 <AM> a skos:Concept;
@@ -92,6 +99,7 @@ coun: a skos:ConceptScheme;
     "Armenia"@es,
     "Arménie"@fr,
     "아르메니아"@ko,
+    ""@pt,
     "亚美尼亚"@zh .
 
 <AO> a skos:Concept;
@@ -102,6 +110,7 @@ coun: a skos:ConceptScheme;
     "Angola"@es,
     "Angola"@fr,
     "앙골라"@ko,
+    ""@pt,
     "安哥拉"@zh .
 
 <AQ> a skos:Concept;
@@ -111,6 +120,7 @@ coun: a skos:ConceptScheme;
     "Antártida"@es,
     "Antarctique"@fr,
     "남극"@ko,
+    ""@pt,
     "南极洲"@zh .
 
 <AR> a skos:Concept;
@@ -121,6 +131,7 @@ coun: a skos:ConceptScheme;
     "Argentina"@es,
     "Argentine"@fr,
     "아르헨티나"@ko,
+    ""@pt,
     "阿根廷"@zh .
 
 <AS> a skos:Concept;
@@ -131,6 +142,7 @@ coun: a skos:ConceptScheme;
     "Samoa Estadounidense"@es,
     "Samoa américaines"@fr,
     "아메리칸사모아"@ko,
+    ""@pt,
     "美属萨摩亚"@zh .
 
 <AT> a skos:Concept;
@@ -141,6 +153,7 @@ coun: a skos:ConceptScheme;
     "Austria"@es,
     "Autriche"@fr,
     "오스트리아"@ko,
+    ""@pt,
     "奥地利"@zh .
 
 <AU> a skos:Concept;
@@ -151,6 +164,7 @@ coun: a skos:ConceptScheme;
     "Australia"@es,
     "Australie"@fr,
     "오스트레일리아"@ko,
+    ""@pt,
     "澳大利亚"@zh .
 
 <AW> a skos:Concept;
@@ -161,6 +175,7 @@ coun: a skos:ConceptScheme;
     "Aruba"@es,
     "Aruba"@fr,
     "아루바"@ko,
+    ""@pt,
     "阿鲁巴"@zh .
 
 <AX> a skos:Concept;
@@ -171,6 +186,7 @@ coun: a skos:ConceptScheme;
     "Islas Äland"@es,
     "Åland, Îles"@fr,
     "올란드 제도"@ko,
+    ""@pt,
     "奥兰群岛"@zh .
 
 <AZ> a skos:Concept;
@@ -181,6 +197,7 @@ coun: a skos:ConceptScheme;
     "Azerbaiyán"@es,
     "Azerbaïdjan"@fr,
     "아제르바이잔"@ko,
+    ""@pt,
     "阿塞拜疆"@zh .
 
 <BA> a skos:Concept;
@@ -191,6 +208,7 @@ coun: a skos:ConceptScheme;
     "Bosnia y Herzegovina"@es,
     "Bosnie-Herzégovine"@fr,
     "보스니아 헤르체고비나"@ko,
+    ""@pt,
     "波斯尼亚和黑塞哥维那"@zh .
 
 <BB> a skos:Concept;
@@ -201,6 +219,7 @@ coun: a skos:ConceptScheme;
     "Barbados"@es,
     "Barbade"@fr,
     "바베이도스"@ko,
+    ""@pt,
     "巴巴多斯"@zh .
 
 <BD> a skos:Concept;
@@ -211,6 +230,7 @@ coun: a skos:ConceptScheme;
     "Bangladés"@es,
     "Bangladesh"@fr,
     "방글라데시"@ko,
+    ""@pt,
     "孟加拉"@zh .
 
 <BE> a skos:Concept;
@@ -221,6 +241,7 @@ coun: a skos:ConceptScheme;
     "Bélgica"@es,
     "Belgique"@fr,
     "벨기에"@ko,
+    ""@pt,
     "比利时"@zh .
 
 <BF> a skos:Concept;
@@ -231,6 +252,7 @@ coun: a skos:ConceptScheme;
     "Burquina Faso"@es,
     "Burkina Faso"@fr,
     "부르키나파소"@ko,
+    ""@pt,
     "布基纳法索"@zh .
 
 <BG> a skos:Concept;
@@ -241,6 +263,7 @@ coun: a skos:ConceptScheme;
     "Bulgaria"@es,
     "Bulgarie"@fr,
     "불가리아"@ko,
+    ""@pt,
     "保加利亚"@zh .
 
 <BH> a skos:Concept;
@@ -251,6 +274,7 @@ coun: a skos:ConceptScheme;
     "Baréin"@es,
     "Bahreïn"@fr,
     "바레인"@ko,
+    ""@pt,
     "巴林"@zh .
 
 <BI> a skos:Concept;
@@ -261,6 +285,7 @@ coun: a skos:ConceptScheme;
     "Burundi"@es,
     "Burundi"@fr,
     "부룬디"@ko,
+    ""@pt,
     "布隆迪"@zh .
 
 <BJ> a skos:Concept;
@@ -271,6 +296,7 @@ coun: a skos:ConceptScheme;
     "Benín"@es,
     "Bénin"@fr,
     "베냉"@ko,
+    ""@pt,
     "贝宁"@zh .
 
 <BL> a skos:Concept;
@@ -280,6 +306,7 @@ coun: a skos:ConceptScheme;
     "San Bartolomé"@es,
     "Saint-Barthélemy"@fr,
     "생바르텔레미"@ko,
+    ""@pt,
     "圣巴泰勒米岛"@zh .
 
 <BM> a skos:Concept;
@@ -290,6 +317,7 @@ coun: a skos:ConceptScheme;
     "Islas Bermudas"@es,
     "Bermudes"@fr,
     "버뮤다"@ko,
+    ""@pt,
     "百慕大"@zh .
 
 <BN> a skos:Concept;
@@ -300,6 +328,7 @@ coun: a skos:ConceptScheme;
     "Brunei Darussalam"@es,
     "Brunéi Darussalam"@fr,
     "브루나이 다루살람"@ko,
+    ""@pt,
     "文莱"@zh .
 
 <BO> a skos:Concept;
@@ -310,6 +339,7 @@ coun: a skos:ConceptScheme;
     "Bolivia"@es,
     "Bolivie"@fr,
     "볼리비아"@ko,
+    ""@pt,
     "波利维亚"@zh .
 
 <BQ> a skos:Concept;
@@ -320,6 +350,7 @@ coun: a skos:ConceptScheme;
     "Islas BES (Caribe Neerlandés)"@es,
     "Bonaire, Saint-Eustache et Saba"@fr,
     "보네르, 신트외스타티위스, 사바 섬"@ko,
+    ""@pt,
     "博奈尔、圣尤斯特歇斯岛和萨巴"@zh .
 
 <BR> a skos:Concept;
@@ -330,6 +361,7 @@ coun: a skos:ConceptScheme;
     "Brasil"@es,
     "Brésil"@fr,
     "브라질"@ko,
+    ""@pt,
     "巴西"@zh .
 
 <BS> a skos:Concept;
@@ -340,6 +372,7 @@ coun: a skos:ConceptScheme;
     "Bahamas"@es,
     "Bahamas"@fr,
     "바하마"@ko,
+    ""@pt,
     "巴哈马"@zh .
 
 <BT> a skos:Concept;
@@ -350,6 +383,7 @@ coun: a skos:ConceptScheme;
     "Bután"@es,
     "Bhoutan"@fr,
     "부탄"@ko,
+    ""@pt,
     "不丹"@zh .
 
 <BV> a skos:Concept;
@@ -359,6 +393,7 @@ coun: a skos:ConceptScheme;
     "Isla Bouvet"@es,
     "île Bouvet"@fr,
     "부베 섬"@ko,
+    ""@pt,
     "布维群岛"@zh .
 
 <BW> a skos:Concept;
@@ -369,6 +404,7 @@ coun: a skos:ConceptScheme;
     "Botsuana"@es,
     "Botswana"@fr,
     "보츠와나"@ko,
+    ""@pt,
     "博兹瓦那"@zh .
 
 <BY> a skos:Concept;
@@ -379,6 +415,7 @@ coun: a skos:ConceptScheme;
     "Bielorrusia"@es,
     "Bélarus"@fr,
     "벨라루스"@ko,
+    ""@pt,
     "白俄罗斯"@zh .
 
 <BZ> a skos:Concept;
@@ -389,6 +426,7 @@ coun: a skos:ConceptScheme;
     "Belice"@es,
     "Belize"@fr,
     "벨리즈"@ko,
+    ""@pt,
     "伯利兹"@zh .
 
 <CA> a skos:Concept;
@@ -399,6 +437,7 @@ coun: a skos:ConceptScheme;
     "Canadá"@es,
     "Canada"@fr,
     "캐나다"@ko,
+    ""@pt,
     "加拿大"@zh .
 
 <CC> a skos:Concept;
@@ -409,6 +448,7 @@ coun: a skos:ConceptScheme;
     "Islas Cocos (Keeling)"@es,
     "Cocos (Keeling), Îles"@fr,
     "코코스 제도"@ko,
+    ""@pt,
     "科科斯群岛"@zh .
 
 <CD> a skos:Concept;
@@ -419,6 +459,7 @@ coun: a skos:ConceptScheme;
     "Congo, República Democrática del"@es,
     "République démocratique du Congo"@fr,
     "콩고 민주 공화국"@ko,
+    ""@pt,
     "刚果民主共和国"@zh .
 
 <CF> a skos:Concept;
@@ -429,6 +470,7 @@ coun: a skos:ConceptScheme;
     "República Centroafricana"@es,
     "République centrafricaine"@fr,
     "중앙아프리카 공화국"@ko,
+    ""@pt,
     "中非"@zh .
 
 <CG> a skos:Concept;
@@ -439,6 +481,7 @@ coun: a skos:ConceptScheme;
     "Congo"@es,
     "République du Congo"@fr,
     "콩고"@ko,
+    ""@pt,
     "刚果"@zh .
 
 <CH> a skos:Concept;
@@ -449,6 +492,7 @@ coun: a skos:ConceptScheme;
     "Suiza"@es,
     "Suisse"@fr,
     "스위스"@ko,
+    ""@pt,
     "瑞士"@zh .
 
 <CI> a skos:Concept;
@@ -459,6 +503,7 @@ coun: a skos:ConceptScheme;
     "Costa de Marfíl"@es,
     "Côte d'Ivoire"@fr,
     "코트디부아르"@ko,
+    ""@pt,
     "科特迪瓦"@zh .
 
 <CK> a skos:Concept;
@@ -469,6 +514,7 @@ coun: a skos:ConceptScheme;
     "Islas Cook"@es,
     "îles Cook"@fr,
     "쿡 제도"@ko,
+    ""@pt,
     "库克群岛"@zh .
 
 <CL> a skos:Concept;
@@ -479,6 +525,7 @@ coun: a skos:ConceptScheme;
     "Chile"@es,
     "Chili"@fr,
     "칠레"@ko,
+    ""@pt,
     "智利"@zh .
 
 <CM> a skos:Concept;
@@ -489,6 +536,7 @@ coun: a skos:ConceptScheme;
     "Camerún"@es,
     "Cameroun"@fr,
     "카메룬"@ko,
+    ""@pt,
     "喀麦隆"@zh .
 
 <CN> a skos:Concept;
@@ -499,6 +547,7 @@ coun: a skos:ConceptScheme;
     "China"@es,
     "Chine"@fr,
     "중국"@ko,
+    ""@pt,
     "中国"@zh .
 
 <CO> a skos:Concept;
@@ -509,6 +558,7 @@ coun: a skos:ConceptScheme;
     "Colombia"@es,
     "Colombie"@fr,
     "콜롬비아"@ko,
+    ""@pt,
     "哥伦比亚"@zh .
 
 <CR> a skos:Concept;
@@ -519,6 +569,7 @@ coun: a skos:ConceptScheme;
     "Costa Rica"@es,
     "Costa Rica"@fr,
     "코스타리카"@ko,
+    ""@pt,
     "哥斯达黎加"@zh .
 
 <CU> a skos:Concept;
@@ -529,6 +580,7 @@ coun: a skos:ConceptScheme;
     "Cuba"@es,
     "Cuba"@fr,
     "쿠바"@ko,
+    ""@pt,
     "古巴"@zh .
 
 <CV> a skos:Concept;
@@ -539,6 +591,7 @@ coun: a skos:ConceptScheme;
     "Cabo Verde"@es,
     "Cap-Vert"@fr,
     "카보베르데"@ko,
+    ""@pt,
     "佛得角"@zh .
 
 <CW> a skos:Concept;
@@ -549,6 +602,7 @@ coun: a skos:ConceptScheme;
     "Curazao"@es,
     "Curaçao"@fr,
     "퀴라소"@ko,
+    ""@pt,
     "库拉索"@zh .
 
 <CX> a skos:Concept;
@@ -559,6 +613,7 @@ coun: a skos:ConceptScheme;
     "Isla de Navidad"@es,
     "Christmas, Île"@fr,
     "크리스마스 섬"@ko,
+    ""@pt,
     "圣诞岛"@zh .
 
 <CY> a skos:Concept;
@@ -569,6 +624,7 @@ coun: a skos:ConceptScheme;
     "Chipre"@es,
     "Chypre"@fr,
     "키프로스"@ko,
+    ""@pt,
     "塞浦路斯"@zh .
 
 <CZ> a skos:Concept;
@@ -579,6 +635,7 @@ coun: a skos:ConceptScheme;
     "Chequia"@es,
     "Tchéquie"@fr,
     "체코"@ko,
+    ""@pt,
     "捷克"@zh .
 
 <DE> a skos:Concept;
@@ -589,6 +646,7 @@ coun: a skos:ConceptScheme;
     "Alemania"@es,
     "Allemagne"@fr,
     "독일"@ko,
+    ""@pt,
     "德国"@zh .
 
 <DJ> a skos:Concept;
@@ -599,6 +657,7 @@ coun: a skos:ConceptScheme;
     "Yibuti"@es,
     "Djibouti"@fr,
     "지부티"@ko,
+    ""@pt,
     "吉布提"@zh .
 
 <DK> a skos:Concept;
@@ -609,6 +668,7 @@ coun: a skos:ConceptScheme;
     "Dinamarca"@es,
     "Danemark"@fr,
     "덴마크"@ko,
+    ""@pt,
     "丹麦"@zh .
 
 <DM> a skos:Concept;
@@ -619,6 +679,7 @@ coun: a skos:ConceptScheme;
     "Dominica"@es,
     "Dominique"@fr,
     "도미니카 연방"@ko,
+    ""@pt,
     "多米尼克"@zh .
 
 <DO> a skos:Concept;
@@ -629,6 +690,7 @@ coun: a skos:ConceptScheme;
     "República Dominicana"@es,
     "République dominicaine"@fr,
     "도미니카 공화국"@ko,
+    ""@pt,
     "多米尼加共和国"@zh .
 
 <DZ> a skos:Concept;
@@ -639,6 +701,7 @@ coun: a skos:ConceptScheme;
     "Algeria"@es,
     "Algérie"@fr,
     "알제리"@ko,
+    ""@pt,
     "阿尔及利亚"@zh .
 
 <EC> a skos:Concept;
@@ -649,6 +712,7 @@ coun: a skos:ConceptScheme;
     "Ecuador"@es,
     "Équateur"@fr,
     "에콰도르"@ko,
+    ""@pt,
     "厄瓜多尔"@zh .
 
 <EE> a skos:Concept;
@@ -659,6 +723,7 @@ coun: a skos:ConceptScheme;
     "Estonia"@es,
     "Estonie"@fr,
     "에스토니아"@ko,
+    ""@pt,
     "爱沙尼亚"@zh .
 
 <EG> a skos:Concept;
@@ -669,6 +734,7 @@ coun: a skos:ConceptScheme;
     "Egipto"@es,
     "Égypte"@fr,
     "이집트"@ko,
+    ""@pt,
     "埃及"@zh .
 
 <EH> a skos:Concept;
@@ -679,6 +745,7 @@ coun: a skos:ConceptScheme;
     "Sahara Occidental"@es,
     "Sahara occidental"@fr,
     "서사하라"@ko,
+    ""@pt,
     "西撒哈拉"@zh .
 
 <ER> a skos:Concept;
@@ -689,6 +756,7 @@ coun: a skos:ConceptScheme;
     "Eritrea"@es,
     "Érythrée"@fr,
     "에리트레아"@ko,
+    ""@pt,
     "厄立特里亚"@zh .
 
 <ES> a skos:Concept;
@@ -699,6 +767,7 @@ coun: a skos:ConceptScheme;
     "España"@es,
     "Espagne"@fr,
     "스페인"@ko,
+    ""@pt,
     "西班牙"@zh .
 
 <ET> a skos:Concept;
@@ -709,6 +778,7 @@ coun: a skos:ConceptScheme;
     "Etiopía"@es,
     "Éthiopie"@fr,
     "에티오피아"@ko,
+    ""@pt,
     "埃塞俄比亚"@zh .
 
 <FI> a skos:Concept;
@@ -719,6 +789,7 @@ coun: a skos:ConceptScheme;
     "Finlandia"@es,
     "Finlande"@fr,
     "핀란드"@ko,
+    ""@pt,
     "芬兰"@zh .
 
 <FJ> a skos:Concept;
@@ -729,6 +800,7 @@ coun: a skos:ConceptScheme;
     "Fiyi"@es,
     "Fidji"@fr,
     "피지"@ko,
+    ""@pt,
     "斐济"@zh .
 
 <FK> a skos:Concept;
@@ -738,6 +810,7 @@ coun: a skos:ConceptScheme;
     "Islas Falkland (Malvinas)"@es,
     "Malouines, Îles (Falkland)"@fr,
     "포클랜드 제도 (말비나스)"@ko,
+    ""@pt,
     "福克兰群岛(马尔维纳斯)"@zh .
 
 <FM> a skos:Concept;
@@ -748,6 +821,7 @@ coun: a skos:ConceptScheme;
     "Micronesia, Estados Federados de"@es,
     "Micronésie, États fédérés de"@fr,
     "미크로네시아 연방"@ko,
+    ""@pt,
     "密克罗尼西亚"@zh .
 
 <FO> a skos:Concept;
@@ -758,6 +832,7 @@ coun: a skos:ConceptScheme;
     "Islas Feroe"@es,
     "îles Féroé"@fr,
     "페로 제도"@ko,
+    ""@pt,
     "法罗群岛"@zh .
 
 <FR> a skos:Concept;
@@ -768,6 +843,7 @@ coun: a skos:ConceptScheme;
     "Francia"@es,
     "France"@fr,
     "프랑스"@ko,
+    ""@pt,
     "法国"@zh .
 
 <GA> a skos:Concept;
@@ -778,6 +854,7 @@ coun: a skos:ConceptScheme;
     "Gabón"@es,
     "Gabon"@fr,
     "가봉"@ko,
+    ""@pt,
     "加蓬"@zh .
 
 <GB> a skos:Concept;
@@ -788,6 +865,7 @@ coun: a skos:ConceptScheme;
     "Reino Unido"@es,
     "Royaume-Uni"@fr,
     "영국"@ko,
+    ""@pt,
     "英国"@zh .
 
 <GD> a skos:Concept;
@@ -798,6 +876,7 @@ coun: a skos:ConceptScheme;
     "Granada"@es,
     "Grenade"@fr,
     "그레나다"@ko,
+    ""@pt,
     "格林纳达"@zh .
 
 <GE> a skos:Concept;
@@ -808,6 +887,7 @@ coun: a skos:ConceptScheme;
     "Georgia"@es,
     "Géorgie"@fr,
     "조지아"@ko,
+    ""@pt,
     "格鲁吉亚"@zh .
 
 <GF> a skos:Concept;
@@ -818,6 +898,7 @@ coun: a skos:ConceptScheme;
     "Guayana Francesa"@es,
     "Guyane française"@fr,
     "프랑스령 기아나"@ko,
+    ""@pt,
     "法属圭亚那"@zh .
 
 <GG> a skos:Concept;
@@ -827,6 +908,7 @@ coun: a skos:ConceptScheme;
     "Guernsey"@es,
     "Guernesey"@fr,
     "건지 섬"@ko,
+    ""@pt,
     "根西岛"@zh .
 
 <GH> a skos:Concept;
@@ -837,6 +919,7 @@ coun: a skos:ConceptScheme;
     "Ghana"@es,
     "Ghana"@fr,
     "가나"@ko,
+    ""@pt,
     "加纳"@zh .
 
 <GI> a skos:Concept;
@@ -847,6 +930,7 @@ coun: a skos:ConceptScheme;
     "Gibraltar"@es,
     "Gibraltar"@fr,
     "지브롤터"@ko,
+    ""@pt,
     "直布罗陀"@zh .
 
 <GL> a skos:Concept;
@@ -857,6 +941,7 @@ coun: a skos:ConceptScheme;
     "Groenlandia"@es,
     "Groënland"@fr,
     "그린란드"@ko,
+    ""@pt,
     "格陵兰"@zh .
 
 <GM> a skos:Concept;
@@ -867,6 +952,7 @@ coun: a skos:ConceptScheme;
     "Gambia"@es,
     "Gambie"@fr,
     "감비아"@ko,
+    ""@pt,
     "冈比亚"@zh .
 
 <GN> a skos:Concept;
@@ -877,6 +963,7 @@ coun: a skos:ConceptScheme;
     "Guinea"@es,
     "Guinée"@fr,
     "기니"@ko,
+    ""@pt,
     "几内亚"@zh .
 
 <GP> a skos:Concept;
@@ -887,6 +974,7 @@ coun: a skos:ConceptScheme;
     "Guadalupe"@es,
     "Guadeloupe"@fr,
     "과들루프"@ko,
+    ""@pt,
     "瓜德罗普"@zh .
 
 <GQ> a skos:Concept;
@@ -897,6 +985,7 @@ coun: a skos:ConceptScheme;
     "Guinea Ecuatorial"@es,
     "Guinée Équatoriale"@fr,
     "적도 기니"@ko,
+    ""@pt,
     "赤道几内亚"@zh .
 
 <GR> a skos:Concept;
@@ -907,6 +996,7 @@ coun: a skos:ConceptScheme;
     "Grecia"@es,
     "Grèce"@fr,
     "그리스"@ko,
+    ""@pt,
     "希腊"@zh .
 
 <GS> a skos:Concept;
@@ -916,6 +1006,7 @@ coun: a skos:ConceptScheme;
     "Islas Georgias del Sur y Sándwich del Sur"@es,
     "Géorgie du Sud et les îles Sandwich du Sud"@fr,
     "사우스조지아 사우스샌드위치 제도"@ko,
+    ""@pt,
     "南乔治亚岛和南桑德韦奇岛"@zh .
 
 <GT> a skos:Concept;
@@ -926,6 +1017,7 @@ coun: a skos:ConceptScheme;
     "Guatemala"@es,
     "Guatemala"@fr,
     "과테말라"@ko,
+    ""@pt,
     "瓜地马拉"@zh .
 
 <GU> a skos:Concept;
@@ -936,6 +1028,7 @@ coun: a skos:ConceptScheme;
     "Guam"@es,
     "Guam"@fr,
     "괌"@ko,
+    ""@pt,
     "关岛"@zh .
 
 <GW> a skos:Concept;
@@ -946,6 +1039,7 @@ coun: a skos:ConceptScheme;
     "Guinea-Bisáu"@es,
     "Guinée-Bissau"@fr,
     "기니비사우"@ko,
+    ""@pt,
     "几内亚比绍"@zh .
 
 <GY> a skos:Concept;
@@ -956,6 +1050,7 @@ coun: a skos:ConceptScheme;
     "Guyana"@es,
     "Guyana"@fr,
     "가이아나"@ko,
+    ""@pt,
     "圭亚那"@zh .
 
 <HK> a skos:Concept;
@@ -966,6 +1061,7 @@ coun: a skos:ConceptScheme;
     "Hong Kong"@es,
     "Hong Kong"@fr,
     "홍콩"@ko,
+    ""@pt,
     "香港"@zh .
 
 <HM> a skos:Concept;
@@ -975,6 +1071,7 @@ coun: a skos:ConceptScheme;
     "Islas Heard y McDonald"@es,
     "îles Heard-et-MacDonald"@fr,
     "허드 맥도널드 제도"@ko,
+    ""@pt,
     "赫德岛与麦克唐纳群岛"@zh .
 
 <HN> a skos:Concept;
@@ -985,6 +1082,7 @@ coun: a skos:ConceptScheme;
     "Honduras"@es,
     "Honduras"@fr,
     "온두라스"@ko,
+    ""@pt,
     "洪都拉斯"@zh .
 
 <HR> a skos:Concept;
@@ -995,6 +1093,7 @@ coun: a skos:ConceptScheme;
     "Croacia"@es,
     "Croatie"@fr,
     "크로아티아"@ko,
+    ""@pt,
     "克罗地亚"@zh .
 
 <HT> a skos:Concept;
@@ -1005,6 +1104,7 @@ coun: a skos:ConceptScheme;
     "Haití"@es,
     "Haïti"@fr,
     "아이티"@ko,
+    ""@pt,
     "海地"@zh .
 
 <HU> a skos:Concept;
@@ -1015,6 +1115,7 @@ coun: a skos:ConceptScheme;
     "Hungría"@es,
     "Hongrie"@fr,
     "헝가리"@ko,
+    ""@pt,
     "匈牙利"@zh .
 
 <ID> a skos:Concept;
@@ -1025,6 +1126,7 @@ coun: a skos:ConceptScheme;
     "Indonesia"@es,
     "Indonésie"@fr,
     "인도네시아"@ko,
+    ""@pt,
     "印度尼西亚"@zh .
 
 <IE> a skos:Concept;
@@ -1035,6 +1137,7 @@ coun: a skos:ConceptScheme;
     "Irlanda"@es,
     "Irlande"@fr,
     "아일랜드"@ko,
+    ""@pt,
     "爱尔兰"@zh .
 
 <IL> a skos:Concept;
@@ -1045,6 +1148,7 @@ coun: a skos:ConceptScheme;
     "Israel"@es,
     "Israël"@fr,
     "이스라엘"@ko,
+    ""@pt,
     "以色列"@zh .
 
 <IM> a skos:Concept;
@@ -1054,6 +1158,7 @@ coun: a skos:ConceptScheme;
     "Isla de Man"@es,
     "Île de Man"@fr,
     "맨 섬"@ko,
+    ""@pt,
     "曼岛"@zh .
 
 <IN> a skos:Concept;
@@ -1064,6 +1169,7 @@ coun: a skos:ConceptScheme;
     "India"@es,
     "Inde"@fr,
     "인도"@ko,
+    ""@pt,
     "印度"@zh .
 
 <IO> a skos:Concept;
@@ -1074,6 +1180,7 @@ coun: a skos:ConceptScheme;
     "Territorio Británico del Océano Índico"@es,
     "Territoire britannique de l'océan Indien"@fr,
     "영국령 인도양 지역"@ko,
+    ""@pt,
     "英属印度洋领地"@zh .
 
 <IQ> a skos:Concept;
@@ -1084,6 +1191,7 @@ coun: a skos:ConceptScheme;
     "Irak"@es,
     "Irak"@fr,
     "이라크"@ko,
+    ""@pt,
     "伊拉克"@zh .
 
 <IR> a skos:Concept;
@@ -1094,6 +1202,7 @@ coun: a skos:ConceptScheme;
     "Irán, República islámica de"@es,
     "Iran, République islamique d'"@fr,
     "이란 이슬람 공화국"@ko,
+    ""@pt,
     "伊朗"@zh .
 
 <IS> a skos:Concept;
@@ -1104,6 +1213,7 @@ coun: a skos:ConceptScheme;
     "Islandia"@es,
     "Islande"@fr,
     "아이슬란드"@ko,
+    ""@pt,
     "冰岛"@zh .
 
 <IT> a skos:Concept;
@@ -1114,6 +1224,7 @@ coun: a skos:ConceptScheme;
     "Italia"@es,
     "Italie"@fr,
     "이탈리아"@ko,
+    ""@pt,
     "意大利"@zh .
 
 <JE> a skos:Concept;
@@ -1123,6 +1234,7 @@ coun: a skos:ConceptScheme;
     "Jersey"@es,
     "Jersey"@fr,
     "저지 섬"@ko,
+    ""@pt,
     "泽西岛"@zh .
 
 <JM> a skos:Concept;
@@ -1133,6 +1245,7 @@ coun: a skos:ConceptScheme;
     "Jamaica"@es,
     "Jamaïque"@fr,
     "자메이카"@ko,
+    ""@pt,
     "牙买加"@zh .
 
 <JO> a skos:Concept;
@@ -1143,6 +1256,7 @@ coun: a skos:ConceptScheme;
     "Jordania"@es,
     "Jordanie"@fr,
     "요르단"@ko,
+    ""@pt,
     "约旦"@zh .
 
 <JP> a skos:Concept;
@@ -1153,6 +1267,7 @@ coun: a skos:ConceptScheme;
     "Japón"@es,
     "Japon"@fr,
     "일본"@ko,
+    ""@pt,
     "日本"@zh .
 
 <KE> a skos:Concept;
@@ -1163,6 +1278,7 @@ coun: a skos:ConceptScheme;
     "Kenia"@es,
     "Kenya"@fr,
     "케냐"@ko,
+    ""@pt,
     "肯尼亚"@zh .
 
 <KG> a skos:Concept;
@@ -1173,6 +1289,7 @@ coun: a skos:ConceptScheme;
     "Kirguistán"@es,
     "Kirghizistan"@fr,
     "키르기스스탄"@ko,
+    ""@pt,
     "吉尔吉斯坦"@zh .
 
 <KH> a skos:Concept;
@@ -1183,6 +1300,7 @@ coun: a skos:ConceptScheme;
     "Camboya"@es,
     "Cambodge"@fr,
     "캄보디아"@ko,
+    ""@pt,
     "柬埔塞"@zh .
 
 <KI> a skos:Concept;
@@ -1193,6 +1311,7 @@ coun: a skos:ConceptScheme;
     "Kiribati"@es,
     "Kiribati"@fr,
     "키리바시"@ko,
+    ""@pt,
     "基里巴斯"@zh .
 
 <KM> a skos:Concept;
@@ -1203,6 +1322,7 @@ coun: a skos:ConceptScheme;
     "Comores, Islas"@es,
     "Comores"@fr,
     "코모로"@ko,
+    ""@pt,
     "科摩罗"@zh .
 
 <KN> a skos:Concept;
@@ -1213,6 +1333,7 @@ coun: a skos:ConceptScheme;
     "San Cristóbal y Nieves"@es,
     "Saint-Christophe-et-Niévès"@fr,
     "세인트키츠 네비스"@ko,
+    ""@pt,
     "圣基茨和尼维斯"@zh .
 
 <KP> a skos:Concept;
@@ -1223,6 +1344,7 @@ coun: a skos:ConceptScheme;
     "Corea, República Democrática Popular de"@es,
     "Corée, République populaire démocratique de"@fr,
     "조선민주주의인민공화국"@ko,
+    ""@pt,
     "朝鲜"@zh .
 
 <KR> a skos:Concept;
@@ -1233,6 +1355,7 @@ coun: a skos:ConceptScheme;
     "Corea, República de"@es,
     "Corée, République de"@fr,
     "대한민국"@ko,
+    ""@pt,
     "韩国"@zh .
 
 <KW> a skos:Concept;
@@ -1243,6 +1366,7 @@ coun: a skos:ConceptScheme;
     "Kuwait"@es,
     "Koweït"@fr,
     "쿠웨이트"@ko,
+    ""@pt,
     "科威特"@zh .
 
 <KY> a skos:Concept;
@@ -1253,6 +1377,7 @@ coun: a skos:ConceptScheme;
     "Islas Caimán"@es,
     "îles Caïmans"@fr,
     "케이맨 제도"@ko,
+    ""@pt,
     "开曼群岛"@zh .
 
 <KZ> a skos:Concept;
@@ -1263,6 +1388,7 @@ coun: a skos:ConceptScheme;
     "Kazajistán"@es,
     "Kazakhstan"@fr,
     "카자흐스탄"@ko,
+    ""@pt,
     "哈萨克斯坦"@zh .
 
 <LA> a skos:Concept;
@@ -1273,6 +1399,7 @@ coun: a skos:ConceptScheme;
     "República Democrática Popular de Lao"@es,
     "Lao, République démocratique populaire"@fr,
     "라오 인민 민주주의 공화국"@ko,
+    ""@pt,
     "老挝人民民主共和国"@zh .
 
 <LB> a skos:Concept;
@@ -1283,6 +1410,7 @@ coun: a skos:ConceptScheme;
     "Líbano"@es,
     "Liban"@fr,
     "레바논"@ko,
+    ""@pt,
     "黎巴嫩"@zh .
 
 <LC> a skos:Concept;
@@ -1293,6 +1421,7 @@ coun: a skos:ConceptScheme;
     "Santa Lucía"@es,
     "Sainte-Lucie"@fr,
     "세인트루시아"@ko,
+    ""@pt,
     "圣路西亚"@zh .
 
 <LI> a skos:Concept;
@@ -1303,6 +1432,7 @@ coun: a skos:ConceptScheme;
     "Liechtenstein"@es,
     "Liechtenstein"@fr,
     "리히텐슈타인"@ko,
+    ""@pt,
     "列支敦士登"@zh .
 
 <LK> a skos:Concept;
@@ -1313,6 +1443,7 @@ coun: a skos:ConceptScheme;
     "Sri Lanka"@es,
     "Sri Lanka"@fr,
     "스리랑카"@ko,
+    ""@pt,
     "斯里兰卡"@zh .
 
 <LR> a skos:Concept;
@@ -1323,6 +1454,7 @@ coun: a skos:ConceptScheme;
     "Liberia"@es,
     "Libéria"@fr,
     "라이베리아"@ko,
+    ""@pt,
     "利比里亚"@zh .
 
 <LS> a skos:Concept;
@@ -1333,6 +1465,7 @@ coun: a skos:ConceptScheme;
     "Lesoto"@es,
     "Lesotho"@fr,
     "레소토"@ko,
+    ""@pt,
     "莱索托"@zh .
 
 <LT> a skos:Concept;
@@ -1343,6 +1476,7 @@ coun: a skos:ConceptScheme;
     "Lituania"@es,
     "Lituanie"@fr,
     "리투아니아"@ko,
+    ""@pt,
     "立陶宛"@zh .
 
 <LU> a skos:Concept;
@@ -1353,6 +1487,7 @@ coun: a skos:ConceptScheme;
     "Luxemburgo"@es,
     "Luxembourg"@fr,
     "룩셈부르크"@ko,
+    ""@pt,
     "卢森堡"@zh .
 
 <LV> a skos:Concept;
@@ -1363,6 +1498,7 @@ coun: a skos:ConceptScheme;
     "Letonia"@es,
     "Lettonie"@fr,
     "라트비아"@ko,
+    ""@pt,
     "拉脱维亚"@zh .
 
 <LY> a skos:Concept;
@@ -1373,6 +1509,7 @@ coun: a skos:ConceptScheme;
     "Libia"@es,
     "Libye"@fr,
     "리비아"@ko,
+    ""@pt,
     "利比亚"@zh .
 
 <MA> a skos:Concept;
@@ -1383,6 +1520,7 @@ coun: a skos:ConceptScheme;
     "Marruecos"@es,
     "Maroc"@fr,
     "모로코"@ko,
+    ""@pt,
     "摩洛哥"@zh .
 
 <MC> a skos:Concept;
@@ -1393,6 +1531,7 @@ coun: a skos:ConceptScheme;
     "Mónaco"@es,
     "Monaco"@fr,
     "모나코"@ko,
+    ""@pt,
     "摩纳哥"@zh .
 
 <MD> a skos:Concept;
@@ -1403,6 +1542,7 @@ coun: a skos:ConceptScheme;
     "Moldavia"@es,
     "Moldavie"@fr,
     "몰도바"@ko,
+    ""@pt,
     "摩尔多瓦"@zh .
 
 <ME> a skos:Concept;
@@ -1413,6 +1553,7 @@ coun: a skos:ConceptScheme;
     "Montenegro"@es,
     "Monténégro"@fr,
     "몬테네그로"@ko,
+    ""@pt,
     "黑山"@zh .
 
 <MF> a skos:Concept;
@@ -1422,6 +1563,7 @@ coun: a skos:ConceptScheme;
     "San Martín (zona francesa)"@es,
     "Saint-Martin (partie française)"@fr,
     "생마르탱 (프랑스령)"@ko,
+    ""@pt,
     "法属圣马丁"@zh .
 
 <MG> a skos:Concept;
@@ -1432,6 +1574,7 @@ coun: a skos:ConceptScheme;
     "Madagascar"@es,
     "Madagascar"@fr,
     "마다가스카르"@ko,
+    ""@pt,
     "马达加斯加"@zh .
 
 <MH> a skos:Concept;
@@ -1442,6 +1585,7 @@ coun: a skos:ConceptScheme;
     "Islas Marshall"@es,
     "Îles Marshall"@fr,
     "마셜 제도"@ko,
+    ""@pt,
     "马绍尔群岛"@zh .
 
 <MK> a skos:Concept;
@@ -1452,6 +1596,7 @@ coun: a skos:ConceptScheme;
     "Macedonia del Norte"@es,
     "Macédoine du Nord"@fr,
     "북마케도니아"@ko,
+    ""@pt,
     "北马其顿"@zh .
 
 <ML> a skos:Concept;
@@ -1462,6 +1607,7 @@ coun: a skos:ConceptScheme;
     "Mali"@es,
     "Mali"@fr,
     "말리"@ko,
+    ""@pt,
     "马里"@zh .
 
 <MM> a skos:Concept;
@@ -1472,6 +1618,7 @@ coun: a skos:ConceptScheme;
     "Birmania"@es,
     "Birmanie"@fr,
     "미얀마"@ko,
+    ""@pt,
     "缅甸"@zh .
 
 <MN> a skos:Concept;
@@ -1482,6 +1629,7 @@ coun: a skos:ConceptScheme;
     "Mongolia"@es,
     "Mongolie"@fr,
     "몽골"@ko,
+    ""@pt,
     "蒙古"@zh .
 
 <MO> a skos:Concept;
@@ -1492,6 +1640,7 @@ coun: a skos:ConceptScheme;
     "Macao"@es,
     "Macau"@fr,
     "마카오"@ko,
+    ""@pt,
     "澳门"@zh .
 
 <MP> a skos:Concept;
@@ -1502,6 +1651,7 @@ coun: a skos:ConceptScheme;
     "Islas Marianas del Norte"@es,
     "Îles Mariannes du Nord"@fr,
     "북마리아나 제도"@ko,
+    ""@pt,
     "北马里亚纳群岛"@zh .
 
 <MQ> a skos:Concept;
@@ -1512,6 +1662,7 @@ coun: a skos:ConceptScheme;
     "Martinica"@es,
     "Martinique"@fr,
     "마르티니크"@ko,
+    ""@pt,
     "马提尼克"@zh .
 
 <MR> a skos:Concept;
@@ -1522,6 +1673,7 @@ coun: a skos:ConceptScheme;
     "Mauritania"@es,
     "Mauritanie"@fr,
     "모리타니"@ko,
+    ""@pt,
     "毛里塔尼亚"@zh .
 
 <MS> a skos:Concept;
@@ -1532,6 +1684,7 @@ coun: a skos:ConceptScheme;
     "Montserrat"@es,
     "Montserrat"@fr,
     "몬트세랫"@ko,
+    ""@pt,
     "蒙塞拉特岛"@zh .
 
 <MT> a skos:Concept;
@@ -1542,6 +1695,7 @@ coun: a skos:ConceptScheme;
     "Malta"@es,
     "Malte"@fr,
     "몰타"@ko,
+    ""@pt,
     "马尔他"@zh .
 
 <MU> a skos:Concept;
@@ -1552,6 +1706,7 @@ coun: a skos:ConceptScheme;
     "Mauricio"@es,
     "Maurice"@fr,
     "모리셔스"@ko,
+    ""@pt,
     "毛里求斯"@zh .
 
 <MV> a skos:Concept;
@@ -1562,6 +1717,7 @@ coun: a skos:ConceptScheme;
     "Islas Maldivas"@es,
     "Maldives"@fr,
     "몰디브"@ko,
+    ""@pt,
     "马尔代夫"@zh .
 
 <MW> a skos:Concept;
@@ -1572,6 +1728,7 @@ coun: a skos:ConceptScheme;
     "Malaui"@es,
     "Malawi"@fr,
     "말라위"@ko,
+    ""@pt,
     "马拉维"@zh .
 
 <MX> a skos:Concept;
@@ -1582,6 +1739,7 @@ coun: a skos:ConceptScheme;
     "México"@es,
     "Mexique"@fr,
     "멕시코"@ko,
+    ""@pt,
     "墨西哥"@zh .
 
 <MY> a skos:Concept;
@@ -1592,6 +1750,7 @@ coun: a skos:ConceptScheme;
     "Malasia"@es,
     "Malaisie"@fr,
     "말레이시아"@ko,
+    ""@pt,
     "马来西亚"@zh .
 
 <MZ> a skos:Concept;
@@ -1602,6 +1761,7 @@ coun: a skos:ConceptScheme;
     "Mozambique"@es,
     "Mozambique"@fr,
     "모잠비크"@ko,
+    ""@pt,
     "莫桑比克"@zh .
 
 <NA> a skos:Concept;
@@ -1612,6 +1772,7 @@ coun: a skos:ConceptScheme;
     "Namibia"@es,
     "Namibie"@fr,
     "나미비아"@ko,
+    ""@pt,
     "纳米比亚"@zh .
 
 <NC> a skos:Concept;
@@ -1622,6 +1783,7 @@ coun: a skos:ConceptScheme;
     "Nueva Caledonia"@es,
     "Nouvelle-Calédonie"@fr,
     "누벨칼레도니"@ko,
+    ""@pt,
     "新喀里多尼亚"@zh .
 
 <NE> a skos:Concept;
@@ -1632,6 +1794,7 @@ coun: a skos:ConceptScheme;
     "Niger"@es,
     "Niger"@fr,
     "니제르"@ko,
+    ""@pt,
     "尼日尔"@zh .
 
 <NF> a skos:Concept;
@@ -1642,6 +1805,7 @@ coun: a skos:ConceptScheme;
     "Isla Norfolk"@es,
     "île Norfolk"@fr,
     "노퍽 섬"@ko,
+    ""@pt,
     "诺福克岛"@zh .
 
 <NG> a skos:Concept;
@@ -1652,6 +1816,7 @@ coun: a skos:ConceptScheme;
     "Nigeria"@es,
     "Nigeria"@fr,
     "나이지리아"@ko,
+    ""@pt,
     "尼日利亚"@zh .
 
 <NI> a skos:Concept;
@@ -1662,6 +1827,7 @@ coun: a skos:ConceptScheme;
     "Nicaragua"@es,
     "Nicaragua"@fr,
     "니카라과"@ko,
+    ""@pt,
     "尼加拉瓜"@zh .
 
 <NL> a skos:Concept;
@@ -1672,6 +1838,7 @@ coun: a skos:ConceptScheme;
     "Países Bajos"@es,
     "Pays-Bas"@fr,
     "네덜란드"@ko,
+    ""@pt,
     "荷兰"@zh .
 
 <NO> a skos:Concept;
@@ -1682,6 +1849,7 @@ coun: a skos:ConceptScheme;
     "Noruega"@es,
     "Norvège"@fr,
     "노르웨이"@ko,
+    ""@pt,
     "挪威"@zh .
 
 <NP> a skos:Concept;
@@ -1692,6 +1860,7 @@ coun: a skos:ConceptScheme;
     "Nepal"@es,
     "Népal"@fr,
     "네팔"@ko,
+    ""@pt,
     "尼泊尔"@zh .
 
 <NR> a skos:Concept;
@@ -1702,6 +1871,7 @@ coun: a skos:ConceptScheme;
     "Nauru"@es,
     "Nauru"@fr,
     "나우루"@ko,
+    ""@pt,
     "瑙鲁"@zh .
 
 <NU> a skos:Concept;
@@ -1712,6 +1882,7 @@ coun: a skos:ConceptScheme;
     "Niue"@es,
     "Nioue"@fr,
     "니우에"@ko,
+    ""@pt,
     "纽埃"@zh .
 
 <NZ> a skos:Concept;
@@ -1722,6 +1893,7 @@ coun: a skos:ConceptScheme;
     "Nueva Zelanda"@es,
     "Nouvelle-Zélande"@fr,
     "뉴질랜드"@ko,
+    ""@pt,
     "新西兰"@zh .
 
 <OM> a skos:Concept;
@@ -1732,6 +1904,7 @@ coun: a skos:ConceptScheme;
     "Omán"@es,
     "Oman"@fr,
     "오만"@ko,
+    ""@pt,
     "阿曼"@zh .
 
 <PA> a skos:Concept;
@@ -1742,6 +1915,7 @@ coun: a skos:ConceptScheme;
     "Panamá"@es,
     "Panama"@fr,
     "파나마"@ko,
+    ""@pt,
     "巴拿马"@zh .
 
 <PE> a skos:Concept;
@@ -1752,6 +1926,7 @@ coun: a skos:ConceptScheme;
     "Perú"@es,
     "Pérou"@fr,
     "페루"@ko,
+    ""@pt,
     "秘鲁"@zh .
 
 <PF> a skos:Concept;
@@ -1762,6 +1937,7 @@ coun: a skos:ConceptScheme;
     "Polinesia Francesa"@es,
     "Polynésie française"@fr,
     "프랑스령 폴리네시아"@ko,
+    ""@pt,
     "法属玻利尼西亚"@zh .
 
 <PG> a skos:Concept;
@@ -1772,6 +1948,7 @@ coun: a skos:ConceptScheme;
     "Papúa Nueva Guinea"@es,
     "Papouasie-Nouvelle-Guinée"@fr,
     "파푸아뉴기니"@ko,
+    ""@pt,
     "巴布亚新几内亚"@zh .
 
 <PH> a skos:Concept;
@@ -1782,6 +1959,7 @@ coun: a skos:ConceptScheme;
     "Filipinas"@es,
     "Philippines"@fr,
     "필리핀"@ko,
+    ""@pt,
     "菲律宾"@zh .
 
 <PK> a skos:Concept;
@@ -1792,6 +1970,7 @@ coun: a skos:ConceptScheme;
     "Pakistán"@es,
     "Pakistan"@fr,
     "파키스탄"@ko,
+    ""@pt,
     "巴基斯坦"@zh .
 
 <PL> a skos:Concept;
@@ -1802,6 +1981,7 @@ coun: a skos:ConceptScheme;
     "Polonia"@es,
     "Pologne"@fr,
     "폴란드"@ko,
+    ""@pt,
     "波兰"@zh .
 
 <PM> a skos:Concept;
@@ -1812,6 +1992,7 @@ coun: a skos:ConceptScheme;
     "San Pedro y Miquelon"@es,
     "Saint-Pierre-et-Miquelon"@fr,
     "생피에르 미클롱"@ko,
+    ""@pt,
     "圣皮埃尔和密克隆"@zh .
 
 <PN> a skos:Concept;
@@ -1822,6 +2003,7 @@ coun: a skos:ConceptScheme;
     "Pitcairn"@es,
     "Îles Pitcairn"@fr,
     "핏케언 제도"@ko,
+    ""@pt,
     "皮特克恩"@zh .
 
 <PR> a skos:Concept;
@@ -1832,6 +2014,7 @@ coun: a skos:ConceptScheme;
     "Puerto Rico"@es,
     "Porto Rico"@fr,
     "푸에르토리코"@ko,
+    ""@pt,
     "波多黎各"@zh .
 
 <PS> a skos:Concept;
@@ -1842,6 +2025,7 @@ coun: a skos:ConceptScheme;
     "Palestina, Estado de"@es,
     "Palestine, État de"@fr,
     "팔레스타인"@ko,
+    ""@pt,
     "巴勒斯坦"@zh .
 
 <PT> a skos:Concept;
@@ -1852,6 +2036,7 @@ coun: a skos:ConceptScheme;
     "Portugal"@es,
     "Portugal"@fr,
     "포르투갈"@ko,
+    ""@pt,
     "葡萄牙"@zh .
 
 <PW> a skos:Concept;
@@ -1862,6 +2047,7 @@ coun: a skos:ConceptScheme;
     "Palaos"@es,
     "Palaos"@fr,
     "팔라우"@ko,
+    ""@pt,
     "帕劳"@zh .
 
 <PY> a skos:Concept;
@@ -1872,6 +2058,7 @@ coun: a skos:ConceptScheme;
     "Paraguay"@es,
     "Paraguay"@fr,
     "파라과이"@ko,
+    ""@pt,
     "巴拉圭"@zh .
 
 <QA> a skos:Concept;
@@ -1882,6 +2069,7 @@ coun: a skos:ConceptScheme;
     "Catar"@es,
     "Qatar"@fr,
     "카타르"@ko,
+    ""@pt,
     "卡塔尔"@zh .
 
 <RE> a skos:Concept;
@@ -1892,6 +2080,7 @@ coun: a skos:ConceptScheme;
     "Reunión"@es,
     "Réunion, Île de la"@fr,
     "레위니옹"@ko,
+    ""@pt,
     "留尼汪"@zh .
 
 <RO> a skos:Concept;
@@ -1902,6 +2091,7 @@ coun: a skos:ConceptScheme;
     "Rumanía"@es,
     "Roumanie"@fr,
     "루마니아"@ko,
+    ""@pt,
     "罗马尼亚"@zh .
 
 <RS> a skos:Concept;
@@ -1912,6 +2102,7 @@ coun: a skos:ConceptScheme;
     "Serbia"@es,
     "Serbie"@fr,
     "세르비아"@ko,
+    ""@pt,
     "塞尔维亚"@zh .
 
 <RU> a skos:Concept;
@@ -1922,6 +2113,7 @@ coun: a skos:ConceptScheme;
     "Federación Rusa"@es,
     "Russie, Fédération de"@fr,
     "러시아 연방"@ko,
+    ""@pt,
     "俄罗斯"@zh .
 
 <RW> a skos:Concept;
@@ -1932,6 +2124,7 @@ coun: a skos:ConceptScheme;
     "Ruanda"@es,
     "Rwanda"@fr,
     "르완다"@ko,
+    ""@pt,
     "卢旺达"@zh .
 
 <SA> a skos:Concept;
@@ -1942,6 +2135,7 @@ coun: a skos:ConceptScheme;
     "Arabia Saudí"@es,
     "Arabie saoudite"@fr,
     "사우디아라비아"@ko,
+    ""@pt,
     "沙特阿拉伯"@zh .
 
 <SB> a skos:Concept;
@@ -1952,6 +2146,7 @@ coun: a skos:ConceptScheme;
     "Islas Salomón"@es,
     "Salomon, Îles"@fr,
     "솔로몬 제도"@ko,
+    ""@pt,
     "所罗门群岛"@zh .
 
 <SC> a skos:Concept;
@@ -1962,6 +2157,7 @@ coun: a skos:ConceptScheme;
     "Seychelles"@es,
     "Seychelles"@fr,
     "세이셸"@ko,
+    ""@pt,
     "塞舌尔"@zh .
 
 <SD> a skos:Concept;
@@ -1972,6 +2168,7 @@ coun: a skos:ConceptScheme;
     "Sudán"@es,
     "Soudan"@fr,
     "수단"@ko,
+    ""@pt,
     "苏丹"@zh .
 
 <SE> a skos:Concept;
@@ -1982,6 +2179,7 @@ coun: a skos:ConceptScheme;
     "Suecia"@es,
     "Suède"@fr,
     "스웨덴"@ko,
+    ""@pt,
     "瑞典"@zh .
 
 <SG> a skos:Concept;
@@ -1992,6 +2190,7 @@ coun: a skos:ConceptScheme;
     "Singapur"@es,
     "Singapour"@fr,
     "싱가포르"@ko,
+    ""@pt,
     "新加坡"@zh .
 
 <SH> a skos:Concept;
@@ -2002,6 +2201,7 @@ coun: a skos:ConceptScheme;
     "Santa Elena, Ascensión y Tristán de Acuña"@es,
     "Sainte-Hélène, Ascension et Tristan da Cunha"@fr,
     "세인트헬레나 어센션 트리스탄다쿠냐"@ko,
+    ""@pt,
     "圣赫勒拿-阿森松-特里斯坦达库尼亚"@zh .
 
 <SI> a skos:Concept;
@@ -2012,6 +2212,7 @@ coun: a skos:ConceptScheme;
     "Eslovenia"@es,
     "Slovénie"@fr,
     "슬로베니아"@ko,
+    ""@pt,
     "斯洛文尼亚"@zh .
 
 <SJ> a skos:Concept;
@@ -2022,6 +2223,7 @@ coun: a skos:ConceptScheme;
     "Svalbard y Jan Mayen"@es,
     "Svalbard et île Jan Mayen"@fr,
     "스발바르 얀마옌 제도"@ko,
+    ""@pt,
     "斯瓦尔巴特和扬马延岛"@zh .
 
 <SK> a skos:Concept;
@@ -2032,6 +2234,7 @@ coun: a skos:ConceptScheme;
     "Eslovaquia"@es,
     "Slovaquie"@fr,
     "슬로바키아"@ko,
+    ""@pt,
     "斯洛伐克"@zh .
 
 <SL> a skos:Concept;
@@ -2042,6 +2245,7 @@ coun: a skos:ConceptScheme;
     "Sierra Leona"@es,
     "Sierra Leone"@fr,
     "시에라리온"@ko,
+    ""@pt,
     "塞拉利昂"@zh .
 
 <SM> a skos:Concept;
@@ -2052,6 +2256,7 @@ coun: a skos:ConceptScheme;
     "San Marino"@es,
     "Saint-Marin"@fr,
     "산마리노"@ko,
+    ""@pt,
     "圣马力诺"@zh .
 
 <SN> a skos:Concept;
@@ -2062,6 +2267,7 @@ coun: a skos:ConceptScheme;
     "Senegal"@es,
     "Sénégal"@fr,
     "세네갈"@ko,
+    ""@pt,
     "塞内加尔"@zh .
 
 <SO> a skos:Concept;
@@ -2072,6 +2278,7 @@ coun: a skos:ConceptScheme;
     "Somalia"@es,
     "Somalie"@fr,
     "소말리아"@ko,
+    ""@pt,
     "索马里"@zh .
 
 <SR> a skos:Concept;
@@ -2082,6 +2289,7 @@ coun: a skos:ConceptScheme;
     "Surinám"@es,
     "Surinam"@fr,
     "수리남"@ko,
+    ""@pt,
     "苏里南"@zh .
 
 <SS> a skos:Concept;
@@ -2092,6 +2300,7 @@ coun: a skos:ConceptScheme;
     "Sudán del Sur"@es,
     "Soudan du Sud"@fr,
     "남수단"@ko,
+    ""@pt,
     "南苏丹"@zh .
 
 <ST> a skos:Concept;
@@ -2102,6 +2311,7 @@ coun: a skos:ConceptScheme;
     "Santo Tomé y Príncipe"@es,
     "Sao Tomé-et-Principe"@fr,
     "상투메 프린시페"@ko,
+    ""@pt,
     "圣多美和普林西比"@zh .
 
 <SV> a skos:Concept;
@@ -2112,6 +2322,7 @@ coun: a skos:ConceptScheme;
     "El Salvador"@es,
     "Salvador"@fr,
     "엘살바도르"@ko,
+    ""@pt,
     "萨尔瓦多"@zh .
 
 <SX> a skos:Concept;
@@ -2122,6 +2333,7 @@ coun: a skos:ConceptScheme;
     "Isla de San Martín (zona holandsea)"@es,
     "Saint-Martin (partie néerlandaise)"@fr,
     "신트마르턴 (네덜란드령)"@ko,
+    ""@pt,
     "荷属圣马丁"@zh .
 
 <SY> a skos:Concept;
@@ -2132,6 +2344,7 @@ coun: a skos:ConceptScheme;
     "República árabe de Siria"@es,
     "Syrienne, République arabe"@fr,
     "시리아 아랍 공화국"@ko,
+    ""@pt,
     "叙利亚"@zh .
 
 <SZ> a skos:Concept;
@@ -2142,6 +2355,7 @@ coun: a skos:ConceptScheme;
     "Suazilandia"@es,
     "Eswatini"@fr,
     "에스와티니"@ko,
+    ""@pt,
     "斯威士兰"@zh .
 
 <TC> a skos:Concept;
@@ -2152,6 +2366,7 @@ coun: a skos:ConceptScheme;
     "Islas Turcas y Caicos"@es,
     "îles Turques-et-Caïques"@fr,
     "터크스 케이커스 제도"@ko,
+    ""@pt,
     "特克斯和凯科斯群岛"@zh .
 
 <TD> a skos:Concept;
@@ -2162,6 +2377,7 @@ coun: a skos:ConceptScheme;
     "Chad"@es,
     "Tchad"@fr,
     "차드"@ko,
+    ""@pt,
     "乍得"@zh .
 
 <TF> a skos:Concept;
@@ -2172,6 +2388,7 @@ coun: a skos:ConceptScheme;
     "Territorios Franceses del Sur"@es,
     "Terres australes françaises"@fr,
     "프랑스령 남 자치구역"@ko,
+    ""@pt,
     "法属南半球领地"@zh .
 
 <TG> a skos:Concept;
@@ -2182,6 +2399,7 @@ coun: a skos:ConceptScheme;
     "Togo"@es,
     "Togo"@fr,
     "토고"@ko,
+    ""@pt,
     "多哥"@zh .
 
 <TH> a skos:Concept;
@@ -2192,6 +2410,7 @@ coun: a skos:ConceptScheme;
     "Tailandia"@es,
     "Thaïlande"@fr,
     "태국"@ko,
+    ""@pt,
     "泰国"@zh .
 
 <TJ> a skos:Concept;
@@ -2202,6 +2421,7 @@ coun: a skos:ConceptScheme;
     "Tayikistán"@es,
     "Tadjikistan"@fr,
     "타지키스탄"@ko,
+    ""@pt,
     "塔吉克斯坦"@zh .
 
 <TK> a skos:Concept;
@@ -2212,6 +2432,7 @@ coun: a skos:ConceptScheme;
     "Tokelau"@es,
     "Tokelau"@fr,
     "토켈라우"@ko,
+    ""@pt,
     "托克劳群岛"@zh .
 
 <TL> a skos:Concept;
@@ -2222,6 +2443,7 @@ coun: a skos:ConceptScheme;
     "Timor Oriental"@es,
     "Timor oriental"@fr,
     "동티모르"@ko,
+    ""@pt,
     "东帝汶"@zh .
 
 <TM> a skos:Concept;
@@ -2232,6 +2454,7 @@ coun: a skos:ConceptScheme;
     "Turkmenistán"@es,
     "Turkménistan"@fr,
     "투르크메니스탄"@ko,
+    ""@pt,
     "土库曼斯坦"@zh .
 
 <TN> a skos:Concept;
@@ -2242,6 +2465,7 @@ coun: a skos:ConceptScheme;
     "Tunez"@es,
     "Tunisie"@fr,
     "튀니지"@ko,
+    ""@pt,
     "突尼斯"@zh .
 
 <TO> a skos:Concept;
@@ -2252,6 +2476,7 @@ coun: a skos:ConceptScheme;
     "Tonga"@es,
     "Tonga"@fr,
     "통가"@ko,
+    ""@pt,
     "汤加"@zh .
 
 <TR> a skos:Concept;
@@ -2262,6 +2487,7 @@ coun: a skos:ConceptScheme;
     "Turquía"@es,
     "Turquie"@fr,
     "터키"@ko,
+    ""@pt,
     "土耳其"@zh .
 
 <TT> a skos:Concept;
@@ -2272,6 +2498,7 @@ coun: a skos:ConceptScheme;
     "Trinidad y Tobago"@es,
     "Trinité-et-Tobago"@fr,
     "트리니다드 토바고"@ko,
+    ""@pt,
     "特里尼达和多巴哥"@zh .
 
 <TV> a skos:Concept;
@@ -2282,6 +2509,7 @@ coun: a skos:ConceptScheme;
     "Tuvalu"@es,
     "Tuvalu"@fr,
     "투발루"@ko,
+    ""@pt,
     "图瓦鲁"@zh .
 
 <TW> a skos:Concept;
@@ -2292,6 +2520,7 @@ coun: a skos:ConceptScheme;
     "Taiwán"@es,
     "Taïwan"@fr,
     "타이완"@ko,
+    ""@pt,
     "台湾"@zh .
 
 <TZ> a skos:Concept;
@@ -2302,6 +2531,7 @@ coun: a skos:ConceptScheme;
     "Tanzania"@es,
     "Tanzanie"@fr,
     "탄자니아"@ko,
+    ""@pt,
     "坦桑尼亚"@zh .
 
 <UA> a skos:Concept;
@@ -2312,6 +2542,7 @@ coun: a skos:ConceptScheme;
     "Ucrania"@es,
     "Ukraine"@fr,
     "우크라이나"@ko,
+    ""@pt,
     "乌克兰"@zh .
 
 <UG> a skos:Concept;
@@ -2322,6 +2553,7 @@ coun: a skos:ConceptScheme;
     "Uganda"@es,
     "Ouganda"@fr,
     "우간다"@ko,
+    ""@pt,
     "乌干达"@zh .
 
 <UM> a skos:Concept;
@@ -2332,6 +2564,7 @@ coun: a skos:ConceptScheme;
     "Islas Ultramarinas Menores de Estados Unidos"@es,
     "Îles mineures éloignées des États-Unis"@fr,
     "미국령 군소 제도"@ko,
+    ""@pt,
     "美国本土外小岛屿"@zh .
 
 <US> a skos:Concept;
@@ -2342,6 +2575,7 @@ coun: a skos:ConceptScheme;
     "Estados Unidos"@es,
     "États-Unis"@fr,
     "미국"@ko,
+    ""@pt,
     "美国"@zh .
 
 <UY> a skos:Concept;
@@ -2352,6 +2586,7 @@ coun: a skos:ConceptScheme;
     "Uruguay"@es,
     "Uruguay"@fr,
     "우루과이"@ko,
+    ""@pt,
     "乌拉圭"@zh .
 
 <UZ> a skos:Concept;
@@ -2362,6 +2597,7 @@ coun: a skos:ConceptScheme;
     "Uzbekistán"@es,
     "Ouzbékistan"@fr,
     "우즈베키스탄"@ko,
+    ""@pt,
     "乌兹别克斯坦"@zh .
 
 <VA> a skos:Concept;
@@ -2372,6 +2608,7 @@ coun: a skos:ConceptScheme;
     "Santa Sede (Ciudad Estado del Vaticano)"@es,
     "Saint-Siège (état de la cité du Vatican)"@fr,
     "바티칸 시티 (Holy See)"@ko,
+    ""@pt,
     "梵地冈"@zh .
 
 <VC> a skos:Concept;
@@ -2382,6 +2619,7 @@ coun: a skos:ConceptScheme;
     "San Vicente y las Granadinas"@es,
     "Saint-Vincent-et-les-Grenadines"@fr,
     "세인트빈센트 그레나딘"@ko,
+    ""@pt,
     "圣文森特和格林纳丁斯"@zh .
 
 <VE> a skos:Concept;
@@ -2392,6 +2630,7 @@ coun: a skos:ConceptScheme;
     "Venezuela"@es,
     "Vénézuela"@fr,
     "베네수엘라"@ko,
+    ""@pt,
     "委内瑞拉"@zh .
 
 <VG> a skos:Concept;
@@ -2402,6 +2641,7 @@ coun: a skos:ConceptScheme;
     "Islas Vírgenes, Británicas"@es,
     "Îles Vierges britanniques"@fr,
     "버진 제도, 영국령"@ko,
+    ""@pt,
     "英属维京群岛"@zh .
 
 <VI> a skos:Concept;
@@ -2412,6 +2652,7 @@ coun: a skos:ConceptScheme;
     "Islas Vírgenes, de EEUU"@es,
     "Îles Vierges des États-Unis"@fr,
     "버진 제도, 미국령"@ko,
+    ""@pt,
     "美属维京群岛"@zh .
 
 <VN> a skos:Concept;
@@ -2422,6 +2663,7 @@ coun: a skos:ConceptScheme;
     "Vietnam"@es,
     "Viêt Nam"@fr,
     "베트남"@ko,
+    ""@pt,
     "越南"@zh .
 
 <VU> a skos:Concept;
@@ -2432,6 +2674,7 @@ coun: a skos:ConceptScheme;
     "Vanuatu"@es,
     "Vanuatu"@fr,
     "바누아투"@ko,
+    ""@pt,
     "瓦努阿图"@zh .
 
 <WF> a skos:Concept;
@@ -2442,6 +2685,7 @@ coun: a skos:ConceptScheme;
     "Wallis y Futuna"@es,
     "Wallis et Futuna"@fr,
     "왈리스 퓌튀나"@ko,
+    ""@pt,
     "瓦利斯和富图纳"@zh .
 
 <WS> a skos:Concept;
@@ -2452,6 +2696,7 @@ coun: a skos:ConceptScheme;
     "Samoa"@es,
     "Samoa"@fr,
     "사모아"@ko,
+    ""@pt,
     "萨摩亚"@zh .
 
 <YE> a skos:Concept;
@@ -2462,6 +2707,7 @@ coun: a skos:ConceptScheme;
     "Yemen"@es,
     "Yémen"@fr,
     "예멘"@ko,
+    ""@pt,
     "也门"@zh .
 
 <YT> a skos:Concept;
@@ -2472,6 +2718,7 @@ coun: a skos:ConceptScheme;
     "Mayotte"@es,
     "Mayotte"@fr,
     "마요트"@ko,
+    ""@pt,
     "马约特"@zh .
 
 <ZA> a skos:Concept;
@@ -2482,6 +2729,7 @@ coun: a skos:ConceptScheme;
     "Sudáfrica"@es,
     "Afrique du Sud"@fr,
     "남아프리카 공화국"@ko,
+    ""@pt,
     "南非"@zh .
 
 <ZM> a skos:Concept;
@@ -2492,6 +2740,7 @@ coun: a skos:ConceptScheme;
     "Zambia"@es,
     "Zambie"@fr,
     "잠비아"@ko,
+    ""@pt,
     "赞比亚"@zh .
 
 <ZW> a skos:Concept;
@@ -2502,4 +2751,5 @@ coun: a skos:ConceptScheme;
     "Zimbabue"@es,
     "Zimbabwe"@fr,
     "짐바브웨"@ko,
+    ""@pt,
     "津巴布韦"@zh .

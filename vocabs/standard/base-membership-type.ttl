@@ -7,14 +7,19 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <> a skos:ConceptScheme;
-  dc:description "The set of types of memberships to be used with the term baseMembershipType";
+  dc:description "The set of types of memberships to be used with the term baseMembershipType"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
   dc:language "en-en";
-  dc:modified "2022-01-19"^^xsd:date;
+  dc:modified "2022-01-21"^^xsd:date;
   dc:publisher <https://solidarityeconomy.coop/>;
   dc:relation <http://www.ripess.org/>;
   dc:title "Typology"@en,
     "Tipología"@es,
     "Typologie"@fr,
+    "유형"@ko,
     ""@pt;
   dcterms:created "2020-10-07"^^xsd:date;
   dcterms:publisher "ESSGLOBAL" .
@@ -25,6 +30,7 @@
   skos:prefLabel "Consumer/Users"@en,
     "de consumo/usuarios"@es,
     "Consommateurs/usagers"@fr,
+    "소비자/사용자"@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -34,6 +40,7 @@
   skos:prefLabel "Producers"@en,
     "de productores"@es,
     "Producteurs"@fr,
+    "생산자"@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -43,6 +50,7 @@
   skos:prefLabel "Workers"@en,
     "de trabajadores"@es,
     "Travailleurs"@fr,
+    "노동자"@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -52,6 +60,7 @@
   skos:prefLabel "Multi-stakeholders"@en,
     "de múltiples partes interesadas"@es,
     "Intérêt collectif"@fr,
+    "다중이해관계자"@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -61,6 +70,7 @@
   skos:prefLabel "Residents"@en,
     "de residentes"@es,
     "Résidents"@fr,
+    "거주자"@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -70,5 +80,6 @@
   skos:prefLabel "Others"@en,
     "Otros"@es,
     "Autres"@fr,
+    "기타"@ko,
     ""@pt;
   skos:scopeNote "" .

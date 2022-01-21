@@ -11,11 +11,13 @@
   dc:creator "Solidarity Economy Association";
   dc:description "A controlled vocabulary of countries, regions and territories associated with ICA members";
   dc:language "en-en";
-  dc:modified "2022-01-19"^^xsd:date;
+  dc:modified "2022-01-21"^^xsd:date;
   dc:publisher <http://www.ripess.org/>;
   dc:title "ICA Territories"@en,
     "Territorio"@es,
-    "Territoire"@fr;
+    "Territoire"@fr,
+    ""@ko,
+    ""@pt;
   dcterms:created "2021-03-05"^^xsd:date;
   dcterms:creator <http://solidarityeconomy.coop>;
   dcterms:publisher "ESSGLOBAL" .

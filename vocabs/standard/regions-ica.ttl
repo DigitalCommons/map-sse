@@ -12,11 +12,13 @@ reg: a skos:ConceptScheme;
   dc:creator "Solidarity Economy Association";
   dc:description "A controlled vocabulary of ICA country regions for SSE";
   dc:language "en-en";
-  dc:modified "2022-01-19"^^xsd:date;
+  dc:modified "2022-01-21"^^xsd:date;
   dc:publisher <http://www.ripess.org/>;
   dc:title "Regions"@en,
     "Regiones"@es,
-    "Régions"@fr;
+    "Régions"@fr,
+    "지역권"@ko,
+    ""@pt;
   dcterms:created "2021-02-22"^^xsd:date;
   dcterms:creator <http://solidarityeconomy.coop>;
   dcterms:publisher "ESSGLOBAL" .
@@ -26,116 +28,150 @@ reg: a skos:ConceptScheme;
   skos:inScheme reg:;
   skos:prefLabel "Central Africa"@en,
     "África Central"@es,
-    "Afrique centrale"@fr .
+    "Afrique centrale"@fr,
+    "중부 아프리카"@ko,
+    ""@pt .
 
 <I-AF-EA> a skos:Concept;
   ossr:within sreg:I-AF;
   skos:inScheme reg:;
   skos:prefLabel "East Africa"@en,
     "África Oriental"@es,
-    "Afrique orientale"@fr .
+    "Afrique orientale"@fr,
+    "동부 아프리카"@ko,
+    ""@pt .
 
 <I-AF-NO> a skos:Concept;
   ossr:within sreg:I-AF;
   skos:inScheme reg:;
   skos:prefLabel "North Africa"@en,
     "África Septentrional"@es,
-    "Afrique du nord"@fr .
+    "Afrique du nord"@fr,
+    "북부 아프리카"@ko,
+    ""@pt .
 
 <I-AF-SO> a skos:Concept;
   ossr:within sreg:I-AF;
   skos:inScheme reg:;
   skos:prefLabel "Southern Africa"@en,
     "África Meridional"@es,
-    "Afrique australe"@fr .
+    "Afrique australe"@fr,
+    "남부 아프리카"@ko,
+    ""@pt .
 
 <I-AF-WE> a skos:Concept;
   ossr:within sreg:I-AF;
   skos:inScheme reg:;
   skos:prefLabel "West Africa"@en,
     "África Occidental"@es,
-    "Afrique de l’Ouest"@fr .
+    "Afrique de l’Ouest"@fr,
+    "서부 아프리카"@ko,
+    ""@pt .
 
 <I-AM-CB> a skos:Concept;
   ossr:within sreg:I-AM;
   skos:inScheme reg:;
   skos:prefLabel "Caribbean countries"@en,
     "El Caribe"@es,
-    "Pays des Caraïbes"@fr .
+    "Pays des Caraïbes"@fr,
+    "카리브해 지역"@ko,
+    ""@pt .
 
 <I-AM-CE> a skos:Concept;
   ossr:within sreg:I-AM;
   skos:inScheme reg:;
   skos:prefLabel "Central America"@en,
     "América Central"@es,
-    "Amérique centrale"@fr .
+    "Amérique centrale"@fr,
+    "중앙 아메리카"@ko,
+    ""@pt .
 
 <I-AM-NO> a skos:Concept;
   ossr:within sreg:I-AM;
   skos:inScheme reg:;
   skos:prefLabel "North America"@en,
     "América del Norte"@es,
-    "Amérique du nord"@fr .
+    "Amérique du nord"@fr,
+    "북아메리카"@ko,
+    ""@pt .
 
 <I-AM-SO> a skos:Concept;
   ossr:within sreg:I-AM;
   skos:inScheme reg:;
   skos:prefLabel "South America"@en,
     "América del Sur"@es,
-    "Amérique du sud"@fr .
+    "Amérique du sud"@fr,
+    "남아메리카"@ko,
+    ""@pt .
 
 <I-AP-CE> a skos:Concept;
   ossr:within sreg:I-AP;
   skos:inScheme reg:;
   skos:prefLabel "Central Asia"@en,
     "Asia Central"@es,
-    "Asie centrale"@fr .
+    "Asie centrale"@fr,
+    "중앙아시아"@ko,
+    ""@pt .
 
 <I-AP-EA> a skos:Concept;
   ossr:within sreg:I-AP;
   skos:inScheme reg:;
   skos:prefLabel "East Asia"@en,
     "Asia Oriental"@es,
-    "Asie de l’est"@fr .
+    "Asie de l’est"@fr,
+    "동아시아"@ko,
+    ""@pt .
 
 <I-AP-ME> a skos:Concept;
   ossr:within sreg:I-AP;
   skos:inScheme reg:;
   skos:prefLabel "Middle East"@en,
     "Oriente Medio"@es,
-    "Moyen-Orient"@fr .
+    "Moyen-Orient"@fr,
+    "중동"@ko,
+    ""@pt .
 
 <I-AP-OC> a skos:Concept;
   ossr:within sreg:I-AP;
   skos:inScheme reg:;
   skos:prefLabel "Oceania"@en,
     "Oceanía"@es,
-    "Océanie"@fr .
+    "Océanie"@fr,
+    "오세아니아"@ko,
+    ""@pt .
 
 <I-AP-SE> a skos:Concept;
   ossr:within sreg:I-AP;
   skos:inScheme reg:;
   skos:prefLabel "South East Asia"@en,
     "Sudeste Asiático"@es,
-    "Asie du sud-est"@fr .
+    "Asie du sud-est"@fr,
+    "동남아시아"@ko,
+    ""@pt .
 
 <I-AP-SO> a skos:Concept;
   ossr:within sreg:I-AP;
   skos:inScheme reg:;
   skos:prefLabel "South Asia"@en,
     "Asia del Sur"@es,
-    "Asie du sud"@fr .
+    "Asie du sud"@fr,
+    "남부아시아"@ko,
+    ""@pt .
 
 <I-EU-EA> a skos:Concept;
   ossr:within sreg:I-EU;
   skos:inScheme reg:;
   skos:prefLabel "Europe (Eastern)"@en,
     "Europa (oriental)"@es,
-    "Europe (est)"@fr .
+    "Europe (est)"@fr,
+    "유럽(동부)"@ko,
+    ""@pt .
 
 <I-EU-WE> a skos:Concept;
   ossr:within sreg:I-EU;
   skos:inScheme reg:;
   skos:prefLabel "Europe (Western)"@en,
     "Europa (occidental)"@es,
-    "Europe (ouest)"@fr .
+    "Europe (ouest)"@fr,
+    "유럽(서부)"@ko,
+    ""@pt .

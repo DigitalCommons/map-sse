@@ -9,7 +9,7 @@
 <> a skos:ConceptScheme;
   dc:description "A modified activity vocabulary for SSE";
   dc:language "en-en";
-  dc:modified "2022-01-19"^^xsd:date;
+  dc:modified "2022-01-21"^^xsd:date;
   dc:publisher <https://solidarityeconomy.coop/>;
   dc:relation <http://www.ripess.org/>;
   dc:title "Activities (Modified)";
@@ -22,6 +22,7 @@
   skos:prefLabel "Arts, Media, Culture & Leisure"@en,
     ""@es,
     ""@fr,
+    ""@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -31,6 +32,7 @@
   skos:prefLabel "Money & Finance"@en,
     ""@es,
     ""@fr,
+    ""@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -40,6 +42,7 @@
   skos:prefLabel "Nature, Conservation & Environment"@en,
     ""@es,
     ""@fr,
+    ""@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -49,6 +52,7 @@
   skos:prefLabel "Reduce, Reuse, Repair & Recycle"@en,
     ""@es,
     ""@fr,
+    ""@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -58,6 +62,7 @@
   skos:prefLabel "Agriculture"@en,
     ""@es,
     ""@fr,
+    ""@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -67,6 +72,7 @@
   skos:prefLabel "Industry"@en,
     ""@es,
     ""@fr,
+    ""@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -76,6 +82,7 @@
   skos:prefLabel "Utilities"@en,
     ""@es,
     ""@fr,
+    ""@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -85,6 +92,7 @@
   skos:prefLabel "Transport"@en,
     ""@es,
     ""@fr,
+    ""@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -94,6 +102,7 @@
   skos:prefLabel "Campaigning, Activism & Advocacy"@en,
     ""@es,
     ""@fr,
+    ""@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -103,6 +112,7 @@
   skos:prefLabel "Community & Collective Spaces"@en,
     ""@es,
     ""@fr,
+    ""@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -112,6 +122,7 @@
   skos:prefLabel "Education"@en,
     ""@es,
     ""@fr,
+    ""@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -121,6 +132,7 @@
   skos:prefLabel "Energy"@en,
     ""@es,
     ""@fr,
+    ""@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -130,6 +142,7 @@
   skos:prefLabel "Food"@en,
     ""@es,
     ""@fr,
+    ""@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -139,6 +152,7 @@
   skos:prefLabel "Goods & Services"@en,
     ""@es,
     ""@fr,
+    ""@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -148,6 +162,7 @@
   skos:prefLabel "Health, Social Care & Wellbeing"@en,
     ""@es,
     ""@fr,
+    ""@ko,
     ""@pt;
   skos:scopeNote "" .
 
@@ -157,5 +172,6 @@
   skos:prefLabel "Housing"@en,
     ""@es,
     ""@fr,
+    ""@ko,
     ""@pt;
   skos:scopeNote "" .
