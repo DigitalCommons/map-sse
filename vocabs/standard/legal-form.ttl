@@ -15,7 +15,7 @@
   dc:creator "Mariana Malta (mariana@maltas.org)";
   dc:description "SSE Initiative or SSE Network Legal form controlled vocabulary for SSE";
   dc:language "en-en";
-  dc:modified "2022-01-21"^^xsd:date;
+  dc:modified "2022-01-26"^^xsd:date;
   dc:publisher <http://www.ripess.org/>;
   dc:relation <http://www.dsi.uminho.pt/>;
   dc:title "Legal Form";
@@ -27,7 +27,6 @@
   skos:prefLabel "Informal Group"@en,
     "Grupo Informal"@es,
     ""@fr,
-    "Grupo Informale"@it,
     ""@ko,
     "Grupo Informal"@pt;
   skos:scopeNote "" .
@@ -37,7 +36,6 @@
   skos:prefLabel "Cooperative"@en,
     "Cooperativa"@es,
     ""@fr,
-    "Cooperativa"@it,
     ""@ko,
     "Cooperativa"@pt;
   skos:scopeNote "" .
@@ -47,7 +45,6 @@
   skos:prefLabel "Company"@en,
     "Empresa"@es,
     "Entreprise"@fr,
-    ""@it,
     ""@ko,
     "Empresa"@pt;
   skos:scopeNote "" .
@@ -57,7 +54,6 @@
   skos:prefLabel "Non-Profit Organisation"@en,
     ""@es,
     ""@fr,
-    ""@it,
     ""@ko,
     "Organização Não Governamental"@pt;
   skos:scopeNote "" .
@@ -67,7 +63,6 @@
   skos:prefLabel "Social Enterprise"@en,
     "Empresa Social"@es,
     ""@fr,
-    ""@it,
     ""@ko,
     "Empresa Social"@pt;
   skos:scopeNote "" .

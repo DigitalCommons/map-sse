@@ -7,15 +7,14 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <> a skos:ConceptScheme;
-  dc:contributor "",
-    "Ana Alice Baptista (analice@dsi.uminho.pt)",
+  dc:contributor "Ana Alice Baptista (analice@dsi.uminho.pt)",
     "Daniel Tygel (dtygel@gmail.com)",
     "Jason Nardi (jason.nardi@gmail.com)",
     "Marc Alphandery (marc.alphandery@wanadoo.fr)";
   dc:creator "Mariana Curado Malta (mariana@maltas.org)";
   dc:description "Qualifiers controlled vocabulary for SSE";
   dc:language "en-en";
-  dc:modified "2022-01-21"^^xsd:date;
+  dc:modified "2022-01-26"^^xsd:date;
   dc:publisher <http://www.ripess.org/>;
   dc:relation <http://www.dsi.uminho.pt/>;
   dc:title "Products and Services";
@@ -54,8 +53,7 @@
     ""@es,
     ""@fr,
     ""@ko,
-    ""@pt;
-  skos:scopeNote "" .
+    ""@pt .
 
 <70100000> a skos:Concept;
   skos:broader <70000000>;
@@ -180,8 +178,7 @@
     ""@es,
     ""@fr,
     ""@ko,
-    ""@pt;
-  skos:scopeNote "" .
+    ""@pt .
 
 <71100000> a skos:Concept;
   skos:broader <71000000>;
@@ -292,8 +289,7 @@
     ""@es,
     ""@fr,
     ""@ko,
-    ""@pt;
-  skos:scopeNote "" .
+    ""@pt .
 
 <72100000> a skos:Concept;
   skos:broader <72000000>;
@@ -376,8 +372,7 @@
     ""@es,
     ""@fr,
     ""@ko,
-    ""@pt;
-  skos:scopeNote "" .
+    ""@pt .
 
 <73100000> a skos:Concept;
   skos:broader <73000000>;
@@ -516,8 +511,7 @@
     ""@es,
     ""@fr,
     ""@ko,
-    ""@pt;
-  skos:scopeNote "" .
+    ""@pt .
 
 <76100000> a skos:Concept;
   skos:broader <76000000>;
@@ -579,11 +573,6 @@
   skos:definition "";
   skos:inScheme <>;
   skos:prefLabel "Environmental Services"@en,
-    ""@es,
-    ""@fr,
-    ""@ko,
-    ""@pt;
-  skos:scopeNote "Environmental Services"@en,
     ""@es,
     ""@fr,
     ""@ko,
@@ -656,8 +645,7 @@
     ""@es,
     ""@fr,
     ""@ko,
-    ""@pt;
-  skos:scopeNote "" .
+    ""@pt .
 
 <78100000> a skos:Concept;
   skos:broader <78000000>;
@@ -754,8 +742,7 @@
     ""@es,
     ""@fr,
     ""@ko,
-    ""@pt;
-  skos:scopeNote "" .
+    ""@pt .
 
 <80100000> a skos:Concept;
   skos:broader <80000000>;
@@ -885,8 +872,7 @@
     ""@es,
     ""@fr,
     ""@ko,
-    ""@pt;
-  skos:scopeNote "" .
+    ""@pt .
 
 <81100000> a skos:Concept;
   skos:broader <81000000>;
@@ -997,8 +983,7 @@
     ""@es,
     ""@fr,
     ""@ko,
-    ""@pt;
-  skos:scopeNote "" .
+    ""@pt .
 
 <82100000> a skos:Concept;
   skos:broader <82000000>;
@@ -1095,8 +1080,7 @@
     ""@es,
     ""@fr,
     ""@ko,
-    ""@pt;
-  skos:scopeNote "" .
+    ""@pt .
 
 <83100000> a skos:Concept;
   skos:broader <83000000>;
@@ -1151,8 +1135,7 @@
     ""@es,
     ""@fr,
     ""@ko,
-    ""@pt;
-  skos:scopeNote "" .
+    ""@pt .
 
 <84100000> a skos:Concept;
   skos:broader <84000000>;
@@ -1235,8 +1218,7 @@
     ""@es,
     ""@fr,
     ""@ko,
-    ""@pt;
-  skos:scopeNote "" .
+    ""@pt .
 
 <85100000> a skos:Concept;
   skos:broader <85000000>;
@@ -1329,8 +1311,7 @@
     ""@es,
     ""@fr,
     ""@ko,
-    ""@pt;
-  skos:scopeNote "" .
+    ""@pt .
 
 <86100000> a skos:Concept;
   skos:broader <86000000>;
@@ -1413,8 +1394,7 @@
     ""@es,
     ""@fr,
     ""@ko,
-    ""@pt;
-  skos:scopeNote "" .
+    ""@pt .
 
 <90100000> a skos:Concept;
   skos:broader <90000000>;
@@ -1497,8 +1477,7 @@
     ""@es,
     ""@fr,
     ""@ko,
-    ""@pt;
-  skos:scopeNote "" .
+    ""@pt .
 
 <91100000> a skos:Concept;
   skos:broader <91000000>;
@@ -1539,8 +1518,7 @@
     ""@es,
     ""@fr,
     ""@ko,
-    ""@pt;
-  skos:scopeNote "" .
+    ""@pt .
 
 <92120000> a skos:Concept;
   skos:broader <92000000>;
@@ -1567,8 +1545,7 @@
     ""@es,
     ""@fr,
     ""@ko,
-    ""@pt;
-  skos:scopeNote "" .
+    ""@pt .
 
 <93100000> a skos:Concept;
   skos:broader <93000000>;
@@ -1675,8 +1652,7 @@
     ""@ko,
     ""@pt;
   skos:inScheme <>;
-  skos:prefLabel "";
-  skos:scopeNote "" .
+  skos:prefLabel "" .
 
 <94100000> a skos:Concept;
   skos:broader <94000000>;
@@ -1745,8 +1721,7 @@
     ""@es,
     ""@fr,
     ""@ko,
-    ""@pt;
-  skos:scopeNote "" .
+    ""@pt .
 
 <95100000> a skos:Concept;
   skos:broader <95000000>;

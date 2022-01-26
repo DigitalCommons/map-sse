@@ -22,7 +22,7 @@
     ""@ko,
     ""@pt;
   dc:language "en-en";
-  dc:modified "2022-01-21"^^xsd:date;
+  dc:modified "2022-01-26"^^xsd:date;
   dc:publisher <http://www.ripess.org/>;
   dc:relation <http://www.dsi.uminho.pt/>;
   dc:title "Activities"@en,
@@ -106,8 +106,7 @@
     "Integra os setores de electricidade, gás, vapor e ar condicionado"@pt .
 
 <a05> a skos:Concept;
-  skos:altLabel " sewerage, waste management and remediation tivities"@en,
-    "Water supply"@en,
+  skos:altLabel "Water supply; sewerage, waste management and remediation activities"@en,
     ""@es,
     ""@fr,
     ""@ko,
@@ -143,8 +142,7 @@
     "Integra os setores de construção"@pt .
 
 <a07> a skos:Concept;
-  skos:altLabel " repair of motor vehicles and motorcycles"@en,
-    "Wholesale and retail trade"@en,
+  skos:altLabel "Wholesale and retail trade; repair of motor vehicles and motorcycles"@en,
     ""@es,
     ""@fr,
     ""@ko,
@@ -288,8 +286,7 @@
     "Integra os setores de administrativas e de apoio as atividades de serviços"@pt .
 
 <a15> a skos:Concept;
-  skos:altLabel " compulsory social security"@en,
-    "Public administration and defence"@en,
+  skos:altLabel "Public administration and defence; compulsory social security"@en,
     ""@es,
     ""@fr,
     ""@ko,
@@ -379,8 +376,7 @@
     "Integra os setores de outras atividades de serviços"@pt .
 
 <a20> a skos:Concept;
-  skos:altLabel " undifferentiated goods- and services-producing activities of households for own use"@en,
-    "Activities of households as employers"@en,
+  skos:altLabel "Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use"@en,
     ""@es,
     ""@fr,
     ""@ko,
