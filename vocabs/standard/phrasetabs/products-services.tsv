@@ -15,7 +15,6 @@ term	property		EN	ES	FR	KO	PT
 70000000	skos:definition		Farming and Fishing and Forestry and Wildlife Contracting Services				
 70000000	skos:inScheme	http://purl.org/essglobal/standard/products-services/					
 70000000	skos:prefLabel		Farming and Fishing and Forestry and Wildlife Contracting Services				
-70000000	skos:scopeNote						
 70100000	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
 70100000	skos:broader	http://purl.org/essglobal/standard/products-services/70000000					
 70100000	skos:definition		Fisheries and aquaculture				
@@ -60,7 +59,6 @@ term	property		EN	ES	FR	KO	PT
 71000000	skos:definition		Mining and oil and gas services				
 71000000	skos:inScheme	http://purl.org/essglobal/standard/products-services/					
 71000000	skos:prefLabel		Mining and oil and gas services				
-71000000	skos:scopeNote						
 71100000	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
 71100000	skos:broader	http://purl.org/essglobal/standard/products-services/71000000					
 71100000	skos:definition		Mining services				
@@ -100,7 +98,6 @@ term	property		EN	ES	FR	KO	PT
 72000000	skos:definition		Building and Facility Construction and Maintenance Services				
 72000000	skos:inScheme	http://purl.org/essglobal/standard/products-services/					
 72000000	skos:prefLabel		Building and Facility Construction and Maintenance Services				
-72000000	skos:scopeNote						
 72100000	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
 72100000	skos:broader	http://purl.org/essglobal/standard/products-services/72000000					
 72100000	skos:definition		Building and facility maintenance and repair services				
@@ -130,7 +127,6 @@ term	property		EN	ES	FR	KO	PT
 73000000	skos:definition		Industrial Production and Manufacturing Services				
 73000000	skos:inScheme	http://purl.org/essglobal/standard/products-services/					
 73000000	skos:prefLabel		Industrial Production and Manufacturing Services				
-73000000	skos:scopeNote						
 73100000	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
 73100000	skos:broader	http://purl.org/essglobal/standard/products-services/73000000					
 73100000	skos:definition		Plastic and chemical industries				
@@ -180,7 +176,6 @@ term	property		EN	ES	FR	KO	PT
 76000000	skos:definition		Industrial Cleaning Services				
 76000000	skos:inScheme	http://purl.org/essglobal/standard/products-services/					
 76000000	skos:prefLabel		Industrial Cleaning Services				
-76000000	skos:scopeNote						
 76100000	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
 76100000	skos:broader	http://purl.org/essglobal/standard/products-services/76000000					
 76100000	skos:definition		Decontamination services				
@@ -205,7 +200,6 @@ term	property		EN	ES	FR	KO	PT
 77000000	skos:definition						
 77000000	skos:inScheme	http://purl.org/essglobal/standard/products-services/					
 77000000	skos:prefLabel		Environmental Services				
-77000000	skos:scopeNote		Environmental Services				
 77100000	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
 77100000	skos:broader	http://purl.org/essglobal/standard/products-services/77000000					
 77100000	skos:definition		Environmental management				
@@ -230,7 +224,6 @@ term	property		EN	ES	FR	KO	PT
 78000000	skos:definition		Transportation and Storage and Mail Services				
 78000000	skos:inScheme	http://purl.org/essglobal/standard/products-services/					
 78000000	skos:prefLabel		Transportation and Storage and Mail Services				
-78000000	skos:scopeNote						
 78100000	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
 78100000	skos:broader	http://purl.org/essglobal/standard/products-services/78000000					
 78100000	skos:definition		Mail and cargo transport				
@@ -265,7 +258,6 @@ term	property		EN	ES	FR	KO	PT
 80000000	skos:definition		Management and Business Professionals and Administrative Services				
 80000000	skos:inScheme	http://purl.org/essglobal/standard/products-services/					
 80000000	skos:prefLabel		Management and Business Professionals and Administrative Services				
-80000000	skos:scopeNote						
 80100000	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
 80100000	skos:broader	http://purl.org/essglobal/standard/products-services/80000000					
 80100000	skos:definition		Management advisory services				
@@ -305,7 +297,6 @@ term	property		EN	ES	FR	KO	PT
 81000000	skos:definition		Engineering and Research and Technology Based Services				
 81000000	skos:inScheme	http://purl.org/essglobal/standard/products-services/					
 81000000	skos:prefLabel		Engineering and Research and Technology Based Services				
-81000000	skos:scopeNote						
 81100000	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
 81100000	skos:broader	http://purl.org/essglobal/standard/products-services/81000000					
 81100000	skos:definition		Professional engineering services				
@@ -345,7 +336,6 @@ term	property		EN	ES	FR	KO	PT
 82000000	skos:definition		Editorial and Design and Graphic and Fine Art Services				
 82000000	skos:inScheme	http://purl.org/essglobal/standard/products-services/					
 82000000	skos:prefLabel		Editorial and Design and Graphic and Fine Art Services				
-82000000	skos:scopeNote						
 82100000	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
 82100000	skos:broader	http://purl.org/essglobal/standard/products-services/82000000					
 82100000	skos:definition		Advertising				
@@ -380,7 +370,6 @@ term	property		EN	ES	FR	KO	PT
 83000000	skos:definition		Public Utilities and Public Sector Related Services				
 83000000	skos:inScheme	http://purl.org/essglobal/standard/products-services/					
 83000000	skos:prefLabel		Public Utilities and Public Sector Related Services				
-83000000	skos:scopeNote						
 83100000	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
 83100000	skos:broader	http://purl.org/essglobal/standard/products-services/83000000					
 83100000	skos:definition		Utilities				
@@ -400,7 +389,6 @@ term	property		EN	ES	FR	KO	PT
 84000000	skos:definition		Financial and Insurance Services				
 84000000	skos:inScheme	http://purl.org/essglobal/standard/products-services/					
 84000000	skos:prefLabel		Financial and Insurance Services				
-84000000	skos:scopeNote						
 84100000	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
 84100000	skos:broader	http://purl.org/essglobal/standard/products-services/84000000					
 84100000	skos:definition		Development finance				
@@ -430,7 +418,6 @@ term	property		EN	ES	FR	KO	PT
 85000000	skos:definition		Healthcare Services				
 85000000	skos:inScheme	http://purl.org/essglobal/standard/products-services/					
 85000000	skos:prefLabel		Healthcare Services				
-85000000	skos:scopeNote						
 85100000	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
 85100000	skos:broader	http://purl.org/essglobal/standard/products-services/85000000					
 85100000	skos:definition		Comprehensive health services				
@@ -465,7 +452,6 @@ term	property		EN	ES	FR	KO	PT
 86000000	skos:definition		Education and Training Services				
 86000000	skos:inScheme	http://purl.org/essglobal/standard/products-services/					
 86000000	skos:prefLabel		Education and Training Services				
-86000000	skos:scopeNote						
 86100000	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
 86100000	skos:broader	http://purl.org/essglobal/standard/products-services/86000000					
 86100000	skos:definition		Vocational training				
@@ -495,7 +481,6 @@ term	property		EN	ES	FR	KO	PT
 90000000	skos:definition		Travel and Food and Lodging and Entertainment Services				
 90000000	skos:inScheme	http://purl.org/essglobal/standard/products-services/					
 90000000	skos:prefLabel		Travel and Food and Lodging and Entertainment Services				
-90000000	skos:scopeNote						
 90100000	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
 90100000	skos:broader	http://purl.org/essglobal/standard/products-services/90000000					
 90100000	skos:definition		Restaurants and catering				
@@ -525,7 +510,6 @@ term	property		EN	ES	FR	KO	PT
 91000000	skos:definition		Personal and Domestic Services				
 91000000	skos:inScheme	http://purl.org/essglobal/standard/products-services/					
 91000000	skos:prefLabel		Personal and Domestic Services				
-91000000	skos:scopeNote						
 91100000	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
 91100000	skos:broader	http://purl.org/essglobal/standard/products-services/91000000					
 91100000	skos:definition		Personal appearance				
@@ -540,7 +524,6 @@ term	property		EN	ES	FR	KO	PT
 92000000	skos:definition		Security and Safety Services				
 92000000	skos:inScheme	http://purl.org/essglobal/standard/products-services/					
 92000000	skos:prefLabel		Security and Safety Services				
-92000000	skos:scopeNote						
 92120000	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
 92120000	skos:broader	http://purl.org/essglobal/standard/products-services/92000000					
 92120000	skos:definition		Security and personal safety				
@@ -550,7 +533,6 @@ term	property		EN	ES	FR	KO	PT
 93000000	skos:definition		Politics and Civic Affairs Services				
 93000000	skos:inScheme	http://purl.org/essglobal/standard/products-services/					
 93000000	skos:prefLabel		Politics and Civic Affairs Services				
-93000000	skos:scopeNote						
 93100000	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
 93100000	skos:broader	http://purl.org/essglobal/standard/products-services/93000000					
 93100000	skos:definition		Political systems and institutions				
@@ -590,7 +572,6 @@ term	property		EN	ES	FR	KO	PT
 94000000	skos:definition		Organizations and Clubs				
 94000000	skos:inScheme	http://purl.org/essglobal/standard/products-services/					
 94000000	skos:prefLabel						
-94000000	skos:scopeNote						
 94100000	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
 94100000	skos:broader	http://purl.org/essglobal/standard/products-services/94000000					
 94100000	skos:definition		Work related organizations				
@@ -615,7 +596,6 @@ term	property		EN	ES	FR	KO	PT
 95000000	skos:definition		Land and Buildings and Structures and Thoroughfares				
 95000000	skos:inScheme	http://purl.org/essglobal/standard/products-services/					
 95000000	skos:prefLabel		Land and Buildings and Structures and Thoroughfares				
-95000000	skos:scopeNote						
 95100000	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
 95100000	skos:broader	http://purl.org/essglobal/standard/products-services/95000000					
 95100000	skos:definition		Land parcels				
