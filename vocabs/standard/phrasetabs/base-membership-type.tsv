@@ -1,6 +1,6 @@
 term	property		EN	ES	FR	PT	KO
 	base_uri	http://purl.org/essglobal/standard/base-membership-type/					
-	dc:description	The set of types of memberships to be used with the term baseMembershipType	The set of types of memberships to be used with the term baseMembershipType				
+	dc:description		The set of types of memberships to be used with the term baseMembershipType				
 	dc:language	en-en					
 	dc:modified	2021-03-10					
 	dc:publisher	https://solidarityeconomy.coop/					

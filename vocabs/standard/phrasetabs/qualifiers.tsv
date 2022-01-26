@@ -2,11 +2,11 @@ term	property		EN	ES	FR	KO	PT
 	base_uri	http://purl.org/essglobal/standard/qualifiers/					
 	dc:contributor	Ana Alice Baptista (analice@dsi.uminho.pt);Daniel Tygel (dtygel@gmail.com);Jason Nardi (jason.nardi@gmail.com);Marc Alphandery (marc.alphandery@wanadoo.fr);Mariana Malta (mariana@iscap.ipp.pt)					
 	dc:creator	Cesar Araujo (cesar_araujo@sapo.pt);Leonardo Cruz (leonardopscruz@gmail.com);Rodrigo Alves (rasalves@gmail.com);Sergio Vale (gks_sergio@hotmail.com)					
-	dc:description	Qualifiers controlled vocabulary for SSE	Qualifiers controlled vocabulary for SSE				
+	dc:description		Qualifiers controlled vocabulary for SSE				
 	dc:language	en-en					
 	dc:publisher	http://www.ripess.org/					
 	dc:relation	http://www.dsi.uminho.pt/					
-	dc:title	Qualifiers	Qualifiers	Qualifiers	Qualifiers	Qualifiers	Qualifiers
+	dc:title		Qualifiers	Qualifiers	Qualifiers	Qualifiers	Qualifiers
 	dcterms:created	2012-02-20					
 	dcterms:modified	2014-01-25					
 	dcterms:publisher	ESSGLOBAL					
