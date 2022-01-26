@@ -1,6 +1,6 @@
 term	property		EN	ES	FR	KO	PT
 	base_uri	http://purl.org/essglobal/standard/products-services/					
-	dc:contributor	;Ana Alice Baptista (analice@dsi.uminho.pt);Daniel Tygel (dtygel@gmail.com);Jason Nardi (jason.nardi@gmail.com);Marc Alphandery (marc.alphandery@wanadoo.fr)					
+	dc:contributor	Ana Alice Baptista (analice@dsi.uminho.pt);Daniel Tygel (dtygel@gmail.com);Jason Nardi (jason.nardi@gmail.com);Marc Alphandery (marc.alphandery@wanadoo.fr)					
 	dc:creator	Mariana Curado Malta (mariana@maltas.org)					
 	dc:description	Qualifiers controlled vocabulary for SSE					
 	dc:language	en-en					
