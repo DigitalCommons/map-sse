@@ -1,0 +1,70 @@
+#!/bin/env ruby
+require 'csv'
+require 'optparse'
+
+# Concatenates all .tsv phrasetab files listed as arguments into a
+# single phrasetab with the file basenames as a new first column.
+#
+# Useful for converting phrasetabs into the localisation spreadsheet
+# (which is what the --localised option is for).
+
+options = {
+  localised: false
+}
+
+OptionParser.new do |opts|
+  opts.banner = "Usage: #{$0} [options]"
+  opts.on('-l', '--localised', "Only output localised properties") do |v|
+    options[:localised] = true
+  end
+end.parse!
+
+
+opts = {
+  headers:true,
+  col_sep: "\t",
+  quote_char: "\0", # when outputting, omit quotes
+  liberal_parsing: true,
+}
+
+replacements_file = ARGV.shift
+
+out = $stdout
+
+# Gather headers
+headers = []
+ARGV.each do |file|
+  row = CSV.foreach(file, **opts).each.first
+  
+  headers = headers.union(row.headers)
+end
+
+[nil, '', 'term', 'property'].each do |header|
+  headers.delete(header)
+end
+
+headers.sort!
+headers.prepend('Domain', 'term', 'property', '')
+
+def to_tsv(fields)
+  fields.map{|f| f.to_s.gsub("\t", "\\t")}.join("\t")
+end
+
+out.puts to_tsv(headers)
+ARGV.each do |file|
+  domain = File.basename(file, '.*')
+  warn "Inserting #{file} as domain #{domain}..."
+
+  CSV.foreach(file, **opts).each do |row|
+    fields = row.fields(*headers)
+    fields[0] = domain
+    fields[3] = row.field(nil) # this doesn't work with #fields
+
+    if options[:localised]
+      # If all localised fields are unused, continue
+      next if fields[4..].all? {|x| x.to_s.empty? }
+    end
+    out.puts to_tsv(fields)
+  end
+end
+
