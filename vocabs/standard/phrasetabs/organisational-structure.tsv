@@ -1,0 +1,111 @@
+term	property		EN	ES	FR	IT	PT	KO
+	base_uri	http://purl.org/essglobal/standard/organisational-structure/						
+	dc:description		Alternative SSE Initiative or SSE Network Legal Form controlled vocabulary for SSE					
+	dc:language	en-en						
+	dc:modified	2021-03-10						
+	dc:publisher	https://solidarityeconomy.coop/						
+	dc:relation	http://www.ripess.org/						
+	dc:title		Structure Type	Tipo de estructura	Type de structure			구조 유형
+	dcterms:created	2019-05-16						
+	dcterms:publisher	ESSGLOBAL						
+	rdf:type	http://www.w3.org/2004/02/skos/core#ConceptScheme						
+OS10	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+OS10	skos:inScheme	http://purl.org/essglobal/standard/organisational-structure/						
+OS10	skos:prefLabel		Community group (formal or informal)					
+OS10	skos:scopeNote							
+OS20	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+OS20	skos:inScheme	http://purl.org/essglobal/standard/organisational-structure/						
+OS20	skos:prefLabel		Not-for-profit organisation					
+OS20	skos:scopeNote							
+OS30	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+OS30	skos:inScheme	http://purl.org/essglobal/standard/organisational-structure/						
+OS30	skos:prefLabel		Social enterprise					
+OS30	skos:scopeNote							
+OS40	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+OS40	skos:inScheme	http://purl.org/essglobal/standard/organisational-structure/						
+OS40	skos:prefLabel		Charity					
+OS40	skos:scopeNote							
+OS50	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+OS50	skos:inScheme	http://purl.org/essglobal/standard/organisational-structure/						
+OS50	skos:prefLabel		Company (Other)	Empresa (otra)	Entreprise (autre)			회사(기타)
+OS50	skos:scopeNote							
+OS60	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+OS60	skos:inScheme	http://purl.org/essglobal/standard/organisational-structure/						
+OS60	skos:prefLabel		Workers cooperative	Cooperativas de trabajo	Coopératives de travail associé			노동자
+OS60	skos:scopeNote							
+OS70	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+OS70	skos:inScheme	http://purl.org/essglobal/standard/organisational-structure/						
+OS70	skos:prefLabel		Housing cooperative					
+OS70	skos:scopeNote							
+OS80	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+OS80	skos:inScheme	http://purl.org/essglobal/standard/organisational-structure/						
+OS80	skos:prefLabel		Consumer/User coops	Cooperativas de consumo	Coopératives de consommateurs			
+OS80	skos:scopeNote							
+OS90	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+OS90	skos:inScheme	http://purl.org/essglobal/standard/organisational-structure/						
+OS90	skos:prefLabel		Producer cooperative	Cooperativas de productores	Coopératives de producteurs			생산자
+OS90	skos:scopeNote							
+OS100	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+OS100	skos:inScheme	http://purl.org/essglobal/standard/organisational-structure/						
+OS100	skos:prefLabel		Multi-stakeholder cooperative	Cooperativas de múltiples partes interesadas	Coopératives d'intérêt collectif			다중이해관계자
+OS100	skos:scopeNote							
+OS110	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+OS110	skos:inScheme	http://purl.org/essglobal/standard/organisational-structure/						
+OS110	skos:prefLabel		Secondary cooperative					
+OS110	skos:scopeNote							
+OS115	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+OS115	skos:inScheme	http://purl.org/essglobal/standard/organisational-structure/						
+OS115	skos:prefLabel		Cooperative	Cooperativa	Coopérative			협동조합
+OS115	skos:scopeNote							
+OS120	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+OS120	skos:inScheme	http://purl.org/essglobal/standard/organisational-structure/						
+OS120	skos:prefLabel		Community Interest Company (CIC)					
+OS120	skos:scopeNote							
+OS130	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+OS130	skos:inScheme	http://purl.org/essglobal/standard/organisational-structure/						
+OS130	skos:prefLabel		Community Benefit Society / Industrial and Provident Society (IPS)					
+OS130	skos:scopeNote							
+OS140	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+OS140	skos:inScheme	http://purl.org/essglobal/standard/organisational-structure/						
+OS140	skos:prefLabel		Employee trust					
+OS140	skos:scopeNote							
+OS150	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+OS150	skos:inScheme	http://purl.org/essglobal/standard/organisational-structure/						
+OS150	skos:prefLabel		Self-employed					
+OS150	skos:scopeNote							
+OS160	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+OS160	skos:inScheme	http://purl.org/essglobal/standard/organisational-structure/						
+OS160	skos:prefLabel		Unincorporated					
+OS160	skos:scopeNote							
+OS170	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+OS170	skos:inScheme	http://purl.org/essglobal/standard/organisational-structure/						
+OS170	skos:prefLabel		Mutual	Mutual	Mutuelle			상호회사
+OS170	skos:scopeNote							
+OS180	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+OS180	skos:inScheme	http://purl.org/essglobal/standard/organisational-structure/						
+OS180	skos:prefLabel		National apex	Organismo federativo nacional	Organisation faîtière nationale			국가 정상
+OS180	skos:scopeNote							
+OS190	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+OS190	skos:inScheme	http://purl.org/essglobal/standard/organisational-structure/						
+OS190	skos:prefLabel		National sectoral federation or union	Sindicato o federación nacional sectorial	Union ou fédération nationale sectorielle			국가 차원의 연맹 및 노동조합
+OS190	skos:scopeNote							
+OS200	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+OS200	skos:inScheme	http://purl.org/essglobal/standard/organisational-structure/						
+OS200	skos:prefLabel		Regional, state or provincial level federation or union	Federación o unión sectorial, estatal o regional	Union ou fédération régionale, nationale ou infranationale			지역, 주, 지자체 수준의 연맹 및 노동조합
+OS200	skos:scopeNote							
+OS210	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+OS210	skos:inScheme	http://purl.org/essglobal/standard/organisational-structure/						
+OS210	skos:prefLabel		Cooperative group	Grupo cooperativo	Groupe coopératif			협동조합 그룹
+OS210	skos:scopeNote							
+OS220	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+OS220	skos:inScheme	http://purl.org/essglobal/standard/organisational-structure/						
+OS220	skos:prefLabel		Government agency/body	Entidad gubernamental	Agence/autorité gouvernementale			정부기관
+OS220	skos:scopeNote							
+OS230	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+OS230	skos:inScheme	http://purl.org/essglobal/standard/organisational-structure/						
+OS230	skos:prefLabel		Supranational	Organización supranacional	Organisation supranationale			국제조직
+OS230	skos:scopeNote							
+OS240	rdf:type	http://www.w3.org/2004/02/skos/core#Concept						
+OS240	skos:inScheme	http://purl.org/essglobal/standard/organisational-structure/						
+OS240	skos:prefLabel		Cooperative of cooperatives / mutuals	Cooperativa de cooperativas/mutuales	Coopérative de coopératives/mutuelles			협동조합간 협동
+OS240	skos:scopeNote							

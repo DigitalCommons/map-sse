@@ -1,0 +1,27 @@
+term	property		EN	ES	FR	KO	PT
+	base_uri	http://purl.org/essglobal/standard/super-regions-ica/					
+	dc:creator	Solidarity Economy Association					
+	dc:description	A controlled vocabulary of ICA country super-regions for SSE					
+	dc:language	en-en					
+	dc:modified	2021-03-11					
+	dc:publisher	http://www.ripess.org/					
+	dc:title		Super-Region	Superregión	Régions de niveau supérieur	거대 지역권	
+	dcterms:created	2021-02-22					
+	dcterms:creator	http://solidarityeconomy.coop					
+	dcterms:publisher	ESSGLOBAL					
+	rdf:type	http://www.w3.org/2004/02/skos/core#ConceptScheme					
+I	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+I	skos:inScheme	http://purl.org/essglobal/standard/super-regions-ica/					
+I	skos:prefLabel		Global				
+I-AF	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+I-AF	skos:inScheme	http://purl.org/essglobal/standard/super-regions-ica/					
+I-AF	skos:prefLabel		Africa	África	Afrique	아프리카	
+I-AM	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+I-AM	skos:inScheme	http://purl.org/essglobal/standard/super-regions-ica/					
+I-AM	skos:prefLabel		Americas	América	Amériques	미주	
+I-AP	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+I-AP	skos:inScheme	http://purl.org/essglobal/standard/super-regions-ica/					
+I-AP	skos:prefLabel		Asia+Pacific	Asia-Pacífico	Asie+Pacifique	아시아 태평양	
+I-EU	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+I-EU	skos:inScheme	http://purl.org/essglobal/standard/super-regions-ica/					
+I-EU	skos:prefLabel		Europe	Europa	Europe	유럽	

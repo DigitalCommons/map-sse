@@ -1,0 +1,156 @@
+term	property		EN	ES	FR	PT	KO
+	base_uri	http://purl.org/essglobal/standard/activities-ica/					
+	dc:description	The set of economic activities defined by the ICA (L2) to be used with the terms economicSector, primarySector	The set of economic activities defined by the ICA (L2) to be used with the terms economicSector, primarySector				
+	dc:language	en-en					
+	dc:modified	2021-03-10					
+	dc:publisher	https://solidarityeconomy.coop/					
+	dc:relation	http://www.ripess.org/					
+	dc:title		Economic Activity	Actividad económica	Secteur économique		경제활동
+	dcterms:created	2020-07-29					
+	dcterms:publisher	ESSGLOBAL					
+	rdf:type	http://www.w3.org/2004/02/skos/core#ConceptScheme					
+ICA10	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+ICA10	skos:altLabel	A					
+ICA10	skos:inScheme	http://purl.org/essglobal/standard/activities-ica/					
+ICA10	skos:prefLabel		Agriculture	Agricultura	Agriculture		농업
+ICA10	skos:scopeNote						
+ICA20	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+ICA20	skos:altLabel	B					
+ICA20	skos:inScheme	http://purl.org/essglobal/standard/activities-ica/					
+ICA20	skos:prefLabel		Dairy	Industria lechera	Industrie laitière		축산업
+ICA20	skos:scopeNote						
+ICA30	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+ICA30	skos:altLabel	C					
+ICA30	skos:inScheme	http://purl.org/essglobal/standard/activities-ica/					
+ICA30	skos:prefLabel		Forestry	Silvicultura	Foresterie		임업
+ICA30	skos:scopeNote						
+ICA40	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+ICA40	skos:altLabel	D					
+ICA40	skos:inScheme	http://purl.org/essglobal/standard/activities-ica/					
+ICA40	skos:prefLabel		Irrigation	Riego	Irrigation		관개사업
+ICA40	skos:scopeNote						
+ICA50	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+ICA50	skos:altLabel	E					
+ICA50	skos:inScheme	http://purl.org/essglobal/standard/activities-ica/					
+ICA50	skos:prefLabel		Fishing	Pesca	Pêche		어업
+ICA50	skos:scopeNote						
+ICA60	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+ICA60	skos:altLabel	F					
+ICA60	skos:inScheme	http://purl.org/essglobal/standard/activities-ica/					
+ICA60	skos:prefLabel		Artisans	Artesanía	Artisanat		수공업
+ICA60	skos:scopeNote						
+ICA70	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+ICA70	skos:altLabel	G					
+ICA70	skos:inScheme	http://purl.org/essglobal/standard/activities-ica/					
+ICA70	skos:prefLabel		Construction	Construcción	Construction		건설업
+ICA70	skos:scopeNote						
+ICA80	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+ICA80	skos:altLabel	H					
+ICA80	skos:inScheme	http://purl.org/essglobal/standard/activities-ica/					
+ICA80	skos:prefLabel		Industry	Industria	Industrie		산업
+ICA80	skos:scopeNote						
+ICA90	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+ICA90	skos:altLabel	I					
+ICA90	skos:inScheme	http://purl.org/essglobal/standard/activities-ica/					
+ICA90	skos:prefLabel		Manufacturing	Fabricación	Industrie manufacturière		제조업
+ICA90	skos:scopeNote						
+ICA100	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+ICA100	skos:altLabel	J					
+ICA100	skos:inScheme	http://purl.org/essglobal/standard/activities-ica/					
+ICA100	skos:prefLabel		Mining	Minería	Exploitation minière		공업
+ICA100	skos:scopeNote						
+ICA110	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+ICA110	skos:altLabel	K					
+ICA110	skos:inScheme	http://purl.org/essglobal/standard/activities-ica/					
+ICA110	skos:prefLabel		Professional	Actividades profesionales	Cadres et professions libérales		전문직
+ICA110	skos:scopeNote						
+ICA120	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+ICA120	skos:altLabel	L					
+ICA120	skos:inScheme	http://purl.org/essglobal/standard/activities-ica/					
+ICA120	skos:prefLabel		Service	Servicios	Services		서비스업
+ICA120	skos:scopeNote						
+ICA130	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+ICA130	skos:altLabel	M					
+ICA130	skos:inScheme	http://purl.org/essglobal/standard/activities-ica/					
+ICA130	skos:prefLabel		Tourism	Turismo	Tourisme		관광업
+ICA130	skos:scopeNote						
+ICA140	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+ICA140	skos:altLabel	N					
+ICA140	skos:inScheme	http://purl.org/essglobal/standard/activities-ica/					
+ICA140	skos:prefLabel		Financial Services	Servicios financieros	Services financiers		금융 서비스업
+ICA140	skos:scopeNote						
+ICA150	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+ICA150	skos:altLabel	O					
+ICA150	skos:inScheme	http://purl.org/essglobal/standard/activities-ica/					
+ICA150	skos:prefLabel		Insurance	Seguros	Assurance		보험
+ICA150	skos:scopeNote						
+ICA160	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+ICA160	skos:altLabel	P					
+ICA160	skos:inScheme	http://purl.org/essglobal/standard/activities-ica/					
+ICA160	skos:prefLabel		Education	Educación	Éducation		교육
+ICA160	skos:scopeNote						
+ICA170	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+ICA170	skos:altLabel	Q					
+ICA170	skos:inScheme	http://purl.org/essglobal/standard/activities-ica/					
+ICA170	skos:prefLabel		Health	Salud	Santé		보건
+ICA170	skos:scopeNote						
+ICA180	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+ICA180	skos:altLabel	R					
+ICA180	skos:inScheme	http://purl.org/essglobal/standard/activities-ica/					
+ICA180	skos:prefLabel		Community	Servicios comunitarios	Action communautaire		공동체
+ICA180	skos:scopeNote						
+ICA190	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+ICA190	skos:altLabel	S					
+ICA190	skos:inScheme	http://purl.org/essglobal/standard/activities-ica/					
+ICA190	skos:prefLabel		Social	Acción social	Action sociale		사회
+ICA190	skos:scopeNote						
+ICA200	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+ICA200	skos:altLabel	T					
+ICA200	skos:inScheme	http://purl.org/essglobal/standard/activities-ica/					
+ICA200	skos:prefLabel		Social Service	Servicios sociales	Services sociaux		사회 서비스업
+ICA200	skos:scopeNote						
+ICA210	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+ICA210	skos:altLabel	U					
+ICA210	skos:inScheme	http://purl.org/essglobal/standard/activities-ica/					
+ICA210	skos:prefLabel		Housing	Vivienda	Logement		주택
+ICA210	skos:scopeNote						
+ICA220	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+ICA220	skos:altLabel	V					
+ICA220	skos:inScheme	http://purl.org/essglobal/standard/activities-ica/					
+ICA220	skos:prefLabel		Transport	Transporte	Transports		운송
+ICA220	skos:scopeNote						
+ICA230	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+ICA230	skos:altLabel	W					
+ICA230	skos:inScheme	http://purl.org/essglobal/standard/activities-ica/					
+ICA230	skos:prefLabel		Utilities	Servicios públicos	Services publics		공공서비스
+ICA230	skos:scopeNote						
+ICA240	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+ICA240	skos:altLabel	X					
+ICA240	skos:inScheme	http://purl.org/essglobal/standard/activities-ica/					
+ICA240	skos:prefLabel		Retail	Comercio minorista	Grande distribution		소매
+ICA240	skos:scopeNote						
+ICA250	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+ICA250	skos:altLabel	Y					
+ICA250	skos:inScheme	http://purl.org/essglobal/standard/activities-ica/					
+ICA250	skos:prefLabel		Production	Producción	Production		생산
+ICA250	skos:scopeNote						
+ICA260	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+ICA260	skos:altLabel	Z					
+ICA260	skos:inScheme	http://purl.org/essglobal/standard/activities-ica/					
+ICA260	skos:prefLabel		Wholesale and retail trade	Comercio mayorista y minorista	Vente de gros et de détail		도매와 소매 거래
+ICA260	skos:scopeNote						
+ICA270	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+ICA270	skos:altLabel	AA					
+ICA270	skos:inScheme	http://purl.org/essglobal/standard/activities-ica/					
+ICA270	skos:prefLabel		Education / health / social work	Educación, salud y trabajo social	Éducation / Santé / Travail social		교육/보건/사회사업
+ICA270	skos:scopeNote						
+ICA280	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+ICA280	skos:altLabel	AB					
+ICA280	skos:inScheme	http://purl.org/essglobal/standard/activities-ica/					
+ICA280	skos:prefLabel		Other Services	Otros servicios	Autres services		기타 서비스
+ICA280	skos:scopeNote						
+ICA290	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					
+ICA290	skos:altLabel	AC					
+ICA290	skos:inScheme	http://purl.org/essglobal/standard/activities-ica/					
+ICA290	skos:prefLabel		All (Services)	Todos los servicios	Tous (services)		모든(서비스)
+ICA290	skos:scopeNote						

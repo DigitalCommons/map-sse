@@ -1,129 +1,177 @@
 @base <http://purl.org/essglobal/standard/activities-modified/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix essglobal: <http://purl.org/essglobal/standard/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://purl.org/essglobal/standard/activities-modified/>
-    dc:description "A modified activity vocabulary for SSE" ;
-    dc:language "en-en" ;
-    dc:publisher <https://solidarityeconomy.coop/> ;
-    dc:relation <http://www.ripess.org/> ;
-    dc:title "Activities (Modified)" ;
-    dcterms:created "2019-05-20"^^<http://www.w3.org/2001/XMLSchema#date> ;
-    dcterms:publisher "ESSGLOBAL" ;
-    a skos:ConceptScheme .
+<> a skos:ConceptScheme;
+  dc:description "A modified activity vocabulary for SSE";
+  dc:language "en-en";
+  dc:modified "2022-01-21"^^xsd:date;
+  dc:publisher <https://solidarityeconomy.coop/>;
+  dc:relation <http://www.ripess.org/>;
+  dc:title "Activities (Modified)";
+  dcterms:created "2019-05-20"^^xsd:date;
+  dcterms:publisher "ESSGLOBAL" .
 
-<http://purl.org/essglobal/standard/activities-modified/AM10>
-    a skos:Concept ;
-    skos:altLabel "A" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-modified/> ;
-    skos:prefLabel ""@es, ""@fr, ""@pt, "Arts, Media, Culture & Leisure"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<AM10> a skos:Concept;
+  skos:altLabel "A";
+  skos:inScheme <>;
+  skos:prefLabel "Arts, Media, Culture & Leisure"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-modified/AM100>
-    a skos:Concept ;
-    skos:altLabel "J" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-modified/> ;
-    skos:prefLabel ""@es, ""@fr, ""@pt, "Money & Finance"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<AM100> a skos:Concept;
+  skos:altLabel "J";
+  skos:inScheme <>;
+  skos:prefLabel "Money & Finance"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-modified/AM110>
-    a skos:Concept ;
-    skos:altLabel "K" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-modified/> ;
-    skos:prefLabel ""@es, ""@fr, ""@pt, "Nature, Conservation & Environment"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<AM110> a skos:Concept;
+  skos:altLabel "K";
+  skos:inScheme <>;
+  skos:prefLabel "Nature, Conservation & Environment"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-modified/AM120>
-    a skos:Concept ;
-    skos:altLabel "L" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-modified/> ;
-    skos:prefLabel ""@es, ""@fr, ""@pt, "Reduce, Reuse, Repair & Recycle"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<AM120> a skos:Concept;
+  skos:altLabel "L";
+  skos:inScheme <>;
+  skos:prefLabel "Reduce, Reuse, Repair & Recycle"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-modified/AM130>
-    a skos:Concept ;
-    skos:altLabel "M" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-modified/> ;
-    skos:prefLabel ""@es, ""@fr, ""@pt, "Agriculture"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<AM130> a skos:Concept;
+  skos:altLabel "M";
+  skos:inScheme <>;
+  skos:prefLabel "Agriculture"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-modified/AM140>
-    a skos:Concept ;
-    skos:altLabel "N" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-modified/> ;
-    skos:prefLabel ""@es, ""@fr, ""@pt, "Industry"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<AM140> a skos:Concept;
+  skos:altLabel "N";
+  skos:inScheme <>;
+  skos:prefLabel "Industry"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-modified/AM150>
-    a skos:Concept ;
-    skos:altLabel "O" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-modified/> ;
-    skos:prefLabel ""@es, ""@fr, ""@pt, "Utilities"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<AM150> a skos:Concept;
+  skos:altLabel "O";
+  skos:inScheme <>;
+  skos:prefLabel "Utilities"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-modified/AM160>
-    a skos:Concept ;
-    skos:altLabel "P" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-modified/> ;
-    skos:prefLabel ""@es, ""@fr, ""@pt, "Transport"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<AM160> a skos:Concept;
+  skos:altLabel "P";
+  skos:inScheme <>;
+  skos:prefLabel "Transport"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-modified/AM20>
-    a skos:Concept ;
-    skos:altLabel "B" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-modified/> ;
-    skos:prefLabel ""@es, ""@fr, ""@pt, "Campaigning, Activism & Advocacy"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<AM20> a skos:Concept;
+  skos:altLabel "B";
+  skos:inScheme <>;
+  skos:prefLabel "Campaigning, Activism & Advocacy"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-modified/AM30>
-    a skos:Concept ;
-    skos:altLabel "C" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-modified/> ;
-    skos:prefLabel ""@es, ""@fr, ""@pt, "Community & Collective Spaces"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<AM30> a skos:Concept;
+  skos:altLabel "C";
+  skos:inScheme <>;
+  skos:prefLabel "Community & Collective Spaces"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-modified/AM40>
-    a skos:Concept ;
-    skos:altLabel "D" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-modified/> ;
-    skos:prefLabel ""@es, ""@fr, ""@pt, "Education"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<AM40> a skos:Concept;
+  skos:altLabel "D";
+  skos:inScheme <>;
+  skos:prefLabel "Education"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-modified/AM50>
-    a skos:Concept ;
-    skos:altLabel "E" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-modified/> ;
-    skos:prefLabel ""@es, ""@fr, ""@pt, "Energy"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<AM50> a skos:Concept;
+  skos:altLabel "E";
+  skos:inScheme <>;
+  skos:prefLabel "Energy"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-modified/AM60>
-    a skos:Concept ;
-    skos:altLabel "F" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-modified/> ;
-    skos:prefLabel ""@es, ""@fr, ""@pt, "Food"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<AM60> a skos:Concept;
+  skos:altLabel "F";
+  skos:inScheme <>;
+  skos:prefLabel "Food"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-modified/AM70>
-    a skos:Concept ;
-    skos:altLabel "G" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-modified/> ;
-    skos:prefLabel ""@es, ""@fr, ""@pt, "Goods & Services"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<AM70> a skos:Concept;
+  skos:altLabel "G";
+  skos:inScheme <>;
+  skos:prefLabel "Goods & Services"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-modified/AM80>
-    a skos:Concept ;
-    skos:altLabel "H" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-modified/> ;
-    skos:prefLabel ""@es, ""@fr, ""@pt, "Health, Social Care & Wellbeing"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
+<AM80> a skos:Concept;
+  skos:altLabel "H";
+  skos:inScheme <>;
+  skos:prefLabel "Health, Social Care & Wellbeing"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
+  skos:scopeNote "" .
 
-<http://purl.org/essglobal/standard/activities-modified/AM90>
-    a skos:Concept ;
-    skos:altLabel "I" ;
-    skos:inScheme <http://purl.org/essglobal/standard/activities-modified/> ;
-    skos:prefLabel ""@es, ""@fr, ""@pt, "Housing"@en ;
-    skos:scopeNote ""@en, ""@es, ""@fr, ""@pt .
-
+<AM90> a skos:Concept;
+  skos:altLabel "I";
+  skos:inScheme <>;
+  skos:prefLabel "Housing"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    ""@pt;
+  skos:scopeNote "" .
