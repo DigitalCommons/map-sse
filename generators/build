@@ -53,7 +53,7 @@ rm -rf $output_dir
 mkdir -p $output_dir/{vocab,standard,html}-content
 
 # Rewrite $orig_essglobal_url to $essglobal_url in template SKOS, HTML and TTL files
-for src in ../vocabs/{vocab/*.ttl,standard/*.ttl,html/essglobal.html}; do
+for src in ../vocabs/{vocab/*.ttl,standard/*.ttl}; do
     # extract the content name from ../vocabs/<content>/*.*
     content=${src#../vocabs/}
     content=${content%/*}
@@ -68,9 +68,6 @@ EOF
     sed "s|$orig_essglobal_url|$essglobal_url|g" $src > $dest
 done
 
-# Copy css verbatim
-cp ../vocabs/html/*.css $output_dir/html-content/
-
 # Translate TTL into RDF/SKOS
 for src in $output_dir/vocab-content/*.ttl; do
     rapper -i turtle -o rdfxml-abbrev $src > ${src%.ttl}.rdf
@@ -84,12 +81,28 @@ for src in $output_dir/{vocab-content,standard-content}/*.ttl; do
     rapper -i turtle -o html $src > ${src%.ttl}.html
 done
 
+# Generate the HTML docs
+for lang in en; do # FIXME multiple languages will need the .htaccess below adjusted
+    # FIXME also we are currently limited to a specific set of vocabs
+    goth -l "$lang" \
+	 "$output_dir/vocab-content/essglobal-vocab.ttl" \
+	 "$output_dir/standard-content/activities.ttl" \
+	 "$output_dir/standard-content/activities-modified.ttl" \
+	 "$output_dir/standard-content/activities-ica.ttl" \
+	 "$output_dir/standard-content/legal-form.ttl" \
+	 "$output_dir/standard-content/organisational-structure.ttl" \
+	 "$output_dir/standard-content/base-membership-type.ttl" \
+	 "$output_dir/standard-content/qualifiers.ttl" \
+	 "$output_dir/standard-content/type-of-labour.ttl" \
+	 > $output_dir/html-content/essglobal.html
+done
+
 # Generate the .htaccess
 ruby generate-htaccess.rb /$subdir/ vocab standard vocab-content/essglobal-vocab.{rdf,ttl} standard-content html-content/essglobal.html > $output_dir/.htaccess
 
 # Generate a warning not to edit
 date=$(date -Is)
-modified=$(git diff-index --quiet HEAD && echo "-modified")
+modified=$(git diff-index --quiet HEAD && echo "-modified" || true)
 commit_id=$(git rev-parse --short HEAD)
 who="$USER ($(getent passwd $USER | cut -d ':' -f 5 | cut -d ',' -f 1))"
 cat > $output_dir/DO_NOT_EDIT_HERE.txt <<EOF
