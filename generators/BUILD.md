@@ -14,13 +14,15 @@ You will need:
 
 Where valid target version are: 
 
-- `sea`
+- `V2a`
+- `2.1`
 
 Obsolete target versions are:
 
 - `experimental`
 - `ise`
 - `1.1`
+- `sea`
 
 # DESCRIPTION
 
