@@ -6,9 +6,13 @@
 
 # Revamped version with new ICA vocabs, and lod.coop URLs.
 # A -dev suffix builds the development version using URLs starting with `dev.`
+./build V2a-dev
+./deploy generated/V2a dev-2:/var/www/vhosts/vocabs.digitalcommons.coop/www/essglobal/V2a
 ./build 2.1-dev
 ./deploy generated/2.1 dev-2:/var/www/vhosts/vocabs.digitalcommons.coop/www/essglobal/2.1
 
+./build V2a
+./deploy generated/V2a prod-2:/var/www/vhosts/vocabs.digitalcommons.coop/www/essglobal/V2a
 ./build 2.1
 ./deploy generated/2.1 prod-2:/var/www/vhosts/vocabs.digitalcommons.coop/www/essglobal/2.1
 
