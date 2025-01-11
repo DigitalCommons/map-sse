@@ -10,7 +10,7 @@ You will need:
 
 # USAGE
 
-    build <target>
+    build <target>[-dev]
 
 Where valid target version are: 
 
@@ -23,6 +23,10 @@ Obsolete target versions are:
 - `ise`
 - `1.1`
 - `sea`
+
+The `-dev` suffix can be added to deploy development builts, which
+have the `dev.` prefix to URLs. Note that the output goes into the
+same file structure!
 
 # DESCRIPTION
 
