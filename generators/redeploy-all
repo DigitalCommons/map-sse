@@ -7,16 +7,10 @@
 # Revamped version with new ICA vocabs, and lod.coop URLs.
 # A -dev suffix builds the development version using URLs starting with `dev.`
 ./build 2.1-dev
-./deploy generated/2.1 dev-1:/var/www/vhosts/vocabs.solidarityeconomy.coop/www/essglobal/2.1
+./deploy generated/2.1 dev-2:/var/www/vhosts/vocabs.digitalcommons.coop/www/essglobal/2.1
 
 ./build 2.1
-./deploy generated/2.1 prod-0:/var/www/vhosts/vocabs.solidarityeconomy.coop/www/essglobal/2.1
-
-# In principle we still need to deploy the old (V2a) versions using
-# w3id.solidarityeconomy.coop URLs. But this predates the prod/dev
-# split, and we don't currently have the means to regenerate the old
-# version in this version of the code, so commented out. We assume
-# it's there and intact!
+./deploy generated/2.1 prod-2:/var/www/vhosts/vocabs.digitalcommons.coop/www/essglobal/2.1
 
 #./build sea
 #./deploy generated/sea dev-0:/var/www/vhosts/vocabs.solidarityeconomy.coop/www/essglobal/V2a
