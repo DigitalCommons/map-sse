@@ -20,7 +20,7 @@ reg: a skos:ConceptScheme;
     "지역권"@ko,
     ""@pt;
   dcterms:created "2021-02-22"^^xsd:date;
-  dcterms:creator <http://solidarityeconomy.coop>;
+  dcterms:creator <http://digitalcommons.coop>;
   dcterms:publisher "ESSGLOBAL" .
 
 <I-AF-CE> a skos:Concept;

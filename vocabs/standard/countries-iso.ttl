@@ -22,7 +22,7 @@ coun: a skos:ConceptScheme;
     "Países"@pt,
     "国别"@zh;
   dcterms:created "2021-02-22"^^xsd:date;
-  dcterms:creator <http://solidarityeconomy.coop>;
+  dcterms:creator <http://digitalcommons.coop>;
   dcterms:publisher "ESSGLOBAL" .
 
 <AD> a skos:Concept;

@@ -19,7 +19,7 @@
     ""@ko,
     ""@pt;
   dcterms:created "2021-03-05"^^xsd:date;
-  dcterms:creator <http://solidarityeconomy.coop>;
+  dcterms:creator <http://digitalcommons.coop>;
   dcterms:publisher "ESSGLOBAL" .
 
 essglobal:countries-iso rdfs:subClassOf <> .

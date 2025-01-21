@@ -14,7 +14,7 @@
     ""@pt;
   dc:language "en-en";
   dc:modified "2022-01-21"^^xsd:date;
-  dc:publisher <https://solidarityeconomy.coop/>;
+  dc:publisher <https://digitalcommons.coop/>;
   dc:relation <http://www.ripess.org/>;
   dc:title "Economic Activity"@en,
     "Actividad económica"@es,
