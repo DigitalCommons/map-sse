@@ -7,7 +7,7 @@ term	property		EN	ES	FR	KO	PT
 	dc:publisher	http://www.ripess.org/					
 	dc:title		Super-Region	Superregión	Régions de niveau supérieur	거대 지역권	
 	dcterms:created	2021-02-22					
-	dcterms:creator	http://solidarityeconomy.coop					
+	dcterms:creator	http://digitalcommons.coop					
 	dcterms:publisher	ESSGLOBAL					
 	rdf:type	http://www.w3.org/2004/02/skos/core#ConceptScheme					
 I	rdf:type	http://www.w3.org/2004/02/skos/core#Concept					

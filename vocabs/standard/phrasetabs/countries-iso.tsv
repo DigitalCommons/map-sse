@@ -7,7 +7,7 @@ term	property		DE	EN	ES	FR	KO	PT	ZH
 	dc:publisher	http://www.ripess.org/							
 	dc:title		Länder	Countries	Países	Des Pays	국가	Países	国别	
 	dcterms:created	2021-02-22							
-	dcterms:creator	http://solidarityeconomy.coop							
+	dcterms:creator	http://digitalcommons.coop							
 	dcterms:publisher	ESSGLOBAL							
 	rdf:type	http://www.w3.org/2004/02/skos/core#ConceptScheme							
 AD	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE							

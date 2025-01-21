@@ -2,7 +2,7 @@ term	property		EN	ES	FR	PT	KO
 	base_uri	http://purl.org/essglobal/standard/activities-modified/					
 	dc:description	A modified activity vocabulary for SSE					
 	dc:language	en-en					
-	dc:publisher	https://solidarityeconomy.coop/					
+	dc:publisher	https://digitalcommons.coop/					
 	dc:relation	http://www.ripess.org/					
 	dc:title	Activities (Modified)					
 	dcterms:created	2019-05-20					

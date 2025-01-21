@@ -2,7 +2,7 @@ Domain	term	property		DE	EN	ES	FR	KO	PT	ZH
 activities-modified		base_uri	http://purl.org/essglobal/standard/activities-modified/							
 activities-modified		dc:description	A modified activity vocabulary for SSE							
 activities-modified		dc:language	en-en							
-activities-modified		dc:publisher	https://solidarityeconomy.coop/							
+activities-modified		dc:publisher	https://digitalcommons.coop/							
 activities-modified		dc:relation	http://www.ripess.org/							
 activities-modified		dc:title	Activities (Modified)							
 activities-modified		dcterms:created	2019-05-20							
@@ -209,7 +209,7 @@ base-membership-type		base_uri	http://purl.org/essglobal/standard/base-membershi
 base-membership-type		dc:description			The set of types of memberships to be used with the term baseMembershipType					
 base-membership-type		dc:language	en-en							
 base-membership-type		dc:modified	2021-03-10							
-base-membership-type		dc:publisher	https://solidarityeconomy.coop/							
+base-membership-type		dc:publisher	https://digitalcommons.coop/							
 base-membership-type		dc:relation	http://www.ripess.org/							
 base-membership-type		dc:title			Typology	Tipología	Typologie	유형		
 base-membership-type		dcterms:created	2020-10-07							
@@ -253,7 +253,7 @@ countries-iso		dc:modified	2022-01-21
 countries-iso		dc:publisher	http://www.ripess.org/							
 countries-iso		dc:title		Länder	Countries	Países	Des Pays	국가	Países	国别
 countries-iso		dcterms:created	2021-02-22							
-countries-iso		dcterms:creator	http://solidarityeconomy.coop							
+countries-iso		dcterms:creator	http://digitalcommons.coop							
 countries-iso		dcterms:publisher	ESSGLOBAL							
 countries-iso		rdf:type	http://www.w3.org/2004/02/skos/core#ConceptScheme							
 countries-iso	AD	ossr:within	http://purl.org/essglobal/standard/regions-ica/I-EU-WE							
@@ -1277,7 +1277,7 @@ organisational-structure		base_uri	http://purl.org/essglobal/standard/organisati
 organisational-structure		dc:description			Alternative SSE Initiative or SSE Network Legal Form controlled vocabulary for SSE					
 organisational-structure		dc:language	en-en							
 organisational-structure		dc:modified	2021-03-10							
-organisational-structure		dc:publisher	https://solidarityeconomy.coop/							
+organisational-structure		dc:publisher	https://digitalcommons.coop/							
 organisational-structure		dc:relation	http://www.ripess.org/							
 organisational-structure		dc:title			Structure Type	Tipo de estructura	Type de structure	구조 유형		
 organisational-structure		dcterms:created	2019-05-16							
@@ -2146,7 +2146,7 @@ regions-ica		dc:modified	2021-03-11
 regions-ica		dc:publisher	http://www.ripess.org/							
 regions-ica		dc:title			Regions	Regiones	Régions	지역권		
 regions-ica		dcterms:created	2021-02-22							
-regions-ica		dcterms:creator	http://solidarityeconomy.coop							
+regions-ica		dcterms:creator	http://digitalcommons.coop							
 regions-ica		dcterms:publisher	ESSGLOBAL							
 regions-ica		rdf:type	http://www.w3.org/2004/02/skos/core#ConceptScheme							
 regions-ica	I-AF-CE	ossr:within	http://purl.org/essglobal/standard/super-regions-ica/I-AF							
@@ -2225,7 +2225,7 @@ super-regions-ica		dc:modified	2021-03-11
 super-regions-ica		dc:publisher	http://www.ripess.org/							
 super-regions-ica		dc:title			Super-Region	Superregión	Régions de niveau supérieur	거대 지역권		
 super-regions-ica		dcterms:created	2021-02-22							
-super-regions-ica		dcterms:creator	http://solidarityeconomy.coop							
+super-regions-ica		dcterms:creator	http://digitalcommons.coop							
 super-regions-ica		dcterms:publisher	ESSGLOBAL							
 super-regions-ica		rdf:type	http://www.w3.org/2004/02/skos/core#ConceptScheme							
 super-regions-ica	I	rdf:type	http://www.w3.org/2004/02/skos/core#Concept							
@@ -2251,7 +2251,7 @@ territories-ica		dc:modified	2021-03-05
 territories-ica		dc:publisher	http://www.ripess.org/							
 territories-ica		dc:title			ICA Territories	Territorio	Territoire			
 territories-ica		dcterms:created	2021-03-05							
-territories-ica		dcterms:creator	http://solidarityeconomy.coop							
+territories-ica		dcterms:creator	http://digitalcommons.coop							
 territories-ica		dcterms:publisher	ESSGLOBAL							
 territories-ica		rdf:type	http://www.w3.org/2004/02/skos/core#ConceptScheme							
 territories-ica	essglobal:countries-iso	rdfs:subClassOf	http://purl.org/essglobal/standard/territories-ica/							
