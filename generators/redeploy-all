@@ -17,6 +17,6 @@
 ./deploy generated/2.1 prod-2:/var/www/vhosts/vocabs.digitalcommons.coop/www/essglobal/2.1
 
 #./build sea
-#./deploy generated/sea dev-0:/var/www/vhosts/vocabs.solidarityeconomy.coop/www/essglobal/V2a
-#./deploy generated/sea prod-0:/var/www/vhosts/vocabs.solidarityeconomy.coop/www/essglobal/V2a
+#./deploy generated/sea dev-2:/var/www/vhosts/vocabs.digitalcommons.coop/www/essglobal/V2a
+#./deploy generated/sea prod-2:/var/www/vhosts/vocabs.digitalcommons.coop/www/essglobal/V2a
 
