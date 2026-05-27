@@ -1,0 +1,277 @@
+@base <http://purl.org/essglobal/standard/organisational-structure/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix essglobal: <http://purl.org/essglobal/standard/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme;
+  dc:description "Alternative SSE Initiative or SSE Network Legal Form controlled vocabulary for SSE"@en,
+    ""@es,
+    ""@fr,
+    ""@it,
+    ""@ko,
+    ""@pt;
+  dc:language "en-en";
+  dc:modified "2022-01-21"^^xsd:date;
+  dc:publisher <https://digitalcommons.coop/>;
+  dc:relation <http://www.ripess.org/>;
+  dc:title "Structure Type"@en,
+    "Tipo de estructura"@es,
+    "Type de structure"@fr,
+    ""@it,
+    "구조 유형"@ko,
+    ""@pt;
+  dcterms:created "2019-05-16"^^xsd:date;
+  dcterms:publisher "ESSGLOBAL" .
+
+<OS10> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "Community group (formal or informal)"@en,
+    ""@es,
+    ""@fr,
+    ""@it,
+    ""@ko,
+    ""@pt;
+  skos:scopeNote "" .
+
+<OS100> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "Multi-stakeholder cooperative"@en,
+    "Cooperativas de múltiples partes interesadas"@es,
+    "Coopératives d'intérêt collectif"@fr,
+    ""@it,
+    "다중이해관계자"@ko,
+    ""@pt;
+  skos:scopeNote "" .
+
+<OS110> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "Secondary cooperative"@en,
+    ""@es,
+    ""@fr,
+    ""@it,
+    ""@ko,
+    ""@pt;
+  skos:scopeNote "" .
+
+<OS115> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "Cooperative"@en,
+    "Cooperativa"@es,
+    "Coopérative"@fr,
+    ""@it,
+    "협동조합"@ko,
+    ""@pt;
+  skos:scopeNote "" .
+
+<OS120> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "Community Interest Company (CIC)"@en,
+    ""@es,
+    ""@fr,
+    ""@it,
+    ""@ko,
+    ""@pt;
+  skos:scopeNote "" .
+
+<OS130> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "Community Benefit Society / Industrial and Provident Society (IPS)"@en,
+    ""@es,
+    ""@fr,
+    ""@it,
+    ""@ko,
+    ""@pt;
+  skos:scopeNote "" .
+
+<OS140> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "Employee trust"@en,
+    ""@es,
+    ""@fr,
+    ""@it,
+    ""@ko,
+    ""@pt;
+  skos:scopeNote "" .
+
+<OS150> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "Self-employed"@en,
+    ""@es,
+    ""@fr,
+    ""@it,
+    ""@ko,
+    ""@pt;
+  skos:scopeNote "" .
+
+<OS160> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "Unincorporated"@en,
+    ""@es,
+    ""@fr,
+    ""@it,
+    ""@ko,
+    ""@pt;
+  skos:scopeNote "" .
+
+<OS170> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "Mutual"@en,
+    "Mutual"@es,
+    "Mutuelle"@fr,
+    ""@it,
+    "상호회사"@ko,
+    ""@pt;
+  skos:scopeNote "" .
+
+<OS180> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "National apex"@en,
+    "Organismo federativo nacional"@es,
+    "Organisation faîtière nationale"@fr,
+    ""@it,
+    "국가 정상"@ko,
+    ""@pt;
+  skos:scopeNote "" .
+
+<OS190> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "National sectoral federation or union"@en,
+    "Sindicato o federación nacional sectorial"@es,
+    "Union ou fédération nationale sectorielle"@fr,
+    ""@it,
+    "국가 차원의 연맹 및 노동조합"@ko,
+    ""@pt;
+  skos:scopeNote "" .
+
+<OS20> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "Not-for-profit organisation"@en,
+    ""@es,
+    ""@fr,
+    ""@it,
+    ""@ko,
+    ""@pt;
+  skos:scopeNote "" .
+
+<OS200> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "Regional, state or provincial level federation or union"@en,
+    "Federación o unión sectorial, estatal o regional"@es,
+    "Union ou fédération régionale, nationale ou infranationale"@fr,
+    ""@it,
+    "지역, 주, 지자체 수준의 연맹 및 노동조합"@ko,
+    ""@pt;
+  skos:scopeNote "" .
+
+<OS210> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "Cooperative group"@en,
+    "Grupo cooperativo"@es,
+    "Groupe coopératif"@fr,
+    ""@it,
+    "협동조합 그룹"@ko,
+    ""@pt;
+  skos:scopeNote "" .
+
+<OS220> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "Government agency/body"@en,
+    "Entidad gubernamental"@es,
+    "Agence/autorité gouvernementale"@fr,
+    ""@it,
+    "정부기관"@ko,
+    ""@pt;
+  skos:scopeNote "" .
+
+<OS230> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "Supranational"@en,
+    "Organización supranacional"@es,
+    "Organisation supranationale"@fr,
+    ""@it,
+    "국제조직"@ko,
+    ""@pt;
+  skos:scopeNote "" .
+
+<OS240> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "Cooperative of cooperatives / mutuals"@en,
+    "Cooperativa de cooperativas/mutuales"@es,
+    "Coopérative de coopératives/mutuelles"@fr,
+    ""@it,
+    "협동조합간 협동"@ko,
+    ""@pt;
+  skos:scopeNote "" .
+
+<OS30> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "Social enterprise"@en,
+    ""@es,
+    ""@fr,
+    ""@it,
+    ""@ko,
+    ""@pt;
+  skos:scopeNote "" .
+
+<OS40> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "Charity"@en,
+    ""@es,
+    ""@fr,
+    ""@it,
+    ""@ko,
+    ""@pt;
+  skos:scopeNote "" .
+
+<OS50> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "Company (Other)"@en,
+    "Empresa (otra)"@es,
+    "Entreprise (autre)"@fr,
+    ""@it,
+    "회사(기타)"@ko,
+    ""@pt;
+  skos:scopeNote "" .
+
+<OS60> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "Workers cooperative"@en,
+    "Cooperativas de trabajo"@es,
+    "Coopératives de travail associé"@fr,
+    ""@it,
+    "노동자"@ko,
+    ""@pt;
+  skos:scopeNote "" .
+
+<OS70> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "Housing cooperative"@en,
+    ""@es,
+    ""@fr,
+    ""@it,
+    ""@ko,
+    ""@pt;
+  skos:scopeNote "" .
+
+<OS80> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "Consumer/User coops"@en,
+    "Cooperativas de consumo"@es,
+    "Coopératives de consommateurs"@fr,
+    ""@it,
+    ""@ko,
+    ""@pt;
+  skos:scopeNote "" .
+
+<OS90> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "Producer cooperative"@en,
+    "Cooperativas de productores"@es,
+    "Coopératives de producteurs"@fr,
+    ""@it,
+    "생산자"@ko,
+    ""@pt;
+  skos:scopeNote "" .

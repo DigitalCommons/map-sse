@@ -1,0 +1,73 @@
+@base <http://purl.org/essglobal/standard/type-of-labour/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix essglobal: <http://purl.org/essglobal/standard/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme;
+  dc:contributor "Alan Tygel (alantygel@gmail.com)",
+    "Ana Alice Baptista (analice@dsi.uminho.pt)",
+    "Craig Borowiak (cborowiakhaverford.edu)",
+    "Daniel Tygel (dtygel@gmail.com)",
+    "Jason Nardi (jason.nardi@gmail.com)";
+  dc:creator "Mariana Malta (mariana@maltas.org)";
+  dc:description "SSE Initiative or SSE Network Legal Form controlled vocabulary for SSE";
+  dc:language "en-en";
+  dc:modified "2022-01-21"^^xsd:date;
+  dc:publisher <http://www.ripess.org/>;
+  dc:relation <http://www.dsi.uminho.pt/>;
+  dc:title "Type of Labour";
+  dcterms:created "2014-02-06"^^xsd:date;
+  dcterms:publisher "ESSGLOBAL" .
+
+<T1> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "Associative"@en,
+    "Associativo"@es,
+    ""@fr,
+    ""@it,
+    ""@ko,
+    "Associativo"@pt;
+  skos:scopeNote "" .
+
+<T2> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "Subordinate"@en,
+    ""@es,
+    ""@fr,
+    ""@it,
+    ""@ko,
+    "Subordinado"@pt;
+  skos:scopeNote "" .
+
+<T3> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "Voluntary Work"@en,
+    ""@es,
+    ""@fr,
+    ""@it,
+    ""@ko,
+    "Trabalho Voluntário"@pt;
+  skos:scopeNote "" .
+
+<T4> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "Reproductive Labour/Care Work"@en,
+    ""@es,
+    ""@fr,
+    ""@it,
+    ""@ko,
+    ""@pt;
+  skos:scopeNote "" .
+
+<T5> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "Externally hired"@en,
+    ""@es,
+    ""@fr,
+    ""@it,
+    ""@ko,
+    ""@pt;
+  skos:scopeNote "" .

@@ -1,0 +1,74 @@
+#!/bin/env ruby
+#
+# This script reads a TTL files on stdin, and writes it as NTriples on
+# stdout, sorted in a helpful way (so that language tags are
+# consistently ordered).
+#
+# Usage
+#
+#   ttl2nt <$TTL >$NT
+
+
+require 'rdf'
+require 'rdf/vocab' # 3.2
+require 'rdf/turtle'
+require 'tempfile'
+
+temp2 = Tempfile.new('b')
+
+filenames = ARGV.take(2)
+tempfiles = []
+
+def to_ntriples(infile, outfile)
+  RDF::Reader.open(infile) do |reader|
+    graph = RDF::Graph.new.insert(reader.to_a)
+    
+    sorted = graph.to_a.sort_by do |stmt|
+      # Sort objects by datatype, then those with language tags by the
+      # tags, then the strings. Attemtps to enforce a deterministic order.
+      stmt.to_a.map do |t|
+        case t
+        when RDF::Literal
+          [t.datatype, t.language, t.to_s.downcase]
+        else
+          [nil, nil, t.to_s.downcase]
+        end
+      end
+    end
+    
+    RDF::Writer.open(outfile, format: :ntriples) do |writer|
+      sorted.each do |stmt|
+        writer << stmt
+      end
+    end
+  end
+end
+
+begin
+  tempfiles = filenames.map do |filename|
+    temp = Tempfile.new
+    
+    to_ntriples filename, temp
+
+    temp
+  end
+
+  cmd = [
+    'diff', '-u', '-i',
+    *filenames.flat_map {|t| ['--label', t] },
+    *tempfiles.map {|t| t.path }
+  ]
+  #puts cmd # DEBUG
+  
+  system *cmd
+
+ensure
+
+  tempfiles.each do |temp|
+    temp.close
+    temp.unlink
+  end
+  
+end
+
+

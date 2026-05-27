@@ -1,0 +1,68 @@
+@base <http://purl.org/essglobal/standard/legal-form/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix essglobal: <http://purl.org/essglobal/standard/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme;
+  dc:contributor "Alan Tygel (alantygel@gmail.com)",
+    "Ana Alice Baptista (analice@dsi.uminho.pt)",
+    "Craig Borowiak (cborowiakhaverford.edu)",
+    "Daniel Tygel (dtygel@gmail.com)",
+    "Jason Nardi (jason.nardi@gmail.com)";
+  dc:creator "Mariana Malta (mariana@maltas.org)";
+  dc:description "SSE Initiative or SSE Network Legal form controlled vocabulary for SSE";
+  dc:language "en-en";
+  dc:modified "2022-01-26"^^xsd:date;
+  dc:publisher <http://www.ripess.org/>;
+  dc:relation <http://www.dsi.uminho.pt/>;
+  dc:title "Legal Form";
+  dcterms:created "2014-02-06"^^xsd:date;
+  dcterms:publisher "ESSGLOBAL" .
+
+<L1> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "Informal Group"@en,
+    "Grupo Informal"@es,
+    ""@fr,
+    ""@ko,
+    "Grupo Informal"@pt;
+  skos:scopeNote "" .
+
+<L2> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "Cooperative"@en,
+    "Cooperativa"@es,
+    ""@fr,
+    ""@ko,
+    "Cooperativa"@pt;
+  skos:scopeNote "" .
+
+<L3> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "Company"@en,
+    "Empresa"@es,
+    "Entreprise"@fr,
+    ""@ko,
+    "Empresa"@pt;
+  skos:scopeNote "" .
+
+<L4> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "Non-Profit Organisation"@en,
+    ""@es,
+    ""@fr,
+    ""@ko,
+    "Organização Não Governamental"@pt;
+  skos:scopeNote "" .
+
+<L5> a skos:Concept;
+  skos:inScheme <>;
+  skos:prefLabel "Social Enterprise"@en,
+    "Empresa Social"@es,
+    ""@fr,
+    ""@ko,
+    "Empresa Social"@pt;
+  skos:scopeNote "" .

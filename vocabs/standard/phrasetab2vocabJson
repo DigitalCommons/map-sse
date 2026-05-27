@@ -1,0 +1,164 @@
+#!/bin/env ruby
+# coding: utf-8
+require 'date'
+require 'csv'
+require 'optparse'
+require 'optparse/uri'
+require 'rdf'
+require 'rdf/turtle'
+require 'json'
+
+# This script converts a (potentially multi-vocab) phrasetab into a
+# vocabs.json usable for Mykomap.
+#
+# The TSV data is expected on STDIN.
+#
+# The columns of this should include:
+# - vocab - a "pname" abbreviated URI indicating the vocab the row belongs to, e.g. `os:`
+# - term - a ID slug unique to the vocab which gets appended to the vocab URI,
+#   or blank if the row relates globally to the whole vocab (mainly useful for titles)
+# - property - an RDF qname URI identifying the relationship between the vocab/term
+#   and the localised fields (typically `skos:prefLabel`, or `dc:title`)
+# - EN - A column for the phrase in question, in English
+# - optionally, other language columns, each headed by a 2 letter language code.
+#
+# To work, the command needs mappings from each of the the "pname"s -
+# truncated URIs - used in the `vocabs` column, to full URIs. e.g.
+#
+# -a os=https://dev.lod.coop/essglobal/2.1/standard/organisational-structure/
+#
+# This example expresses that:
+# "Where you see `os:` infer `https://dev.lod.coop/essglobal/2.1/standard/organisational-structure/`
+#
+# These prefix mappings are used in the vocabs.json output on STDOUT.
+
+# The delimiter used in multi-value fields (when not escaped with a backslash)
+SubfieldDelim = ';'
+
+# URIs plus prefixes collected from the CLI
+# (indexes for mapping forward and backward between these)
+prefixes = {}
+uris = {}
+
+OptionParser.new do |opts|
+  opts.banner = "Usage: #{$0} [options]"
+  opts.on('-a', '--alias [prefix]=[URI]', String, "Define an URI alias mapping") do |v|
+    prefix, uri = v.split('=')
+    prefixes[uri] = prefix
+    uris[prefix] = uri
+  end
+end.parse!
+
+
+# Makes an autovivifying Hash.
+# Adapted from https://t-a-w.blogspot.com/2006/07/autovivification-in-ruby.html
+def autovivifying_hash
+  Hash.new do |ht, k|
+    ht[k] = autovivifying_hash
+  end
+end
+
+# Iterate over the input TSV, and build a nested hash index of
+# terms -> properties -> language code -> phrase
+vocab_index = autovivifying_hash
+prefix_index = autovivifying_hash
+lineno = 1
+langs = nil
+
+CSV.new($stdin, col_sep: "\t", headers: true, quote_char: "\0", liberal_parsing: true).each do |row|
+  lineno += 1
+  vocab, term, property = row.fields('vocab', 'term', 'property')
+  unless vocab
+    warn "Skipping blank vocab in line #{lineno}: #{row}"
+    next
+  end
+  unless vocab
+    warn "Skipping blank property in line #{lineno}: #{row}"
+    next
+  end
+  
+  # remove nulls/padding
+  vocab = vocab.to_s.strip
+  term = term.to_s.strip
+  property = property.to_s.strip
+
+  # remove the vocab term and property fields
+  fields = row.to_h
+  fields.delete('vocab')
+  fields.delete('term')
+  fields.delete('property')
+
+  # Capture the language headers
+  fields.keys.delete_if do |f|
+    f.nil? or f.empty?
+  end
+  fields.transform_keys! do |k|
+    k.upcase
+  end
+              
+  
+  # split multi-value items (those with a subfield delimiter)
+  fields = fields.to_a.collect do |k, v|
+    # Sanitise the fields,
+    # remove spurious whitespace
+    k = k.to_s.strip
+    v = v.to_s.strip
+    
+    ary = if v
+            # Here we use a negative lookbehind anchor to ensure we only match
+            # subfield_delims not preceeded by an escape character.
+            v.split(/(?<!\\)#{Regexp.quote(SubfieldDelim)}/)
+              .collect {|it| it.gsub(/\\(.)/, '\1') } # unescape
+          else
+            []
+          end
+
+    [k, ary]
+  end.to_h
+
+  # Remove empty fields
+  fields.delete_if do |k, v|
+    v.empty?
+  end
+
+  # normalise the uri
+  prefix, suffix = vocab.split(':', 2)
+  if suffix == nil or suffix.start_with?('/') # looks like an URL or a qname?
+    vocab_uri = vocab # url
+  else
+    vocab_uri = uris[prefix] || vocab_uri # qname
+  end
+
+  # Add the prefix to the prefix_index
+  prefix_index[vocab_uri] = prefix
+  prefix += ':'
+
+  # Add the terms to the vocab_index
+  if term == ''
+    if property == 'dc:title'
+      fields.each do |lang, value|
+        vocab_index[prefix][lang]['title'] = value.first
+      end
+    end
+  else
+    fields.each do |lang, value|
+      vocab_index[prefix][lang]['terms'][prefix+term] = value.first
+    end
+  end
+end
+
+
+
+
+if vocab_index.empty?
+  raise "Input phrasetab gives an emtpy term index!"
+end
+
+# Write out the result as JSON
+vocab_json = {
+  'prefixes' => prefix_index,
+  'vocabs' => vocab_index,
+}
+
+puts vocab_json.to_json
+

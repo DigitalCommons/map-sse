@@ -4,3 +4,6 @@
 # output directory for generators:
 generators/generated
 generators/tmp_test_results
+
+# Ruby gem cache
+/.gems/

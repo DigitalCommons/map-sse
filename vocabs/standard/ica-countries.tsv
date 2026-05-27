@@ -1,0 +1,251 @@
+Country	country code	Super-Region	Region
+Burundi	BI	Africa	Central Africa
+Cameroon	CM	Africa	Central Africa
+Central African Republic	CF	Africa	Central Africa
+Chad	TD	Africa	Central Africa
+Congo, Republic of the	CG	Africa	Central Africa
+Congo, The Democratic Republic of the	CD	Africa	Central Africa
+Gabon	GA	Africa	Central Africa
+Rwanda	RW	Africa	Central Africa
+Sao Tome and Principe	ST	Africa	Central Africa
+Djibouti	DJ	Africa	East Africa
+Ethiopia	ET	Africa	East Africa
+Kenya	KE	Africa	East Africa
+Mozambique	MZ	Africa	East Africa
+Reunion	RE	Africa	East Africa
+Somalia	SO	Africa	East Africa
+South Sudan	SS	Africa	East Africa
+Sudan	SD	Africa	East Africa
+Tanzania, United Republic of	TZ	Africa	East Africa
+Uganda	UG	Africa	East Africa
+Algeria	DZ	Africa	North Africa
+Egypt	EG	Africa	North Africa
+Libya	LY	Africa	North Africa
+Morocco	MA	Africa	North Africa
+Tunisia	TN	Africa	North Africa
+Western Sahara	EH	Africa	North Africa
+Angola	AO	Africa	Southern Africa
+Botswana	BW	Africa	Southern Africa
+Comoros	KM	Africa	Southern Africa
+Lesotho	LS	Africa	Southern Africa
+Madagascar	MG	Africa	Southern Africa
+Malawi	MW	Africa	Southern Africa
+Mauritius	MU	Africa	Southern Africa
+Mayotte	YT	Africa	Southern Africa
+Namibia	NA	Africa	Southern Africa
+Seychelles	SC	Africa	Southern Africa
+South Africa	ZA	Africa	Southern Africa
+Swaziland	SZ	Africa	Southern Africa
+Zambia	ZM	Africa	Southern Africa
+Zimbabwe	ZW	Africa	Southern Africa
+Benin	BJ	Africa	West Africa
+Burkina Faso	BF	Africa	West Africa
+Cape Verde	CV	Africa	West Africa
+Côte d'Ivoire	CI	Africa	West Africa
+Equatorial Guinea	GQ	Africa	West Africa
+Gambia	GM	Africa	West Africa
+Ghana	GH	Africa	West Africa
+Guinea	GN	Africa	West Africa
+Guinea-Bissau	GW	Africa	West Africa
+Liberia	LR	Africa	West Africa
+Mali	ML	Africa	West Africa
+Mauritania	MR	Africa	West Africa
+Niger	NE	Africa	West Africa
+Nigeria	NG	Africa	West Africa
+Papua New Guinea	PG	Africa	West Africa
+Saint Helena	SH	Africa	West Africa
+Senegal	SN	Africa	West Africa
+Sierra Leone	SL	Africa	West Africa
+Togo	TG	Africa	West Africa
+Anguilla	AI	Americas	Caribbean countries
+Antigua and Barbuda	AG	Americas	Caribbean countries
+Aruba	AW	Americas	Caribbean countries
+Bahamas	BS	Americas	Caribbean countries
+Barbados	BB	Americas	Caribbean countries
+Bermuda	BM	Americas	Caribbean countries
+Bonaire, Saint Eustatius and Saba	BQ	Americas	Caribbean countries
+Cayman Islands	KY	Americas	Caribbean countries
+Cuba	CU	Americas	Caribbean countries
+Curaçao	CW	Americas	Caribbean countries
+Dominica	DM	Americas	Caribbean countries
+Dominican Republic	DO	Americas	Caribbean countries
+Grenada	GD	Americas	Caribbean countries
+Guadeloupe	GP	Americas	Caribbean countries
+Haiti	HT	Americas	Caribbean countries
+Jamaica	JM	Americas	Caribbean countries
+Martinique	MQ	Americas	Caribbean countries
+Montserrat	MS	Americas	Caribbean countries
+Puerto Rico	PR	Americas	Caribbean countries
+Saint Kitts and Nevis	KN	Americas	Caribbean countries
+Saint Lucia	LC	Americas	Caribbean countries
+Saint Vincent and the Grenadines	VC	Americas	Caribbean countries
+Sint Maarten (Dutch Part)	SX	Americas	Caribbean countries
+Trinidad and Tobago	TT	Americas	Caribbean countries
+Turks and Caicos Islands	TC	Americas	Caribbean countries
+Virgin Islands, British	VG	Americas	Caribbean countries
+Virgin Islands, U.S.	VI	Americas	Caribbean countries
+Belize	BZ	Americas	Central America
+Costa Rica	CR	Americas	Central America
+El Salvador	SV	Americas	Central America
+Guatemala	GT	Americas	Central America
+Honduras	HN	Americas	Central America
+Nicaragua	NI	Americas	Central America
+Panama	PA	Americas	Central America
+Canada	CA	Americas	North America
+Mexico	MX	Americas	North America
+Saint Pierre and Miquelon	PM	Americas	North America
+United States	US	Americas	North America
+Argentina	AR	Americas	South America
+Bolivia	BO	Americas	South America
+Brazil	BR	Americas	South America
+Chile	CL	Americas	South America
+Colombia	CO	Americas	South America
+Ecuador	EC	Americas	South America
+French Guiana	GF	Americas	South America
+Guyana	GY	Americas	South America
+Paraguay	PY	Americas	South America
+Peru	PE	Americas	South America
+Suriname	SR	Americas	South America
+Uruguay	UY	Americas	South America
+Venezuela	VE	Americas	South America
+Kazakhstan	KZ	Asia+Pacific	Central Asia
+Kyrgyzstan	KG	Asia+Pacific	Central Asia
+Tajikistan	TJ	Asia+Pacific	Central Asia
+Turkmenistan	TM	Asia+Pacific	Central Asia
+Uzbekistan	UZ	Asia+Pacific	Central Asia
+China	CN	Asia+Pacific	East Asia
+Hong Kong	HK	Asia+Pacific	East Asia
+Japan	JP	Asia+Pacific	East Asia
+Korea, Democratic People's Republic of	KP	Asia+Pacific	East Asia
+Korea, Republic of	KR	Asia+Pacific	East Asia
+Macao	MO	Asia+Pacific	East Asia
+Mongolia	MN	Asia+Pacific	East Asia
+Bahrain	BH	Asia+Pacific	Middle East
+Eritrea	ER	Asia+Pacific	Middle East
+Iran, Islamic Republic of	IR	Asia+Pacific	Middle East
+Iraq	IQ	Asia+Pacific	Middle East
+Israel	IL	Europe	Europe (Eastern)
+Jordan	JO	Asia+Pacific	Middle East
+Kuwait	KW	Asia+Pacific	Middle East
+Lebanon	LB	Asia+Pacific	Middle East
+Oman	OM	Asia+Pacific	Middle East
+Palestinian Territory, Occupied	PS	Asia+Pacific	Middle East
+Qatar	QA	Asia+Pacific	Middle East
+Saudi Arabia	SA	Asia+Pacific	Middle East
+Syrian Arab Republic	SY	Asia+Pacific	Middle East
+United Arab Emirates	AE	Asia+Pacific	Middle East
+Yemen	YE	Asia+Pacific	Middle East
+American Samoa	AS	Asia+Pacific	Oceania
+Australia	AU	Asia+Pacific	Oceania
+Christmas Island	CX	Asia+Pacific	Oceania
+Cocos (Keeling) Islands	CC	Asia+Pacific	Oceania
+Cook Islands	CK	Asia+Pacific	Oceania
+Fiji	FJ	Asia+Pacific	Oceania
+French Polynesia	PF	Asia+Pacific	Oceania
+Guam	GU	Asia+Pacific	Oceania
+Kiribati	KI	Asia+Pacific	Oceania
+Marshall Islands	MH	Asia+Pacific	Oceania
+Micronesia, Federated States of	FM	Asia+Pacific	Oceania
+Nauru	NR	Asia+Pacific	Oceania
+New Caledonia	NC	Asia+Pacific	Oceania
+New Zealand	NZ	Asia+Pacific	Oceania
+Niue	NU	Asia+Pacific	Oceania
+Norfolk Island	NF	Asia+Pacific	Oceania
+Northern Mariana Islands	MP	Asia+Pacific	Oceania
+Palau	PW	Asia+Pacific	Oceania
+Pitcairn	PN	Asia+Pacific	Oceania
+Samoa	WS	Asia+Pacific	Oceania
+Solomon Islands	SB	Asia+Pacific	Oceania
+Timor-Leste	TL	Asia+Pacific	Oceania
+Tokelau	TK	Asia+Pacific	Oceania
+Tonga	TO	Asia+Pacific	Oceania
+Tuvalu	TV	Asia+Pacific	Oceania
+United States Minor Outlying Islands	UM	Asia+Pacific	Oceania
+Vanuatu	VU	Asia+Pacific	Oceania
+Wallis and Futuna	WF	Asia+Pacific	Oceania
+Afghanistan	AF	Asia+Pacific	South Asia
+Bangladesh	BD	Asia+Pacific	South Asia
+Bhutan	BT	Asia+Pacific	South Asia
+British Indian Ocean Territory	IO	Asia+Pacific	South Asia
+India	IN	Asia+Pacific	South Asia
+Maldives	MV	Asia+Pacific	South Asia
+Nepal	NP	Asia+Pacific	South Asia
+Pakistan	PK	Asia+Pacific	South Asia
+Sri Lanka	LK	Asia+Pacific	South Asia
+Brunei Darussalam	BN	Asia+Pacific	South East Asia
+Cambodia	KH	Asia+Pacific	South East Asia
+Indonesia	ID	Asia+Pacific	South East Asia
+Lao People's Democratic Republic	LA	Asia+Pacific	South East Asia
+Malaysia	MY	Asia+Pacific	South East Asia
+Myanmar	MM	Asia+Pacific	South East Asia
+Philippines	PH	Asia+Pacific	South East Asia
+Singapore	SG	Asia+Pacific	South East Asia
+Taiwan	TW	Asia+Pacific	South East Asia
+Thailand	TH	Asia+Pacific	South East Asia
+Viet Nam	VN	Asia+Pacific	South East Asia
+Albania	AL	Europe	Europe (Eastern)
+Armenia	AM	Europe	Europe (Eastern)
+Azerbaijan	AZ	Europe	Europe (Eastern)
+Belarus	BY	Europe	Europe (Eastern)
+Bosnia and Herzegovina	BA	Europe	Europe (Eastern)
+Bulgaria	BG	Europe	Europe (Eastern)
+Croatia	HR	Europe	Europe (Eastern)
+Czech Republic	CZ	Europe	Europe (Eastern)
+Estonia	EE	Europe	Europe (Eastern)
+Georgia	GE	Europe	Europe (Eastern)
+Hungary	HU	Europe	Europe (Eastern)
+Latvia	LV	Europe	Europe (Eastern)
+Lithuania	LT	Europe	Europe (Eastern)
+Macedonia, Republic of	MK	Europe	Europe (Eastern)
+Moldova	MD	Europe	Europe (Eastern)
+Montenegro	ME	Europe	Europe (Eastern)
+Poland	PL	Europe	Europe (Eastern)
+Romania	RO	Europe	Europe (Eastern)
+Russian Federation	RU	Europe	Europe (Eastern)
+Serbia	RS	Europe	Europe (Eastern)
+Serbia and Montenegro	CS	Europe	Europe (Eastern)
+Slovakia	SK	Europe	Europe (Eastern)
+Slovenia	SI	Europe	Europe (Eastern)
+Ukraine	UA	Europe	Europe (Eastern)
+Åland Islands	AX	Europe	Europe (Western)
+Andorra	AD	Europe	Europe (Western)
+Austria	AT	Europe	Europe (Western)
+Belgium	BE	Europe	Europe (Western)
+Cyprus	CY	Europe	Europe (Western)
+Denmark	DK	Europe	Europe (Western)
+Faroe Islands	FO	Europe	Europe (Western)
+Finland	FI	Europe	Europe (Western)
+France	FR	Europe	Europe (Western)
+French Southern Territories	TF	Europe	Europe (Western)
+Germany	DE	Europe	Europe (Western)
+Gibraltar	GI	Europe	Europe (Western)
+Greece	GR	Europe	Europe (Western)
+Greenland	GL	Europe	Europe (Western)
+Holy See (Vatican City State)	VA	Europe	Europe (Western)
+Iceland	IS	Europe	Europe (Western)
+Ireland	IE	Europe	Europe (Western)
+Italy	IT	Europe	Europe (Western)
+Liechtenstein	LI	Europe	Europe (Western)
+Luxembourg	LU	Europe	Europe (Western)
+Malta	MT	Europe	Europe (Western)
+Monaco	MC	Europe	Europe (Western)
+Netherlands	NL	Europe	Europe (Western)
+Norway	NO	Europe	Europe (Western)
+Portugal	PT	Europe	Europe (Western)
+San Marino	SM	Europe	Europe (Western)
+Spain	ES	Europe	Europe (Western)
+Svalbard and Jan Mayen	SJ	Europe	Europe (Western)
+Sweden	SE	Europe	Europe (Western)
+Switzerland	CH	Europe	Europe (Western)
+Turkey	TR	Europe	Europe (Western)
+United Kingdom	GB	Europe	Europe (Western)
+International	NULL	International	International
+Antarctica	AQ	none	unassigned
+Bouvet Island	BV	none	unassigned
+Falkland Islands (Malvinas)	FK	none	unassigned
+Guernsey	GG	none	unassigned
+Heard Island and McDonald Islands	HM	none	unassigned
+Isle of Man	IM	none	unassigned
+Jersey	JE	none	unassigned
+South Georgia and the South Sandwich Islands	GS	none	unassigned
+

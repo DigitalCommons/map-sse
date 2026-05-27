@@ -8,4 +8,4 @@ List of the preferred labels (in language: EN)
 - Cooperative
 - Company 
 - Non-Profit Organisation 
-- Social Entreprise 
+- Social Enterprise 
